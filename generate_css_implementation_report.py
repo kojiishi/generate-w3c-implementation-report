@@ -103,11 +103,9 @@ class W3CImplementationReportGenerator(object):
         values = line.split('\t')
         if len(values) == 3 and values[1] == '?' and values[2] == '':
             filename = os.path.basename(values[0])
-            test = self.tests.get(filename, None)
+            test = self.find_test(filename)
             if not test:
-                test = self.tests.get(filename + 'l', None)
-                if not test:
-                    return None
+                return None
             if test.is_failed:
                 values[1] = 'fail'
             else:
@@ -117,6 +115,19 @@ class W3CImplementationReportGenerator(object):
         if line != 'testname    result  comment':
             log.warn("Unrecognized line in template: %s", values)
         return line
+
+    def find_test(self, filename):
+        test = self.tests.get(filename, None)
+        if test:
+            return test
+        name, ext = os.path.splitext(filename)
+        if ext == '.htm':
+            test = self.tests.get(filename + 'l', None)
+            if test:
+                return test
+        if re.search(r'-\d{3}[a-z]$', name): # if affix, find the combo test
+            return self.find_test(name[0:-1] + ext)
+        return None
 
     def get_stats(self):
         passed = 0
