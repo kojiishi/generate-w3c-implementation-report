@@ -32,8 +32,8 @@ class W3CImplementationReportGenerator(object):
     class Test(object):
         def __init__(self, dir):
             self.dir = dir
-            self.isFailed = False
-            self.isReported = False
+            self.is_failed = False
+            self.is_reported = False
 
     def load_test_results(self, directory):
         tests = {}
@@ -48,7 +48,7 @@ class W3CImplementationReportGenerator(object):
             if not filename in tests:
                 log.warn("Failure test not found: %s", filename)
                 continue
-            tests[filename].isFailed = True
+            tests[filename].is_failed = True
 
         self.tests = tests
 
@@ -108,11 +108,11 @@ class W3CImplementationReportGenerator(object):
                 test = self.tests.get(filename + 'l', None)
                 if not test:
                     return None
-            if test.isFailed:
+            if test.is_failed:
                 values[1] = 'fail'
             else:
                 values[1] = 'pass'
-            test.isReported = True
+            test.is_reported = True
             return '\t'.join(values)
         if line != 'testname    result  comment':
             log.warn("Unrecognized line in template: %s", values)
@@ -122,9 +122,9 @@ class W3CImplementationReportGenerator(object):
         passed = 0
         failed = 0
         for filename, test in self.tests.iteritems():
-            if not test.isReported:
+            if not test.is_reported:
                 log.warn('Not found in template: %s', filename)
-            elif test.isFailed:
+            elif test.is_failed:
                 failed += 1
             else:
                 passed += 1
