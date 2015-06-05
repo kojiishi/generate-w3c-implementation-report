@@ -23,6 +23,7 @@ def main():
     generator = W3CImplementationReportGenerator()
     generator.load_test_results(args.dir)
     generator.write_report(args.template, sys.stdout)
+    generator.get_stats()
 
 class W3CImplementationReportGenerator(object):
     def __init__(self):
@@ -92,26 +93,32 @@ class W3CImplementationReportGenerator(object):
     def write_report(self, input, output):
         input = urllib2.urlopen(input).read()
         for line in input.splitlines():
-            if not line or line[0] == '#':
-                pass
-            else:
-                values = line.split('\t')
-                if len(values) == 3 and values[1] == '?' and values[2] == '':
-                    filename = os.path.basename(values[0])
-                    test = self.tests.get(filename, None)
-                    if not test:
-                        test = self.tests.get(filename + 'l', None)
-                    if test:
-                        if test.isFailed:
-                            values[1] = 'fail'
-                        else:
-                            values[1] = 'pass'
-                        line = '\t'.join(values)
-                        test.isReported = True
-                elif line != 'testname    result  comment':
-                    log.warn("Unrecognized line in template: %s", values)
-            output.write(line + '\n')
+            line = self.get_report_line(line)
+            if line is not None:
+                output.write(line + '\n')
 
+    def get_report_line(self, line):
+        if not line or line[0] == '#':
+            return line
+        values = line.split('\t')
+        if len(values) == 3 and values[1] == '?' and values[2] == '':
+            filename = os.path.basename(values[0])
+            test = self.tests.get(filename, None)
+            if not test:
+                test = self.tests.get(filename + 'l', None)
+                if not test:
+                    return None
+            if test.isFailed:
+                values[1] = 'fail'
+            else:
+                values[1] = 'pass'
+            test.isReported = True
+            return '\t'.join(values)
+        if line != 'testname    result  comment':
+            log.warn("Unrecognized line in template: %s", values)
+        return line
+
+    def get_stats(self):
         passed = 0
         failed = 0
         for filename, test in self.tests.iteritems():
