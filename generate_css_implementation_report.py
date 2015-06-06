@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# https://wiki.csswg.org/test/implementation-report
 
 import argparse
 import logging
@@ -34,6 +35,7 @@ class W3CImplementationReportGenerator(object):
             self.dir = dir
             self.is_failed = False
             self.is_reported = False
+            self.comment = None
 
     def load_test_results(self, directory):
         tests = {}
@@ -43,12 +45,14 @@ class W3CImplementationReportGenerator(object):
             tests[filename] = W3CImplementationReportGenerator.Test(root)
 
         expectations = os.path.join(directory, '../../../TestExpectations')
-        for path in self.read_test_expectations(expectations):
+        for path, is_pass, comment in self.read_test_expectations(expectations):
             filename = os.path.basename(path)
             if not filename in tests:
                 log.warn("Failure test not found: %s", filename)
                 continue
-            tests[filename].is_failed = True
+            test = tests[filename]
+            test.is_failed = not is_pass
+            test.comment = comment
 
         self.tests = tests
 
@@ -68,25 +72,37 @@ class W3CImplementationReportGenerator(object):
 
     def read_test_expectations(self, path):
         pattern = re.compile(r'([^\[]+)(\[[^\]]+])?\s+(\S+)\s+\[\s*([^\]]+)]$')
+        comment = None
+        is_actually_pass = False
         with open(path) as file:
             for line in file:
                 line = line.strip()
-                if not line or line[0] == '#':
+                if not line:
+                    comment = None
+                    is_actually_pass = False
+                    continue
+                if line[0] == '#':
+                    comment = line[1:].strip()
+                    is_actually_pass = 'pass but' in comment
                     continue
                 match = pattern.match(line)
                 if match:
-                    condition, path, results = match.group(2, 3, 4)
+                    conditions, path, results = match.group(2, 3, 4)
                     if not path.startswith('imported/csswg-test/css-writing-modes-3/'):
                         continue
                     results = results.rstrip().split()
                     if 'Pass' in results:
                         log.info("Flaky as Pass: %s", line)
                         continue
-                    if condition:
+                    if conditions:
                         log.info("Conditional as Pass: %s", line)
                         continue
-                    log.debug("Expectation found: %s %s %s", condition, path, results)
-                    yield path
+                    log.debug("Expectation found: %s %s %s", conditions, path, results)
+                    if is_actually_pass:
+                        log.info("Fail as pass: %s # %s", line, comment)
+                        yield (path, True, comment)
+                        continue
+                    yield (path, False, None)
                     continue
                 log.warn("Line unknown: %s", line)
 
