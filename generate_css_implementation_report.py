@@ -103,6 +103,7 @@ class W3CImplementationReportGenerator(object):
                         continue
                     if conditions:
                         log.info("Conditional as Pass: %s", line)
+                        yield (path, True, conditions + (' ' + comment if comment else ''))
                         continue
                     log.debug("Expectation found: %s %s %s", conditions, path, results)
                     if is_actually_pass:
