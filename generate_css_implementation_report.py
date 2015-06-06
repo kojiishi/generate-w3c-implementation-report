@@ -133,6 +133,8 @@ class W3CImplementationReportGenerator(object):
                 values[1] = 'fail'
             else:
                 values[1] = 'pass'
+            if not values[2] and test.comment:
+                values[2] = test.comment
             test.is_in_template = True
             return '\t'.join(values)
         if line != 'testname    result  comment':
