@@ -12,18 +12,25 @@ log = logging.getLogger(__name__)
 
 def main():
     parser = argparse.ArgumentParser(description='Generate CSS WG implementation reports from Blink repository.')
-    parser.add_argument('--verbose', '-v', action='store_true')
+    parser.add_argument('--output', '-o', action='store', default='implementation-report.txt')
+    parser.add_argument('--verbose', '-v', action='count')
     parser.add_argument('dir', nargs='?', default='~/src/chromium/src/third_party/WebKit/LayoutTests/imported/csswg-test/css-writing-modes-3')
     parser.add_argument('template', nargs='?', default='http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/implementation-report-TEMPLATE.data')
     args = parser.parse_args()
-    if args.verbose:
+    if args.verbose > 1:
+        logging.basicConfig(level=logging.DEBUG)
+    elif args.verbose:
         logging.basicConfig(level=logging.INFO)
     else:
         logging.basicConfig(level=logging.WARNING)
     args.dir = os.path.expanduser(args.dir)
     generator = W3CImplementationReportGenerator()
     generator.load_test_results(args.dir)
-    generator.write_report(args.template, sys.stdout)
+    if not args.output or args.output == '-':
+        generator.write_report(args.template, sys.stdout)
+    else:
+        with open(args.output, 'w') as output:
+            generator.write_report(args.template, output)
     generator.get_stats()
 
 class W3CImplementationReportGenerator(object):
