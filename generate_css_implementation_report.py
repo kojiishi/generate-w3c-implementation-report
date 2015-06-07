@@ -12,7 +12,7 @@ log = logging.getLogger(__name__)
 
 def main():
     parser = argparse.ArgumentParser(description='Generate CSS WG implementation reports from Blink repository.')
-    parser.add_argument('--output', '-o', action='store', default='implementation-report.txt')
+    parser.add_argument('--output', '-o', action='store', default='css-writing-modes-3.txt')
     parser.add_argument('--verbose', '-v', action='count')
     parser.add_argument('dir', nargs='?', default='~/src/chromium/src/third_party/WebKit/LayoutTests/imported/csswg-test/css-writing-modes-3')
     parser.add_argument('template', nargs='?', default='http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/implementation-report-TEMPLATE.data')
@@ -31,33 +31,52 @@ def main():
     else:
         with open(args.output, 'w') as output:
             generator.write_report(args.template, output)
-    generator.get_stats()
 
 class W3CImplementationReportGenerator(object):
     def __init__(self):
         pass
 
     class Test(object):
-        def __init__(self, dir):
-            self.dir = dir
-            self.is_failed = False
-            self.is_in_template = False
+        def __init__(self, name):
+            self.combo = None
             self.comment = None
+            self.import_dir = None
+            self.import_ext = None
+            self._is_failed = False
+            self.name = name;
+            self.testnames = []
+
+        @property
+        def is_failed(self):
+            return self._is_failed or self.combo and self.combo._is_failed
+
+        @is_failed.setter
+        def is_failed(self, value):
+            self._is_failed = value
+
+        @property
+        def is_imported(self):
+            return self.import_dir or self.combo and self.combo.import_dir
 
     def load_test_results(self, directory):
         tests = {}
         for root, filename in self.find_test_files(directory):
             if filename in tests:
                 log.warn("File name conflicts: %s", filename)
-            tests[filename] = W3CImplementationReportGenerator.Test(root)
+            name, ext = os.path.splitext(filename)
+            test = W3CImplementationReportGenerator.Test(name)
+            test.import_dir = root
+            test.import_ext = ext
+            tests[name] = test
 
         expectations = os.path.join(directory, '../../../TestExpectations')
         for path, is_pass, comment in self.read_test_expectations(expectations):
             filename = os.path.basename(path)
-            if not filename in tests:
-                log.warn("Failure test not found: %s", filename)
+            name, ext = os.path.splitext(filename)
+            test = tests.get(name, None)
+            if not test:
+                log.warn("Test for a failure not found: %s", filename)
                 continue
-            test = tests[filename]
             test.is_failed = not is_pass
             test.comment = comment
 
@@ -120,14 +139,19 @@ class W3CImplementationReportGenerator(object):
             line = self.get_report_line(line)
             if line is not None:
                 output.write(line + '\n')
+        total, coverage, fail = self.get_stats()
+        output.write('# Total = {0}, Coverage = {1} ({2}%), Pass = {3} ({4}% of total, {5}% of coverage), Fail = {6} ({7}% of total, {8}% of coverage)\n'.format(
+            total,
+            coverage, coverage * 100 / total,
+            coverage - fail, (coverage - fail) * 100 / total, (coverage - fail) * 100 / coverage,
+            fail, fail * 100 / total, fail * 100 / coverage))
 
     def get_report_line(self, line):
         if not line or line[0] == '#':
             return line
         values = line.split('\t')
         if len(values) == 3 and values[1] == '?' and values[2] == '':
-            filename = os.path.basename(values[0])
-            test = self.find_test(filename)
+            test = self.get_test_from_testname(values[0])
             if not test:
                 return None
             if test.is_failed:
@@ -136,35 +160,39 @@ class W3CImplementationReportGenerator(object):
                 values[1] = 'pass'
             if not values[2] and test.comment:
                 values[2] = test.comment
-            test.is_in_template = True
             return '\t'.join(values)
         if line != 'testname    result  comment':
             log.warn("Unrecognized line in template: %s", values)
         return line
 
-    def find_test(self, filename):
-        test = self.tests.get(filename, None)
-        if test:
-            return test
+    def get_test_from_testname(self, testname):
+        filename = os.path.basename(testname)
         name, ext = os.path.splitext(filename)
-        if ext == '.htm':
-            test = self.tests.get(filename + 'l', None)
-            if test:
-                return test
-        if re.search(r'-\d{3}[a-z]$', name): # if affix, find the combo test
-            return self.find_test(name[0:-1] + ext)
+        test = self.tests.get(name, None)
+        if not test:
+            test = W3CImplementationReportGenerator.Test(name)
+            self.tests[name] = test
+        test.testnames.append(testname)
+        if not test.combo and re.search(r'-\d{3}[a-z]$', name): # if affix, find the combo test
+            test.combo = self.tests.get(name[0:-1], None)
+        if test.import_ext and test.import_ext.startswith(ext) or test.combo and test.combo.import_ext and test.combo.import_ext.startswith(ext):
+            return test
         return None
 
     def get_stats(self):
-        passed = 0
-        failed = 0
+        total = 0
+        coverage = 0
+        fail = 0
         for filename, test in self.tests.iteritems():
-            if not test.is_in_template:
+            if not test.testnames:
                 log.warn('Not found in template: %s', filename)
-            elif test.is_failed:
-                failed += 1
-            else:
-                passed += 1
-        log.info("Total = %d, Passed = %d, Failed = %d", passed + failed, passed, failed)
+                continue
+            total += 1
+            if test.is_imported:
+                coverage += 1
+                if test.is_failed:
+                    fail += 1
+        log.info("Total = %d, Coverage = %d, Fail= %d", total, coverage, fail)
+        return (total, coverage, fail)
 
 main()
