@@ -119,16 +119,17 @@ class W3CImplementationReportGenerator(object):
                     results = results.rstrip().split()
                     if 'Pass' in results:
                         log.info("Flaky as Pass: %s", line)
+                        yield (path, True, 'Flaky')
                         continue
                     if conditions:
                         log.info("Conditional as Pass: %s", line)
                         yield (path, True, conditions + (' ' + comment if comment else ''))
                         continue
-                    log.debug("Expectation found: %s %s %s", conditions, path, results)
                     if is_actually_pass:
                         log.info("Fail as pass: %s # %s", line, comment)
                         yield (path, True, comment)
                         continue
+                    log.debug("Fail Expectation found: %s %s %s", conditions, path, results)
                     yield (path, False, None)
                     continue
                 log.warn("Line unknown: %s", line)
