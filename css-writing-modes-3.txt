@@ -233,6 +233,7 @@ xhtml1/block-flow-direction-005.xht	pass	Mac: These CSS Writing Modes Level 3 te
 xhtml1/block-flow-direction-006.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/block-flow-direction-007.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/block-flow-direction-008.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+xhtml1/block-flow-direction-009.xht	pass	These tests pass but images do not match because of position: absolute in vertical flow bug
 xhtml1/block-flow-direction-010.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/block-flow-direction-011.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/block-flow-direction-012.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
@@ -266,27 +267,37 @@ xhtml1/border-spacing-vrl-004.xht	pass
 xhtml1/border-vlr-007.xht	pass	
 xhtml1/border-vrl-006.xht	pass	
 xhtml1/box-offsets-rel-pos-vlr-003.xht	pass	
+xhtml1/box-offsets-rel-pos-vlr-005.xht	pass	These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/box-offsets-rel-pos-vrl-002.xht	pass	
+xhtml1/box-offsets-rel-pos-vrl-004.xht	pass	These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/central-baseline-alignment-002.xht	pass	
 xhtml1/central-baseline-alignment-003.xht	pass	
 xhtml1/clearance-calculations-vrl-002.xht	pass	
 xhtml1/clearance-calculations-vrl-004.xht	pass	
 xhtml1/clearance-calculations-vrl-006.xht	fail	
 xhtml1/clearance-calculations-vrl-008.xht	pass	
+xhtml1/clip-rect-vlr-003.xht	pass	These tests pass but images do not match because of position: absolute in vertical flow bug
+xhtml1/clip-rect-vlr-005.xht	pass	These tests pass but images do not match because of position: absolute in vertical flow bug
+xhtml1/clip-rect-vlr-007.xht	pass	These tests pass but images do not match because of position: absolute in vertical flow bug
+xhtml1/clip-rect-vlr-009.xht	pass	These tests pass but images do not match because of position: absolute in vertical flow bug
 xhtml1/clip-rect-vlr-011.xht	pass	
 xhtml1/clip-rect-vlr-013.xht	pass	
 xhtml1/clip-rect-vlr-015.xht	pass	
 xhtml1/clip-rect-vlr-017.xht	pass	
+xhtml1/clip-rect-vrl-002.xht	pass	These tests pass but images do not match because of position: absolute in vertical flow bug
+xhtml1/clip-rect-vrl-004.xht	pass	These tests pass but images do not match because of position: absolute in vertical flow bug
+xhtml1/clip-rect-vrl-006.xht	pass	These tests pass but images do not match because of position: absolute in vertical flow bug
+xhtml1/clip-rect-vrl-008.xht	pass	These tests pass but images do not match because of position: absolute in vertical flow bug
 xhtml1/clip-rect-vrl-010.xht	pass	
 xhtml1/clip-rect-vrl-012.xht	pass	
 xhtml1/clip-rect-vrl-014.xht	pass	
 xhtml1/clip-rect-vrl-016.xht	pass	
 xhtml1/different-block-flow-dir-001.xht	pass	
 xhtml1/different-block-flow-dir-002.xht	pass	
-xhtml1/direction-vlr-003.xht	pass	Mac, Win: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/direction-vlr-005.xht	pass	Mac, Win: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/direction-vrl-002.xht	pass	Mac, Win: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/direction-vrl-004.xht	pass	Mac, Win: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+xhtml1/direction-vlr-003.xht	pass	
+xhtml1/direction-vlr-005.xht	pass	
+xhtml1/direction-vrl-002.xht	pass	
+xhtml1/direction-vrl-004.xht	pass	
 xhtml1/float-clear-vlr-003.xht	pass	
 xhtml1/float-clear-vlr-005.xht	pass	
 xhtml1/float-clear-vlr-007.xht	pass	
@@ -334,6 +345,8 @@ xhtml1/horizontal-rule-vlr-003.xht	pass
 xhtml1/horizontal-rule-vlr-005.xht	pass	
 xhtml1/horizontal-rule-vrl-002.xht	pass	
 xhtml1/horizontal-rule-vrl-004.xht	pass	
+xhtml1/inline-block-alignment-new-002.xht	pass	
+xhtml1/inline-block-alignment-new-006.xht	pass	
 xhtml1/inline-replaced-vlr-003.xht	pass	
 xhtml1/inline-replaced-vlr-005.xht	pass	
 xhtml1/inline-replaced-vrl-002.xht	pass	
@@ -345,6 +358,7 @@ xhtml1/line-box-direction-005.xht	pass	Mac: These CSS Writing Modes Level 3 test
 xhtml1/line-box-direction-006.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/line-box-direction-007.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/line-box-direction-008.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+xhtml1/line-box-direction-009.xht	pass	These tests pass but images do not match because of position: absolute in vertical flow bug
 xhtml1/line-box-direction-010.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/line-box-direction-011.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/line-box-direction-012.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
@@ -352,8 +366,8 @@ xhtml1/line-box-direction-013.xht	pass	Mac: These CSS Writing Modes Level 3 test
 xhtml1/line-box-direction-014.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/line-box-direction-017.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/line-box-direction-018.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/line-box-direction-019.xht	fail	
-xhtml1/line-box-direction-020.xht	fail	
+xhtml1/line-box-direction-019.xht	pass	
+xhtml1/line-box-direction-020.xht	pass	
 xhtml1/margin-collapse-vlr-003.xht	pass	
 xhtml1/margin-collapse-vlr-009.xht	pass	
 xhtml1/margin-collapse-vlr-011.xht	pass	
@@ -424,21 +438,21 @@ xhtml1/table-column-order-005.xht	fail
 xhtml1/text-align-vlr-003.xht	pass	
 xhtml1/text-align-vlr-005.xht	pass	
 xhtml1/text-align-vlr-007.xht	pass	
-xhtml1/text-align-vlr-009.xht	pass	Mac, Win: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/text-align-vlr-011.xht	pass	Mac, Win: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/text-align-vlr-013.xht	pass	Mac, Win: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/text-align-vlr-015.xht	pass	Mac, Win: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/text-align-vlr-017.xht	pass	Mac, Win: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/text-align-vlr-019.xht	pass	Mac, Win: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+xhtml1/text-align-vlr-009.xht	pass	
+xhtml1/text-align-vlr-011.xht	pass	
+xhtml1/text-align-vlr-013.xht	pass	
+xhtml1/text-align-vlr-015.xht	pass	
+xhtml1/text-align-vlr-017.xht	pass	
+xhtml1/text-align-vlr-019.xht	pass	
 xhtml1/text-align-vrl-002.xht	pass	
 xhtml1/text-align-vrl-004.xht	pass	
 xhtml1/text-align-vrl-006.xht	pass	
-xhtml1/text-align-vrl-008.xht	pass	Mac, Win: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/text-align-vrl-010.xht	pass	Mac, Win: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/text-align-vrl-012.xht	pass	Mac, Win: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/text-align-vrl-014.xht	pass	Mac, Win: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/text-align-vrl-016.xht	pass	Mac, Win: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/text-align-vrl-018.xht	pass	Mac, Win: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+xhtml1/text-align-vrl-008.xht	pass	
+xhtml1/text-align-vrl-010.xht	pass	
+xhtml1/text-align-vrl-012.xht	pass	
+xhtml1/text-align-vrl-014.xht	pass	
+xhtml1/text-align-vrl-016.xht	pass	
+xhtml1/text-align-vrl-018.xht	pass	
 xhtml1/text-baseline-002.xht	pass	
 xhtml1/text-baseline-003.xht	pass	
 xhtml1/text-baseline-004.xht	pass	
@@ -481,13 +495,20 @@ html4/text-orientation-script-001l.htm	pass
 html4/text-orientation-script-001m.htm	fail	
 html4/text-orientation-script-001n.htm	fail	
 html4/text-orientation-script-001o.htm	pass	
+html4/value-all-002.htm	pass	These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html4/value-all-003.htm	pass	These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html4/value-all-and-inherit-001.htm	fail	
 html4/value-digits2-003.htm	pass	
 html4/value-digits3-003.htm	pass	
 html4/value-digits4-003.htm	pass	
 html4/value-none-001.htm	pass	
+xhtml1/vertical-alignment-001.xht	pass	These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+xhtml1/vertical-alignment-004.xht	pass	These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+xhtml1/vertical-alignment-007.xht	pass	These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+xhtml1/vertical-alignment-010.xht	pass	These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/vertical-alignment-013.xht	pass	
 xhtml1/vertical-alignment-016.xht	pass	
+xhtml1/vertical-alignment-019.xht	pass	These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/vertical-alignment-022.xht	pass	
 xhtml1/vertical-alignment-025.xht	pass	
 html4/writing-mode-horizontal-001l.htm	pass	
@@ -497,4 +518,4 @@ xhtml1/writing-mode-vertical-lr-002.xht	pass
 xhtml1/writing-mode-vertical-rl-001.xht	pass	
 xhtml1/writing-mode-vertical-rl-002.xht	pass	
 html4/writing-mode-vertical-rl-003.htm	pass	
-# Total = 709, Coverage = 494 (69%), Pass = 412 (58% of total, 83% of coverage), Fail = 82 (11% of total, 16% of coverage)
+# Total = 709, Coverage = 515 (72%), Pass = 435 (61% of total, 84% of coverage), Fail = 80 (11% of total, 15% of coverage)
