@@ -366,8 +366,8 @@ xhtml1/line-box-direction-013.xht	pass	Mac: These CSS Writing Modes Level 3 test
 xhtml1/line-box-direction-014.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/line-box-direction-017.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/line-box-direction-018.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/line-box-direction-019.xht	pass	
-xhtml1/line-box-direction-020.xht	pass	
+xhtml1/line-box-direction-019.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+xhtml1/line-box-direction-020.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/margin-collapse-vlr-003.xht	pass	
 xhtml1/margin-collapse-vlr-009.xht	pass	
 xhtml1/margin-collapse-vlr-011.xht	pass	
@@ -506,16 +506,16 @@ xhtml1/vertical-alignment-001.xht	pass	These CSS Writing Modes Level 3 tests pas
 xhtml1/vertical-alignment-004.xht	pass	These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/vertical-alignment-007.xht	pass	These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/vertical-alignment-010.xht	pass	These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/vertical-alignment-013.xht	pass	
-xhtml1/vertical-alignment-016.xht	pass	
+xhtml1/vertical-alignment-013.xht	pass	Flaky
+xhtml1/vertical-alignment-016.xht	pass	Flaky
 xhtml1/vertical-alignment-019.xht	pass	These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/vertical-alignment-022.xht	pass	
-xhtml1/vertical-alignment-025.xht	pass	
+xhtml1/vertical-alignment-022.xht	pass	Flaky
+xhtml1/vertical-alignment-025.xht	pass	Flaky
 html4/writing-mode-horizontal-001l.htm	pass	
 html4/writing-mode-horizontal-001r.htm	pass	
 html4/writing-mode-stretch-001.htm	fail	
-xhtml1/writing-mode-vertical-lr-002.xht	pass	
-xhtml1/writing-mode-vertical-rl-001.xht	pass	
-xhtml1/writing-mode-vertical-rl-002.xht	pass	
-html4/writing-mode-vertical-rl-003.htm	pass	
+xhtml1/writing-mode-vertical-lr-002.xht	pass	Flaky
+xhtml1/writing-mode-vertical-rl-001.xht	pass	Flaky
+xhtml1/writing-mode-vertical-rl-002.xht	pass	Flaky
+html4/writing-mode-vertical-rl-003.htm	pass	Flaky
 # Total = 709, Coverage = 515 (72%), Pass = 435 (61% of total, 84% of coverage), Fail = 80 (11% of total, 15% of coverage)
