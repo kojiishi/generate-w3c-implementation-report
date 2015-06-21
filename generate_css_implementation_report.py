@@ -6,7 +6,6 @@ import logging
 import os
 import re
 import sys
-import urllib2
 
 log = logging.getLogger(__name__)
 
@@ -15,7 +14,7 @@ def main():
     parser.add_argument('--output', '-o', action='store', default='css-writing-modes-3.txt')
     parser.add_argument('--verbose', '-v', action='count')
     parser.add_argument('dir', nargs='?', default='~/src/chromium/src/third_party/WebKit/LayoutTests/imported/csswg-test/css-writing-modes-3')
-    parser.add_argument('template', nargs='?', default='http://test.csswg.org/suites/css-writing-modes-3_dev/nightly-unstable/implementation-report-TEMPLATE.data')
+    parser.add_argument('template', nargs='?', default='css-writing-modes-3/implementation-report-TEMPLATE.data')
     args = parser.parse_args()
     if args.verbose > 1:
         logging.basicConfig(level=logging.DEBUG)
@@ -27,11 +26,12 @@ def main():
     generator = W3CImplementationReportGenerator()
     generator.load_test_files(args.dir)
     generator.load_test_results(os.path.join(args.dir, '../../../TestExpectations'))
-    if not args.output or args.output == '-':
-        generator.write_report(args.template, sys.stdout)
-    else:
-        with open(args.output, 'w') as output:
-            generator.write_report(args.template, output)
+    with open(args.template) as template:
+        if not args.output or args.output == '-':
+            generator.write_report(template, sys.stdout)
+        else:
+            with open(args.output, 'w') as output:
+                generator.write_report(template, output)
 
 class W3CImplementationReportGenerator(object):
     def __init__(self):
@@ -55,6 +55,12 @@ class W3CImplementationReportGenerator(object):
         @property
         def is_fail(self):
             return self._is_fail or len(self._fail_conditions) >= 3 or self.combo and self.combo.is_fail
+
+        @property
+        def result_string(self):
+            if self.is_fail:
+                return 'fail'
+            return 'pass'
 
         @property
         def comment(self):
@@ -148,9 +154,8 @@ class W3CImplementationReportGenerator(object):
                 log.warn("Line unknown: %s", line)
 
     def write_report(self, input, output):
-        input = urllib2.urlopen(input).read()
-        for line in input.splitlines():
-            line = self.get_report_line(line)
+        for line in input:
+            line = self.get_report_line(line.rstrip())
             if line is not None:
                 output.write(line + '\n')
         total, coverage, fail = self.get_stats()
@@ -164,19 +169,19 @@ class W3CImplementationReportGenerator(object):
         if not line or line[0] == '#':
             return line
         values = line.split('\t')
-        if len(values) == 3 and values[1] == '?' and values[2] == '':
-            test = self.get_test_from_testname(values[0])
-            if not test:
-                return None
-            if test.is_fail:
-                values[1] = 'fail'
-            else:
-                values[1] = 'pass'
-            if not values[2] and test.comment:
-                values[2] = test.comment
-            return '\t'.join(values)
-        if line != 'testname    result  comment':
-            log.warn("Unrecognized line in template: %s", values)
+        if len(values) >= 3:
+            if values[2] == '?':
+                test = self.get_test_from_testname(values[0])
+                if not test:
+                    return None
+                values[2] = test.result_string
+                line = '\t'.join(values)
+                if test.comment:
+                    line += " # " + test.comment
+                return line
+            if values[0] == 'testname':
+                return line
+        log.warn("Unrecognized line in template: %s", values)
         return line
 
     def get_test_from_testname(self, testname):
