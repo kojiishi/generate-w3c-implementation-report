@@ -618,7 +618,7 @@ html/text-orientation-012.htm	8e197b2643a627c5c7fda73a7d484af88d1d314e	pass
 html/text-orientation-014.htm	00c684d6b5ab616715f157e301f654fb38f71dd4	pass
 # html/text-orientation-015.htm	6d4bd7001c46f64855c6ded1838b7cc9e000c5b2	fail
 # html/text-orientation-mixed-001.htm	ec56b92df4adfd1d4edc26c618884b42d7da5258	pass # Anonymous
-# html/text-orientation-script-001.htm	c6b57649b8f0fcdf0f7caf750682c2e7093b777b	?
+# html/text-orientation-script-001.htm	c6b57649b8f0fcdf0f7caf750682c2e7093b777b	fail
 html/text-orientation-script-001a.htm	ce382caffa1da0d7da68fdef50eb490af6ff2812	fail
 html/text-orientation-script-001b.htm	bee11d0a13f4e41edbacf8e29a21097816291e52	pass
 html/text-orientation-script-001c.htm	4c3539b0196194d6922f029d6f8a7381b5b0e17c	fail
@@ -709,5 +709,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass # Flaky
-# Total = 711, Coverage = 670 (94%), Pass = 546 (76% of total, 81% of coverage), Fail = 124 (17% of total, 18% of coverage)
+# Total = 711, Coverage = 671 (94%), Pass = 546 (76% of total, 81% of coverage), Fail = 125 (17% of total, 18% of coverage)
 # Imported = 514 (72%), Pass = 434 (61% of total, 84% of imported), Fail = 80 (11% of total, 15% of imported)

@@ -47,6 +47,7 @@ class W3CImplementationReportGenerator(object):
         def __init__(self, id):
             self.id = id
             self.combo = None
+            self.combo_of = []
             self._comment = None
             self.import_dir = None
             self.import_ext = None
@@ -71,13 +72,26 @@ class W3CImplementationReportGenerator(object):
             return self._is_fail or len(self._fail_conditions) >= 3 or self.combo and self.combo.is_fail
 
         @property
-        def result_string(self):
+        def _result_string(self):
             if self.is_fail:
                 return 'fail'
             if self.is_import:
                 return 'pass'
             if self.submit_result:
                 return self.submit_result
+            return None
+
+        @property
+        def result_string(self):
+            result = self._result_string
+            if result:
+                return result
+            if self.combo:
+                return self.combo._result_string
+            if self.combo_of:
+                if all([c._result_string == 'pass' for c in self.combo_of]):
+                    return 'pass'
+                return 'fail'
             return '?'
 
         @property
@@ -225,7 +239,10 @@ class W3CImplementationReportGenerator(object):
         if not test:
             test = self.add_test(name)
         if not test.combo and re.search(r'-\d{3}[a-z]$', name): # if affix, find the combo test
-            test.combo = self.tests.get(name[0:-1], None)
+            combo = self.tests.get(name[0:-1])
+            if combo:
+                test.combo = combo
+                combo.combo_of.append(test)
         return test
 
     def write_report(self, output):
