@@ -2,6 +2,7 @@
 # https://wiki.csswg.org/test/implementation-report
 
 import argparse
+import csv
 import logging
 import os
 import re
@@ -14,6 +15,7 @@ def main():
     parser.add_argument('--output', '-o', action='store', default='css-writing-modes-3.txt')
     parser.add_argument('--verbose', '-v', action='count')
     parser.add_argument('dir', nargs='?', default='~/src/chromium/src/third_party/WebKit/LayoutTests/imported/csswg-test/css-writing-modes-3')
+    parser.add_argument('results', nargs='?', default='css-writing-modes-3/results.csv')
     parser.add_argument('template', nargs='?', default='css-writing-modes-3/implementation-report-TEMPLATE.data')
     args = parser.parse_args()
     if args.verbose > 1:
@@ -25,7 +27,9 @@ def main():
     args.dir = os.path.expanduser(args.dir)
     generator = W3CImplementationReportGenerator()
     generator.load_test_files(args.dir)
-    generator.load_test_results(os.path.join(args.dir, '../../../TestExpectations'))
+    generator.load_test_expectations(os.path.join(args.dir, '../../../TestExpectations'))
+    with open(args.results) as results:
+        generator.load_test_results(results)
     with open(args.template) as template:
         if not args.output or args.output == '-':
             generator.write_report(template, sys.stdout)
@@ -38,19 +42,31 @@ class W3CImplementationReportGenerator(object):
         self.tests = {}
 
     class Test(object):
-        def __init__(self, name):
+        def __init__(self, id):
             self.combo = None
             self._comment = None
             self.import_dir = None
             self.import_ext = None
             self._is_fail = False
             self._fail_conditions = set()
-            self.name = name;
             self.testnames = []
+            self.submit_result = None
+            self.submit_format = None
+            self.submit_date = None
 
         @property
         def is_import(self):
             return self.import_dir or self.combo and self.combo.import_dir
+
+        def is_result_ext(self, ext):
+            if self.import_ext:
+                if self.import_ext.startswith(ext):
+                    return True
+            elif self.submit_format and self.submit_format.lower().startswith(ext.lstrip('.').lower()):
+                return True
+            if self.combo:
+                return self.combo.is_result_ext(ext)
+            return False
 
         @property
         def is_fail(self):
@@ -60,7 +76,11 @@ class W3CImplementationReportGenerator(object):
         def result_string(self):
             if self.is_fail:
                 return 'fail'
-            return 'pass'
+            if self.is_import:
+                return 'pass'
+            if self.submit_result:
+                return self.submit_result
+            return '?'
 
         @property
         def comment(self):
@@ -68,7 +88,7 @@ class W3CImplementationReportGenerator(object):
                 return self._comment
             return ', '.join(self._fail_conditions) + ': ' + (self._comment if self._comment else 'Fail')
 
-        def set_result(self, conditions, is_pass, comment):
+        def set_expectation(self, conditions, is_pass, comment):
             if not is_pass:
                 if not conditions:
                     self._is_fail = True
@@ -79,6 +99,13 @@ class W3CImplementationReportGenerator(object):
                 if conditions:
                     comment = ', '.join(conditions) + ': ' + comment
             self._comment = comment
+
+        def add_submit(self, result, format, date):
+            if self.submit_date and self.submit_date > date:
+                return
+            self.submit_result = result
+            self.submit_format = format
+            self.submit_date = date
 
     def add_test(self, name):
         if name in self.tests:
@@ -108,7 +135,7 @@ class W3CImplementationReportGenerator(object):
                 log.debug("Test file found: %s %s", root, file)
                 yield (root, file)
 
-    def load_test_results(self, expectations):
+    def load_test_expectations(self, expectations):
         for path, conditions, is_pass, comment in self.read_test_expectations(expectations):
             filename = os.path.basename(path)
             name, ext = os.path.splitext(filename)
@@ -116,7 +143,7 @@ class W3CImplementationReportGenerator(object):
             if not test:
                 log.warn("Test for a failure not found: %s", filename)
                 continue
-            test.set_result(conditions, is_pass, comment)
+            test.set_expectation(conditions, is_pass, comment)
 
     def read_test_expectations(self, path):
         pattern = re.compile(r'([^\[]+)(\[[^\]]+])?\s+(\S+)\s+\[\s*([^\]]+)]$')
@@ -153,6 +180,20 @@ class W3CImplementationReportGenerator(object):
                     continue
                 log.warn("Line unknown: %s", line)
 
+    def load_test_results(self, results):
+        reader = csv.reader(results)
+        header = next(reader)
+        trusted = set(('gtalbot', 'hshiozawa', 'kojiishi', 'lemoned'))
+        for row in reader:
+            useragent = row[6]
+            if not 'Chrome/' in useragent:
+                continue
+            source = row[4]
+            if not source in trusted:
+                continue
+            test = self.get_test_from_testcase(row[0])
+            test.add_submit(row[1], row[2], row[3])
+
     def write_report(self, input, output):
         for line in input:
             line = self.get_report_line(line.rstrip())
@@ -176,6 +217,8 @@ class W3CImplementationReportGenerator(object):
                     return None
                 values[2] = test.result_string
                 line = '\t'.join(values)
+                if not test.is_import:
+                    line = "# " + line
                 if test.comment:
                     line += " # " + test.comment
                 return line
@@ -187,15 +230,19 @@ class W3CImplementationReportGenerator(object):
     def get_test_from_testname(self, testname):
         filename = os.path.basename(testname)
         name, ext = os.path.splitext(filename)
-        test = self.tests.get(name, None)
-        if not test:
-            test = self.add_test(name)
+        test = self.get_test_from_testcase(name)
         test.testnames.append(testname)
-        if not test.combo and re.search(r'-\d{3}[a-z]$', name): # if affix, find the combo test
-            test.combo = self.tests.get(name[0:-1], None)
-        if test.import_ext and test.import_ext.startswith(ext) or test.combo and test.combo.import_ext and test.combo.import_ext.startswith(ext):
+        if test.is_result_ext(ext):
             return test
         return None
+
+    def get_test_from_testcase(self, name):
+        test = self.tests.get(name)
+        if not test:
+            test = self.add_test(name)
+        if not test.combo and re.search(r'-\d{3}[a-z]$', name): # if affix, find the combo test
+            test.combo = self.tests.get(name[0:-1], None)
+        return test
 
     def get_stats(self):
         total = 0
