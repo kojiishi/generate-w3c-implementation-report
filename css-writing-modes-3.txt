@@ -6,7 +6,7 @@ testname    result  comment
 xhtml1/abs-pos-non-replaced-icb-vlr-003.xht	fail	
 xhtml1/abs-pos-non-replaced-icb-vlr-005.xht	fail	
 xhtml1/abs-pos-non-replaced-icb-vlr-007.xht	pass	
-xhtml1/abs-pos-non-replaced-icb-vlr-009.xht	fail	
+xhtml1/abs-pos-non-replaced-icb-vlr-009.xht	pass	
 xhtml1/abs-pos-non-replaced-icb-vlr-011.xht	fail	
 xhtml1/abs-pos-non-replaced-icb-vlr-013.xht	fail	
 xhtml1/abs-pos-non-replaced-icb-vlr-015.xht	pass	
@@ -274,7 +274,7 @@ xhtml1/central-baseline-alignment-002.xht	pass
 xhtml1/central-baseline-alignment-003.xht	pass	
 xhtml1/clearance-calculations-vrl-002.xht	pass	
 xhtml1/clearance-calculations-vrl-004.xht	pass	
-xhtml1/clearance-calculations-vrl-006.xht	fail	
+xhtml1/clearance-calculations-vrl-006.xht	pass	
 xhtml1/clearance-calculations-vrl-008.xht	pass	
 xhtml1/clip-rect-vlr-003.xht	pass	These tests pass but images do not match because of position: absolute in vertical flow bug
 xhtml1/clip-rect-vlr-005.xht	pass	These tests pass but images do not match because of position: absolute in vertical flow bug
@@ -347,6 +347,10 @@ xhtml1/horizontal-rule-vrl-002.xht	pass
 xhtml1/horizontal-rule-vrl-004.xht	pass	
 xhtml1/inline-block-alignment-new-002.xht	pass	
 xhtml1/inline-block-alignment-new-006.xht	pass	
+xhtml1/inline-block-alignment-orthogonal-vlr-003.xht	pass	
+xhtml1/inline-block-alignment-orthogonal-vlr-005.xht	pass	
+xhtml1/inline-block-alignment-orthogonal-vrl-002.xht	pass	
+xhtml1/inline-block-alignment-orthogonal-vrl-004.xht	pass	
 xhtml1/inline-replaced-vlr-003.xht	pass	
 xhtml1/inline-replaced-vlr-005.xht	pass	
 xhtml1/inline-replaced-vrl-002.xht	pass	
@@ -417,12 +421,16 @@ xhtml1/padding-vlr-005.xht	pass
 xhtml1/padding-vrl-004.xht	pass	
 xhtml1/percent-margin-vlr-003.xht	pass	
 xhtml1/percent-margin-vlr-005.xht	pass	
+xhtml1/percent-margin-vlr-007.xht	pass	
 xhtml1/percent-margin-vrl-002.xht	pass	
 xhtml1/percent-margin-vrl-004.xht	pass	
+xhtml1/percent-margin-vrl-006.xht	pass	
 xhtml1/percent-padding-vlr-003.xht	pass	
 xhtml1/percent-padding-vlr-005.xht	pass	
+xhtml1/percent-padding-vlr-007.xht	pass	
 xhtml1/percent-padding-vrl-002.xht	pass	
 xhtml1/percent-padding-vrl-004.xht	pass	
+xhtml1/percent-padding-vrl-006.xht	pass	
 xhtml1/row-progression-002.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/row-progression-003.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 xhtml1/row-progression-004.xht	pass	Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
@@ -502,15 +510,6 @@ html4/value-digits2-003.htm	pass
 html4/value-digits3-003.htm	pass	
 html4/value-digits4-003.htm	pass	
 html4/value-none-001.htm	pass	
-xhtml1/vertical-alignment-001.xht	pass	These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/vertical-alignment-004.xht	pass	These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/vertical-alignment-007.xht	pass	These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/vertical-alignment-010.xht	pass	These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/vertical-alignment-013.xht	pass	Flaky
-xhtml1/vertical-alignment-016.xht	pass	Flaky
-xhtml1/vertical-alignment-019.xht	pass	These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/vertical-alignment-022.xht	pass	Flaky
-xhtml1/vertical-alignment-025.xht	pass	Flaky
 html4/writing-mode-horizontal-001l.htm	pass	
 html4/writing-mode-horizontal-001r.htm	pass	
 html4/writing-mode-stretch-001.htm	fail	
@@ -518,4 +517,4 @@ xhtml1/writing-mode-vertical-lr-002.xht	pass	Flaky
 xhtml1/writing-mode-vertical-rl-001.xht	pass	Flaky
 xhtml1/writing-mode-vertical-rl-002.xht	pass	Flaky
 html4/writing-mode-vertical-rl-003.htm	pass	Flaky
-# Total = 709, Coverage = 515 (72%), Pass = 435 (61% of total, 84% of coverage), Fail = 80 (11% of total, 15% of coverage)
+# Total = 711, Coverage = 514 (72%), Pass = 436 (61% of total, 84% of coverage), Fail = 78 (10% of total, 15% of coverage)
