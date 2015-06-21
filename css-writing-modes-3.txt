@@ -1,136 +1,132 @@
-# UA version OS version
-# UA string (if applicable)
-# http://test.csswg.org/suites/css-writing-modes-3_dev/DATESTAMP/
-# See http://wiki.csswg.org/test/implementation-report for instructions
-testname	revision	result	comment
-xhtml1/abs-pos-non-replaced-icb-vlr-003.xht	d3088b2113ff9dc88028dc89b4d030a83db59a2b	fail
-xhtml1/abs-pos-non-replaced-icb-vlr-005.xht	b959f5e9a4d09adc6784d74741b43ff0ac1ea0ca	fail
-xhtml1/abs-pos-non-replaced-icb-vlr-007.xht	2920468c92b3106eb9b5ece67e5bcb5671cb4ae3	pass
-xhtml1/abs-pos-non-replaced-icb-vlr-009.xht	c5707d898b0da047a136a5dea32eaee2f072aceb	fail
-xhtml1/abs-pos-non-replaced-icb-vlr-011.xht	cb3c2ddfdcf6f2a98842ab3072383bb568779b45	fail
-xhtml1/abs-pos-non-replaced-icb-vlr-013.xht	9f493db44442db0fa520f7dd00ddbc5bd8b053be	fail
-xhtml1/abs-pos-non-replaced-icb-vlr-015.xht	2771fcc484d81c24ae79b7c55ea7936222ed4362	pass
-xhtml1/abs-pos-non-replaced-icb-vlr-017.xht	a6a91f8c0313b0760406f2b6fa332bdc6a4c89aa	pass
-xhtml1/abs-pos-non-replaced-icb-vlr-019.xht	74e0da7b167c4edac5bf1047e1a54ce980046956	pass
-xhtml1/abs-pos-non-replaced-icb-vlr-021.xht	0026e669a6e5950bc999ad2861ae879a8a03721a	pass
-xhtml1/abs-pos-non-replaced-icb-vlr-023.xht	fe60ac82b37aec85dfa09cfbd580a9f46cb2e45b	pass
-xhtml1/abs-pos-non-replaced-icb-vlr-025.xht	0abe7aa6441751b399efa393fa5a3f8c9421fe9e	pass
-xhtml1/abs-pos-non-replaced-icb-vlr-027.xht	52dd4499e057af3f27511c6f572a1f07bcb521ab	pass
-xhtml1/abs-pos-non-replaced-icb-vlr-029.xht	c8e092f6992398340c7ccc864f1f47cdd8e60e8a	pass
-xhtml1/abs-pos-non-replaced-icb-vlr-031.xht	195a5a814cdeb8071eaebae2b0ce2710ec4dd1c3	pass
-xhtml1/abs-pos-non-replaced-icb-vlr-033.xht	c404b980d389dadd597f743edaf48fb857284bed	fail
-xhtml1/abs-pos-non-replaced-icb-vrl-002.xht	c1d978fed082919699d7dd9a7bbac418e1f2b3d3	fail
-xhtml1/abs-pos-non-replaced-icb-vrl-004.xht	ef4aec8787e4e226422030791ced9725a9ddf92e	fail
-xhtml1/abs-pos-non-replaced-icb-vrl-006.xht	7cc616bc6d9add19fee781134bf14c9d2aaab827	fail
-xhtml1/abs-pos-non-replaced-icb-vrl-008.xht	bf88578b9cf373a8e0e104472f20669679511b13	fail
-xhtml1/abs-pos-non-replaced-icb-vrl-010.xht	0797d5d4659b501c18d7f02f54feaf2dc1fabef7	fail
-xhtml1/abs-pos-non-replaced-icb-vrl-012.xht	af2513c28fc98085a02fac46f7e7837ec2dcb416	fail
-xhtml1/abs-pos-non-replaced-icb-vrl-014.xht	82b080f9862b48f9d4d4bae11a8178cbe0e04c8f	fail
-xhtml1/abs-pos-non-replaced-icb-vrl-016.xht	0fcd6852eb73db30e7a6a63a3d0ddcdc49137d87	fail
-xhtml1/abs-pos-non-replaced-icb-vrl-018.xht	a747c42d5292e2ce1662863f9906e304eb8f542e	fail
-xhtml1/abs-pos-non-replaced-icb-vrl-020.xht	38d2c9b1105e5c01a44bb42fdb2e49e290e55242	fail
-xhtml1/abs-pos-non-replaced-icb-vrl-022.xht	fca4a5e3785e0dff365055391d47d43088d046f5	pass
-xhtml1/abs-pos-non-replaced-icb-vrl-024.xht	4f464a740f5ae8248c82112351d3436a3c37d44a	pass
-xhtml1/abs-pos-non-replaced-icb-vrl-026.xht	023c809b88e0e4301aa642972d0c7147967889d0	pass
-xhtml1/abs-pos-non-replaced-icb-vrl-028.xht	3b640d907e7e2b09e1cd6fe9d7f03944c833c582	pass
-xhtml1/abs-pos-non-replaced-icb-vrl-030.xht	b2203bfe35d1f946e1778ef9e443ef9ccb9521fe	fail
-xhtml1/abs-pos-non-replaced-icb-vrl-032.xht	c5d52e4e1a4df4bd93e4faaea24787163e82e070	pass
-xhtml1/abs-pos-non-replaced-vlr-003.xht	92c9c7d7b80e6b3e7c83c03fe4b23879aaf2f0c1	pass
-xhtml1/abs-pos-non-replaced-vlr-005.xht	37cfd9bd5c74bfce58518fae64168cd75ab7526f	fail
-xhtml1/abs-pos-non-replaced-vlr-007.xht	4b3c83c1d7a25ac56461cf49fd10f79547f447f8	pass
-xhtml1/abs-pos-non-replaced-vlr-009.xht	35d614079b68393f8b4e0b4de8fc5d30854b22f4	pass
-xhtml1/abs-pos-non-replaced-vlr-011.xht	a7332f9f14097991870dc832ca14bc5e6f86b828	pass
-xhtml1/abs-pos-non-replaced-vlr-013.xht	3dac77e2d697a679c98a65b576299843310b4b40	pass
-xhtml1/abs-pos-non-replaced-vlr-015.xht	0c31a2a1fe71f1626d56d27259e8a49457f6c5ce	pass
-xhtml1/abs-pos-non-replaced-vlr-017.xht	6c04c6e4d50e8cd90077ac5a4385d9d0bb67e056	fail
-xhtml1/abs-pos-non-replaced-vlr-019.xht	e23df1946968aad167138a87ffe3b9dbe554d202	pass
-xhtml1/abs-pos-non-replaced-vlr-021.xht	24ef5a90ae1e5416a0c28e021b0944f5ab943b32	pass
-xhtml1/abs-pos-non-replaced-vlr-023.xht	8b47949a5aa299a0a73803eb936af2e7e5a3f84d	pass
-xhtml1/abs-pos-non-replaced-vlr-025.xht	b7e527cc7663cb9bdbdbda8fb239ea9db19da56e	pass
-xhtml1/abs-pos-non-replaced-vlr-027.xht	3bff08e4cb5306d72e5b68194d302d54a2ec7f7d	pass
-xhtml1/abs-pos-non-replaced-vlr-029.xht	8919353101e8badc8c655999e96b863e95606d00	fail
-xhtml1/abs-pos-non-replaced-vlr-031.xht	ddb69bddeed426440a813d855b4517f6cd29b1cf	pass
-xhtml1/abs-pos-non-replaced-vlr-033.xht	7ee2fa18050ff8352b147ac616b1fd851e5a74ec	pass
-xhtml1/abs-pos-non-replaced-vlr-035.xht	d031855742fb69c7ef81b1fe565efc1d3055b45e	pass
-xhtml1/abs-pos-non-replaced-vlr-037.xht	2e9f5856b8e0ee092618a57e51c28cec6b8a2f65	pass
-xhtml1/abs-pos-non-replaced-vlr-039.xht	93b75ff4f33b288e97343835e6c837636d290d2e	pass
-xhtml1/abs-pos-non-replaced-vlr-041.xht	c03a5da24d3991d7b61511ba62f1b22a19e74c5b	fail
-xhtml1/abs-pos-non-replaced-vlr-043.xht	c598db19b3788b0706600cf2dd3b9d673ea0d0f6	pass
-xhtml1/abs-pos-non-replaced-vlr-045.xht	f45ddb4edd6e402b5e44999ded5e986300941b54	pass
-xhtml1/abs-pos-non-replaced-vlr-047.xht	c485f2e9f5afdfd1e054606f886ec140b65ca271	pass
-xhtml1/abs-pos-non-replaced-vlr-049.xht	a013e44a0fc268fb51bab6f80b3367409d7e7c1d	pass
-xhtml1/abs-pos-non-replaced-vlr-051.xht	4a03844db4871b9f49f4a5f945bb0ebfd6dd67de	pass
-xhtml1/abs-pos-non-replaced-vlr-053.xht	9c08e776675637130948bd4b6931af65719d29ff	fail
-xhtml1/abs-pos-non-replaced-vlr-055.xht	e6152f2732060736d14b5a78a302e0bc8bbe793f	pass
-xhtml1/abs-pos-non-replaced-vlr-057.xht	512802c29f43864633b5ba4997e3435e77dfa780	pass
-xhtml1/abs-pos-non-replaced-vlr-059.xht	4a081025215343dc43c94a9afbecb4f8708d78c0	pass
-xhtml1/abs-pos-non-replaced-vlr-061.xht	d5d7da3ef86e0bc59f71598418b084d23a7fc5e2	pass
-xhtml1/abs-pos-non-replaced-vlr-063.xht	e44b75458e48fc677468fad2f6b97bfb27a04358	pass
-xhtml1/abs-pos-non-replaced-vlr-065.xht	7e931945d698024af484361d702fc1942f4c93d7	fail
-xhtml1/abs-pos-non-replaced-vlr-067.xht	e8746bce76a02f181c455cd476fa07cb7bf3f3fc	pass
-xhtml1/abs-pos-non-replaced-vlr-069.xht	839dda3cfa63e07590057a525a99594c16522bd9	pass
-xhtml1/abs-pos-non-replaced-vlr-071.xht	e6ba47ffbbe1f88e5b8ac5305eaae88953766880	pass
-xhtml1/abs-pos-non-replaced-vlr-073.xht	2b0726e3d139c06f7db0582c971ff0cf1c8fac2a	pass
-xhtml1/abs-pos-non-replaced-vlr-075.xht	ed49f86e8abcdee5bbcf7d9f6996872c0eb79b24	pass
-xhtml1/abs-pos-non-replaced-vlr-077.xht	38a6d4c7a37f4214fdfd177a496d3b80e694d39a	fail
-xhtml1/abs-pos-non-replaced-vlr-079.xht	042bea577acfc357a819ba3948b7720d2a664db9	pass
-xhtml1/abs-pos-non-replaced-vlr-081.xht	a5202b7c0f4e63dcbac6afe92e8c97b6c524dc26	pass
-xhtml1/abs-pos-non-replaced-vlr-083.xht	45a22ffa0a12d80dab3a01ec45c39b95ae620619	pass
-xhtml1/abs-pos-non-replaced-vlr-085.xht	c069ba017e6b6f6e72e37194d2c90f3780e44128	pass
-xhtml1/abs-pos-non-replaced-vlr-087.xht	8e3c75df21045fd98d143f28ce3e851e22b79b22	pass
-xhtml1/abs-pos-non-replaced-vlr-089.xht	a7640c84e3feb91fc85f150f8d02b22625cd773c	fail
-xhtml1/abs-pos-non-replaced-vlr-091.xht	7711bde355ba5b697bc65aa6be37fe3997a21bbc	pass
-xhtml1/abs-pos-non-replaced-vlr-093.xht	f50a4e60371e521632bbcb5cc821916078039708	pass
-xhtml1/abs-pos-non-replaced-vlr-095.xht	ae417086c2430385b99f8c69a733ee466362d3bd	fail
-xhtml1/abs-pos-non-replaced-vlr-097.xht	de7e6c672d87cd3682deada5661f90c2908531cf	pass
-xhtml1/abs-pos-non-replaced-vrl-002.xht	72453a8f93c2627891465d21f795c26b7813406d	pass
-xhtml1/abs-pos-non-replaced-vrl-004.xht	2febb994e34a05ecd8149a72aa21eb49a90bbd16	fail
-xhtml1/abs-pos-non-replaced-vrl-006.xht	013e65dfb37f8cd31f2193080010f8ba9af9e0d6	pass
-xhtml1/abs-pos-non-replaced-vrl-008.xht	1549ec470e288d5e1faf92b8fb77a44e7f3c50c8	pass
-xhtml1/abs-pos-non-replaced-vrl-010.xht	eb741c8e7e9c80eca5d3966626be00e6071c29d9	fail
-xhtml1/abs-pos-non-replaced-vrl-012.xht	690dbd0d02ddd30def8cb8da4c3399ae63f16c54	pass
-xhtml1/abs-pos-non-replaced-vrl-014.xht	cdc149bab800c3b7c85272b9ffc2c3aa407c849c	pass
-xhtml1/abs-pos-non-replaced-vrl-016.xht	373a271fdb3a6e78af5478d74070c49efc56351b	fail
-xhtml1/abs-pos-non-replaced-vrl-018.xht	8445d29302b46facd6b2456381e08db9b5b100ad	pass
-xhtml1/abs-pos-non-replaced-vrl-020.xht	a68a858d403fae58c0642f5b33598ae2da1b049d	pass
-xhtml1/abs-pos-non-replaced-vrl-022.xht	522e6988e2cf475fe45181796b43f4d9b4d3c21f	pass
-xhtml1/abs-pos-non-replaced-vrl-024.xht	12a785a192561710d68e263db2924c2ea0992c3a	pass
-xhtml1/abs-pos-non-replaced-vrl-026.xht	bea337c4fc580974e50b99c7359dadc54c5f3437	pass
-xhtml1/abs-pos-non-replaced-vrl-028.xht	93c6e4687cd5aeb73d7878d9cd147035b4ee7730	fail
-xhtml1/abs-pos-non-replaced-vrl-030.xht	b8f9d940bfa39b67763182854802f39ac33b3b46	pass
-xhtml1/abs-pos-non-replaced-vrl-032.xht	d92ed6d7a5bb7825316d8e0ce3bfca9a3c261958	pass
-xhtml1/abs-pos-non-replaced-vrl-034.xht	3825f53cc8f9bfe63e57f39e6b5f01895d00f133	fail
-xhtml1/abs-pos-non-replaced-vrl-036.xht	ce06874e06512f249a414c495fba50012a47671e	pass
-xhtml1/abs-pos-non-replaced-vrl-038.xht	7712b577fff876fdd0b28063068afb4676701cd9	pass
-xhtml1/abs-pos-non-replaced-vrl-040.xht	302c3a54d57a2d88758f6af549d4eaf9fbdd26e5	fail
-xhtml1/abs-pos-non-replaced-vrl-042.xht	fac12b4794083da41c5e9c96134cda0c62dabcd8	pass
-xhtml1/abs-pos-non-replaced-vrl-044.xht	fa01c65708b378bb1cea124cd74aed8771881763	pass
-xhtml1/abs-pos-non-replaced-vrl-046.xht	bc6a009ba28c564bdcc7b4bc384553545d44bb71	pass
-xhtml1/abs-pos-non-replaced-vrl-048.xht	8a346609a0baa32ee2e75b7ee9843f15ade6ae2f	pass
-xhtml1/abs-pos-non-replaced-vrl-050.xht	6754634ed8569359c41292f4dcaeacf79509f4f7	pass
-xhtml1/abs-pos-non-replaced-vrl-052.xht	6d08a883aabdabe4db83d6e6a8b86508aa7b7a53	fail
-xhtml1/abs-pos-non-replaced-vrl-054.xht	7ef86efb0eef5f8b43a82658c4cde941fa885c55	pass
-xhtml1/abs-pos-non-replaced-vrl-056.xht	0684b6dac50f2a8a6af6e1e1e43cd9ad96e6607e	pass
-xhtml1/abs-pos-non-replaced-vrl-058.xht	5ed1484c71061d9fdd91d13b776f19b73f7d1853	pass
-xhtml1/abs-pos-non-replaced-vrl-060.xht	f125ea87971858a2689e498e6c6e302319fb346b	pass
-xhtml1/abs-pos-non-replaced-vrl-062.xht	3a89ef33bd3f993b23dc0dc1a28612218ad0beb9	pass
-xhtml1/abs-pos-non-replaced-vrl-064.xht	575dcb96feed2e570ac0e03d1abb0f2af1fe4644	fail
-xhtml1/abs-pos-non-replaced-vrl-066.xht	b5dc4d7f0cf924e42333af5ae523180584f3deff	pass
-xhtml1/abs-pos-non-replaced-vrl-068.xht	9faaa13050eca17c2baa0665ec1869572ffc951e	pass
-xhtml1/abs-pos-non-replaced-vrl-070.xht	68ade1130ab8cecb7542945a7fd8105481bf5a76	pass
-xhtml1/abs-pos-non-replaced-vrl-072.xht	98475843036720af545913b64fa6239247a7b553	pass
-xhtml1/abs-pos-non-replaced-vrl-074.xht	958404fd6593819c8f9a2b165dbb73708c63701b	pass
-xhtml1/abs-pos-non-replaced-vrl-076.xht	e8e3b37237ff115a7f3083fc337c75bd916f53dd	fail
-xhtml1/abs-pos-non-replaced-vrl-078.xht	d79633f63ef5d23edbce1e6ae6f01624fea3deb0	pass
-xhtml1/abs-pos-non-replaced-vrl-080.xht	41b624a2a64c1c2b372f6d07ffcaed384edcb097	pass
-xhtml1/abs-pos-non-replaced-vrl-082.xht	86c1524dd183cddb83053b8ff1d1d1aa0c2a4141	pass
-xhtml1/abs-pos-non-replaced-vrl-084.xht	4f6c67b030cdf90f028403f23f39421dcf701d6f	pass
-xhtml1/abs-pos-non-replaced-vrl-086.xht	00481cb0c3aa04f704ea623387609a6a1630adb5	pass
-xhtml1/abs-pos-non-replaced-vrl-088.xht	f8dc2cd72ab89c122b826be39939673ba84fc3df	fail
-xhtml1/abs-pos-non-replaced-vrl-090.xht	cec3dc3fdbf07fe93fb8e21aab1985bd5159cb68	pass
-xhtml1/abs-pos-non-replaced-vrl-092.xht	a7cf6f431513e2f15607239266903d59877465a8	pass
-xhtml1/abs-pos-non-replaced-vrl-094.xht	d589ef571191faddc77afce329727a583621f6f2	pass
-xhtml1/abs-pos-non-replaced-vrl-096.xht	395bfb4c6be7fe412a7b25c77d0df64270482282	pass
+html/abs-pos-non-replaced-icb-vlr-003.htm	d3088b2113ff9dc88028dc89b4d030a83db59a2b	fail
+html/abs-pos-non-replaced-icb-vlr-005.htm	b959f5e9a4d09adc6784d74741b43ff0ac1ea0ca	fail
+html/abs-pos-non-replaced-icb-vlr-007.htm	2920468c92b3106eb9b5ece67e5bcb5671cb4ae3	pass
+html/abs-pos-non-replaced-icb-vlr-009.htm	c5707d898b0da047a136a5dea32eaee2f072aceb	fail
+html/abs-pos-non-replaced-icb-vlr-011.htm	cb3c2ddfdcf6f2a98842ab3072383bb568779b45	fail
+html/abs-pos-non-replaced-icb-vlr-013.htm	9f493db44442db0fa520f7dd00ddbc5bd8b053be	fail
+html/abs-pos-non-replaced-icb-vlr-015.htm	2771fcc484d81c24ae79b7c55ea7936222ed4362	pass
+html/abs-pos-non-replaced-icb-vlr-017.htm	a6a91f8c0313b0760406f2b6fa332bdc6a4c89aa	pass
+html/abs-pos-non-replaced-icb-vlr-019.htm	74e0da7b167c4edac5bf1047e1a54ce980046956	pass
+html/abs-pos-non-replaced-icb-vlr-021.htm	0026e669a6e5950bc999ad2861ae879a8a03721a	pass
+html/abs-pos-non-replaced-icb-vlr-023.htm	fe60ac82b37aec85dfa09cfbd580a9f46cb2e45b	pass
+html/abs-pos-non-replaced-icb-vlr-025.htm	0abe7aa6441751b399efa393fa5a3f8c9421fe9e	pass
+html/abs-pos-non-replaced-icb-vlr-027.htm	52dd4499e057af3f27511c6f572a1f07bcb521ab	pass
+html/abs-pos-non-replaced-icb-vlr-029.htm	c8e092f6992398340c7ccc864f1f47cdd8e60e8a	pass
+html/abs-pos-non-replaced-icb-vlr-031.htm	195a5a814cdeb8071eaebae2b0ce2710ec4dd1c3	pass
+html/abs-pos-non-replaced-icb-vlr-033.htm	c404b980d389dadd597f743edaf48fb857284bed	fail
+html/abs-pos-non-replaced-icb-vrl-002.htm	c1d978fed082919699d7dd9a7bbac418e1f2b3d3	fail
+html/abs-pos-non-replaced-icb-vrl-004.htm	ef4aec8787e4e226422030791ced9725a9ddf92e	fail
+html/abs-pos-non-replaced-icb-vrl-006.htm	7cc616bc6d9add19fee781134bf14c9d2aaab827	fail
+html/abs-pos-non-replaced-icb-vrl-008.htm	bf88578b9cf373a8e0e104472f20669679511b13	fail
+html/abs-pos-non-replaced-icb-vrl-010.htm	0797d5d4659b501c18d7f02f54feaf2dc1fabef7	fail
+html/abs-pos-non-replaced-icb-vrl-012.htm	af2513c28fc98085a02fac46f7e7837ec2dcb416	fail
+html/abs-pos-non-replaced-icb-vrl-014.htm	82b080f9862b48f9d4d4bae11a8178cbe0e04c8f	fail
+html/abs-pos-non-replaced-icb-vrl-016.htm	0fcd6852eb73db30e7a6a63a3d0ddcdc49137d87	fail
+html/abs-pos-non-replaced-icb-vrl-018.htm	a747c42d5292e2ce1662863f9906e304eb8f542e	fail
+html/abs-pos-non-replaced-icb-vrl-020.htm	38d2c9b1105e5c01a44bb42fdb2e49e290e55242	fail
+html/abs-pos-non-replaced-icb-vrl-022.htm	fca4a5e3785e0dff365055391d47d43088d046f5	pass
+html/abs-pos-non-replaced-icb-vrl-024.htm	4f464a740f5ae8248c82112351d3436a3c37d44a	pass
+html/abs-pos-non-replaced-icb-vrl-026.htm	023c809b88e0e4301aa642972d0c7147967889d0	pass
+html/abs-pos-non-replaced-icb-vrl-028.htm	3b640d907e7e2b09e1cd6fe9d7f03944c833c582	pass
+html/abs-pos-non-replaced-icb-vrl-030.htm	b2203bfe35d1f946e1778ef9e443ef9ccb9521fe	fail
+html/abs-pos-non-replaced-icb-vrl-032.htm	c5d52e4e1a4df4bd93e4faaea24787163e82e070	pass
+html/abs-pos-non-replaced-vlr-003.htm	92c9c7d7b80e6b3e7c83c03fe4b23879aaf2f0c1	pass
+html/abs-pos-non-replaced-vlr-005.htm	37cfd9bd5c74bfce58518fae64168cd75ab7526f	fail
+html/abs-pos-non-replaced-vlr-007.htm	4b3c83c1d7a25ac56461cf49fd10f79547f447f8	pass
+html/abs-pos-non-replaced-vlr-009.htm	35d614079b68393f8b4e0b4de8fc5d30854b22f4	pass
+html/abs-pos-non-replaced-vlr-011.htm	a7332f9f14097991870dc832ca14bc5e6f86b828	pass
+html/abs-pos-non-replaced-vlr-013.htm	3dac77e2d697a679c98a65b576299843310b4b40	pass
+html/abs-pos-non-replaced-vlr-015.htm	0c31a2a1fe71f1626d56d27259e8a49457f6c5ce	pass
+html/abs-pos-non-replaced-vlr-017.htm	6c04c6e4d50e8cd90077ac5a4385d9d0bb67e056	fail
+html/abs-pos-non-replaced-vlr-019.htm	e23df1946968aad167138a87ffe3b9dbe554d202	pass
+html/abs-pos-non-replaced-vlr-021.htm	24ef5a90ae1e5416a0c28e021b0944f5ab943b32	pass
+html/abs-pos-non-replaced-vlr-023.htm	8b47949a5aa299a0a73803eb936af2e7e5a3f84d	pass
+html/abs-pos-non-replaced-vlr-025.htm	b7e527cc7663cb9bdbdbda8fb239ea9db19da56e	pass
+html/abs-pos-non-replaced-vlr-027.htm	3bff08e4cb5306d72e5b68194d302d54a2ec7f7d	pass
+html/abs-pos-non-replaced-vlr-029.htm	8919353101e8badc8c655999e96b863e95606d00	fail
+html/abs-pos-non-replaced-vlr-031.htm	ddb69bddeed426440a813d855b4517f6cd29b1cf	pass
+html/abs-pos-non-replaced-vlr-033.htm	7ee2fa18050ff8352b147ac616b1fd851e5a74ec	pass
+html/abs-pos-non-replaced-vlr-035.htm	d031855742fb69c7ef81b1fe565efc1d3055b45e	pass
+html/abs-pos-non-replaced-vlr-037.htm	2e9f5856b8e0ee092618a57e51c28cec6b8a2f65	pass
+html/abs-pos-non-replaced-vlr-039.htm	93b75ff4f33b288e97343835e6c837636d290d2e	pass
+html/abs-pos-non-replaced-vlr-041.htm	c03a5da24d3991d7b61511ba62f1b22a19e74c5b	fail
+html/abs-pos-non-replaced-vlr-043.htm	c598db19b3788b0706600cf2dd3b9d673ea0d0f6	pass
+html/abs-pos-non-replaced-vlr-045.htm	f45ddb4edd6e402b5e44999ded5e986300941b54	pass
+html/abs-pos-non-replaced-vlr-047.htm	c485f2e9f5afdfd1e054606f886ec140b65ca271	pass
+html/abs-pos-non-replaced-vlr-049.htm	a013e44a0fc268fb51bab6f80b3367409d7e7c1d	pass
+html/abs-pos-non-replaced-vlr-051.htm	4a03844db4871b9f49f4a5f945bb0ebfd6dd67de	pass
+html/abs-pos-non-replaced-vlr-053.htm	9c08e776675637130948bd4b6931af65719d29ff	fail
+html/abs-pos-non-replaced-vlr-055.htm	e6152f2732060736d14b5a78a302e0bc8bbe793f	pass
+html/abs-pos-non-replaced-vlr-057.htm	512802c29f43864633b5ba4997e3435e77dfa780	pass
+html/abs-pos-non-replaced-vlr-059.htm	4a081025215343dc43c94a9afbecb4f8708d78c0	pass
+html/abs-pos-non-replaced-vlr-061.htm	d5d7da3ef86e0bc59f71598418b084d23a7fc5e2	pass
+html/abs-pos-non-replaced-vlr-063.htm	e44b75458e48fc677468fad2f6b97bfb27a04358	pass
+html/abs-pos-non-replaced-vlr-065.htm	7e931945d698024af484361d702fc1942f4c93d7	fail
+html/abs-pos-non-replaced-vlr-067.htm	e8746bce76a02f181c455cd476fa07cb7bf3f3fc	pass
+html/abs-pos-non-replaced-vlr-069.htm	839dda3cfa63e07590057a525a99594c16522bd9	pass
+html/abs-pos-non-replaced-vlr-071.htm	e6ba47ffbbe1f88e5b8ac5305eaae88953766880	pass
+html/abs-pos-non-replaced-vlr-073.htm	2b0726e3d139c06f7db0582c971ff0cf1c8fac2a	pass
+html/abs-pos-non-replaced-vlr-075.htm	ed49f86e8abcdee5bbcf7d9f6996872c0eb79b24	pass
+html/abs-pos-non-replaced-vlr-077.htm	38a6d4c7a37f4214fdfd177a496d3b80e694d39a	fail
+html/abs-pos-non-replaced-vlr-079.htm	042bea577acfc357a819ba3948b7720d2a664db9	pass
+html/abs-pos-non-replaced-vlr-081.htm	a5202b7c0f4e63dcbac6afe92e8c97b6c524dc26	pass
+html/abs-pos-non-replaced-vlr-083.htm	45a22ffa0a12d80dab3a01ec45c39b95ae620619	pass
+html/abs-pos-non-replaced-vlr-085.htm	c069ba017e6b6f6e72e37194d2c90f3780e44128	pass
+html/abs-pos-non-replaced-vlr-087.htm	8e3c75df21045fd98d143f28ce3e851e22b79b22	pass
+html/abs-pos-non-replaced-vlr-089.htm	a7640c84e3feb91fc85f150f8d02b22625cd773c	fail
+html/abs-pos-non-replaced-vlr-091.htm	7711bde355ba5b697bc65aa6be37fe3997a21bbc	pass
+html/abs-pos-non-replaced-vlr-093.htm	f50a4e60371e521632bbcb5cc821916078039708	pass
+html/abs-pos-non-replaced-vlr-095.htm	ae417086c2430385b99f8c69a733ee466362d3bd	fail
+html/abs-pos-non-replaced-vlr-097.htm	de7e6c672d87cd3682deada5661f90c2908531cf	pass
+html/abs-pos-non-replaced-vrl-002.htm	72453a8f93c2627891465d21f795c26b7813406d	pass
+html/abs-pos-non-replaced-vrl-004.htm	2febb994e34a05ecd8149a72aa21eb49a90bbd16	fail
+html/abs-pos-non-replaced-vrl-006.htm	013e65dfb37f8cd31f2193080010f8ba9af9e0d6	pass
+html/abs-pos-non-replaced-vrl-008.htm	1549ec470e288d5e1faf92b8fb77a44e7f3c50c8	pass
+html/abs-pos-non-replaced-vrl-010.htm	eb741c8e7e9c80eca5d3966626be00e6071c29d9	fail
+html/abs-pos-non-replaced-vrl-012.htm	690dbd0d02ddd30def8cb8da4c3399ae63f16c54	pass
+html/abs-pos-non-replaced-vrl-014.htm	cdc149bab800c3b7c85272b9ffc2c3aa407c849c	pass
+html/abs-pos-non-replaced-vrl-016.htm	373a271fdb3a6e78af5478d74070c49efc56351b	fail
+html/abs-pos-non-replaced-vrl-018.htm	8445d29302b46facd6b2456381e08db9b5b100ad	pass
+html/abs-pos-non-replaced-vrl-020.htm	a68a858d403fae58c0642f5b33598ae2da1b049d	pass
+html/abs-pos-non-replaced-vrl-022.htm	522e6988e2cf475fe45181796b43f4d9b4d3c21f	pass
+html/abs-pos-non-replaced-vrl-024.htm	12a785a192561710d68e263db2924c2ea0992c3a	pass
+html/abs-pos-non-replaced-vrl-026.htm	bea337c4fc580974e50b99c7359dadc54c5f3437	pass
+html/abs-pos-non-replaced-vrl-028.htm	93c6e4687cd5aeb73d7878d9cd147035b4ee7730	fail
+html/abs-pos-non-replaced-vrl-030.htm	b8f9d940bfa39b67763182854802f39ac33b3b46	pass
+html/abs-pos-non-replaced-vrl-032.htm	d92ed6d7a5bb7825316d8e0ce3bfca9a3c261958	pass
+html/abs-pos-non-replaced-vrl-034.htm	3825f53cc8f9bfe63e57f39e6b5f01895d00f133	fail
+html/abs-pos-non-replaced-vrl-036.htm	ce06874e06512f249a414c495fba50012a47671e	pass
+html/abs-pos-non-replaced-vrl-038.htm	7712b577fff876fdd0b28063068afb4676701cd9	pass
+html/abs-pos-non-replaced-vrl-040.htm	302c3a54d57a2d88758f6af549d4eaf9fbdd26e5	fail
+html/abs-pos-non-replaced-vrl-042.htm	fac12b4794083da41c5e9c96134cda0c62dabcd8	pass
+html/abs-pos-non-replaced-vrl-044.htm	fa01c65708b378bb1cea124cd74aed8771881763	pass
+html/abs-pos-non-replaced-vrl-046.htm	bc6a009ba28c564bdcc7b4bc384553545d44bb71	pass
+html/abs-pos-non-replaced-vrl-048.htm	8a346609a0baa32ee2e75b7ee9843f15ade6ae2f	pass
+html/abs-pos-non-replaced-vrl-050.htm	6754634ed8569359c41292f4dcaeacf79509f4f7	pass
+html/abs-pos-non-replaced-vrl-052.htm	6d08a883aabdabe4db83d6e6a8b86508aa7b7a53	fail
+html/abs-pos-non-replaced-vrl-054.htm	7ef86efb0eef5f8b43a82658c4cde941fa885c55	pass
+html/abs-pos-non-replaced-vrl-056.htm	0684b6dac50f2a8a6af6e1e1e43cd9ad96e6607e	pass
+html/abs-pos-non-replaced-vrl-058.htm	5ed1484c71061d9fdd91d13b776f19b73f7d1853	pass
+html/abs-pos-non-replaced-vrl-060.htm	f125ea87971858a2689e498e6c6e302319fb346b	pass
+html/abs-pos-non-replaced-vrl-062.htm	3a89ef33bd3f993b23dc0dc1a28612218ad0beb9	pass
+html/abs-pos-non-replaced-vrl-064.htm	575dcb96feed2e570ac0e03d1abb0f2af1fe4644	fail
+html/abs-pos-non-replaced-vrl-066.htm	b5dc4d7f0cf924e42333af5ae523180584f3deff	pass
+html/abs-pos-non-replaced-vrl-068.htm	9faaa13050eca17c2baa0665ec1869572ffc951e	pass
+html/abs-pos-non-replaced-vrl-070.htm	68ade1130ab8cecb7542945a7fd8105481bf5a76	pass
+html/abs-pos-non-replaced-vrl-072.htm	98475843036720af545913b64fa6239247a7b553	pass
+html/abs-pos-non-replaced-vrl-074.htm	958404fd6593819c8f9a2b165dbb73708c63701b	pass
+html/abs-pos-non-replaced-vrl-076.htm	e8e3b37237ff115a7f3083fc337c75bd916f53dd	fail
+html/abs-pos-non-replaced-vrl-078.htm	d79633f63ef5d23edbce1e6ae6f01624fea3deb0	pass
+html/abs-pos-non-replaced-vrl-080.htm	41b624a2a64c1c2b372f6d07ffcaed384edcb097	pass
+html/abs-pos-non-replaced-vrl-082.htm	86c1524dd183cddb83053b8ff1d1d1aa0c2a4141	pass
+html/abs-pos-non-replaced-vrl-084.htm	4f6c67b030cdf90f028403f23f39421dcf701d6f	pass
+html/abs-pos-non-replaced-vrl-086.htm	00481cb0c3aa04f704ea623387609a6a1630adb5	pass
+html/abs-pos-non-replaced-vrl-088.htm	f8dc2cd72ab89c122b826be39939673ba84fc3df	fail
+html/abs-pos-non-replaced-vrl-090.htm	cec3dc3fdbf07fe93fb8e21aab1985bd5159cb68	pass
+html/abs-pos-non-replaced-vrl-092.htm	a7cf6f431513e2f15607239266903d59877465a8	pass
+html/abs-pos-non-replaced-vrl-094.htm	d589ef571191faddc77afce329727a583621f6f2	pass
+html/abs-pos-non-replaced-vrl-096.htm	395bfb4c6be7fe412a7b25c77d0df64270482282	pass
+# html/autoheight-regions-in-autoheight-flexbox-002.htm	03903463d0ee57e784c8305fc4b3c522d62beb38	?
 # html/background-position-vlr-003.htm	6f62ea5ca447de2cec9e79c4756f56b9ba4328be	pass
 # html/background-position-vlr-005.htm	6e0dc09bfe164ae0d9cc0a8eeca78824c84cdd6e	pass
 # html/background-position-vlr-007.htm	02f2f3858b9b2020b82974ac52614286bbb3eddb	pass
@@ -147,22 +143,28 @@ xhtml1/abs-pos-non-replaced-vrl-096.xht	395bfb4c6be7fe412a7b25c77d0df64270482282
 # html/background-position-vrl-012.htm	602bfdfe81733285158b6b196cd799bff45b8acc	pass
 # html/background-position-vrl-014.htm	c2752b717241dac98751fe1196b58f9b1987ee3b	pass
 # html/background-position-vrl-016.htm	d7fdce5cc5bc700ad2dee22e583b6a296fb8d5e9	pass
-xhtml1/background-position-vrl-018.xht	6a92342e5a438e5e707a8c51cf0c4691364d09d5	pass
-xhtml1/background-position-vrl-020.xht	a41dd6b788db7308b352a0973e7aec81a045b0f5	pass
-xhtml1/background-position-vrl-022.xht	bd466258ee3ed92c6e61376ea624725fe6a31c34	pass
+html/background-position-vrl-018.htm	6a92342e5a438e5e707a8c51cf0c4691364d09d5	pass
+html/background-position-vrl-020.htm	a41dd6b788db7308b352a0973e7aec81a045b0f5	pass
+html/background-position-vrl-022.htm	bd466258ee3ed92c6e61376ea624725fe6a31c34	pass
 html/background-size-document-root-vrl-002.htm	d32d9260f7c55e356ff0f781774350e0e9339c7d	pass
 html/background-size-document-root-vrl-004.htm	c570e55ba9e3d7cbe2ed6c537c3e24dae5f06a9b	pass
 html/background-size-document-root-vrl-006.htm	d38e22c4d9e04f1abb027bd7ba76039f6bac9e22	pass
 html/background-size-document-root-vrl-008.htm	8272ed7319e48fe7f94701a00ed1789bb7fb9435	pass
-xhtml1/baseline-inline-non-replaced-002.xht	23368287b3a64066dfe2c43ba225d80ffbfb3b3a	pass
-xhtml1/baseline-inline-non-replaced-003.xht	1209423e88f29044ace6bbb56014706ef5f39b2a	pass
-xhtml1/baseline-inline-non-replaced-004.xht	6a256bc44a389603a081fa7dedd601a1ea0d5930	pass
-xhtml1/baseline-inline-non-replaced-005.xht	c0fa541b4047fa0c1ad0a67b70dd8f2acaf1940d	pass
-xhtml1/baseline-inline-replaced-002.xht	f82377f1c339d1b097df4fb3ee5a70135cc75d09	pass
-xhtml1/baseline-inline-replaced-003.xht	eed7b8849080d2daa99c847c48b215bd6c3fb17a	pass
+html/baseline-inline-non-replaced-002.htm	23368287b3a64066dfe2c43ba225d80ffbfb3b3a	pass
+html/baseline-inline-non-replaced-003.htm	1209423e88f29044ace6bbb56014706ef5f39b2a	pass
+html/baseline-inline-non-replaced-004.htm	6a256bc44a389603a081fa7dedd601a1ea0d5930	pass
+html/baseline-inline-non-replaced-005.htm	c0fa541b4047fa0c1ad0a67b70dd8f2acaf1940d	pass
+html/baseline-inline-replaced-002.htm	f82377f1c339d1b097df4fb3ee5a70135cc75d09	pass
+html/baseline-inline-replaced-003.htm	eed7b8849080d2daa99c847c48b215bd6c3fb17a	pass
 # html/bidi-001.htm	4b17669682a01af35c7ff859a56ff14979004532	pass
 # html/bidi-002.htm	48d2d4ba08ef8b06d14ef353e9fb8caa30bb43af	pass
 # html/bidi-003.htm	4fc2169d7f75864298bca1a48c3d4d3bdb3560cf	fail
+# html/bidi-005.htm	9a94108988b0d806f23f5d63aec2a5b34d6aea05	?
+# html/bidi-006.htm	a699b5134869e68b68c5399f9be53865f6bb90cd	?
+# html/bidi-007.htm	52cbe1038400d33a001f042c6b78f1ee216c902b	?
+# html/bidi-008.htm	c878778f568e57aa6bc27e433596631230c507ff	?
+# html/bidi-009.htm	d6072671ffb3f62e5e2cd6b3a1e622c8c25ca81a	?
+# html/bidi-010.htm	16d1297a97d5163619d5317e0a69343dd1c1eb6d	?
 # html/bidi-011.htm	c3876d81e8a04525459e58052c7e241825de8aeb	pass
 # html/bidi-alt-001.htm	4d4b08257d283f8137a8319b54468d990e1236b9	fail
 # html/bidi-box-model-001.htm	1c9b7d40184936c8dd4ae4dfb02e799aad6eec88	pass
@@ -175,6 +177,7 @@ xhtml1/baseline-inline-replaced-003.xht	eed7b8849080d2daa99c847c48b215bd6c3fb17a
 # html/bidi-box-model-008.htm	8c510ddd2d961e2be38fbc0b1b7b73ce8c871c25	pass
 # html/bidi-box-model-009.htm	8553fa2253cf1da817f035932fb36c7234a3fca1	pass
 # html/bidi-box-model-034.htm	e9bd7a66ce4c8abb5158f49ea9bd7cf2a61f115d	pass
+# html/bidi-box-model-035.htm	e10ae7a28a9c36ade38d76a62b5b3cbd4924cb5e	?
 # html/bidi-box-model-036.htm	d35d1e26ca2c0560efaa12e4b6cd4e11720cedd6	pass
 # html/bidi-box-model-043.htm	a5320f0797f50894c930422612c5d4f8e6f5f18e	pass
 # html/bidi-box-model-044.htm	598e3207af53b8419a1cd59902ee374213415c5f	pass
@@ -254,6 +257,7 @@ html/bidi-plaintext-008.htm	4509f186c3c490d93f5811e693b3ebb7550f4dcb	pass
 html/bidi-plaintext-009.htm	bf06eff1aed8c74b837c318eeb701c109cf7dec1	pass
 html/bidi-plaintext-010.htm	c761067af86f83172d5ba2b4b56aed3191dd74b2	pass
 html/bidi-plaintext-011.htm	af5e5dd3dc797ad5fec57780a3cc491861f872df	fail
+# html/bidi-table-001.htm	b76614ab31144548ec19f4351dcf585f59ae3e0f	?
 html/bidi-unset-001.htm	eb7a5acbe55bce9659d8c8fdb22ef75f7f54ea39	pass
 html/bidi-unset-002.htm	f23c821ec27e544abbd055d8d78a1686bcd23650	pass
 html/bidi-unset-003.htm	5b15aac3b0ef0ca8da7c0f55e20c7b9727ece49b	pass
@@ -267,30 +271,31 @@ html/bidi-unset-010.htm	b85e481e086f00447910e084481f555376367376	pass
 html/block-embed-001.htm	ad3828d40cdff06f4d37fa183de424787966e75d	pass
 html/block-embed-002.htm	5069f35597f779fbb548ebf2f2ee2e5cc5416bcf	pass
 html/block-embed-003.htm	5a2ea65cfd1fccd182350cb160caaadd6d17a02d	pass
-xhtml1/block-flow-direction-001.xht	19cb1de6ed1a39ebcb0a9ccf147b27276ae530c0	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/block-flow-direction-002.xht	535ba65d2f6aa82133042aa8a30fe4cfaf15a8ab	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/block-flow-direction-003.xht	5101bed0c91ce801b27e1182b0f107f5df79b098	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/block-flow-direction-004.xht	c50d51ba4310ee5e477f7335be8043fdf6c44f51	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/block-flow-direction-005.xht	5b3c4a29f2d20f68fe2dee243a7f55818001bb19	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/block-flow-direction-006.xht	9036b0a18c5dc6b3c4fc36eefe5c9d52d44fd926	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/block-flow-direction-007.xht	f8f6f9bfdd9914ae0c4636466efd49fbc4ac370c	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/block-flow-direction-008.xht	fa0eaf2f716436752608779bb476e7ae54dd2294	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/block-flow-direction-009.xht	6d567df855d69c5c0d8c947b11c8d540e50eae2f	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
-xhtml1/block-flow-direction-010.xht	da2659b0a3427d9abf73973797c3dbab98efa733	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/block-flow-direction-011.xht	53f8a8a989252b24f25e34d22ec75b6e2d68165e	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/block-flow-direction-012.xht	128ee22de460baa41affbde5b63a68182f0cd74a	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/block-flow-direction-013.xht	864bb241fe74023d23183204bfb32c6615e4c2bb	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/block-flow-direction-014.xht	766e5d11e657b49ec5beeb987351fd7bfb59b4ec	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/block-flow-direction-015.xht	49882d193c25d3c2170e97d939b39920622e04d3	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/block-flow-direction-016.xht	5221c36bb90f1346378ea6f026940b5fdae1b072	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-001.htm	19cb1de6ed1a39ebcb0a9ccf147b27276ae530c0	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-002.htm	535ba65d2f6aa82133042aa8a30fe4cfaf15a8ab	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-003.htm	5101bed0c91ce801b27e1182b0f107f5df79b098	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-004.htm	c50d51ba4310ee5e477f7335be8043fdf6c44f51	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-005.htm	5b3c4a29f2d20f68fe2dee243a7f55818001bb19	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-006.htm	9036b0a18c5dc6b3c4fc36eefe5c9d52d44fd926	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-007.htm	f8f6f9bfdd9914ae0c4636466efd49fbc4ac370c	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-008.htm	fa0eaf2f716436752608779bb476e7ae54dd2294	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-009.htm	6d567df855d69c5c0d8c947b11c8d540e50eae2f	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
+html/block-flow-direction-010.htm	da2659b0a3427d9abf73973797c3dbab98efa733	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-011.htm	53f8a8a989252b24f25e34d22ec75b6e2d68165e	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-012.htm	128ee22de460baa41affbde5b63a68182f0cd74a	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-013.htm	864bb241fe74023d23183204bfb32c6615e4c2bb	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-014.htm	766e5d11e657b49ec5beeb987351fd7bfb59b4ec	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-015.htm	49882d193c25d3c2170e97d939b39920622e04d3	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-016.htm	5221c36bb90f1346378ea6f026940b5fdae1b072	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+# html/block-flow-direction-017.htm	c2a92a2f4ded8bd1c1c8da78d659f9d3cef71f0e	?
 # html/block-flow-direction-018.htm	9d32e9d52ef12a1cc1c02512dd21172097f6f206	fail
-xhtml1/block-flow-direction-019.xht	4013b44b2f69c6ad31338a283f65f0d49befc9e4	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/block-flow-direction-020.xht	d6687aa139742ecb9688c7ccb4fcb5588681c708	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/block-flow-direction-021.xht	bfc4b020c32dedc0fe6a841c223ef8891b982cac	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/block-flow-direction-022.xht	01c8836e66706ac7945772ee5e17d85024a22c5a	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/block-flow-direction-023.xht	6cbec1646003bfe2cdcf084b0dd2fe63dc76fab2	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/block-flow-direction-024.xht	5f2a15bb1988093d24b8e3eaf1a3f6c46c897f8b	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/block-flow-direction-025.xht	6b3673477ab3c066dec96f347d5c1f6aaafc0622	pass
+html/block-flow-direction-019.htm	4013b44b2f69c6ad31338a283f65f0d49befc9e4	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-020.htm	d6687aa139742ecb9688c7ccb4fcb5588681c708	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-021.htm	bfc4b020c32dedc0fe6a841c223ef8891b982cac	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-022.htm	01c8836e66706ac7945772ee5e17d85024a22c5a	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-023.htm	6cbec1646003bfe2cdcf084b0dd2fe63dc76fab2	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-024.htm	5f2a15bb1988093d24b8e3eaf1a3f6c46c897f8b	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-025.htm	6b3673477ab3c066dec96f347d5c1f6aaafc0622	pass
 html/block-override-001.htm	c9f01a298fdc3c1c6eaceefc08c1f134078a0c61	pass
 html/block-override-002.htm	1c72e7aa6e1d313b0e23b11e9e637b1f77dd39f4	pass
 html/block-override-003.htm	2cb8aa89ffc3dba127564bb84e4bdb28bd208d26	pass
@@ -305,43 +310,54 @@ html/block-plaintext-003.htm	7216b2a3e17d8abfc65458f1325845a37ff8b947	pass
 html/block-plaintext-004.htm	b75731438c0d5544266ee8cb1ba0a895ce97cd4f	pass
 # html/block-plaintext-005.htm	2f2d8e6c45d62bc9d6ca61cb22615749d0a2e243	pass
 # html/block-plaintext-006.htm	0c629044af2ad8099dac74893c25d14cb049e242	pass
-xhtml1/border-spacing-vlr-003.xht	83d485a7f53c6aab05133d1b4ef7a19db40610ea	pass
-xhtml1/border-spacing-vlr-005.xht	b05a8b886a284274db64edf8ea07770873dea6fd	pass
-xhtml1/border-spacing-vrl-002.xht	0a3c8386caea4b8b75d8506e67ab054a1ab08657	pass
-xhtml1/border-spacing-vrl-004.xht	ed1d4442e1ab36ddecd8ab74a14ea6f115027b8b	pass
-xhtml1/border-vlr-007.xht	39a32c0258da774f8016f42d80902ff392f25aef	pass
-xhtml1/border-vrl-006.xht	9bf65bd11b8f5eee2a68f349102d768cef83115d	pass
-xhtml1/box-offsets-rel-pos-vlr-003.xht	3d16e0883c205cf9db0f153a21fe09328210fb9e	pass
-xhtml1/box-offsets-rel-pos-vlr-005.xht	63b0812b0ce58203acbbb078d6a358dfa8ef7921	pass # These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/box-offsets-rel-pos-vrl-002.xht	71f9afb95909f5bbf2f482ea0cae18d0760dd61b	pass
-xhtml1/box-offsets-rel-pos-vrl-004.xht	2fefce44f6b5272b4e3d76d78fbd376dc7ccfcb7	pass # These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/central-baseline-alignment-002.xht	90489bcb77cfed11d0d0072734e1a6a5408f05e2	pass
-xhtml1/central-baseline-alignment-003.xht	8e6a4d8e67c4492e12b1d72857cbee6aa3611e37	pass
-xhtml1/clearance-calculations-vrl-002.xht	08bfbf660a2e28087e2532f36ac0a8372fbcf408	pass
-xhtml1/clearance-calculations-vrl-004.xht	78bbebea05e03d6cfd797bd17a6793734221ab1f	pass
-xhtml1/clearance-calculations-vrl-006.xht	e373da6da00e4842d35a6eaca9fb31e153d3a039	fail
-xhtml1/clearance-calculations-vrl-008.xht	d13c9c1e2670c70fbb64075f6f140c8c4875849a	pass
-xhtml1/clip-rect-vlr-003.xht	8fb9958ac25d5aba585d007e4a4933596a71a326	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
-xhtml1/clip-rect-vlr-005.xht	64d1ce42609e9d11b23134257cc0fe61b271f413	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
-xhtml1/clip-rect-vlr-007.xht	b03268b4a25d9590cc8391465b4561ea8447ae6a	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
-xhtml1/clip-rect-vlr-009.xht	ed35821c9ff812e4af1675a8e4698e74aa842e1e	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
-xhtml1/clip-rect-vlr-011.xht	9205185839d4b3539b29aa81b97d63d9b978ea60	pass
-xhtml1/clip-rect-vlr-013.xht	05f6d4938ccaa3931ce5b35a423e37231b0df0d4	pass
-xhtml1/clip-rect-vlr-015.xht	16a2543395e20736fa94ba46bd038bdc7c14f7a0	pass
-xhtml1/clip-rect-vlr-017.xht	2b2b6cc325b759f37d4bd9167e5529a0ccb95fe9	pass
-xhtml1/clip-rect-vrl-002.xht	cd4e054ba8c489f426dbf527aec27784e13b011d	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
-xhtml1/clip-rect-vrl-004.xht	6942d2173e20976e22f527110370ea0e8814d5f5	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
-xhtml1/clip-rect-vrl-006.xht	3f2bddcd5e382973e79b5cf9eafa709801452ff6	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
-xhtml1/clip-rect-vrl-008.xht	81a6e62d0ba54936c596a35e7782d1daba877912	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
-xhtml1/clip-rect-vrl-010.xht	9ee86763032f7f57280ed2eaaf6a248ae69638d0	pass
-xhtml1/clip-rect-vrl-012.xht	958e294000bde628e565b6b743d47b9ce2be6d64	pass
-xhtml1/clip-rect-vrl-014.xht	44fdb637a990b4c84dc24786151db1e4048f57d8	pass
-xhtml1/clip-rect-vrl-016.xht	691b8c06c8ed77f9a051d9d0bf39f721ded61c79	pass
-xhtml1/different-block-flow-dir-001.xht	3d33662be593c9a71770ab85e04c5f8e9721aac3	pass
-xhtml1/different-block-flow-dir-002.xht	dfa3d81dda50b5a39e2a1b98d268841d7af8fd32	pass
+html/border-spacing-vlr-003.htm	83d485a7f53c6aab05133d1b4ef7a19db40610ea	pass
+html/border-spacing-vlr-005.htm	b05a8b886a284274db64edf8ea07770873dea6fd	pass
+html/border-spacing-vrl-002.htm	0a3c8386caea4b8b75d8506e67ab054a1ab08657	pass
+html/border-spacing-vrl-004.htm	ed1d4442e1ab36ddecd8ab74a14ea6f115027b8b	pass
+html/border-vlr-007.htm	39a32c0258da774f8016f42d80902ff392f25aef	pass
+html/border-vrl-006.htm	9bf65bd11b8f5eee2a68f349102d768cef83115d	pass
+html/box-offsets-rel-pos-vlr-003.htm	3d16e0883c205cf9db0f153a21fe09328210fb9e	pass
+html/box-offsets-rel-pos-vlr-005.htm	63b0812b0ce58203acbbb078d6a358dfa8ef7921	pass # These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/box-offsets-rel-pos-vrl-002.htm	71f9afb95909f5bbf2f482ea0cae18d0760dd61b	pass
+html/box-offsets-rel-pos-vrl-004.htm	2fefce44f6b5272b4e3d76d78fbd376dc7ccfcb7	pass # These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/central-baseline-alignment-002.htm	90489bcb77cfed11d0d0072734e1a6a5408f05e2	pass
+html/central-baseline-alignment-003.htm	8e6a4d8e67c4492e12b1d72857cbee6aa3611e37	pass
+html/clearance-calculations-vrl-002.htm	08bfbf660a2e28087e2532f36ac0a8372fbcf408	pass
+html/clearance-calculations-vrl-004.htm	78bbebea05e03d6cfd797bd17a6793734221ab1f	pass
+html/clearance-calculations-vrl-006.htm	e373da6da00e4842d35a6eaca9fb31e153d3a039	fail
+html/clearance-calculations-vrl-008.htm	d13c9c1e2670c70fbb64075f6f140c8c4875849a	pass
+html/clip-rect-vlr-003.htm	8fb9958ac25d5aba585d007e4a4933596a71a326	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
+html/clip-rect-vlr-005.htm	64d1ce42609e9d11b23134257cc0fe61b271f413	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
+html/clip-rect-vlr-007.htm	b03268b4a25d9590cc8391465b4561ea8447ae6a	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
+html/clip-rect-vlr-009.htm	ed35821c9ff812e4af1675a8e4698e74aa842e1e	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
+html/clip-rect-vlr-011.htm	9205185839d4b3539b29aa81b97d63d9b978ea60	pass
+html/clip-rect-vlr-013.htm	05f6d4938ccaa3931ce5b35a423e37231b0df0d4	pass
+html/clip-rect-vlr-015.htm	16a2543395e20736fa94ba46bd038bdc7c14f7a0	pass
+html/clip-rect-vlr-017.htm	2b2b6cc325b759f37d4bd9167e5529a0ccb95fe9	pass
+html/clip-rect-vrl-002.htm	cd4e054ba8c489f426dbf527aec27784e13b011d	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
+html/clip-rect-vrl-004.htm	6942d2173e20976e22f527110370ea0e8814d5f5	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
+html/clip-rect-vrl-006.htm	3f2bddcd5e382973e79b5cf9eafa709801452ff6	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
+html/clip-rect-vrl-008.htm	81a6e62d0ba54936c596a35e7782d1daba877912	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
+html/clip-rect-vrl-010.htm	9ee86763032f7f57280ed2eaaf6a248ae69638d0	pass
+html/clip-rect-vrl-012.htm	958e294000bde628e565b6b743d47b9ce2be6d64	pass
+html/clip-rect-vrl-014.htm	44fdb637a990b4c84dc24786151db1e4048f57d8	pass
+html/clip-rect-vrl-016.htm	691b8c06c8ed77f9a051d9d0bf39f721ded61c79	pass
+# html/css-flexbox-row.htm	c2fdd1f935ea17ca5c3ef860a2b39c9040c2b032	?
+# html/css-flexbox-row-reverse.htm	7d6c951b7d2a9a20aec2dae97cf647a7542fd97c	?
+# html/css-flexbox-row-reverse-wrap.htm	45362cab6ef4ccddc48442ef7c30cfdbc4d7b68f	?
+# html/css-flexbox-row-reverse-wrap-reverse.htm	ae71f495e9b7a0b872b7404e8d13546220a99b9c	?
+# html/css-flexbox-row-wrap.htm	406a4ac39fbf0910cc734e4fa2c2d95d441cbf2a	?
+# html/css-flexbox-row-wrap-reverse.htm	3de913d4d90d2452743b0b92d15a212215e1db4a	?
+html/different-block-flow-dir-001.htm	3d33662be593c9a71770ab85e04c5f8e9721aac3	pass
+html/different-block-flow-dir-002.htm	dfa3d81dda50b5a39e2a1b98d268841d7af8fd32	pass
 # html/direction-001.htm	5c033add1932eaf0595c610990a862bf6a6a3bdb	pass
 # html/direction-002.htm	12b697880ef31320cb3a92589d76ee9f85be6546	pass
 # html/direction-003.htm	c5e4860af47173b24a7778a2b12ee81fc49585e1	pass
+# html/direction-applies-to-001.htm	ad85663884bb84a128b7d255a2185b758706d1c9	?
+# html/direction-applies-to-002.htm	6e301be686dcc42be9dca56877a71c5900c29567	?
+# html/direction-applies-to-003.htm	454340102868a1beb1d5dce03b1cc5fffe71e5d0	?
+# html/direction-applies-to-004.htm	ece9d9914f3b315351a9365a9a3a004c4065b99b	?
+# html/direction-applies-to-005.htm	8e4fd45ed5e3bcf071812e77bbb1b1e8184293dc	?
 # html/direction-applies-to-006.htm	48b32817e073db5d01f16c48ea3ca118eaa80c5b	pass
 # html/direction-applies-to-007.htm	43b0c427954ccd7eac088633011d201acd4bdbeb	pass
 # html/direction-applies-to-008.htm	9330c479eb50753e5f4dbcc6b732c8a16311f056	pass
@@ -351,57 +367,66 @@ xhtml1/different-block-flow-dir-002.xht	dfa3d81dda50b5a39e2a1b98d268841d7af8fd32
 # html/direction-applies-to-013.htm	9dcc0db9e182a5b3be3233aab36c2b7aa42d051f	pass
 # html/direction-applies-to-014.htm	874901d6025aa382b790b2631a7bc0dd2ba894cc	pass
 # html/direction-applies-to-015.htm	dee7609ca9795c120d66809b1f8e87d15fb810ba	pass
-xhtml1/direction-vlr-003.xht	c8cfeb5a3492c16c29cad78fd1c5c27b675f28f7	pass
-xhtml1/direction-vlr-005.xht	1605157588ee84de6bcb3f4a4c9b5d1c08d30b4e	pass
-xhtml1/direction-vrl-002.xht	52bb6deefbc5f97b6f3ce7d040a5e55cbefa3817	pass
-xhtml1/direction-vrl-004.xht	31d81702696bd0c7fe90ce7f4b6a91947db9234f	pass
-xhtml1/float-clear-vlr-003.xht	07fcbcbaf2f008c88301d93cfaae5d5d5d99a69b	pass
-xhtml1/float-clear-vlr-005.xht	829edef1ba43cf2f5f92c91b5fb671827dd754e7	pass
-xhtml1/float-clear-vlr-007.xht	ff73c2c547ac978e9702668f8e1d30ee651e6c63	pass
-xhtml1/float-clear-vlr-009.xht	af34987b3fc54f8f282f5b63e92cc2bb9cbdca1c	pass
-xhtml1/float-clear-vrl-002.xht	9bdecc8c72feb5317cd5defde2b9cf3f033a3518	pass
-xhtml1/float-clear-vrl-004.xht	913f59cd4842050e73b6e17a08e87c863da4c6e4	pass
-xhtml1/float-clear-vrl-006.xht	9aa091af787b6aba54957200da5268f926e98bc5	pass
-xhtml1/float-clear-vrl-008.xht	313e61bc86b055ca461452fb134c7053a660e1ac	pass
-xhtml1/float-contiguous-vlr-003.xht	bfc1773cebd248e01384bd37e85bf6d73e92716f	pass
-xhtml1/float-contiguous-vlr-005.xht	dafae4ce718baf50867418fe360c8d3f01e3ddee	pass
-xhtml1/float-contiguous-vlr-007.xht	09d97481ef7abde2bb6b1504c7916be5fd2ae5b6	pass
-xhtml1/float-contiguous-vlr-009.xht	1b94195a36e6c13249c8b0408d15dc0d2cdd2730	pass
-xhtml1/float-contiguous-vlr-011.xht	6f43c1fe91e3c79ea79584d939d5a4ae18c3e279	pass
-xhtml1/float-contiguous-vlr-013.xht	e7641e7b9e0218b7c6bd262e6b992c11602e4c86	pass
-xhtml1/float-contiguous-vrl-002.xht	58d6bef8287144a90dfe6092f55b6bfce7dc15dc	pass
-xhtml1/float-contiguous-vrl-004.xht	cb54b8398d2a3aa4f966bd587951c931d166e864	pass
-xhtml1/float-contiguous-vrl-006.xht	c37646d07d71d952021f1a3319289597b2090528	pass
-xhtml1/float-contiguous-vrl-008.xht	e63d6cbb1dfa09608fd242b1fee1d31a08836ff4	pass
-xhtml1/float-contiguous-vrl-010.xht	c920de7e26c03d22c11c471658e8cef03ef05225	pass
-xhtml1/float-contiguous-vrl-012.xht	9f7ae6ba438db1a662319563f180ffc6f6a3973e	pass
-xhtml1/float-shrink-to-fit-vlr-003.xht	a35d76e8061dc4d14f1b3c8893aab3638a3ffd17	pass
-xhtml1/float-shrink-to-fit-vlr-005.xht	63a43e4f6f409808f880e89eb9f2bfbfbe129217	pass
-xhtml1/float-shrink-to-fit-vlr-007.xht	32639154e89cfef0ebc1cf80208f1147c650c916	pass
-xhtml1/float-shrink-to-fit-vlr-009.xht	ed2d047e25d8cb5d55c7b1fbae127a0c7c0a694f	pass
-xhtml1/float-shrink-to-fit-vrl-002.xht	8ad55d62eb2fee042b8823a728db82aaea2396d0	pass
-xhtml1/float-shrink-to-fit-vrl-004.xht	acb351da743b902013d836e1618fea6f1ee18311	pass
-xhtml1/float-shrink-to-fit-vrl-006.xht	7bc2d4a81bd389aa75d1bc462426d46e58551239	pass
-xhtml1/float-shrink-to-fit-vrl-008.xht	74970440e0d26ea361967a4a13cc62da738ade90	pass
-xhtml1/float-shrink-to-fit-vrl-vlr-016.xht	96fa3797b5ce51977df1cfd0d4cff008a3a02e36	pass
-xhtml1/float-vlr-003.xht	f4a69993664114caae1d94e4b780b805a5c981de	pass
-xhtml1/float-vlr-005.xht	dbe454e8d21232a52ad7de5e2ac9b4e7506f90a7	pass
-xhtml1/float-vlr-007.xht	656d49fcbca4c00ee6df8148959134238606f1c6	pass
-xhtml1/float-vlr-009.xht	b59fc387b3310eacbba326580ce61d77d8d0ffa0	pass
-xhtml1/float-vlr-011.xht	1c041d97833e5e83fc7bf7340d7da5f37c5369e4	pass
-xhtml1/float-vlr-013.xht	ce2b294de39487d803d1a33b41894b1a7285f6af	pass
-xhtml1/float-vrl-002.xht	25b891bc0659de2166f1d11dfadaea4dbe7969d6	pass
-xhtml1/float-vrl-004.xht	55cf90f7b2e53a83b79208a3c8846c42e30dfcff	pass
-xhtml1/float-vrl-006.xht	59fa1d832936c3523bbdc01f8797575c1c9a1b7b	pass
-xhtml1/float-vrl-008.xht	a562d6a1fc23693c8780b209673e0aeec9d0cae3	pass
-xhtml1/float-vrl-010.xht	b59980fd3c43107970860cdcea17e840474a0116	pass
-xhtml1/float-vrl-012.xht	11b96153a38deaffbe497b0fe9252c25f30f6c9e	pass
-xhtml1/height-width-inline-non-replaced-vlr-003.xht	57ea2a34009c303f4bc775018c4b7de20d81acf8	pass
-xhtml1/height-width-inline-non-replaced-vrl-002.xht	2b6c49db17e282d91b6456cb6c44c023825a9128	pass
-xhtml1/horizontal-rule-vlr-003.xht	c47416e169c5b440e743a67eac5c3c4d5196f6a5	pass
-xhtml1/horizontal-rule-vlr-005.xht	6f5f57495bcbc441c3eafb695347e47d5c5ec496	pass
-xhtml1/horizontal-rule-vrl-002.xht	3bf5bbb3bbb172c806b28ffa7a8b231b8e97918a	pass
-xhtml1/horizontal-rule-vrl-004.xht	14da7156297d3627b6ed03de8cb83fe63b851ea9	pass
+html/direction-vlr-003.htm	c8cfeb5a3492c16c29cad78fd1c5c27b675f28f7	pass
+html/direction-vlr-005.htm	1605157588ee84de6bcb3f4a4c9b5d1c08d30b4e	pass
+html/direction-vrl-002.htm	52bb6deefbc5f97b6f3ce7d040a5e55cbefa3817	pass
+html/direction-vrl-004.htm	31d81702696bd0c7fe90ce7f4b6a91947db9234f	pass
+# html/extract-ordered-list-direction-and-writing-modes.htm	f456a08de75932c3881a76490ed2fdb7211d2bc8	?
+# html/flexbox-writing-mode-007.htm	0557a81af23da4d969bce70f840968a7d5947006	?
+# html/flexbox-writing-mode-008.htm	aaac3dcddfec40e5c67ae479e0df2184ddec82d2	?
+# html/flexbox-writing-mode-009.htm	931b9d02203e63cacec94a45b450d721c5222706	?
+html/float-clear-vlr-003.htm	07fcbcbaf2f008c88301d93cfaae5d5d5d99a69b	pass
+html/float-clear-vlr-005.htm	829edef1ba43cf2f5f92c91b5fb671827dd754e7	pass
+html/float-clear-vlr-007.htm	ff73c2c547ac978e9702668f8e1d30ee651e6c63	pass
+html/float-clear-vlr-009.htm	af34987b3fc54f8f282f5b63e92cc2bb9cbdca1c	pass
+html/float-clear-vrl-002.htm	9bdecc8c72feb5317cd5defde2b9cf3f033a3518	pass
+html/float-clear-vrl-004.htm	913f59cd4842050e73b6e17a08e87c863da4c6e4	pass
+html/float-clear-vrl-006.htm	9aa091af787b6aba54957200da5268f926e98bc5	pass
+html/float-clear-vrl-008.htm	313e61bc86b055ca461452fb134c7053a660e1ac	pass
+html/float-contiguous-vlr-003.htm	bfc1773cebd248e01384bd37e85bf6d73e92716f	pass
+html/float-contiguous-vlr-005.htm	dafae4ce718baf50867418fe360c8d3f01e3ddee	pass
+html/float-contiguous-vlr-007.htm	09d97481ef7abde2bb6b1504c7916be5fd2ae5b6	pass
+html/float-contiguous-vlr-009.htm	1b94195a36e6c13249c8b0408d15dc0d2cdd2730	pass
+html/float-contiguous-vlr-011.htm	6f43c1fe91e3c79ea79584d939d5a4ae18c3e279	pass
+html/float-contiguous-vlr-013.htm	e7641e7b9e0218b7c6bd262e6b992c11602e4c86	pass
+html/float-contiguous-vrl-002.htm	58d6bef8287144a90dfe6092f55b6bfce7dc15dc	pass
+html/float-contiguous-vrl-004.htm	cb54b8398d2a3aa4f966bd587951c931d166e864	pass
+html/float-contiguous-vrl-006.htm	c37646d07d71d952021f1a3319289597b2090528	pass
+html/float-contiguous-vrl-008.htm	e63d6cbb1dfa09608fd242b1fee1d31a08836ff4	pass
+html/float-contiguous-vrl-010.htm	c920de7e26c03d22c11c471658e8cef03ef05225	pass
+html/float-contiguous-vrl-012.htm	9f7ae6ba438db1a662319563f180ffc6f6a3973e	pass
+html/float-shrink-to-fit-vlr-003.htm	a35d76e8061dc4d14f1b3c8893aab3638a3ffd17	pass
+html/float-shrink-to-fit-vlr-005.htm	63a43e4f6f409808f880e89eb9f2bfbfbe129217	pass
+html/float-shrink-to-fit-vlr-007.htm	32639154e89cfef0ebc1cf80208f1147c650c916	pass
+html/float-shrink-to-fit-vlr-009.htm	ed2d047e25d8cb5d55c7b1fbae127a0c7c0a694f	pass
+html/float-shrink-to-fit-vrl-002.htm	8ad55d62eb2fee042b8823a728db82aaea2396d0	pass
+html/float-shrink-to-fit-vrl-004.htm	acb351da743b902013d836e1618fea6f1ee18311	pass
+html/float-shrink-to-fit-vrl-006.htm	7bc2d4a81bd389aa75d1bc462426d46e58551239	pass
+html/float-shrink-to-fit-vrl-008.htm	74970440e0d26ea361967a4a13cc62da738ade90	pass
+html/float-shrink-to-fit-vrl-vlr-016.htm	96fa3797b5ce51977df1cfd0d4cff008a3a02e36	pass
+html/float-vlr-003.htm	f4a69993664114caae1d94e4b780b805a5c981de	pass
+html/float-vlr-005.htm	dbe454e8d21232a52ad7de5e2ac9b4e7506f90a7	pass
+html/float-vlr-007.htm	656d49fcbca4c00ee6df8148959134238606f1c6	pass
+html/float-vlr-009.htm	b59fc387b3310eacbba326580ce61d77d8d0ffa0	pass
+html/float-vlr-011.htm	1c041d97833e5e83fc7bf7340d7da5f37c5369e4	pass
+html/float-vlr-013.htm	ce2b294de39487d803d1a33b41894b1a7285f6af	pass
+html/float-vrl-002.htm	25b891bc0659de2166f1d11dfadaea4dbe7969d6	pass
+html/float-vrl-004.htm	55cf90f7b2e53a83b79208a3c8846c42e30dfcff	pass
+html/float-vrl-006.htm	59fa1d832936c3523bbdc01f8797575c1c9a1b7b	pass
+html/float-vrl-008.htm	a562d6a1fc23693c8780b209673e0aeec9d0cae3	pass
+html/float-vrl-010.htm	b59980fd3c43107970860cdcea17e840474a0116	pass
+html/float-vrl-012.htm	11b96153a38deaffbe497b0fe9252c25f30f6c9e	pass
+# html/form-controls-vert-rl-004.htm	55f1a010d3b5d51bba07822f206228b170782c0c	?
+# html/form-controls-vert-rl-005.htm	76cacb867c752913e51f52b6a19d9c0f9d55e080	?
+# html/full-width-001.htm	f752970d15c5ed27a98a938b60500d0518a5f23f	?
+# html/full-width-002.htm	c4e7b411f8ee7860df31d67b1dc147115f1ef50a	?
+# html/full-width-003.htm	cbbd004f1f243eb9d28cd04589984f141132cfd1	?
+html/height-width-inline-non-replaced-vlr-003.htm	57ea2a34009c303f4bc775018c4b7de20d81acf8	pass
+html/height-width-inline-non-replaced-vrl-002.htm	2b6c49db17e282d91b6456cb6c44c023825a9128	pass
+html/horizontal-rule-vlr-003.htm	c47416e169c5b440e743a67eac5c3c4d5196f6a5	pass
+html/horizontal-rule-vlr-005.htm	6f5f57495bcbc441c3eafb695347e47d5c5ec496	pass
+html/horizontal-rule-vrl-002.htm	3bf5bbb3bbb172c806b28ffa7a8b231b8e97918a	pass
+html/horizontal-rule-vrl-004.htm	14da7156297d3627b6ed03de8cb83fe63b851ea9	pass
 # html/inline-block-alignment-002a.htm	53b8f2d1c97a9f8c5a24d892088cae2846194bac	fail
 # html/inline-block-alignment-002b.htm	96155ce40e8d728986bd32d0cb8b64724862617a	pass
 # html/inline-block-alignment-003a.htm	6f86f399edcdf82716a84be9c2528b6905ff9741	pass
@@ -410,57 +435,57 @@ xhtml1/horizontal-rule-vrl-004.xht	14da7156297d3627b6ed03de8cb83fe63b851ea9	pass
 # html/inline-block-alignment-005b.htm	f24f1c212ca3e23d0d495e46b38ec0cb297cad2c	pass
 # html/inline-block-alignment-006a.htm	f9618df006d1eb85dff19d08d8627ef433d0aea0	pass
 # html/inline-block-alignment-006b.htm	d5591ccbb1a1a0c3c089eaa939143a0ac7adb939	pass
-xhtml1/inline-block-alignment-new-002.xht	256edc0b71ceacccabb2c7d8a40e63a304eca339	pass
-xhtml1/inline-block-alignment-new-006.xht	86a21e995d584d0101f1e751a51bb9046159d565	pass
-xhtml1/inline-block-alignment-orthogonal-vlr-003.xht	4c158c1913bcf69e7f6f7cf7fe1058dea9632639	pass
-xhtml1/inline-block-alignment-orthogonal-vlr-005.xht	9cc37b55e5fc41ccb0ff4eed7d415459861f3b75	pass
-xhtml1/inline-block-alignment-orthogonal-vrl-002.xht	c87e0c587a27e594349a00542bedeb24af244680	pass
-xhtml1/inline-block-alignment-orthogonal-vrl-004.xht	163cdbb62a145a13609e33b17b53c60c86d2b60d	pass
-xhtml1/inline-replaced-vlr-003.xht	fb490b42fc0b5e2d19122a5ec93d729280d0de37	pass
-xhtml1/inline-replaced-vlr-005.xht	b5dcfdc56b5b258c40416c2cec8aaf08b2cdeeeb	pass
-xhtml1/inline-replaced-vrl-002.xht	65edb60ad7a542cacaee25d586d2a07bc30e86b9	pass
-xhtml1/inline-replaced-vrl-004.xht	f778f8c545ab11a407e3e54af3c32bd409d0e385	pass
-xhtml1/line-box-direction-001.xht	d7552acb4da0e10ba1d4b41acab6546e6afab01d	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/line-box-direction-002.xht	46bf5686799dd169dd2475c64b5c18212707227c	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/line-box-direction-003.xht	ed513e0371680fbd13470d21904e74bf47e42a25	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/line-box-direction-005.xht	4fd9ba06e3eaa457ddabe8949f8c65ba8eb46024	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/line-box-direction-006.xht	79b831b58c9e4678c6ad721e5ae20863f2c2ebd5	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/line-box-direction-007.xht	fef857d3bd765c067ecc0dd258a88b2234d7c485	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/line-box-direction-008.xht	ea6b695b6f120d7cfc7f111136c4d26bcf0d4df2	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/line-box-direction-009.xht	24bebd5db34b6db524a8d959a390ceaa359f0eab	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
-xhtml1/line-box-direction-010.xht	95a69a326d762a7f9cea1317a43dbe297670b8bc	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/line-box-direction-011.xht	7de226f93d1070099962c17fbcd2c9a10213aade	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/line-box-direction-012.xht	45925e8c14fdb1752cca7d0a29ba2701b99b63f1	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/line-box-direction-013.xht	812e1ddd55d88a69ec67f77ba5665f8615174d05	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/line-box-direction-014.xht	0ee78c11f5c8649d9e6b9696193397dc8c7347a1	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/inline-block-alignment-new-002.htm	256edc0b71ceacccabb2c7d8a40e63a304eca339	pass
+html/inline-block-alignment-new-006.htm	86a21e995d584d0101f1e751a51bb9046159d565	pass
+html/inline-block-alignment-orthogonal-vlr-003.htm	4c158c1913bcf69e7f6f7cf7fe1058dea9632639	pass
+html/inline-block-alignment-orthogonal-vlr-005.htm	9cc37b55e5fc41ccb0ff4eed7d415459861f3b75	pass
+html/inline-block-alignment-orthogonal-vrl-002.htm	c87e0c587a27e594349a00542bedeb24af244680	pass
+html/inline-block-alignment-orthogonal-vrl-004.htm	163cdbb62a145a13609e33b17b53c60c86d2b60d	pass
+html/inline-replaced-vlr-003.htm	fb490b42fc0b5e2d19122a5ec93d729280d0de37	pass
+html/inline-replaced-vlr-005.htm	b5dcfdc56b5b258c40416c2cec8aaf08b2cdeeeb	pass
+html/inline-replaced-vrl-002.htm	65edb60ad7a542cacaee25d586d2a07bc30e86b9	pass
+html/inline-replaced-vrl-004.htm	f778f8c545ab11a407e3e54af3c32bd409d0e385	pass
+html/line-box-direction-001.htm	d7552acb4da0e10ba1d4b41acab6546e6afab01d	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-002.htm	46bf5686799dd169dd2475c64b5c18212707227c	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-003.htm	ed513e0371680fbd13470d21904e74bf47e42a25	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-005.htm	4fd9ba06e3eaa457ddabe8949f8c65ba8eb46024	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-006.htm	79b831b58c9e4678c6ad721e5ae20863f2c2ebd5	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-007.htm	fef857d3bd765c067ecc0dd258a88b2234d7c485	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-008.htm	ea6b695b6f120d7cfc7f111136c4d26bcf0d4df2	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-009.htm	24bebd5db34b6db524a8d959a390ceaa359f0eab	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
+html/line-box-direction-010.htm	95a69a326d762a7f9cea1317a43dbe297670b8bc	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-011.htm	7de226f93d1070099962c17fbcd2c9a10213aade	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-012.htm	45925e8c14fdb1752cca7d0a29ba2701b99b63f1	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-013.htm	812e1ddd55d88a69ec67f77ba5665f8615174d05	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-014.htm	0ee78c11f5c8649d9e6b9696193397dc8c7347a1	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 # html/line-box-direction-015.htm	a00758fb223b87299a4ff0e6229bb87cf07756bf	fail
 # html/line-box-direction-016.htm	d4cd1c95d7ad40e5eb946c9931cce3caaaf87e5d	fail
-xhtml1/line-box-direction-017.xht	8b315cc8543780462348d91733091b8f88308d88	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/line-box-direction-018.xht	947bcfadbfe8f88ad99334e15de647cbd0dfe8f6	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/line-box-direction-019.xht	67452b2785ca78ba7d0fefa1c51ac8e69a1fd279	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/line-box-direction-020.xht	e377ac675204360a7c3c2732aabd44a56e76177b	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/margin-collapse-vlr-003.xht	17360ce7dfc9485ca0cafb9596f7d9b5a974de20	pass
-xhtml1/margin-collapse-vlr-009.xht	c219405819902980a7724034dbc5a83c95881fff	pass
-xhtml1/margin-collapse-vlr-011.xht	285ed7143afc4ae1d12bd164fa64fbb8030965d7	pass
-xhtml1/margin-collapse-vlr-015.xht	1910bce002686e0f76a4c348f741643f0b0d154e	pass
-xhtml1/margin-collapse-vlr-017.xht	bb1e1bd4f558cfc0b15d6572dccdda0784208de3	pass
+html/line-box-direction-017.htm	8b315cc8543780462348d91733091b8f88308d88	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-018.htm	947bcfadbfe8f88ad99334e15de647cbd0dfe8f6	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-019.htm	67452b2785ca78ba7d0fefa1c51ac8e69a1fd279	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-020.htm	e377ac675204360a7c3c2732aabd44a56e76177b	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/margin-collapse-vlr-003.htm	17360ce7dfc9485ca0cafb9596f7d9b5a974de20	pass
+html/margin-collapse-vlr-009.htm	c219405819902980a7724034dbc5a83c95881fff	pass
+html/margin-collapse-vlr-011.htm	285ed7143afc4ae1d12bd164fa64fbb8030965d7	pass
+html/margin-collapse-vlr-015.htm	1910bce002686e0f76a4c348f741643f0b0d154e	pass
+html/margin-collapse-vlr-017.htm	bb1e1bd4f558cfc0b15d6572dccdda0784208de3	pass
 # html/margin-collapse-vlr-023.htm	1a51e419e1234e38fca45cb07cfe9529f24bf14e	fail
-xhtml1/margin-collapse-vlr-025.xht	b3fc87387f20364bf5e0ca9cb6f6c3f3a76e912f	pass
-xhtml1/margin-collapse-vlr-031.xht	1f6bd5cf9caa176f41bf038214484313f56d4866	pass
-xhtml1/margin-collapse-vlr-035.xht	0c1868311e1e35b1a7af8dea47b89fcbd41a9a84	pass
-xhtml1/margin-collapse-vlr-037.xht	81fce7db2cffde9823c8b9672e1ec7d84c5a7932	pass
-xhtml1/margin-collapse-vrl-002.xht	5289dc3226137de106c705a43e3b69a3b588e8ac	pass
-xhtml1/margin-collapse-vrl-008.xht	847ef0e6462f1ca70aea6ff395dcb32d608dd5ca	pass
-xhtml1/margin-collapse-vrl-010.xht	11434b5bbf7d017becea9a7f50f51111280fa2e7	pass
-xhtml1/margin-collapse-vrl-014.xht	189a3ba70e80d366caec1a521ec73452990cb0e9	pass
-xhtml1/margin-collapse-vrl-016.xht	465c5979e90ae0a5db790f7dccbf98145eefa703	pass
+html/margin-collapse-vlr-025.htm	b3fc87387f20364bf5e0ca9cb6f6c3f3a76e912f	pass
+html/margin-collapse-vlr-031.htm	1f6bd5cf9caa176f41bf038214484313f56d4866	pass
+html/margin-collapse-vlr-035.htm	0c1868311e1e35b1a7af8dea47b89fcbd41a9a84	pass
+html/margin-collapse-vlr-037.htm	81fce7db2cffde9823c8b9672e1ec7d84c5a7932	pass
+html/margin-collapse-vrl-002.htm	5289dc3226137de106c705a43e3b69a3b588e8ac	pass
+html/margin-collapse-vrl-008.htm	847ef0e6462f1ca70aea6ff395dcb32d608dd5ca	pass
+html/margin-collapse-vrl-010.htm	11434b5bbf7d017becea9a7f50f51111280fa2e7	pass
+html/margin-collapse-vrl-014.htm	189a3ba70e80d366caec1a521ec73452990cb0e9	pass
+html/margin-collapse-vrl-016.htm	465c5979e90ae0a5db790f7dccbf98145eefa703	pass
 # html/margin-collapse-vrl-022.htm	2d31816112206bbebe5ce7dde418fa25a54d0d4c	fail
-xhtml1/margin-collapse-vrl-024.xht	558d029b4b6fd193ac3b04220ec10f5226f18810	pass
-xhtml1/margin-collapse-vrl-030.xht	f7361122bcbe1aa63c13644dc3267d191e7a2b8f	pass
-xhtml1/margin-collapse-vrl-034.xht	c383d4e25e05263bed13bdbe491783e431e8d427	pass
-xhtml1/margin-collapse-vrl-036.xht	646e80149a20561f3e11b75ccf98e5742f55c826	pass
-xhtml1/margin-vlr-003.xht	02f132c12e24ed234c7d79910b270cc64ab6972c	pass
-xhtml1/margin-vrl-002.xht	3750fe541b8a60cceb015ad4592fa7a6d11754ac	pass
+html/margin-collapse-vrl-024.htm	558d029b4b6fd193ac3b04220ec10f5226f18810	pass
+html/margin-collapse-vrl-030.htm	f7361122bcbe1aa63c13644dc3267d191e7a2b8f	pass
+html/margin-collapse-vrl-034.htm	c383d4e25e05263bed13bdbe491783e431e8d427	pass
+html/margin-collapse-vrl-036.htm	646e80149a20561f3e11b75ccf98e5742f55c826	pass
+html/margin-vlr-003.htm	02f132c12e24ed234c7d79910b270cc64ab6972c	pass
+html/margin-vrl-002.htm	3750fe541b8a60cceb015ad4592fa7a6d11754ac	pass
 html/orthogonal-parent-shrink-to-fit-001.htm	46cd456dca816810a32faace74d9784c305c5e51	fail
 html/orthogonal-parent-shrink-to-fit-001a.htm	5e4a7b7d5e82b597e60e8709af66b8c19acc6571	fail
 html/orthogonal-parent-shrink-to-fit-001b.htm	4d33da4ab00d4b2092ba9cdc2f0d603624a07529	fail
@@ -486,64 +511,70 @@ html/orthogonal-parent-shrink-to-fit-001u.htm	170ab794eb689394d0047408f5bd56df69
 html/orthogonal-parent-shrink-to-fit-001v.htm	bceb88f4a0d4171f7be8d9ec389abe1599bc31cb	fail
 html/orthogonal-parent-shrink-to-fit-001w.htm	31078a6106008fcdd270f4fa7ae220bc91b853f7	fail
 html/orthogonal-parent-shrink-to-fit-001x.htm	6e931baf65a39f6b852fa83efd23aef0973baa62	fail
-xhtml1/padding-vlr-005.xht	4c16042900e00793d562c3b4f5c39a3df16b1f95	pass
-xhtml1/padding-vrl-004.xht	43a0740c77fa25671e5831c88555b884e75216ee	pass
+html/padding-vlr-005.htm	4c16042900e00793d562c3b4f5c39a3df16b1f95	pass
+html/padding-vrl-004.htm	43a0740c77fa25671e5831c88555b884e75216ee	pass
 # html/page-flow-direction-002.htm	517eb88ec0066fc5b6f14a1602fa5383364ecb3c	pass
 # html/page-flow-direction-003.htm	9362449f07d4b9dac8dc62f7cc5c1760d02387be	pass
-xhtml1/percent-margin-vlr-003.xht	d9ee8193bd1f18a91e7ceaa50b19fa4f06882838	pass
-xhtml1/percent-margin-vlr-005.xht	2eb847fad6839dee330c0a9c6f00f48f66b5eec0	pass
-xhtml1/percent-margin-vlr-007.xht	5d20543c74ae19c01ac8a5c86e731b212374be55	pass
-xhtml1/percent-margin-vrl-002.xht	5f371c549b3c845783bc57e139e8fd821ee532f7	pass
-xhtml1/percent-margin-vrl-004.xht	ab810aa6e4555fd4b7403be142cf285ef8578c6d	pass
-xhtml1/percent-margin-vrl-006.xht	18b25cfad7db1dd8cfb71a5700b7e564daae91f0	pass
-xhtml1/percent-padding-vlr-003.xht	d6b60f46fa50d9656d828576e91bbb2e037f0ef8	pass
-xhtml1/percent-padding-vlr-005.xht	c92bab1ef69f19c5722b56238ab4ff6f43c540dc	pass
-xhtml1/percent-padding-vlr-007.xht	134f342ee88aef0b563bfbc444048877d59da1a3	pass
-xhtml1/percent-padding-vrl-002.xht	0ea1759dc4962f61a915ebea347b39f19b708bb8	pass
-xhtml1/percent-padding-vrl-004.xht	9224136aef89e3d2e559902a39d5646afbee7f43	pass
-xhtml1/percent-padding-vrl-006.xht	48c37c68b126ddc8b8bc3407b949a71943801f13	pass
+html/percent-margin-vlr-003.htm	d9ee8193bd1f18a91e7ceaa50b19fa4f06882838	pass
+html/percent-margin-vlr-005.htm	2eb847fad6839dee330c0a9c6f00f48f66b5eec0	pass
+html/percent-margin-vlr-007.htm	5d20543c74ae19c01ac8a5c86e731b212374be55	pass
+html/percent-margin-vrl-002.htm	5f371c549b3c845783bc57e139e8fd821ee532f7	pass
+html/percent-margin-vrl-004.htm	ab810aa6e4555fd4b7403be142cf285ef8578c6d	pass
+html/percent-margin-vrl-006.htm	18b25cfad7db1dd8cfb71a5700b7e564daae91f0	pass
+html/percent-padding-vlr-003.htm	d6b60f46fa50d9656d828576e91bbb2e037f0ef8	pass
+html/percent-padding-vlr-005.htm	c92bab1ef69f19c5722b56238ab4ff6f43c540dc	pass
+html/percent-padding-vlr-007.htm	134f342ee88aef0b563bfbc444048877d59da1a3	pass
+html/percent-padding-vrl-002.htm	0ea1759dc4962f61a915ebea347b39f19b708bb8	pass
+html/percent-padding-vrl-004.htm	9224136aef89e3d2e559902a39d5646afbee7f43	pass
+html/percent-padding-vrl-006.htm	48c37c68b126ddc8b8bc3407b949a71943801f13	pass
 # html/replaced-content-image-002.htm	70d61235f5585e0d31e481bcf211b85eff22f9e9	pass
 # html/replaced-content-image-003.htm	7b74dbd7ce8dfb573f138987a97a5bcd5d209973	pass
-xhtml1/row-progression-002.xht	3b5c12ab7921fc088c384d13b2c9ca16ed08209a	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/row-progression-003.xht	2f306a069548ca21adbcaf8421cb60f7bd66aba1	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/row-progression-004.xht	21499b03475c70525c8c844567aadaf4dc3d6143	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/row-progression-005.xht	6d2313c1db8eb7f8220f00c88936bd203cf29a3e	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/row-progression-006.xht	025e0fff6dcb4a8b14a9a3a31ed4ac05fdcdc79f	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/row-progression-007.xht	1ccc34bd4627e677930a86bfd2c50f2befc90290	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/row-progression-008.xht	088ef6214813ff19985f59d9ce9970c2eaaa39d4	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/row-progression-009.xht	f6ff4559ed25934fbb3c5361dbe5b81756f56579	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/table-column-order-002.xht	fb78f77cd5262bbe761aa9fe867621a8c3a73a70	fail
-xhtml1/table-column-order-003.xht	ce9b9dc76a8fdfad09d1a2724fa783a6683004e0	fail
-xhtml1/table-column-order-004.xht	73b9fe08143c5bc02ce7993bbedb7d6d66266d7e	fail
-xhtml1/table-column-order-005.xht	8030438f3bad113fd056b7d3b2fdfac2b7f784a4	fail
-xhtml1/text-align-vlr-003.xht	cddc4c0782ac3516e28e056444d5ee24e3ef5f76	pass
-xhtml1/text-align-vlr-005.xht	3fee558381ef7607ba776b511228381bac8016ca	pass
-xhtml1/text-align-vlr-007.xht	7cd89d36dde9096d58920aa38f1883e70a1ac2bb	pass
-xhtml1/text-align-vlr-009.xht	2e858435a2a218dbec727a5e84e58174cbac61fa	pass
-xhtml1/text-align-vlr-011.xht	87b257195c55bc8dc1e62666977ed82b539a3922	pass
-xhtml1/text-align-vlr-013.xht	9bb9c7b8b0002a48617934e853beb08ddbb4ee2c	pass
-xhtml1/text-align-vlr-015.xht	cdf5ca027266e4f5542c90757d122520ad9d64a6	pass
-xhtml1/text-align-vlr-017.xht	34a4c4c96ed12ffa60a38241eccbca39dd618dc2	pass
-xhtml1/text-align-vlr-019.xht	53401c189bb511f9218ef2389e9b2e9e7a418b01	pass
-xhtml1/text-align-vrl-002.xht	139aa894a9697ab3ffeea4fa6f51217f728f70cb	pass
-xhtml1/text-align-vrl-004.xht	7da7d9d0ffa5128bbb4911a267e8568980b355d3	pass
-xhtml1/text-align-vrl-006.xht	de34aaa162c28dd4d0f366f832bdfe3e81c63886	pass
-xhtml1/text-align-vrl-008.xht	550c806e0643da53dc65e819bb44f82758924415	pass
-xhtml1/text-align-vrl-010.xht	4db8e8fe0a136f40d0884c1f90204e5b258950d0	pass
-xhtml1/text-align-vrl-012.xht	c9ccd9e72b1a86288acd585bd85d2af85ba99bfc	pass
-xhtml1/text-align-vrl-014.xht	8bc70d62d03aa0dabdb38207ad764af842f9cbe8	pass
-xhtml1/text-align-vrl-016.xht	7a36113cd6163355f062f6c7889d2c83469c0e96	pass
-xhtml1/text-align-vrl-018.xht	6e4c6d559134e70dbd679b57bda7e7bd2f80cfea	pass
-xhtml1/text-baseline-002.xht	7b79ec69488f038b72e04d13ca3bb54adcbcd276	pass
-xhtml1/text-baseline-003.xht	a5e4751e31068bb26557796b02c8ea208db182c1	pass
-xhtml1/text-baseline-004.xht	071d1602e1a144e3c3823132f92b5980f09365a8	pass
-xhtml1/text-baseline-005.xht	67a08f47437673fdd9791164aa5ffd9ad6487ab0	pass
-xhtml1/text-baseline-006.xht	6904eff9e54cf343d00cb352edd7ec10289269b4	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/row-progression-002.htm	3b5c12ab7921fc088c384d13b2c9ca16ed08209a	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/row-progression-003.htm	2f306a069548ca21adbcaf8421cb60f7bd66aba1	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/row-progression-004.htm	21499b03475c70525c8c844567aadaf4dc3d6143	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/row-progression-005.htm	6d2313c1db8eb7f8220f00c88936bd203cf29a3e	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/row-progression-006.htm	025e0fff6dcb4a8b14a9a3a31ed4ac05fdcdc79f	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/row-progression-007.htm	1ccc34bd4627e677930a86bfd2c50f2befc90290	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/row-progression-008.htm	088ef6214813ff19985f59d9ce9970c2eaaa39d4	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/row-progression-009.htm	f6ff4559ed25934fbb3c5361dbe5b81756f56579	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/table-column-order-002.htm	fb78f77cd5262bbe761aa9fe867621a8c3a73a70	fail
+html/table-column-order-003.htm	ce9b9dc76a8fdfad09d1a2724fa783a6683004e0	fail
+html/table-column-order-004.htm	73b9fe08143c5bc02ce7993bbedb7d6d66266d7e	fail
+html/table-column-order-005.htm	8030438f3bad113fd056b7d3b2fdfac2b7f784a4	fail
+html/text-align-vlr-003.htm	cddc4c0782ac3516e28e056444d5ee24e3ef5f76	pass
+html/text-align-vlr-005.htm	3fee558381ef7607ba776b511228381bac8016ca	pass
+html/text-align-vlr-007.htm	7cd89d36dde9096d58920aa38f1883e70a1ac2bb	pass
+html/text-align-vlr-009.htm	2e858435a2a218dbec727a5e84e58174cbac61fa	pass
+html/text-align-vlr-011.htm	87b257195c55bc8dc1e62666977ed82b539a3922	pass
+html/text-align-vlr-013.htm	9bb9c7b8b0002a48617934e853beb08ddbb4ee2c	pass
+html/text-align-vlr-015.htm	cdf5ca027266e4f5542c90757d122520ad9d64a6	pass
+html/text-align-vlr-017.htm	34a4c4c96ed12ffa60a38241eccbca39dd618dc2	pass
+html/text-align-vlr-019.htm	53401c189bb511f9218ef2389e9b2e9e7a418b01	pass
+html/text-align-vrl-002.htm	139aa894a9697ab3ffeea4fa6f51217f728f70cb	pass
+html/text-align-vrl-004.htm	7da7d9d0ffa5128bbb4911a267e8568980b355d3	pass
+html/text-align-vrl-006.htm	de34aaa162c28dd4d0f366f832bdfe3e81c63886	pass
+html/text-align-vrl-008.htm	550c806e0643da53dc65e819bb44f82758924415	pass
+html/text-align-vrl-010.htm	4db8e8fe0a136f40d0884c1f90204e5b258950d0	pass
+html/text-align-vrl-012.htm	c9ccd9e72b1a86288acd585bd85d2af85ba99bfc	pass
+html/text-align-vrl-014.htm	8bc70d62d03aa0dabdb38207ad764af842f9cbe8	pass
+html/text-align-vrl-016.htm	7a36113cd6163355f062f6c7889d2c83469c0e96	pass
+html/text-align-vrl-018.htm	6e4c6d559134e70dbd679b57bda7e7bd2f80cfea	pass
+html/text-baseline-002.htm	7b79ec69488f038b72e04d13ca3bb54adcbcd276	pass
+html/text-baseline-003.htm	a5e4751e31068bb26557796b02c8ea208db182c1	pass
+html/text-baseline-004.htm	071d1602e1a144e3c3823132f92b5980f09365a8	pass
+html/text-baseline-005.htm	67a08f47437673fdd9791164aa5ffd9ad6487ab0	pass
+html/text-baseline-006.htm	6904eff9e54cf343d00cb352edd7ec10289269b4	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 # html/text-baseline-007.htm	43bdee6a26abf3e35996cf202eb5ed73b607f630	fail
-xhtml1/text-baseline-008.xht	71c017581a847aa06b5715c7d4e88050bdc7ffca	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-xhtml1/text-baseline-009.xht	a2fd18eda0cad02eb09004338de627414847c9d3	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/text-baseline-008.htm	71c017581a847aa06b5715c7d4e88050bdc7ffca	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/text-baseline-009.htm	a2fd18eda0cad02eb09004338de627414847c9d3	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 # html/text-baseline-010.htm	ed91654bb8ce0d95766a8d78d1e7d5680e2a52ce	fail
 # html/text-baseline-011.htm	a6b19babb0dc749e5ed036aea140704a6d5bda55	fail
+# html/text-combine-horizontal-010.htm	10b90a907700189ea5f41c0666d51ae3a032c49b	?
+# html/text-combine-horizontal-011.htm	77ecc63e7f6265ba79e0b5a0f64c8d09d4214045	?
+# html/text-combine-upright-parsing-invalid-001.htm	2b2c132e18a567fb8056e362766d8a030557c4de	?
+# html/text-combine-upright-parsing-invalid-002.htm	7f78c2344ff0a88366e152bfb9dd032df56c8e31	?
+# html/text-combine-upright-parsing-valid-001.htm	0ce4e72cafc4c08b3dbb51296126cc6ec5cfc581	?
+# html/text-combine-upright-parsing-valid-002.htm	c04b90914c86be633173bfcc63c14b2a44b058db	?
 html/text-decoration-001.htm	d9a469751905e9950b458ec3149cf740f727a0c9	fail
 # html/text-decoration-sidewaysleft-vlr-003.htm	13860419acaa722347ad09079c169ef6a8ba5ade	fail
 # html/text-decoration-sidewaysleft-vlr-005.htm	fd527a5c91aa03ce36207ee9720165068e087b03	fail
@@ -564,28 +595,30 @@ html/text-decoration-001.htm	d9a469751905e9950b458ec3149cf740f727a0c9	fail
 # html/text-decoration-upright-vrl-004.htm	da674a9887fe6ae0fe4e307fad07f43c749a0030	pass
 # html/text-decoration-upright-vrl-006.htm	d4d19ae10677a788623f605f05a3415c76d6fe31	pass
 html/text-emphasis-001.htm	eff59e032498a841e0db09b571129e882df4bef0	fail
-xhtml1/text-indent-vlr-003.xht	a2307c05f77001c45994aae0d5030b062140ae79	pass
-xhtml1/text-indent-vlr-005.xht	ec355150dc09150e95645f5b0f45e553e17f97eb	pass
-xhtml1/text-indent-vlr-007.xht	62375901a4a5040530d3c029a600d0884de495c2	pass
-xhtml1/text-indent-vlr-009.xht	827c577323e54c523892209ba8c45046d1e9a5f6	pass
-xhtml1/text-indent-vlr-011.xht	b6fa62151069756e1efb9e7c5955cde99df94563	pass
-xhtml1/text-indent-vlr-013.xht	1e6fa9e1477d00930b79d11534c6a029cf64ab19	pass
-xhtml1/text-indent-vlr-015.xht	e14477194313b80b51da3315309d03ee82cc2642	pass
-xhtml1/text-indent-vlr-017.xht	00c2c20242f09671f96e21129eefb5561a73b723	pass
-xhtml1/text-indent-vrl-002.xht	4276779f3524fd8bc693fb7e47c8900d7ca0f431	pass
-xhtml1/text-indent-vrl-004.xht	92d4df59d2ea3403f7521d41a82de1f495961590	pass
-xhtml1/text-indent-vrl-006.xht	667210e580eec69b30ac7d70bb4e852b0bf190a9	pass
-xhtml1/text-indent-vrl-008.xht	a242554acd3084f828d6a271d553e0b3cb00ce73	pass
-xhtml1/text-indent-vrl-010.xht	fd43520a39150392ce406569c31ece4b6e2bf692	pass
-xhtml1/text-indent-vrl-012.xht	0daa6170d48fe9d587ed7fd62850c44967a37628	pass
-xhtml1/text-indent-vrl-014.xht	6685678a849e9c2177028da5890defe33b76e75d	pass
-xhtml1/text-indent-vrl-016.xht	67f948b37e2a012095cf7c19125a413ac458fcae	pass
+html/text-indent-vlr-003.htm	a2307c05f77001c45994aae0d5030b062140ae79	pass
+html/text-indent-vlr-005.htm	ec355150dc09150e95645f5b0f45e553e17f97eb	pass
+html/text-indent-vlr-007.htm	62375901a4a5040530d3c029a600d0884de495c2	pass
+html/text-indent-vlr-009.htm	827c577323e54c523892209ba8c45046d1e9a5f6	pass
+html/text-indent-vlr-011.htm	b6fa62151069756e1efb9e7c5955cde99df94563	pass
+html/text-indent-vlr-013.htm	1e6fa9e1477d00930b79d11534c6a029cf64ab19	pass
+html/text-indent-vlr-015.htm	e14477194313b80b51da3315309d03ee82cc2642	pass
+html/text-indent-vlr-017.htm	00c2c20242f09671f96e21129eefb5561a73b723	pass
+html/text-indent-vrl-002.htm	4276779f3524fd8bc693fb7e47c8900d7ca0f431	pass
+html/text-indent-vrl-004.htm	92d4df59d2ea3403f7521d41a82de1f495961590	pass
+html/text-indent-vrl-006.htm	667210e580eec69b30ac7d70bb4e852b0bf190a9	pass
+html/text-indent-vrl-008.htm	a242554acd3084f828d6a271d553e0b3cb00ce73	pass
+html/text-indent-vrl-010.htm	fd43520a39150392ce406569c31ece4b6e2bf692	pass
+html/text-indent-vrl-012.htm	0daa6170d48fe9d587ed7fd62850c44967a37628	pass
+html/text-indent-vrl-014.htm	6685678a849e9c2177028da5890defe33b76e75d	pass
+html/text-indent-vrl-016.htm	67f948b37e2a012095cf7c19125a413ac458fcae	pass
 # html/text-orientation-010.htm	68ded641871256b1871f3bb64494023e0981b2eb	pass
 # html/text-orientation-011.htm	0382ded8441e87f0d7ac6d63deb957b5d07b5ee4	pass
-xhtml1/text-orientation-012.xht	8e197b2643a627c5c7fda73a7d484af88d1d314e	pass
+html/text-orientation-012.htm	8e197b2643a627c5c7fda73a7d484af88d1d314e	pass
 # html/text-orientation-013.htm	5e9e48df639416541014474d9ee8e1856213ea81	fail
-xhtml1/text-orientation-014.xht	00c684d6b5ab616715f157e301f654fb38f71dd4	pass
+html/text-orientation-014.htm	00c684d6b5ab616715f157e301f654fb38f71dd4	pass
 # html/text-orientation-015.htm	6d4bd7001c46f64855c6ded1838b7cc9e000c5b2	fail
+# html/text-orientation-mixed-001.htm	ec56b92df4adfd1d4edc26c618884b42d7da5258	?
+# html/text-orientation-script-001.htm	c6b57649b8f0fcdf0f7caf750682c2e7093b777b	?
 html/text-orientation-script-001a.htm	ce382caffa1da0d7da68fdef50eb490af6ff2812	fail
 html/text-orientation-script-001b.htm	bee11d0a13f4e41edbacf8e29a21097816291e52	pass
 html/text-orientation-script-001c.htm	4c3539b0196194d6922f029d6f8a7381b5b0e17c	fail
@@ -627,6 +660,7 @@ html/text-orientation-script-001o.htm	ad390d60dd518de633056d1bd59900406d4d23e8	p
 html/value-all-002.htm	59a50a642e3765d17ae5e12591f1a9734c9c753e	pass # These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/value-all-003.htm	8a0310a885b909d990bfaccc3aaa6245a90493e8	pass # These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/value-all-and-inherit-001.htm	d10283656560566eb516ce4b3f876fecbec673fe	fail
+# html/value-digit2-and-inherit-001.htm	1a524a016c8b47cd31928d3bc00c4561d546f1d6	?
 # html/value-digits2-002.htm	c519efb6967e1ce7d9bde145d27acba176b8de4d	fail
 html/value-digits2-003.htm	5ed6e18e086e19d7e41ee0c8ab2678b62ebb34c4	pass
 # html/value-digits3-001.htm	ae6e433e2c3c03095519eae6a041b655a51a0abc	fail
@@ -636,11 +670,44 @@ html/value-digits3-003.htm	f7ef238da1568aa769850c9a319619f83cb78879	pass
 # html/value-digits4-002.htm	bbb3df689df1ec378c70b43fbe8f3f541dab7fbb	fail
 html/value-digits4-003.htm	fa18a6d948bfa8651a5524cf150d7c06036ea5b8	pass
 html/value-none-001.htm	12cfcb1e57883a81b58e14329979c604dbd1b85e	pass
+# html/vertical-alignment-002a.htm	a55994c93e6652bdc61229154fe73727bd2c9aea	?
+# html/vertical-alignment-002b.htm	779a3696b7909f11787ad979d92c965675b8ed71	?
+# html/vertical-alignment-003a.htm	66706a353742efd4400d64575c633bb17a2a7252	?
+# html/vertical-alignment-003b.htm	c28364f9b1f41b8538e624119234b1d35d6c6091	?
+# html/vertical-alignment-005a.htm	2df8dff5be7453c111fb9364ef9d796a91095b3a	?
+# html/vertical-alignment-005b.htm	2fc7c00892fc1d5860633a96bba4ba7878ad7004	?
+# html/vertical-alignment-008a.htm	9dc8848f9db104ed33e3001e946369278588df9c	?
+# html/vertical-alignment-008b.htm	7de9f0763dbb93b0f55dceb7b80116c87ad800df	?
+# html/vertical-alignment-011a.htm	e3c5648ce732c30881a84fb5a0a8083191332a56	?
+# html/vertical-alignment-011b.htm	724bbb86a2b9ec3bd9252fec92cacd6212775175	?
+# html/vertical-alignment-012l.htm	1684f5ad59fd0c5ce9f9d3190bf569388b3557ba	?
+# html/vertical-alignment-012r.htm	dcd288dd395eea47285230ca20aa83dd6c874f17	?
+# html/vertical-alignment-014a.htm	199a8e04915d4e564618ef120bf32e5c568cafc0	?
+# html/vertical-alignment-014b.htm	755eb3f5800991c4d7df16dc70d2aaf30e419c42	?
+# html/vertical-alignment-015a.htm	32b2362ace97e299f7beaa3aac8d3323837c7fc8	?
+# html/vertical-alignment-015b.htm	f059163e577bcbadccf1e2912c2c8724777930c2	?
+# html/vertical-alignment-017a.htm	83b231bd5ad62e4e981f504bedbe7bfde444335d	?
+# html/vertical-alignment-017b.htm	20354412b9971eb45aafda4db62c290f6a2b1602	?
+# html/vertical-alignment-018a.htm	7cc30a291d2c69b03bd4179951b87c58e2a02ccb	?
+# html/vertical-alignment-018b.htm	bda9934745cc38f21bcb4235eac2d5824d849f9f	?
+# html/vertical-alignment-020a.htm	6533d451114b23d657e6bbc8362390a1c4aaf1eb	?
+# html/vertical-alignment-020b.htm	7b7ff221754d9c3bc955380e044413ccfbf7ee8b	?
+# html/vertical-alignment-021a.htm	9ddfeee8aeba9e1241ce506ec75af1ba37f6ef06	?
+# html/vertical-alignment-021b.htm	0e68e5e6821c0645ff08d40eb02e7ddd87d99caf	?
+# html/vertical-alignment-023a.htm	d42792f46d6c5d9052eaf7ed1c7981d3968fdc07	?
+# html/vertical-alignment-023b.htm	a13b1e018382f0e99499b691e9cbbe8f2bcfb740	?
+# html/vertical-alignment-024a.htm	339511c5b7a5eef6400b44a7cb6403adebe16ae0	?
+# html/vertical-alignment-024b.htm	d6cc4618d830dfb7a86b471d7b149546f7721bd4	?
+# html/vertical-alignment-026a.htm	777a16060504fa5c1a2c649279ee6dbcb56729ad	?
+# html/vertical-alignment-026b.htm	fb3d8d2c8ec17a80bc05d9cf6027855dab6b9836	?
+# html/vertical-alignment-027a.htm	ca2c37b2acc7a2be0e438b5069acd2286487b6ab	?
+# html/vertical-alignment-027b.htm	eb3ef979b26f31507a2f72ba374274fd22113364	?
 html/writing-mode-horizontal-001l.htm	4fa8f12c3e0f1825ec7aeea8011e02cf37924e3d	pass
 html/writing-mode-horizontal-001r.htm	ad5a55e1a469c3e8d39b2db9b7b0727dd39024fd	pass
 html/writing-mode-stretch-001.htm	b39073243c9598d184c1f6efc298247a42f34aea	fail
-xhtml1/writing-mode-vertical-lr-002.xht	2368493f74f4795b81bbe06bcdc4e41617b7a97f	pass # Flaky
-xhtml1/writing-mode-vertical-rl-001.xht	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Flaky
-xhtml1/writing-mode-vertical-rl-002.xht	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Flaky
+html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	pass # Flaky
+html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Flaky
+html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass # Flaky
-# Total = 711, Coverage = 514 (72%), Pass = 434 (61% of total, 84% of coverage), Fail = 80 (11% of total, 15% of coverage)
+# Total = 711, Coverage = 639 (89%), Pass = 529 (74% of total, 82% of coverage), Fail = 110 (15% of total, 17% of coverage)
+# Imported = 514 (72%), Pass = 434 (61% of total, 84% of imported), Fail = 80 (11% of total, 15% of imported)

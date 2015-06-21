@@ -27,15 +27,17 @@ def main():
     args.dir = os.path.expanduser(args.dir)
     generator = W3CImplementationReportGenerator()
     generator.load_test_files(args.dir)
-    generator.load_test_expectations(os.path.join(args.dir, '../../../TestExpectations'))
+    with open(os.path.join(args.dir, '../../../TestExpectations')) as expectations:
+        generator.load_test_expectations(expectations)
     with open(args.results) as results:
         generator.load_test_results(results)
     with open(args.template) as template:
-        if not args.output or args.output == '-':
-            generator.write_report(template, sys.stdout)
-        else:
-            with open(args.output, 'w') as output:
-                generator.write_report(template, output)
+        generator.load_template(template)
+    if not args.output or args.output == '-':
+        generator.write_report(sys.stdout)
+    else:
+        with open(args.output, 'w') as output:
+            generator.write_report(output)
 
 class W3CImplementationReportGenerator(object):
     def __init__(self):
@@ -43,12 +45,14 @@ class W3CImplementationReportGenerator(object):
 
     class Test(object):
         def __init__(self, id):
+            self.id = id
             self.combo = None
             self._comment = None
             self.import_dir = None
             self.import_ext = None
             self._is_fail = False
             self._fail_conditions = set()
+            self.revision = None
             self.testnames = []
             self.submit_result = None
             self.submit_format = None
@@ -57,16 +61,6 @@ class W3CImplementationReportGenerator(object):
         @property
         def is_import(self):
             return self.import_dir or self.combo and self.combo.import_dir
-
-        def is_result_ext(self, ext):
-            if self.import_ext:
-                if self.import_ext.startswith(ext):
-                    return True
-            elif self.submit_format and self.submit_format.lower().startswith(ext.lstrip('.').lower()):
-                return True
-            if self.combo:
-                return self.combo.is_result_ext(ext)
-            return False
 
         @property
         def is_fail(self):
@@ -145,40 +139,39 @@ class W3CImplementationReportGenerator(object):
                 continue
             test.set_expectation(conditions, is_pass, comment)
 
-    def read_test_expectations(self, path):
+    def read_test_expectations(self, expectations):
         pattern = re.compile(r'([^\[]+)(\[[^\]]+])?\s+(\S+)\s+\[\s*([^\]]+)]$')
         comment = None
         is_actually_pass = False
-        with open(path) as file:
-            for line in file:
-                line = line.strip()
-                if not line:
-                    comment = None
-                    is_actually_pass = False
+        for line in expectations:
+            line = line.strip()
+            if not line:
+                comment = None
+                is_actually_pass = False
+                continue
+            if line[0] == '#':
+                comment = line[1:].strip()
+                is_actually_pass = 'pass but' in comment
+                continue
+            match = pattern.match(line)
+            if match:
+                conditions, path, results = match.group(2, 3, 4)
+                if not path.startswith('imported/csswg-test/css-writing-modes-3/'):
                     continue
-                if line[0] == '#':
-                    comment = line[1:].strip()
-                    is_actually_pass = 'pass but' in comment
+                results = results.rstrip().split()
+                conditions = conditions.strip('[]').split() if conditions else None
+                if 'Pass' in results:
+                    log.info("Flaky as Pass: %s", line)
+                    yield (path, conditions, True, 'Flaky')
                     continue
-                match = pattern.match(line)
-                if match:
-                    conditions, path, results = match.group(2, 3, 4)
-                    if not path.startswith('imported/csswg-test/css-writing-modes-3/'):
-                        continue
-                    results = results.rstrip().split()
-                    conditions = conditions.strip('[]').split() if conditions else None
-                    if 'Pass' in results:
-                        log.info("Flaky as Pass: %s", line)
-                        yield (path, conditions, True, 'Flaky')
-                        continue
-                    if is_actually_pass:
-                        log.info("Fail as pass: %s # %s", line, comment)
-                        yield (path, conditions, True, comment)
-                        continue
-                    log.debug("Fail Expectation found: %s %s %s", conditions, path, results)
-                    yield (path, conditions, False, None)
+                if is_actually_pass:
+                    log.info("Fail as pass: %s # %s", line, comment)
+                    yield (path, conditions, True, comment)
                     continue
-                log.warn("Line unknown: %s", line)
+                log.debug("Fail Expectation found: %s %s %s", conditions, path, results)
+                yield (path, conditions, False, None)
+                continue
+            log.warn("Line unknown: %s", line)
 
     def load_test_results(self, results):
         reader = csv.reader(results)
@@ -194,47 +187,27 @@ class W3CImplementationReportGenerator(object):
             test = self.get_test_from_testcase(row[0])
             test.add_submit(row[1], row[2], row[3])
 
-    def write_report(self, input, output):
-        for line in input:
-            line = self.get_report_line(line.rstrip())
-            if line is not None:
-                output.write(line + '\n')
-        total, coverage, fail = self.get_stats()
-        output.write('# Total = {0}, Coverage = {1} ({2}%), Pass = {3} ({4}% of total, {5}% of coverage), Fail = {6} ({7}% of total, {8}% of coverage)\n'.format(
-            total,
-            coverage, coverage * 100 / total,
-            coverage - fail, (coverage - fail) * 100 / total, (coverage - fail) * 100 / coverage,
-            fail, fail * 100 / total, fail * 100 / coverage))
-
-    def get_report_line(self, line):
-        if not line or line[0] == '#':
-            return line
-        values = line.split('\t')
-        if len(values) >= 3:
-            if values[2] == '?':
-                test = self.get_test_from_testname(values[0])
-                if not test:
-                    return None
-                values[2] = test.result_string
-                line = '\t'.join(values)
-                if not test.is_import:
-                    line = "# " + line
-                if test.comment:
-                    line += " # " + test.comment
-                return line
-            if values[0] == 'testname':
-                return line
-        log.warn("Unrecognized line in template: %s", values)
-        return line
+    def load_template(self, template):
+        for line in template:
+            line = line.rstrip()
+            if not line or line[0] == '#':
+                continue
+            values = line.split('\t')
+            if len(values) >= 3:
+                if values[2] == '?':
+                    test = self.get_test_from_testname(values[0])
+                    test.revision = values[1]
+                    continue
+                if values[0] == 'testname':
+                    continue
+            log.warn("Unrecognized line in template: %s", line)
 
     def get_test_from_testname(self, testname):
         filename = os.path.basename(testname)
         name, ext = os.path.splitext(filename)
         test = self.get_test_from_testcase(name)
         test.testnames.append(testname)
-        if test.is_result_ext(ext):
-            return test
-        return None
+        return test
 
     def get_test_from_testcase(self, name):
         test = self.tests.get(name)
@@ -244,20 +217,43 @@ class W3CImplementationReportGenerator(object):
             test.combo = self.tests.get(name[0:-1], None)
         return test
 
-    def get_stats(self):
+    def write_report(self, output):
         total = 0
         coverage = 0
-        fail = 0
-        for filename, test in self.tests.iteritems():
+        passed = 0
+        imported = 0
+        imported_passed = 0
+        for test in sorted(self.tests.itervalues(), key=lambda t: t.id):
             if not test.testnames:
-                log.warn('Not found in template: %s', filename)
+                log.warn('Not found in template: %s', test.id)
                 continue
             total += 1
-            if test.is_import:
+            result = test.result_string
+            values = [test.testnames[0], test.revision, result]
+            line = '\t'.join(values)
+            is_passed = result == 'pass'
+            if is_passed:
                 coverage += 1
-                if test.is_fail:
-                    fail += 1
-        log.info("Total = %d, Coverage = %d, Fail= %d", total, coverage, fail)
-        return (total, coverage, fail)
+                passed += 1
+            elif result == 'fail':
+                coverage += 1
+            if test.is_import:
+                imported += 1
+                if is_passed:
+                    imported_passed += 1
+            else:
+                line = "# " + line
+            if test.comment:
+                line += " # " + test.comment
+            output.write(line + "\n")
+        output.write('# Total = {0}, Coverage = {1} ({2}%), Pass = {3} ({4}% of total, {5}% of coverage), Fail = {6} ({7}% of total, {8}% of coverage)\n'.format(
+            total,
+            coverage, coverage * 100 / total,
+            passed, passed * 100 / total, passed * 100 / coverage,
+            coverage - passed, (coverage - passed) * 100 / total, (coverage - passed) * 100 / coverage))
+        output.write('# Imported = {0} ({1}%), Pass = {2} ({3}% of total, {4}% of imported), Fail = {5} ({6}% of total, {7}% of imported)\n'.format(
+            imported, imported * 100 / total,
+            imported_passed, imported_passed * 100 / total, imported_passed * 100 / imported,
+            imported - imported_passed, (imported - imported_passed) * 100 / total, (imported - imported_passed) * 100 / imported))
 
 main()
