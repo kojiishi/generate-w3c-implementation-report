@@ -57,6 +57,10 @@ class W3CImplementationReportGenerator(object):
             self.submit_result = None
             self.submit_format = None
             self.submit_date = None
+            self.submit_source = None
+            self.is_trusted_submit_source = False
+
+        trusted_sources = set(('gtalbot', 'hshiozawa', 'kojiishi', 'lemoned'))
 
         @property
         def is_import(self):
@@ -78,9 +82,13 @@ class W3CImplementationReportGenerator(object):
 
         @property
         def comment(self):
-            if len(self._fail_conditions) == 0 or self.is_fail:
-                return self._comment
-            return ', '.join(self._fail_conditions) + ': ' + (self._comment if self._comment else 'Fail')
+            if self.is_import:
+                if len(self._fail_conditions) == 0 or self.is_fail:
+                    return self._comment
+                return ', '.join(self._fail_conditions) + ': ' + (self._comment if self._comment else 'Fail')
+            if self.submit_result and not self.is_trusted_submit_source:
+                return 'Anonymous'
+            return None
 
         def set_expectation(self, conditions, is_pass, comment):
             if not is_pass:
@@ -94,12 +102,19 @@ class W3CImplementationReportGenerator(object):
                     comment = ', '.join(conditions) + ': ' + comment
             self._comment = comment
 
-        def add_submit(self, result, format, date):
-            if self.submit_date and self.submit_date > date:
+        def add_submit(self, result, format, date, source):
+            is_trusted = source in W3CImplementationReportGenerator.Test.trusted_sources
+            if not is_trusted and self.is_trusted_submit_source:
+                return
+            if is_trusted and not self.is_trusted_submit_source:
+                pass
+            elif self.submit_date and self.submit_date > date:
                 return
             self.submit_result = result
             self.submit_format = format
             self.submit_date = date
+            self.submit_source = source
+            self.is_trusted_submit_source = is_trusted
 
     def add_test(self, name):
         if name in self.tests:
@@ -176,16 +191,12 @@ class W3CImplementationReportGenerator(object):
     def load_test_results(self, results):
         reader = csv.reader(results)
         header = next(reader)
-        trusted = set(('gtalbot', 'hshiozawa', 'kojiishi', 'lemoned'))
         for row in reader:
             useragent = row[6]
             if not 'Chrome/' in useragent:
                 continue
-            source = row[4]
-            if not source in trusted:
-                continue
             test = self.get_test_from_testcase(row[0])
-            test.add_submit(row[1], row[2], row[3])
+            test.add_submit(row[1], row[2], row[3], row[4])
 
     def load_template(self, template):
         for line in template:

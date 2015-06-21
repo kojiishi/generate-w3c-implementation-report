@@ -126,7 +126,7 @@ html/abs-pos-non-replaced-vrl-090.htm	cec3dc3fdbf07fe93fb8e21aab1985bd5159cb68	p
 html/abs-pos-non-replaced-vrl-092.htm	a7cf6f431513e2f15607239266903d59877465a8	pass
 html/abs-pos-non-replaced-vrl-094.htm	d589ef571191faddc77afce329727a583621f6f2	pass
 html/abs-pos-non-replaced-vrl-096.htm	395bfb4c6be7fe412a7b25c77d0df64270482282	pass
-# html/autoheight-regions-in-autoheight-flexbox-002.htm	03903463d0ee57e784c8305fc4b3c522d62beb38	?
+# html/autoheight-regions-in-autoheight-flexbox-002.htm	03903463d0ee57e784c8305fc4b3c522d62beb38	fail # Anonymous
 # html/background-position-vlr-003.htm	6f62ea5ca447de2cec9e79c4756f56b9ba4328be	pass
 # html/background-position-vlr-005.htm	6e0dc09bfe164ae0d9cc0a8eeca78824c84cdd6e	pass
 # html/background-position-vlr-007.htm	02f2f3858b9b2020b82974ac52614286bbb3eddb	pass
@@ -159,12 +159,12 @@ html/baseline-inline-replaced-003.htm	eed7b8849080d2daa99c847c48b215bd6c3fb17a	p
 # html/bidi-001.htm	4b17669682a01af35c7ff859a56ff14979004532	pass
 # html/bidi-002.htm	48d2d4ba08ef8b06d14ef353e9fb8caa30bb43af	pass
 # html/bidi-003.htm	4fc2169d7f75864298bca1a48c3d4d3bdb3560cf	fail
-# html/bidi-005.htm	9a94108988b0d806f23f5d63aec2a5b34d6aea05	?
-# html/bidi-006.htm	a699b5134869e68b68c5399f9be53865f6bb90cd	?
-# html/bidi-007.htm	52cbe1038400d33a001f042c6b78f1ee216c902b	?
+# html/bidi-005.htm	9a94108988b0d806f23f5d63aec2a5b34d6aea05	pass # Anonymous
+# html/bidi-006.htm	a699b5134869e68b68c5399f9be53865f6bb90cd	pass # Anonymous
+# html/bidi-007.htm	52cbe1038400d33a001f042c6b78f1ee216c902b	pass # Anonymous
 # html/bidi-008.htm	c878778f568e57aa6bc27e433596631230c507ff	?
 # html/bidi-009.htm	d6072671ffb3f62e5e2cd6b3a1e622c8c25ca81a	?
-# html/bidi-010.htm	16d1297a97d5163619d5317e0a69343dd1c1eb6d	?
+# html/bidi-010.htm	16d1297a97d5163619d5317e0a69343dd1c1eb6d	pass # Anonymous
 # html/bidi-011.htm	c3876d81e8a04525459e58052c7e241825de8aeb	pass
 # html/bidi-alt-001.htm	4d4b08257d283f8137a8319b54468d990e1236b9	fail
 # html/bidi-box-model-001.htm	1c9b7d40184936c8dd4ae4dfb02e799aad6eec88	pass
@@ -177,7 +177,7 @@ html/baseline-inline-replaced-003.htm	eed7b8849080d2daa99c847c48b215bd6c3fb17a	p
 # html/bidi-box-model-008.htm	8c510ddd2d961e2be38fbc0b1b7b73ce8c871c25	pass
 # html/bidi-box-model-009.htm	8553fa2253cf1da817f035932fb36c7234a3fca1	pass
 # html/bidi-box-model-034.htm	e9bd7a66ce4c8abb5158f49ea9bd7cf2a61f115d	pass
-# html/bidi-box-model-035.htm	e10ae7a28a9c36ade38d76a62b5b3cbd4924cb5e	?
+# html/bidi-box-model-035.htm	e10ae7a28a9c36ade38d76a62b5b3cbd4924cb5e	pass # Anonymous
 # html/bidi-box-model-036.htm	d35d1e26ca2c0560efaa12e4b6cd4e11720cedd6	pass
 # html/bidi-box-model-043.htm	a5320f0797f50894c930422612c5d4f8e6f5f18e	pass
 # html/bidi-box-model-044.htm	598e3207af53b8419a1cd59902ee374213415c5f	pass
@@ -257,7 +257,7 @@ html/bidi-plaintext-008.htm	4509f186c3c490d93f5811e693b3ebb7550f4dcb	pass
 html/bidi-plaintext-009.htm	bf06eff1aed8c74b837c318eeb701c109cf7dec1	pass
 html/bidi-plaintext-010.htm	c761067af86f83172d5ba2b4b56aed3191dd74b2	pass
 html/bidi-plaintext-011.htm	af5e5dd3dc797ad5fec57780a3cc491861f872df	fail
-# html/bidi-table-001.htm	b76614ab31144548ec19f4351dcf585f59ae3e0f	?
+# html/bidi-table-001.htm	b76614ab31144548ec19f4351dcf585f59ae3e0f	pass # Anonymous
 html/bidi-unset-001.htm	eb7a5acbe55bce9659d8c8fdb22ef75f7f54ea39	pass
 html/bidi-unset-002.htm	f23c821ec27e544abbd055d8d78a1686bcd23650	pass
 html/bidi-unset-003.htm	5b15aac3b0ef0ca8da7c0f55e20c7b9727ece49b	pass
@@ -287,7 +287,7 @@ html/block-flow-direction-013.htm	864bb241fe74023d23183204bfb32c6615e4c2bb	pass 
 html/block-flow-direction-014.htm	766e5d11e657b49ec5beeb987351fd7bfb59b4ec	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/block-flow-direction-015.htm	49882d193c25d3c2170e97d939b39920622e04d3	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/block-flow-direction-016.htm	5221c36bb90f1346378ea6f026940b5fdae1b072	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-# html/block-flow-direction-017.htm	c2a92a2f4ded8bd1c1c8da78d659f9d3cef71f0e	?
+# html/block-flow-direction-017.htm	c2a92a2f4ded8bd1c1c8da78d659f9d3cef71f0e	fail # Anonymous
 # html/block-flow-direction-018.htm	9d32e9d52ef12a1cc1c02512dd21172097f6f206	fail
 html/block-flow-direction-019.htm	4013b44b2f69c6ad31338a283f65f0d49befc9e4	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/block-flow-direction-020.htm	d6687aa139742ecb9688c7ccb4fcb5588681c708	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
@@ -342,22 +342,22 @@ html/clip-rect-vrl-010.htm	9ee86763032f7f57280ed2eaaf6a248ae69638d0	pass
 html/clip-rect-vrl-012.htm	958e294000bde628e565b6b743d47b9ce2be6d64	pass
 html/clip-rect-vrl-014.htm	44fdb637a990b4c84dc24786151db1e4048f57d8	pass
 html/clip-rect-vrl-016.htm	691b8c06c8ed77f9a051d9d0bf39f721ded61c79	pass
-# html/css-flexbox-row.htm	c2fdd1f935ea17ca5c3ef860a2b39c9040c2b032	?
-# html/css-flexbox-row-reverse.htm	7d6c951b7d2a9a20aec2dae97cf647a7542fd97c	?
-# html/css-flexbox-row-reverse-wrap.htm	45362cab6ef4ccddc48442ef7c30cfdbc4d7b68f	?
-# html/css-flexbox-row-reverse-wrap-reverse.htm	ae71f495e9b7a0b872b7404e8d13546220a99b9c	?
-# html/css-flexbox-row-wrap.htm	406a4ac39fbf0910cc734e4fa2c2d95d441cbf2a	?
-# html/css-flexbox-row-wrap-reverse.htm	3de913d4d90d2452743b0b92d15a212215e1db4a	?
+# html/css-flexbox-row.htm	c2fdd1f935ea17ca5c3ef860a2b39c9040c2b032	pass # Anonymous
+# html/css-flexbox-row-reverse.htm	7d6c951b7d2a9a20aec2dae97cf647a7542fd97c	pass # Anonymous
+# html/css-flexbox-row-reverse-wrap.htm	45362cab6ef4ccddc48442ef7c30cfdbc4d7b68f	uncertain # Anonymous
+# html/css-flexbox-row-reverse-wrap-reverse.htm	ae71f495e9b7a0b872b7404e8d13546220a99b9c	uncertain # Anonymous
+# html/css-flexbox-row-wrap.htm	406a4ac39fbf0910cc734e4fa2c2d95d441cbf2a	uncertain # Anonymous
+# html/css-flexbox-row-wrap-reverse.htm	3de913d4d90d2452743b0b92d15a212215e1db4a	uncertain # Anonymous
 html/different-block-flow-dir-001.htm	3d33662be593c9a71770ab85e04c5f8e9721aac3	pass
 html/different-block-flow-dir-002.htm	dfa3d81dda50b5a39e2a1b98d268841d7af8fd32	pass
 # html/direction-001.htm	5c033add1932eaf0595c610990a862bf6a6a3bdb	pass
 # html/direction-002.htm	12b697880ef31320cb3a92589d76ee9f85be6546	pass
 # html/direction-003.htm	c5e4860af47173b24a7778a2b12ee81fc49585e1	pass
-# html/direction-applies-to-001.htm	ad85663884bb84a128b7d255a2185b758706d1c9	?
-# html/direction-applies-to-002.htm	6e301be686dcc42be9dca56877a71c5900c29567	?
-# html/direction-applies-to-003.htm	454340102868a1beb1d5dce03b1cc5fffe71e5d0	?
-# html/direction-applies-to-004.htm	ece9d9914f3b315351a9365a9a3a004c4065b99b	?
-# html/direction-applies-to-005.htm	8e4fd45ed5e3bcf071812e77bbb1b1e8184293dc	?
+# html/direction-applies-to-001.htm	ad85663884bb84a128b7d255a2185b758706d1c9	pass # Anonymous
+# html/direction-applies-to-002.htm	6e301be686dcc42be9dca56877a71c5900c29567	pass # Anonymous
+# html/direction-applies-to-003.htm	454340102868a1beb1d5dce03b1cc5fffe71e5d0	pass # Anonymous
+# html/direction-applies-to-004.htm	ece9d9914f3b315351a9365a9a3a004c4065b99b	pass # Anonymous
+# html/direction-applies-to-005.htm	8e4fd45ed5e3bcf071812e77bbb1b1e8184293dc	pass # Anonymous
 # html/direction-applies-to-006.htm	48b32817e073db5d01f16c48ea3ca118eaa80c5b	pass
 # html/direction-applies-to-007.htm	43b0c427954ccd7eac088633011d201acd4bdbeb	pass
 # html/direction-applies-to-008.htm	9330c479eb50753e5f4dbcc6b732c8a16311f056	pass
@@ -371,10 +371,10 @@ html/direction-vlr-003.htm	c8cfeb5a3492c16c29cad78fd1c5c27b675f28f7	pass
 html/direction-vlr-005.htm	1605157588ee84de6bcb3f4a4c9b5d1c08d30b4e	pass
 html/direction-vrl-002.htm	52bb6deefbc5f97b6f3ce7d040a5e55cbefa3817	pass
 html/direction-vrl-004.htm	31d81702696bd0c7fe90ce7f4b6a91947db9234f	pass
-# html/extract-ordered-list-direction-and-writing-modes.htm	f456a08de75932c3881a76490ed2fdb7211d2bc8	?
-# html/flexbox-writing-mode-007.htm	0557a81af23da4d969bce70f840968a7d5947006	?
-# html/flexbox-writing-mode-008.htm	aaac3dcddfec40e5c67ae479e0df2184ddec82d2	?
-# html/flexbox-writing-mode-009.htm	931b9d02203e63cacec94a45b450d721c5222706	?
+# html/extract-ordered-list-direction-and-writing-modes.htm	f456a08de75932c3881a76490ed2fdb7211d2bc8	fail # Anonymous
+# html/flexbox-writing-mode-007.htm	0557a81af23da4d969bce70f840968a7d5947006	pass # Anonymous
+# html/flexbox-writing-mode-008.htm	aaac3dcddfec40e5c67ae479e0df2184ddec82d2	fail # Anonymous
+# html/flexbox-writing-mode-009.htm	931b9d02203e63cacec94a45b450d721c5222706	fail # Anonymous
 html/float-clear-vlr-003.htm	07fcbcbaf2f008c88301d93cfaae5d5d5d99a69b	pass
 html/float-clear-vlr-005.htm	829edef1ba43cf2f5f92c91b5fb671827dd754e7	pass
 html/float-clear-vlr-007.htm	ff73c2c547ac978e9702668f8e1d30ee651e6c63	pass
@@ -416,11 +416,11 @@ html/float-vrl-006.htm	59fa1d832936c3523bbdc01f8797575c1c9a1b7b	pass
 html/float-vrl-008.htm	a562d6a1fc23693c8780b209673e0aeec9d0cae3	pass
 html/float-vrl-010.htm	b59980fd3c43107970860cdcea17e840474a0116	pass
 html/float-vrl-012.htm	11b96153a38deaffbe497b0fe9252c25f30f6c9e	pass
-# html/form-controls-vert-rl-004.htm	55f1a010d3b5d51bba07822f206228b170782c0c	?
-# html/form-controls-vert-rl-005.htm	76cacb867c752913e51f52b6a19d9c0f9d55e080	?
-# html/full-width-001.htm	f752970d15c5ed27a98a938b60500d0518a5f23f	?
-# html/full-width-002.htm	c4e7b411f8ee7860df31d67b1dc147115f1ef50a	?
-# html/full-width-003.htm	cbbd004f1f243eb9d28cd04589984f141132cfd1	?
+# html/form-controls-vert-rl-004.htm	55f1a010d3b5d51bba07822f206228b170782c0c	fail # Anonymous
+# html/form-controls-vert-rl-005.htm	76cacb867c752913e51f52b6a19d9c0f9d55e080	fail # Anonymous
+# html/full-width-001.htm	f752970d15c5ed27a98a938b60500d0518a5f23f	uncertain # Anonymous
+# html/full-width-002.htm	c4e7b411f8ee7860df31d67b1dc147115f1ef50a	pass # Anonymous
+# html/full-width-003.htm	cbbd004f1f243eb9d28cd04589984f141132cfd1	pass # Anonymous
 html/height-width-inline-non-replaced-vlr-003.htm	57ea2a34009c303f4bc775018c4b7de20d81acf8	pass
 html/height-width-inline-non-replaced-vrl-002.htm	2b6c49db17e282d91b6456cb6c44c023825a9128	pass
 html/horizontal-rule-vlr-003.htm	c47416e169c5b440e743a67eac5c3c4d5196f6a5	pass
@@ -569,12 +569,12 @@ html/text-baseline-008.htm	71c017581a847aa06b5715c7d4e88050bdc7ffca	pass # Mac: 
 html/text-baseline-009.htm	a2fd18eda0cad02eb09004338de627414847c9d3	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 # html/text-baseline-010.htm	ed91654bb8ce0d95766a8d78d1e7d5680e2a52ce	fail
 # html/text-baseline-011.htm	a6b19babb0dc749e5ed036aea140704a6d5bda55	fail
-# html/text-combine-horizontal-010.htm	10b90a907700189ea5f41c0666d51ae3a032c49b	?
-# html/text-combine-horizontal-011.htm	77ecc63e7f6265ba79e0b5a0f64c8d09d4214045	?
-# html/text-combine-upright-parsing-invalid-001.htm	2b2c132e18a567fb8056e362766d8a030557c4de	?
-# html/text-combine-upright-parsing-invalid-002.htm	7f78c2344ff0a88366e152bfb9dd032df56c8e31	?
-# html/text-combine-upright-parsing-valid-001.htm	0ce4e72cafc4c08b3dbb51296126cc6ec5cfc581	?
-# html/text-combine-upright-parsing-valid-002.htm	c04b90914c86be633173bfcc63c14b2a44b058db	?
+# html/text-combine-horizontal-010.htm	10b90a907700189ea5f41c0666d51ae3a032c49b	fail # Anonymous
+# html/text-combine-horizontal-011.htm	77ecc63e7f6265ba79e0b5a0f64c8d09d4214045	fail # Anonymous
+# html/text-combine-upright-parsing-invalid-001.htm	2b2c132e18a567fb8056e362766d8a030557c4de	fail # Anonymous
+# html/text-combine-upright-parsing-invalid-002.htm	7f78c2344ff0a88366e152bfb9dd032df56c8e31	fail # Anonymous
+# html/text-combine-upright-parsing-valid-001.htm	0ce4e72cafc4c08b3dbb51296126cc6ec5cfc581	fail # Anonymous
+# html/text-combine-upright-parsing-valid-002.htm	c04b90914c86be633173bfcc63c14b2a44b058db	fail # Anonymous
 html/text-decoration-001.htm	d9a469751905e9950b458ec3149cf740f727a0c9	fail
 # html/text-decoration-sidewaysleft-vlr-003.htm	13860419acaa722347ad09079c169ef6a8ba5ade	fail
 # html/text-decoration-sidewaysleft-vlr-005.htm	fd527a5c91aa03ce36207ee9720165068e087b03	fail
@@ -617,7 +617,7 @@ html/text-orientation-012.htm	8e197b2643a627c5c7fda73a7d484af88d1d314e	pass
 # html/text-orientation-013.htm	5e9e48df639416541014474d9ee8e1856213ea81	fail
 html/text-orientation-014.htm	00c684d6b5ab616715f157e301f654fb38f71dd4	pass
 # html/text-orientation-015.htm	6d4bd7001c46f64855c6ded1838b7cc9e000c5b2	fail
-# html/text-orientation-mixed-001.htm	ec56b92df4adfd1d4edc26c618884b42d7da5258	?
+# html/text-orientation-mixed-001.htm	ec56b92df4adfd1d4edc26c618884b42d7da5258	pass # Anonymous
 # html/text-orientation-script-001.htm	c6b57649b8f0fcdf0f7caf750682c2e7093b777b	?
 html/text-orientation-script-001a.htm	ce382caffa1da0d7da68fdef50eb490af6ff2812	fail
 html/text-orientation-script-001b.htm	bee11d0a13f4e41edbacf8e29a21097816291e52	pass
@@ -660,7 +660,7 @@ html/text-orientation-script-001o.htm	ad390d60dd518de633056d1bd59900406d4d23e8	p
 html/value-all-002.htm	59a50a642e3765d17ae5e12591f1a9734c9c753e	pass # These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/value-all-003.htm	8a0310a885b909d990bfaccc3aaa6245a90493e8	pass # These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/value-all-and-inherit-001.htm	d10283656560566eb516ce4b3f876fecbec673fe	fail
-# html/value-digit2-and-inherit-001.htm	1a524a016c8b47cd31928d3bc00c4561d546f1d6	?
+# html/value-digit2-and-inherit-001.htm	1a524a016c8b47cd31928d3bc00c4561d546f1d6	fail # Anonymous
 # html/value-digits2-002.htm	c519efb6967e1ce7d9bde145d27acba176b8de4d	fail
 html/value-digits2-003.htm	5ed6e18e086e19d7e41ee0c8ab2678b62ebb34c4	pass
 # html/value-digits3-001.htm	ae6e433e2c3c03095519eae6a041b655a51a0abc	fail
@@ -709,5 +709,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass # Flaky
-# Total = 711, Coverage = 639 (89%), Pass = 529 (74% of total, 82% of coverage), Fail = 110 (15% of total, 17% of coverage)
+# Total = 711, Coverage = 670 (94%), Pass = 546 (76% of total, 81% of coverage), Fail = 124 (17% of total, 18% of coverage)
 # Imported = 514 (72%), Pass = 434 (61% of total, 84% of imported), Fail = 80 (11% of total, 15% of imported)
