@@ -3,6 +3,7 @@
 
 import argparse
 import csv
+import json
 import logging
 import os
 import re
@@ -12,6 +13,7 @@ log = logging.getLogger(__name__)
 
 def main():
     parser = argparse.ArgumentParser(description='Generate CSS WG implementation reports from Blink repository.')
+    parser.add_argument('--json', '-j', action='store', default='css-writing-modes-3/implementation-report.json')
     parser.add_argument('--output', '-o', action='store', default='css-writing-modes-3/implementation-report.txt')
     parser.add_argument('--verbose', '-v', action='count')
     parser.add_argument('dir', nargs='?', default='~/src/chromium/src/third_party/WebKit/LayoutTests/imported/csswg-test/css-writing-modes-3')
@@ -38,6 +40,8 @@ def main():
     else:
         with open(args.output, 'w') as output:
             generator.write_report(output)
+    with open(args.json, 'w') as output:
+        generator.write_json(output)
 
 class W3CImplementationReportGenerator(object):
     def __init__(self):
@@ -93,6 +97,16 @@ class W3CImplementationReportGenerator(object):
                     return 'pass'
                 return 'fail'
             return '?'
+
+        @property
+        def source_string(self):
+            if self.is_import:
+                return 'blink'
+            if self.submit_result:
+                if self.is_trusted_submit_source:
+                    return 'logged-in'
+                return 'anonymous'
+            return None
 
         @property
         def comment(self):
@@ -283,5 +297,17 @@ class W3CImplementationReportGenerator(object):
             imported, imported * 100 / total,
             imported_passed, imported_passed * 100 / total, imported_passed * 100 / imported,
             imported - imported_passed, (imported - imported_passed) * 100 / total, (imported - imported_passed) * 100 / imported))
+
+    def write_json(self, output):
+        tests = []
+        for test in sorted(self.tests.itervalues(), key=lambda t: t.id):
+            if not test.testnames:
+                continue
+            tests.append({
+                'id': test.id,
+                'result': test.result_string,
+                'source': test.source_string,
+            })
+        json.dump(tests, output, indent=0)
 
 main()

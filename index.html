@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/iron-ajax/iron-ajax.html">
+<style>
+html {
+    font-size: 12pt;
+}
+</style>
+<my-app></my-app>
+<dom-module id="my-app">
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            border: solid gray thin;
+        }
+        .fail {
+            background-color: red;
+        }
+        .pass {
+            background-color: lime;
+        }
+        .uncertain, .na, .anonymous {
+            background-color: yellow;
+        }
+    </style>
+    <template>
+        <iron-ajax
+            auto
+            url="css-writing-modes-3/implementation-report.json"
+            handle-as="json"
+            last-response="{{tests}}"
+            ></iron-ajax>
+        <table>
+        <template  is="dom-repeat" items="{{tests}}">
+            <tr>
+                <td><a href$="{{getUrl(item)}}">{{item.id}}</a></td>
+                <td class$="{{getResultClass(item)}}">{{item.result}}</td>
+                <td class$="{{item.source}}">{{item.source}}</td>
+            </tr>
+        </template>
+        </table>
+    </template>
+    <script>
+        Polymer({
+            is: 'my-app',
+            getUrl: function (test) {
+                return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + test.id + '/format/html5/'
+            },
+            getResultClass: function (test) {
+                return test.result == '?' ? 'na' : test.result;
+            }
+        })
+    </script>
+</dom-module>

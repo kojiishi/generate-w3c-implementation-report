@@ -1,0 +1,20 @@
+{
+  "name": "generate-w3c-implementation-report",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kojiishi/generate-w3c-implementation-report",
+  "authors": [
+    "kojiishi@gmail.com"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "iron-ajax": "PolymerElements/iron-ajax#~1.0.2"
+  }
+}
