@@ -3,25 +3,31 @@
 <link rel="import" href="bower_components/polymer/polymer.html">
 <link rel="import" href="bower_components/iron-ajax/iron-ajax.html">
 <style>
-html {
+html, body {
     font-size: 12pt;
+    margin:0px;
 }
 </style>
 <my-app></my-app>
 <dom-module id="my-app">
     <style>
-        table {
+        #site-banner {
+            background-color: #eee;
+            box-shadow:0 1px 5px rgba(0,0,0,0.3);
+            padding:16px 8px;
+            position:fixed;
+            top:0; left:0; right:0;
+            text-align:right;
+        }
+        table#list {
             border-collapse: collapse;
-            margin:0 auto;
+            margin:64px auto 0 auto;
         }
         tr:nth-child(2n) {
             background-color: #eee;
         }
         th, td {
             border: solid gray thin;
-        }
-        input {
-            width: 95%;
         }
         .fail {
             background-color: #f66;
@@ -35,9 +41,6 @@ html {
         .uncertain, .na, .anonymous {
             background-color: yellow;
         }
-        #footer {
-            text-align: right;
-        }
     </style>
     <template>
         <iron-ajax
@@ -46,10 +49,12 @@ html {
             handle-as="json"
             last-response="{{tests}}"
             ></iron-ajax>
-        <table>
-            <tr>
-                <td colspan="3"><input type="text" value="{{filterValue::input}}" autofocus></td>
-            </tr>
+        <div id="site-banner">
+            Search:
+            <input type="text" value="{{filterValue::input}}" autofocus>
+            <a href="https://github.com/kojiishi/generate-w3c-implementation-report">github</a>
+        </div>
+        <table id="list">
             <tr>
                 <th>Test</th><th>Result</th><th>Source</th>
             </tr>
@@ -61,9 +66,6 @@ html {
                 </tr>
             </template>
         </table>
-        <div id="footer">
-            <a href="https://github.com/kojiishi/generate-w3c-implementation-report">github</a>
-        </div>
     </template>
     <script>
         Polymer({
