@@ -992,7 +992,7 @@
 {
 "source": "logged-in", 
 "id": "bidi-glyph-mirroring-001", 
-"result": "uncertain"
+"result": "pass"
 }, 
 {
 "source": "logged-in", 
@@ -2100,19 +2100,19 @@
 "result": "fail"
 }, 
 {
-"source": "anonymous", 
+"source": null, 
 "id": "full-width-001", 
-"result": "uncertain"
+"result": "?"
 }, 
 {
-"source": "anonymous", 
+"source": null, 
 "id": "full-width-002", 
-"result": "pass"
+"result": "?"
 }, 
 {
-"source": "anonymous", 
+"source": null, 
 "id": "full-width-003", 
-"result": "pass"
+"result": "?"
 }, 
 {
 "source": "blink", 
@@ -3315,9 +3315,9 @@
 "result": "fail"
 }, 
 {
-"source": "logged-in", 
+"source": null, 
 "id": "value-digits2-002", 
-"result": "fail"
+"result": "?"
 }, 
 {
 "source": "blink", 
@@ -3325,14 +3325,14 @@
 "result": "pass"
 }, 
 {
-"source": "logged-in", 
+"source": null, 
 "id": "value-digits3-001", 
-"result": "fail"
+"result": "?"
 }, 
 {
-"source": "logged-in", 
+"source": null, 
 "id": "value-digits3-002", 
-"result": "fail"
+"result": "?"
 }, 
 {
 "source": "blink", 
@@ -3340,14 +3340,14 @@
 "result": "pass"
 }, 
 {
-"source": "logged-in", 
+"source": null, 
 "id": "value-digits4-001", 
-"result": "fail"
+"result": "?"
 }, 
 {
-"source": "logged-in", 
+"source": null, 
 "id": "value-digits4-002", 
-"result": "fail"
+"result": "?"
 }, 
 {
 "source": "blink", 

@@ -196,7 +196,7 @@ html/bidi-embed-008.htm	9106b9f2ef7f218496682675876313fb24d5cc4c	pass
 html/bidi-embed-009.htm	2ea141336408014defe53fd98d84c411aec4dc4d	pass
 html/bidi-embed-010.htm	30d16c659913406c8705520ee165821cf2965b0b	pass
 html/bidi-embed-011.htm	6e225bfb6ae7eceef58b51b9cc96d9ac6656e07a	pass
-# html/bidi-glyph-mirroring-001.htm	1df4de4e03f644a77cd16a704e3747ad4dbbf379	uncertain
+# html/bidi-glyph-mirroring-001.htm	1df4de4e03f644a77cd16a704e3747ad4dbbf379	pass
 # html/bidi-glyph-mirroring-002.htm	5032b9119f978356e85c66a9f5613aa57237dca2	pass
 # html/bidi-inline-001.htm	fdac15e5d106d71315b5ea88507fb8473dd5d9d7	pass
 # html/bidi-inline-002.htm	5f80a76128d4f7c75d562c37391a38e46fd2c0ec	pass
@@ -418,9 +418,9 @@ html/float-vrl-010.htm	b59980fd3c43107970860cdcea17e840474a0116	pass
 html/float-vrl-012.htm	11b96153a38deaffbe497b0fe9252c25f30f6c9e	pass
 # html/form-controls-vert-rl-004.htm	55f1a010d3b5d51bba07822f206228b170782c0c	fail # Anonymous
 # html/form-controls-vert-rl-005.htm	76cacb867c752913e51f52b6a19d9c0f9d55e080	fail # Anonymous
-# html/full-width-001.htm	f752970d15c5ed27a98a938b60500d0518a5f23f	uncertain # Anonymous
-# html/full-width-002.htm	c4e7b411f8ee7860df31d67b1dc147115f1ef50a	pass # Anonymous
-# html/full-width-003.htm	cbbd004f1f243eb9d28cd04589984f141132cfd1	pass # Anonymous
+# html/full-width-001.htm	f752970d15c5ed27a98a938b60500d0518a5f23f	?
+# html/full-width-002.htm	c4e7b411f8ee7860df31d67b1dc147115f1ef50a	?
+# html/full-width-003.htm	cbbd004f1f243eb9d28cd04589984f141132cfd1	?
 html/height-width-inline-non-replaced-vlr-003.htm	57ea2a34009c303f4bc775018c4b7de20d81acf8	pass
 html/height-width-inline-non-replaced-vrl-002.htm	2b6c49db17e282d91b6456cb6c44c023825a9128	pass
 html/horizontal-rule-vlr-003.htm	c47416e169c5b440e743a67eac5c3c4d5196f6a5	pass
@@ -661,13 +661,13 @@ html/value-all-002.htm	59a50a642e3765d17ae5e12591f1a9734c9c753e	pass # These CSS
 html/value-all-003.htm	8a0310a885b909d990bfaccc3aaa6245a90493e8	pass # These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/value-all-and-inherit-001.htm	d10283656560566eb516ce4b3f876fecbec673fe	fail
 # html/value-digit2-and-inherit-001.htm	1a524a016c8b47cd31928d3bc00c4561d546f1d6	fail # Anonymous
-# html/value-digits2-002.htm	c519efb6967e1ce7d9bde145d27acba176b8de4d	fail
+# html/value-digits2-002.htm	c519efb6967e1ce7d9bde145d27acba176b8de4d	?
 html/value-digits2-003.htm	5ed6e18e086e19d7e41ee0c8ab2678b62ebb34c4	pass
-# html/value-digits3-001.htm	ae6e433e2c3c03095519eae6a041b655a51a0abc	fail
-# html/value-digits3-002.htm	e341a0ed435a95dacd4d903faf4ce46fa0a3de81	fail
+# html/value-digits3-001.htm	ae6e433e2c3c03095519eae6a041b655a51a0abc	?
+# html/value-digits3-002.htm	e341a0ed435a95dacd4d903faf4ce46fa0a3de81	?
 html/value-digits3-003.htm	f7ef238da1568aa769850c9a319619f83cb78879	pass
-# html/value-digits4-001.htm	1ae3f9e7d2c808d4128b11bb41095458d15637b4	fail
-# html/value-digits4-002.htm	bbb3df689df1ec378c70b43fbe8f3f541dab7fbb	fail
+# html/value-digits4-001.htm	1ae3f9e7d2c808d4128b11bb41095458d15637b4	?
+# html/value-digits4-002.htm	bbb3df689df1ec378c70b43fbe8f3f541dab7fbb	?
 html/value-digits4-003.htm	fa18a6d948bfa8651a5524cf150d7c06036ea5b8	pass
 html/value-none-001.htm	12cfcb1e57883a81b58e14329979c604dbd1b85e	pass
 # html/vertical-alignment-002a.htm	a55994c93e6652bdc61229154fe73727bd2c9aea	?
@@ -709,5 +709,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass # Flaky
-# Total = 711, Coverage = 671 (94%), Pass = 546 (76% of total, 81% of coverage), Fail = 125 (17% of total, 18% of coverage)
+# Total = 711, Coverage = 665 (93%), Pass = 545 (76% of total, 81% of coverage), Fail = 120 (16% of total, 18% of coverage)
 # Imported = 514 (72%), Pass = 434 (61% of total, 84% of imported), Fail = 80 (11% of total, 15% of imported)
