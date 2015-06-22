@@ -12,15 +12,25 @@ html {
     <style>
         table {
             border-collapse: collapse;
+            margin:0 auto;
         }
-        td {
+        tr:nth-child(2n) {
+            background-color: #eee;
+        }
+        th, td {
             border: solid gray thin;
         }
+        input {
+            width: 95%;
+        }
         .fail {
-            background-color: red;
+            background-color: #f66;
         }
         .pass, .blink {
-            background-color: lime;
+            background-color: #8f8;
+        }
+        .logged-in {
+            background-color: #80d0ff;
         }
         .uncertain, .na, .anonymous {
             background-color: yellow;
@@ -37,13 +47,19 @@ html {
             last-response="{{tests}}"
             ></iron-ajax>
         <table>
-        <template  is="dom-repeat" items="{{tests}}">
             <tr>
-                <td><a href$="{{getUrl(item)}}">{{item.id}}</a></td>
-                <td class$="{{getResultClass(item)}}">{{item.result}}</td>
-                <td class$="{{item.source}}">{{item.source}}</td>
+                <td colspan="3"><input type="text" value="{{filterValue::input}}" autofocus></td>
             </tr>
-        </template>
+            <tr>
+                <th>Test</th><th>Result</th><th>Source</th>
+            </tr>
+            <template is="dom-repeat" items="{{tests}}" filter="{{_filter(filterValue)}}">
+                <tr>
+                    <td><a href$="{{getUrl(item)}}">{{item.id}}</a></td>
+                    <td class$="{{getResultClass(item)}}">{{item.result}}</td>
+                    <td class$="{{item.source}}">{{item.source}}</td>
+                </tr>
+            </template>
         </table>
         <div id="footer">
             <a href="https://github.com/kojiishi/generate-w3c-implementation-report">github</a>
@@ -52,6 +68,16 @@ html {
     <script>
         Polymer({
             is: 'my-app',
+            _filter: function (filter) {
+                return function (test) {
+                    if (!filter) return true;
+                    filter = filter.trim();
+                    if (!filter) return true;
+                    return test.id.indexOf(filter) >= 0 ||
+                        test.result.indexOf(filter) >= 0 ||
+                        (test.source && test.source.indexOf(filter) >= 0);
+                };
+            },
             getUrl: function (test) {
                 return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + test.id + '/format/html5/'
             },
