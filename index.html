@@ -14,14 +14,21 @@ html, body {
         #site-banner {
             background-color: #eee;
             box-shadow:0 1px 5px rgba(0,0,0,0.3);
-            padding:16px 8px;
+            padding:16px 8px 0px 8px;
             position:fixed;
-            top:0; left:0; right:0;
+            top:0; right:0;
+        }
+        input {
+            font-size:11pt;
+        }
+        ul.links {
+            font-size:11pt;
+            list-style-type:none;
             text-align:right;
         }
         table#list {
             border-collapse: collapse;
-            margin:64px auto 0 auto;
+            margin:0 auto;
         }
         tr:nth-child(2n) {
             background-color: #eee;
@@ -50,9 +57,11 @@ html, body {
             last-response="{{tests}}"
             ></iron-ajax>
         <div id="site-banner">
-            Search:
-            <input type="text" value="{{filterValue::input}}" autofocus>
-            <a href="https://github.com/kojiishi/generate-w3c-implementation-report">github</a>
+            <input type="text" value="{{filterValue::input}}" autofocus placeholder="Search">
+            <ul class="links">
+                <li><a href="css-writing-modes-3/implementation-report.txt">text</a>
+                <li><a href="https://github.com/kojiishi/generate-w3c-implementation-report">github</a>
+            </ul>
         </div>
         <table id="list">
             <tr>
