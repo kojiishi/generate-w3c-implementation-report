@@ -83,7 +83,7 @@
             is: 'test-list',
             ready: function () {
                 if (location.search && location.search.lastIndexOf('?q=', 0) == 0)
-                    this.filterValue = location.search.slice(3);
+                    this.filterText = location.search.slice(3);
             },
             _filter: function (filter) {
                 if (!filter) return null;
