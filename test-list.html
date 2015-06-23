@@ -10,7 +10,7 @@
             position:fixed;
             top:0; right:0;
         }
-        table#list {
+        table {
             border-collapse: collapse;
             margin:0 auto;
         }
@@ -40,12 +40,12 @@
             handle-as="json"
             last-response="{{tests}}"
             ></iron-ajax>
-        <test-panel filter-text="{{filterText}}"></test-panel>
-        <table id="list">
+        <test-panel id="panel" filter-text="{{filterText}}"></test-panel>
+        <table>
             <tr>
                 <th>Test</th><th>Result</th><th>Source</th>
             </tr>
-            <template is="dom-repeat" items="{{tests}}" filter="{{_filter(filterText)}}">
+            <template id="list" is="dom-repeat" items="{{tests}}" filter="{{_filter(filterText)}}" on-dom-change="listUpdated">
                 <tr>
                     <td><a href$="{{getUrl(item)}}">{{item.id}}</a></td>
                     <td class$="{{getResultClass(item)}}">{{item.result}}</td>
@@ -55,7 +55,30 @@
         </table>
     </template>
     <script>
-        var true_func = function () { return true; }
+        function TestStats(total) {
+            this.totalCount = total;
+            this.count = 0;
+            this.passCount = 0;
+            this.failCount = 0;
+        }
+        TestStats.prototype.add = function (test) {
+            ++this.count;
+            switch (test.result) {
+                case 'pass': ++this.passCount; break;
+                case 'fail': ++this.failCount; break;
+            }
+        };
+        function formatCount(count, total) {
+            return count + " (" + Math.round(count * 100 / total) + "%)";
+        }
+        TestStats.prototype.done = function () {
+            this.total = this.totalCount && this.totalCount != this.count
+                ? formatCount(this.count, this.totalCount) : this.count;
+            this.coverage = formatCount(this.passCount + this.failCount, this.count);
+            this.pass = formatCount(this.passCount, this.count);
+            this.fail = formatCount(this.failCount, this.count);
+        };
+
         Polymer({
             is: 'test-list',
             ready: function () {
@@ -63,9 +86,9 @@
                     this.filterValue = location.search.slice(3);
             },
             _filter: function (filter) {
-                if (!filter) return true_func;
+                if (!filter) return null;
                 filter = filter.trim();
-                if (!filter) return true_func;
+                if (!filter) return null;
                 var filters = filter.split(' ');
                 return function (test) {
                     for (var i = 0; i < filters.length; ++i) {
@@ -84,6 +107,21 @@
                     }
                     return true;
                 };
+            },
+            listUpdated: function () {
+                var stats = new TestStats(this.tests.length);
+                var filter = this.$.list.filter;
+                if (filter) {
+                    for (var test of this.tests) {
+                        if (filter(test))
+                            stats.add(test);
+                    }
+                } else {
+                    for (var test of this.tests)
+                        stats.add(test);
+                }
+                stats.done();
+                this.$.panel.updateStats(stats);
             },
             getUrl: function (test) {
                 return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + test.id + '/format/html5/'

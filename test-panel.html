@@ -4,6 +4,12 @@
         input {
             font-size:11pt;
         }
+        table {
+            width:100%;
+        }
+        td {
+            text-align:right;
+        }
         ul.links {
             font-size:11pt;
             list-style-type:none;
@@ -13,6 +19,12 @@
     <template>
         <div id="site-banner">
             <input type="text" value="{{filterText::input}}" autofocus placeholder="Search">
+            <table>
+                <tr><th>Total</th><td>{{stats.total}}</td></tr>
+                <tr><th>Coverage</th><td>{{stats.coverage}}</td></tr>
+                <tr><th>Pass</th><td>{{stats.pass}}</td></tr>
+                <tr><th>Fail</th><td>{{stats.fail}}</td></tr>
+            </table>
             <ul class="links">
                 <li><a href="http://test.csswg.org/harness/results/css-writing-modes-3_dev/grouped/">Harness Results</a>
                 <li><a href="css-writing-modes-3/implementation-report.txt">report.txt</a>
@@ -25,7 +37,10 @@
             is: 'test-panel',
             properties: {
                 filterText: { type: String, notify: true },
-            }
+            },
+            updateStats: function (stats) {
+                this.stats = stats;
+            },
         })
     </script>
 </dom-module>
