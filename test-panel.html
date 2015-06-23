@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<dom-module id="test-panel">
+    <style>
+        input {
+            font-size:11pt;
+        }
+        ul.links {
+            font-size:11pt;
+            list-style-type:none;
+            text-align:right;
+        }
+    </style>
+    <template>
+        <div id="site-banner">
+            <input type="text" value="{{filterText::input}}" autofocus placeholder="Search">
+            <ul class="links">
+                <li><a href="http://test.csswg.org/harness/results/css-writing-modes-3_dev/grouped/">Harness Results</a>
+                <li><a href="css-writing-modes-3/implementation-report.txt">report.txt</a>
+                <li><a href="https://github.com/kojiishi/generate-w3c-implementation-report">github</a>
+            </ul>
+        </div>
+    </template>
+    <script>
+        Polymer({
+            is: 'test-panel',
+            properties: {
+                filterText: { type: String, notify: true },
+            }
+        })
+    </script>
+</dom-module>

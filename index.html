@@ -2,117 +2,11 @@
 <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
 <link rel="import" href="bower_components/polymer/polymer.html">
 <link rel="import" href="bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="test-list.html">
 <style>
 html, body {
     font-size: 12pt;
     margin:0px;
 }
 </style>
-<my-app></my-app>
-<dom-module id="my-app">
-    <style>
-        #site-banner {
-            background-color: #eee;
-            box-shadow:0 1px 5px rgba(0,0,0,0.3);
-            padding:16px 8px 0px 8px;
-            position:fixed;
-            top:0; right:0;
-        }
-        input {
-            font-size:11pt;
-        }
-        ul.links {
-            font-size:11pt;
-            list-style-type:none;
-            text-align:right;
-        }
-        table#list {
-            border-collapse: collapse;
-            margin:0 auto;
-        }
-        tr:nth-child(2n) {
-            background-color: #eee;
-        }
-        th, td {
-            border: solid gray thin;
-        }
-        .fail {
-            background-color: #f66;
-        }
-        .pass, .blink {
-            background-color: #8f8;
-        }
-        .logged-in {
-            background-color: #80d0ff;
-        }
-        .uncertain, .na, .anonymous {
-            background-color: yellow;
-        }
-    </style>
-    <template>
-        <iron-ajax
-            auto
-            url="css-writing-modes-3/implementation-report.json"
-            handle-as="json"
-            last-response="{{tests}}"
-            ></iron-ajax>
-        <div id="site-banner">
-            <input type="text" value="{{filterValue::input}}" autofocus placeholder="Search">
-            <ul class="links">
-                <li><a href="css-writing-modes-3/implementation-report.txt">text</a>
-                <li><a href="https://github.com/kojiishi/generate-w3c-implementation-report">github</a>
-            </ul>
-        </div>
-        <table id="list">
-            <tr>
-                <th>Test</th><th>Result</th><th>Source</th>
-            </tr>
-            <template is="dom-repeat" items="{{tests}}" filter="{{_filter(filterValue)}}">
-                <tr>
-                    <td><a href$="{{getUrl(item)}}">{{item.id}}</a></td>
-                    <td class$="{{getResultClass(item)}}">{{item.result}}</td>
-                    <td class$="{{item.source}}">{{item.source}}</td>
-                </tr>
-            </template>
-        </table>
-    </template>
-    <script>
-        var true_func = function () { return true; }
-        Polymer({
-            is: 'my-app',
-            ready: function () {
-                if (location.search && location.search.lastIndexOf('?q=', 0) == 0)
-                    this.filterValue = location.search.slice(3);
-            },
-            _filter: function (filter) {
-                if (!filter) return true_func;
-                filter = filter.trim();
-                if (!filter) return true_func;
-                var filters = filter.split(' ');
-                return function (test) {
-                    for (var i = 0; i < filters.length; ++i) {
-                        var filter = filters[i];
-                        if (!filter) continue;
-                        var negate = filter[0] == '!';
-                        if (negate) {
-                            filter = filter.slice(1);
-                            if (!filter) continue;
-                        }
-                        var match = test.id.indexOf(filter) >= 0 ||
-                            test.result.indexOf(filter) >= 0 ||
-                            (!!test.source && test.source.indexOf(filter) >= 0);
-                        if (match == negate)
-                            return false;
-                    }
-                    return true;
-                };
-            },
-            getUrl: function (test) {
-                return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + test.id + '/format/html5/'
-            },
-            getResultClass: function (test) {
-                return test.result == '?' ? 'na' : test.result;
-            }
-        })
-    </script>
-</dom-module>
+<test-list></test-list>
