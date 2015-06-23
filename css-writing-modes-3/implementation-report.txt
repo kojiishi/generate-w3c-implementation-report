@@ -1,7 +1,7 @@
 html/abs-pos-non-replaced-icb-vlr-003.htm	d3088b2113ff9dc88028dc89b4d030a83db59a2b	fail
 html/abs-pos-non-replaced-icb-vlr-005.htm	b959f5e9a4d09adc6784d74741b43ff0ac1ea0ca	fail
 html/abs-pos-non-replaced-icb-vlr-007.htm	2920468c92b3106eb9b5ece67e5bcb5671cb4ae3	pass
-html/abs-pos-non-replaced-icb-vlr-009.htm	c5707d898b0da047a136a5dea32eaee2f072aceb	pass
+html/abs-pos-non-replaced-icb-vlr-009.htm	c5707d898b0da047a136a5dea32eaee2f072aceb	fail
 html/abs-pos-non-replaced-icb-vlr-011.htm	cb3c2ddfdcf6f2a98842ab3072383bb568779b45	fail
 html/abs-pos-non-replaced-icb-vlr-013.htm	9f493db44442db0fa520f7dd00ddbc5bd8b053be	fail
 html/abs-pos-non-replaced-icb-vlr-015.htm	2771fcc484d81c24ae79b7c55ea7936222ed4362	pass
@@ -126,7 +126,7 @@ html/abs-pos-non-replaced-vrl-090.htm	cec3dc3fdbf07fe93fb8e21aab1985bd5159cb68	p
 html/abs-pos-non-replaced-vrl-092.htm	a7cf6f431513e2f15607239266903d59877465a8	pass
 html/abs-pos-non-replaced-vrl-094.htm	d589ef571191faddc77afce329727a583621f6f2	pass
 html/abs-pos-non-replaced-vrl-096.htm	395bfb4c6be7fe412a7b25c77d0df64270482282	pass
-# html/autoheight-regions-in-autoheight-flexbox-002.htm	03903463d0ee57e784c8305fc4b3c522d62beb38	fail # Anonymous
+# html/autoheight-regions-in-autoheight-flexbox-002.htm	03903463d0ee57e784c8305fc4b3c522d62beb38	fail
 # html/background-position-vlr-003.htm	6f62ea5ca447de2cec9e79c4756f56b9ba4328be	pass
 # html/background-position-vlr-005.htm	6e0dc09bfe164ae0d9cc0a8eeca78824c84cdd6e	pass
 # html/background-position-vlr-007.htm	02f2f3858b9b2020b82974ac52614286bbb3eddb	pass
@@ -159,12 +159,12 @@ html/baseline-inline-replaced-003.htm	eed7b8849080d2daa99c847c48b215bd6c3fb17a	p
 # html/bidi-001.htm	4b17669682a01af35c7ff859a56ff14979004532	pass
 # html/bidi-002.htm	48d2d4ba08ef8b06d14ef353e9fb8caa30bb43af	pass
 # html/bidi-003.htm	4fc2169d7f75864298bca1a48c3d4d3bdb3560cf	fail
-# html/bidi-005.htm	9a94108988b0d806f23f5d63aec2a5b34d6aea05	pass # Anonymous
-# html/bidi-006.htm	a699b5134869e68b68c5399f9be53865f6bb90cd	pass # Anonymous
-# html/bidi-007.htm	52cbe1038400d33a001f042c6b78f1ee216c902b	pass # Anonymous
-# html/bidi-008.htm	c878778f568e57aa6bc27e433596631230c507ff	?
-# html/bidi-009.htm	d6072671ffb3f62e5e2cd6b3a1e622c8c25ca81a	?
-# html/bidi-010.htm	16d1297a97d5163619d5317e0a69343dd1c1eb6d	pass # Anonymous
+# html/bidi-005.htm	9a94108988b0d806f23f5d63aec2a5b34d6aea05	pass
+# html/bidi-006.htm	a699b5134869e68b68c5399f9be53865f6bb90cd	pass
+# html/bidi-007.htm	52cbe1038400d33a001f042c6b78f1ee216c902b	pass
+# html/bidi-008.htm	c878778f568e57aa6bc27e433596631230c507ff	pass
+# html/bidi-009.htm	d6072671ffb3f62e5e2cd6b3a1e622c8c25ca81a	pass
+# html/bidi-010.htm	16d1297a97d5163619d5317e0a69343dd1c1eb6d	pass
 # html/bidi-011.htm	c3876d81e8a04525459e58052c7e241825de8aeb	pass
 # html/bidi-alt-001.htm	4d4b08257d283f8137a8319b54468d990e1236b9	fail
 # html/bidi-box-model-001.htm	1c9b7d40184936c8dd4ae4dfb02e799aad6eec88	pass
@@ -177,7 +177,7 @@ html/baseline-inline-replaced-003.htm	eed7b8849080d2daa99c847c48b215bd6c3fb17a	p
 # html/bidi-box-model-008.htm	8c510ddd2d961e2be38fbc0b1b7b73ce8c871c25	pass
 # html/bidi-box-model-009.htm	8553fa2253cf1da817f035932fb36c7234a3fca1	pass
 # html/bidi-box-model-034.htm	e9bd7a66ce4c8abb5158f49ea9bd7cf2a61f115d	pass
-# html/bidi-box-model-035.htm	e10ae7a28a9c36ade38d76a62b5b3cbd4924cb5e	pass # Anonymous
+# html/bidi-box-model-035.htm	e10ae7a28a9c36ade38d76a62b5b3cbd4924cb5e	pass
 # html/bidi-box-model-036.htm	d35d1e26ca2c0560efaa12e4b6cd4e11720cedd6	pass
 # html/bidi-box-model-043.htm	a5320f0797f50894c930422612c5d4f8e6f5f18e	pass
 # html/bidi-box-model-044.htm	598e3207af53b8419a1cd59902ee374213415c5f	pass
@@ -257,7 +257,7 @@ html/bidi-plaintext-008.htm	4509f186c3c490d93f5811e693b3ebb7550f4dcb	pass
 html/bidi-plaintext-009.htm	bf06eff1aed8c74b837c318eeb701c109cf7dec1	pass
 html/bidi-plaintext-010.htm	c761067af86f83172d5ba2b4b56aed3191dd74b2	pass
 html/bidi-plaintext-011.htm	af5e5dd3dc797ad5fec57780a3cc491861f872df	fail
-# html/bidi-table-001.htm	b76614ab31144548ec19f4351dcf585f59ae3e0f	pass # Anonymous
+# html/bidi-table-001.htm	b76614ab31144548ec19f4351dcf585f59ae3e0f	pass
 html/bidi-unset-001.htm	eb7a5acbe55bce9659d8c8fdb22ef75f7f54ea39	pass
 html/bidi-unset-002.htm	f23c821ec27e544abbd055d8d78a1686bcd23650	pass
 html/bidi-unset-003.htm	5b15aac3b0ef0ca8da7c0f55e20c7b9727ece49b	pass
@@ -287,7 +287,7 @@ html/block-flow-direction-013.htm	864bb241fe74023d23183204bfb32c6615e4c2bb	pass 
 html/block-flow-direction-014.htm	766e5d11e657b49ec5beeb987351fd7bfb59b4ec	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/block-flow-direction-015.htm	49882d193c25d3c2170e97d939b39920622e04d3	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/block-flow-direction-016.htm	5221c36bb90f1346378ea6f026940b5fdae1b072	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-# html/block-flow-direction-017.htm	c2a92a2f4ded8bd1c1c8da78d659f9d3cef71f0e	fail # Anonymous
+# html/block-flow-direction-017.htm	c2a92a2f4ded8bd1c1c8da78d659f9d3cef71f0e	fail
 # html/block-flow-direction-018.htm	9d32e9d52ef12a1cc1c02512dd21172097f6f206	fail
 html/block-flow-direction-019.htm	4013b44b2f69c6ad31338a283f65f0d49befc9e4	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/block-flow-direction-020.htm	d6687aa139742ecb9688c7ccb4fcb5588681c708	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
@@ -324,7 +324,7 @@ html/central-baseline-alignment-002.htm	90489bcb77cfed11d0d0072734e1a6a5408f05e2
 html/central-baseline-alignment-003.htm	8e6a4d8e67c4492e12b1d72857cbee6aa3611e37	pass
 html/clearance-calculations-vrl-002.htm	08bfbf660a2e28087e2532f36ac0a8372fbcf408	pass
 html/clearance-calculations-vrl-004.htm	78bbebea05e03d6cfd797bd17a6793734221ab1f	pass
-html/clearance-calculations-vrl-006.htm	e373da6da00e4842d35a6eaca9fb31e153d3a039	pass
+html/clearance-calculations-vrl-006.htm	e373da6da00e4842d35a6eaca9fb31e153d3a039	fail
 html/clearance-calculations-vrl-008.htm	d13c9c1e2670c70fbb64075f6f140c8c4875849a	pass
 html/clip-rect-vlr-003.htm	8fb9958ac25d5aba585d007e4a4933596a71a326	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
 html/clip-rect-vlr-005.htm	64d1ce42609e9d11b23134257cc0fe61b271f413	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
@@ -342,22 +342,22 @@ html/clip-rect-vrl-010.htm	9ee86763032f7f57280ed2eaaf6a248ae69638d0	pass
 html/clip-rect-vrl-012.htm	958e294000bde628e565b6b743d47b9ce2be6d64	pass
 html/clip-rect-vrl-014.htm	44fdb637a990b4c84dc24786151db1e4048f57d8	pass
 html/clip-rect-vrl-016.htm	691b8c06c8ed77f9a051d9d0bf39f721ded61c79	pass
-# html/css-flexbox-row.htm	c2fdd1f935ea17ca5c3ef860a2b39c9040c2b032	pass # Anonymous
-# html/css-flexbox-row-reverse.htm	7d6c951b7d2a9a20aec2dae97cf647a7542fd97c	pass # Anonymous
-# html/css-flexbox-row-reverse-wrap.htm	45362cab6ef4ccddc48442ef7c30cfdbc4d7b68f	uncertain # Anonymous
-# html/css-flexbox-row-reverse-wrap-reverse.htm	ae71f495e9b7a0b872b7404e8d13546220a99b9c	uncertain # Anonymous
-# html/css-flexbox-row-wrap.htm	406a4ac39fbf0910cc734e4fa2c2d95d441cbf2a	uncertain # Anonymous
-# html/css-flexbox-row-wrap-reverse.htm	3de913d4d90d2452743b0b92d15a212215e1db4a	uncertain # Anonymous
+# html/css-flexbox-row.htm	c2fdd1f935ea17ca5c3ef860a2b39c9040c2b032	pass
+# html/css-flexbox-row-reverse.htm	7d6c951b7d2a9a20aec2dae97cf647a7542fd97c	pass
+# html/css-flexbox-row-reverse-wrap.htm	45362cab6ef4ccddc48442ef7c30cfdbc4d7b68f	pass
+# html/css-flexbox-row-reverse-wrap-reverse.htm	ae71f495e9b7a0b872b7404e8d13546220a99b9c	pass
+# html/css-flexbox-row-wrap.htm	406a4ac39fbf0910cc734e4fa2c2d95d441cbf2a	pass
+# html/css-flexbox-row-wrap-reverse.htm	3de913d4d90d2452743b0b92d15a212215e1db4a	pass
 html/different-block-flow-dir-001.htm	3d33662be593c9a71770ab85e04c5f8e9721aac3	pass
 html/different-block-flow-dir-002.htm	dfa3d81dda50b5a39e2a1b98d268841d7af8fd32	pass
 # html/direction-001.htm	5c033add1932eaf0595c610990a862bf6a6a3bdb	pass
 # html/direction-002.htm	12b697880ef31320cb3a92589d76ee9f85be6546	pass
 # html/direction-003.htm	c5e4860af47173b24a7778a2b12ee81fc49585e1	pass
-# html/direction-applies-to-001.htm	ad85663884bb84a128b7d255a2185b758706d1c9	pass # Anonymous
-# html/direction-applies-to-002.htm	6e301be686dcc42be9dca56877a71c5900c29567	pass # Anonymous
-# html/direction-applies-to-003.htm	454340102868a1beb1d5dce03b1cc5fffe71e5d0	pass # Anonymous
-# html/direction-applies-to-004.htm	ece9d9914f3b315351a9365a9a3a004c4065b99b	pass # Anonymous
-# html/direction-applies-to-005.htm	8e4fd45ed5e3bcf071812e77bbb1b1e8184293dc	pass # Anonymous
+# html/direction-applies-to-001.htm	ad85663884bb84a128b7d255a2185b758706d1c9	fail
+# html/direction-applies-to-002.htm	6e301be686dcc42be9dca56877a71c5900c29567	fail
+# html/direction-applies-to-003.htm	454340102868a1beb1d5dce03b1cc5fffe71e5d0	fail
+# html/direction-applies-to-004.htm	ece9d9914f3b315351a9365a9a3a004c4065b99b	pass
+# html/direction-applies-to-005.htm	8e4fd45ed5e3bcf071812e77bbb1b1e8184293dc	pass
 # html/direction-applies-to-006.htm	48b32817e073db5d01f16c48ea3ca118eaa80c5b	pass
 # html/direction-applies-to-007.htm	43b0c427954ccd7eac088633011d201acd4bdbeb	pass
 # html/direction-applies-to-008.htm	9330c479eb50753e5f4dbcc6b732c8a16311f056	pass
@@ -709,5 +709,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass # Flaky
-# Total = 711, Coverage = 665 (93%), Pass = 547 (76% of total, 82% of coverage), Fail = 118 (16% of total, 17% of coverage)
-# Imported = 514 (72%), Pass = 436 (61% of total, 84% of imported), Fail = 78 (10% of total, 15% of imported)
+# Total = 711, Coverage = 671 (94%), Pass = 548 (77% of total, 81% of coverage), Fail = 123 (17% of total, 18% of coverage)
+# Imported = 514 (72%), Pass = 434 (61% of total, 84% of imported), Fail = 80 (11% of total, 15% of imported)

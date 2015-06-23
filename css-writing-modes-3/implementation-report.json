@@ -17,7 +17,7 @@
 {
 "source": "blink", 
 "id": "abs-pos-non-replaced-icb-vlr-009", 
-"result": "pass"
+"result": "fail"
 }, 
 {
 "source": "blink", 
@@ -640,7 +640,7 @@
 "result": "pass"
 }, 
 {
-"source": "anonymous", 
+"source": "logged-in", 
 "id": "autoheight-regions-in-autoheight-flexbox-002", 
 "result": "fail"
 }, 
@@ -805,32 +805,32 @@
 "result": "fail"
 }, 
 {
-"source": "anonymous", 
+"source": "logged-in", 
 "id": "bidi-005", 
 "result": "pass"
 }, 
 {
-"source": "anonymous", 
+"source": "logged-in", 
 "id": "bidi-006", 
 "result": "pass"
 }, 
 {
-"source": "anonymous", 
+"source": "logged-in", 
 "id": "bidi-007", 
 "result": "pass"
 }, 
 {
-"source": null, 
+"source": "logged-in", 
 "id": "bidi-008", 
-"result": "?"
+"result": "pass"
 }, 
 {
-"source": null, 
+"source": "logged-in", 
 "id": "bidi-009", 
-"result": "?"
+"result": "pass"
 }, 
 {
-"source": "anonymous", 
+"source": "logged-in", 
 "id": "bidi-010", 
 "result": "pass"
 }, 
@@ -895,7 +895,7 @@
 "result": "pass"
 }, 
 {
-"source": "anonymous", 
+"source": "logged-in", 
 "id": "bidi-box-model-035", 
 "result": "pass"
 }, 
@@ -1295,7 +1295,7 @@
 "result": "fail"
 }, 
 {
-"source": "anonymous", 
+"source": "logged-in", 
 "id": "bidi-table-001", 
 "result": "pass"
 }, 
@@ -1445,7 +1445,7 @@
 "result": "pass"
 }, 
 {
-"source": "anonymous", 
+"source": "logged-in", 
 "id": "block-flow-direction-017", 
 "result": "fail"
 }, 
@@ -1632,7 +1632,7 @@
 {
 "source": "blink", 
 "id": "clearance-calculations-vrl-006", 
-"result": "pass"
+"result": "fail"
 }, 
 {
 "source": "blink", 
@@ -1720,34 +1720,34 @@
 "result": "pass"
 }, 
 {
-"source": "anonymous", 
+"source": "logged-in", 
 "id": "css-flexbox-row", 
 "result": "pass"
 }, 
 {
-"source": "anonymous", 
+"source": "logged-in", 
 "id": "css-flexbox-row-reverse", 
 "result": "pass"
 }, 
 {
-"source": "anonymous", 
+"source": "logged-in", 
 "id": "css-flexbox-row-reverse-wrap", 
-"result": "uncertain"
+"result": "pass"
 }, 
 {
-"source": "anonymous", 
+"source": "logged-in", 
 "id": "css-flexbox-row-reverse-wrap-reverse", 
-"result": "uncertain"
+"result": "pass"
 }, 
 {
-"source": "anonymous", 
+"source": "logged-in", 
 "id": "css-flexbox-row-wrap", 
-"result": "uncertain"
+"result": "pass"
 }, 
 {
-"source": "anonymous", 
+"source": "logged-in", 
 "id": "css-flexbox-row-wrap-reverse", 
-"result": "uncertain"
+"result": "pass"
 }, 
 {
 "source": "blink", 
@@ -1775,27 +1775,27 @@
 "result": "pass"
 }, 
 {
-"source": "anonymous", 
+"source": "logged-in", 
 "id": "direction-applies-to-001", 
-"result": "pass"
+"result": "fail"
 }, 
 {
-"source": "anonymous", 
+"source": "logged-in", 
 "id": "direction-applies-to-002", 
-"result": "pass"
+"result": "fail"
 }, 
 {
-"source": "anonymous", 
+"source": "logged-in", 
 "id": "direction-applies-to-003", 
-"result": "pass"
+"result": "fail"
 }, 
 {
-"source": "anonymous", 
+"source": "logged-in", 
 "id": "direction-applies-to-004", 
 "result": "pass"
 }, 
 {
-"source": "anonymous", 
+"source": "logged-in", 
 "id": "direction-applies-to-005", 
 "result": "pass"
 }, 
