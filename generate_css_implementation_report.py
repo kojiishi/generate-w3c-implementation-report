@@ -52,37 +52,21 @@ class W3CImplementationReportGenerator(object):
             self.id = id
             self.combo = None
             self.combo_of = []
-            self._comment = None
             self.import_dir = None
             self.import_ext = None
-            self._is_fail = False
-            self._fail_conditions = set()
+            self.import_result = None
+            self.submit_result = None
             self.revision = None
             self.testnames = []
-            self.submit_result = None
-            self.submit_format = None
-            self.submit_date = None
-            self.submit_source = None
-            self.is_trusted_submit_source = False
-
-        trusted_sources = set(('gtalbot', 'hshiozawa', 'kojiishi', 'lemoned'))
-
-        @property
-        def is_import(self):
-            return self.import_dir or self.combo and self.combo.import_dir
-
-        @property
-        def is_fail(self):
-            return self._is_fail or len(self._fail_conditions) >= 3 or self.combo and self.combo.is_fail
 
         @property
         def _result_string(self):
-            if self.is_fail:
-                return 'fail'
-            if self.is_import:
-                return 'pass'
+            if self.import_result:
+                if len(self.import_result.conditions) >= 3:
+                    return 'fail'
+                return self.import_result.result
             if self.submit_result:
-                return self.submit_result
+                return self.submit_result.result
             return None
 
         @property
@@ -100,49 +84,73 @@ class W3CImplementationReportGenerator(object):
 
         @property
         def source_string(self):
-            if self.is_import:
+            if self.import_result:
                 return 'blink'
             if self.submit_result:
-                if self.is_trusted_submit_source:
-                    return 'logged-in'
-                return 'anonymous'
+                if self.submit_result.reliability == 1:
+                    return "logged-in"
+                return "anonymous"
+            if self.combo:
+                return self.combo.source_string
             return None
 
         @property
         def comment(self):
-            if self.is_import:
-                if len(self._fail_conditions) == 0 or self.is_fail:
-                    return self._comment
-                return ', '.join(self._fail_conditions) + ': ' + (self._comment if self._comment else 'Fail')
-            if self.submit_result and not self.is_trusted_submit_source:
+            if self.import_result:
+                return self.import_result.comment
+            if self.submit_result and self.submit_result.reliability == 0:
                 return 'Anonymous'
             return None
 
-        def set_expectation(self, conditions, is_pass, comment):
-            if not is_pass:
-                if not conditions:
-                    self._is_fail = True
-                else:
-                    for condition in conditions:
-                        self._fail_conditions.add(condition)
-            else:
-                if conditions:
-                    comment = ', '.join(conditions) + ': ' + comment
-            self._comment = comment
+        def set_import(self, dir, ext):
+            self.import_dir = dir
+            self.import_ext = ext
+            self.import_result = W3CImplementationReportGenerator.ImportTestResult('pass')
 
-        def add_submit(self, result, format, date, source):
-            is_trusted = source in W3CImplementationReportGenerator.Test.trusted_sources
-            if not is_trusted and self.is_trusted_submit_source:
-                return
-            if is_trusted and not self.is_trusted_submit_source:
-                pass
-            elif self.submit_date and self.submit_date > date:
-                return
-            self.submit_result = result
-            self.submit_format = format
-            self.submit_date = date
-            self.submit_source = source
-            self.is_trusted_submit_source = is_trusted
+        def add_expectation(self, conditions, result, comment):
+            assert self.import_result
+            self.import_result.result = result
+            if conditions:
+                for condition in conditions:
+                    self.import_result.conditions.add(condition)
+            self.import_result._comment = comment
+
+        def add_submit_result(self, result):
+            if result.precedes(self.submit_result):
+                self.submit_result = result
+
+    class ImportTestResult(object):
+        def __init__(self, result):
+            self.result = result
+            self.conditions = set()
+            self._comment = None
+
+        @property
+        def comment(self):
+            if 3 > len(self.conditions) > 0:
+                return ', '.join(self.conditions) + ': ' + (self._comment if self._comment else self.result)
+            return self._comment
+
+    class SubmitTestResult(object):
+        def __init__(self, result, source, date):
+            self.result = result
+            self.source = source
+            self.reliability = W3CImplementationReportGenerator.SubmitTestResult.reliability_from_source(source)
+            self.date = date
+
+        def precedes(self, other):
+            if not other:
+                return True
+            if self.reliability != other.reliability:
+                return self.reliability > other.reliability
+            return self.date > other.date
+
+        known_sources = set(('gtalbot', 'hshiozawa', 'kojiishi', 'lemoned'))
+        @staticmethod
+        def reliability_from_source(source):
+            if source in W3CImplementationReportGenerator.SubmitTestResult.known_sources:
+                return 1;
+            return 0;
 
     def add_test(self, name):
         if name in self.tests:
@@ -155,8 +163,7 @@ class W3CImplementationReportGenerator(object):
         for root, filename in self.find_test_files(directory):
             name, ext = os.path.splitext(filename)
             test = self.add_test(name)
-            test.import_dir = root
-            test.import_ext = ext
+            test.set_import(root, ext)
 
     def find_test_files(self, directory):
         dirs_to_skip = ('support',)
@@ -173,14 +180,14 @@ class W3CImplementationReportGenerator(object):
                 yield (root, file)
 
     def load_test_expectations(self, expectations):
-        for path, conditions, is_pass, comment in self.read_test_expectations(expectations):
+        for path, conditions, result, comment in self.read_test_expectations(expectations):
             filename = os.path.basename(path)
             name, ext = os.path.splitext(filename)
             test = self.tests.get(name, None)
             if not test:
-                log.warn("Test for a failure not found: %s", filename)
+                log.warn("Test for TestExpectations not found: %s", filename)
                 continue
-            test.set_expectation(conditions, is_pass, comment)
+            test.add_expectation(conditions, result, comment)
 
     def read_test_expectations(self, expectations):
         pattern = re.compile(r'([^\[]+)(\[[^\]]+])?\s+(\S+)\s+\[\s*([^\]]+)]$')
@@ -205,14 +212,14 @@ class W3CImplementationReportGenerator(object):
                 conditions = conditions.strip('[]').split() if conditions else None
                 if 'Pass' in results:
                     log.info("Flaky as Pass: %s", line)
-                    yield (path, conditions, True, 'Flaky')
+                    yield (path, conditions, 'pass', 'Flaky')
                     continue
                 if is_actually_pass:
                     log.info("Fail as pass: %s # %s", line, comment)
-                    yield (path, conditions, True, comment)
+                    yield (path, conditions, 'pass', comment)
                     continue
                 log.debug("Fail Expectation found: %s %s %s", conditions, path, results)
-                yield (path, conditions, False, None)
+                yield (path, conditions, 'fail', None)
                 continue
             log.warn("Line unknown: %s", line)
 
@@ -224,7 +231,8 @@ class W3CImplementationReportGenerator(object):
             if not 'Chrome/' in useragent:
                 continue
             test = self.get_test_from_testcase(row[0])
-            test.add_submit(row[1], row[2], row[3], row[4])
+            result = W3CImplementationReportGenerator.SubmitTestResult(row[1], row[4], row[3])
+            test.add_submit_result(result)
 
     def load_template(self, template):
         for line in template:
@@ -279,7 +287,7 @@ class W3CImplementationReportGenerator(object):
                 passed += 1
             elif result == 'fail':
                 coverage += 1
-            if test.is_import:
+            if test.import_result or test.combo and test.combo.import_result:
                 imported += 1
                 if is_passed:
                     imported_passed += 1
