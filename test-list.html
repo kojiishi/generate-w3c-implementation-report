@@ -95,6 +95,16 @@
             return stats;
         };
 
+        function matchTest(test, text) {
+            if (!text)
+                return true;
+            if (text[0] == '!')
+                return !matchTest(test, text.slice(1));
+            return test.id.indexOf(text) >= 0 ||
+                test.result.indexOf(text) >= 0 ||
+                (test.source && test.source.indexOf(text) >= 0);
+        }
+
         Polymer({
             is: 'test-list',
             ready: function () {
@@ -106,19 +116,13 @@
                 filter = filter.trim();
                 if (!filter) return null;
                 var filters = filter.split(' ');
+                if (filters.length == 1)
+                    return function (test) { return matchTest(test, filters[0]); }
                 return function (test) {
                     for (var i = 0; i < filters.length; ++i) {
                         var filter = filters[i];
                         if (!filter) continue;
-                        var negate = filter[0] == '!';
-                        if (negate) {
-                            filter = filter.slice(1);
-                            if (!filter) continue;
-                        }
-                        var match = test.id.indexOf(filter) >= 0 ||
-                            test.result.indexOf(filter) >= 0 ||
-                            (!!test.source && test.source.indexOf(filter) >= 0);
-                        if (match == negate)
+                        if (!matchTest(test, filter))
                             return false;
                     }
                     return true;
