@@ -17,7 +17,7 @@
 {
 "source": "blink", 
 "id": "abs-pos-non-replaced-icb-vlr-009", 
-"result": "fail"
+"result": "pass"
 }, 
 {
 "source": "blink", 
@@ -1632,7 +1632,7 @@
 {
 "source": "blink", 
 "id": "clearance-calculations-vrl-006", 
-"result": "fail"
+"result": "pass"
 }, 
 {
 "source": "blink", 

@@ -1,7 +1,7 @@
 html/abs-pos-non-replaced-icb-vlr-003.htm	d3088b2113ff9dc88028dc89b4d030a83db59a2b	fail
 html/abs-pos-non-replaced-icb-vlr-005.htm	b959f5e9a4d09adc6784d74741b43ff0ac1ea0ca	fail
 html/abs-pos-non-replaced-icb-vlr-007.htm	2920468c92b3106eb9b5ece67e5bcb5671cb4ae3	pass
-html/abs-pos-non-replaced-icb-vlr-009.htm	c5707d898b0da047a136a5dea32eaee2f072aceb	fail
+html/abs-pos-non-replaced-icb-vlr-009.htm	c5707d898b0da047a136a5dea32eaee2f072aceb	pass
 html/abs-pos-non-replaced-icb-vlr-011.htm	cb3c2ddfdcf6f2a98842ab3072383bb568779b45	fail
 html/abs-pos-non-replaced-icb-vlr-013.htm	9f493db44442db0fa520f7dd00ddbc5bd8b053be	fail
 html/abs-pos-non-replaced-icb-vlr-015.htm	2771fcc484d81c24ae79b7c55ea7936222ed4362	pass
@@ -324,7 +324,7 @@ html/central-baseline-alignment-002.htm	90489bcb77cfed11d0d0072734e1a6a5408f05e2
 html/central-baseline-alignment-003.htm	8e6a4d8e67c4492e12b1d72857cbee6aa3611e37	pass
 html/clearance-calculations-vrl-002.htm	08bfbf660a2e28087e2532f36ac0a8372fbcf408	pass
 html/clearance-calculations-vrl-004.htm	78bbebea05e03d6cfd797bd17a6793734221ab1f	pass
-html/clearance-calculations-vrl-006.htm	e373da6da00e4842d35a6eaca9fb31e153d3a039	fail
+html/clearance-calculations-vrl-006.htm	e373da6da00e4842d35a6eaca9fb31e153d3a039	pass
 html/clearance-calculations-vrl-008.htm	d13c9c1e2670c70fbb64075f6f140c8c4875849a	pass
 html/clip-rect-vlr-003.htm	8fb9958ac25d5aba585d007e4a4933596a71a326	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
 html/clip-rect-vlr-005.htm	64d1ce42609e9d11b23134257cc0fe61b271f413	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
@@ -418,9 +418,9 @@ html/float-vrl-010.htm	b59980fd3c43107970860cdcea17e840474a0116	pass
 html/float-vrl-012.htm	11b96153a38deaffbe497b0fe9252c25f30f6c9e	pass
 # html/form-controls-vert-rl-004.htm	55f1a010d3b5d51bba07822f206228b170782c0c	fail # Anonymous
 # html/form-controls-vert-rl-005.htm	76cacb867c752913e51f52b6a19d9c0f9d55e080	fail # Anonymous
-# html/full-width-001.htm	f752970d15c5ed27a98a938b60500d0518a5f23f	?
-# html/full-width-002.htm	c4e7b411f8ee7860df31d67b1dc147115f1ef50a	?
-# html/full-width-003.htm	cbbd004f1f243eb9d28cd04589984f141132cfd1	?
+# html/full-width-001.htm	a2c91fc3cd710179c048b7e6e34ad24c68f56ae7	?
+# html/full-width-002.htm	d3899bb9aac8c47ec60d90d6ece293c343e3d978	?
+# html/full-width-003.htm	f6deaece33b7947dfe97c6514dab6a11d4718efa	?
 html/height-width-inline-non-replaced-vlr-003.htm	57ea2a34009c303f4bc775018c4b7de20d81acf8	pass
 html/height-width-inline-non-replaced-vrl-002.htm	2b6c49db17e282d91b6456cb6c44c023825a9128	pass
 html/horizontal-rule-vlr-003.htm	c47416e169c5b440e743a67eac5c3c4d5196f6a5	pass
@@ -594,7 +594,7 @@ html/text-decoration-001.htm	d9a469751905e9950b458ec3149cf740f727a0c9	fail
 # html/text-decoration-upright-vrl-002.htm	2b82f16adac5e936f32837c12d77b69da11f1caf	pass
 # html/text-decoration-upright-vrl-004.htm	da674a9887fe6ae0fe4e307fad07f43c749a0030	pass
 # html/text-decoration-upright-vrl-006.htm	d4d19ae10677a788623f605f05a3415c76d6fe31	pass
-html/text-emphasis-001.htm	eff59e032498a841e0db09b571129e882df4bef0	fail
+html/text-emphasis-001.htm	a79e04b9b70dc703306b3f92db6a21a3246f248f	fail
 html/text-indent-vlr-003.htm	a2307c05f77001c45994aae0d5030b062140ae79	pass
 html/text-indent-vlr-005.htm	ec355150dc09150e95645f5b0f45e553e17f97eb	pass
 html/text-indent-vlr-007.htm	62375901a4a5040530d3c029a600d0884de495c2	pass
@@ -657,19 +657,19 @@ html/text-orientation-script-001o.htm	ad390d60dd518de633056d1bd59900406d4d23e8	p
 # html/unicode-bidi-applies-to-013.htm	5e96cad2593bff9bf262c57806aa45b87820f36b	pass
 # html/unicode-bidi-applies-to-014.htm	1ea78d913a72bdf534c9701bc8a771df856e3d2f	pass
 # html/unicode-bidi-applies-to-015.htm	f319b3e86aea3385f390f78d56ba608a6ac94f27	pass
-html/value-all-002.htm	59a50a642e3765d17ae5e12591f1a9734c9c753e	pass # These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/value-all-003.htm	8a0310a885b909d990bfaccc3aaa6245a90493e8	pass # These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/value-all-002.htm	d802f48b068007c7f2864a3aa79f49755c3e013f	pass # These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/value-all-003.htm	f163c7cf88c858595aa661ffba9334e68162c3dc	pass # These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/value-all-and-inherit-001.htm	d10283656560566eb516ce4b3f876fecbec673fe	fail
 # html/value-digit2-and-inherit-001.htm	1a524a016c8b47cd31928d3bc00c4561d546f1d6	fail # Anonymous
-# html/value-digits2-002.htm	c519efb6967e1ce7d9bde145d27acba176b8de4d	?
-html/value-digits2-003.htm	5ed6e18e086e19d7e41ee0c8ab2678b62ebb34c4	pass
-# html/value-digits3-001.htm	ae6e433e2c3c03095519eae6a041b655a51a0abc	?
-# html/value-digits3-002.htm	e341a0ed435a95dacd4d903faf4ce46fa0a3de81	?
-html/value-digits3-003.htm	f7ef238da1568aa769850c9a319619f83cb78879	pass
-# html/value-digits4-001.htm	1ae3f9e7d2c808d4128b11bb41095458d15637b4	?
-# html/value-digits4-002.htm	bbb3df689df1ec378c70b43fbe8f3f541dab7fbb	?
-html/value-digits4-003.htm	fa18a6d948bfa8651a5524cf150d7c06036ea5b8	pass
-html/value-none-001.htm	12cfcb1e57883a81b58e14329979c604dbd1b85e	pass
+# html/value-digits2-002.htm	c5dbe001ba36b8f7e0cc15cf1339e48693685c3d	?
+html/value-digits2-003.htm	887e9c642475bba9aeb27d60b9315bcc6297b019	pass
+# html/value-digits3-001.htm	7fbe02dcb8c7541c6483703cd9a479e05ac3028f	?
+# html/value-digits3-002.htm	b9bbaad2e1d7a1f0196d3d6f8edce78daf398514	?
+html/value-digits3-003.htm	6ea75877d87dd3d31882da6e4f0beb0a2a38d912	pass
+# html/value-digits4-001.htm	c36e1f3d8d75e709647315ea10bac5f452b02889	?
+# html/value-digits4-002.htm	ee4905ec4dcfbc365db8ada98611b349c6d2003b	?
+html/value-digits4-003.htm	717fb1bba8bd7e8404d45a38dc8ec452e453014c	pass
+html/value-none-001.htm	87edae7846c0c582d2a1c14d705f4babfe721c2b	pass
 # html/vertical-alignment-002a.htm	a55994c93e6652bdc61229154fe73727bd2c9aea	?
 # html/vertical-alignment-002b.htm	779a3696b7909f11787ad979d92c965675b8ed71	?
 # html/vertical-alignment-003a.htm	66706a353742efd4400d64575c633bb17a2a7252	?
@@ -709,5 +709,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass # Flaky
-# Total = 711, Coverage = 665 (93%), Pass = 545 (76% of total, 81% of coverage), Fail = 120 (16% of total, 18% of coverage)
-# Imported = 514 (72%), Pass = 434 (61% of total, 84% of imported), Fail = 80 (11% of total, 15% of imported)
+# Total = 711, Coverage = 665 (93%), Pass = 547 (76% of total, 82% of coverage), Fail = 118 (16% of total, 17% of coverage)
+# Imported = 514 (72%), Pass = 436 (61% of total, 84% of imported), Fail = 78 (10% of total, 15% of imported)
