@@ -26,7 +26,7 @@
         .pass, .blink {
             background-color: #8f8;
         }
-        .logged-in {
+        .member {
             background-color: #80d0ff;
         }
         .uncertain, .na, .anonymous {
@@ -49,7 +49,7 @@
                 <tr>
                     <td><a href$="{{getUrl(item)}}">{{item.id}}</a></td>
                     <td class$="{{getResultClass(item)}}">{{item.result}}</td>
-                    <td class$="{{item.source}}">{{item.source}}</td>
+                    <td class$="{{getSourceClass(item)}}">{{item.source}}</td>
                 </tr>
             </template>
         </table>
@@ -134,9 +134,9 @@
             getUrl: function (test) {
                 return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + test.id + '/format/html5/'
             },
-            getResultClass: function (test) {
-                return test.result == '?' ? 'na' : test.result;
-            }
+            getResultClass: function (test) { return test.result == '?' ? 'na' : test.result; },
+            getSourceClass: function (test) { return !test.source || test.source == 'anonymous' ? 'anonymous' :
+                test.source == 'blink' ? 'blink' : 'member'; },
         })
     </script>
 </dom-module>

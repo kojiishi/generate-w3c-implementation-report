@@ -60,7 +60,7 @@ class W3CImplementationReportGenerator(object):
             self.testnames = []
 
         @property
-        def _result_string(self):
+        def _result(self):
             if self.import_result:
                 if len(self.import_result.conditions) >= 3:
                     return 'fail'
@@ -70,29 +70,39 @@ class W3CImplementationReportGenerator(object):
             return None
 
         @property
-        def result_string(self):
-            result = self._result_string
+        def result(self):
+            result = self._result
             if result:
                 return result
             if self.combo:
-                return self.combo._result_string
+                return self.combo._result
             if self.combo_of:
-                if all([c._result_string == 'pass' for c in self.combo_of]):
+                if all([c._result == 'pass' for c in self.combo_of]):
                     return 'pass'
                 return 'fail'
             return '?'
 
         @property
-        def source_string(self):
+        def source(self):
             if self.import_result:
                 return 'blink'
             if self.submit_result:
-                if self.submit_result.reliability == 1:
-                    return "logged-in"
-                return "anonymous"
+                if not self.submit_result.reliability:
+                    return 'anonymous'
+                return self.submit_result.source
             if self.combo:
-                return self.combo.source_string
+                return self.combo.source
             return None
+
+        @property
+        def reliability(self):
+            if self.import_result:
+                return 2
+            if self.submit_result:
+                return self.submit_result.reliability
+            if self.combo:
+                return self.combo.reliability
+            return 0
 
         @property
         def comment(self):
@@ -278,7 +288,7 @@ class W3CImplementationReportGenerator(object):
                 log.warn('Not found in template: %s', test.id)
                 continue
             total += 1
-            result = test.result_string
+            result = test.result
             values = [test.testnames[0], test.revision, result]
             line = '\t'.join(values)
             is_passed = result == 'pass'
@@ -313,8 +323,8 @@ class W3CImplementationReportGenerator(object):
                 continue
             tests.append({
                 'id': test.id,
-                'result': test.result_string,
-                'source': test.source_string,
+                'result': test.result,
+                'source': test.source,
             })
         json.dump(tests, output, indent=0)
 
