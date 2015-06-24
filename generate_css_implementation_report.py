@@ -92,17 +92,9 @@ class W3CImplementationReportGenerator(object):
                 return self.submit_result.source
             if self.combo:
                 return self.combo.source
+            if self.combo_of:
+                return self.combo_of[0].source
             return None
-
-        @property
-        def reliability(self):
-            if self.import_result:
-                return 2
-            if self.submit_result:
-                return self.submit_result.reliability
-            if self.combo:
-                return self.combo.reliability
-            return 0
 
         @property
         def comment(self):
