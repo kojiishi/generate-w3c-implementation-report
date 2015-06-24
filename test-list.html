@@ -135,8 +135,9 @@
                 return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + test.id + '/format/html5/'
             },
             getResultClass: function (test) { return test.result == '?' ? 'na' : test.result; },
-            getSourceClass: function (test) { return !test.source || test.source == 'anonymous' ? 'anonymous' :
-                test.source == 'blink' ? 'blink' : 'member'; },
+            getSourceClass: function (test) { return !test.source ? '' :
+                test.source == 'anonymous' || test.source == 'blink' ? test.source :
+                'member'; },
         })
     </script>
 </dom-module>
