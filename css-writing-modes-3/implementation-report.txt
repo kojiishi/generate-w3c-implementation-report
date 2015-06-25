@@ -1,3 +1,4 @@
+testname	revision	result	comment
 html/abs-pos-non-replaced-icb-vlr-003.htm	d3088b2113ff9dc88028dc89b4d030a83db59a2b	fail
 html/abs-pos-non-replaced-icb-vlr-005.htm	b959f5e9a4d09adc6784d74741b43ff0ac1ea0ca	fail
 html/abs-pos-non-replaced-icb-vlr-007.htm	2920468c92b3106eb9b5ece67e5bcb5671cb4ae3	pass

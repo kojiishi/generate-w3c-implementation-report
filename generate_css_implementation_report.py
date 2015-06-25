@@ -277,6 +277,7 @@ class W3CImplementationReportGenerator(object):
         passed = 0
         imported = 0
         imported_passed = 0
+        output.write("\t".join(["testname", "revision", "result", "comment"]) + "\n")
         for test in sorted(self.tests.itervalues(), key=lambda t: t.id):
             if not test.testnames:
                 log.warn('Not found in template: %s', test.id)
