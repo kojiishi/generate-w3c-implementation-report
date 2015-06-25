@@ -64,6 +64,8 @@ class W3CImplementationReportGenerator(object):
             if self.import_result:
                 if len(self.import_result.conditions) >= 3:
                     return 'fail'
+                if len(self.import_result.conditions) > 0:
+                    return 'pass'
                 return self.import_result.result
             if self.submit_result:
                 return self.submit_result.result

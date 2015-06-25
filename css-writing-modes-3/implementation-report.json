@@ -3107,7 +3107,7 @@
 {
 "source": "blink", 
 "id": "text-orientation-script-001a", 
-"result": "fail"
+"result": "pass"
 }, 
 {
 "source": "blink", 
@@ -3117,12 +3117,12 @@
 {
 "source": "blink", 
 "id": "text-orientation-script-001c", 
-"result": "fail"
+"result": "pass"
 }, 
 {
 "source": "blink", 
 "id": "text-orientation-script-001d", 
-"result": "fail"
+"result": "pass"
 }, 
 {
 "source": "blink", 
@@ -3147,7 +3147,7 @@
 {
 "source": "blink", 
 "id": "text-orientation-script-001i", 
-"result": "fail"
+"result": "pass"
 }, 
 {
 "source": "blink", 
@@ -3157,7 +3157,7 @@
 {
 "source": "blink", 
 "id": "text-orientation-script-001k", 
-"result": "fail"
+"result": "pass"
 }, 
 {
 "source": "blink", 
@@ -3167,12 +3167,12 @@
 {
 "source": "blink", 
 "id": "text-orientation-script-001m", 
-"result": "fail"
+"result": "pass"
 }, 
 {
 "source": "blink", 
 "id": "text-orientation-script-001n", 
-"result": "fail"
+"result": "pass"
 }, 
 {
 "source": "blink", 

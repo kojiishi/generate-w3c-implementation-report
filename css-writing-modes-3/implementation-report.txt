@@ -619,20 +619,20 @@ html/text-orientation-014.htm	00c684d6b5ab616715f157e301f654fb38f71dd4	pass
 # html/text-orientation-015.htm	6d4bd7001c46f64855c6ded1838b7cc9e000c5b2	fail
 # html/text-orientation-mixed-001.htm	ec56b92df4adfd1d4edc26c618884b42d7da5258	pass # Anonymous
 # html/text-orientation-script-001.htm	c6b57649b8f0fcdf0f7caf750682c2e7093b777b	fail
-html/text-orientation-script-001a.htm	ce382caffa1da0d7da68fdef50eb490af6ff2812	fail
+html/text-orientation-script-001a.htm	ce382caffa1da0d7da68fdef50eb490af6ff2812	pass
 html/text-orientation-script-001b.htm	bee11d0a13f4e41edbacf8e29a21097816291e52	pass
-html/text-orientation-script-001c.htm	4c3539b0196194d6922f029d6f8a7381b5b0e17c	fail
-html/text-orientation-script-001d.htm	1d586d4b9a275332d809111ea977cf11b0bc77ad	fail
+html/text-orientation-script-001c.htm	4c3539b0196194d6922f029d6f8a7381b5b0e17c	pass
+html/text-orientation-script-001d.htm	1d586d4b9a275332d809111ea977cf11b0bc77ad	pass
 html/text-orientation-script-001e.htm	555dfefc2ecc1e5fec8cb03beaf781eb46e6b4d7	fail
 html/text-orientation-script-001f.htm	2829e7dd0ef094e56579838063f21d2416a293ec	pass
 html/text-orientation-script-001g.htm	c6ca966f09342efadec5a4bede6204f8b4c9839b	pass
 html/text-orientation-script-001h.htm	5f297790db02889d163f975242fa12ceff44018f	pass
-html/text-orientation-script-001i.htm	1ae65c98aa6fd22dc665efb229d6175f6bc54019	fail
+html/text-orientation-script-001i.htm	1ae65c98aa6fd22dc665efb229d6175f6bc54019	pass
 html/text-orientation-script-001j.htm	4dd50b939e04471b105246f82c9264750b74de83	pass
-html/text-orientation-script-001k.htm	07519d82c5a85d0f62e2db763d66d9acf766fb70	fail
+html/text-orientation-script-001k.htm	07519d82c5a85d0f62e2db763d66d9acf766fb70	pass # Mac: fail
 html/text-orientation-script-001l.htm	0b842056a68797e0a12ba7cffb4b4afc6f1e9be5	pass
-html/text-orientation-script-001m.htm	24dd6e5df9229834b0b3e78ff48bcfa205c400e1	fail
-html/text-orientation-script-001n.htm	75668b8433dbbb2bc2e62fd4bf2445560c858453	fail
+html/text-orientation-script-001m.htm	24dd6e5df9229834b0b3e78ff48bcfa205c400e1	pass # Mac: fail
+html/text-orientation-script-001n.htm	75668b8433dbbb2bc2e62fd4bf2445560c858453	pass
 html/text-orientation-script-001o.htm	ad390d60dd518de633056d1bd59900406d4d23e8	pass
 # html/text-orientation-sideways-001.htm	88f64fc0b64f73f81269be6c27cd0a2e5c9fb0ce	pass
 # html/text-orientation-sideways-002.htm	f03bd1b3159d6d580e94dd2c30e44df2d2391f88	fail
@@ -662,14 +662,14 @@ html/value-all-003.htm	f163c7cf88c858595aa661ffba9334e68162c3dc	pass # These CSS
 html/value-all-and-inherit-001.htm	d10283656560566eb516ce4b3f876fecbec673fe	fail
 # html/value-digit2-and-inherit-001.htm	1a524a016c8b47cd31928d3bc00c4561d546f1d6	fail # Anonymous
 # html/value-digits2-002.htm	c5dbe001ba36b8f7e0cc15cf1339e48693685c3d	?
-html/value-digits2-003.htm	887e9c642475bba9aeb27d60b9315bcc6297b019	pass
+html/value-digits2-003.htm	887e9c642475bba9aeb27d60b9315bcc6297b019	pass # Flaky
 # html/value-digits3-001.htm	7fbe02dcb8c7541c6483703cd9a479e05ac3028f	?
 # html/value-digits3-002.htm	b9bbaad2e1d7a1f0196d3d6f8edce78daf398514	?
-html/value-digits3-003.htm	6ea75877d87dd3d31882da6e4f0beb0a2a38d912	pass
+html/value-digits3-003.htm	6ea75877d87dd3d31882da6e4f0beb0a2a38d912	pass # Flaky
 # html/value-digits4-001.htm	c36e1f3d8d75e709647315ea10bac5f452b02889	?
 # html/value-digits4-002.htm	ee4905ec4dcfbc365db8ada98611b349c6d2003b	?
-html/value-digits4-003.htm	717fb1bba8bd7e8404d45a38dc8ec452e453014c	pass
-html/value-none-001.htm	87edae7846c0c582d2a1c14d705f4babfe721c2b	pass
+html/value-digits4-003.htm	717fb1bba8bd7e8404d45a38dc8ec452e453014c	pass # Flaky
+html/value-none-001.htm	87edae7846c0c582d2a1c14d705f4babfe721c2b	pass # Flaky
 # html/vertical-alignment-002a.htm	a55994c93e6652bdc61229154fe73727bd2c9aea	?
 # html/vertical-alignment-002b.htm	779a3696b7909f11787ad979d92c965675b8ed71	?
 # html/vertical-alignment-003a.htm	66706a353742efd4400d64575c633bb17a2a7252	?
@@ -709,5 +709,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass # Flaky
-# Total = 711, Coverage = 674 (94%), Pass = 559 (78% of total, 82% of coverage), Fail = 115 (16% of total, 17% of coverage)
-# Imported = 514 (72%), Pass = 436 (61% of total, 84% of imported), Fail = 78 (10% of total, 15% of imported)
+# Total = 711, Coverage = 674 (94%), Pass = 566 (79% of total, 83% of coverage), Fail = 108 (15% of total, 16% of coverage)
+# Imported = 514 (72%), Pass = 443 (62% of total, 86% of imported), Fail = 71 (9% of total, 13% of imported)
