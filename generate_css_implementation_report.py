@@ -16,7 +16,7 @@ def main():
     parser.add_argument('--json', '-j', action='store', default='css-writing-modes-3/implementation-report.json')
     parser.add_argument('--output', '-o', action='store', default='css-writing-modes-3/implementation-report.txt')
     parser.add_argument('--verbose', '-v', action='count')
-    parser.add_argument('dir', nargs='?', default='~/src/chromium/src/third_party/WebKit/LayoutTests/imported/csswg-test/css-writing-modes-3')
+    parser.add_argument('tests', nargs='?', default='~/src/chromium/src/third_party/WebKit/LayoutTests/imported/csswg-test/css-writing-modes-3')
     parser.add_argument('results', nargs='?', default='css-writing-modes-3/results.csv')
     parser.add_argument('template', nargs='?', default='css-writing-modes-3/implementation-report-TEMPLATE.data')
     args = parser.parse_args()
@@ -26,10 +26,10 @@ def main():
         logging.basicConfig(level=logging.INFO)
     else:
         logging.basicConfig(level=logging.WARNING)
-    args.dir = os.path.expanduser(args.dir)
+    args.tests = os.path.expanduser(args.tests)
     generator = W3CImplementationReportGenerator()
-    generator.load_test_files(args.dir)
-    with open(os.path.join(args.dir, '../../../TestExpectations')) as expectations:
+    generator.load_test_files(args.tests)
+    with open(os.path.join(args.tests, '../../../TestExpectations')) as expectations:
         generator.load_test_expectations(expectations)
     with open(args.results) as results:
         generator.load_test_results(results)
@@ -58,10 +58,6 @@ class Test(object):
     @property
     def _result(self):
         if self.import_result:
-            if len(self.import_result.conditions) >= 3:
-                return 'fail'
-            if len(self.import_result.conditions) > 0:
-                return 'pass'
             return self.import_result.result
         if self.submit_result:
             return self.submit_result.result
@@ -121,14 +117,26 @@ class Test(object):
 
 class ImportTestResult(object):
     def __init__(self, result):
-        self.result = result
+        self._result = result
         self.conditions = set()
         self._comment = None
 
     @property
+    def result(self):
+        if len(self.conditions) >= 3:
+            return 'fail'
+        if len(self.conditions) > 0:
+            return 'pass'
+        return self._result
+
+    @result.setter
+    def result(self, value):
+        self._result = value
+
+    @property
     def comment(self):
         if 3 > len(self.conditions) > 0:
-            return ', '.join(self.conditions) + ': ' + (self._comment if self._comment else self.result)
+            return ', '.join(self.conditions) + ': ' + (self._comment if self._comment else "fail")
         return self._comment
 
 class SubmitTestResult(object):
