@@ -29,7 +29,7 @@
         .member {
             background-color: #80d0ff;
         }
-        .uncertain, .na, .anonymous {
+        .na, .anonymous {
             background-color: yellow;
         }
     </style>
@@ -130,6 +130,7 @@
             },
             listUpdated: function () {
                 this.$.panel.updateStats(TestStats.create(this.tests, this.$.list.filter));
+                window.history.replaceState(null, '', this.filterText ? '?q=' + this.filterText : '');
             },
             getUrl: function (test) {
                 return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + test.id + '/format/html5/'
