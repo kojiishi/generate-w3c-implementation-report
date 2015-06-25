@@ -31,6 +31,8 @@ def main():
     generator.load_test_files(args.tests)
     with open(os.path.join(args.tests, '../../../TestExpectations')) as expectations:
         generator.load_test_expectations(expectations)
+    with open(os.path.join(args.tests, '../../../W3CImportExpectations')) as expectations:
+        generator.load_import_expectations(expectations)
     with open(args.results) as results:
         generator.load_test_results(results)
     with open(args.template) as template:
@@ -42,6 +44,51 @@ def main():
             generator.write_report(output)
     with open(args.json, 'w') as output:
         generator.write_json(output)
+
+class ImportTestResult(object):
+    def __init__(self, result):
+        self._result = result
+        self.conditions = set()
+        self._comment = None
+
+    @property
+    def result(self):
+        if len(self.conditions) >= 3:
+            return 'fail'
+        if len(self.conditions) > 0:
+            return 'pass'
+        return self._result
+
+    @result.setter
+    def result(self, value):
+        self._result = value
+
+    @property
+    def comment(self):
+        if 3 > len(self.conditions) > 0:
+            return ', '.join(self.conditions) + ': ' + (self._comment if self._comment else "fail")
+        return self._comment
+
+class SubmitTestResult(object):
+    def __init__(self, result, source, date):
+        self.result = result
+        self.source = source
+        self.reliability = SubmitTestResult.reliability_from_source(source)
+        self.date = date
+
+    def precedes(self, other):
+        if not other:
+            return True
+        if self.reliability != other.reliability:
+            return self.reliability > other.reliability
+        return self.date > other.date
+
+    known_sources = set(('gtalbot', 'hshiozawa', 'kojiishi', 'lemoned'))
+    @staticmethod
+    def reliability_from_source(source):
+        if source in SubmitTestResult.known_sources:
+            return 1;
+        return 0;
 
 class Test(object):
     def __init__(self, id):
@@ -98,12 +145,20 @@ class Test(object):
             return 'Anonymous'
         return None
 
+    @property
+    def is_imported(self):
+        if self.import_result and self.import_result.result != "uncertain":
+            return True
+        if self.combo:
+            return self.combo.is_imported
+        return False
+
     def set_import(self, dir, ext):
         self.import_dir = dir
         self.import_ext = ext
         self.import_result = ImportTestResult('pass')
 
-    def add_expectation(self, conditions, result, comment):
+    def add_test_expectation(self, conditions, result, comment):
         assert self.import_result
         self.import_result.result = result
         if conditions:
@@ -111,54 +166,15 @@ class Test(object):
                 self.import_result.conditions.add(condition)
         self.import_result._comment = comment
 
+    def add_import_expectation(self, result, comment):
+        assert not self.import_result
+        self.import_result = ImportTestResult('pass')
+        self.import_result.result = result
+        self.import_result._comment = comment
+
     def add_submit_result(self, result):
         if result.precedes(self.submit_result):
             self.submit_result = result
-
-class ImportTestResult(object):
-    def __init__(self, result):
-        self._result = result
-        self.conditions = set()
-        self._comment = None
-
-    @property
-    def result(self):
-        if len(self.conditions) >= 3:
-            return 'fail'
-        if len(self.conditions) > 0:
-            return 'pass'
-        return self._result
-
-    @result.setter
-    def result(self, value):
-        self._result = value
-
-    @property
-    def comment(self):
-        if 3 > len(self.conditions) > 0:
-            return ', '.join(self.conditions) + ': ' + (self._comment if self._comment else "fail")
-        return self._comment
-
-class SubmitTestResult(object):
-    def __init__(self, result, source, date):
-        self.result = result
-        self.source = source
-        self.reliability = SubmitTestResult.reliability_from_source(source)
-        self.date = date
-
-    def precedes(self, other):
-        if not other:
-            return True
-        if self.reliability != other.reliability:
-            return self.reliability > other.reliability
-        return self.date > other.date
-
-    known_sources = set(('gtalbot', 'hshiozawa', 'kojiishi', 'lemoned'))
-    @staticmethod
-    def reliability_from_source(source):
-        if source in SubmitTestResult.known_sources:
-            return 1;
-        return 0;
 
 class W3CImplementationReportGenerator(object):
     def __init__(self):
@@ -169,6 +185,29 @@ class W3CImplementationReportGenerator(object):
             raise Error("File name conflicts: " + name)
         test = Test(name)
         self.tests[name] = test
+        return test
+
+    def get_test_from_path(self, path):
+        filename = os.path.basename(path)
+        name, ext = os.path.splitext(filename)
+        return self.tests.get(name)
+
+    def get_test_from_testname(self, testname):
+        filename = os.path.basename(testname)
+        name, ext = os.path.splitext(filename)
+        test = self.get_test_from_testcase(name)
+        test.testnames.append(testname)
+        return test
+
+    def get_test_from_testcase(self, name):
+        test = self.tests.get(name)
+        if not test:
+            test = self.add_test(name)
+        if not test.combo and re.search(r'-\d{3}[a-z]$', name): # if affix, find the combo test
+            combo = self.tests.get(name[0:-1])
+            if combo:
+                test.combo = combo
+                combo.combo_of.append(test)
         return test
 
     def load_test_files(self, directory):
@@ -193,13 +232,11 @@ class W3CImplementationReportGenerator(object):
 
     def load_test_expectations(self, expectations):
         for path, conditions, result, comment in self.read_test_expectations(expectations):
-            filename = os.path.basename(path)
-            name, ext = os.path.splitext(filename)
-            test = self.tests.get(name, None)
+            test = self.get_test_from_path(path)
             if not test:
-                log.warn("Test for TestExpectations not found: %s", filename)
+                log.warn("Test for TestExpectations not found: %s", path)
                 continue
-            test.add_expectation(conditions, result, comment)
+            test.add_test_expectation(conditions, result, comment)
 
     def read_test_expectations(self, expectations):
         pattern = re.compile(r'([^\[]+)(\[[^\]]+])?\s+(\S+)\s+\[\s*([^\]]+)]$')
@@ -235,6 +272,41 @@ class W3CImplementationReportGenerator(object):
                 continue
             log.warn("Line unknown: %s", line)
 
+    def load_import_expectations(self, expectations):
+        pattern = re.compile(r'^(\S+)\s+\[\s*([^\]]+)]$')
+        comment = None
+        result = "uncertain"
+        for line in expectations:
+            line = line.strip()
+            if not line:
+                comment = None
+                result = "uncertain"
+                continue
+            if line[0] == '#':
+                comment = line[1:].strip()
+                if 'have known issues' in comment:
+                    result = "invalid"
+                elif '"combo"' in comment:
+                    result = None
+                else:
+                    result = "uncertain"
+                continue
+            if not result:
+                continue
+            match = pattern.match(line)
+            if match:
+                path, results = match.group(1, 2)
+                if not path.startswith('imported/csswg-test/css-writing-modes-3/'):
+                    continue
+                results = results.rstrip().split()
+                log.debug("ImportExpectations found: %s %s", results)
+                filename = os.path.basename(path)
+                name, ext = os.path.splitext(filename)
+                test = self.add_test(name)
+                test.add_import_expectation(result, comment)
+                continue
+            log.warn("ImportExpectations: Line unknown: %s", line)
+
     def load_test_results(self, results):
         reader = csv.reader(results)
         header = next(reader)
@@ -261,24 +333,6 @@ class W3CImplementationReportGenerator(object):
                     continue
             log.warn("Unrecognized line in template: %s", line)
 
-    def get_test_from_testname(self, testname):
-        filename = os.path.basename(testname)
-        name, ext = os.path.splitext(filename)
-        test = self.get_test_from_testcase(name)
-        test.testnames.append(testname)
-        return test
-
-    def get_test_from_testcase(self, name):
-        test = self.tests.get(name)
-        if not test:
-            test = self.add_test(name)
-        if not test.combo and re.search(r'-\d{3}[a-z]$', name): # if affix, find the combo test
-            combo = self.tests.get(name[0:-1])
-            if combo:
-                test.combo = combo
-                combo.combo_of.append(test)
-        return test
-
     def write_report(self, output):
         total = 0
         coverage = 0
@@ -300,7 +354,7 @@ class W3CImplementationReportGenerator(object):
                 passed += 1
             elif result == 'fail':
                 coverage += 1
-            if test.import_result or test.combo and test.combo.import_result:
+            if test.is_imported:
                 imported += 1
                 if is_passed:
                     imported_passed += 1
