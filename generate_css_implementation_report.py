@@ -151,6 +151,8 @@ class Test(object):
             return True
         if self.combo:
             return self.combo.is_imported
+        if self.combo_of:
+            return self.combo_of[0].is_imported
         return False
 
     def set_import(self, dir, ext):

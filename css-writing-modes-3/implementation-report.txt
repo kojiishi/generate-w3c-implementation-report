@@ -619,7 +619,7 @@ html/text-orientation-013.htm	5e9e48df639416541014474d9ee8e1856213ea81	invalid #
 html/text-orientation-014.htm	00c684d6b5ab616715f157e301f654fb38f71dd4	pass
 html/text-orientation-015.htm	6d4bd7001c46f64855c6ded1838b7cc9e000c5b2	invalid # CSS Writing Modes Level 3: Following tests have known issues and notified to the submitters.
 html/text-orientation-mixed-001.htm	ec56b92df4adfd1d4edc26c618884b42d7da5258	invalid # CSS Writing Modes Level 3: Following tests have known issues and notified to the submitters.
-# html/text-orientation-script-001.htm	c6b57649b8f0fcdf0f7caf750682c2e7093b777b	fail
+html/text-orientation-script-001.htm	c6b57649b8f0fcdf0f7caf750682c2e7093b777b	fail
 html/text-orientation-script-001a.htm	ce382caffa1da0d7da68fdef50eb490af6ff2812	pass
 html/text-orientation-script-001b.htm	bee11d0a13f4e41edbacf8e29a21097816291e52	pass
 html/text-orientation-script-001c.htm	4c3539b0196194d6922f029d6f8a7381b5b0e17c	pass
@@ -711,4 +711,4 @@ html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	p
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass # Flaky
 # Total = 711, Coverage = 647 (90%), Pass = 556 (78% of total, 85% of coverage), Fail = 91 (12% of total, 14% of coverage)
-# Imported = 524 (73%), Pass = 443 (62% of total, 84% of imported), Fail = 81 (11% of total, 15% of imported)
+# Imported = 525 (73%), Pass = 443 (62% of total, 84% of imported), Fail = 82 (11% of total, 15% of imported)
