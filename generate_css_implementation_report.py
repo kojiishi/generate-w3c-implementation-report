@@ -43,123 +43,123 @@ def main():
     with open(args.json, 'w') as output:
         generator.write_json(output)
 
+class Test(object):
+    def __init__(self, id):
+        self.id = id
+        self.combo = None
+        self.combo_of = []
+        self.import_dir = None
+        self.import_ext = None
+        self.import_result = None
+        self.submit_result = None
+        self.revision = None
+        self.testnames = []
+
+    @property
+    def _result(self):
+        if self.import_result:
+            if len(self.import_result.conditions) >= 3:
+                return 'fail'
+            if len(self.import_result.conditions) > 0:
+                return 'pass'
+            return self.import_result.result
+        if self.submit_result:
+            return self.submit_result.result
+        return None
+
+    @property
+    def result(self):
+        result = self._result
+        if result:
+            return result
+        if self.combo:
+            return self.combo._result
+        if self.combo_of:
+            if all([c._result == 'pass' for c in self.combo_of]):
+                return 'pass'
+            return 'fail'
+        return '?'
+
+    @property
+    def source(self):
+        if self.import_result:
+            return 'blink'
+        if self.submit_result:
+            if not self.submit_result.reliability:
+                return 'anonymous'
+            return self.submit_result.source
+        if self.combo:
+            return self.combo.source
+        if self.combo_of:
+            return self.combo_of[0].source
+        return None
+
+    @property
+    def comment(self):
+        if self.import_result:
+            return self.import_result.comment
+        if self.submit_result and self.submit_result.reliability == 0:
+            return 'Anonymous'
+        return None
+
+    def set_import(self, dir, ext):
+        self.import_dir = dir
+        self.import_ext = ext
+        self.import_result = ImportTestResult('pass')
+
+    def add_expectation(self, conditions, result, comment):
+        assert self.import_result
+        self.import_result.result = result
+        if conditions:
+            for condition in conditions:
+                self.import_result.conditions.add(condition)
+        self.import_result._comment = comment
+
+    def add_submit_result(self, result):
+        if result.precedes(self.submit_result):
+            self.submit_result = result
+
+class ImportTestResult(object):
+    def __init__(self, result):
+        self.result = result
+        self.conditions = set()
+        self._comment = None
+
+    @property
+    def comment(self):
+        if 3 > len(self.conditions) > 0:
+            return ', '.join(self.conditions) + ': ' + (self._comment if self._comment else self.result)
+        return self._comment
+
+class SubmitTestResult(object):
+    def __init__(self, result, source, date):
+        self.result = result
+        self.source = source
+        self.reliability = SubmitTestResult.reliability_from_source(source)
+        self.date = date
+
+    def precedes(self, other):
+        if not other:
+            return True
+        if self.reliability != other.reliability:
+            return self.reliability > other.reliability
+        return self.date > other.date
+
+    known_sources = set(('gtalbot', 'hshiozawa', 'kojiishi', 'lemoned'))
+    @staticmethod
+    def reliability_from_source(source):
+        if source in SubmitTestResult.known_sources:
+            return 1;
+        return 0;
+
 class W3CImplementationReportGenerator(object):
     def __init__(self):
         self.tests = {}
 
-    class Test(object):
-        def __init__(self, id):
-            self.id = id
-            self.combo = None
-            self.combo_of = []
-            self.import_dir = None
-            self.import_ext = None
-            self.import_result = None
-            self.submit_result = None
-            self.revision = None
-            self.testnames = []
-
-        @property
-        def _result(self):
-            if self.import_result:
-                if len(self.import_result.conditions) >= 3:
-                    return 'fail'
-                if len(self.import_result.conditions) > 0:
-                    return 'pass'
-                return self.import_result.result
-            if self.submit_result:
-                return self.submit_result.result
-            return None
-
-        @property
-        def result(self):
-            result = self._result
-            if result:
-                return result
-            if self.combo:
-                return self.combo._result
-            if self.combo_of:
-                if all([c._result == 'pass' for c in self.combo_of]):
-                    return 'pass'
-                return 'fail'
-            return '?'
-
-        @property
-        def source(self):
-            if self.import_result:
-                return 'blink'
-            if self.submit_result:
-                if not self.submit_result.reliability:
-                    return 'anonymous'
-                return self.submit_result.source
-            if self.combo:
-                return self.combo.source
-            if self.combo_of:
-                return self.combo_of[0].source
-            return None
-
-        @property
-        def comment(self):
-            if self.import_result:
-                return self.import_result.comment
-            if self.submit_result and self.submit_result.reliability == 0:
-                return 'Anonymous'
-            return None
-
-        def set_import(self, dir, ext):
-            self.import_dir = dir
-            self.import_ext = ext
-            self.import_result = W3CImplementationReportGenerator.ImportTestResult('pass')
-
-        def add_expectation(self, conditions, result, comment):
-            assert self.import_result
-            self.import_result.result = result
-            if conditions:
-                for condition in conditions:
-                    self.import_result.conditions.add(condition)
-            self.import_result._comment = comment
-
-        def add_submit_result(self, result):
-            if result.precedes(self.submit_result):
-                self.submit_result = result
-
-    class ImportTestResult(object):
-        def __init__(self, result):
-            self.result = result
-            self.conditions = set()
-            self._comment = None
-
-        @property
-        def comment(self):
-            if 3 > len(self.conditions) > 0:
-                return ', '.join(self.conditions) + ': ' + (self._comment if self._comment else self.result)
-            return self._comment
-
-    class SubmitTestResult(object):
-        def __init__(self, result, source, date):
-            self.result = result
-            self.source = source
-            self.reliability = W3CImplementationReportGenerator.SubmitTestResult.reliability_from_source(source)
-            self.date = date
-
-        def precedes(self, other):
-            if not other:
-                return True
-            if self.reliability != other.reliability:
-                return self.reliability > other.reliability
-            return self.date > other.date
-
-        known_sources = set(('gtalbot', 'hshiozawa', 'kojiishi', 'lemoned'))
-        @staticmethod
-        def reliability_from_source(source):
-            if source in W3CImplementationReportGenerator.SubmitTestResult.known_sources:
-                return 1;
-            return 0;
-
     def add_test(self, name):
         if name in self.tests:
             raise Error("File name conflicts: " + name)
-        test = W3CImplementationReportGenerator.Test(name)
+        test = Test(name)
         self.tests[name] = test
         return test
 
@@ -235,7 +235,7 @@ class W3CImplementationReportGenerator(object):
             if not 'Chrome/' in useragent:
                 continue
             test = self.get_test_from_testcase(row[0])
-            result = W3CImplementationReportGenerator.SubmitTestResult(row[1], row[4], row[3])
+            result = SubmitTestResult(row[1], row[4], row[3])
             test.add_submit_result(result)
 
     def load_template(self, template):
