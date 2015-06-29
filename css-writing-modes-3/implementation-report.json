@@ -2855,14 +2855,19 @@
 "result": "uncertain"
 }, 
 {
-"source": "blink", 
+"source": "lemoned", 
 "id": "text-combine-horizontal-010", 
-"result": "invalid"
+"result": "pass"
+}, 
+{
+"source": "kojiishi", 
+"id": "text-combine-horizontal-011", 
+"result": "pass"
 }, 
 {
 "source": "blink", 
-"id": "text-combine-horizontal-011", 
-"result": "invalid"
+"id": "text-combine-upright-decorations-001", 
+"result": "pass"
 }, 
 {
 "source": "blink", 
@@ -2887,7 +2892,7 @@
 {
 "source": "blink", 
 "id": "text-decoration-001", 
-"result": "fail"
+"result": "invalid"
 }, 
 {
 "source": "gtalbot", 
@@ -2982,7 +2987,7 @@
 {
 "source": "blink", 
 "id": "text-emphasis-001", 
-"result": "fail"
+"result": "invalid"
 }, 
 {
 "source": "blink", 
@@ -3065,14 +3070,14 @@
 "result": "pass"
 }, 
 {
-"source": "blink", 
+"source": "kojiishi", 
 "id": "text-orientation-010", 
-"result": "invalid"
+"result": "pass"
 }, 
 {
-"source": "blink", 
+"source": "kojiishi", 
 "id": "text-orientation-011", 
-"result": "invalid"
+"result": "pass"
 }, 
 {
 "source": "blink", 
@@ -3082,7 +3087,7 @@
 {
 "source": "blink", 
 "id": "text-orientation-013", 
-"result": "invalid"
+"result": "uncertain"
 }, 
 {
 "source": "blink", 
@@ -3092,12 +3097,12 @@
 {
 "source": "blink", 
 "id": "text-orientation-015", 
-"result": "invalid"
+"result": "uncertain"
 }, 
 {
-"source": "blink", 
+"source": "anonymous", 
 "id": "text-orientation-mixed-001", 
-"result": "invalid"
+"result": "pass"
 }, 
 {
 "source": "blink", 
@@ -3180,9 +3185,9 @@
 "result": "pass"
 }, 
 {
-"source": "blink", 
+"source": "kojiishi", 
 "id": "text-orientation-sideways-001", 
-"result": "invalid"
+"result": "pass"
 }, 
 {
 "source": "blink", 
@@ -3195,14 +3200,14 @@
 "result": "uncertain"
 }, 
 {
-"source": "blink", 
+"source": "kojiishi", 
 "id": "text-orientation-sideways-right-001", 
-"result": "invalid"
+"result": "pass"
 }, 
 {
-"source": "blink", 
+"source": "kojiishi", 
 "id": "text-orientation-upright-001", 
-"result": "invalid"
+"result": "pass"
 }, 
 {
 "source": "lemoned", 
@@ -3307,7 +3312,7 @@
 {
 "source": "blink", 
 "id": "value-all-and-inherit-001", 
-"result": "fail"
+"result": "invalid"
 }, 
 {
 "source": "blink", 
@@ -3322,7 +3327,7 @@
 {
 "source": "blink", 
 "id": "value-digits2-003", 
-"result": "pass"
+"result": "uncertain"
 }, 
 {
 "source": "blink", 
@@ -3337,7 +3342,7 @@
 {
 "source": "blink", 
 "id": "value-digits3-003", 
-"result": "pass"
+"result": "uncertain"
 }, 
 {
 "source": "blink", 
@@ -3352,7 +3357,7 @@
 {
 "source": "blink", 
 "id": "value-digits4-003", 
-"result": "pass"
+"result": "uncertain"
 }, 
 {
 "source": "blink", 
