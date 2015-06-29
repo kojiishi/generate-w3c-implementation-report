@@ -276,6 +276,7 @@ class W3CImplementationReportGenerator(object):
 
     def load_import_expectations(self, expectations):
         pattern = re.compile(r'^(\S+)\s+\[\s*([^\]]+)]$')
+        issue = re.compile(r'https://github\.com/w3c/[-\w]+/issues/\d+')
         comment = None
         result = "uncertain"
         for line in expectations:
@@ -285,8 +286,8 @@ class W3CImplementationReportGenerator(object):
                 result = "uncertain"
                 continue
             if line[0] == '#':
-                comment = line[1:].strip()
-                if 'have known issues' in comment:
+                comment = line[1:].lstrip()
+                if issue.search(comment) or 'have known issues' in comment:
                     result = "invalid"
                 elif '"combo"' in comment:
                     result = None
