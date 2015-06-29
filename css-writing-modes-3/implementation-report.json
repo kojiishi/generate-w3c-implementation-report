@@ -2855,14 +2855,14 @@
 "result": "uncertain"
 }, 
 {
-"source": null, 
+"source": "anonymous", 
 "id": "text-combine-horizontal-010", 
-"result": "?"
+"result": "pass"
 }, 
 {
-"source": null, 
+"source": "anonymous", 
 "id": "text-combine-horizontal-011", 
-"result": "?"
+"result": "pass"
 }, 
 {
 "source": "blink", 
@@ -3070,14 +3070,14 @@
 "result": "pass"
 }, 
 {
-"source": null, 
+"source": "anonymous", 
 "id": "text-orientation-010", 
-"result": "?"
+"result": "pass"
 }, 
 {
-"source": null, 
+"source": "anonymous", 
 "id": "text-orientation-011", 
-"result": "?"
+"result": "pass"
 }, 
 {
 "source": "blink", 
@@ -3100,9 +3100,9 @@
 "result": "uncertain"
 }, 
 {
-"source": null, 
+"source": "anonymous", 
 "id": "text-orientation-mixed-001", 
-"result": "?"
+"result": "pass"
 }, 
 {
 "source": "blink", 
@@ -3185,9 +3185,9 @@
 "result": "pass"
 }, 
 {
-"source": null, 
+"source": "anonymous", 
 "id": "text-orientation-sideways-001", 
-"result": "?"
+"result": "pass"
 }, 
 {
 "source": "blink", 
@@ -3200,14 +3200,14 @@
 "result": "uncertain"
 }, 
 {
-"source": null, 
+"source": "anonymous", 
 "id": "text-orientation-sideways-right-001", 
-"result": "?"
+"result": "pass"
 }, 
 {
-"source": null, 
+"source": "anonymous", 
 "id": "text-orientation-upright-001", 
-"result": "?"
+"result": "fail"
 }, 
 {
 "source": "lemoned", 
