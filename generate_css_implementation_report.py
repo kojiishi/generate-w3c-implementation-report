@@ -102,6 +102,24 @@ class Test(object):
         self.revision = None
         self.testnames = []
 
+    def with_combo(self, func):
+        value = func(self)
+        if value:
+            return value
+        if self.combo:
+            return func(self.combo)
+        if self.combo_of:
+            return func(self.combo_of[0])
+        return None
+
+    @property
+    def import_result_with_combo(self):
+        return self.with_combo(lambda t: t.import_result)
+
+    @property
+    def submit_result_with_combo(self):
+        return self.with_combo(lambda t: t.submit_result)
+
     @property
     def _result(self):
         if self.import_result:
@@ -125,16 +143,13 @@ class Test(object):
 
     @property
     def source(self):
-        if self.import_result:
+        if self.import_result_with_combo:
             return 'blink'
-        if self.submit_result:
-            if not self.submit_result.reliability:
+        result = self.submit_result_with_combo
+        if result:
+            if not result.reliability:
                 return 'anonymous'
-            return self.submit_result.source
-        if self.combo:
-            return self.combo.source
-        if self.combo_of:
-            return self.combo_of[0].source
+            return result.source
         return None
 
     @property
