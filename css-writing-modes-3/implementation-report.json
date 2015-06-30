@@ -2415,7 +2415,7 @@
 "result": "fail"
 }, 
 {
-"source": "anonymous", 
+"source": "lemoned", 
 "id": "form-controls-vert-rl-005", 
 "result": "fail"
 }, 
@@ -3175,12 +3175,12 @@
 "result": "uncertain"
 }, 
 {
-"source": "anonymous", 
+"source": "lemoned", 
 "id": "text-combine-horizontal-010", 
 "result": "pass"
 }, 
 {
-"source": "anonymous", 
+"source": "lemoned", 
 "id": "text-combine-horizontal-011", 
 "result": "pass"
 }, 
@@ -3390,12 +3390,12 @@
 "result": "pass"
 }, 
 {
-"source": "anonymous", 
+"source": "lemoned", 
 "id": "text-orientation-010", 
 "result": "pass"
 }, 
 {
-"source": "anonymous", 
+"source": "lemoned", 
 "id": "text-orientation-011", 
 "result": "pass"
 }, 
@@ -3420,7 +3420,7 @@
 "result": "uncertain"
 }, 
 {
-"source": "anonymous", 
+"source": "lemoned", 
 "id": "text-orientation-mixed-001", 
 "result": "pass"
 }, 
@@ -3505,7 +3505,7 @@
 "result": "pass"
 }, 
 {
-"source": "anonymous", 
+"source": "lemoned", 
 "id": "text-orientation-sideways-001", 
 "result": "pass"
 }, 
@@ -3520,14 +3520,14 @@
 "result": "uncertain"
 }, 
 {
-"source": "anonymous", 
+"source": "lemoned", 
 "id": "text-orientation-sideways-right-001", 
 "result": "pass"
 }, 
 {
-"source": "anonymous", 
+"source": "lemoned", 
 "id": "text-orientation-upright-001", 
-"result": "fail"
+"result": "pass"
 }, 
 {
 "source": "lemoned", 

@@ -482,7 +482,7 @@ html/float-vrl-008.htm	a562d6a1fc23693c8780b209673e0aeec9d0cae3	pass
 html/float-vrl-010.htm	b59980fd3c43107970860cdcea17e840474a0116	pass
 html/float-vrl-012.htm	11b96153a38deaffbe497b0fe9252c25f30f6c9e	pass
 # html/form-controls-vert-rl-004.htm	55f1a010d3b5d51bba07822f206228b170782c0c	fail
-# html/form-controls-vert-rl-005.htm	76cacb867c752913e51f52b6a19d9c0f9d55e080	fail # Anonymous
+# html/form-controls-vert-rl-005.htm	76cacb867c752913e51f52b6a19d9c0f9d55e080	fail
 # html/full-width-001.htm	a2c91fc3cd710179c048b7e6e34ad24c68f56ae7	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 # html/full-width-002.htm	d3899bb9aac8c47ec60d90d6ece293c343e3d978	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 # html/full-width-003.htm	f6deaece33b7947dfe97c6514dab6a11d4718efa	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
@@ -634,8 +634,8 @@ html/text-baseline-008.htm	71c017581a847aa06b5715c7d4e88050bdc7ffca	pass # Mac: 
 html/text-baseline-009.htm	a2fd18eda0cad02eb09004338de627414847c9d3	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 # html/text-baseline-010.htm	ed91654bb8ce0d95766a8d78d1e7d5680e2a52ce	uncertain # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
 # html/text-baseline-011.htm	a6b19babb0dc749e5ed036aea140704a6d5bda55	uncertain # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
-# html/text-combine-horizontal-010.htm	7e97a36e16f18035b07c4bf97cab534caf935bbf	pass # Anonymous
-# html/text-combine-horizontal-011.htm	5b44f033e339dbfd5583e53ec5fc1abe594ae046	pass # Anonymous
+# html/text-combine-horizontal-010.htm	7e97a36e16f18035b07c4bf97cab534caf935bbf	pass
+# html/text-combine-horizontal-011.htm	5b44f033e339dbfd5583e53ec5fc1abe594ae046	pass
 html/text-combine-upright-decorations-001.htm	708265b22b0cc963f0aa3cbe68d1becf40810e30	pass
 # html/text-combine-upright-parsing-invalid-001.htm	2b2c132e18a567fb8056e362766d8a030557c4de	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 # html/text-combine-upright-parsing-invalid-002.htm	7f78c2344ff0a88366e152bfb9dd032df56c8e31	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
@@ -677,13 +677,13 @@ html/text-indent-vrl-010.htm	fd43520a39150392ce406569c31ece4b6e2bf692	pass
 html/text-indent-vrl-012.htm	0daa6170d48fe9d587ed7fd62850c44967a37628	pass
 html/text-indent-vrl-014.htm	6685678a849e9c2177028da5890defe33b76e75d	pass
 html/text-indent-vrl-016.htm	67f948b37e2a012095cf7c19125a413ac458fcae	pass
-# html/text-orientation-010.htm	4ecdbceff7397331c490f98d284800bf1fa125a2	pass # Anonymous
-# html/text-orientation-011.htm	552b8bbcc4b8e74d5ad38cce3b66d6a0feae9c83	pass # Anonymous
+# html/text-orientation-010.htm	4ecdbceff7397331c490f98d284800bf1fa125a2	pass
+# html/text-orientation-011.htm	552b8bbcc4b8e74d5ad38cce3b66d6a0feae9c83	pass
 html/text-orientation-012.htm	7b06cf9b29713a3b20dd9dfe5b3b066e38819769	pass
 # html/text-orientation-013.htm	46b7bbb12f7460ed4832c4d5659344c60bac4e42	uncertain # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
 html/text-orientation-014.htm	379298579d6a5609de822928a88582a1756de82e	pass
 # html/text-orientation-015.htm	fbedbddfe3a56cb64019da9e6343a8d514c863c7	uncertain # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
-# html/text-orientation-mixed-001.htm	d764c7d34d3c546a97b585aa1c787b089391614d	pass # Anonymous
+# html/text-orientation-mixed-001.htm	d764c7d34d3c546a97b585aa1c787b089391614d	pass
 html/text-orientation-script-001.htm	c6b57649b8f0fcdf0f7caf750682c2e7093b777b	fail
 html/text-orientation-script-001a.htm	ce382caffa1da0d7da68fdef50eb490af6ff2812	pass
 html/text-orientation-script-001b.htm	bee11d0a13f4e41edbacf8e29a21097816291e52	pass
@@ -700,11 +700,11 @@ html/text-orientation-script-001l.htm	0b842056a68797e0a12ba7cffb4b4afc6f1e9be5	p
 html/text-orientation-script-001m.htm	24dd6e5df9229834b0b3e78ff48bcfa205c400e1	pass # Mac: Flaky
 html/text-orientation-script-001n.htm	75668b8433dbbb2bc2e62fd4bf2445560c858453	pass
 html/text-orientation-script-001o.htm	ad390d60dd518de633056d1bd59900406d4d23e8	pass
-# html/text-orientation-sideways-001.htm	1221c289be2673bbd46e756eac78ac07866e7617	pass # Anonymous
+# html/text-orientation-sideways-001.htm	1221c289be2673bbd46e756eac78ac07866e7617	pass
 # html/text-orientation-sideways-002.htm	59e4b49b8167ea051a511397c57057aa8aee43f1	uncertain # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
 # html/text-orientation-sideways-left-001.htm	6d00e4bc5d1d0d4a840b084e4141b83d2b6d0d78	uncertain # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
-# html/text-orientation-sideways-right-001.htm	34949f1fcba10bbf866afdab64f23961fce65418	pass # Anonymous
-# html/text-orientation-upright-001.htm	2ef91d460048f96c8ab52096eb12d078af6398c3	fail # Anonymous
+# html/text-orientation-sideways-right-001.htm	34949f1fcba10bbf866afdab64f23961fce65418	pass
+# html/text-orientation-upright-001.htm	2ef91d460048f96c8ab52096eb12d078af6398c3	pass
 # html/unicode-bidi-001.htm	23dd56a09e50c8f068ed78bfbec09343f4189224	pass
 # html/unicode-bidi-002.htm	4b27955dff5183c9c707ec654c50ab0d5c9509f4	pass
 # html/unicode-bidi-003.htm	6b6e2d5a6826f07407b45cc0c1f26cfb111c730a	pass
@@ -775,5 +775,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass # Flaky
-# Total = 776, Coverage = 714 (92%), Pass = 605 (77% of total, 84% of coverage), Fail = 109 (14% of total, 15% of coverage)
+# Total = 776, Coverage = 714 (92%), Pass = 606 (78% of total, 84% of coverage), Fail = 108 (13% of total, 15% of coverage)
 # Imported = 577 (74%), Pass = 485 (62% of total, 84% of imported), Fail = 92 (11% of total, 15% of imported)
