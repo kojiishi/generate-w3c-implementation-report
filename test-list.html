@@ -130,7 +130,10 @@
             },
             listUpdated: function () {
                 this.$.panel.updateStats(TestStats.create(this.tests, this.$.list.filter));
-                window.history.replaceState(null, '', this.filterText ? '?q=' + this.filterText : '');
+                if (this.filterText)
+                    window.history.replaceState(null, '', '?q=' + this.filterText);
+                else
+                    window.history.replaceState(null, '', window.location.pathname);
             },
             getUrl: function (test) {
                 return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + test.id + '/format/html5/'
