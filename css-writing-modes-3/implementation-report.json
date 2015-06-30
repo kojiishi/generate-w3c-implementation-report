@@ -401,6 +401,166 @@
 }, 
 {
 "source": "blink", 
+"id": "abs-pos-non-replaced-vlr-103", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-105", 
+"result": "fail"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-107", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-109", 
+"result": "fail"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-111", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-113", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-115", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-117", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-119", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-121", 
+"result": "fail"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-123", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-125", 
+"result": "fail"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-127", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-129", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-131", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-133", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-135", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-137", 
+"result": "fail"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-139", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-141", 
+"result": "fail"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-143", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-145", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-147", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-149", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-151", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-153", 
+"result": "fail"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-155", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-157", 
+"result": "fail"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-159", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-161", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-163", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vlr-165", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
 "id": "abs-pos-non-replaced-vrl-002", 
 "result": "pass"
 }, 
@@ -637,6 +797,166 @@
 {
 "source": "blink", 
 "id": "abs-pos-non-replaced-vrl-096", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-102", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-104", 
+"result": "fail"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-106", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-108", 
+"result": "fail"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-110", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-112", 
+"result": "fail"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-114", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-116", 
+"result": "fail"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-118", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-120", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-122", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-124", 
+"result": "fail"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-126", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-128", 
+"result": "fail"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-130", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-132", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-134", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-136", 
+"result": "fail"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-138", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-140", 
+"result": "fail"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-142", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-144", 
+"result": "fail"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-146", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-148", 
+"result": "fail"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-150", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-152", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-154", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-156", 
+"result": "fail"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-158", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-160", 
+"result": "fail"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-162", 
+"result": "pass"
+}, 
+{
+"source": "blink", 
+"id": "abs-pos-non-replaced-vrl-164", 
 "result": "pass"
 }, 
 {
