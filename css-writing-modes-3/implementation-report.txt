@@ -695,9 +695,9 @@ html/text-orientation-script-001g.htm	c6ca966f09342efadec5a4bede6204f8b4c9839b	p
 html/text-orientation-script-001h.htm	5f297790db02889d163f975242fa12ceff44018f	pass
 html/text-orientation-script-001i.htm	1ae65c98aa6fd22dc665efb229d6175f6bc54019	pass
 html/text-orientation-script-001j.htm	4dd50b939e04471b105246f82c9264750b74de83	pass
-html/text-orientation-script-001k.htm	07519d82c5a85d0f62e2db763d66d9acf766fb70	pass # Mac: Flaky
+html/text-orientation-script-001k.htm	07519d82c5a85d0f62e2db763d66d9acf766fb70	pass
 html/text-orientation-script-001l.htm	0b842056a68797e0a12ba7cffb4b4afc6f1e9be5	pass
-html/text-orientation-script-001m.htm	24dd6e5df9229834b0b3e78ff48bcfa205c400e1	pass # Mac: Flaky
+html/text-orientation-script-001m.htm	24dd6e5df9229834b0b3e78ff48bcfa205c400e1	pass
 html/text-orientation-script-001n.htm	75668b8433dbbb2bc2e62fd4bf2445560c858453	pass
 html/text-orientation-script-001o.htm	ad390d60dd518de633056d1bd59900406d4d23e8	pass
 # html/text-orientation-sideways-001.htm	1221c289be2673bbd46e756eac78ac07866e7617	pass
