@@ -98,11 +98,11 @@ html/abs-pos-non-replaced-vlr-133.htm	1a35be72da26a3cff009e9352beb134eac488f7f	p
 html/abs-pos-non-replaced-vlr-135.htm	418b0e1e320e351582a74fb3c12fd568f6d53a0b	pass
 html/abs-pos-non-replaced-vlr-137.htm	b94726e2f0a1e8549e7f6a527e604f143b833172	fail
 html/abs-pos-non-replaced-vlr-139.htm	fa2b54b555e0dad173826a20d597c69df3319fad	pass
-html/abs-pos-non-replaced-vlr-141.htm	55bbbfe8e548e914c891811746ffa1303931b7b4	fail
+html/abs-pos-non-replaced-vlr-141.htm	bc03e3cbb73810d2b30935c0e8b86cae8f135376	fail
 html/abs-pos-non-replaced-vlr-143.htm	5c2dad04a07d7cd2d29e65ed28ac9b01902a7cee	pass
 html/abs-pos-non-replaced-vlr-145.htm	3001647715ac5498729fecb60fe58f6194ec96b9	pass
 html/abs-pos-non-replaced-vlr-147.htm	92c1249b167c5617376a639ac2e6ec71352f5e90	pass
-html/abs-pos-non-replaced-vlr-149.htm	0f8bd75387c1abeff01295a208fbb2d91bf6ef13	pass
+html/abs-pos-non-replaced-vlr-149.htm	a0c8a92fa9b56c559dc45199e83a12b29221dc09	pass
 html/abs-pos-non-replaced-vlr-151.htm	faf3d6c35e3225caf193b60ef078d317e5e02ebf	pass
 html/abs-pos-non-replaced-vlr-153.htm	e1018427ce27c5c0d7e5ae04b0b0a533f9a3b0a5	fail
 html/abs-pos-non-replaced-vlr-155.htm	1cd73f4476e5558fbc6c270033dda64956d1ba92	pass
@@ -111,6 +111,38 @@ html/abs-pos-non-replaced-vlr-159.htm	06d1ec564124e3272a52e7ab1dfc7f65b3a5ad87	p
 html/abs-pos-non-replaced-vlr-161.htm	25dc33001d6e28295743a20e113a60e2c42324c8	pass
 html/abs-pos-non-replaced-vlr-163.htm	16f86cde46a076f47541f942de37ab64940fa069	pass
 html/abs-pos-non-replaced-vlr-165.htm	547422f10665d78b21363c0b133e8262927c1b47	pass
+html/abs-pos-non-replaced-vlr-167.htm	5f40efc80c11140a82804d7ba16fec2841f561ae	pass
+html/abs-pos-non-replaced-vlr-169.htm	4cb00fe9e4ef6f7b59beb6e2ee7907b199658773	fail
+html/abs-pos-non-replaced-vlr-171.htm	3794e02407eb301ede68728f1213f7abb7f2c869	pass
+html/abs-pos-non-replaced-vlr-173.htm	8990a2cd72d7131d2343975a0c8f1e99ee30511a	fail
+html/abs-pos-non-replaced-vlr-175.htm	70b81b8ad2c577ba32ef01d151cc993a84a8afbf	pass
+html/abs-pos-non-replaced-vlr-177.htm	8907f58a4ab685173d1c84bfb54a3d852de5e221	pass
+html/abs-pos-non-replaced-vlr-179.htm	633e6bfc17360572a13d41b158853a35c4684e26	pass
+html/abs-pos-non-replaced-vlr-181.htm	258ce5c0529309798d10e959095512232620a1e5	pass
+html/abs-pos-non-replaced-vlr-183.htm	aaa378af6a395a1fa2f875ecfd3376aa0578d8ba	pass
+html/abs-pos-non-replaced-vlr-185.htm	f281000b46cf6fc7eda0afdad2b663d2b9ff00c5	fail
+html/abs-pos-non-replaced-vlr-187.htm	59098d974ff7a2bcbcbf8ce77abb58dc0efeaf58	pass
+html/abs-pos-non-replaced-vlr-189.htm	f1d9da8cdfa5eb9b92a4d978d80d94897b10e730	fail
+html/abs-pos-non-replaced-vlr-191.htm	a73d0fc81fe9ff9b5645ca3442219a4d762e0bc0	pass
+html/abs-pos-non-replaced-vlr-193.htm	90fc8065b24a886fe32aa370db8338303eb61466	pass
+html/abs-pos-non-replaced-vlr-195.htm	219e3e6c1a891fa48c0fdd028391faa47e2e11a7	pass
+html/abs-pos-non-replaced-vlr-197.htm	17d4bc3294fa023ebaeaf1e7302188b66781a88a	pass
+html/abs-pos-non-replaced-vlr-199.htm	aca3ad37827484709af5c19492ef8d70f79adcc2	pass
+html/abs-pos-non-replaced-vlr-201.htm	734f43ba1e3ddb9b1e3ccd1c25d63203baefa8d8	fail
+html/abs-pos-non-replaced-vlr-203.htm	506ec206bb6543aaa0a79c64cfc61bf7a935f7d0	pass
+html/abs-pos-non-replaced-vlr-205.htm	b2e21236e0cbd67895d81b6e8f507fd9e5aafd28	fail
+html/abs-pos-non-replaced-vlr-207.htm	f3a607820ad2e714c6280d3bde35a6f2f14d1182	pass
+html/abs-pos-non-replaced-vlr-209.htm	ce791385621caa256dfb0ee44675b7db69a277d7	pass
+html/abs-pos-non-replaced-vlr-211.htm	477444308813d8f8f029d263a0dc293ef560be1d	pass
+html/abs-pos-non-replaced-vlr-213.htm	051d1f8e8073eb15d139648f151dde3b080bf867	pass
+html/abs-pos-non-replaced-vlr-215.htm	b1b98c5907ac0daa2cfd36c95b01257b38fd828c	pass
+html/abs-pos-non-replaced-vlr-217.htm	fb9f155c9da6cc6acabf5070dcf9c5df2763dd33	fail
+html/abs-pos-non-replaced-vlr-219.htm	15d354b2db9c92138267ebe7309b93a5987003fe	pass
+html/abs-pos-non-replaced-vlr-221.htm	99333050e2d7a4e5fccda0943d7c7201d44ce9a5	fail
+html/abs-pos-non-replaced-vlr-223.htm	6b8b4f5b97936f3e01bb7ffef8bdf7eefb0c4f01	pass
+html/abs-pos-non-replaced-vlr-225.htm	50563230707b4e42b0a8be75398583a06328db98	fail
+html/abs-pos-non-replaced-vlr-227.htm	3c5e44142e67fed7fe44e09890e6bb6306d5617d	pass
+html/abs-pos-non-replaced-vlr-229.htm	3efc1898f46d0186cbe817a9be762304ee88a076	fail
 html/abs-pos-non-replaced-vrl-002.htm	72453a8f93c2627891465d21f795c26b7813406d	pass
 html/abs-pos-non-replaced-vrl-004.htm	2febb994e34a05ecd8149a72aa21eb49a90bbd16	fail
 html/abs-pos-non-replaced-vrl-006.htm	013e65dfb37f8cd31f2193080010f8ba9af9e0d6	pass
@@ -191,6 +223,38 @@ html/abs-pos-non-replaced-vrl-158.htm	640f20d75c7ddcf595a04ecf9bb1899788088feb	p
 html/abs-pos-non-replaced-vrl-160.htm	59e4d6a315413123fa0c12cd80a7e0bd7f2819c6	fail
 html/abs-pos-non-replaced-vrl-162.htm	3682e095651a421f176f3409f8ac7281f22b2f2b	pass
 html/abs-pos-non-replaced-vrl-164.htm	ef4f85926d0fe4c2d07044ba986b4ad5205c3792	pass
+html/abs-pos-non-replaced-vrl-166.htm	2cb005f831d706b8529e29683039bd6ccc47238e	pass
+html/abs-pos-non-replaced-vrl-168.htm	88601e578cefaa5a53afbe416754b1eb83af766f	pass
+html/abs-pos-non-replaced-vrl-170.htm	c459e25e8b47c19c8772b2ce3b6473b1813e2362	pass
+html/abs-pos-non-replaced-vrl-172.htm	aca738ba665deefa0d561b07493e2b02b4bcc308	fail
+html/abs-pos-non-replaced-vrl-174.htm	0f35afb83de7221ddab8e9c869a8cf6374ebbfa6	pass
+html/abs-pos-non-replaced-vrl-176.htm	b6232d948ca44e1907e711f72997ce21a7e41440	fail
+html/abs-pos-non-replaced-vrl-178.htm	50fc7bf2e6a7ac7a25b5a91cd55ccb10edafa778	pass
+html/abs-pos-non-replaced-vrl-180.htm	3650f08ac23a8b32d70410eea80e4e8bb5547356	pass
+html/abs-pos-non-replaced-vrl-182.htm	58d362615a24a36bbe3d05eb2c39cf5b502295c5	pass
+html/abs-pos-non-replaced-vrl-184.htm	9f2f2228f304368ac256a87b6383da531b4d6e1d	pass
+html/abs-pos-non-replaced-vrl-186.htm	e4bd3844326e81cc65ff63da4e136e630994b9f8	pass
+html/abs-pos-non-replaced-vrl-188.htm	88a3838a460b2d3b4551f891f7b06d4e29d5b8a4	fail
+html/abs-pos-non-replaced-vrl-190.htm	dea3a099e225be55d10f4f930768cc4eb0932dff	pass
+html/abs-pos-non-replaced-vrl-192.htm	45727cf21929fa322166fd9fab90a6d96e9fffb9	fail
+html/abs-pos-non-replaced-vrl-194.htm	c1e0c95ff566f0e95549a1e1c074130a97f1004d	pass
+html/abs-pos-non-replaced-vrl-196.htm	e8c40b091afec422a40102928a9452b5a3f6136f	pass
+html/abs-pos-non-replaced-vrl-198.htm	7e26b26c6388b54f9c67ddf8a4a4920eba4dd870	pass
+html/abs-pos-non-replaced-vrl-200.htm	69e8f099b4049dc1d1b152181e0d56f71819c9ab	pass
+html/abs-pos-non-replaced-vrl-202.htm	1589b0e0084af907d57cf026dd15840c6945667a	pass
+html/abs-pos-non-replaced-vrl-204.htm	2ffdd041177169976a7f84eb3d6ea202432f3c7a	fail
+html/abs-pos-non-replaced-vrl-206.htm	dba0ddc1aae8143b1f362edf810dc6114e894732	pass
+html/abs-pos-non-replaced-vrl-208.htm	de88b181f1052ca1f549707c91ae9f739404a22f	fail
+html/abs-pos-non-replaced-vrl-210.htm	e4810fc1ce982afa9b554faf98abbff9f38f5504	pass
+html/abs-pos-non-replaced-vrl-212.htm	81c09c8b16a41a763dcf09dfa2f04e49450b13d8	pass
+html/abs-pos-non-replaced-vrl-214.htm	2c34706a0fd1c37699e2465244e38aed5f21010c	pass
+html/abs-pos-non-replaced-vrl-216.htm	c2626fb17d17ad68cf574d4b2c55b9ffbe5bb0a2	pass
+html/abs-pos-non-replaced-vrl-218.htm	a4eb66cdbcf969df5e1cbba25b93b018184440bc	pass
+html/abs-pos-non-replaced-vrl-220.htm	b10264773462f85de278174578bf6204c217c6dc	fail
+html/abs-pos-non-replaced-vrl-222.htm	b0c4bc17583c46911cdb161cb7799bff6bc10b1f	pass
+html/abs-pos-non-replaced-vrl-224.htm	f9b82900b7812fa28611d7cae65abe4f85db9087	fail
+html/abs-pos-non-replaced-vrl-226.htm	5f67394b249d17b737f0c4856f5cb21d67f910dd	pass
+html/abs-pos-non-replaced-vrl-228.htm	69076c13abfa08014d39dbf1ef286ab1414e3ba6	pass
 # html/autoheight-regions-in-autoheight-flexbox-002.htm	03903463d0ee57e784c8305fc4b3c522d62beb38	fail
 # html/background-position-vlr-003.htm	6f62ea5ca447de2cec9e79c4756f56b9ba4328be	pass
 # html/background-position-vlr-005.htm	6e0dc09bfe164ae0d9cc0a8eeca78824c84cdd6e	pass
@@ -637,6 +701,7 @@ html/text-baseline-009.htm	a2fd18eda0cad02eb09004338de627414847c9d3	pass # Mac: 
 # html/text-combine-horizontal-010.htm	7e97a36e16f18035b07c4bf97cab534caf935bbf	pass
 # html/text-combine-horizontal-011.htm	5b44f033e339dbfd5583e53ec5fc1abe594ae046	pass
 html/text-combine-upright-decorations-001.htm	708265b22b0cc963f0aa3cbe68d1becf40810e30	pass
+html/text-combine-upright-inherit-all-001.htm	85fc7a1c7fdedf40f037bf1e9b7451546d0677b2	fail
 # html/text-combine-upright-parsing-invalid-001.htm	2b2c132e18a567fb8056e362766d8a030557c4de	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 # html/text-combine-upright-parsing-invalid-002.htm	7f78c2344ff0a88366e152bfb9dd032df56c8e31	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 # html/text-combine-upright-parsing-valid-001.htm	0ce4e72cafc4c08b3dbb51296126cc6ec5cfc581	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
@@ -775,5 +840,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass # Flaky
-# Total = 776, Coverage = 714 (92%), Pass = 606 (78% of total, 84% of coverage), Fail = 108 (13% of total, 15% of coverage)
-# Imported = 577 (74%), Pass = 485 (62% of total, 84% of imported), Fail = 92 (11% of total, 15% of imported)
+# Total = 841, Coverage = 779 (92%), Pass = 652 (77% of total, 83% of coverage), Fail = 127 (15% of total, 16% of coverage)
+# Imported = 642 (76%), Pass = 531 (63% of total, 82% of imported), Fail = 111 (13% of total, 17% of imported)
