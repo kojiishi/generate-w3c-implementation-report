@@ -18,6 +18,10 @@
         li {
             display:table-row;
         }
+        li.header {
+            font-weight: bold;
+            text-align: center;
+        }
         li:nth-child(2n) {
             background-color: #eee;
         }
@@ -44,7 +48,7 @@
             ></iron-ajax>
         <test-panel id="panel" filter-text="{{filterText}}"></test-panel>
         <ol>
-            <li>
+            <li class="header">
                 <cell>Test</cell>
                 <cell>Blink</cell>
                 <cell>Gecko</cell>
@@ -88,9 +92,7 @@
                 return function (test) { return matchTest(test, filters[0]); };
             return function (test) {
                 for (var i = 0; i < filters.length; ++i) {
-                    var filter = filters[i];
-                    if (!filter) continue;
-                    if (!matchTest(test, filter))
+                    if (!matchTest(test, filters[i]))
                         return false;
                 }
                 return true;
@@ -125,7 +127,7 @@
                 if (!result)
                     return "?";
                 if (!result.source)
-                    return result.result + " (?)";
+                    return result.result;
                 return result.result + " (" + result.source + ")";
             },
         });
