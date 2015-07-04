@@ -395,6 +395,6 @@ class W3CImplementationReportGenerator(object):
                     result_json["source"] = result.source
                 test_json[engine] = result_json
             tests.append(test_json)
-        json.dump(tests, output, indent=0)
+        json.dump(tests, output, indent=0, sort_keys=True)
 
 main()
