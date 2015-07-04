@@ -54,6 +54,9 @@
             text-decoration:none;
             padding:0 4pt;
         }
+        .by {
+            color:gray;
+        }
     </style>
     <template>
         <iron-ajax
@@ -82,8 +85,11 @@
                                     <a href$="{{test.issue}}" class="issue">ISSUE</a>
                                 </template>
                             </cell>
-                            <template is="dom-repeat" as="engine" items="{{engines}}">
-                                <cell class$="{{getResultClass(test, engine)}}">{{getResultText(test, engine)}}</cell>
+                            <template is="dom-repeat" as="result" items="{{getResultsOfEngines(test)}}">
+                                <cell class$="{{getResultClass(result)}}">
+                                    <span>{{getResultText(result)}}</span>
+                                    <span class=by>{{result.source}}</span>
+                                </cell>
                             </template>
                         </li>
                     </template>
@@ -144,21 +150,24 @@
             getUrl: function (test) {
                 return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + test.id + '/format/html5/';
             },
-            getResultClass: function (test, engine) {
-                var result = test[engine];
-                if (!result)
+            getResultsOfEngines: function (test) {
+                return this.engines.map(function (engine) {
+                    var result = test[engine];
+                    // Polymer 1.0.5 does not execute binding if !item, return an empty object
+                    return result ? result : {};
+                });
+            },
+            getResultClass: function (result) {
+                if (!result || !result.result)
                     return "na";
                 if (!result.source)
                     return result.result + " anonymous";
                 return result.result;
             },
-            getResultText: function (test, engine) {
-                var result = test[engine];
-                if (!result)
+            getResultText: function (result) {
+                if (!result || !result.result)
                     return "?";
-                if (!result.source)
-                    return result.result;
-                return result.result + " (" + result.source + ")";
+                return result.result;
             },
         });
     </script>
