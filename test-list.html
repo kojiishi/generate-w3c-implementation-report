@@ -10,14 +10,19 @@
             position:fixed;
             top:0; right:0;
         }
-        table {
+        ol {
+            display:table;
             border-collapse: collapse;
             margin:0 auto;
         }
-        tr:nth-child(2n) {
+        li {
+            display:table-row;
+        }
+        li:nth-child(2n) {
             background-color: #eee;
         }
-        th, td {
+        cell {
+            display:table-cell;
             border: solid gray thin;
         }
         .fail {
@@ -41,18 +46,18 @@
             last-response="{{tests}}"
             ></iron-ajax>
         <test-panel id="panel" filter-text="{{filterText}}"></test-panel>
-        <table>
-            <tr>
-                <th>Test</th><th>Result</th><th>Source</th>
-            </tr>
+        <ol>
+            <li>
+                <cell>Test</cell><cell>Result</cell><cell>Source</cell>
+            </li>
             <template id="list" is="dom-repeat" items="{{tests}}" filter="{{_filter(filterText)}}" on-dom-change="listUpdated">
-                <tr>
-                    <td><a href$="{{getUrl(item)}}">{{item.id}}</a></td>
-                    <td class$="{{getResultClass(item)}}">{{item.result}}</td>
-                    <td class$="{{getSourceClass(item)}}">{{item.source}}</td>
-                </tr>
+                <li>
+                    <cell><a href$="{{getUrl(item)}}">{{item.id}}</a></cell>
+                    <cell class$="{{getResultClass(item)}}">{{item.result}}</cell>
+                    <cell class$="{{getSourceClass(item)}}">{{item.source}}</cell>
+                </li>
             </template>
-        </table>
+        </ol>
     </template>
     <script>
         function TestStats(total) {
@@ -83,13 +88,14 @@
         TestStats.create = function (tests, filter) {
             var stats = new TestStats(tests.length);
             if (filter) {
-                for (var test of tests) {
+                tests.forEach(function (test) {
                     if (filter(test))
                         stats.add(test);
-                }
+                });
             } else {
-                for (var test of tests)
+                tests.forEach(function (test) {
                     stats.add(test);
+                });
             }
             stats.done();
             return stats;
@@ -117,7 +123,7 @@
                 if (!filter) return null;
                 var filters = filter.split(' ');
                 if (filters.length == 1)
-                    return function (test) { return matchTest(test, filters[0]); }
+                    return function (test) { return matchTest(test, filters[0]); };
                 return function (test) {
                     for (var i = 0; i < filters.length; ++i) {
                         var filter = filters[i];
@@ -136,12 +142,12 @@
                     window.history.replaceState(null, '', window.location.pathname);
             },
             getUrl: function (test) {
-                return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + test.id + '/format/html5/'
+                return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + test.id + '/format/html5/';
             },
             getResultClass: function (test) { return test.result == '?' ? 'na' : test.result; },
             getSourceClass: function (test) { return !test.source ? '' :
                 test.source == 'anonymous' || test.source == 'blink' ? test.source :
-                'member'; },
-        })
+                'member'; }
+        });
     </script>
 </dom-module>
