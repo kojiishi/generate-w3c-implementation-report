@@ -388,10 +388,12 @@ class W3CImplementationReportGenerator(object):
                 'id': test.id,
             }
             for engine, result in test.results.iteritems():
-                test_json[engine] = {
+                result_json = {
                     "result": result.result,
-                    "source": result.source if result.reliability else "anonymous",
                 }
+                if result.reliability:
+                    result_json["source"] = result.source
+                test_json[engine] = result_json
             tests.append(test_json)
         json.dump(tests, output, indent=0)
 

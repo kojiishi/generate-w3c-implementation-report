@@ -117,11 +117,17 @@
                 return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + test.id + '/format/html5/';
             },
             getResultClass: function (result) {
-                if (!result || result.source == "anonymous")
+                if (!result || !result.source)
                     return "need";
                 return result.result;
             },
-            getResultText: function (result) { return !result ? "?" : result.result + " (" + result.source + ")"; },
+            getResultText: function (result) {
+                if (!result)
+                    return "?";
+                if (!result.source)
+                    return result.result + " (?)";
+                return result.result + " (" + result.source + ")";
+            },
         });
     </script>
 </dom-module>
