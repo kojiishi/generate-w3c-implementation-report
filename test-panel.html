@@ -3,6 +3,7 @@
     <style>
         input {
             font-size:11pt;
+            width:100%;
         }
         table {
             width:100%;
@@ -17,7 +18,7 @@
         }
     </style>
     <template>
-        <div id="site-banner">
+        <div>
             <input type="text" value="{{filterText::input}}" autofocus placeholder="Search">
             <table>
                 <tr><th>Total</th><td>{{stats.total}}</td></tr>
