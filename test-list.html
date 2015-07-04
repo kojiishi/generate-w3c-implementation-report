@@ -70,23 +70,21 @@
                 <ol>
                     <li class="header">
                         <cell>Test</cell>
-                        <cell>Blink</cell>
-                        <cell>Gecko</cell>
-                        <cell>Trident</cell>
-                        <cell>WebKit</cell>
+                        <template is="dom-repeat" items="{{engines}}">
+                              <cell>{{item}}</cell>
+                        </template>
                     </li>
-                    <template id="list" is="dom-repeat" items="{{tests}}" filter="{{_filter(filterText)}}" on-dom-change="listUpdated">
+                    <template id="list" is="dom-repeat" as="test" items="{{tests}}" filter="{{_filter(filterText)}}" on-dom-change="listUpdated">
                         <li>
                             <cell>
-                                <a href$="{{getUrl(item)}}">{{item.id}}</a>
-                                <template is="dom-if" if="{{item.issue}}">
-                                    <a href$="{{item.issue}}" class="issue">ISSUE</a>
+                                <a href$="{{getUrl(test)}}">{{test.id}}</a>
+                                <template is="dom-if" if="{{test.issue}}">
+                                    <a href$="{{test.issue}}" class="issue">ISSUE</a>
                                 </template>
                             </cell>
-                            <cell class$="{{getResultClass(item.Blink)}}">{{getResultText(item.Blink)}}</cell>
-                            <cell class$="{{getResultClass(item.Gecko)}}">{{getResultText(item.Gecko)}}</cell>
-                            <cell class$="{{getResultClass(item.Trident)}}">{{getResultText(item.Trident)}}</cell>
-                            <cell class$="{{getResultClass(item.WebKit)}}">{{getResultText(item.WebKit)}}</cell>
+                            <template is="dom-repeat" as="engine" items="{{engines}}">
+                                <cell class$="{{getResultClass(test, engine)}}">{{getResultText(test, engine)}}</cell>
+                            </template>
                         </li>
                     </template>
                 </ol>
@@ -129,6 +127,7 @@
         Polymer({
             is: 'test-list',
             ready: function () {
+                this.engines = ["Blink", "Gecko", "Trident", "WebKit"];
                 if (location.search && location.search.lastIndexOf('?q=', 0) == 0)
                     this.filterText = location.search.slice(3);
             },
@@ -145,14 +144,16 @@
             getUrl: function (test) {
                 return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + test.id + '/format/html5/';
             },
-            getResultClass: function (result) {
+            getResultClass: function (test, engine) {
+                var result = test[engine];
                 if (!result)
                     return "na";
                 if (!result.source)
                     return result.result + " anonymous";
                 return result.result;
             },
-            getResultText: function (result) {
+            getResultText: function (test, engine) {
+                var result = test[engine];
                 if (!result)
                     return "?";
                 if (!result.source)
