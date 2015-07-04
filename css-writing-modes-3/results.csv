@@ -9474,3 +9474,7 @@ autoheight-regions-in-autoheight-flexbox-002,fail,HTML,2015-07-02T06:52:51+00:00
 text-emphasis-001,fail,HTML,2015-07-02T06:52:59+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 value-all-and-inherit-001,fail,HTML,2015-07-02T06:53:07+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 text-decoration-001,fail,HTML,2015-07-02T06:53:13+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
+value-digits2-002,pass,HTML,2015-07-04T17:58:53+00:00,222.158.227.129,Trident,Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+value-digits2-002,pass,HTML,2015-07-04T17:59:22+00:00,kojiishi,Trident,Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+value-digits2-003,pass,HTML,2015-07-04T18:00:02+00:00,kojiishi,Trident,Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+orthogonal-parent-shrink-to-fit-001,pass,HTML,2015-07-04T18:26:42+00:00,kojiishi,Trident,Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
