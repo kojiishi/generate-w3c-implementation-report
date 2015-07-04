@@ -45,12 +45,19 @@
         <test-panel id="panel" filter-text="{{filterText}}"></test-panel>
         <ol>
             <li>
-                <cell>Test</cell><cell>Blink</cell>
+                <cell>Test</cell>
+                <cell>Blink</cell>
+                <cell>Gecko</cell>
+                <cell>Trident</cell>
+                <cell>WebKit</cell>
             </li>
             <template id="list" is="dom-repeat" items="{{tests}}" filter="{{_filter(filterText)}}" on-dom-change="listUpdated">
                 <li>
                     <cell><a href$="{{getUrl(item)}}">{{item.id}}</a></cell>
                     <cell class$="{{getResultClass(item.Blink)}}">{{getResultText(item.Blink)}}</cell>
+                    <cell class$="{{getResultClass(item.Gecko)}}">{{getResultText(item.Gecko)}}</cell>
+                    <cell class$="{{getResultClass(item.Trident)}}">{{getResultText(item.Trident)}}</cell>
+                    <cell class$="{{getResultClass(item.WebKit)}}">{{getResultText(item.WebKit)}}</cell>
                 </li>
             </template>
         </ol>

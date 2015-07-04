@@ -416,8 +416,8 @@ html/block-flow-direction-013.htm	864bb241fe74023d23183204bfb32c6615e4c2bb	pass 
 html/block-flow-direction-014.htm	766e5d11e657b49ec5beeb987351fd7bfb59b4ec	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/block-flow-direction-015.htm	49882d193c25d3c2170e97d939b39920622e04d3	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/block-flow-direction-016.htm	5221c36bb90f1346378ea6f026940b5fdae1b072	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-# html/block-flow-direction-017.htm	c2a92a2f4ded8bd1c1c8da78d659f9d3cef71f0e	uncertain # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
-# html/block-flow-direction-018.htm	9d32e9d52ef12a1cc1c02512dd21172097f6f206	uncertain # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
+# html/block-flow-direction-017.htm	c2a92a2f4ded8bd1c1c8da78d659f9d3cef71f0e	skip # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
+# html/block-flow-direction-018.htm	9d32e9d52ef12a1cc1c02512dd21172097f6f206	skip # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
 html/block-flow-direction-019.htm	4013b44b2f69c6ad31338a283f65f0d49befc9e4	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/block-flow-direction-020.htm	d6687aa139742ecb9688c7ccb4fcb5588681c708	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/block-flow-direction-021.htm	bfc4b020c32dedc0fe6a841c223ef8891b982cac	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
@@ -547,9 +547,9 @@ html/float-vrl-010.htm	b59980fd3c43107970860cdcea17e840474a0116	pass
 html/float-vrl-012.htm	11b96153a38deaffbe497b0fe9252c25f30f6c9e	pass
 # html/form-controls-vert-rl-004.htm	55f1a010d3b5d51bba07822f206228b170782c0c	fail
 # html/form-controls-vert-rl-005.htm	76cacb867c752913e51f52b6a19d9c0f9d55e080	fail
-# html/full-width-001.htm	a2c91fc3cd710179c048b7e6e34ad24c68f56ae7	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-# html/full-width-002.htm	d3899bb9aac8c47ec60d90d6ece293c343e3d978	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-# html/full-width-003.htm	f6deaece33b7947dfe97c6514dab6a11d4718efa	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/full-width-001.htm	a2c91fc3cd710179c048b7e6e34ad24c68f56ae7	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/full-width-002.htm	d3899bb9aac8c47ec60d90d6ece293c343e3d978	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/full-width-003.htm	f6deaece33b7947dfe97c6514dab6a11d4718efa	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 html/height-width-inline-non-replaced-vlr-003.htm	57ea2a34009c303f4bc775018c4b7de20d81acf8	pass
 html/height-width-inline-non-replaced-vrl-002.htm	2b6c49db17e282d91b6456cb6c44c023825a9128	pass
 html/horizontal-rule-vlr-003.htm	c47416e169c5b440e743a67eac5c3c4d5196f6a5	pass
@@ -587,8 +587,8 @@ html/line-box-direction-011.htm	7de226f93d1070099962c17fbcd2c9a10213aade	pass # 
 html/line-box-direction-012.htm	45925e8c14fdb1752cca7d0a29ba2701b99b63f1	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/line-box-direction-013.htm	812e1ddd55d88a69ec67f77ba5665f8615174d05	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/line-box-direction-014.htm	0ee78c11f5c8649d9e6b9696193397dc8c7347a1	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-# html/line-box-direction-015.htm	a00758fb223b87299a4ff0e6229bb87cf07756bf	uncertain # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
-# html/line-box-direction-016.htm	d4cd1c95d7ad40e5eb946c9931cce3caaaf87e5d	uncertain # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
+# html/line-box-direction-015.htm	a00758fb223b87299a4ff0e6229bb87cf07756bf	skip # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
+# html/line-box-direction-016.htm	d4cd1c95d7ad40e5eb946c9931cce3caaaf87e5d	skip # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
 html/line-box-direction-017.htm	8b315cc8543780462348d91733091b8f88308d88	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/line-box-direction-018.htm	947bcfadbfe8f88ad99334e15de647cbd0dfe8f6	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/line-box-direction-019.htm	67452b2785ca78ba7d0fefa1c51ac8e69a1fd279	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
@@ -693,19 +693,19 @@ html/text-baseline-003.htm	a5e4751e31068bb26557796b02c8ea208db182c1	pass
 html/text-baseline-004.htm	071d1602e1a144e3c3823132f92b5980f09365a8	pass
 html/text-baseline-005.htm	67a08f47437673fdd9791164aa5ffd9ad6487ab0	pass
 html/text-baseline-006.htm	6904eff9e54cf343d00cb352edd7ec10289269b4	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-# html/text-baseline-007.htm	43bdee6a26abf3e35996cf202eb5ed73b607f630	uncertain # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
+# html/text-baseline-007.htm	43bdee6a26abf3e35996cf202eb5ed73b607f630	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
 html/text-baseline-008.htm	71c017581a847aa06b5715c7d4e88050bdc7ffca	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/text-baseline-009.htm	a2fd18eda0cad02eb09004338de627414847c9d3	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-# html/text-baseline-010.htm	ed91654bb8ce0d95766a8d78d1e7d5680e2a52ce	uncertain # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
-# html/text-baseline-011.htm	a6b19babb0dc749e5ed036aea140704a6d5bda55	uncertain # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
+# html/text-baseline-010.htm	ed91654bb8ce0d95766a8d78d1e7d5680e2a52ce	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
+# html/text-baseline-011.htm	a6b19babb0dc749e5ed036aea140704a6d5bda55	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
 # html/text-combine-horizontal-010.htm	7e97a36e16f18035b07c4bf97cab534caf935bbf	pass
 # html/text-combine-horizontal-011.htm	5b44f033e339dbfd5583e53ec5fc1abe594ae046	pass
 html/text-combine-upright-decorations-001.htm	708265b22b0cc963f0aa3cbe68d1becf40810e30	pass
 html/text-combine-upright-inherit-all-001.htm	85fc7a1c7fdedf40f037bf1e9b7451546d0677b2	fail
-# html/text-combine-upright-parsing-invalid-001.htm	2b2c132e18a567fb8056e362766d8a030557c4de	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-# html/text-combine-upright-parsing-invalid-002.htm	7f78c2344ff0a88366e152bfb9dd032df56c8e31	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-# html/text-combine-upright-parsing-valid-001.htm	0ce4e72cafc4c08b3dbb51296126cc6ec5cfc581	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-# html/text-combine-upright-parsing-valid-002.htm	c04b90914c86be633173bfcc63c14b2a44b058db	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/text-combine-upright-parsing-invalid-001.htm	2b2c132e18a567fb8056e362766d8a030557c4de	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/text-combine-upright-parsing-invalid-002.htm	7f78c2344ff0a88366e152bfb9dd032df56c8e31	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/text-combine-upright-parsing-valid-001.htm	0ce4e72cafc4c08b3dbb51296126cc6ec5cfc581	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/text-combine-upright-parsing-valid-002.htm	c04b90914c86be633173bfcc63c14b2a44b058db	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 html/text-decoration-001.htm	d9a469751905e9950b458ec3149cf740f727a0c9	invalid # https://github.com/w3c/csswg-test/issues/786 The tests have incorrect expectations
 # html/text-decoration-sidewaysleft-vlr-003.htm	13860419acaa722347ad09079c169ef6a8ba5ade	fail
 # html/text-decoration-sidewaysleft-vlr-005.htm	fd527a5c91aa03ce36207ee9720165068e087b03	fail
@@ -745,9 +745,9 @@ html/text-indent-vrl-016.htm	67f948b37e2a012095cf7c19125a413ac458fcae	pass
 # html/text-orientation-010.htm	4ecdbceff7397331c490f98d284800bf1fa125a2	pass
 # html/text-orientation-011.htm	552b8bbcc4b8e74d5ad38cce3b66d6a0feae9c83	pass
 html/text-orientation-012.htm	7b06cf9b29713a3b20dd9dfe5b3b066e38819769	pass
-# html/text-orientation-013.htm	46b7bbb12f7460ed4832c4d5659344c60bac4e42	uncertain # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
+# html/text-orientation-013.htm	46b7bbb12f7460ed4832c4d5659344c60bac4e42	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
 html/text-orientation-014.htm	379298579d6a5609de822928a88582a1756de82e	pass
-# html/text-orientation-015.htm	fbedbddfe3a56cb64019da9e6343a8d514c863c7	uncertain # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
+# html/text-orientation-015.htm	fbedbddfe3a56cb64019da9e6343a8d514c863c7	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
 # html/text-orientation-mixed-001.htm	d764c7d34d3c546a97b585aa1c787b089391614d	pass
 html/text-orientation-script-001.htm	c6b57649b8f0fcdf0f7caf750682c2e7093b777b	fail
 html/text-orientation-script-001a.htm	ce382caffa1da0d7da68fdef50eb490af6ff2812	pass
@@ -766,8 +766,8 @@ html/text-orientation-script-001m.htm	24dd6e5df9229834b0b3e78ff48bcfa205c400e1	p
 html/text-orientation-script-001n.htm	75668b8433dbbb2bc2e62fd4bf2445560c858453	pass
 html/text-orientation-script-001o.htm	ad390d60dd518de633056d1bd59900406d4d23e8	pass
 # html/text-orientation-sideways-001.htm	1221c289be2673bbd46e756eac78ac07866e7617	pass
-# html/text-orientation-sideways-002.htm	59e4b49b8167ea051a511397c57057aa8aee43f1	uncertain # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
-# html/text-orientation-sideways-left-001.htm	6d00e4bc5d1d0d4a840b084e4141b83d2b6d0d78	uncertain # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
+# html/text-orientation-sideways-002.htm	59e4b49b8167ea051a511397c57057aa8aee43f1	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
+# html/text-orientation-sideways-left-001.htm	6d00e4bc5d1d0d4a840b084e4141b83d2b6d0d78	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
 # html/text-orientation-sideways-right-001.htm	34949f1fcba10bbf866afdab64f23961fce65418	pass
 # html/text-orientation-upright-001.htm	2ef91d460048f96c8ab52096eb12d078af6398c3	pass
 # html/unicode-bidi-001.htm	23dd56a09e50c8f068ed78bfbec09343f4189224	pass
@@ -791,15 +791,15 @@ html/text-orientation-script-001o.htm	ad390d60dd518de633056d1bd59900406d4d23e8	p
 html/value-all-002.htm	d802f48b068007c7f2864a3aa79f49755c3e013f	pass # Flaky
 html/value-all-003.htm	f163c7cf88c858595aa661ffba9334e68162c3dc	pass # Flaky
 html/value-all-and-inherit-001.htm	d10283656560566eb516ce4b3f876fecbec673fe	invalid # https://github.com/w3c/csswg-test/issues/784 The tests have incorrect expectations
-# html/value-digit2-and-inherit-001.htm	1a524a016c8b47cd31928d3bc00c4561d546f1d6	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-# html/value-digits2-002.htm	c5dbe001ba36b8f7e0cc15cf1339e48693685c3d	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-# html/value-digits2-003.htm	887e9c642475bba9aeb27d60b9315bcc6297b019	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-# html/value-digits3-001.htm	7fbe02dcb8c7541c6483703cd9a479e05ac3028f	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-# html/value-digits3-002.htm	b9bbaad2e1d7a1f0196d3d6f8edce78daf398514	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-# html/value-digits3-003.htm	6ea75877d87dd3d31882da6e4f0beb0a2a38d912	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-# html/value-digits4-001.htm	c36e1f3d8d75e709647315ea10bac5f452b02889	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-# html/value-digits4-002.htm	ee4905ec4dcfbc365db8ada98611b349c6d2003b	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-# html/value-digits4-003.htm	717fb1bba8bd7e8404d45a38dc8ec452e453014c	uncertain # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/value-digit2-and-inherit-001.htm	1a524a016c8b47cd31928d3bc00c4561d546f1d6	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/value-digits2-002.htm	c5dbe001ba36b8f7e0cc15cf1339e48693685c3d	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/value-digits2-003.htm	887e9c642475bba9aeb27d60b9315bcc6297b019	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/value-digits3-001.htm	7fbe02dcb8c7541c6483703cd9a479e05ac3028f	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/value-digits3-002.htm	b9bbaad2e1d7a1f0196d3d6f8edce78daf398514	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/value-digits3-003.htm	6ea75877d87dd3d31882da6e4f0beb0a2a38d912	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/value-digits4-001.htm	c36e1f3d8d75e709647315ea10bac5f452b02889	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/value-digits4-002.htm	ee4905ec4dcfbc365db8ada98611b349c6d2003b	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/value-digits4-003.htm	717fb1bba8bd7e8404d45a38dc8ec452e453014c	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 html/value-none-001.htm	87edae7846c0c582d2a1c14d705f4babfe721c2b	pass # Flaky
 # html/vertical-alignment-002a.htm	a55994c93e6652bdc61229154fe73727bd2c9aea	?
 # html/vertical-alignment-002b.htm	779a3696b7909f11787ad979d92c965675b8ed71	?

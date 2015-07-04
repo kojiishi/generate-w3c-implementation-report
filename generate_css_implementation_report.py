@@ -91,7 +91,7 @@ class ImportTestResult(TestResult):
 
     @property
     def is_imported(self):
-        return self._result != "uncertain"
+        return self._result != "skip"
 
     @property
     def comment(self):
@@ -306,12 +306,12 @@ class W3CImplementationReportGenerator(object):
         issue = re.compile(r'https://github\.com/w3c/[-\w]+/issues/\d+')
         comment = None
         is_invalid = False
-        result = "uncertain"
+        result = "skip"
         for line in expectations:
             line = line.strip()
             if not line:
                 comment = None
-                result = "uncertain"
+                result = "skip"
                 continue
             if line[0] == '#':
                 comment = line[1:].lstrip()
@@ -320,7 +320,7 @@ class W3CImplementationReportGenerator(object):
                 elif '"combo"' in comment:
                     result = None
                 else:
-                    result = "uncertain"
+                    result = "skip"
                 continue
             if not result:
                 continue
@@ -387,13 +387,10 @@ class W3CImplementationReportGenerator(object):
             test_json = {
                 'id': test.id,
             }
-            for engine in ("Blink",):
-                result = test.result_for_engine(engine)
-                if not result:
-                    continue
+            for engine, result in test.results.iteritems():
                 test_json[engine] = {
                     "result": result.result,
-                    "source": result.source,
+                    "source": result.source if result.reliability else "anonymous",
                 }
             tests.append(test_json)
         json.dump(tests, output, indent=0)
