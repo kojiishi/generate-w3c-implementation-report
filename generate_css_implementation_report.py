@@ -136,6 +136,7 @@ class Test(object):
         self.import_result = None
         self.revision = None
         self.testnames = []
+        self.issue = None
 
     def result_for_engine(self, engine, direction = 0):
         return self.results.get(engine)
@@ -143,6 +144,10 @@ class Test(object):
     def add_result(self, result):
         if result.precedes(self.results.get(result.engine)):
             self.results[result.engine] = result
+
+    def add_issue(self, url):
+        assert not self.issue
+        self.issue = url
 
     def set_imported(self, dir, ext):
         assert not self.import_result
@@ -303,19 +308,26 @@ class W3CImplementationReportGenerator(object):
 
     def load_import_expectations(self, expectations):
         pattern = re.compile(r'^(\S+)\s+\[\s*([^\]]+)]$')
-        issue = re.compile(r'https://github\.com/w3c/[-\w]+/issues/\d+')
+        issue_pattern = re.compile(r'https://github\.com/w3c/[-\w]+/issues/\d+')
         comment = None
-        is_invalid = False
         result = "skip"
+        issue_url = None
         for line in expectations:
             line = line.strip()
             if not line:
                 comment = None
                 result = "skip"
+                issue_url = None
                 continue
             if line[0] == '#':
                 comment = line[1:].lstrip()
-                if issue.search(comment) or 'have known issues' in comment:
+                match = issue_pattern.search(comment)
+                if match:
+                    result = "invalid"
+                    issue_url = match.group(0)
+                    continue
+                issue_url = None
+                if 'have known issues' in comment:
                     result = "invalid"
                 elif '"combo"' in comment:
                     result = None
@@ -333,6 +345,8 @@ class W3CImplementationReportGenerator(object):
                 log.debug("ImportExpectations found: %s %s", results)
                 test = self.test_from_path(path)
                 test.add_import_expectation(result, comment)
+                if issue_url:
+                    test.add_issue(issue_url)
                 continue
             log.warn("ImportExpectations: Line unknown: %s", line)
 
@@ -387,6 +401,8 @@ class W3CImplementationReportGenerator(object):
             test_json = {
                 'id': test.id,
             }
+            if test.issue:
+                test_json["issue"] = test.issue
             for engine, result in test.results.iteritems():
                 result_json = {
                     "result": result.result,

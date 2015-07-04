@@ -9702,7 +9702,8 @@
 "result": "fail", 
 "source": "kojiishi"
 }, 
-"id": "text-decoration-001"
+"id": "text-decoration-001", 
+"issue": "https://github.com/w3c/csswg-test/issues/786"
 }, 
 {
 "Blink": {
@@ -9935,7 +9936,8 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
-"id": "text-emphasis-001"
+"id": "text-emphasis-001", 
+"issue": "https://github.com/w3c/csswg-test/issues/786"
 }, 
 {
 "Blink": {
@@ -10662,7 +10664,8 @@
 "result": "fail", 
 "source": "kojiishi"
 }, 
-"id": "value-all-and-inherit-001"
+"id": "value-all-and-inherit-001", 
+"issue": "https://github.com/w3c/csswg-test/issues/784"
 }, 
 {
 "Blink": {

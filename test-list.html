@@ -46,6 +46,14 @@
         .na, .anonymous {
             background-color: yellow;
         }
+        a.issue {
+            font-family:Arial;
+            float:right;
+            background-color:red;
+            color:white;
+            text-decoration:none;
+            padding:0 4pt;
+        }
     </style>
     <template>
         <iron-ajax
@@ -69,7 +77,12 @@
                     </li>
                     <template id="list" is="dom-repeat" items="{{tests}}" filter="{{_filter(filterText)}}" on-dom-change="listUpdated">
                         <li>
-                            <cell><a href$="{{getUrl(item)}}">{{item.id}}</a></cell>
+                            <cell>
+                                <a href$="{{getUrl(item)}}">{{item.id}}</a>
+                                <template is="dom-if" if="{{item.issue}}">
+                                    <a href$="{{item.issue}}" class="issue">ISSUE</a>
+                                </template>
+                            </cell>
                             <cell class$="{{getResultClass(item.Blink)}}">{{getResultText(item.Blink)}}</cell>
                             <cell class$="{{getResultClass(item.Gecko)}}">{{getResultText(item.Gecko)}}</cell>
                             <cell class$="{{getResultClass(item.Trident)}}">{{getResultText(item.Trident)}}</cell>
