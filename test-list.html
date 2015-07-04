@@ -32,12 +32,18 @@
             border: solid gray thin;
         }
         .pass {
-            background-color: #8f8;
+            background-color: lime;
         }
         .fail {
             background-color: #f66;
         }
-        .need {
+        .pass.anonymous {
+            background-color: #df8;
+        }
+        .fail.anonymous {
+            background-color: #fc0;
+        }
+        .na, .anonymous {
             background-color: yellow;
         }
     </style>
@@ -127,8 +133,10 @@
                 return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + test.id + '/format/html5/';
             },
             getResultClass: function (result) {
-                if (!result || !result.source)
-                    return "need";
+                if (!result)
+                    return "na";
+                if (!result.source)
+                    return result.result + " anonymous";
                 return result.result;
             },
             getResultText: function (result) {
