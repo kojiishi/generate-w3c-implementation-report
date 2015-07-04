@@ -28,15 +28,16 @@ def main():
         logging.basicConfig(level=logging.WARNING)
     args.tests = os.path.expanduser(args.tests)
     generator = W3CImplementationReportGenerator()
-    generator.load_test_files(args.tests)
+    with open(args.template) as template:
+        generator.load_template(template)
+    with open(args.results) as results:
+        generator.load_test_results(results)
+    generator.load_imported_files(args.tests)
     with open(os.path.join(args.tests, '../../../TestExpectations')) as expectations:
         generator.load_test_expectations(expectations)
     with open(os.path.join(args.tests, '../../../W3CImportExpectations')) as expectations:
         generator.load_import_expectations(expectations)
-    with open(args.results) as results:
-        generator.load_test_results(results)
-    with open(args.template) as template:
-        generator.load_template(template)
+    generator.merge_results()
     if not args.output or args.output == '-':
         generator.write_report(sys.stdout)
     else:
@@ -45,11 +46,36 @@ def main():
     with open(args.json, 'w') as output:
         generator.write_json(output)
 
-class ImportTestResult(object):
-    def __init__(self, result):
+class TestResult(object):
+    def __init__(self, engine, result, source):
+        self.engine = engine
         self._result = result
-        self.conditions = set()
+        self.source = source
+
+    @property
+    def result(self):
+        return self._result
+
+    def compare_precedence(self, other):
+        if not other:
+            return 1
+        if self.is_imported != other.is_imported:
+            return 1 if self.is_imported else -1
+        if self.is_imported:
+            return 0
+        if self.reliability != other.reliability:
+            return self.reliability - other.reliability
+        return 0
+
+    def precedes(self, other):
+        return self.compare_precedence(other) > 0
+
+class ImportTestResult(TestResult):
+    def __init__(self, result):
+        super(ImportTestResult, self).__init__("Blink", result, "blink")
+        self.reliability = 2
         self._comment = None
+        self.conditions = set()
 
     @property
     def result(self):
@@ -57,11 +83,15 @@ class ImportTestResult(object):
             return 'fail'
         if len(self.conditions) > 0:
             return 'pass'
-        return self._result
+        return super(ImportTestResult, self).result
 
     @result.setter
     def result(self, value):
         self._result = value
+
+    @property
+    def is_imported(self):
+        return self._result != "uncertain"
 
     @property
     def comment(self):
@@ -69,19 +99,26 @@ class ImportTestResult(object):
             return ', '.join(self.conditions) + ': ' + (self._comment if self._comment else "fail")
         return self._comment
 
-class SubmitTestResult(object):
-    def __init__(self, result, source, date):
-        self.result = result
-        self.source = source
+class SubmitTestResult(TestResult):
+    def __init__(self, result, source, date, engine, useragent):
+        if 'Chrome/' in useragent:
+            engine = "Blink"
+        super(SubmitTestResult, self).__init__(engine, result, source)
         self.reliability = SubmitTestResult.reliability_from_source(source)
+        self.is_imported = False
         self.date = date
+        self.comment = None
 
-    def precedes(self, other):
-        if not other:
-            return True
-        if self.reliability != other.reliability:
-            return self.reliability > other.reliability
-        return self.date > other.date
+    def compare_precedence(self, other):
+        precedence = super(SubmitTestResult, self).compare_precedence(other)
+        if precedence:
+            return precedence
+        assert other.date
+        if self.date > other.date:
+            return 1
+        elif self.date < other.date:
+            return -1
+        return 0
 
     known_sources = set(('gtalbot', 'hshiozawa', 'kojiishi', 'lemoned'))
     @staticmethod
@@ -95,84 +132,20 @@ class Test(object):
         self.id = id
         self.combo = None
         self.combo_of = []
-        self.import_dir = None
-        self.import_ext = None
+        self.results = {}
         self.import_result = None
-        self.submit_result = None
         self.revision = None
         self.testnames = []
 
-    def with_combo(self, func):
-        value = func(self)
-        if value:
-            return value
-        if self.combo:
-            return func(self.combo)
-        if self.combo_of:
-            return func(self.combo_of[0])
-        return None
+    def result_for_engine(self, engine, direction = 0):
+        return self.results.get(engine)
 
-    @property
-    def import_result_with_combo(self):
-        return self.with_combo(lambda t: t.import_result)
+    def add_result(self, result):
+        if result.precedes(self.results.get(result.engine)):
+            self.results[result.engine] = result
 
-    @property
-    def submit_result_with_combo(self):
-        return self.with_combo(lambda t: t.submit_result)
-
-    @property
-    def _result(self):
-        if self.import_result:
-            return self.import_result.result
-        if self.submit_result:
-            return self.submit_result.result
-        return None
-
-    @property
-    def result(self):
-        result = self._result
-        if result:
-            return result
-        if self.combo:
-            return self.combo._result
-        if self.combo_of:
-            if all([c._result == 'pass' for c in self.combo_of]):
-                return 'pass'
-            return 'fail'
-        return '?'
-
-    @property
-    def source(self):
-        if self.import_result_with_combo:
-            return 'blink'
-        result = self.submit_result_with_combo
-        if result:
-            if not result.reliability:
-                return 'anonymous'
-            return result.source
-        return None
-
-    @property
-    def comment(self):
-        if self.import_result:
-            return self.import_result.comment
-        if self.submit_result and self.submit_result.reliability == 0:
-            return 'Anonymous'
-        return None
-
-    @property
-    def is_imported(self):
-        if self.import_result and self.import_result.result != "uncertain":
-            return True
-        if self.combo:
-            return self.combo.is_imported
-        if self.combo_of:
-            return self.combo_of[0].is_imported
-        return False
-
-    def set_import(self, dir, ext):
-        self.import_dir = dir
-        self.import_ext = ext
+    def set_imported(self, dir, ext):
+        assert not self.import_result
         self.import_result = ImportTestResult('pass')
 
     def add_test_expectation(self, conditions, result, comment):
@@ -185,13 +158,26 @@ class Test(object):
 
     def add_import_expectation(self, result, comment):
         assert not self.import_result
-        self.import_result = ImportTestResult('pass')
-        self.import_result.result = result
+        self.import_result = ImportTestResult(result)
         self.import_result._comment = comment
 
-    def add_submit_result(self, result):
-        if result.precedes(self.submit_result):
-            self.submit_result = result
+    def merge_results(self):
+        if self.import_result:
+            self.import_result.contributor_result = self.results.get("Blink")
+            self.results["Blink"] = self.import_result
+
+    def resolve_combo_results(self):
+        combo = self.combo
+        if combo:
+            for engine, result in self.results.iteritems():
+                combo_result = combo.results.get(engine)
+                precedence = result.compare_precedence(combo_result)
+                if precedence > 0:
+                    combo.results[engine] = result
+                elif precedence < 0:
+                    self.results[engine] = combo_result
+                elif result.result != "pass" and combo_result.result == "pass":
+                    combo.results[engine] = result
 
 class W3CImplementationReportGenerator(object):
     def __init__(self):
@@ -204,36 +190,62 @@ class W3CImplementationReportGenerator(object):
         self.tests[name] = test
         return test
 
-    def get_test_from_path(self, path):
+    def test_from_id_or_add(self, name):
+        test = self.tests.get(name)
+        if not test:
+            test = self.add_test(name)
+        return test
+
+    def test_from_testname_or_add(self, testname):
+        filename = os.path.basename(testname)
+        name, ext = os.path.splitext(filename)
+        test = self.test_from_id_or_add(name)
+        test.testnames.append(testname)
+        return test
+
+    def test_from_path(self, path):
         filename = os.path.basename(path)
         name, ext = os.path.splitext(filename)
         return self.tests.get(name)
 
-    def get_test_from_testname(self, testname):
-        filename = os.path.basename(testname)
-        name, ext = os.path.splitext(filename)
-        test = self.get_test_from_testcase(name)
-        test.testnames.append(testname)
-        return test
+    def merge_results(self):
+        for test in self.tests.itervalues():
+            if re.search(r'-\d{3}[a-z]$', test.id): # if affix, find the combo test
+                test.combo = self.tests.get(test.id[0:-1])
+            test.merge_results()
+        for test in self.tests.itervalues():
+            test.resolve_combo_results()
 
-    def get_test_from_testcase(self, name):
-        test = self.tests.get(name)
-        if not test:
-            test = self.add_test(name)
-        if not test.combo and re.search(r'-\d{3}[a-z]$', name): # if affix, find the combo test
-            combo = self.tests.get(name[0:-1])
-            if combo:
-                test.combo = combo
-                combo.combo_of.append(test)
-        return test
+    def load_template(self, template):
+        for line in template:
+            line = line.rstrip()
+            if not line or line[0] == '#':
+                continue
+            values = line.split('\t')
+            if len(values) >= 3:
+                if values[2] == '?':
+                    test = self.test_from_testname_or_add(values[0])
+                    test.revision = values[1]
+                    continue
+                if values[0] == 'testname':
+                    continue
+            log.warn("Unrecognized line in template: %s", line)
 
-    def load_test_files(self, directory):
-        for root, filename in self.find_test_files(directory):
+    def load_test_results(self, results):
+        reader = csv.reader(results)
+        header = next(reader)
+        for row in reader:
+            test = self.test_from_id_or_add(row[0])
+            result = SubmitTestResult(row[1], row[4], row[3], row[5], row[6])
+            test.add_result(result)
+
+    def load_imported_files(self, directory):
+        for root, filename in self.find_imported_files(directory):
             name, ext = os.path.splitext(filename)
-            test = self.add_test(name)
-            test.set_import(root, ext)
+            test = self.test_from_id_or_add(name)
+            test.set_imported(root, ext)
 
-    def find_test_files(self, directory):
+    def find_imported_files(self, directory):
         dirs_to_skip = ('support',)
         for root, dirs, files in os.walk(directory):
             for d in dirs_to_skip:
@@ -249,7 +261,7 @@ class W3CImplementationReportGenerator(object):
 
     def load_test_expectations(self, expectations):
         for path, conditions, result, comment in self.read_test_expectations(expectations):
-            test = self.get_test_from_path(path)
+            test = self.test_from_path(path)
             if not test:
                 log.warn("Test for TestExpectations not found: %s", path)
                 continue
@@ -293,6 +305,7 @@ class W3CImplementationReportGenerator(object):
         pattern = re.compile(r'^(\S+)\s+\[\s*([^\]]+)]$')
         issue = re.compile(r'https://github\.com/w3c/[-\w]+/issues/\d+')
         comment = None
+        is_invalid = False
         result = "uncertain"
         for line in expectations:
             line = line.strip()
@@ -318,38 +331,10 @@ class W3CImplementationReportGenerator(object):
                     continue
                 results = results.rstrip().split()
                 log.debug("ImportExpectations found: %s %s", results)
-                filename = os.path.basename(path)
-                name, ext = os.path.splitext(filename)
-                test = self.add_test(name)
+                test = self.test_from_path(path)
                 test.add_import_expectation(result, comment)
                 continue
             log.warn("ImportExpectations: Line unknown: %s", line)
-
-    def load_test_results(self, results):
-        reader = csv.reader(results)
-        header = next(reader)
-        for row in reader:
-            useragent = row[6]
-            if not 'Chrome/' in useragent:
-                continue
-            test = self.get_test_from_testcase(row[0])
-            result = SubmitTestResult(row[1], row[4], row[3])
-            test.add_submit_result(result)
-
-    def load_template(self, template):
-        for line in template:
-            line = line.rstrip()
-            if not line or line[0] == '#':
-                continue
-            values = line.split('\t')
-            if len(values) >= 3:
-                if values[2] == '?':
-                    test = self.get_test_from_testname(values[0])
-                    test.revision = values[1]
-                    continue
-                if values[0] == 'testname':
-                    continue
-            log.warn("Unrecognized line in template: %s", line)
 
     def write_report(self, output):
         total = 0
@@ -363,23 +348,26 @@ class W3CImplementationReportGenerator(object):
                 log.warn('Not found in template: %s', test.id)
                 continue
             total += 1
-            result = test.result
-            values = [test.testnames[0], test.revision, result]
+            result = test.result_for_engine("Blink")
+            if not result:
+                output.write("# " + "\t".join((test.testnames[0], test.revision, "?")) + "\n")
+                continue
+            values = [test.testnames[0], test.revision, result.result]
             line = '\t'.join(values)
-            is_passed = result == 'pass'
+            is_passed = result.result == 'pass'
             if is_passed:
                 coverage += 1
                 passed += 1
-            elif result == 'fail':
+            elif result.result == "fail":
                 coverage += 1
-            if test.is_imported:
+            if result.is_imported:
                 imported += 1
                 if is_passed:
                     imported_passed += 1
             else:
                 line = "# " + line
-            if test.comment:
-                line += " # " + test.comment
+            if result.comment:
+                line += " # " + result.comment
             output.write(line + "\n")
         output.write('# Total = {0}, Coverage = {1} ({2}%), Pass = {3} ({4}% of total, {5}% of coverage), Fail = {6} ({7}% of total, {8}% of coverage)\n'.format(
             total,
@@ -396,11 +384,18 @@ class W3CImplementationReportGenerator(object):
         for test in sorted(self.tests.itervalues(), key=lambda t: t.id):
             if not test.testnames:
                 continue
-            tests.append({
+            test_json = {
                 'id': test.id,
-                'result': test.result,
-                'source': test.source,
-            })
+            }
+            for engine in ("Blink",):
+                result = test.result_for_engine(engine)
+                if not result:
+                    continue
+                test_json[engine] = {
+                    "result": result.result,
+                    "source": result.source,
+                }
+            tests.append(test_json)
         json.dump(tests, output, indent=0)
 
 main()

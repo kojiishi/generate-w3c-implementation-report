@@ -33,13 +33,56 @@
         </div>
     </template>
     <script>
+        function TestStats(total) {
+            this.totalCount = total;
+            this.count = 0;
+            this.passCount = 0;
+            this.failCount = 0;
+        }
+        TestStats.prototype.add = function (test) {
+            ++this.count;
+            var result = test.Blink;
+            if (result) {
+                switch (result.result) {
+                    case 'pass': ++this.passCount; break;
+                    case 'fail': ++this.failCount; break;
+                }
+            }
+        };
+        function formatCount(count, total) {
+            return count + " (" + Math.round(count * 100 / total) + "%)";
+        }
+        TestStats.prototype.done = function () {
+            if (this.totalCount && this.totalCount != this.count)
+                this.total = formatCount(this.count, this.totalCount);
+            else
+                this.total = this.count;
+            this.coverage = formatCount(this.passCount + this.failCount, this.count);
+            this.pass = formatCount(this.passCount, this.count);
+            this.fail = formatCount(this.failCount, this.count);
+        };
+        TestStats.create = function (tests, filter) {
+            var stats = new TestStats(tests.length);
+            if (filter) {
+                tests.forEach(function (test) {
+                    if (filter(test))
+                        stats.add(test);
+                });
+            } else {
+                tests.forEach(function (test) {
+                    stats.add(test);
+                });
+            }
+            stats.done();
+            return stats;
+        };
         Polymer({
             is: 'test-panel',
             properties: {
                 filterText: { type: String, notify: true },
             },
-            updateStats: function (stats) {
-                this.stats = stats;
+            listUpdated: function (tests, filter) {
+                this.stats = TestStats.create(tests, filter);
             },
         });
     </script>
