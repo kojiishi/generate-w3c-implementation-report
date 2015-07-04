@@ -1577,6 +1577,10 @@
 }
 }, 
 {
+"Gecko": {
+"source": "gtalbot", 
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vlr-171", 
 "Blink": {
 "source": "blink", 
@@ -1705,6 +1709,10 @@
 }
 }, 
 {
+"Gecko": {
+"source": "gtalbot", 
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vlr-195", 
 "Blink": {
 "source": "blink", 
@@ -1877,6 +1885,10 @@
 }
 }, 
 {
+"Gecko": {
+"source": "gtalbot", 
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vlr-227", 
 "Blink": {
 "source": "blink", 
@@ -4292,7 +4304,7 @@
 }, 
 "Trident": {
 "source": "lemoned", 
-"result": "uncertain"
+"result": "fail"
 }, 
 "Blink": {
 "source": "blink", 
@@ -4312,7 +4324,8 @@
 "result": "fail"
 }, 
 "Trident": {
-"result": "uncertain"
+"source": "lemoned", 
+"result": "fail"
 }, 
 "Blink": {
 "source": "blink", 
@@ -4332,7 +4345,8 @@
 "result": "fail"
 }, 
 "Trident": {
-"result": "uncertain"
+"source": "lemoned", 
+"result": "fail"
 }, 
 "Blink": {
 "source": "blink", 
@@ -4352,7 +4366,8 @@
 "result": "fail"
 }, 
 "Trident": {
-"result": "uncertain"
+"source": "lemoned", 
+"result": "fail"
 }, 
 "Blink": {
 "source": "blink", 
@@ -4368,79 +4383,96 @@
 "id": "bidi-isolate-004"
 }, 
 {
-"WebKit": {
+"Presto": {
+"result": "fail"
+}, 
+"Trident": {
+"source": "lemoned", 
 "result": "fail"
 }, 
 "Blink": {
 "source": "blink", 
 "result": "pass"
 }, 
-"Gecko": {
-"source": "gtalbot", 
-"result": "fail"
-}, 
-"id": "bidi-isolate-005", 
-"Presto": {
-"result": "fail"
-}
-}, 
-{
 "WebKit": {
 "result": "fail"
 }, 
-"Blink": {
-"source": "blink", 
-"result": "pass"
-}, 
 "Gecko": {
 "source": "gtalbot", 
 "result": "fail"
 }, 
-"id": "bidi-isolate-006", 
-"Presto": {
-"result": "fail"
-}
-}, 
-{
-"WebKit": {
-"result": "fail"
-}, 
-"Blink": {
-"source": "blink", 
-"result": "pass"
-}, 
-"Gecko": {
-"source": "gtalbot", 
-"result": "fail"
-}, 
-"id": "bidi-isolate-007", 
-"Presto": {
-"result": "fail"
-}
-}, 
-{
-"WebKit": {
-"result": "fail"
-}, 
-"Blink": {
-"source": "blink", 
-"result": "pass"
-}, 
-"Gecko": {
-"source": "gtalbot", 
-"result": "fail"
-}, 
-"id": "bidi-isolate-008", 
-"Presto": {
-"result": "fail"
-}
+"id": "bidi-isolate-005"
 }, 
 {
 "Presto": {
 "result": "fail"
 }, 
 "Trident": {
-"result": "uncertain"
+"source": "lemoned", 
+"result": "fail"
+}, 
+"Blink": {
+"source": "blink", 
+"result": "pass"
+}, 
+"WebKit": {
+"result": "fail"
+}, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
+"id": "bidi-isolate-006"
+}, 
+{
+"Presto": {
+"result": "fail"
+}, 
+"Trident": {
+"source": "lemoned", 
+"result": "fail"
+}, 
+"Blink": {
+"source": "blink", 
+"result": "pass"
+}, 
+"WebKit": {
+"result": "fail"
+}, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
+"id": "bidi-isolate-007"
+}, 
+{
+"Presto": {
+"result": "fail"
+}, 
+"Trident": {
+"source": "lemoned", 
+"result": "fail"
+}, 
+"Blink": {
+"source": "blink", 
+"result": "pass"
+}, 
+"WebKit": {
+"result": "fail"
+}, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
+"id": "bidi-isolate-008"
+}, 
+{
+"Presto": {
+"result": "fail"
+}, 
+"Trident": {
+"source": "lemoned", 
+"result": "fail"
 }, 
 "Blink": {
 "source": "blink", 
@@ -4460,7 +4492,8 @@
 "result": "fail"
 }, 
 "Trident": {
-"result": "uncertain"
+"source": "lemoned", 
+"result": "fail"
 }, 
 "Blink": {
 "source": "blink", 
@@ -4476,21 +4509,25 @@
 "id": "bidi-isolate-010"
 }, 
 {
-"WebKit": {
+"Presto": {
+"result": "fail"
+}, 
+"Trident": {
+"source": "lemoned", 
 "result": "fail"
 }, 
 "Blink": {
 "source": "blink", 
 "result": "pass"
 }, 
+"WebKit": {
+"result": "fail"
+}, 
 "Gecko": {
 "source": "gtalbot", 
 "result": "fail"
 }, 
-"id": "bidi-isolate-011", 
-"Presto": {
-"result": "fail"
-}
+"id": "bidi-isolate-011"
 }, 
 {
 "Presto": {
@@ -4904,7 +4941,7 @@
 }, 
 "Gecko": {
 "source": "gtalbot", 
-"result": "fail"
+"result": "pass"
 }, 
 "id": "bidi-normal-011", 
 "Blink": {
@@ -6673,7 +6710,7 @@
 }, 
 "Gecko": {
 "source": "gtalbot", 
-"result": "fail"
+"result": "pass"
 }, 
 "id": "css-flexbox-row-reverse-wrap"
 }, 
@@ -6683,7 +6720,7 @@
 }, 
 "Gecko": {
 "source": "gtalbot", 
-"result": "fail"
+"result": "pass"
 }, 
 "id": "css-flexbox-row-reverse-wrap-reverse", 
 "Blink": {
@@ -6710,7 +6747,7 @@
 }, 
 "Gecko": {
 "source": "gtalbot", 
-"result": "fail"
+"result": "pass"
 }, 
 "id": "css-flexbox-row-wrap"
 }, 
@@ -6730,7 +6767,7 @@
 }, 
 "Gecko": {
 "source": "gtalbot", 
-"result": "fail"
+"result": "pass"
 }, 
 "id": "css-flexbox-row-wrap-reverse"
 }, 
@@ -7578,7 +7615,7 @@
 }, 
 "Gecko": {
 "source": "gtalbot", 
-"result": "fail"
+"result": "pass"
 }, 
 "id": "form-controls-vert-rl-005", 
 "Blink": {
@@ -8434,6 +8471,10 @@
 "Trident": {
 "result": "pass"
 }, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001", 
 "Blink": {
 "source": "blink", 
@@ -8443,6 +8484,10 @@
 {
 "Trident": {
 "result": "pass"
+}, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001a", 
 "Blink": {
@@ -8454,6 +8499,10 @@
 "Trident": {
 "result": "pass"
 }, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001b", 
 "Blink": {
 "source": "blink", 
@@ -8463,6 +8512,10 @@
 {
 "Trident": {
 "result": "pass"
+}, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001c", 
 "Blink": {
@@ -8474,6 +8527,10 @@
 "Trident": {
 "result": "pass"
 }, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001d", 
 "Blink": {
 "source": "blink", 
@@ -8483,6 +8540,10 @@
 {
 "Trident": {
 "result": "pass"
+}, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001e", 
 "Blink": {
@@ -8494,6 +8555,10 @@
 "Trident": {
 "result": "pass"
 }, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001f", 
 "Blink": {
 "source": "blink", 
@@ -8503,6 +8568,10 @@
 {
 "Trident": {
 "result": "pass"
+}, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001g", 
 "Blink": {
@@ -8514,6 +8583,10 @@
 "Trident": {
 "result": "pass"
 }, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001h", 
 "Blink": {
 "source": "blink", 
@@ -8523,6 +8596,10 @@
 {
 "Trident": {
 "result": "pass"
+}, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001i", 
 "Blink": {
@@ -8534,6 +8611,10 @@
 "Trident": {
 "result": "pass"
 }, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001j", 
 "Blink": {
 "source": "blink", 
@@ -8543,6 +8624,10 @@
 {
 "Trident": {
 "result": "pass"
+}, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001k", 
 "Blink": {
@@ -8554,6 +8639,10 @@
 "Trident": {
 "result": "pass"
 }, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001l", 
 "Blink": {
 "source": "blink", 
@@ -8563,6 +8652,10 @@
 {
 "Trident": {
 "result": "pass"
+}, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001m", 
 "Blink": {
@@ -8574,6 +8667,10 @@
 "Trident": {
 "result": "pass"
 }, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001n", 
 "Blink": {
 "source": "blink", 
@@ -8583,6 +8680,10 @@
 {
 "Trident": {
 "result": "pass"
+}, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001o", 
 "Blink": {
@@ -8594,6 +8695,10 @@
 "Trident": {
 "result": "pass"
 }, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001p", 
 "Blink": {
 "source": "blink", 
@@ -8603,6 +8708,10 @@
 {
 "Trident": {
 "result": "pass"
+}, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001q", 
 "Blink": {
@@ -8614,6 +8723,10 @@
 "Trident": {
 "result": "pass"
 }, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001r", 
 "Blink": {
 "source": "blink", 
@@ -8623,6 +8736,10 @@
 {
 "Trident": {
 "result": "pass"
+}, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001s", 
 "Blink": {
@@ -8634,6 +8751,10 @@
 "Trident": {
 "result": "pass"
 }, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001t", 
 "Blink": {
 "source": "blink", 
@@ -8643,6 +8764,10 @@
 {
 "Trident": {
 "result": "pass"
+}, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001u", 
 "Blink": {
@@ -8654,6 +8779,10 @@
 "Trident": {
 "result": "pass"
 }, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001v", 
 "Blink": {
 "source": "blink", 
@@ -8664,6 +8793,10 @@
 "Trident": {
 "result": "pass"
 }, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001w", 
 "Blink": {
 "source": "blink", 
@@ -8673,6 +8806,10 @@
 {
 "Trident": {
 "result": "pass"
+}, 
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001x", 
 "Blink": {
@@ -9455,6 +9592,10 @@
 }
 }, 
 {
+"Gecko": {
+"source": "gtalbot", 
+"result": "pass"
+}, 
 "id": "text-combine-horizontal-010", 
 "Blink": {
 "source": "lemoned", 
@@ -9462,6 +9603,10 @@
 }
 }, 
 {
+"Gecko": {
+"source": "gtalbot", 
+"result": "pass"
+}, 
 "id": "text-combine-horizontal-011", 
 "Blink": {
 "source": "lemoned", 
@@ -9470,6 +9615,7 @@
 }, 
 {
 "Gecko": {
+"source": "gtalbot", 
 "result": "pass"
 }, 
 "id": "text-combine-upright-decorations-001", 
@@ -9479,6 +9625,10 @@
 }
 }, 
 {
+"Gecko": {
+"source": "gtalbot", 
+"result": "pass"
+}, 
 "id": "text-combine-upright-inherit-all-001", 
 "Blink": {
 "source": "blink", 
@@ -9779,7 +9929,7 @@
 {
 "Gecko": {
 "source": "gtalbot", 
-"result": "uncertain"
+"result": "fail"
 }, 
 "id": "text-emphasis-001", 
 "Blink": {
@@ -9972,6 +10122,10 @@
 }
 }, 
 {
+"Gecko": {
+"source": "gtalbot", 
+"result": "pass"
+}, 
 "id": "text-orientation-010", 
 "Blink": {
 "source": "lemoned", 
@@ -9979,6 +10133,10 @@
 }
 }, 
 {
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
 "id": "text-orientation-011", 
 "Blink": {
 "source": "lemoned", 
@@ -9986,6 +10144,10 @@
 }
 }, 
 {
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
 "id": "text-orientation-012", 
 "Blink": {
 "source": "blink", 
@@ -9993,6 +10155,10 @@
 }
 }, 
 {
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
 "id": "text-orientation-013", 
 "Blink": {
 "source": "blink", 
@@ -10000,6 +10166,10 @@
 }
 }, 
 {
+"Gecko": {
+"source": "gtalbot", 
+"result": "pass"
+}, 
 "id": "text-orientation-014", 
 "Blink": {
 "source": "blink", 
@@ -10007,6 +10177,10 @@
 }
 }, 
 {
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
 "id": "text-orientation-015", 
 "Blink": {
 "source": "blink", 
@@ -10014,6 +10188,10 @@
 }
 }, 
 {
+"Gecko": {
+"source": "gtalbot", 
+"result": "pass"
+}, 
 "id": "text-orientation-mixed-001", 
 "Blink": {
 "source": "lemoned", 
@@ -10197,6 +10375,10 @@
 }
 }, 
 {
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
 "id": "text-orientation-sideways-001", 
 "Blink": {
 "source": "lemoned", 
@@ -10204,6 +10386,10 @@
 }
 }, 
 {
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
 "id": "text-orientation-sideways-002", 
 "Blink": {
 "source": "blink", 
@@ -10211,6 +10397,10 @@
 }
 }, 
 {
+"Gecko": {
+"source": "gtalbot", 
+"result": "fail"
+}, 
 "id": "text-orientation-sideways-left-001", 
 "Blink": {
 "source": "blink", 
@@ -10218,6 +10408,10 @@
 }
 }, 
 {
+"Gecko": {
+"source": "gtalbot", 
+"result": "pass"
+}, 
 "id": "text-orientation-sideways-right-001", 
 "Blink": {
 "source": "lemoned", 
@@ -10225,6 +10419,10 @@
 }
 }, 
 {
+"Gecko": {
+"source": "gtalbot", 
+"result": "pass"
+}, 
 "id": "text-orientation-upright-001", 
 "Blink": {
 "source": "lemoned", 
@@ -10458,7 +10656,7 @@
 }, 
 "Gecko": {
 "source": "gtalbot", 
-"result": "uncertain"
+"result": "fail"
 }, 
 "id": "value-all-and-inherit-001", 
 "Blink": {
@@ -10473,7 +10671,7 @@
 }, 
 "Gecko": {
 "source": "gtalbot", 
-"result": "uncertain"
+"result": "fail"
 }, 
 "id": "value-digit2-and-inherit-001", 
 "Blink": {
