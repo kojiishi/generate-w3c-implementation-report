@@ -702,28 +702,28 @@ html/text-baseline-009.htm	a2fd18eda0cad02eb09004338de627414847c9d3	pass # Mac: 
 # html/text-combine-horizontal-011.htm	5b44f033e339dbfd5583e53ec5fc1abe594ae046	pass
 html/text-combine-upright-decorations-001.htm	d2543f1321555a774908e166123038b7096a3177	pass
 html/text-combine-upright-inherit-all-001.htm	fbfea80ba905364014b1e39f99785d26aa49766a	fail
-# html/text-combine-upright-layout-rules-001.htm	809a77c34636021dd6a4d78040e9381629910799	?
-# html/text-combine-upright-line-breaking-rules-001.htm	f927995a7bb8452f11c02e5e34a41f73a565d725	?
+html/text-combine-upright-layout-rules-001.htm	809a77c34636021dd6a4d78040e9381629910799	fail
+html/text-combine-upright-line-breaking-rules-001.htm	f927995a7bb8452f11c02e5e34a41f73a565d725	pass
 # html/text-combine-upright-parsing-invalid-001.htm	2b2c132e18a567fb8056e362766d8a030557c4de	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 # html/text-combine-upright-parsing-invalid-002.htm	7f78c2344ff0a88366e152bfb9dd032df56c8e31	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 # html/text-combine-upright-parsing-valid-001.htm	0ce4e72cafc4c08b3dbb51296126cc6ec5cfc581	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 # html/text-combine-upright-parsing-valid-002.htm	c04b90914c86be633173bfcc63c14b2a44b058db	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-# html/text-combine-upright-value-all-001.htm	aa61701be68a6a2f5b8759406b5d12097287037b	?
-# html/text-combine-upright-value-all-002.htm	d802f48b068007c7f2864a3aa79f49755c3e013f	?
-# html/text-combine-upright-value-all-003.htm	f163c7cf88c858595aa661ffba9334e68162c3dc	?
-# html/text-combine-upright-value-all-and-inherit-001.htm	d10283656560566eb516ce4b3f876fecbec673fe	?
-# html/text-combine-upright-value-digit2-and-inherit-001.htm	1a524a016c8b47cd31928d3bc00c4561d546f1d6	?
-# html/text-combine-upright-value-digits2-001.htm	7e716cc28e8723c31837800d39feacea1166e771	?
-# html/text-combine-upright-value-digits2-002.htm	c5dbe001ba36b8f7e0cc15cf1339e48693685c3d	?
-# html/text-combine-upright-value-digits2-003.htm	887e9c642475bba9aeb27d60b9315bcc6297b019	?
-# html/text-combine-upright-value-digits3-001.htm	7fbe02dcb8c7541c6483703cd9a479e05ac3028f	?
-# html/text-combine-upright-value-digits3-002.htm	b9bbaad2e1d7a1f0196d3d6f8edce78daf398514	?
-# html/text-combine-upright-value-digits3-003.htm	6ea75877d87dd3d31882da6e4f0beb0a2a38d912	?
-# html/text-combine-upright-value-digits4-001.htm	c36e1f3d8d75e709647315ea10bac5f452b02889	?
-# html/text-combine-upright-value-digits4-002.htm	ee4905ec4dcfbc365db8ada98611b349c6d2003b	?
-# html/text-combine-upright-value-digits4-003.htm	717fb1bba8bd7e8404d45a38dc8ec452e453014c	?
-# html/text-combine-upright-value-none-001.htm	87edae7846c0c582d2a1c14d705f4babfe721c2b	?
-html/text-decoration-001.htm	d9a469751905e9950b458ec3149cf740f727a0c9	invalid # https://github.com/w3c/csswg-test/issues/786 The tests have incorrect expectations
+html/text-combine-upright-value-all-001.htm	aa61701be68a6a2f5b8759406b5d12097287037b	pass # Flaky
+html/text-combine-upright-value-all-002.htm	d802f48b068007c7f2864a3aa79f49755c3e013f	pass # Flaky
+html/text-combine-upright-value-all-003.htm	f163c7cf88c858595aa661ffba9334e68162c3dc	pass # Flaky
+html/text-combine-upright-value-all-and-inherit-001.htm	d10283656560566eb516ce4b3f876fecbec673fe	fail
+# html/text-combine-upright-value-digit2-and-inherit-001.htm	1a524a016c8b47cd31928d3bc00c4561d546f1d6	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/text-combine-upright-value-digits2-001.htm	7e716cc28e8723c31837800d39feacea1166e771	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/text-combine-upright-value-digits2-002.htm	c5dbe001ba36b8f7e0cc15cf1339e48693685c3d	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/text-combine-upright-value-digits2-003.htm	887e9c642475bba9aeb27d60b9315bcc6297b019	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/text-combine-upright-value-digits3-001.htm	7fbe02dcb8c7541c6483703cd9a479e05ac3028f	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/text-combine-upright-value-digits3-002.htm	b9bbaad2e1d7a1f0196d3d6f8edce78daf398514	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/text-combine-upright-value-digits3-003.htm	6ea75877d87dd3d31882da6e4f0beb0a2a38d912	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/text-combine-upright-value-digits4-001.htm	c36e1f3d8d75e709647315ea10bac5f452b02889	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/text-combine-upright-value-digits4-002.htm	ee4905ec4dcfbc365db8ada98611b349c6d2003b	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+# html/text-combine-upright-value-digits4-003.htm	717fb1bba8bd7e8404d45a38dc8ec452e453014c	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+html/text-combine-upright-value-none-001.htm	87edae7846c0c582d2a1c14d705f4babfe721c2b	pass # Flaky
+# html/text-decoration-001.htm	d9a469751905e9950b458ec3149cf740f727a0c9	invalid
 # html/text-decoration-sidewaysleft-vlr-003.htm	13860419acaa722347ad09079c169ef6a8ba5ade	fail
 # html/text-decoration-sidewaysleft-vlr-005.htm	fd527a5c91aa03ce36207ee9720165068e087b03	fail
 # html/text-decoration-sidewaysleft-vlr-007.htm	b569c2c1628567a7b38a944802626d6b57314636	fail
@@ -742,7 +742,7 @@ html/text-decoration-001.htm	d9a469751905e9950b458ec3149cf740f727a0c9	invalid # 
 # html/text-decoration-upright-vrl-002.htm	2b82f16adac5e936f32837c12d77b69da11f1caf	pass
 # html/text-decoration-upright-vrl-004.htm	da674a9887fe6ae0fe4e307fad07f43c749a0030	pass
 # html/text-decoration-upright-vrl-006.htm	d4d19ae10677a788623f605f05a3415c76d6fe31	pass
-html/text-emphasis-001.htm	a79e04b9b70dc703306b3f92db6a21a3246f248f	invalid # https://github.com/w3c/csswg-test/issues/786 The tests have incorrect expectations
+# html/text-emphasis-001.htm	a79e04b9b70dc703306b3f92db6a21a3246f248f	invalid
 html/text-indent-vlr-003.htm	a2307c05f77001c45994aae0d5030b062140ae79	pass
 html/text-indent-vlr-005.htm	ec355150dc09150e95645f5b0f45e553e17f97eb	pass
 html/text-indent-vlr-007.htm	62375901a4a5040530d3c029a600d0884de495c2	pass
@@ -844,5 +844,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass # Flaky
-# Total = 845, Coverage = 776 (91%), Pass = 649 (76% of total, 83% of coverage), Fail = 127 (15% of total, 16% of coverage)
-# Imported = 638 (75%), Pass = 528 (62% of total, 82% of imported), Fail = 110 (13% of total, 17% of imported)
+# Total = 845, Coverage = 783 (92%), Pass = 654 (77% of total, 83% of coverage), Fail = 129 (15% of total, 16% of coverage)
+# Imported = 643 (76%), Pass = 533 (63% of total, 82% of imported), Fail = 110 (13% of total, 17% of imported)

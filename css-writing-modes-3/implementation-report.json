@@ -9653,6 +9653,10 @@
 "id": "text-combine-upright-inherit-all-001"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
@@ -9660,6 +9664,10 @@
 "id": "text-combine-upright-layout-rules-001"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
@@ -9717,6 +9725,10 @@
 "id": "text-combine-upright-parsing-valid-002"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
@@ -9724,6 +9736,10 @@
 "id": "text-combine-upright-value-all-001"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
@@ -9731,6 +9747,10 @@
 "id": "text-combine-upright-value-all-002"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
@@ -9738,39 +9758,87 @@
 "id": "text-combine-upright-value-all-003"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
 "id": "text-combine-upright-value-all-and-inherit-001"
 }, 
 {
+"Blink": {
+"result": "skip", 
+"source": "blink"
+}, 
 "id": "text-combine-upright-value-digit2-and-inherit-001"
 }, 
 {
+"Blink": {
+"result": "skip", 
+"source": "blink"
+}, 
 "id": "text-combine-upright-value-digits2-001"
 }, 
 {
+"Blink": {
+"result": "skip", 
+"source": "blink"
+}, 
 "id": "text-combine-upright-value-digits2-002"
 }, 
 {
+"Blink": {
+"result": "skip", 
+"source": "blink"
+}, 
 "id": "text-combine-upright-value-digits2-003"
 }, 
 {
+"Blink": {
+"result": "skip", 
+"source": "blink"
+}, 
 "id": "text-combine-upright-value-digits3-001"
 }, 
 {
+"Blink": {
+"result": "skip", 
+"source": "blink"
+}, 
 "id": "text-combine-upright-value-digits3-002"
 }, 
 {
+"Blink": {
+"result": "skip", 
+"source": "blink"
+}, 
 "id": "text-combine-upright-value-digits3-003"
 }, 
 {
+"Blink": {
+"result": "skip", 
+"source": "blink"
+}, 
 "id": "text-combine-upright-value-digits4-001"
 }, 
 {
+"Blink": {
+"result": "skip", 
+"source": "blink"
+}, 
 "id": "text-combine-upright-value-digits4-002"
 }, 
 {
+"Blink": {
+"result": "skip", 
+"source": "blink"
+}, 
 "id": "text-combine-upright-value-digits4-003"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
@@ -9780,7 +9848,7 @@
 {
 "Blink": {
 "result": "invalid", 
-"source": "blink"
+"source": "kojiishi"
 }, 
 "Gecko": {
 "result": "fail", 
@@ -9794,8 +9862,7 @@
 "result": "fail", 
 "source": "kojiishi"
 }, 
-"id": "text-decoration-001", 
-"issue": "https://github.com/w3c/csswg-test/issues/786"
+"id": "text-decoration-001"
 }, 
 {
 "Blink": {
@@ -10022,14 +10089,13 @@
 {
 "Blink": {
 "result": "invalid", 
-"source": "blink"
+"source": "kojiishi"
 }, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
 }, 
-"id": "text-emphasis-001", 
-"issue": "https://github.com/w3c/csswg-test/issues/786"
+"id": "text-emphasis-001"
 }, 
 {
 "Blink": {
