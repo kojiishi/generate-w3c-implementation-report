@@ -344,6 +344,9 @@ class W3CImplementationReportGenerator(object):
                 results = results.rstrip().split()
                 log.debug("ImportExpectations found: %s %s", results)
                 test = self.test_from_path(path)
+                if not test:
+                    log.warn("Test for W3CImportExpectations not found: %s", path)
+                    continue
                 test.add_import_expectation(result, comment)
                 if issue_url:
                     test.add_issue(issue_url)
