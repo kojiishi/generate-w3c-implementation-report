@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <link rel="import" href="bower_components/iron-ajax/iron-ajax.html">
 <link rel="import" href="bower_components/paper-drawer-panel/paper-drawer-panel.html">
-<link rel="import" href="bower_components/paper-progress/paper-progress.html">
 <link rel="import" href="test-panel.html">
 <dom-module id="test-list">
     <style>
@@ -65,16 +64,12 @@
             url="css-writing-modes-3/implementation-report.json"
             handle-as="json"
             last-response="{{tests}}"
-            loading="{{loading}}"
             ></iron-ajax>
         <paper-drawer-panel right-drawer drawer-width="128">
             <div drawer>
                 <test-panel id="panel" filter-text="{{filterText}}"></test-panel>
             </div>
             <div main>
-                <template is="dom-if" if="{{loading}}">
-                    <paper-progress indeterminate="true" style="width:100%"></paper-progress>
-                </template>
                 <ol>
                     <li class="header">
                         <cell>Test</cell>
