@@ -9225,6 +9225,12 @@
 "id": "table-column-order-005"
 }, 
 {
+"id": "table-progression-001-vlr"
+}, 
+{
+"id": "table-progression-001-vrl"
+}, 
+{
 "Blink": {
 "result": "pass", 
 "source": "blink"
@@ -9611,28 +9617,6 @@
 {
 "Blink": {
 "result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"id": "text-combine-horizontal-010"
-}, 
-{
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"id": "text-combine-horizontal-011"
-}, 
-{
-"Blink": {
-"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -9769,13 +9753,6 @@
 "result": "skip", 
 "source": "blink"
 }, 
-"id": "text-combine-upright-value-digit2-and-inherit-001"
-}, 
-{
-"Blink": {
-"result": "skip", 
-"source": "blink"
-}, 
 "id": "text-combine-upright-value-digits2-001"
 }, 
 {
@@ -9844,25 +9821,6 @@
 "source": "gtalbot"
 }, 
 "id": "text-combine-upright-value-none-001"
-}, 
-{
-"Blink": {
-"result": "invalid", 
-"source": "kojiishi"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
-"id": "text-decoration-001"
 }, 
 {
 "Blink": {
@@ -10085,17 +10043,6 @@
 "source": "gtalbot"
 }, 
 "id": "text-decoration-upright-vrl-006"
-}, 
-{
-"Blink": {
-"result": "invalid", 
-"source": "kojiishi"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"id": "text-emphasis-001"
 }, 
 {
 "Blink": {

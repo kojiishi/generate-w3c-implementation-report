@@ -5,4 +5,5 @@ unzip -o results.zip
 rm results.zip
 (head -n 1 results.csv && tail -n +2 results.csv | sort -t , -k 4) > results_sorted.csv
 mv -f results_sorted.csv results.csv
+git diff results.csv
 cd ..
