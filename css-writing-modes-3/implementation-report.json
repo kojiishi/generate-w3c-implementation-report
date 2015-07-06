@@ -7819,12 +7819,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "inline-block-alignment-new-002"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "inline-block-alignment-new-006"
 }, 
@@ -9652,10 +9660,6 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
 "id": "text-combine-upright-line-breaking-rules-001"
 }, 
 {
@@ -9746,12 +9750,20 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "text-combine-upright-value-all-and-inherit-001"
 }, 
 {
 "Blink": {
 "result": "skip", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "text-combine-upright-value-digits2-001"
 }, 
@@ -9760,12 +9772,20 @@
 "result": "skip", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "text-combine-upright-value-digits2-002"
 }, 
 {
 "Blink": {
 "result": "skip", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-combine-upright-value-digits2-003"
 }, 
@@ -9774,12 +9794,20 @@
 "result": "skip", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "text-combine-upright-value-digits3-001"
 }, 
 {
 "Blink": {
 "result": "skip", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "text-combine-upright-value-digits3-002"
 }, 
@@ -9788,12 +9816,20 @@
 "result": "skip", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-combine-upright-value-digits3-003"
 }, 
 {
 "Blink": {
 "result": "skip", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "text-combine-upright-value-digits4-001"
 }, 
@@ -9802,12 +9838,20 @@
 "result": "skip", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "text-combine-upright-value-digits4-002"
 }, 
 {
 "Blink": {
 "result": "skip", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-combine-upright-value-digits4-003"
 }, 
