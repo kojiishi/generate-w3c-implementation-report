@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <link rel="import" href="bower_components/iron-ajax/iron-ajax.html">
 <link rel="import" href="bower_components/paper-drawer-panel/paper-drawer-panel.html">
+<link rel="import" href="bower_components/paper-spinner/paper-spinner.html">
 <link rel="import" href="test-panel.html">
 <dom-module id="test-list">
     <style>
+        #spinner {
+            position:fixed;
+            left:50%; top:50%;
+        }
         div[main] {
             overflow:scroll;
         }
@@ -65,11 +70,9 @@
             handle-as="json"
             last-response="{{tests}}"
             ></iron-ajax>
-        <paper-drawer-panel right-drawer drawer-width="128">
-            <div drawer>
-                <test-panel id="panel" filter-text="{{filterText}}"></test-panel>
-            </div>
+        <paper-drawer-panel right-drawer drawer-width="10em">
             <div main>
+                <paper-spinner id="spinner" alt="Loading..." active></paper-spinner>
                 <ol>
                     <li class="header">
                         <cell>Test</cell>
@@ -94,6 +97,9 @@
                         </li>
                     </template>
                 </ol>
+            </div>
+            <div drawer>
+                <test-panel id="panel" filter-text="{{filterText}}"></test-panel>
             </div>
         </paper-drawer-panel>
     </template>
@@ -142,6 +148,7 @@
             },
             listUpdated: function () {
                 this.$.panel.listUpdated(this.tests, this.$.list.filter);
+                this.$.spinner.active = false;
                 if (this.filterText)
                     window.history.replaceState(null, '', '?q=' + this.filterText);
                 else
