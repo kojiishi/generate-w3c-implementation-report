@@ -135,7 +135,7 @@
             ready: function () {
                 this.engines = ["Blink", "Gecko", "Trident", "WebKit"];
                 if (location.search && location.search.lastIndexOf('?q=', 0) == 0)
-                    this.filterText = location.search.slice(3);
+                    this.filterText = decodeURIComponent(location.search.slice(3));
             },
             _filter: function (filter) {
                 return createFilter(filter);
