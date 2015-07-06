@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "iron-ajax": "PolymerElements/iron-ajax#~1.0.2",
-    "paper-drawer-panel": "PolymerElements/paper-drawer-panel#~1.0.2"
+    "paper-drawer-panel": "PolymerElements/paper-drawer-panel#~1.0.2",
+    "paper-progress": "PolymerElements/paper-progress#~1.0.0"
   }
 }
