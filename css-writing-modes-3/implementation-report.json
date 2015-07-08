@@ -9233,9 +9233,25 @@
 "id": "table-column-order-005"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "table-progression-001-vlr"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "table-progression-001-vrl"
 }, 
 {
@@ -9649,16 +9665,16 @@
 "result": "fail", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
 "id": "text-combine-upright-layout-rules-001"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-combine-upright-line-breaking-rules-001"
 }, 

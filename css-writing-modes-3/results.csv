@@ -9373,14 +9373,12 @@ text-combine-upright-value-all-003,fail,HTML,2015-07-05T01:28:09+00:00,gtalbot,G
 text-combine-upright-value-none-001,pass,HTML,2015-07-05T01:28:40+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 text-combine-upright-inherit-all-001,uncertain,HTML,2015-07-05T01:48:58+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 text-combine-upright-decorations-001,pass,HTML,2015-07-05T02:32:54+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
-text-combine-upright-layout-rules-001,fail,HTML,2015-07-05T02:33:05+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 text-combine-upright-inherit-all-001,fail,HTML,2015-07-05T05:04:44+00:00,kojiishi,Gecko,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:41.0) Gecko/20100101 Firefox/41.0
 text-combine-upright-value-all-001,pass,HTML,2015-07-05T14:30:58+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 text-combine-upright-value-all-002,pass,HTML,2015-07-05T14:31:15+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 text-combine-upright-value-all-003,pass,HTML,2015-07-05T14:31:44+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 text-combine-upright-value-all-and-inherit-001,fail,HTML,2015-07-05T14:33:55+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 text-combine-upright-value-none-001,pass,HTML,2015-07-05T14:34:19+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
-text-combine-upright-layout-rules-001,fail,HTML,2015-07-05T14:44:11+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 text-orientation-013,pass,HTML,2015-07-06T05:13:12+00:00,122.212.11.154,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
 text-orientation-015,pass,HTML,2015-07-06T05:13:16+00:00,122.212.11.154,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
 inline-block-alignment-new-002,fail,HTML,2015-07-06T05:37:48+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
@@ -9990,7 +9988,6 @@ text-baseline-008,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5
 text-baseline-009,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 text-combine-upright-decorations-001,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 text-combine-upright-inherit-all-001,fail,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
-text-combine-upright-layout-rules-001,fail,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 text-combine-upright-line-breaking-rules-001,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 text-combine-upright-value-all-001,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 text-combine-upright-value-all-002,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"

@@ -670,8 +670,8 @@ html/table-column-order-002.htm	fb78f77cd5262bbe761aa9fe867621a8c3a73a70	fail
 html/table-column-order-003.htm	ce9b9dc76a8fdfad09d1a2724fa783a6683004e0	fail
 html/table-column-order-004.htm	73b9fe08143c5bc02ce7993bbedb7d6d66266d7e	fail
 html/table-column-order-005.htm	8030438f3bad113fd056b7d3b2fdfac2b7f784a4	fail
-# html/table-progression-001-vlr.htm	fdf7983c4dc4dba8828e720a79a4a5023531a44e	?
-# html/table-progression-001-vrl.htm	8df83bda4bad815fce4bdb580237f5b9156af902	?
+html/table-progression-001-vlr.htm	fdf7983c4dc4dba8828e720a79a4a5023531a44e	pass
+html/table-progression-001-vrl.htm	8df83bda4bad815fce4bdb580237f5b9156af902	pass
 html/text-align-vlr-003.htm	cddc4c0782ac3516e28e056444d5ee24e3ef5f76	pass
 html/text-align-vlr-005.htm	3fee558381ef7607ba776b511228381bac8016ca	pass
 html/text-align-vlr-007.htm	7cd89d36dde9096d58920aa38f1883e70a1ac2bb	pass
@@ -841,5 +841,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass # Flaky
-# Total = 842, Coverage = 781 (92%), Pass = 652 (77% of total, 83% of coverage), Fail = 129 (15% of total, 16% of coverage)
-# Imported = 643 (76%), Pass = 533 (63% of total, 82% of imported), Fail = 110 (13% of total, 17% of imported)
+# Total = 842, Coverage = 783 (92%), Pass = 654 (77% of total, 83% of coverage), Fail = 129 (15% of total, 16% of coverage)
+# Imported = 645 (76%), Pass = 535 (63% of total, 82% of imported), Fail = 110 (13% of total, 17% of imported)
