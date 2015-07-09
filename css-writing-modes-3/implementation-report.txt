@@ -385,7 +385,7 @@ html/bidi-plaintext-007.htm	72cf22137edfc3b791072610f02a2bd94b7a72a3	pass
 html/bidi-plaintext-008.htm	4509f186c3c490d93f5811e693b3ebb7550f4dcb	pass
 html/bidi-plaintext-009.htm	bf06eff1aed8c74b837c318eeb701c109cf7dec1	pass
 html/bidi-plaintext-010.htm	c761067af86f83172d5ba2b4b56aed3191dd74b2	pass
-html/bidi-plaintext-011.htm	af5e5dd3dc797ad5fec57780a3cc491861f872df	fail
+html/bidi-plaintext-011.htm	659a22a7f9a8844c7fdd62ece6badab9183b7fe1	pass
 # html/bidi-table-001.htm	b76614ab31144548ec19f4351dcf585f59ae3e0f	pass
 html/bidi-unset-001.htm	eb7a5acbe55bce9659d8c8fdb22ef75f7f54ea39	pass
 html/bidi-unset-002.htm	f23c821ec27e544abbd055d8d78a1686bcd23650	pass
@@ -702,7 +702,7 @@ html/text-baseline-009.htm	a2fd18eda0cad02eb09004338de627414847c9d3	pass # Mac: 
 # html/text-baseline-011.htm	a6b19babb0dc749e5ed036aea140704a6d5bda55	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
 html/text-combine-upright-decorations-001.htm	d2543f1321555a774908e166123038b7096a3177	pass
 html/text-combine-upright-inherit-all-001.htm	fbfea80ba905364014b1e39f99785d26aa49766a	fail
-html/text-combine-upright-layout-rules-001.htm	809a77c34636021dd6a4d78040e9381629910799	fail
+html/text-combine-upright-layout-rules-001.htm	92911d04fa3d64c1f21d819f865ebb8ee7200179	pass
 html/text-combine-upright-line-breaking-rules-001.htm	ba05c4e7e3474cf05cce3e1fec33f1895a186b16	pass
 # html/text-combine-upright-parsing-invalid-001.htm	2b2c132e18a567fb8056e362766d8a030557c4de	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 # html/text-combine-upright-parsing-invalid-002.htm	7f78c2344ff0a88366e152bfb9dd032df56c8e31	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
@@ -711,7 +711,7 @@ html/text-combine-upright-line-breaking-rules-001.htm	ba05c4e7e3474cf05cce3e1fec
 html/text-combine-upright-value-all-001.htm	aa61701be68a6a2f5b8759406b5d12097287037b	pass # Flaky
 html/text-combine-upright-value-all-002.htm	d802f48b068007c7f2864a3aa79f49755c3e013f	pass # Flaky
 html/text-combine-upright-value-all-003.htm	f163c7cf88c858595aa661ffba9334e68162c3dc	pass # Flaky
-html/text-combine-upright-value-all-and-inherit-001.htm	d10283656560566eb516ce4b3f876fecbec673fe	fail
+# html/text-combine-upright-value-all-and-inherit-001.htm	d10283656560566eb516ce4b3f876fecbec673fe	fail
 # html/text-combine-upright-value-digits2-001.htm	7e716cc28e8723c31837800d39feacea1166e771	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 # html/text-combine-upright-value-digits2-002.htm	c5dbe001ba36b8f7e0cc15cf1339e48693685c3d	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 # html/text-combine-upright-value-digits2-003.htm	887e9c642475bba9aeb27d60b9315bcc6297b019	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
@@ -841,5 +841,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass # Flaky
-# Total = 842, Coverage = 783 (92%), Pass = 654 (77% of total, 83% of coverage), Fail = 129 (15% of total, 16% of coverage)
-# Imported = 645 (76%), Pass = 535 (63% of total, 82% of imported), Fail = 110 (13% of total, 17% of imported)
+# Total = 842, Coverage = 783 (92%), Pass = 656 (77% of total, 83% of coverage), Fail = 127 (15% of total, 16% of coverage)
+# Imported = 644 (76%), Pass = 537 (63% of total, 83% of imported), Fail = 107 (12% of total, 16% of imported)
