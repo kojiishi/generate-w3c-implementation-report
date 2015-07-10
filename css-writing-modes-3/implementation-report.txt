@@ -701,7 +701,7 @@ html/text-baseline-009.htm	a2fd18eda0cad02eb09004338de627414847c9d3	pass # Mac: 
 # html/text-baseline-010.htm	ed91654bb8ce0d95766a8d78d1e7d5680e2a52ce	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
 # html/text-baseline-011.htm	a6b19babb0dc749e5ed036aea140704a6d5bda55	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
 html/text-combine-upright-decorations-001.htm	d2543f1321555a774908e166123038b7096a3177	pass
-html/text-combine-upright-inherit-all-001.htm	fbfea80ba905364014b1e39f99785d26aa49766a	fail
+html/text-combine-upright-inherit-all-001.htm	fbfea80ba905364014b1e39f99785d26aa49766a	pass
 html/text-combine-upright-layout-rules-001.htm	92911d04fa3d64c1f21d819f865ebb8ee7200179	pass
 html/text-combine-upright-line-breaking-rules-001.htm	ba05c4e7e3474cf05cce3e1fec33f1895a186b16	pass
 # html/text-combine-upright-parsing-invalid-001.htm	2b2c132e18a567fb8056e362766d8a030557c4de	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
@@ -841,5 +841,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass # Flaky
-# Total = 842, Coverage = 783 (92%), Pass = 656 (77% of total, 83% of coverage), Fail = 127 (15% of total, 16% of coverage)
-# Imported = 644 (76%), Pass = 537 (63% of total, 83% of imported), Fail = 107 (12% of total, 16% of imported)
+# Total = 842, Coverage = 783 (92%), Pass = 657 (78% of total, 83% of coverage), Fail = 126 (14% of total, 16% of coverage)
+# Imported = 644 (76%), Pass = 538 (63% of total, 83% of imported), Fail = 106 (12% of total, 16% of imported)

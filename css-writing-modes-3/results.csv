@@ -10108,3 +10108,4 @@ baseline-inline-non-replaced-005,pass,HTML,2015-07-09T09:23:48+00:00,lemoned,Tri
 baseline-inline-replaced-002,pass,HTML,2015-07-09T09:25:45+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 baseline-inline-replaced-003,pass,HTML,2015-07-09T09:26:16+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 inline-block-alignment-002a,fail,HTML,2015-07-09T09:32:08+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+orthogonal-parent-shrink-to-fit-001,fail,HTML,2015-07-09T17:13:04+00:00,kojiishi,Gecko,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:42.0) Gecko/20100101 Firefox/42.0
