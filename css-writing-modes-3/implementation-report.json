@@ -4435,7 +4435,8 @@
 "source": "lemoned"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "bidi-isolate-001"
 }, 
@@ -4456,7 +4457,8 @@
 "source": "lemoned"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "bidi-isolate-002"
 }, 
@@ -4477,7 +4479,8 @@
 "source": "lemoned"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "bidi-isolate-003"
 }, 
@@ -4498,7 +4501,8 @@
 "source": "lemoned"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "bidi-isolate-004"
 }, 
@@ -4519,7 +4523,8 @@
 "source": "lemoned"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "bidi-isolate-005"
 }, 
@@ -4540,7 +4545,8 @@
 "source": "lemoned"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "bidi-isolate-006"
 }, 
@@ -4561,7 +4567,8 @@
 "source": "lemoned"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "bidi-isolate-007"
 }, 
@@ -4582,7 +4589,8 @@
 "source": "lemoned"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "bidi-isolate-008"
 }, 
@@ -4603,7 +4611,8 @@
 "source": "lemoned"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "bidi-isolate-009"
 }, 
@@ -4624,7 +4633,8 @@
 "source": "lemoned"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "bidi-isolate-010"
 }, 
@@ -4645,7 +4655,8 @@
 "source": "lemoned"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "bidi-isolate-011"
 }, 
@@ -9855,11 +9866,14 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
 "id": "text-combine-upright-inherit-all-001"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "text-combine-upright-inherit-all-002"
 }, 
 {
 "Blink": {
@@ -9874,8 +9888,8 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "pass", 
-"source": "gtalbot"
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "text-combine-upright-line-breaking-rules-001"
 }, 
@@ -9885,8 +9899,8 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "pass", 
-"source": "gtalbot"
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "text-combine-upright-parsing-invalid-001"
 }, 
@@ -9896,8 +9910,8 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "pass", 
-"source": "gtalbot"
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "Presto": {
 "result": "pass"
@@ -9910,8 +9924,8 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "pass", 
-"source": "gtalbot"
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "Presto": {
 "result": "pass"
@@ -9945,10 +9959,6 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
 "id": "text-combine-upright-value-all-002"
 }, 
 {
@@ -9956,22 +9966,7 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
 "id": "text-combine-upright-value-all-003"
-}, 
-{
-"Blink": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"id": "text-combine-upright-value-all-and-inherit-001"
 }, 
 {
 "Blink": {
@@ -9989,20 +9984,12 @@
 "result": "skip", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
 "id": "text-combine-upright-value-digits2-002"
 }, 
 {
 "Blink": {
 "result": "skip", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
 }, 
 "id": "text-combine-upright-value-digits2-003"
 }, 
@@ -10011,20 +9998,12 @@
 "result": "skip", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
 "id": "text-combine-upright-value-digits3-001"
 }, 
 {
 "Blink": {
 "result": "skip", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
 }, 
 "id": "text-combine-upright-value-digits3-002"
 }, 
@@ -10033,20 +10012,12 @@
 "result": "skip", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
 "id": "text-combine-upright-value-digits3-003"
 }, 
 {
 "Blink": {
 "result": "skip", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
 }, 
 "id": "text-combine-upright-value-digits4-001"
 }, 
@@ -10055,10 +10026,6 @@
 "result": "skip", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
 "id": "text-combine-upright-value-digits4-002"
 }, 
 {
@@ -10066,20 +10033,12 @@
 "result": "skip", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
 "id": "text-combine-upright-value-digits4-003"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
 }, 
 "id": "text-combine-upright-value-none-001"
 }, 
@@ -11296,20 +11255,12 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
 "id": "writing-mode-horizontal-001l"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
 }, 
 "id": "writing-mode-horizontal-001r"
 }, 
