@@ -7995,22 +7995,70 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
 "id": "inline-block-alignment-new-002"
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
+"id": "inline-block-alignment-new-003"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
+"id": "inline-block-alignment-new-004"
+}, 
+{
+"Blink": {
 "result": "fail", 
-"source": "gtalbot"
+"source": "blink"
+}, 
+"id": "inline-block-alignment-new-005"
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "blink"
 }, 
 "id": "inline-block-alignment-new-006"
+}, 
+{
+"Blink": {
+"result": "skip", 
+"source": "blink"
+}, 
+"id": "inline-block-alignment-new-007"
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
+"id": "inline-block-alignment-new-008"
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
+"id": "inline-block-alignment-new-009"
+}, 
+{
+"Blink": {
+"result": "skip", 
+"source": "blink"
+}, 
+"id": "inline-block-alignment-new-010"
+}, 
+{
+"Blink": {
+"result": "skip", 
+"source": "blink"
+}, 
+"id": "inline-block-alignment-new-011"
 }, 
 {
 "Blink": {
