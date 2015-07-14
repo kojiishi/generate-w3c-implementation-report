@@ -810,38 +810,38 @@ html/text-orientation-script-001o.htm	ad390d60dd518de633056d1bd59900406d4d23e8	p
 # html/unicode-bidi-applies-to-013.htm	5e96cad2593bff9bf262c57806aa45b87820f36b	pass
 # html/unicode-bidi-applies-to-014.htm	1ea78d913a72bdf534c9701bc8a771df856e3d2f	pass
 # html/unicode-bidi-applies-to-015.htm	f319b3e86aea3385f390f78d56ba608a6ac94f27	pass
-# html/vertical-alignment-002a.htm	a55994c93e6652bdc61229154fe73727bd2c9aea	?
-# html/vertical-alignment-002b.htm	779a3696b7909f11787ad979d92c965675b8ed71	?
-# html/vertical-alignment-003a.htm	66706a353742efd4400d64575c633bb17a2a7252	?
-# html/vertical-alignment-003b.htm	c28364f9b1f41b8538e624119234b1d35d6c6091	?
-# html/vertical-alignment-005a.htm	2df8dff5be7453c111fb9364ef9d796a91095b3a	?
-# html/vertical-alignment-005b.htm	2fc7c00892fc1d5860633a96bba4ba7878ad7004	?
-# html/vertical-alignment-008a.htm	9dc8848f9db104ed33e3001e946369278588df9c	?
-# html/vertical-alignment-008b.htm	7de9f0763dbb93b0f55dceb7b80116c87ad800df	?
-# html/vertical-alignment-011a.htm	e3c5648ce732c30881a84fb5a0a8083191332a56	?
-# html/vertical-alignment-011b.htm	724bbb86a2b9ec3bd9252fec92cacd6212775175	?
-# html/vertical-alignment-012l.htm	1684f5ad59fd0c5ce9f9d3190bf569388b3557ba	?
-# html/vertical-alignment-012r.htm	dcd288dd395eea47285230ca20aa83dd6c874f17	?
-# html/vertical-alignment-014a.htm	199a8e04915d4e564618ef120bf32e5c568cafc0	?
-# html/vertical-alignment-014b.htm	755eb3f5800991c4d7df16dc70d2aaf30e419c42	?
-# html/vertical-alignment-015a.htm	32b2362ace97e299f7beaa3aac8d3323837c7fc8	?
-# html/vertical-alignment-015b.htm	f059163e577bcbadccf1e2912c2c8724777930c2	?
-# html/vertical-alignment-017a.htm	83b231bd5ad62e4e981f504bedbe7bfde444335d	?
-# html/vertical-alignment-017b.htm	20354412b9971eb45aafda4db62c290f6a2b1602	?
-# html/vertical-alignment-018a.htm	7cc30a291d2c69b03bd4179951b87c58e2a02ccb	?
-# html/vertical-alignment-018b.htm	bda9934745cc38f21bcb4235eac2d5824d849f9f	?
-# html/vertical-alignment-020a.htm	6533d451114b23d657e6bbc8362390a1c4aaf1eb	?
-# html/vertical-alignment-020b.htm	7b7ff221754d9c3bc955380e044413ccfbf7ee8b	?
-# html/vertical-alignment-021a.htm	9ddfeee8aeba9e1241ce506ec75af1ba37f6ef06	?
-# html/vertical-alignment-021b.htm	0e68e5e6821c0645ff08d40eb02e7ddd87d99caf	?
-# html/vertical-alignment-023a.htm	d42792f46d6c5d9052eaf7ed1c7981d3968fdc07	?
-# html/vertical-alignment-023b.htm	a13b1e018382f0e99499b691e9cbbe8f2bcfb740	?
-# html/vertical-alignment-024a.htm	339511c5b7a5eef6400b44a7cb6403adebe16ae0	?
-# html/vertical-alignment-024b.htm	d6cc4618d830dfb7a86b471d7b149546f7721bd4	?
-# html/vertical-alignment-026a.htm	777a16060504fa5c1a2c649279ee6dbcb56729ad	?
-# html/vertical-alignment-026b.htm	fb3d8d2c8ec17a80bc05d9cf6027855dab6b9836	?
-# html/vertical-alignment-027a.htm	ca2c37b2acc7a2be0e438b5069acd2286487b6ab	?
-# html/vertical-alignment-027b.htm	eb3ef979b26f31507a2f72ba374274fd22113364	?
+# html/vertical-alignment-002a.htm	a55994c93e6652bdc61229154fe73727bd2c9aea	fail
+# html/vertical-alignment-002b.htm	779a3696b7909f11787ad979d92c965675b8ed71	pass
+# html/vertical-alignment-003a.htm	66706a353742efd4400d64575c633bb17a2a7252	pass
+# html/vertical-alignment-003b.htm	c28364f9b1f41b8538e624119234b1d35d6c6091	pass
+# html/vertical-alignment-005a.htm	2df8dff5be7453c111fb9364ef9d796a91095b3a	fail
+# html/vertical-alignment-005b.htm	2fc7c00892fc1d5860633a96bba4ba7878ad7004	pass
+# html/vertical-alignment-008a.htm	9dc8848f9db104ed33e3001e946369278588df9c	fail
+# html/vertical-alignment-008b.htm	7de9f0763dbb93b0f55dceb7b80116c87ad800df	pass
+# html/vertical-alignment-011a.htm	e3c5648ce732c30881a84fb5a0a8083191332a56	fail
+# html/vertical-alignment-011b.htm	724bbb86a2b9ec3bd9252fec92cacd6212775175	pass
+# html/vertical-alignment-012l.htm	1684f5ad59fd0c5ce9f9d3190bf569388b3557ba	pass
+# html/vertical-alignment-012r.htm	dcd288dd395eea47285230ca20aa83dd6c874f17	pass
+# html/vertical-alignment-014a.htm	199a8e04915d4e564618ef120bf32e5c568cafc0	fail
+# html/vertical-alignment-014b.htm	755eb3f5800991c4d7df16dc70d2aaf30e419c42	pass
+# html/vertical-alignment-015a.htm	32b2362ace97e299f7beaa3aac8d3323837c7fc8	pass
+# html/vertical-alignment-015b.htm	f059163e577bcbadccf1e2912c2c8724777930c2	pass
+# html/vertical-alignment-017a.htm	83b231bd5ad62e4e981f504bedbe7bfde444335d	fail
+# html/vertical-alignment-017b.htm	20354412b9971eb45aafda4db62c290f6a2b1602	pass
+# html/vertical-alignment-018a.htm	7cc30a291d2c69b03bd4179951b87c58e2a02ccb	pass
+# html/vertical-alignment-018b.htm	bda9934745cc38f21bcb4235eac2d5824d849f9f	pass
+# html/vertical-alignment-020a.htm	6533d451114b23d657e6bbc8362390a1c4aaf1eb	fail
+# html/vertical-alignment-020b.htm	7b7ff221754d9c3bc955380e044413ccfbf7ee8b	pass
+# html/vertical-alignment-021a.htm	9ddfeee8aeba9e1241ce506ec75af1ba37f6ef06	pass
+# html/vertical-alignment-021b.htm	0e68e5e6821c0645ff08d40eb02e7ddd87d99caf	pass
+# html/vertical-alignment-023a.htm	d42792f46d6c5d9052eaf7ed1c7981d3968fdc07	fail
+# html/vertical-alignment-023b.htm	a13b1e018382f0e99499b691e9cbbe8f2bcfb740	pass
+# html/vertical-alignment-024a.htm	339511c5b7a5eef6400b44a7cb6403adebe16ae0	pass
+# html/vertical-alignment-024b.htm	d6cc4618d830dfb7a86b471d7b149546f7721bd4	pass
+# html/vertical-alignment-026a.htm	777a16060504fa5c1a2c649279ee6dbcb56729ad	fail
+# html/vertical-alignment-026b.htm	fb3d8d2c8ec17a80bc05d9cf6027855dab6b9836	pass
+# html/vertical-alignment-027a.htm	ca2c37b2acc7a2be0e438b5069acd2286487b6ab	pass
+# html/vertical-alignment-027b.htm	eb3ef979b26f31507a2f72ba374274fd22113364	pass
 html/writing-mode-horizontal-001l.htm	820b6baaa9ff63cf1a29b989c8d68ebdafe3c4da	pass
 html/writing-mode-horizontal-001r.htm	946a8be6f47e1cdc7ca7539e48e9964bd77c9ba9	pass
 html/writing-mode-stretch-001.htm	b39073243c9598d184c1f6efc298247a42f34aea	fail
@@ -849,5 +849,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass # Flaky
-# Total = 850, Coverage = 788 (92%), Pass = 660 (77% of total, 83% of coverage), Fail = 128 (15% of total, 16% of coverage)
+# Total = 850, Coverage = 820 (96%), Pass = 683 (80% of total, 83% of coverage), Fail = 137 (16% of total, 16% of coverage)
 # Imported = 650 (76%), Pass = 541 (63% of total, 83% of imported), Fail = 109 (12% of total, 16% of imported)

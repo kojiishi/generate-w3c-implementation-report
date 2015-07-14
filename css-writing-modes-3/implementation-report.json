@@ -1211,6 +1211,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vlr-103"
 }, 
 {
@@ -1221,6 +1224,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vlr-105"
 }, 
@@ -1233,6 +1239,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vlr-107"
 }, 
 {
@@ -1243,6 +1252,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vlr-109"
 }, 
@@ -1255,6 +1267,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vlr-111"
 }, 
 {
@@ -1265,6 +1280,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vlr-113"
 }, 
@@ -1277,6 +1295,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vlr-115"
 }, 
 {
@@ -1287,6 +1308,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vlr-117"
 }, 
@@ -1299,6 +1323,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vlr-119"
 }, 
 {
@@ -1309,6 +1336,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vlr-121"
 }, 
@@ -1321,6 +1351,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vlr-123"
 }, 
 {
@@ -1331,6 +1364,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vlr-125"
 }, 
@@ -1343,6 +1379,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vlr-127"
 }, 
 {
@@ -1353,6 +1392,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vlr-129"
 }, 
@@ -1365,6 +1407,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vlr-131"
 }, 
 {
@@ -1375,6 +1420,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vlr-133"
 }, 
@@ -1387,6 +1435,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vlr-135"
 }, 
 {
@@ -1397,6 +1448,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vlr-137"
 }, 
@@ -1409,6 +1463,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vlr-139"
 }, 
 {
@@ -1419,6 +1476,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vlr-141"
 }, 
@@ -1431,6 +1491,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vlr-143"
 }, 
 {
@@ -1441,6 +1504,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vlr-145"
 }, 
@@ -1453,6 +1519,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vlr-147"
 }, 
 {
@@ -1463,6 +1532,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vlr-149"
 }, 
@@ -1475,6 +1547,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vlr-151"
 }, 
 {
@@ -1485,6 +1560,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vlr-153"
 }, 
@@ -1497,6 +1575,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vlr-155"
 }, 
 {
@@ -1507,6 +1588,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vlr-157"
 }, 
@@ -1519,6 +1603,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vlr-159"
 }, 
 {
@@ -1529,6 +1616,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vlr-161"
 }, 
@@ -1541,6 +1631,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vlr-163"
 }, 
 {
@@ -1551,6 +1644,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vlr-165"
 }, 
@@ -1563,6 +1659,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vlr-167"
 }, 
 {
@@ -1573,6 +1672,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vlr-169"
 }, 
@@ -1585,6 +1687,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vlr-171"
 }, 
 {
@@ -1595,6 +1700,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vlr-173"
 }, 
@@ -1607,6 +1715,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vlr-175"
 }, 
 {
@@ -1617,6 +1728,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vlr-177"
 }, 
@@ -1629,6 +1743,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vlr-179"
 }, 
 {
@@ -1639,6 +1756,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vlr-181"
 }, 
@@ -1651,6 +1771,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vlr-183"
 }, 
 {
@@ -1661,6 +1784,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vlr-185"
 }, 
@@ -1673,6 +1799,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vlr-187"
 }, 
 {
@@ -1683,6 +1812,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vlr-189"
 }, 
@@ -1695,6 +1827,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vlr-191"
 }, 
 {
@@ -1705,6 +1840,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vlr-193"
 }, 
@@ -1717,6 +1855,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vlr-195"
 }, 
 {
@@ -1727,6 +1868,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vlr-197"
 }, 
@@ -1739,6 +1883,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vlr-199"
 }, 
 {
@@ -1749,6 +1896,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vlr-201"
 }, 
@@ -1761,6 +1911,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vlr-203"
 }, 
 {
@@ -1771,6 +1924,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vlr-205"
 }, 
@@ -1783,6 +1939,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vlr-207"
 }, 
 {
@@ -1793,6 +1952,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vlr-209"
 }, 
@@ -1805,6 +1967,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vlr-211"
 }, 
 {
@@ -1815,6 +1980,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vlr-213"
 }, 
@@ -1827,6 +1995,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vlr-215"
 }, 
 {
@@ -1837,6 +2008,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vlr-217"
 }, 
@@ -1849,6 +2023,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vlr-219"
 }, 
 {
@@ -1859,6 +2036,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vlr-221"
 }, 
@@ -1871,6 +2051,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vlr-223"
 }, 
 {
@@ -1881,6 +2064,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vlr-225"
 }, 
@@ -1893,6 +2079,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vlr-227"
 }, 
 {
@@ -1903,6 +2092,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vlr-229"
 }, 
@@ -2635,6 +2827,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vrl-102"
 }, 
 {
@@ -2645,6 +2840,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vrl-104"
 }, 
@@ -2657,6 +2855,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vrl-106"
 }, 
 {
@@ -2667,6 +2868,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vrl-108"
 }, 
@@ -2679,6 +2883,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-110"
 }, 
 {
@@ -2689,6 +2896,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-112"
 }, 
@@ -2701,6 +2911,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-114"
 }, 
 {
@@ -2711,6 +2924,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-116"
 }, 
@@ -2723,6 +2939,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vrl-118"
 }, 
 {
@@ -2733,6 +2952,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vrl-120"
 }, 
@@ -2745,6 +2967,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vrl-122"
 }, 
 {
@@ -2755,6 +2980,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vrl-124"
 }, 
@@ -2767,6 +2995,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-126"
 }, 
 {
@@ -2777,6 +3008,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-128"
 }, 
@@ -2789,6 +3023,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-130"
 }, 
 {
@@ -2799,6 +3036,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-132"
 }, 
@@ -2811,6 +3051,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vrl-134"
 }, 
 {
@@ -2821,6 +3064,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vrl-136"
 }, 
@@ -2833,6 +3079,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vrl-138"
 }, 
 {
@@ -2843,6 +3092,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vrl-140"
 }, 
@@ -2855,6 +3107,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-142"
 }, 
 {
@@ -2865,6 +3120,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-144"
 }, 
@@ -2877,6 +3135,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-146"
 }, 
 {
@@ -2887,6 +3148,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-148"
 }, 
@@ -2899,6 +3163,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vrl-150"
 }, 
 {
@@ -2909,6 +3176,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vrl-152"
 }, 
@@ -2921,6 +3191,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vrl-154"
 }, 
 {
@@ -2931,6 +3204,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vrl-156"
 }, 
@@ -2943,6 +3219,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-158"
 }, 
 {
@@ -2953,6 +3232,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-160"
 }, 
@@ -2965,6 +3247,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-162"
 }, 
 {
@@ -2975,6 +3260,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-164"
 }, 
@@ -2987,6 +3275,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vrl-166"
 }, 
 {
@@ -2997,6 +3288,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vrl-168"
 }, 
@@ -3009,6 +3303,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vrl-170"
 }, 
 {
@@ -3019,6 +3316,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vrl-172"
 }, 
@@ -3031,6 +3331,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-174"
 }, 
 {
@@ -3041,6 +3344,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-176"
 }, 
@@ -3053,6 +3359,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-178"
 }, 
 {
@@ -3063,6 +3372,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-180"
 }, 
@@ -3075,6 +3387,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vrl-182"
 }, 
 {
@@ -3085,6 +3400,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vrl-184"
 }, 
@@ -3097,6 +3415,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vrl-186"
 }, 
 {
@@ -3107,6 +3428,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vrl-188"
 }, 
@@ -3119,6 +3443,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-190"
 }, 
 {
@@ -3129,6 +3456,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-192"
 }, 
@@ -3141,6 +3471,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-194"
 }, 
 {
@@ -3151,6 +3484,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-196"
 }, 
@@ -3163,6 +3499,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vrl-198"
 }, 
 {
@@ -3173,6 +3512,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vrl-200"
 }, 
@@ -3185,6 +3527,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vrl-202"
 }, 
 {
@@ -3195,6 +3540,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vrl-204"
 }, 
@@ -3207,6 +3555,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-206"
 }, 
 {
@@ -3217,6 +3568,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-208"
 }, 
@@ -3229,6 +3583,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-210"
 }, 
 {
@@ -3239,6 +3596,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-212"
 }, 
@@ -3251,6 +3611,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vrl-214"
 }, 
 {
@@ -3261,6 +3624,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-vrl-216"
 }, 
@@ -3273,6 +3639,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-vrl-218"
 }, 
 {
@@ -3283,6 +3652,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-220"
 }, 
@@ -3295,6 +3667,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-222"
 }, 
 {
@@ -3305,6 +3680,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-224"
 }, 
@@ -3317,6 +3695,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-226"
 }, 
 {
@@ -3327,6 +3708,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-228"
 }, 
@@ -3359,6 +3743,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "background-position-vlr-003"
 }, 
 {
@@ -3369,6 +3756,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "background-position-vlr-005"
 }, 
@@ -3381,6 +3771,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "background-position-vlr-007"
 }, 
 {
@@ -3391,6 +3784,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "background-position-vlr-009"
 }, 
@@ -3403,6 +3799,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "background-position-vlr-011"
 }, 
 {
@@ -3413,6 +3812,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "background-position-vlr-013"
 }, 
@@ -3425,6 +3827,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "background-position-vlr-015"
 }, 
 {
@@ -3435,6 +3840,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "background-position-vlr-017"
 }, 
@@ -3447,6 +3855,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "background-position-vrl-002"
 }, 
 {
@@ -3457,6 +3868,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "background-position-vrl-004"
 }, 
@@ -3469,6 +3883,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "background-position-vrl-006"
 }, 
 {
@@ -3479,6 +3896,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "background-position-vrl-008"
 }, 
@@ -3491,6 +3911,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "background-position-vrl-010"
 }, 
 {
@@ -3501,6 +3924,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "background-position-vrl-012"
 }, 
@@ -3513,6 +3939,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "background-position-vrl-014"
 }, 
 {
@@ -3523,6 +3952,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "background-position-vrl-016"
 }, 
@@ -3535,6 +3967,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "background-position-vrl-018"
 }, 
 {
@@ -3545,6 +3980,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "background-position-vrl-020"
 }, 
@@ -3557,6 +3995,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "background-position-vrl-022"
 }, 
 {
@@ -3567,6 +4008,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "background-size-document-root-vrl-002"
 }, 
@@ -3579,6 +4023,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "background-size-document-root-vrl-004"
 }, 
 {
@@ -3590,6 +4037,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass"
+}, 
 "id": "background-size-document-root-vrl-006"
 }, 
 {
@@ -3600,6 +4050,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass"
 }, 
 "id": "background-size-document-root-vrl-008"
 }, 
@@ -3759,6 +4212,9 @@
 "Trident": {
 "result": "pass"
 }, 
+"WebKit": {
+"result": "uncertain"
+}, 
 "id": "bidi-003"
 }, 
 {
@@ -3887,6 +4343,10 @@
 "Trident": {
 "result": "pass", 
 "source": "lemoned"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "bidi-alt-001"
 }, 
@@ -4157,6 +4617,10 @@
 "Trident": {
 "result": "pass", 
 "source": "lemoned"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "bidi-breaking-003"
 }, 
@@ -5077,6 +5541,10 @@
 "Trident": {
 "result": "fail", 
 "source": "lemoned"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "bidi-normal-011"
 }, 
@@ -6993,6 +7461,9 @@
 "result": "pass", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "fail"
+}, 
 "id": "direction-applies-to-001"
 }, 
 {
@@ -7008,6 +7479,9 @@
 "result": "pass", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "fail"
+}, 
 "id": "direction-applies-to-002"
 }, 
 {
@@ -7022,6 +7496,9 @@
 "Trident": {
 "result": "pass", 
 "source": "lemoned"
+}, 
+"WebKit": {
+"result": "fail"
 }, 
 "id": "direction-applies-to-003"
 }, 
@@ -7922,6 +8399,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "inline-block-alignment-002b"
 }, 
 {
@@ -7932,6 +8413,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "inline-block-alignment-003a"
 }, 
@@ -7944,6 +8429,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "inline-block-alignment-003b"
 }, 
 {
@@ -7955,6 +8444,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "inline-block-alignment-005a"
 }, 
 {
@@ -7965,6 +8458,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "inline-block-alignment-005b"
 }, 
@@ -7995,12 +8492,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "inline-block-alignment-new-002"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "inline-block-alignment-new-003"
 }, 
@@ -8009,12 +8514,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "inline-block-alignment-new-004"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "inline-block-alignment-new-005"
 }, 
@@ -8023,12 +8536,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "inline-block-alignment-new-006"
 }, 
 {
 "Blink": {
 "result": "skip", 
 "source": "blink"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "inline-block-alignment-new-007"
 }, 
@@ -8037,12 +8558,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "inline-block-alignment-new-008"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "inline-block-alignment-new-009"
 }, 
@@ -8051,12 +8580,20 @@
 "result": "skip", 
 "source": "blink"
 }, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "inline-block-alignment-new-010"
 }, 
 {
 "Blink": {
 "result": "skip", 
 "source": "blink"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "inline-block-alignment-new-011"
 }, 
@@ -8069,6 +8606,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "inline-block-alignment-orthogonal-vlr-003"
 }, 
 {
@@ -8079,6 +8620,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "inline-block-alignment-orthogonal-vlr-005"
 }, 
@@ -8091,6 +8636,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "inline-block-alignment-orthogonal-vrl-002"
 }, 
 {
@@ -8101,6 +8650,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "inline-block-alignment-orthogonal-vrl-004"
 }, 
@@ -8128,6 +8681,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "inline-replaced-vlr-005"
 }, 
 {
@@ -8153,6 +8710,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "inline-replaced-vrl-004"
 }, 
@@ -9761,6 +10322,10 @@
 "result": "pass", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "id": "text-baseline-002"
 }, 
 {
@@ -9775,6 +10340,10 @@
 "Trident": {
 "result": "pass", 
 "source": "lemoned"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "text-baseline-003"
 }, 
@@ -9791,6 +10360,10 @@
 "result": "pass", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "id": "text-baseline-004"
 }, 
 {
@@ -9806,6 +10379,10 @@
 "result": "pass", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "id": "text-baseline-005"
 }, 
 {
@@ -9820,6 +10397,10 @@
 "Trident": {
 "result": "fail", 
 "source": "lemoned"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "text-baseline-006"
 }, 
@@ -9851,6 +10432,10 @@
 "result": "fail", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "id": "text-baseline-008"
 }, 
 {
@@ -9865,6 +10450,10 @@
 "Trident": {
 "result": "fail", 
 "source": "lemoned"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "text-baseline-009"
 }, 
@@ -9914,6 +10503,10 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "id": "text-combine-upright-inherit-all-001"
 }, 
 {
@@ -9921,12 +10514,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "id": "text-combine-upright-inherit-all-002"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "text-combine-upright-layout-rules-001"
 }, 
@@ -9937,6 +10538,10 @@
 }, 
 "Gecko": {
 "result": "fail", 
+"source": "kojiishi"
+}, 
+"WebKit": {
+"result": "pass", 
 "source": "kojiishi"
 }, 
 "id": "text-combine-upright-line-breaking-rules-001"
@@ -10000,6 +10605,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "id": "text-combine-upright-value-all-001"
 }, 
 {
@@ -10007,12 +10616,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "id": "text-combine-upright-value-all-002"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "text-combine-upright-value-all-003"
 }, 
@@ -10087,6 +10704,10 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "text-combine-upright-value-none-001"
 }, 
@@ -10189,6 +10810,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "text-decoration-sidewaysright-vlr-003"
 }, 
 {
@@ -10199,6 +10824,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "text-decoration-sidewaysright-vlr-005"
 }, 
@@ -10211,6 +10840,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "text-decoration-sidewaysright-vlr-007"
 }, 
 {
@@ -10221,6 +10854,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "text-decoration-sidewaysright-vrl-002"
 }, 
@@ -10233,6 +10870,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "text-decoration-sidewaysright-vrl-004"
 }, 
 {
@@ -10243,6 +10884,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "text-decoration-sidewaysright-vrl-006"
 }, 
@@ -10255,6 +10900,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "text-decoration-upright-vlr-003"
 }, 
 {
@@ -10265,6 +10914,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "text-decoration-upright-vlr-005"
 }, 
@@ -10277,6 +10930,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "text-decoration-upright-vlr-007"
 }, 
 {
@@ -10287,6 +10944,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "text-decoration-upright-vrl-002"
 }, 
@@ -10299,6 +10960,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "text-decoration-upright-vrl-004"
 }, 
 {
@@ -10309,6 +10974,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "text-decoration-upright-vrl-006"
 }, 
@@ -10505,6 +11174,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "text-orientation-010"
 }, 
 {
@@ -10515,6 +11188,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "text-orientation-011"
 }, 
@@ -10527,6 +11204,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "text-orientation-012"
 }, 
 {
@@ -10537,6 +11218,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "uncertain", 
+"source": "lemoned"
 }, 
 "id": "text-orientation-013"
 }, 
@@ -10549,6 +11234,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "text-orientation-014"
 }, 
 {
@@ -10559,6 +11248,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "text-orientation-015"
 }, 
@@ -10571,6 +11264,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "text-orientation-mixed-001"
 }, 
 {
@@ -10581,6 +11278,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "text-orientation-script-001"
 }, 
@@ -10593,6 +11294,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "id": "text-orientation-script-001a"
 }, 
 {
@@ -10603,6 +11308,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "text-orientation-script-001b"
 }, 
@@ -10615,6 +11324,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "id": "text-orientation-script-001c"
 }, 
 {
@@ -10625,6 +11338,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "text-orientation-script-001d"
 }, 
@@ -10637,6 +11354,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "id": "text-orientation-script-001e"
 }, 
 {
@@ -10647,6 +11368,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "text-orientation-script-001f"
 }, 
@@ -10659,6 +11384,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "id": "text-orientation-script-001g"
 }, 
 {
@@ -10669,6 +11398,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "text-orientation-script-001h"
 }, 
@@ -10681,6 +11414,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "id": "text-orientation-script-001i"
 }, 
 {
@@ -10691,6 +11428,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "text-orientation-script-001j"
 }, 
@@ -10703,6 +11444,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "id": "text-orientation-script-001k"
 }, 
 {
@@ -10713,6 +11458,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "text-orientation-script-001l"
 }, 
@@ -10725,6 +11474,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "id": "text-orientation-script-001m"
 }, 
 {
@@ -10736,6 +11489,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "id": "text-orientation-script-001n"
 }, 
 {
@@ -10746,6 +11503,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "text-orientation-script-001o"
 }, 
@@ -11075,226 +11836,482 @@
 "id": "unicode-bidi-applies-to-015"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-002a"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-002b"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-003a"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-003b"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-005a"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-005b"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-008a"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-008b"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-011a"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-011b"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-012l"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-012r"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-014a"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-014b"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-015a"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-015b"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-017a"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-017b"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-018a"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-018b"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-020a"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-020b"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-021a"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-021b"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-023a"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-023b"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-024a"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-024b"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-026a"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-026b"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-027a"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-027b"
 }, 
