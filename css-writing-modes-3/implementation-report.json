@@ -8020,7 +8020,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "id": "inline-block-alignment-new-006"
@@ -8034,7 +8034,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "id": "inline-block-alignment-new-008"

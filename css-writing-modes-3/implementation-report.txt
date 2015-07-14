@@ -568,10 +568,10 @@ html/inline-block-alignment-new-002.htm	a4a03f80a19b9ae5c8621c1e3d10bdcdce90bd62
 html/inline-block-alignment-new-003.htm	a19ac51be6013a2cf998e3f4ff29c726bfbdfc4b	fail
 html/inline-block-alignment-new-004.htm	7202495e82f4e590d143e434800997facc063ab8	pass
 html/inline-block-alignment-new-005.htm	383b0b29c148d53dc3a703839dc26a94e63e68da	fail
-html/inline-block-alignment-new-006.htm	7e0d678fba92dd7dce4abe7f8ba67c3f76aba3d0	fail
+html/inline-block-alignment-new-006.htm	3f82744bb09ca86783ddcc86097a4ca03554a1a9	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 # html/inline-block-alignment-new-007.htm	204b397d117a38037f6379d4f91bb4f84ff8f23c	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
-html/inline-block-alignment-new-008.htm	d529ce60ff422d4d8c85d0bb26229017a1dc4465	fail
-html/inline-block-alignment-new-009.htm	1310cdd93ace16f5f9d132d3fc76984715be60b0	fail
+html/inline-block-alignment-new-008.htm	054b194afb21e05a1db4ff9cd0b3205b7df67dc9	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/inline-block-alignment-new-009.htm	1d559b87d0e8fbf4f43f8d2ff633a788bc906ec3	fail
 # html/inline-block-alignment-new-010.htm	7491752dc07593a9e1484831ae13a1db925010e8	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
 # html/inline-block-alignment-new-011.htm	04477ea1856df23e9c1234c60dc1418b0e923f82	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
 html/inline-block-alignment-orthogonal-vlr-003.htm	4c158c1913bcf69e7f6f7cf7fe1058dea9632639	pass
@@ -849,5 +849,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass # Flaky
-# Total = 850, Coverage = 788 (92%), Pass = 658 (77% of total, 83% of coverage), Fail = 130 (15% of total, 16% of coverage)
-# Imported = 650 (76%), Pass = 539 (63% of total, 82% of imported), Fail = 111 (13% of total, 17% of imported)
+# Total = 850, Coverage = 788 (92%), Pass = 660 (77% of total, 83% of coverage), Fail = 128 (15% of total, 16% of coverage)
+# Imported = 650 (76%), Pass = 541 (63% of total, 83% of imported), Fail = 109 (12% of total, 16% of imported)
