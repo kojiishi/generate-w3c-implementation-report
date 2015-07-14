@@ -157,7 +157,7 @@ class Test(object):
         assert self.import_result
         self.import_result = None
 
-    def add_test_expectation(self, conditions, results, comment):
+    def add_test_expectation(self, conditions, result, comment):
         assert self.import_result
         self.import_result.result = result
         if conditions:
