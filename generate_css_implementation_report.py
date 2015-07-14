@@ -153,7 +153,11 @@ class Test(object):
         assert not self.import_result
         self.import_result = ImportTestResult('pass')
 
-    def add_test_expectation(self, conditions, result, comment):
+    def clear_imported(self):
+        assert self.import_result
+        self.import_result = None
+
+    def add_test_expectation(self, conditions, results, comment):
         assert self.import_result
         self.import_result.result = result
         if conditions:
@@ -265,14 +269,6 @@ class W3CImplementationReportGenerator(object):
                 yield (root, file)
 
     def load_test_expectations(self, expectations):
-        for path, conditions, result, comment in self.read_test_expectations(expectations):
-            test = self.test_from_path(path)
-            if not test:
-                log.warn("Test for TestExpectations not found: %s", path)
-                continue
-            test.add_test_expectation(conditions, result, comment)
-
-    def read_test_expectations(self, expectations):
         pattern = re.compile(r'([^\[]+)(\[[^\]]+])?\s+(\S+)\s+\[\s*([^\]]+)]$')
         comment = None
         is_actually_pass = False
@@ -291,18 +287,28 @@ class W3CImplementationReportGenerator(object):
                 conditions, path, results = match.group(2, 3, 4)
                 if not path.startswith('imported/csswg-test/css-writing-modes-3/'):
                     continue
+                test = self.test_from_path(path)
+                if not test:
+                    log.warn("Test for TestExpectations not found: %s", path)
+                    continue
                 results = results.rstrip().split()
                 conditions = conditions.strip('[]').split() if conditions else None
                 if 'Pass' in results:
                     log.info("Flaky as Pass: %s", line)
-                    yield (path, conditions, 'pass', 'Flaky')
+                    test.add_test_expectation(conditions, 'pass', 'Flaky')
                     continue
                 if is_actually_pass:
                     log.info("Fail as pass: %s # %s", line, comment)
-                    yield (path, conditions, 'pass', comment)
+                    test.add_test_expectation(conditions, 'pass', comment)
                     continue
-                log.debug("Fail Expectation found: %s %s %s", conditions, path, results)
-                yield (path, conditions, 'fail', None)
+                if results == ['Skip']:
+                    test.clear_imported()
+                    continue
+                if 'Failure' in results or 'ImageOnlyFailure' in results:
+                    log.debug("Fail Expectation found: %s %s %s", conditions, path, results)
+                    test.add_test_expectation(conditions, 'fail', None)
+                    continue
+                log.warn("Unsupported results ignored: %s", line)
                 continue
             log.warn("Line unknown: %s", line)
 
