@@ -10904,18 +10904,6 @@ inline-block-alignment-003a,pass,HTML,2015-07-13T05:35:26+00:00,lemoned,Trident,
 inline-block-alignment-003b,pass,HTML,2015-07-13T05:38:20+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 inline-block-alignment-005a,fail,HTML,2015-07-13T05:49:29+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 inline-block-alignment-005b,fail,HTML,2015-07-13T05:58:34+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-inline-block-alignment-new-002,pass,HTML,2015-07-13T07:41:58+00:00,114.167.4.67,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2451.0 Safari/537.36"
-inline-block-alignment-new-002,pass,HTML,2015-07-13T07:42:15+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-inline-block-alignment-new-003,fail,HTML,2015-07-13T07:43:34+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-inline-block-alignment-new-003,fail,HTML,2015-07-13T07:43:48+00:00,114.167.4.67,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2451.0 Safari/537.36"
-inline-block-alignment-new-004,pass,HTML,2015-07-13T08:08:59+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-inline-block-alignment-new-005,fail,HTML,2015-07-13T08:09:17+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-inline-block-alignment-new-006,fail,HTML,2015-07-13T08:09:59+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-inline-block-alignment-new-007,fail,HTML,2015-07-13T08:10:18+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-inline-block-alignment-new-008,fail,HTML,2015-07-13T08:10:40+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-inline-block-alignment-new-009,fail,HTML,2015-07-13T08:10:59+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-inline-block-alignment-new-010,fail,HTML,2015-07-13T08:12:07+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-inline-block-alignment-new-011,fail,HTML,2015-07-13T08:12:35+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 inline-block-alignment-orthogonal-vlr-003,pass,HTML,2015-07-13T08:13:06+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 inline-block-alignment-orthogonal-vlr-005,pass,HTML,2015-07-13T08:13:30+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 inline-block-alignment-orthogonal-vrl-002,pass,HTML,2015-07-13T08:13:51+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
@@ -10945,14 +10933,6 @@ background-size-document-root-vrl-002,pass,HTML,2015-07-13T13:37:23+00:00,125.30
 background-size-document-root-vrl-004,pass,HTML,2015-07-13T13:37:34+00:00,125.30.21.225,Trident,Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
 background-size-document-root-vrl-006,pass,HTML,2015-07-13T13:37:43+00:00,125.30.21.225,Trident,Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
 background-size-document-root-vrl-008,pass,HTML,2015-07-13T13:38:32+00:00,125.30.21.225,Trident,Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
-inline-block-alignment-new-004,pass,HTML,2015-07-14T06:14:13+00:00,114.167.4.67,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2451.0 Safari/537.36"
-inline-block-alignment-new-005,fail,HTML,2015-07-14T06:16:20+00:00,114.167.4.67,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2451.0 Safari/537.36"
-inline-block-alignment-new-006,pass,HTML,2015-07-14T06:16:39+00:00,114.167.4.67,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2451.0 Safari/537.36"
-inline-block-alignment-new-007,fail,HTML,2015-07-14T06:16:52+00:00,114.167.4.67,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2451.0 Safari/537.36"
-inline-block-alignment-new-008,pass,HTML,2015-07-14T06:18:54+00:00,114.167.4.67,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2451.0 Safari/537.36"
-inline-block-alignment-new-009,fail,HTML,2015-07-14T06:19:05+00:00,114.167.4.67,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2451.0 Safari/537.36"
-inline-block-alignment-new-010,fail,HTML,2015-07-14T06:19:19+00:00,114.167.4.67,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2451.0 Safari/537.36"
-inline-block-alignment-new-011,fail,HTML,2015-07-14T06:19:29+00:00,114.167.4.67,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2451.0 Safari/537.36"
 vertical-alignment-002a,fail,HTML,2015-07-14T06:24:40+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 vertical-alignment-002b,fail,HTML,2015-07-14T06:26:23+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 vertical-alignment-003a,pass,HTML,2015-07-14T06:52:37+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
@@ -11429,13 +11409,6 @@ horizontal-rule-vlr-003,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Moz
 horizontal-rule-vlr-005,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 horizontal-rule-vrl-002,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 horizontal-rule-vrl-004,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
-inline-block-alignment-new-002,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
-inline-block-alignment-new-003,fail,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
-inline-block-alignment-new-004,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
-inline-block-alignment-new-005,fail,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
-inline-block-alignment-new-006,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
-inline-block-alignment-new-008,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
-inline-block-alignment-new-009,fail,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 inline-block-alignment-orthogonal-vlr-003,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 inline-block-alignment-orthogonal-vlr-005,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 inline-block-alignment-orthogonal-vrl-002,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
@@ -11654,3 +11627,67 @@ text-decoration-upright-vlr-007,pass,HTML,2015-07-14T09:01:53+00:00,lemoned,Trid
 text-decoration-upright-vrl-002,pass,HTML,2015-07-14T09:02:31+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 text-decoration-upright-vrl-004,pass,HTML,2015-07-14T09:03:10+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 text-decoration-upright-vrl-006,pass,HTML,2015-07-14T09:03:54+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+border-vlr-007,pass,HTML,2015-07-15T01:51:14+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+border-vrl-006,pass,HTML,2015-07-15T01:52:21+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+box-offsets-rel-pos-vlr-003,pass,HTML,2015-07-15T01:53:11+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+box-offsets-rel-pos-vlr-005,pass,HTML,2015-07-15T01:53:40+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+box-offsets-rel-pos-vrl-002,pass,HTML,2015-07-15T01:54:09+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+box-offsets-rel-pos-vrl-004,pass,HTML,2015-07-15T01:54:48+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+clearance-calculations-vrl-002,pass,HTML,2015-07-15T01:55:16+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+clearance-calculations-vrl-004,pass,HTML,2015-07-15T01:55:46+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+clearance-calculations-vrl-006,pass,HTML,2015-07-15T01:56:22+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+clearance-calculations-vrl-008,pass,HTML,2015-07-15T01:56:59+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-clear-vlr-003,pass,HTML,2015-07-15T01:57:27+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-clear-vlr-005,pass,HTML,2015-07-15T01:58:01+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-clear-vlr-007,pass,HTML,2015-07-15T01:58:36+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-clear-vlr-009,pass,HTML,2015-07-15T02:03:21+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-clear-vrl-002,pass,HTML,2015-07-15T02:03:48+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-clear-vrl-004,pass,HTML,2015-07-15T02:04:16+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-clear-vrl-006,pass,HTML,2015-07-15T02:04:59+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-clear-vrl-008,pass,HTML,2015-07-15T02:05:29+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-contiguous-vlr-003,pass,HTML,2015-07-15T02:06:56+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-contiguous-vlr-005,pass,HTML,2015-07-15T02:07:17+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-contiguous-vlr-007,pass,HTML,2015-07-15T02:08:01+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-contiguous-vlr-009,pass,HTML,2015-07-15T02:08:28+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-contiguous-vlr-011,pass,HTML,2015-07-15T02:09:29+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-contiguous-vlr-013,pass,HTML,2015-07-15T02:09:47+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-contiguous-vrl-002,pass,HTML,2015-07-15T02:11:18+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-contiguous-vrl-004,pass,HTML,2015-07-15T02:11:35+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-contiguous-vrl-006,pass,HTML,2015-07-15T02:11:54+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-contiguous-vrl-008,pass,HTML,2015-07-15T02:12:43+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-contiguous-vrl-010,pass,HTML,2015-07-15T02:15:41+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-contiguous-vrl-012,pass,HTML,2015-07-15T02:16:14+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-shrink-to-fit-vlr-003,pass,HTML,2015-07-15T02:20:17+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-shrink-to-fit-vlr-005,pass,HTML,2015-07-15T02:30:47+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-shrink-to-fit-vlr-007,pass,HTML,2015-07-15T02:31:29+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-shrink-to-fit-vlr-009,pass,HTML,2015-07-15T02:32:04+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-shrink-to-fit-vrl-002,pass,HTML,2015-07-15T02:32:36+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-shrink-to-fit-vrl-004,pass,HTML,2015-07-15T02:33:36+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-shrink-to-fit-vrl-006,pass,HTML,2015-07-15T02:33:54+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-shrink-to-fit-vrl-008,pass,HTML,2015-07-15T02:34:10+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-shrink-to-fit-vrl-vlr-016,pass,HTML,2015-07-15T02:35:19+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-vlr-003,pass,HTML,2015-07-15T02:37:21+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-vlr-005,fail,HTML,2015-07-15T02:37:51+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-vlr-007,pass,HTML,2015-07-15T02:39:07+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-vlr-009,fail,HTML,2015-07-15T05:08:09+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-vlr-011,pass,HTML,2015-07-15T05:08:47+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-vlr-013,pass,HTML,2015-07-15T05:10:43+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-vrl-002,fail,HTML,2015-07-15T05:11:47+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-vrl-004,fail,HTML,2015-07-15T05:12:17+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-vrl-006,pass,HTML,2015-07-15T05:13:04+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-vrl-008,fail,HTML,2015-07-15T05:13:25+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-vrl-010,fail,HTML,2015-07-15T05:13:52+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+float-vrl-012,fail,HTML,2015-07-15T05:14:17+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+height-width-inline-non-replaced-vlr-003,pass,HTML,2015-07-15T05:15:28+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+height-width-inline-non-replaced-vrl-002,pass,HTML,2015-07-15T05:15:49+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+horizontal-rule-vlr-003,pass,HTML,2015-07-15T05:20:05+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+horizontal-rule-vlr-005,pass,HTML,2015-07-15T05:20:29+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+horizontal-rule-vrl-002,uncertain,HTML,2015-07-15T05:25:20+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+horizontal-rule-vrl-004,pass,HTML,2015-07-15T05:25:44+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+margin-vlr-003,pass,HTML,2015-07-15T05:27:13+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+margin-vrl-002,pass,HTML,2015-07-15T05:27:49+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+padding-vlr-005,pass,HTML,2015-07-15T05:28:37+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+padding-vrl-004,pass,HTML,2015-07-15T05:29:10+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+text-align-vlr-003,pass,HTML,2015-07-15T05:29:41+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+text-align-vlr-005,pass,HTML,2015-07-15T05:30:22+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+text-align-vlr-007,pass,HTML,2015-07-15T05:30:49+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
