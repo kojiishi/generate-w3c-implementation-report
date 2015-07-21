@@ -556,24 +556,16 @@ html/horizontal-rule-vlr-003.htm	c47416e169c5b440e743a67eac5c3c4d5196f6a5	pass
 html/horizontal-rule-vlr-005.htm	6f5f57495bcbc441c3eafb695347e47d5c5ec496	pass
 html/horizontal-rule-vrl-002.htm	3bf5bbb3bbb172c806b28ffa7a8b231b8e97918a	pass
 html/horizontal-rule-vrl-004.htm	14da7156297d3627b6ed03de8cb83fe63b851ea9	pass
-# html/inline-block-alignment-002a.htm	53b8f2d1c97a9f8c5a24d892088cae2846194bac	fail
-# html/inline-block-alignment-002b.htm	96155ce40e8d728986bd32d0cb8b64724862617a	pass
-# html/inline-block-alignment-003a.htm	6f86f399edcdf82716a84be9c2528b6905ff9741	pass
-# html/inline-block-alignment-003b.htm	524b3705547388b65d1f6a0cc826d10ba0c67aa4	pass
-# html/inline-block-alignment-005a.htm	68067dfb7be3154ca72260ad487294385e70c13a	pass
-# html/inline-block-alignment-005b.htm	f24f1c212ca3e23d0d495e46b38ec0cb297cad2c	pass
-# html/inline-block-alignment-006a.htm	f9618df006d1eb85dff19d08d8627ef433d0aea0	pass
-# html/inline-block-alignment-006b.htm	d5591ccbb1a1a0c3c089eaa939143a0ac7adb939	pass
-html/inline-block-alignment-new-002.htm	a4a03f80a19b9ae5c8621c1e3d10bdcdce90bd62	pass
-html/inline-block-alignment-new-003.htm	a19ac51be6013a2cf998e3f4ff29c726bfbdfc4b	fail
-html/inline-block-alignment-new-004.htm	7202495e82f4e590d143e434800997facc063ab8	pass
-html/inline-block-alignment-new-005.htm	383b0b29c148d53dc3a703839dc26a94e63e68da	fail
-html/inline-block-alignment-new-006.htm	3f82744bb09ca86783ddcc86097a4ca03554a1a9	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-# html/inline-block-alignment-new-007.htm	204b397d117a38037f6379d4f91bb4f84ff8f23c	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
-html/inline-block-alignment-new-008.htm	054b194afb21e05a1db4ff9cd0b3205b7df67dc9	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/inline-block-alignment-new-009.htm	1d559b87d0e8fbf4f43f8d2ff633a788bc906ec3	fail
-# html/inline-block-alignment-new-010.htm	7491752dc07593a9e1484831ae13a1db925010e8	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
-# html/inline-block-alignment-new-011.htm	04477ea1856df23e9c1234c60dc1418b0e923f82	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
+html/inline-block-alignment-002.htm	55a95c8cf2944a05cdaeaaf1a0324dcb29c5927c	pass
+html/inline-block-alignment-003.htm	ae9c3906fd1d714f32496eeebdb69763f1829dbd	fail
+html/inline-block-alignment-004.htm	380bd8dd10dd3bf0e2ef3f7dd65acd7b879fdb4b	pass
+html/inline-block-alignment-005.htm	208766fed753adb8cb0de3202b2f72353eff275b	fail
+html/inline-block-alignment-006.htm	b4086c20d15b54f2914c62e578710b06ab5c79a5	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+# html/inline-block-alignment-007.htm	2012a64fc744a13b8a7ceb5c386442fcc976e168	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
+html/inline-block-alignment-008.htm	cabb9e7d9e6c767bfa3366e86aec639b83db59cb	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/inline-block-alignment-009.htm	566dd308d449656fd4353d5b5f65d536e6c27dd1	fail
+# html/inline-block-alignment-010.htm	48aef4f3e816b31e474d2e9a13a15b9e3e87609e	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
+# html/inline-block-alignment-011.htm	9a9626e64beac7295fc7cef646e10bd929461812	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
 html/inline-block-alignment-orthogonal-vlr-003.htm	4c158c1913bcf69e7f6f7cf7fe1058dea9632639	pass
 html/inline-block-alignment-orthogonal-vlr-005.htm	9cc37b55e5fc41ccb0ff4eed7d415459861f3b75	pass
 html/inline-block-alignment-orthogonal-vrl-002.htm	c87e0c587a27e594349a00542bedeb24af244680	pass
@@ -710,7 +702,7 @@ html/text-baseline-009.htm	a2fd18eda0cad02eb09004338de627414847c9d3	pass # Mac: 
 # html/text-baseline-011.htm	a6b19babb0dc749e5ed036aea140704a6d5bda55	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
 html/text-combine-upright-decorations-001.htm	d2543f1321555a774908e166123038b7096a3177	pass
 html/text-combine-upright-inherit-all-001.htm	21070195984017e0c25adebe19716eafe838aeb6	pass
-html/text-combine-upright-inherit-all-002.htm	0327fa368d2a984481b11de6a9e722b9ba46083e	pass
+html/text-combine-upright-inherit-all-002.htm	5f16f6cf05f96410a9698653f5557ca74ae561af	pass
 html/text-combine-upright-layout-rules-001.htm	92911d04fa3d64c1f21d819f865ebb8ee7200179	pass
 html/text-combine-upright-line-breaking-rules-001.htm	ba05c4e7e3474cf05cce3e1fec33f1895a186b16	pass
 # html/text-combine-upright-parsing-invalid-001.htm	2b2c132e18a567fb8056e362766d8a030557c4de	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
@@ -849,5 +841,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass # Flaky
-# Total = 850, Coverage = 820 (96%), Pass = 683 (80% of total, 83% of coverage), Fail = 137 (16% of total, 16% of coverage)
-# Imported = 650 (76%), Pass = 541 (63% of total, 83% of imported), Fail = 109 (12% of total, 16% of imported)
+# Total = 842, Coverage = 812 (96%), Pass = 676 (80% of total, 83% of coverage), Fail = 136 (16% of total, 16% of coverage)
+# Imported = 650 (77%), Pass = 541 (64% of total, 83% of imported), Fail = 109 (12% of total, 16% of imported)
