@@ -240,6 +240,9 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-icb-vlr-033"
 }, 
 {
@@ -390,6 +393,9 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass"
+}, 
 "id": "abs-pos-non-replaced-icb-vrl-020"
 }, 
 {
@@ -464,6 +470,9 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass"
 }, 
 "id": "abs-pos-non-replaced-icb-vrl-030"
 }, 
@@ -1184,6 +1193,9 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vlr-095"
 }, 
@@ -2068,6 +2080,9 @@
 "Trident": {
 "result": "fail"
 }, 
+"WebKit": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vlr-225"
 }, 
 {
@@ -2094,6 +2109,9 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "fail"
+}, 
+"WebKit": {
 "result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vlr-229"
@@ -2170,6 +2188,9 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-010"
 }, 
@@ -2350,6 +2371,9 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-034"
 }, 
@@ -2756,6 +2780,9 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-088"
 }, 
 {
@@ -2900,6 +2927,9 @@
 "Trident": {
 "result": "fail"
 }, 
+"WebKit": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-112"
 }, 
 {
@@ -2926,6 +2956,9 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "fail"
+}, 
+"WebKit": {
 "result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-116"
@@ -3010,6 +3043,9 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "fail"
+}, 
+"WebKit": {
 "result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-128"
@@ -3124,6 +3160,9 @@
 "Trident": {
 "result": "fail"
 }, 
+"WebKit": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-144"
 }, 
 {
@@ -3150,6 +3189,9 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "fail"
+}, 
+"WebKit": {
 "result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-148"
@@ -3234,6 +3276,9 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "fail"
+}, 
+"WebKit": {
 "result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-160"
@@ -3348,6 +3393,9 @@
 "Trident": {
 "result": "fail"
 }, 
+"WebKit": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-176"
 }, 
 {
@@ -3458,6 +3506,9 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "fail"
+}, 
+"WebKit": {
 "result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-192"
@@ -3572,6 +3623,9 @@
 "Trident": {
 "result": "fail"
 }, 
+"WebKit": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-208"
 }, 
 {
@@ -3656,6 +3710,9 @@
 "Trident": {
 "result": "fail"
 }, 
+"WebKit": {
+"result": "fail"
+}, 
 "id": "abs-pos-non-replaced-vrl-220"
 }, 
 {
@@ -3682,6 +3739,9 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "fail"
+}, 
+"WebKit": {
 "result": "fail"
 }, 
 "id": "abs-pos-non-replaced-vrl-224"
@@ -4576,52 +4636,12 @@
 "id": "bidi-box-model-045"
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-breaking-001"
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-breaking-002"
 }, 
 {
-"Blink": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
 "id": "bidi-breaking-003"
 }, 
 {
@@ -4823,63 +4843,15 @@
 "id": "bidi-embed-011"
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-glyph-mirroring-001"
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-glyph-mirroring-002"
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-inline-001"
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-inline-002"
 }, 
 {
@@ -10319,7 +10291,7 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "fail", 
+"result": "pass", 
 "source": "gtalbot"
 }, 
 "Trident": {
@@ -10334,7 +10306,7 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "fail", 
+"result": "pass", 
 "source": "gtalbot"
 }, 
 "Trident": {
@@ -10796,28 +10768,12 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
 "id": "text-combine-upright-decorations-001"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "kojiishi"
 }, 
 "id": "text-combine-upright-inherit-all-001"
 }, 
@@ -10853,8 +10809,8 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "fail", 
-"source": "kojiishi"
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "WebKit": {
 "result": "pass", 
@@ -10868,8 +10824,8 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "fail", 
-"source": "kojiishi"
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-combine-upright-parsing-invalid-001"
 }, 
@@ -10879,8 +10835,8 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "fail", 
-"source": "kojiishi"
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "Presto": {
 "result": "pass"
@@ -10893,8 +10849,8 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "fail", 
-"source": "kojiishi"
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "Presto": {
 "result": "pass"
