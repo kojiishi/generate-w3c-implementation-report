@@ -149,9 +149,9 @@ class Test(object):
         assert not self.issue
         self.issue = url
 
-    def set_imported(self, dir, ext):
+    def set_imported(self, result = 'pass'):
         assert not self.import_result
-        self.import_result = ImportTestResult('pass')
+        self.import_result = ImportTestResult(result)
 
     def clear_imported(self):
         assert self.import_result
@@ -252,7 +252,7 @@ class W3CImplementationReportGenerator(object):
         for root, filename in self.find_imported_files(directory):
             name, ext = os.path.splitext(filename)
             test = self.test_from_id_or_add(name)
-            test.set_imported(root, ext)
+            test.set_imported('fail' if os.path.exists(os.path.join(root, name + '-expected.txt')) else 'pass')
 
     def find_imported_files(self, directory):
         dirs_to_skip = ('support',)
