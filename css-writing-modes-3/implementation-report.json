@@ -4850,7 +4850,8 @@
 "source": "lemoned"
 }, 
 "WebKit": {
-"result": "pass"
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "bidi-embed-001"
 }, 
@@ -4868,7 +4869,8 @@
 "source": "lemoned"
 }, 
 "WebKit": {
-"result": "pass"
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "bidi-embed-002"
 }, 
@@ -5602,7 +5604,8 @@
 "source": "lemoned"
 }, 
 "WebKit": {
-"result": "pass"
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "bidi-normal-001"
 }, 
@@ -5616,6 +5619,10 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
+"WebKit": {
 "result": "pass", 
 "source": "lemoned"
 }, 
@@ -5634,6 +5641,10 @@
 "result": "pass", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "bidi-normal-003"
 }, 
 {
@@ -5646,6 +5657,10 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
+"WebKit": {
 "result": "pass", 
 "source": "lemoned"
 }, 
@@ -5664,6 +5679,10 @@
 "result": "pass", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "bidi-normal-005"
 }, 
 {
@@ -5676,6 +5695,10 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
+"WebKit": {
 "result": "pass", 
 "source": "lemoned"
 }, 
@@ -5694,6 +5717,10 @@
 "result": "pass", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "bidi-normal-007"
 }, 
 {
@@ -5706,6 +5733,10 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
+"WebKit": {
 "result": "pass", 
 "source": "lemoned"
 }, 
@@ -5724,6 +5755,10 @@
 "result": "pass", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "bidi-normal-009"
 }, 
 {
@@ -5736,6 +5771,10 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
+"WebKit": {
 "result": "pass", 
 "source": "lemoned"
 }, 
@@ -5756,7 +5795,7 @@
 }, 
 "WebKit": {
 "result": "fail", 
-"source": "kojiishi"
+"source": "lemoned"
 }, 
 "id": "bidi-normal-011"
 }, 
@@ -7742,6 +7781,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "different-block-flow-dir-001"
 }, 
 {
@@ -7759,6 +7802,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "different-block-flow-dir-002"
 }, 
@@ -9157,6 +9204,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "inline-replaced-vlr-003"
 }, 
 {
@@ -9186,6 +9237,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "inline-replaced-vrl-002"
 }, 
@@ -9217,6 +9272,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "line-box-direction-001"
 }, 
 {
@@ -9231,6 +9290,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "line-box-direction-002"
 }, 
@@ -9247,6 +9310,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "line-box-direction-003"
 }, 
 {
@@ -9261,6 +9328,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "line-box-direction-005"
 }, 
@@ -9277,6 +9348,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "line-box-direction-006"
 }, 
 {
@@ -9291,6 +9366,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "line-box-direction-007"
 }, 
@@ -9307,6 +9386,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "line-box-direction-008"
 }, 
 {
@@ -9321,6 +9404,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "line-box-direction-009"
 }, 
@@ -9337,6 +9424,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "line-box-direction-010"
 }, 
 {
@@ -9351,6 +9442,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "line-box-direction-011"
 }, 
@@ -9367,6 +9462,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "line-box-direction-012"
 }, 
 {
@@ -9381,6 +9480,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "line-box-direction-013"
 }, 
@@ -9397,6 +9500,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "line-box-direction-014"
 }, 
 {
@@ -9411,6 +9518,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "line-box-direction-015"
 }, 
@@ -9427,6 +9538,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "line-box-direction-016"
 }, 
 {
@@ -9441,6 +9556,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "line-box-direction-017"
 }, 
@@ -9457,6 +9576,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "line-box-direction-018"
 }, 
 {
@@ -9472,6 +9595,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "line-box-direction-019"
 }, 
 {
@@ -9486,6 +9613,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "line-box-direction-020"
 }, 
@@ -10477,6 +10608,10 @@
 "result": "pass", 
 "source": "kojiishi"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "row-progression-002"
 }, 
 {
@@ -10491,6 +10626,10 @@
 "Trident": {
 "result": "pass", 
 "source": "kojiishi"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "row-progression-003"
 }, 
@@ -10507,6 +10646,10 @@
 "result": "pass", 
 "source": "kojiishi"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "row-progression-004"
 }, 
 {
@@ -10521,6 +10664,10 @@
 "Trident": {
 "result": "pass", 
 "source": "kojiishi"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "row-progression-005"
 }, 
@@ -10537,6 +10684,10 @@
 "result": "pass", 
 "source": "kojiishi"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "row-progression-006"
 }, 
 {
@@ -10551,6 +10702,10 @@
 "Trident": {
 "result": "pass", 
 "source": "kojiishi"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "row-progression-007"
 }, 
@@ -10567,6 +10722,10 @@
 "result": "pass", 
 "source": "kojiishi"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "row-progression-008"
 }, 
 {
@@ -10581,6 +10740,10 @@
 "Trident": {
 "result": "pass", 
 "source": "kojiishi"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "row-progression-009"
 }, 
@@ -10657,6 +10820,10 @@
 "result": "fail", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "table-progression-001-vlr"
 }, 
 {
@@ -10670,6 +10837,10 @@
 }, 
 "Trident": {
 "result": "fail", 
+"source": "lemoned"
+}, 
+"WebKit": {
+"result": "pass", 
 "source": "lemoned"
 }, 
 "id": "table-progression-001-vrl"
@@ -11145,14 +11316,6 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "kojiishi"
 }, 
 "id": "text-combine-upright-layout-rules-001"
 }, 
@@ -12102,12 +12265,20 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "text-orientation-script-001b"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "text-orientation-script-001c"
 }, 
@@ -12116,12 +12287,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "text-orientation-script-001d"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "text-orientation-script-001e"
 }, 
@@ -12130,6 +12309,10 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "text-orientation-script-001f"
 }, 
 {
@@ -12137,12 +12320,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "text-orientation-script-001g"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "text-orientation-script-001h"
 }, 
@@ -13081,9 +13272,21 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "vertical-alignment-new-002"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "vertical-alignment-new-003"
 }, 
 {
@@ -13091,9 +13294,21 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "vertical-alignment-new-004"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "vertical-alignment-new-005"
 }, 
 {
@@ -13101,9 +13316,21 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "vertical-alignment-new-006"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "vertical-alignment-new-007"
 }, 
 {
@@ -13111,9 +13338,21 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "vertical-alignment-new-008"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "vertical-alignment-new-009"
 }, 
 {
@@ -13158,6 +13397,10 @@
 "Trident": {
 "result": "pass", 
 "source": "kojiishi"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "writing-mode-stretch-001"
 }, 
@@ -13230,6 +13473,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "writing-mode-vertical-rl-003"
 }
