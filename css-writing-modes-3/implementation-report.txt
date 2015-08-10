@@ -311,11 +311,11 @@ html/baseline-inline-replaced-003.htm	eed7b8849080d2daa99c847c48b215bd6c3fb17a	p
 # html/bidi-box-model-043.htm	a5320f0797f50894c930422612c5d4f8e6f5f18e	pass
 # html/bidi-box-model-044.htm	598e3207af53b8419a1cd59902ee374213415c5f	pass
 # html/bidi-box-model-045.htm	fe86e5208cceddfdb42ead064ea22ada485ef1f4	pass
-# html/bidi-breaking-001.htm	75e6e9ea6c09e2f552a53291991f2cb671f8a089	?
-# html/bidi-breaking-002.htm	816f9d52ee34cd65e31de2b9ac27d149b643a669	?
-# html/bidi-breaking-003.htm	7edef082775bc3176d6185cda5b9205b79e29f09	?
+# html/bidi-breaking-001.htm	75e6e9ea6c09e2f552a53291991f2cb671f8a089	pass
+# html/bidi-breaking-002.htm	816f9d52ee34cd65e31de2b9ac27d149b643a669	pass
+# html/bidi-breaking-003.htm	7edef082775bc3176d6185cda5b9205b79e29f09	fail
 html/bidi-embed-001.htm	afde290f67a16aa24f6b4b982eca7e2e03ec72ac	pass
-html/bidi-embed-002.htm	3d672bde7731e5924312c4f818195f49c02c0024	pass # Flaky
+html/bidi-embed-002.htm	3d672bde7731e5924312c4f818195f49c02c0024	pass # Mac: fail
 html/bidi-embed-003.htm	797c9336dd211c246279d80c3b1d651c80243ef8	pass
 html/bidi-embed-004.htm	7d2b25f887ed3a31e15180b3d860f5bc3b27c5e9	pass
 html/bidi-embed-005.htm	87d6ca440eb8c36342be3b561892c06036906a7b	pass
@@ -325,12 +325,12 @@ html/bidi-embed-008.htm	9106b9f2ef7f218496682675876313fb24d5cc4c	pass
 html/bidi-embed-009.htm	2ea141336408014defe53fd98d84c411aec4dc4d	pass
 html/bidi-embed-010.htm	30d16c659913406c8705520ee165821cf2965b0b	pass
 html/bidi-embed-011.htm	6e225bfb6ae7eceef58b51b9cc96d9ac6656e07a	pass
-# html/bidi-glyph-mirroring-001.htm	1df4de4e03f644a77cd16a704e3747ad4dbbf379	?
-# html/bidi-glyph-mirroring-002.htm	5032b9119f978356e85c66a9f5613aa57237dca2	?
-# html/bidi-inline-001.htm	fdac15e5d106d71315b5ea88507fb8473dd5d9d7	?
-# html/bidi-inline-002.htm	5f80a76128d4f7c75d562c37391a38e46fd2c0ec	?
+# html/bidi-glyph-mirroring-001.htm	1df4de4e03f644a77cd16a704e3747ad4dbbf379	pass
+# html/bidi-glyph-mirroring-002.htm	5032b9119f978356e85c66a9f5613aa57237dca2	pass
+# html/bidi-inline-001.htm	fdac15e5d106d71315b5ea88507fb8473dd5d9d7	pass
+# html/bidi-inline-002.htm	5f80a76128d4f7c75d562c37391a38e46fd2c0ec	pass
 html/bidi-isolate-001.htm	c929f3c9f5f2b29873ef4c3f335e056a53fecd80	pass
-html/bidi-isolate-002.htm	e69b8cc34437c122def2ae93bb3fe02d587fd04d	pass # Flaky
+html/bidi-isolate-002.htm	e69b8cc34437c122def2ae93bb3fe02d587fd04d	pass # Mac: fail
 html/bidi-isolate-003.htm	dad7ee0898ae14d2fb7655bdffdd22c57bc9b3cf	pass
 html/bidi-isolate-004.htm	35b54c340b6a41df8428abbd7247ff5e7b53370d	pass
 html/bidi-isolate-005.htm	dea2567ca84737d1cd470ea8c555b4159a41712c	pass
@@ -367,7 +367,7 @@ html/bidi-override-001.htm	ac664684809c99d15cc0c7372dd2e51c62439e5d	pass
 html/bidi-override-002.htm	6b04c2d830fd046cc43961af10058f650c2119bf	pass
 html/bidi-override-003.htm	67db8f179dd8df097aba131592ad3bcc3febf7be	pass
 html/bidi-override-004.htm	cf6dd03722c7b75b60b69955d5151a85efec6588	pass
-html/bidi-override-005.htm	c960ff4c899b9f2bc4b4f4d1606866c8e648e406	pass # Flaky
+html/bidi-override-005.htm	c960ff4c899b9f2bc4b4f4d1606866c8e648e406	pass # Win: fail
 html/bidi-override-006.htm	f11167a916d514ba91c53f192a3be8d9d99e7bdf	pass
 html/bidi-override-007.htm	ab4508a9a414b5b4b98858613bc3683577adefb4	pass
 html/bidi-override-008.htm	9960cb8164457aea9abc1acaec74dea6c4fb690a	pass
@@ -375,7 +375,7 @@ html/bidi-override-009.htm	88343c319c4ba7fc86c85c2d3e46877ee0bf527d	pass
 html/bidi-override-010.htm	b96da4ea9b5f1963e385e6379296a61658a144fa	pass
 html/bidi-override-011.htm	8cf143f0597046afa0b0a4bc6f5bf41eab41eaaa	pass
 html/bidi-override-012.htm	9c25cdba06f80a4350a5d352b655e7c5ede367bf	pass
-html/bidi-plaintext-001.htm	649f84bff65e3b3b5aa0f7e9f1423690e9579e9f	pass # Flaky
+html/bidi-plaintext-001.htm	649f84bff65e3b3b5aa0f7e9f1423690e9579e9f	pass # Win: fail
 html/bidi-plaintext-002.htm	e0b9c8712ca54ce329c3ad1bfee439b52a8f0add	pass
 html/bidi-plaintext-003.htm	94ac2a8590747e7f4982606352934d10a367a9f6	pass
 html/bidi-plaintext-004.htm	5daccba0e59d06b6c9e7d72f8abe92fa69a823d1	pass
@@ -446,9 +446,9 @@ html/border-spacing-vrl-004.htm	ed1d4442e1ab36ddecd8ab74a14ea6f115027b8b	pass
 html/border-vlr-007.htm	39a32c0258da774f8016f42d80902ff392f25aef	pass
 html/border-vrl-006.htm	9bf65bd11b8f5eee2a68f349102d768cef83115d	pass
 html/box-offsets-rel-pos-vlr-003.htm	3d16e0883c205cf9db0f153a21fe09328210fb9e	pass
-html/box-offsets-rel-pos-vlr-005.htm	63b0812b0ce58203acbbb078d6a358dfa8ef7921	pass # Win, Linux: Flaky
+html/box-offsets-rel-pos-vlr-005.htm	63b0812b0ce58203acbbb078d6a358dfa8ef7921	pass # XP, Linux: fail
 html/box-offsets-rel-pos-vrl-002.htm	71f9afb95909f5bbf2f482ea0cae18d0760dd61b	pass
-html/box-offsets-rel-pos-vrl-004.htm	2fefce44f6b5272b4e3d76d78fbd376dc7ccfcb7	pass # Win, Linux: Flaky
+html/box-offsets-rel-pos-vrl-004.htm	2fefce44f6b5272b4e3d76d78fbd376dc7ccfcb7	pass # XP, Linux: fail
 html/central-baseline-alignment-002.htm	90489bcb77cfed11d0d0072734e1a6a5408f05e2	pass
 html/central-baseline-alignment-003.htm	8e6a4d8e67c4492e12b1d72857cbee6aa3611e37	pass
 html/clearance-calculations-vrl-002.htm	08bfbf660a2e28087e2532f36ac0a8372fbcf408	pass
@@ -700,8 +700,6 @@ html/text-baseline-008.htm	71c017581a847aa06b5715c7d4e88050bdc7ffca	pass # Mac: 
 html/text-baseline-009.htm	a2fd18eda0cad02eb09004338de627414847c9d3	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 # html/text-baseline-010.htm	ed91654bb8ce0d95766a8d78d1e7d5680e2a52ce	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
 # html/text-baseline-011.htm	a6b19babb0dc749e5ed036aea140704a6d5bda55	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
-html/text-combine-upright-decorations-001.htm	d2543f1321555a774908e166123038b7096a3177	pass
-html/text-combine-upright-inherit-all-001.htm	21070195984017e0c25adebe19716eafe838aeb6	pass
 html/text-combine-upright-inherit-all-002.htm	5f16f6cf05f96410a9698653f5557ca74ae561af	pass
 html/text-combine-upright-layout-rules-001.htm	92911d04fa3d64c1f21d819f865ebb8ee7200179	pass
 html/text-combine-upright-line-breaking-rules-001.htm	ba05c4e7e3474cf05cce3e1fec33f1895a186b16	pass
@@ -709,9 +707,9 @@ html/text-combine-upright-line-breaking-rules-001.htm	ba05c4e7e3474cf05cce3e1fec
 # html/text-combine-upright-parsing-invalid-002.htm	7f78c2344ff0a88366e152bfb9dd032df56c8e31	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 # html/text-combine-upright-parsing-valid-001.htm	0ce4e72cafc4c08b3dbb51296126cc6ec5cfc581	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 # html/text-combine-upright-parsing-valid-002.htm	c04b90914c86be633173bfcc63c14b2a44b058db	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-html/text-combine-upright-value-all-001.htm	aa61701be68a6a2f5b8759406b5d12097287037b	pass # Flaky
-html/text-combine-upright-value-all-002.htm	86aee37014437221d6f54d959e1822b2c1b040fa	pass # Flaky
-html/text-combine-upright-value-all-003.htm	1652f5297b171f4dd79a025de37d35bdc751f12c	pass # Flaky
+html/text-combine-upright-value-all-001.htm	aa61701be68a6a2f5b8759406b5d12097287037b	fail
+html/text-combine-upright-value-all-002.htm	86aee37014437221d6f54d959e1822b2c1b040fa	fail
+html/text-combine-upright-value-all-003.htm	1652f5297b171f4dd79a025de37d35bdc751f12c	fail
 # html/text-combine-upright-value-digits2-001.htm	7e716cc28e8723c31837800d39feacea1166e771	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 # html/text-combine-upright-value-digits2-002.htm	fe174f76c4bd840549d1e672d5db4e92a977c32d	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 # html/text-combine-upright-value-digits2-003.htm	ed55adb7f4d8e8f085040b844c5b8ed3ef956145	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
@@ -721,7 +719,7 @@ html/text-combine-upright-value-all-003.htm	1652f5297b171f4dd79a025de37d35bdc751
 # html/text-combine-upright-value-digits4-001.htm	33a447cb2475a6e9d537f299226c8718a5e749c7	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 # html/text-combine-upright-value-digits4-002.htm	6eb0ab6855be7d1ecb6506312cdfb094b56f9595	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 # html/text-combine-upright-value-digits4-003.htm	48e63abff54988c1a6a75d6905010e19544e470b	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-html/text-combine-upright-value-none-001.htm	7ef71c72b96c6e7677f9da7bf26aa9ed2e3bc16a	pass # Flaky
+html/text-combine-upright-value-none-001.htm	7ef71c72b96c6e7677f9da7bf26aa9ed2e3bc16a	pass
 # html/text-decoration-sidewaysleft-vlr-003.htm	13860419acaa722347ad09079c169ef6a8ba5ade	fail
 # html/text-decoration-sidewaysleft-vlr-005.htm	fd527a5c91aa03ce36207ee9720165068e087b03	fail
 # html/text-decoration-sidewaysleft-vlr-007.htm	b569c2c1628567a7b38a944802626d6b57314636	fail
@@ -763,15 +761,15 @@ html/text-orientation-012.htm	7b06cf9b29713a3b20dd9dfe5b3b066e38819769	pass
 html/text-orientation-014.htm	379298579d6a5609de822928a88582a1756de82e	pass
 # html/text-orientation-015.htm	fbedbddfe3a56cb64019da9e6343a8d514c863c7	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
 # html/text-orientation-mixed-001.htm	d764c7d34d3c546a97b585aa1c787b089391614d	pass
-html/text-orientation-script-001.htm	c6b57649b8f0fcdf0f7caf750682c2e7093b777b	fail
+html/text-orientation-script-001.htm	b405bcfd0244c082fd8a19d9f3f13271d031c226	fail
 html/text-orientation-script-001a.htm	ce382caffa1da0d7da68fdef50eb490af6ff2812	pass
-html/text-orientation-script-001b.htm	bee11d0a13f4e41edbacf8e29a21097816291e52	pass
-html/text-orientation-script-001c.htm	4c3539b0196194d6922f029d6f8a7381b5b0e17c	pass
-html/text-orientation-script-001d.htm	1d586d4b9a275332d809111ea977cf11b0bc77ad	pass
-html/text-orientation-script-001e.htm	555dfefc2ecc1e5fec8cb03beaf781eb46e6b4d7	fail
-html/text-orientation-script-001f.htm	2829e7dd0ef094e56579838063f21d2416a293ec	pass
-html/text-orientation-script-001g.htm	c6ca966f09342efadec5a4bede6204f8b4c9839b	pass
-html/text-orientation-script-001h.htm	5f297790db02889d163f975242fa12ceff44018f	pass
+html/text-orientation-script-001b.htm	99978702ea8d6da9edcf7dfd5056b7cbc3e4b27b	fail
+html/text-orientation-script-001c.htm	4669e81cd94f71310d3660fc257919d18409efea	pass
+html/text-orientation-script-001d.htm	ee5303caca478161a53320556d015d61972dab7f	pass
+html/text-orientation-script-001e.htm	615ca9699293e9e7e1b7c2baa44f7733acbb766d	fail
+html/text-orientation-script-001f.htm	f6d4cb5ac9a0e9e65937cddaea5309655b13211d	pass
+html/text-orientation-script-001g.htm	6689fcfa2c86a5218991ec7bca1fd3d3b019b552	pass
+html/text-orientation-script-001h.htm	30ff5d1c9fd47f798afea5ab9f86c770bda33f0e	pass
 html/text-orientation-script-001i.htm	1ae65c98aa6fd22dc665efb229d6175f6bc54019	pass
 html/text-orientation-script-001j.htm	4dd50b939e04471b105246f82c9264750b74de83	pass
 html/text-orientation-script-001k.htm	07519d82c5a85d0f62e2db763d66d9acf766fb70	pass
@@ -834,12 +832,20 @@ html/text-orientation-script-001o.htm	ad390d60dd518de633056d1bd59900406d4d23e8	p
 # html/vertical-alignment-026b.htm	fb3d8d2c8ec17a80bc05d9cf6027855dab6b9836	pass
 # html/vertical-alignment-027a.htm	ca2c37b2acc7a2be0e438b5069acd2286487b6ab	pass
 # html/vertical-alignment-027b.htm	eb3ef979b26f31507a2f72ba374274fd22113364	pass
+html/vertical-alignment-new-002.htm	ee2a985dcc9a330902d7f10b6eacb6f78842f874	fail
+# html/vertical-alignment-new-003.htm	c5682d573f6fdb1c17b24359a0432fdc8f9772aa	?
+html/vertical-alignment-new-004.htm	d0759e3a88655fb294ee5c19b0d425ae4721900b	pass
+# html/vertical-alignment-new-005.htm	5328d7b1ed528383b23152a995d2028c6dc3a610	?
+html/vertical-alignment-new-006.htm	1d927d1b600d3176690f64015ca98786dd3733f1	pass
+# html/vertical-alignment-new-007.htm	193f172c4b30679ebd0b1ff324d70ec71e8f45ae	?
+html/vertical-alignment-new-008.htm	5770fbb7da4d34bf31ab8f25c172f88f18f5e7b2	fail
+# html/vertical-alignment-new-009.htm	383b3f73ead7b7e3f1f08e68c551c06f4cf2f5b3	?
 html/writing-mode-horizontal-001l.htm	820b6baaa9ff63cf1a29b989c8d68ebdafe3c4da	pass
 html/writing-mode-horizontal-001r.htm	946a8be6f47e1cdc7ca7539e48e9964bd77c9ba9	pass
 html/writing-mode-stretch-001.htm	b39073243c9598d184c1f6efc298247a42f34aea	fail
-html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	pass # Flaky
-html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Flaky
-html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Flaky
-html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass # Flaky
-# Total = 842, Coverage = 805 (95%), Pass = 670 (79% of total, 83% of coverage), Fail = 135 (16% of total, 16% of coverage)
-# Imported = 650 (77%), Pass = 541 (64% of total, 83% of imported), Fail = 109 (12% of total, 16% of imported)
+html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	pass
+html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass
+html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass
+html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass
+# Total = 848, Coverage = 814 (95%), Pass = 672 (79% of total, 82% of coverage), Fail = 142 (16% of total, 17% of coverage)
+# Imported = 652 (76%), Pass = 537 (63% of total, 82% of imported), Fail = 115 (13% of total, 17% of imported)
