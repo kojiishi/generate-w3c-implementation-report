@@ -7657,6 +7657,94 @@
 {
 "Blink": {
 "result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "caption-side-vlr-003"
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "caption-side-vlr-005"
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "caption-side-vlr-007"
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "caption-side-vlr-009"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "caption-side-vrl-002"
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "caption-side-vrl-004"
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "caption-side-vrl-006"
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "caption-side-vrl-008"
+}, 
+{
+"Blink": {
+"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -8609,6 +8697,12 @@
 "result": "fail"
 }, 
 "id": "extract-ordered-list-direction-and-writing-modes"
+}, 
+{
+"id": "first-page-vlr-003"
+}, 
+{
+"id": "first-page-vrl-002"
 }, 
 {
 "Blink": {
@@ -9924,6 +10018,50 @@
 "source": "lemoned"
 }, 
 "id": "inline-replaced-vrl-004"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"id": "inline-table-alignment-002"
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"id": "inline-table-alignment-003"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"id": "inline-table-alignment-004"
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"id": "inline-table-alignment-005"
 }, 
 {
 "Blink": {
@@ -12082,6 +12220,28 @@
 "source": "lemoned"
 }, 
 "id": "text-baseline-011"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "text-combine-upright-decorations-001"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "text-combine-upright-inherit-all-001"
 }, 
 {
 "Blink": {
