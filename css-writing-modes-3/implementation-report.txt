@@ -451,12 +451,12 @@ html/box-offsets-rel-pos-vrl-002.htm	71f9afb95909f5bbf2f482ea0cae18d0760dd61b	pa
 html/box-offsets-rel-pos-vrl-004.htm	2fefce44f6b5272b4e3d76d78fbd376dc7ccfcb7	pass # XP, Linux: fail
 # html/caption-side-vlr-003.htm	43390e0197532f5abc7d3981a3d4269eba09bc34	pass
 # html/caption-side-vlr-005.htm	8947d4a32c90618852aaed1314ba8b21d4ee9977	fail
-# html/caption-side-vlr-007.htm	3ba03ab551c9139a3762f31bf9c666b189d6f2dd	fail
-# html/caption-side-vlr-009.htm	2e2059bc3999c9f5a6e448d38120345a4401acf0	fail
+html/caption-side-vlr-007.htm	3ba03ab551c9139a3762f31bf9c666b189d6f2dd	fail
+html/caption-side-vlr-009.htm	2e2059bc3999c9f5a6e448d38120345a4401acf0	fail
 # html/caption-side-vrl-002.htm	a4bc04da2ea89baff4d825bccf39f1c0cd8d6179	pass
 # html/caption-side-vrl-004.htm	cd67251ecca27c479e8fbbc1ea0f0b7c6928a00b	fail
-# html/caption-side-vrl-006.htm	5e4541bf9386b002856d99c9039d54acff163c3a	fail
-# html/caption-side-vrl-008.htm	8d0f419837097e2f8d99deb2478d8971b8c916bc	fail
+html/caption-side-vrl-006.htm	5e4541bf9386b002856d99c9039d54acff163c3a	fail
+html/caption-side-vrl-008.htm	8d0f419837097e2f8d99deb2478d8971b8c916bc	fail
 html/central-baseline-alignment-002.htm	90489bcb77cfed11d0d0072734e1a6a5408f05e2	pass
 html/central-baseline-alignment-003.htm	8e6a4d8e67c4492e12b1d72857cbee6aa3611e37	pass
 html/clearance-calculations-vrl-002.htm	08bfbf660a2e28087e2532f36ac0a8372fbcf408	pass
@@ -864,4 +864,4 @@ html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	p
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass
 # Total = 864, Coverage = 832 (96%), Pass = 681 (78% of total, 81% of coverage), Fail = 151 (17% of total, 18% of coverage)
-# Imported = 662 (76%), Pass = 544 (62% of total, 82% of imported), Fail = 118 (13% of total, 17% of imported)
+# Imported = 666 (77%), Pass = 544 (62% of total, 81% of imported), Fail = 122 (14% of total, 18% of imported)
