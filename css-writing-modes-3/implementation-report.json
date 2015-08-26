@@ -12,6 +12,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-icb-vlr-003"
 }, 
 {
@@ -26,6 +30,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-icb-vlr-005"
 }, 
@@ -43,7 +51,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "pass"
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-icb-vlr-007"
 }, 
@@ -60,6 +69,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-icb-vlr-009"
 }, 
 {
@@ -74,6 +87,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-icb-vlr-011"
 }, 
@@ -90,6 +107,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-icb-vlr-013"
 }, 
 {
@@ -104,6 +125,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-icb-vlr-015"
 }, 
@@ -120,6 +145,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-icb-vlr-017"
 }, 
 {
@@ -134,6 +163,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-icb-vlr-019"
 }, 
@@ -150,6 +183,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-icb-vlr-021"
 }, 
 {
@@ -164,6 +201,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-icb-vlr-023"
 }, 
@@ -180,6 +221,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-icb-vlr-025"
 }, 
 {
@@ -194,6 +239,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-icb-vlr-027"
 }, 
@@ -210,6 +259,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-icb-vlr-029"
 }, 
 {
@@ -224,6 +277,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-icb-vlr-031"
 }, 
@@ -241,7 +298,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "pass"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-icb-vlr-033"
 }, 
@@ -258,6 +316,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-icb-vrl-002"
 }, 
 {
@@ -272,6 +334,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-icb-vrl-004"
 }, 
@@ -288,6 +354,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-icb-vrl-006"
 }, 
 {
@@ -302,6 +372,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-icb-vrl-008"
 }, 
@@ -318,6 +392,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-icb-vrl-010"
 }, 
 {
@@ -332,6 +410,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-icb-vrl-012"
 }, 
@@ -348,6 +430,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-icb-vrl-014"
 }, 
 {
@@ -363,6 +449,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-icb-vrl-016"
 }, 
 {
@@ -377,6 +467,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-icb-vrl-018"
 }, 
@@ -394,7 +488,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "pass"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-icb-vrl-020"
 }, 
@@ -411,6 +506,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-icb-vrl-022"
 }, 
 {
@@ -425,6 +524,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-icb-vrl-024"
 }, 
@@ -441,6 +544,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-icb-vrl-026"
 }, 
 {
@@ -455,6 +562,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-icb-vrl-028"
 }, 
@@ -472,7 +583,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "pass"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-icb-vrl-030"
 }, 
@@ -489,6 +601,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-icb-vrl-032"
 }, 
 {
@@ -503,6 +619,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-003"
 }, 
@@ -519,6 +639,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-005"
 }, 
 {
@@ -533,6 +657,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-007"
 }, 
@@ -549,6 +677,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-009"
 }, 
 {
@@ -563,6 +695,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-011"
 }, 
@@ -579,6 +715,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-013"
 }, 
 {
@@ -593,6 +733,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-015"
 }, 
@@ -609,6 +753,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-017"
 }, 
 {
@@ -623,6 +771,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-019"
 }, 
@@ -639,6 +791,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-021"
 }, 
 {
@@ -653,6 +809,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-023"
 }, 
@@ -669,6 +829,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-025"
 }, 
 {
@@ -683,6 +847,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-027"
 }, 
@@ -699,6 +867,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-029"
 }, 
 {
@@ -713,6 +885,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-031"
 }, 
@@ -729,6 +905,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-033"
 }, 
 {
@@ -743,6 +923,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-035"
 }, 
@@ -759,6 +943,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-037"
 }, 
 {
@@ -773,6 +961,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-039"
 }, 
@@ -789,6 +981,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-041"
 }, 
 {
@@ -803,6 +999,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-043"
 }, 
@@ -819,6 +1019,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-045"
 }, 
 {
@@ -833,6 +1037,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-047"
 }, 
@@ -849,6 +1057,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-049"
 }, 
 {
@@ -863,6 +1075,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-051"
 }, 
@@ -879,6 +1095,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-053"
 }, 
 {
@@ -893,6 +1113,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-055"
 }, 
@@ -909,6 +1133,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-057"
 }, 
 {
@@ -923,6 +1151,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-059"
 }, 
@@ -939,6 +1171,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-061"
 }, 
 {
@@ -953,6 +1189,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-063"
 }, 
@@ -969,6 +1209,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-065"
 }, 
 {
@@ -983,6 +1227,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-067"
 }, 
@@ -999,6 +1247,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-069"
 }, 
 {
@@ -1013,6 +1265,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-071"
 }, 
@@ -1029,6 +1285,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-073"
 }, 
 {
@@ -1043,6 +1303,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-075"
 }, 
@@ -1059,6 +1323,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-077"
 }, 
 {
@@ -1073,6 +1341,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-079"
 }, 
@@ -1089,6 +1361,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-081"
 }, 
 {
@@ -1103,6 +1379,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-083"
 }, 
@@ -1119,6 +1399,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-085"
 }, 
 {
@@ -1133,6 +1417,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-087"
 }, 
@@ -1149,6 +1437,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-089"
 }, 
 {
@@ -1164,6 +1456,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-091"
 }, 
 {
@@ -1178,6 +1474,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-093"
 }, 
@@ -1195,7 +1495,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-095"
 }, 
@@ -1212,6 +1513,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-097"
 }, 
 {
@@ -1226,6 +1531,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-103"
 }, 
@@ -1242,6 +1551,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-105"
 }, 
 {
@@ -1256,6 +1569,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-107"
 }, 
@@ -1272,6 +1589,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-109"
 }, 
 {
@@ -1286,6 +1607,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-111"
 }, 
@@ -1302,6 +1627,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-113"
 }, 
 {
@@ -1316,6 +1645,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-115"
 }, 
@@ -1332,6 +1665,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-117"
 }, 
 {
@@ -1346,6 +1683,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-119"
 }, 
@@ -1362,6 +1703,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-121"
 }, 
 {
@@ -1376,6 +1721,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-123"
 }, 
@@ -1392,6 +1741,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-125"
 }, 
 {
@@ -1406,6 +1759,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-127"
 }, 
@@ -1422,6 +1779,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-129"
 }, 
 {
@@ -1436,6 +1797,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-131"
 }, 
@@ -1452,6 +1817,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-133"
 }, 
 {
@@ -1466,6 +1835,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-135"
 }, 
@@ -1482,6 +1855,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-137"
 }, 
 {
@@ -1496,6 +1873,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-139"
 }, 
@@ -1512,6 +1893,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-141"
 }, 
 {
@@ -1526,6 +1911,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-143"
 }, 
@@ -1542,6 +1931,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-145"
 }, 
 {
@@ -1556,6 +1949,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-147"
 }, 
@@ -1572,6 +1969,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-149"
 }, 
 {
@@ -1586,6 +1987,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-151"
 }, 
@@ -1602,6 +2007,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-153"
 }, 
 {
@@ -1616,6 +2025,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-155"
 }, 
@@ -1632,6 +2045,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-157"
 }, 
 {
@@ -1646,6 +2063,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-159"
 }, 
@@ -1662,6 +2083,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-161"
 }, 
 {
@@ -1676,6 +2101,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-163"
 }, 
@@ -1692,6 +2121,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-165"
 }, 
 {
@@ -1706,6 +2139,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-167"
 }, 
@@ -1722,6 +2159,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-169"
 }, 
 {
@@ -1736,6 +2177,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-171"
 }, 
@@ -1752,6 +2197,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-173"
 }, 
 {
@@ -1766,6 +2215,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-175"
 }, 
@@ -1782,6 +2235,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-177"
 }, 
 {
@@ -1796,6 +2253,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-179"
 }, 
@@ -1812,6 +2273,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-181"
 }, 
 {
@@ -1826,6 +2291,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-183"
 }, 
@@ -1842,6 +2311,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-185"
 }, 
 {
@@ -1856,6 +2329,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-187"
 }, 
@@ -1872,6 +2349,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-189"
 }, 
 {
@@ -1886,6 +2367,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-191"
 }, 
@@ -1902,6 +2387,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-193"
 }, 
 {
@@ -1916,6 +2405,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-195"
 }, 
@@ -1932,6 +2425,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-197"
 }, 
 {
@@ -1946,6 +2443,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-199"
 }, 
@@ -1962,6 +2463,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-201"
 }, 
 {
@@ -1976,6 +2481,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-203"
 }, 
@@ -1992,6 +2501,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-205"
 }, 
 {
@@ -2006,6 +2519,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-207"
 }, 
@@ -2022,6 +2539,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-209"
 }, 
 {
@@ -2036,6 +2557,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-211"
 }, 
@@ -2052,6 +2577,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-213"
 }, 
 {
@@ -2066,6 +2595,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-215"
 }, 
@@ -2082,6 +2615,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-217"
 }, 
 {
@@ -2096,6 +2633,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-219"
 }, 
@@ -2112,6 +2653,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vlr-221"
 }, 
 {
@@ -2126,6 +2671,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-223"
 }, 
@@ -2143,7 +2692,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-225"
 }, 
@@ -2159,6 +2709,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-227"
 }, 
@@ -2176,7 +2730,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vlr-229"
 }, 
@@ -2193,6 +2748,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-002"
 }, 
 {
@@ -2207,6 +2766,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-004"
 }, 
@@ -2223,6 +2786,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-006"
 }, 
 {
@@ -2237,6 +2804,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-008"
 }, 
@@ -2254,7 +2825,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-010"
 }, 
@@ -2271,6 +2843,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-012"
 }, 
 {
@@ -2285,6 +2861,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-014"
 }, 
@@ -2301,6 +2881,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-016"
 }, 
 {
@@ -2315,6 +2899,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-018"
 }, 
@@ -2331,6 +2919,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-020"
 }, 
 {
@@ -2345,6 +2937,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-022"
 }, 
@@ -2361,6 +2957,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-024"
 }, 
 {
@@ -2375,6 +2975,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-026"
 }, 
@@ -2391,6 +2995,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-028"
 }, 
 {
@@ -2406,6 +3014,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-030"
 }, 
 {
@@ -2420,6 +3032,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-032"
 }, 
@@ -2437,7 +3053,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-034"
 }, 
@@ -2454,6 +3071,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-036"
 }, 
 {
@@ -2468,6 +3089,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-038"
 }, 
@@ -2484,6 +3109,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-040"
 }, 
 {
@@ -2498,6 +3127,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-042"
 }, 
@@ -2514,6 +3147,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-044"
 }, 
 {
@@ -2528,6 +3165,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-046"
 }, 
@@ -2544,6 +3185,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-048"
 }, 
 {
@@ -2558,6 +3203,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-050"
 }, 
@@ -2574,6 +3223,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-052"
 }, 
 {
@@ -2588,6 +3241,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-054"
 }, 
@@ -2604,6 +3261,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-056"
 }, 
 {
@@ -2618,6 +3279,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-058"
 }, 
@@ -2634,6 +3299,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-060"
 }, 
 {
@@ -2648,6 +3317,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-062"
 }, 
@@ -2664,6 +3337,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-064"
 }, 
 {
@@ -2678,6 +3355,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-066"
 }, 
@@ -2694,6 +3375,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-068"
 }, 
 {
@@ -2708,6 +3393,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-070"
 }, 
@@ -2724,6 +3413,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-072"
 }, 
 {
@@ -2738,6 +3431,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-074"
 }, 
@@ -2754,6 +3451,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-076"
 }, 
 {
@@ -2768,6 +3469,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-078"
 }, 
@@ -2784,6 +3489,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-080"
 }, 
 {
@@ -2798,6 +3507,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-082"
 }, 
@@ -2814,6 +3527,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-084"
 }, 
 {
@@ -2828,6 +3545,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-086"
 }, 
@@ -2845,7 +3566,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-088"
 }, 
@@ -2862,6 +3584,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-090"
 }, 
 {
@@ -2876,6 +3602,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-092"
 }, 
@@ -2892,6 +3622,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-094"
 }, 
 {
@@ -2906,6 +3640,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-096"
 }, 
@@ -2922,6 +3660,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-102"
 }, 
 {
@@ -2936,6 +3678,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-104"
 }, 
@@ -2952,6 +3698,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-106"
 }, 
 {
@@ -2967,6 +3717,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-108"
 }, 
 {
@@ -2981,6 +3735,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-110"
 }, 
@@ -2998,7 +3756,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-112"
 }, 
@@ -3014,6 +3773,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-114"
 }, 
@@ -3031,7 +3794,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-116"
 }, 
@@ -3048,6 +3812,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-118"
 }, 
 {
@@ -3062,6 +3830,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-120"
 }, 
@@ -3078,6 +3850,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-122"
 }, 
 {
@@ -3093,6 +3869,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-124"
 }, 
 {
@@ -3107,6 +3887,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-126"
 }, 
@@ -3124,7 +3908,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-128"
 }, 
@@ -3141,6 +3926,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-130"
 }, 
 {
@@ -3155,6 +3944,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-132"
 }, 
@@ -3171,6 +3964,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-134"
 }, 
 {
@@ -3185,6 +3982,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-136"
 }, 
@@ -3201,6 +4002,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-138"
 }, 
 {
@@ -3216,6 +4021,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-140"
 }, 
 {
@@ -3230,6 +4039,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-142"
 }, 
@@ -3247,7 +4060,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-144"
 }, 
@@ -3263,6 +4077,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-146"
 }, 
@@ -3280,7 +4098,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-148"
 }, 
@@ -3297,6 +4116,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-150"
 }, 
 {
@@ -3311,6 +4134,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-152"
 }, 
@@ -3327,6 +4154,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-154"
 }, 
 {
@@ -3342,6 +4173,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-156"
 }, 
 {
@@ -3356,6 +4191,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-158"
 }, 
@@ -3373,7 +4212,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-160"
 }, 
@@ -3390,6 +4230,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-162"
 }, 
 {
@@ -3404,6 +4248,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-164"
 }, 
@@ -3420,6 +4268,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-166"
 }, 
 {
@@ -3434,6 +4286,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-168"
 }, 
@@ -3450,6 +4306,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-170"
 }, 
 {
@@ -3465,6 +4325,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-172"
 }, 
 {
@@ -3479,6 +4343,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-174"
 }, 
@@ -3496,7 +4364,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-176"
 }, 
@@ -3513,6 +4382,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-178"
 }, 
 {
@@ -3527,6 +4400,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-180"
 }, 
@@ -3543,6 +4420,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-182"
 }, 
 {
@@ -3557,6 +4438,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-184"
 }, 
@@ -3573,6 +4458,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-186"
 }, 
 {
@@ -3588,6 +4477,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-188"
 }, 
 {
@@ -3602,6 +4495,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-190"
 }, 
@@ -3619,7 +4516,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-192"
 }, 
@@ -3636,6 +4534,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-194"
 }, 
 {
@@ -3650,6 +4552,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-196"
 }, 
@@ -3666,6 +4572,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-198"
 }, 
 {
@@ -3680,6 +4590,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-200"
 }, 
@@ -3696,6 +4610,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-202"
 }, 
 {
@@ -3711,6 +4629,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-204"
 }, 
 {
@@ -3725,6 +4647,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-206"
 }, 
@@ -3742,7 +4668,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-208"
 }, 
@@ -3759,6 +4686,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-210"
 }, 
 {
@@ -3773,6 +4704,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-212"
 }, 
@@ -3789,6 +4724,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-214"
 }, 
 {
@@ -3804,6 +4743,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-216"
 }, 
 {
@@ -3818,6 +4761,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-218"
 }, 
@@ -3835,7 +4782,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-220"
 }, 
@@ -3851,6 +4799,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-222"
 }, 
@@ -3868,7 +4820,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-224"
 }, 
@@ -3885,6 +4838,10 @@
 "result": "fail", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "abs-pos-non-replaced-vrl-226"
 }, 
 {
@@ -3899,6 +4856,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "abs-pos-non-replaced-vrl-228"
 }, 
@@ -3919,7 +4880,8 @@
 "source": "hshiozawa"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "autoheight-regions-in-autoheight-flexbox-002"
 }, 
@@ -3936,6 +4898,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "background-position-vlr-003"
 }, 
 {
@@ -3950,6 +4916,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "background-position-vlr-005"
 }, 
@@ -3966,6 +4936,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "background-position-vlr-007"
 }, 
 {
@@ -3980,6 +4954,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "background-position-vlr-009"
 }, 
@@ -3996,6 +4974,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "background-position-vlr-011"
 }, 
 {
@@ -4010,6 +4992,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "background-position-vlr-013"
 }, 
@@ -4026,6 +5012,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "background-position-vlr-015"
 }, 
 {
@@ -4040,6 +5030,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "background-position-vlr-017"
 }, 
@@ -4056,6 +5050,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "background-position-vrl-002"
 }, 
 {
@@ -4070,6 +5068,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "background-position-vrl-004"
 }, 
@@ -4086,6 +5088,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "background-position-vrl-006"
 }, 
 {
@@ -4100,6 +5106,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "background-position-vrl-008"
 }, 
@@ -4116,6 +5126,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "background-position-vrl-010"
 }, 
 {
@@ -4130,6 +5144,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "background-position-vrl-012"
 }, 
@@ -4146,6 +5164,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "background-position-vrl-014"
 }, 
 {
@@ -4160,6 +5182,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "background-position-vrl-016"
 }, 
@@ -4176,6 +5202,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "background-position-vrl-018"
 }, 
 {
@@ -4190,6 +5220,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "background-position-vrl-020"
 }, 
@@ -4206,6 +5240,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "background-position-vrl-022"
 }, 
 {
@@ -4220,6 +5258,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "background-size-document-root-vrl-002"
 }, 
@@ -4236,6 +5278,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "background-size-document-root-vrl-004"
 }, 
 {
@@ -4251,6 +5297,10 @@
 "result": "pass", 
 "source": "hshiozawa"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "background-size-document-root-vrl-006"
 }, 
 {
@@ -4265,6 +5315,10 @@
 "Trident": {
 "result": "pass", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "background-size-document-root-vrl-008"
 }, 
@@ -5891,16 +6945,7 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
+"result": "pass"
 }, 
 "id": "bidi-normal-011"
 }, 
@@ -8699,9 +9744,21 @@
 "id": "extract-ordered-list-direction-and-writing-modes"
 }, 
 {
+"Blink": {
+"result": "fail"
+}, 
+"Gecko": {
+"result": "pass"
+}, 
 "id": "first-page-vlr-003"
 }, 
 {
+"Blink": {
+"result": "pass"
+}, 
+"Gecko": {
+"result": "fail"
+}, 
 "id": "first-page-vrl-002"
 }, 
 {
@@ -12151,6 +13208,10 @@
 "result": "fail", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "text-baseline-007"
 }, 
 {
@@ -12204,6 +13265,10 @@
 "result": "fail", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "text-baseline-010"
 }, 
 {
@@ -12216,6 +13281,10 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "fail", 
+"source": "lemoned"
+}, 
+"WebKit": {
 "result": "fail", 
 "source": "lemoned"
 }, 
@@ -12988,6 +14057,10 @@
 "result": "pass", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "text-indent-vlr-003"
 }, 
 {
@@ -13003,6 +14076,10 @@
 "result": "fail", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "text-indent-vlr-005"
 }, 
 {
@@ -13015,6 +14092,10 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
+"WebKit": {
 "result": "pass", 
 "source": "lemoned"
 }, 
@@ -13033,6 +14114,10 @@
 "result": "fail", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "text-indent-vlr-009"
 }, 
 {
@@ -13045,6 +14130,10 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
+"WebKit": {
 "result": "pass", 
 "source": "lemoned"
 }, 
@@ -13063,6 +14152,10 @@
 "result": "uncertain", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "text-indent-vlr-013"
 }, 
 {
@@ -13075,6 +14168,10 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
+"WebKit": {
 "result": "pass", 
 "source": "lemoned"
 }, 
@@ -13093,6 +14190,10 @@
 "result": "uncertain", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "text-indent-vlr-017"
 }, 
 {
@@ -13105,6 +14206,10 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
+"WebKit": {
 "result": "pass", 
 "source": "lemoned"
 }, 
@@ -13123,6 +14228,10 @@
 "result": "fail", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "text-indent-vrl-004"
 }, 
 {
@@ -13135,6 +14244,10 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
+"WebKit": {
 "result": "pass", 
 "source": "lemoned"
 }, 
@@ -13153,6 +14266,10 @@
 "result": "fail", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "text-indent-vrl-008"
 }, 
 {
@@ -13165,6 +14282,10 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
+"WebKit": {
 "result": "pass", 
 "source": "lemoned"
 }, 
@@ -13183,6 +14304,10 @@
 "result": "uncertain", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "text-indent-vrl-012"
 }, 
 {
@@ -13195,6 +14320,10 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
+"WebKit": {
 "result": "pass", 
 "source": "lemoned"
 }, 
@@ -13211,6 +14340,10 @@
 }, 
 "Trident": {
 "result": "uncertain", 
+"source": "lemoned"
+}, 
+"WebKit": {
+"result": "pass", 
 "source": "lemoned"
 }, 
 "id": "text-indent-vrl-016"
@@ -13261,6 +14394,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "text-orientation-013"
 }, 
 {
@@ -13272,6 +14409,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "text-orientation-014"
 }, 
 {
@@ -13282,6 +14423,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "text-orientation-015"
 }, 
@@ -14394,6 +15539,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "vertical-alignment-new-002"
 }, 
 {
@@ -14404,6 +15553,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-new-003"
 }, 
@@ -14416,6 +15569,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "vertical-alignment-new-004"
 }, 
 {
@@ -14426,6 +15583,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-new-005"
 }, 
@@ -14438,6 +15599,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "vertical-alignment-new-006"
 }, 
 {
@@ -14448,6 +15613,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-new-007"
 }, 
@@ -14460,6 +15629,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "vertical-alignment-new-008"
 }, 
 {
@@ -14470,6 +15643,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "vertical-alignment-new-009"
 }, 
@@ -14486,6 +15663,10 @@
 "result": "pass", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "writing-mode-horizontal-001l"
 }, 
 {
@@ -14499,6 +15680,10 @@
 }, 
 "Trident": {
 "result": "fail", 
+"source": "lemoned"
+}, 
+"WebKit": {
+"result": "pass", 
 "source": "lemoned"
 }, 
 "id": "writing-mode-horizontal-001r"

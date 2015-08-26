@@ -265,7 +265,6 @@ bidi-normal-007,pass,HTML,2014-08-28T09:36:21+00:00,240f:e3:96eb:1:2960:f8e3:e08
 bidi-normal-008,pass,HTML,2014-08-28T09:36:25+00:00,240f:e3:96eb:1:2960:f8e3:e082:6917,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
 bidi-normal-009,pass,HTML,2014-08-28T09:36:29+00:00,240f:e3:96eb:1:2960:f8e3:e082:6917,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
 bidi-normal-010,pass,HTML,2014-08-28T09:36:32+00:00,240f:e3:96eb:1:2960:f8e3:e082:6917,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
-bidi-normal-011,pass,HTML,2014-08-28T09:36:35+00:00,240f:e3:96eb:1:2960:f8e3:e082:6917,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
 bidi-override-001,pass,HTML,2014-08-28T09:36:41+00:00,240f:e3:96eb:1:2960:f8e3:e082:6917,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
 bidi-override-002,pass,HTML,2014-08-28T09:36:44+00:00,240f:e3:96eb:1:2960:f8e3:e082:6917,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
 bidi-override-003,pass,HTML,2014-08-28T09:36:48+00:00,240f:e3:96eb:1:2960:f8e3:e082:6917,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:34.0) Gecko/20100101 Firefox/34.0
@@ -333,7 +332,6 @@ bidi-normal-007,pass,HTML,2014-08-28T12:27:25+00:00,240f:e3:96eb:1:2960:f8e3:e08
 bidi-normal-008,pass,HTML,2014-08-28T12:27:30+00:00,240f:e3:96eb:1:2960:f8e3:e082:6917,WebKit,"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36"
 bidi-normal-009,pass,HTML,2014-08-28T12:27:33+00:00,240f:e3:96eb:1:2960:f8e3:e082:6917,WebKit,"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36"
 bidi-normal-010,pass,HTML,2014-08-28T12:27:36+00:00,240f:e3:96eb:1:2960:f8e3:e082:6917,WebKit,"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36"
-bidi-normal-011,pass,HTML,2014-08-28T12:27:39+00:00,240f:e3:96eb:1:2960:f8e3:e082:6917,WebKit,"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36"
 bidi-override-001,pass,HTML,2014-08-28T12:27:44+00:00,240f:e3:96eb:1:2960:f8e3:e082:6917,WebKit,"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36"
 bidi-override-002,pass,HTML,2014-08-28T12:27:49+00:00,240f:e3:96eb:1:2960:f8e3:e082:6917,WebKit,"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36"
 bidi-override-003,pass,HTML,2014-08-28T12:27:55+00:00,240f:e3:96eb:1:2960:f8e3:e082:6917,WebKit,"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36"
@@ -505,7 +503,6 @@ bidi-normal-007,pass,HTML,2014-09-11T07:19:08+00:00,91.227.212.3,Gecko,Mozilla/5
 bidi-normal-008,pass,HTML,2014-09-11T07:19:11+00:00,91.227.212.3,Gecko,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0
 bidi-normal-009,pass,HTML,2014-09-11T07:19:14+00:00,91.227.212.3,Gecko,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0
 bidi-normal-010,pass,HTML,2014-09-11T07:19:16+00:00,91.227.212.3,Gecko,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0
-bidi-normal-011,pass,HTML,2014-09-11T07:19:20+00:00,91.227.212.3,Gecko,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0
 bidi-override-001,pass,HTML,2014-09-11T07:19:26+00:00,91.227.212.3,Gecko,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0
 bidi-override-002,pass,HTML,2014-09-11T07:19:29+00:00,91.227.212.3,Gecko,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0
 bidi-override-003,pass,HTML,2014-09-11T07:19:35+00:00,91.227.212.3,Gecko,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0
@@ -584,7 +581,6 @@ bidi-normal-007,pass,HTML,2014-09-11T08:54:41+00:00,91.227.212.3,Gecko,Mozilla/5
 bidi-normal-008,pass,HTML,2014-09-11T08:54:44+00:00,91.227.212.3,Gecko,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0
 bidi-normal-009,pass,HTML,2014-09-11T08:54:47+00:00,91.227.212.3,Gecko,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0
 bidi-normal-010,pass,HTML,2014-09-11T08:54:50+00:00,91.227.212.3,Gecko,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0
-bidi-normal-011,pass,HTML,2014-09-11T08:54:53+00:00,91.227.212.3,Gecko,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0
 bidi-override-001,pass,HTML,2014-09-11T08:54:57+00:00,91.227.212.3,Gecko,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0
 bidi-override-002,pass,HTML,2014-09-11T08:55:03+00:00,91.227.212.3,Gecko,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0
 bidi-override-003,pass,HTML,2014-09-11T08:55:06+00:00,91.227.212.3,Gecko,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0
@@ -731,7 +727,6 @@ bidi-normal-007,pass,HTML,2014-10-11T06:35:04+00:00,99.227.198.177,WebKit,"Mozil
 bidi-normal-008,pass,HTML,2014-10-11T06:35:07+00:00,99.227.198.177,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36"
 bidi-normal-009,pass,HTML,2014-10-11T06:35:11+00:00,99.227.198.177,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36"
 bidi-normal-010,pass,HTML,2014-10-11T06:35:15+00:00,99.227.198.177,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36"
-bidi-normal-011,pass,HTML,2014-10-11T06:35:18+00:00,99.227.198.177,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36"
 bidi-override-001,pass,HTML,2014-10-11T06:35:21+00:00,99.227.198.177,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36"
 bidi-override-002,pass,HTML,2014-10-11T06:35:25+00:00,99.227.198.177,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36"
 bidi-override-003,pass,HTML,2014-10-11T06:35:29+00:00,99.227.198.177,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36"
@@ -1037,7 +1032,6 @@ bidi-normal-007,pass,HTML,2014-11-08T02:54:22+00:00,135.19.206.15,Gecko,Mozilla/
 bidi-normal-008,pass,HTML,2014-11-08T02:54:24+00:00,135.19.206.15,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0
 bidi-normal-009,pass,HTML,2014-11-08T02:54:26+00:00,135.19.206.15,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0
 bidi-normal-010,pass,HTML,2014-11-08T02:54:28+00:00,135.19.206.15,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0
-bidi-normal-011,pass,HTML,2014-11-08T02:54:36+00:00,135.19.206.15,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0
 bidi-override-001,pass,HTML,2014-11-08T02:54:39+00:00,135.19.206.15,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0
 bidi-override-002,pass,HTML,2014-11-08T02:54:41+00:00,135.19.206.15,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0
 bidi-override-003,pass,HTML,2014-11-08T02:54:43+00:00,135.19.206.15,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0
@@ -3191,7 +3185,6 @@ bidi-normal-007,pass,HTML,2015-05-03T06:53:52+00:00,gtalbot,Gecko,Mozilla/5.0 (X
 bidi-normal-008,pass,HTML,2015-05-03T06:53:55+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 bidi-normal-009,pass,HTML,2015-05-03T06:53:59+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 bidi-normal-010,pass,HTML,2015-05-03T06:54:04+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
-bidi-normal-011,fail,HTML,2015-05-03T06:54:10+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 bidi-override-001,pass,HTML,2015-05-03T06:54:17+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 bidi-override-002,pass,HTML,2015-05-03T06:54:23+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 bidi-override-003,pass,HTML,2015-05-03T06:54:29+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
@@ -3504,7 +3497,6 @@ bidi-normal-007,pass,HTML,2015-05-03T08:15:55+00:00,gtalbot,Gecko,Mozilla/5.0 (X
 bidi-normal-008,pass,HTML,2015-05-03T08:15:57+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 bidi-normal-009,pass,HTML,2015-05-03T08:16:00+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 bidi-normal-010,pass,HTML,2015-05-03T08:16:02+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
-bidi-normal-011,fail,HTML,2015-05-03T08:16:06+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 bidi-override-001,pass,HTML,2015-05-03T08:16:08+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 bidi-override-002,pass,HTML,2015-05-03T08:16:11+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 bidi-override-003,pass,HTML,2015-05-03T08:16:13+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
@@ -3908,7 +3900,6 @@ direction-applies-to-004,pass,HTML,2015-05-27T08:58:38+00:00,89.31.192.234,WebKi
 direction-applies-to-005,pass,HTML,2015-05-27T08:58:44+00:00,89.31.192.234,WebKit,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
 table-column-order-003,uncertain,HTML,2015-05-27T08:58:53+00:00,89.31.192.234,WebKit,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
 block-flow-direction-003,pass,HTML,2015-05-31T05:23:03+00:00,hshiozawa,Trident,Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
-bidi-normal-011,fail,HTML,2015-05-31T06:54:38+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2404.0 Safari/537.36"
 block-flow-direction-009,uncertain,HTML,2015-05-31T06:57:35+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2404.0 Safari/537.36"
 block-flow-direction-018,fail,HTML,2015-06-01T05:13:51+00:00,114.167.4.67,Trident,Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
 line-box-direction-016,fail,HTML,2015-06-01T05:15:31+00:00,114.167.4.67,Trident,Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
@@ -4634,7 +4625,6 @@ bidi-normal-007,pass,HTML,2015-06-08T23:42:00+00:00,gtalbot,Gecko,Mozilla/5.0 (X
 bidi-normal-008,pass,HTML,2015-06-08T23:42:06+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 bidi-normal-009,pass,HTML,2015-06-08T23:42:12+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 bidi-normal-010,pass,HTML,2015-06-08T23:42:16+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-bidi-normal-011,fail,HTML,2015-06-08T23:44:04+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 bidi-override-001,pass,HTML,2015-06-08T23:44:10+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 bidi-override-002,pass,HTML,2015-06-08T23:44:16+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 bidi-override-003,pass,HTML,2015-06-08T23:44:21+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
@@ -5376,7 +5366,6 @@ bidi-normal-007,pass,HTML,2015-06-25T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0
 bidi-normal-008,pass,HTML,2015-06-25T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
 bidi-normal-009,pass,HTML,2015-06-25T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
 bidi-normal-010,pass,HTML,2015-06-25T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
-bidi-normal-011,fail,HTML,2015-06-25T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
 bidi-override-001,pass,HTML,2015-06-25T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
 bidi-override-002,pass,HTML,2015-06-25T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
 bidi-override-003,pass,HTML,2015-06-25T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
@@ -5842,7 +5831,6 @@ bidi-normal-007,pass,HTML,2015-06-25T11:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0
 bidi-normal-008,pass,HTML,2015-06-25T11:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
 bidi-normal-009,pass,HTML,2015-06-25T11:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
 bidi-normal-010,pass,HTML,2015-06-25T11:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
-bidi-normal-011,fail,HTML,2015-06-25T11:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
 bidi-override-001,pass,HTML,2015-06-25T11:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
 bidi-override-002,pass,HTML,2015-06-25T11:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
 bidi-override-003,pass,HTML,2015-06-25T11:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
@@ -6320,7 +6308,6 @@ bidi-normal-007,pass,HTML,2015-06-29T01:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0
 bidi-normal-008,pass,HTML,2015-06-29T01:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2442.0 Safari/537.36"
 bidi-normal-009,pass,HTML,2015-06-29T01:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2442.0 Safari/537.36"
 bidi-normal-010,pass,HTML,2015-06-29T01:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2442.0 Safari/537.36"
-bidi-normal-011,fail,HTML,2015-06-29T01:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2442.0 Safari/537.36"
 bidi-override-001,pass,HTML,2015-06-29T01:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2442.0 Safari/537.36"
 bidi-override-002,pass,HTML,2015-06-29T01:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2442.0 Safari/537.36"
 bidi-override-003,pass,HTML,2015-06-29T01:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2442.0 Safari/537.36"
@@ -6931,7 +6918,6 @@ bidi-normal-007,pass,HTML,2015-06-30T06:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0
 bidi-normal-008,pass,HTML,2015-06-30T06:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2443.0 Safari/537.36"
 bidi-normal-009,pass,HTML,2015-06-30T06:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2443.0 Safari/537.36"
 bidi-normal-010,pass,HTML,2015-06-30T06:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2443.0 Safari/537.36"
-bidi-normal-011,fail,HTML,2015-06-30T06:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2443.0 Safari/537.36"
 bidi-override-001,pass,HTML,2015-06-30T06:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2443.0 Safari/537.36"
 bidi-override-002,pass,HTML,2015-06-30T06:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2443.0 Safari/537.36"
 bidi-override-003,pass,HTML,2015-06-30T06:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2443.0 Safari/537.36"
@@ -7611,7 +7597,6 @@ bidi-normal-007,pass,HTML,2015-07-01T05:30:20+00:00,lemoned,Trident,Mozilla/5.0 
 bidi-normal-008,pass,HTML,2015-07-01T05:30:43+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 bidi-normal-009,pass,HTML,2015-07-01T05:32:19+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 bidi-normal-010,pass,HTML,2015-07-01T05:32:44+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-bidi-normal-011,fail,HTML,2015-07-01T05:33:05+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 bidi-override-001,pass,HTML,2015-07-01T05:36:26+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 bidi-override-002,pass,HTML,2015-07-01T05:36:46+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 bidi-override-003,pass,HTML,2015-07-01T05:37:10+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
@@ -7989,7 +7974,6 @@ bidi-normal-007,pass,HTML,2015-07-02T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0
 bidi-normal-008,pass,HTML,2015-07-02T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 bidi-normal-009,pass,HTML,2015-07-02T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 bidi-normal-010,pass,HTML,2015-07-02T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
-bidi-normal-011,fail,HTML,2015-07-02T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 bidi-override-001,pass,HTML,2015-07-02T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 bidi-override-002,pass,HTML,2015-07-02T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 bidi-override-003,pass,HTML,2015-07-02T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
@@ -8835,7 +8819,6 @@ bidi-normal-007,pass,HTML,2015-07-02T06:38:12+00:00,gtalbot,Gecko,Mozilla/5.0 (X
 bidi-normal-008,pass,HTML,2015-07-02T06:38:16+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 bidi-normal-009,pass,HTML,2015-07-02T06:38:19+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 bidi-normal-010,pass,HTML,2015-07-02T06:38:23+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
-bidi-normal-011,pass,HTML,2015-07-02T06:38:43+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 bidi-override-001,pass,HTML,2015-07-02T06:38:47+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 bidi-override-002,pass,HTML,2015-07-02T06:38:51+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 bidi-override-003,pass,HTML,2015-07-02T06:38:53+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
@@ -9352,7 +9335,6 @@ bidi-normal-007,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0
 bidi-normal-008,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 bidi-normal-009,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 bidi-normal-010,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
-bidi-normal-011,fail,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 bidi-override-001,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 bidi-override-002,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 bidi-override-003,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
@@ -10033,7 +10015,6 @@ bidi-normal-007,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0
 bidi-normal-008,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 bidi-normal-009,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 bidi-normal-010,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
-bidi-normal-011,fail,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 bidi-override-001,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 bidi-override-002,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 bidi-override-003,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
@@ -10402,7 +10383,6 @@ direction-applies-to-003,fail,HTML,2015-07-11T14:59:31+00:00,222.158.227.129,Web
 bidi-003,uncertain,HTML,2015-07-11T14:59:59+00:00,222.158.227.129,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 bidi-alt-001,pass,HTML,2015-07-11T15:00:36+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 bidi-breaking-003,fail,HTML,2015-07-11T15:00:48+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
-bidi-normal-011,fail,HTML,2015-07-11T15:01:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 abs-pos-non-replaced-vlr-103,pass,HTML,2015-07-12T11:02:27+00:00,125.30.21.225,Trident,Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
 abs-pos-non-replaced-vlr-105,pass,HTML,2015-07-12T11:02:46+00:00,125.30.21.225,Trident,Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
 abs-pos-non-replaced-vlr-107,pass,HTML,2015-07-12T11:02:57+00:00,125.30.21.225,Trident,Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
@@ -10879,7 +10859,6 @@ bidi-normal-007,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0
 bidi-normal-008,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 bidi-normal-009,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 bidi-normal-010,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
-bidi-normal-011,fail,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 bidi-override-001,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 bidi-override-002,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 bidi-override-003,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
@@ -11716,7 +11695,6 @@ bidi-normal-007,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0
 bidi-normal-008,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
 bidi-normal-009,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
 bidi-normal-010,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
-bidi-normal-011,fail,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
 bidi-override-001,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
 bidi-override-002,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
 bidi-override-003,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
@@ -12369,7 +12347,6 @@ bidi-normal-007,pass,HTML,2015-08-10T09:33:03+00:00,lemoned,WebKit,"Mozilla/5.0 
 bidi-normal-008,pass,HTML,2015-08-10T09:33:34+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 bidi-normal-009,pass,HTML,2015-08-10T09:34:08+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 bidi-normal-010,pass,HTML,2015-08-10T09:34:38+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
-bidi-normal-011,fail,HTML,2015-08-10T09:35:04+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 bidi-embed-001,pass,HTML,2015-08-11T00:00:59+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 bidi-embed-003,pass,HTML,2015-08-11T00:02:04+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 bidi-embed-004,pass,HTML,2015-08-11T00:02:21+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
@@ -12763,7 +12740,6 @@ bidi-normal-007,pass,HTML,2015-08-14T21:04:33+00:00,gtalbot,Gecko,Mozilla/5.0 (X
 bidi-normal-008,pass,HTML,2015-08-14T21:04:36+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 bidi-normal-009,pass,HTML,2015-08-14T21:04:38+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 bidi-normal-010,pass,HTML,2015-08-14T21:04:47+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-bidi-normal-011,pass,HTML,2015-08-14T21:05:41+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 bidi-override-001,pass,HTML,2015-08-14T21:05:47+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 bidi-override-002,pass,HTML,2015-08-14T21:05:51+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 bidi-override-003,pass,HTML,2015-08-14T21:05:56+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
@@ -13822,7 +13798,6 @@ bidi-normal-007,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0
 bidi-normal-008,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
 bidi-normal-009,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
 bidi-normal-010,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
-bidi-normal-011,fail,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
 bidi-override-001,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
 bidi-override-002,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
 bidi-override-003,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
@@ -14277,3 +14252,331 @@ text-decoration-upright-vlr-007,pass,HTML,2015-08-21T03:56:17+00:00,lemoned,WebK
 text-decoration-upright-vrl-002,pass,HTML,2015-08-21T03:56:35+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 text-decoration-upright-vrl-004,pass,HTML,2015-08-21T03:56:39+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 text-decoration-upright-vrl-006,pass,HTML,2015-08-21T03:56:54+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
+bidi-normal-011,pass,HTML,2015-08-22T09:47:52+00:00,95.181.136.132,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36"
+first-page-vlr-003,fail,HTML,2015-08-22T09:48:30+00:00,95.181.136.132,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36"
+vertical-alignment-new-002,pass,HTML,2015-08-23T23:46:38+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+vertical-alignment-new-003,fail,HTML,2015-08-23T23:46:50+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+vertical-alignment-new-004,pass,HTML,2015-08-23T23:47:21+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+vertical-alignment-new-005,pass,HTML,2015-08-23T23:49:31+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+vertical-alignment-new-006,pass,HTML,2015-08-23T23:49:42+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+vertical-alignment-new-007,pass,HTML,2015-08-23T23:50:15+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+vertical-alignment-new-008,pass,HTML,2015-08-23T23:50:25+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+vertical-alignment-new-009,fail,HTML,2015-08-23T23:51:10+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+writing-mode-horizontal-001l,pass,HTML,2015-08-23T23:52:25+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+writing-mode-horizontal-001r,pass,HTML,2015-08-23T23:52:39+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-indent-vlr-003,pass,HTML,2015-08-23T23:56:35+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-indent-vlr-005,pass,HTML,2015-08-23T23:56:56+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-indent-vlr-007,pass,HTML,2015-08-23T23:57:09+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-indent-vlr-011,pass,HTML,2015-08-23T23:58:08+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-indent-vlr-013,pass,HTML,2015-08-23T23:58:27+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-indent-vlr-015,pass,HTML,2015-08-23T23:58:39+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-indent-vlr-009,pass,HTML,2015-08-23T23:59:13+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-indent-vlr-017,pass,HTML,2015-08-23T23:59:36+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-indent-vrl-002,pass,HTML,2015-08-23T23:59:47+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-indent-vrl-004,pass,HTML,2015-08-23T23:59:59+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-indent-vrl-006,pass,HTML,2015-08-24T00:00:24+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-indent-vrl-008,pass,HTML,2015-08-24T00:00:33+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-indent-vrl-010,pass,HTML,2015-08-24T00:00:41+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-indent-vrl-012,pass,HTML,2015-08-24T00:00:51+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-indent-vrl-014,pass,HTML,2015-08-24T00:01:01+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-indent-vrl-016,pass,HTML,2015-08-24T00:01:11+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-orientation-013,fail,HTML,2015-08-24T00:02:53+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-orientation-014,pass,HTML,2015-08-24T00:03:14+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-orientation-015,fail,HTML,2015-08-24T00:03:28+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-baseline-007,fail,HTML,2015-08-24T00:04:23+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-baseline-010,fail,HTML,2015-08-24T00:04:49+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+text-baseline-011,fail,HTML,2015-08-24T00:05:15+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+first-page-vrl-002,pass,HTML,2015-08-24T09:48:03+00:00,95.78.160.57,WebKit,"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36"
+abs-pos-non-replaced-icb-vlr-003,fail,HTML,2015-08-24T10:03:58+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vlr-009,pass,HTML,2015-08-24T10:04:54+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vlr-005,fail,HTML,2015-08-24T10:05:11+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vlr-007,pass,HTML,2015-08-24T10:05:32+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vlr-011,fail,HTML,2015-08-24T10:06:15+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vlr-013,fail,HTML,2015-08-24T10:06:19+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vlr-015,pass,HTML,2015-08-24T10:06:32+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vlr-019,pass,HTML,2015-08-24T10:07:39+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vlr-021,pass,HTML,2015-08-24T10:07:57+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vlr-017,pass,HTML,2015-08-24T10:08:16+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vlr-023,pass,HTML,2015-08-24T10:08:47+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vlr-025,pass,HTML,2015-08-24T10:09:02+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vlr-027,pass,HTML,2015-08-24T10:09:19+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vlr-029,pass,HTML,2015-08-24T10:10:12+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vlr-033,fail,HTML,2015-08-24T10:10:12+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vlr-031,pass,HTML,2015-08-24T10:10:13+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vrl-002,fail,HTML,2015-08-24T10:10:39+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vrl-004,fail,HTML,2015-08-24T10:10:46+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vrl-006,fail,HTML,2015-08-24T10:10:52+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vrl-010,fail,HTML,2015-08-24T10:11:31+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vrl-008,fail,HTML,2015-08-24T10:11:46+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vrl-012,fail,HTML,2015-08-24T10:12:26+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vrl-014,fail,HTML,2015-08-24T10:13:10+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vrl-016,fail,HTML,2015-08-24T10:13:20+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vrl-018,fail,HTML,2015-08-24T10:14:21+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vrl-022,pass,HTML,2015-08-24T10:14:44+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vrl-020,fail,HTML,2015-08-24T10:14:50+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vrl-024,pass,HTML,2015-08-24T10:15:22+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vrl-026,pass,HTML,2015-08-24T10:15:52+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vrl-028,pass,HTML,2015-08-24T10:15:55+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vrl-030,fail,HTML,2015-08-24T10:16:17+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-icb-vrl-032,pass,HTML,2015-08-24T10:16:24+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-005,fail,HTML,2015-08-26T02:37:19+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-007,pass,HTML,2015-08-26T02:37:53+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-003,pass,HTML,2015-08-26T02:41:59+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-009,pass,HTML,2015-08-26T02:43:07+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-011,pass,HTML,2015-08-26T02:43:15+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-013,pass,HTML,2015-08-26T02:44:06+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-015,pass,HTML,2015-08-26T02:44:38+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-017,fail,HTML,2015-08-26T02:44:46+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-019,pass,HTML,2015-08-26T02:46:42+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-021,pass,HTML,2015-08-26T02:47:59+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-023,pass,HTML,2015-08-26T02:48:12+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-025,pass,HTML,2015-08-26T02:48:27+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-027,pass,HTML,2015-08-26T02:49:39+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-029,fail,HTML,2015-08-26T02:49:46+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-031,pass,HTML,2015-08-26T02:50:00+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-033,pass,HTML,2015-08-26T02:50:45+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-035,pass,HTML,2015-08-26T02:50:55+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-037,pass,HTML,2015-08-26T02:51:04+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-039,pass,HTML,2015-08-26T02:51:34+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-041,fail,HTML,2015-08-26T02:51:46+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-043,pass,HTML,2015-08-26T02:51:54+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-045,pass,HTML,2015-08-26T02:52:32+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-047,pass,HTML,2015-08-26T02:52:42+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-049,pass,HTML,2015-08-26T02:52:55+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-051,pass,HTML,2015-08-26T02:56:13+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-053,fail,HTML,2015-08-26T02:56:19+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-055,pass,HTML,2015-08-26T02:56:26+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-057,pass,HTML,2015-08-26T02:58:34+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-059,pass,HTML,2015-08-26T02:58:40+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-061,pass,HTML,2015-08-26T03:00:01+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-063,pass,HTML,2015-08-26T03:00:30+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-065,fail,HTML,2015-08-26T03:08:47+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-067,pass,HTML,2015-08-26T03:08:55+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-069,pass,HTML,2015-08-26T03:09:15+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-071,pass,HTML,2015-08-26T03:09:23+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-073,pass,HTML,2015-08-26T03:09:31+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-075,pass,HTML,2015-08-26T03:47:39+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-077,fail,HTML,2015-08-26T03:47:46+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-079,pass,HTML,2015-08-26T03:48:06+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-081,pass,HTML,2015-08-26T03:48:26+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-083,pass,HTML,2015-08-26T03:48:38+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-085,pass,HTML,2015-08-26T03:48:46+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-089,fail,HTML,2015-08-26T03:49:35+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-087,pass,HTML,2015-08-26T03:49:46+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-091,pass,HTML,2015-08-26T03:50:15+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-093,pass,HTML,2015-08-26T03:50:39+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-095,fail,HTML,2015-08-26T03:50:46+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-097,pass,HTML,2015-08-26T03:50:53+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-103,pass,HTML,2015-08-26T03:51:16+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-105,fail,HTML,2015-08-26T03:51:24+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-107,pass,HTML,2015-08-26T03:51:53+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-109,fail,HTML,2015-08-26T03:52:53+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-111,pass,HTML,2015-08-26T03:53:00+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-113,pass,HTML,2015-08-26T03:53:10+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-115,pass,HTML,2015-08-26T03:53:31+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-117,pass,HTML,2015-08-26T03:53:42+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-119,pass,HTML,2015-08-26T03:53:50+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-121,fail,HTML,2015-08-26T04:03:19+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-123,pass,HTML,2015-08-26T04:03:31+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-125,fail,HTML,2015-08-26T04:03:39+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-127,pass,HTML,2015-08-26T05:06:17+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-129,pass,HTML,2015-08-26T05:06:27+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-131,pass,HTML,2015-08-26T05:06:34+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-133,pass,HTML,2015-08-26T05:06:42+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-135,pass,HTML,2015-08-26T05:07:14+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-137,fail,HTML,2015-08-26T05:07:20+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-139,pass,HTML,2015-08-26T05:07:27+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-141,fail,HTML,2015-08-26T05:07:40+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-143,pass,HTML,2015-08-26T05:08:00+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-145,pass,HTML,2015-08-26T05:08:07+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-147,pass,HTML,2015-08-26T05:08:16+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-151,pass,HTML,2015-08-26T05:08:46+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-153,fail,HTML,2015-08-26T05:08:53+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-149,pass,HTML,2015-08-26T05:09:00+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-155,pass,HTML,2015-08-26T05:09:20+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-157,fail,HTML,2015-08-26T05:09:28+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-159,pass,HTML,2015-08-26T05:09:38+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-161,pass,HTML,2015-08-26T05:10:13+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-163,pass,HTML,2015-08-26T05:10:22+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-165,pass,HTML,2015-08-26T05:10:44+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-167,pass,HTML,2015-08-26T05:14:58+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-169,fail,HTML,2015-08-26T05:15:07+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-171,pass,HTML,2015-08-26T05:15:16+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-173,fail,HTML,2015-08-26T05:15:40+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-175,pass,HTML,2015-08-26T05:15:48+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-177,pass,HTML,2015-08-26T05:15:58+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-179,pass,HTML,2015-08-26T05:16:32+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-181,pass,HTML,2015-08-26T05:16:40+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-183,pass,HTML,2015-08-26T05:16:48+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-185,fail,HTML,2015-08-26T05:17:06+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-187,pass,HTML,2015-08-26T05:17:20+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-189,fail,HTML,2015-08-26T05:17:33+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-191,pass,HTML,2015-08-26T05:17:58+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-193,pass,HTML,2015-08-26T05:18:06+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-195,pass,HTML,2015-08-26T05:18:15+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-197,pass,HTML,2015-08-26T05:18:46+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-199,pass,HTML,2015-08-26T05:18:57+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-201,fail,HTML,2015-08-26T05:19:07+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-203,pass,HTML,2015-08-26T05:19:27+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-205,fail,HTML,2015-08-26T05:19:37+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-207,pass,HTML,2015-08-26T05:19:46+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-209,pass,HTML,2015-08-26T05:20:08+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-211,pass,HTML,2015-08-26T05:20:16+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-213,pass,HTML,2015-08-26T05:20:24+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-215,pass,HTML,2015-08-26T05:20:42+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-217,fail,HTML,2015-08-26T05:20:51+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-219,pass,HTML,2015-08-26T05:21:00+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-221,fail,HTML,2015-08-26T05:21:21+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-223,pass,HTML,2015-08-26T05:21:28+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-225,fail,HTML,2015-08-26T05:21:38+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-227,pass,HTML,2015-08-26T05:22:00+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vlr-229,fail,HTML,2015-08-26T05:22:09+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-002,pass,HTML,2015-08-26T05:22:16+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-004,fail,HTML,2015-08-26T05:23:41+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-006,pass,HTML,2015-08-26T05:23:52+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-008,pass,HTML,2015-08-26T05:24:03+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-010,fail,HTML,2015-08-26T05:27:39+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-012,pass,HTML,2015-08-26T05:27:52+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-014,pass,HTML,2015-08-26T05:28:01+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-016,fail,HTML,2015-08-26T05:28:21+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-018,pass,HTML,2015-08-26T05:28:31+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-020,pass,HTML,2015-08-26T05:28:53+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-022,pass,HTML,2015-08-26T05:29:14+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-024,pass,HTML,2015-08-26T05:29:23+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-026,pass,HTML,2015-08-26T05:29:34+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-028,fail,HTML,2015-08-26T05:29:59+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-030,pass,HTML,2015-08-26T05:30:09+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-032,pass,HTML,2015-08-26T05:30:18+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-034,fail,HTML,2015-08-26T05:30:36+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-036,pass,HTML,2015-08-26T05:30:48+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-038,pass,HTML,2015-08-26T05:30:58+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-040,fail,HTML,2015-08-26T05:31:15+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-042,pass,HTML,2015-08-26T05:31:25+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-044,pass,HTML,2015-08-26T05:31:33+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-046,pass,HTML,2015-08-26T05:31:50+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-048,pass,HTML,2015-08-26T05:31:59+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-050,pass,HTML,2015-08-26T05:32:08+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-052,fail,HTML,2015-08-26T05:32:28+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-054,pass,HTML,2015-08-26T05:32:36+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-056,pass,HTML,2015-08-26T05:32:45+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-058,pass,HTML,2015-08-26T05:57:19+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-060,pass,HTML,2015-08-26T05:57:29+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-062,pass,HTML,2015-08-26T05:57:37+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-064,fail,HTML,2015-08-26T05:57:55+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-066,pass,HTML,2015-08-26T05:58:05+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-068,pass,HTML,2015-08-26T05:58:30+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-070,pass,HTML,2015-08-26T05:59:01+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-072,pass,HTML,2015-08-26T05:59:09+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-074,pass,HTML,2015-08-26T05:59:17+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-076,fail,HTML,2015-08-26T05:59:41+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-078,pass,HTML,2015-08-26T05:59:50+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-080,pass,HTML,2015-08-26T06:00:19+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-082,pass,HTML,2015-08-26T06:00:40+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-084,pass,HTML,2015-08-26T06:00:47+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-086,pass,HTML,2015-08-26T06:00:54+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-088,fail,HTML,2015-08-26T06:15:13+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-090,pass,HTML,2015-08-26T06:15:21+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-092,pass,HTML,2015-08-26T06:15:28+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-094,pass,HTML,2015-08-26T06:15:39+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-096,pass,HTML,2015-08-26T06:16:00+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-102,pass,HTML,2015-08-26T06:16:12+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-104,fail,HTML,2015-08-26T06:16:21+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-106,pass,HTML,2015-08-26T06:16:59+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-108,fail,HTML,2015-08-26T06:17:11+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-110,pass,HTML,2015-08-26T06:17:24+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-112,fail,HTML,2015-08-26T06:19:44+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-114,pass,HTML,2015-08-26T06:19:53+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-116,fail,HTML,2015-08-26T06:20:02+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-118,pass,HTML,2015-08-26T06:20:27+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-120,pass,HTML,2015-08-26T06:20:35+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-122,pass,HTML,2015-08-26T06:20:43+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-124,fail,HTML,2015-08-26T06:21:11+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-126,pass,HTML,2015-08-26T06:21:26+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-128,fail,HTML,2015-08-26T06:21:42+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-130,pass,HTML,2015-08-26T06:21:52+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-132,pass,HTML,2015-08-26T06:22:14+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-134,pass,HTML,2015-08-26T06:22:41+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-136,fail,HTML,2015-08-26T06:23:03+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-138,pass,HTML,2015-08-26T06:23:18+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-140,fail,HTML,2015-08-26T06:23:42+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-142,pass,HTML,2015-08-26T06:23:49+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-144,fail,HTML,2015-08-26T06:24:26+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-146,pass,HTML,2015-08-26T06:26:14+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-148,fail,HTML,2015-08-26T06:26:44+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-150,pass,HTML,2015-08-26T06:27:20+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-152,pass,HTML,2015-08-26T06:27:46+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-156,fail,HTML,2015-08-26T06:28:12+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-154,pass,HTML,2015-08-26T06:28:20+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-158,pass,HTML,2015-08-26T06:28:49+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-162,pass,HTML,2015-08-26T06:29:04+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-160,fail,HTML,2015-08-26T06:29:20+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-164,pass,HTML,2015-08-26T06:29:47+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-166,pass,HTML,2015-08-26T06:29:57+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-168,pass,HTML,2015-08-26T06:30:05+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-170,pass,HTML,2015-08-26T06:31:34+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-172,fail,HTML,2015-08-26T06:31:44+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-174,pass,HTML,2015-08-26T06:31:56+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-176,fail,HTML,2015-08-26T06:32:23+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-178,pass,HTML,2015-08-26T06:32:31+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-180,pass,HTML,2015-08-26T06:32:44+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-182,pass,HTML,2015-08-26T06:33:04+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-184,pass,HTML,2015-08-26T06:33:16+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-186,pass,HTML,2015-08-26T06:33:23+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-188,fail,HTML,2015-08-26T06:33:50+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-190,pass,HTML,2015-08-26T06:33:58+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-192,fail,HTML,2015-08-26T06:34:04+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-194,pass,HTML,2015-08-26T06:34:35+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-196,pass,HTML,2015-08-26T06:35:15+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-198,pass,HTML,2015-08-26T06:35:25+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-200,pass,HTML,2015-08-26T06:35:47+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-204,fail,HTML,2015-08-26T06:36:31+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-206,pass,HTML,2015-08-26T06:37:01+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-208,fail,HTML,2015-08-26T06:37:10+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-210,pass,HTML,2015-08-26T06:37:15+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-202,pass,HTML,2015-08-26T06:37:32+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-212,pass,HTML,2015-08-26T06:38:05+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-214,pass,HTML,2015-08-26T06:38:14+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-216,pass,HTML,2015-08-26T06:38:22+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-218,pass,HTML,2015-08-26T06:38:49+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-220,fail,HTML,2015-08-26T06:39:01+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-222,pass,HTML,2015-08-26T06:39:10+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-224,fail,HTML,2015-08-26T06:40:30+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-226,pass,HTML,2015-08-26T06:40:39+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+abs-pos-non-replaced-vrl-228,pass,HTML,2015-08-26T06:40:48+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+autoheight-regions-in-autoheight-flexbox-002,fail,HTML,2015-08-26T06:41:18+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-position-vlr-003,pass,HTML,2015-08-26T06:45:38+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-position-vlr-005,pass,HTML,2015-08-26T06:46:25+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-position-vlr-007,pass,HTML,2015-08-26T06:49:10+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-position-vlr-009,pass,HTML,2015-08-26T06:49:31+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-position-vlr-011,pass,HTML,2015-08-26T06:50:05+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-position-vlr-013,pass,HTML,2015-08-26T06:50:16+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-position-vlr-015,pass,HTML,2015-08-26T06:51:02+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-position-vlr-017,pass,HTML,2015-08-26T06:51:43+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-position-vrl-002,pass,HTML,2015-08-26T06:51:54+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-position-vrl-004,pass,HTML,2015-08-26T06:52:04+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-position-vrl-006,pass,HTML,2015-08-26T06:52:31+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-position-vrl-008,pass,HTML,2015-08-26T06:52:45+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-position-vrl-010,pass,HTML,2015-08-26T06:53:03+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-position-vrl-012,pass,HTML,2015-08-26T06:53:44+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-position-vrl-014,pass,HTML,2015-08-26T06:54:13+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-position-vrl-016,pass,HTML,2015-08-26T06:54:28+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-position-vrl-018,fail,HTML,2015-08-26T06:54:55+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-position-vrl-020,fail,HTML,2015-08-26T06:55:04+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-position-vrl-022,fail,HTML,2015-08-26T06:55:16+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-size-document-root-vrl-002,fail,HTML,2015-08-26T06:56:40+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-size-document-root-vrl-004,fail,HTML,2015-08-26T06:56:48+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-size-document-root-vrl-006,fail,HTML,2015-08-26T06:56:56+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+background-size-document-root-vrl-008,fail,HTML,2015-08-26T06:57:08+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
+bidi-normal-011,pass,HTML,2015-08-26T07:17:28+00:00,upsuper,Gecko,Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:42.0) Gecko/20100101 Firefox/42.0
+first-page-vlr-003,pass,HTML,2015-08-26T07:18:43+00:00,upsuper,Gecko,Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:42.0) Gecko/20100101 Firefox/42.0
+first-page-vrl-002,fail,HTML,2015-08-26T07:19:40+00:00,upsuper,Gecko,Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:42.0) Gecko/20100101 Firefox/42.0
+bidi-plaintext-011,fail,HTML,2015-08-26T07:20:21+00:00,upsuper,Gecko,Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:42.0) Gecko/20100101 Firefox/42.0
+block-flow-direction-017,fail,HTML,2015-08-26T07:20:33+00:00,upsuper,Gecko,Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:42.0) Gecko/20100101 Firefox/42.0
+block-flow-direction-018,fail,HTML,2015-08-26T07:20:41+00:00,upsuper,Gecko,Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:42.0) Gecko/20100101 Firefox/42.0
+block-plaintext-005,fail,HTML,2015-08-26T07:20:50+00:00,upsuper,Gecko,Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:42.0) Gecko/20100101 Firefox/42.0
+block-plaintext-006,fail,HTML,2015-08-26T07:21:15+00:00,upsuper,Gecko,Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:42.0) Gecko/20100101 Firefox/42.0
+full-width-001,fail,HTML,2015-08-26T07:24:13+00:00,upsuper,WebKit,"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2493.0 Safari/537.36"
+full-width-002,fail,HTML,2015-08-26T07:24:32+00:00,upsuper,WebKit,"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2493.0 Safari/537.36"
+full-width-003,fail,HTML,2015-08-26T07:24:39+00:00,upsuper,WebKit,"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2493.0 Safari/537.36"
+full-width-001,fail,HTML,2015-08-26T07:24:46+00:00,upsuper,Gecko,Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:42.0) Gecko/20100101 Firefox/42.0
+full-width-002,fail,HTML,2015-08-26T07:24:54+00:00,upsuper,Gecko,Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:42.0) Gecko/20100101 Firefox/42.0
