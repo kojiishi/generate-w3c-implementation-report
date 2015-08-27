@@ -5338,6 +5338,10 @@
 "result": "pass", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "baseline-inline-non-replaced-002"
 }, 
 {
@@ -5354,6 +5358,10 @@
 }, 
 "Trident": {
 "result": "pass", 
+"source": "lemoned"
+}, 
+"WebKit": {
+"result": "fail", 
 "source": "lemoned"
 }, 
 "id": "baseline-inline-non-replaced-003"
@@ -5374,6 +5382,10 @@
 "result": "pass", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "baseline-inline-non-replaced-004"
 }, 
 {
@@ -5389,6 +5401,10 @@
 "result": "fail"
 }, 
 "Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
+"WebKit": {
 "result": "pass", 
 "source": "lemoned"
 }, 
@@ -5411,7 +5427,8 @@
 "source": "lemoned"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "baseline-inline-replaced-002"
 }, 
@@ -5432,7 +5449,8 @@
 "source": "lemoned"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "baseline-inline-replaced-003"
 }, 
@@ -5446,6 +5464,10 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
+"WebKit": {
 "result": "pass", 
 "source": "lemoned"
 }, 
@@ -5464,6 +5486,10 @@
 "result": "uncertain", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "bidi-002"
 }, 
 {
@@ -5479,7 +5505,8 @@
 "result": "pass"
 }, 
 "WebKit": {
-"result": "uncertain"
+"result": "uncertain", 
+"source": "lemoned"
 }, 
 "id": "bidi-003"
 }, 
@@ -5496,6 +5523,10 @@
 "result": "pass", 
 "source": "kojiishi"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "bidi-005"
 }, 
 {
@@ -5510,6 +5541,10 @@
 "Trident": {
 "result": "pass", 
 "source": "kojiishi"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "bidi-006"
 }, 
@@ -5527,7 +5562,8 @@
 "source": "kojiishi"
 }, 
 "WebKit": {
-"result": "fail"
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "bidi-007"
 }, 
@@ -5545,7 +5581,8 @@
 "source": "kojiishi"
 }, 
 "WebKit": {
-"result": "pass"
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "bidi-008"
 }, 
@@ -5563,7 +5600,8 @@
 "source": "kojiishi"
 }, 
 "WebKit": {
-"result": "pass"
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "bidi-009"
 }, 
@@ -5580,6 +5618,10 @@
 "result": "pass", 
 "source": "kojiishi"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "bidi-010"
 }, 
 {
@@ -5593,6 +5635,10 @@
 }, 
 "Trident": {
 "result": "fail", 
+"source": "lemoned"
+}, 
+"WebKit": {
+"result": "pass", 
 "source": "lemoned"
 }, 
 "id": "bidi-011"
@@ -5612,7 +5658,7 @@
 }, 
 "WebKit": {
 "result": "pass", 
-"source": "kojiishi"
+"source": "lemoned"
 }, 
 "id": "bidi-alt-001"
 }, 
@@ -6941,11 +6987,15 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
 "result": "pass"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "bidi-normal-011"
 }, 
@@ -8375,6 +8425,10 @@
 "result": "fail", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "block-override-isolate-004"
 }, 
 {
@@ -8708,6 +8762,14 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "id": "caption-side-vlr-003"
 }, 
 {
@@ -8718,6 +8780,14 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "caption-side-vlr-005"
 }, 
@@ -8730,6 +8800,14 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "caption-side-vlr-007"
 }, 
 {
@@ -8740,6 +8818,14 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "caption-side-vlr-009"
 }, 
@@ -8752,6 +8838,14 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "id": "caption-side-vrl-002"
 }, 
 {
@@ -8762,6 +8856,14 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "caption-side-vrl-004"
 }, 
@@ -8774,6 +8876,14 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "caption-side-vrl-006"
 }, 
 {
@@ -8784,6 +8894,14 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "caption-side-vrl-008"
 }, 
@@ -10605,6 +10723,10 @@
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "form-controls-vert-rl-004"
 }, 

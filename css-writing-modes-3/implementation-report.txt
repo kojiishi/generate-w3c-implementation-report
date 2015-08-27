@@ -362,7 +362,7 @@ html/bidi-normal-007.htm	106b2e30cc4478f34ed7812e0ac3efdf41214efb	pass
 html/bidi-normal-008.htm	bf2c22038aafc1cbde70576ba28150e08d52b425	pass
 html/bidi-normal-009.htm	c0cd53f8f0390890c36a22831154acdab2034a39	pass
 html/bidi-normal-010.htm	18688ad3565595094f60867857110d7eaf148213	pass
-html/bidi-normal-011.htm	c0b58e86dd22f16731b54681cedd3233ea768ed5	fail
+html/bidi-normal-011.htm	d9f7fb1439a706d2e7005b8570e6a705ce520ebd	pass
 html/bidi-override-001.htm	ac664684809c99d15cc0c7372dd2e51c62439e5d	pass
 html/bidi-override-002.htm	6b04c2d830fd046cc43961af10058f650c2119bf	pass
 html/bidi-override-003.htm	67db8f179dd8df097aba131592ad3bcc3febf7be	pass
@@ -863,5 +863,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Mac: Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass
-# Total = 864, Coverage = 834 (96%), Pass = 682 (78% of total, 81% of coverage), Fail = 152 (17% of total, 18% of coverage)
-# Imported = 666 (77%), Pass = 544 (62% of total, 81% of imported), Fail = 122 (14% of total, 18% of imported)
+# Total = 864, Coverage = 834 (96%), Pass = 683 (79% of total, 81% of coverage), Fail = 151 (17% of total, 18% of coverage)
+# Imported = 666 (77%), Pass = 545 (63% of total, 81% of imported), Fail = 121 (14% of total, 18% of imported)
