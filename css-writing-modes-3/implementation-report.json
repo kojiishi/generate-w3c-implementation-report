@@ -10292,7 +10292,7 @@
 "source": "lemoned"
 }, 
 "WebKit": {
-"result": "uncertain", 
+"result": "pass", 
 "source": "lemoned"
 }, 
 "id": "float-contiguous-vrl-010"
@@ -10307,6 +10307,10 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "pass", 
+"source": "lemoned"
+}, 
+"WebKit": {
 "result": "pass", 
 "source": "lemoned"
 }, 
@@ -10758,6 +10762,10 @@
 "result": "fail", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "full-width-001"
 }, 
 {
@@ -10785,6 +10793,10 @@
 "source": "gtalbot"
 }, 
 "Trident": {
+"result": "fail", 
+"source": "lemoned"
+}, 
+"WebKit": {
 "result": "fail", 
 "source": "lemoned"
 }, 
@@ -11162,6 +11174,10 @@
 "result": "pass", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "inline-replaced-vlr-005"
 }, 
 {
@@ -11196,6 +11212,10 @@
 "result": "pass", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "inline-replaced-vrl-004"
 }, 
 {
@@ -11206,6 +11226,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "inline-table-alignment-002"
 }, 
@@ -11218,6 +11242,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "inline-table-alignment-003"
 }, 
 {
@@ -11229,6 +11257,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "inline-table-alignment-004"
 }, 
 {
@@ -11239,6 +11271,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "inline-table-alignment-005"
 }, 
@@ -11711,6 +11747,10 @@
 "result": "pass", 
 "source": "kojiishi"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "margin-collapse-vlr-023"
 }, 
 {
@@ -11878,6 +11918,10 @@
 "result": "pass", 
 "source": "lemoned"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "margin-collapse-vrl-016"
 }, 
 {
@@ -12026,7 +12070,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -12037,7 +12081,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -12048,7 +12092,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -12059,7 +12103,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -12070,7 +12114,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -12081,7 +12125,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -12092,7 +12136,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -12103,7 +12147,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -12114,7 +12158,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -12125,7 +12169,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -12136,7 +12180,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -12147,7 +12191,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -12158,7 +12202,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -12169,7 +12213,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -12180,7 +12224,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -12191,7 +12235,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
