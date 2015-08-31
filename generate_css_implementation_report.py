@@ -120,7 +120,7 @@ class SubmitTestResult(TestResult):
             return -1
         return 0
 
-    known_sources = set(('gtalbot', 'hshiozawa', 'kojiishi', 'lemoned'))
+    known_sources = set(('fantasai', 'gtalbot', 'hshiozawa', 'kojiishi', 'lemoned', 'upsuper'))
     @staticmethod
     def reliability_from_source(source):
         if source in SubmitTestResult.known_sources:
