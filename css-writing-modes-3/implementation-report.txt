@@ -439,6 +439,18 @@ html/block-plaintext-003.htm	7216b2a3e17d8abfc65458f1325845a37ff8b947	pass
 html/block-plaintext-004.htm	b75731438c0d5544266ee8cb1ba0a895ce97cd4f	pass
 # html/block-plaintext-005.htm	2f2d8e6c45d62bc9d6ca61cb22615749d0a2e243	pass
 # html/block-plaintext-006.htm	0c629044af2ad8099dac74893c25d14cb049e242	pass
+html/border-conflict-element-vlr-003.htm	56ca8356bc1caf2ffb689c0e15d857178d297e79	pass
+html/border-conflict-element-vlr-005.htm	446d84cc6bacc628f53003a138c0147e15a1fa16	pass
+html/border-conflict-element-vlr-007.htm	315c6576eb445dc8e2b2d863345253c2847ca2dc	pass
+html/border-conflict-element-vlr-009.htm	37129eecc80074e0f3a4e6d9b74b41d0635a932e	pass
+html/border-conflict-element-vlr-011.htm	c8f52e8961fe71196470a3c53a696c1f9d071cae	pass
+html/border-conflict-element-vlr-013.htm	03fde3800840d2d24059b98a8a2939b12655da84	pass
+html/border-conflict-element-vrl-002.htm	e0cf70e734a10c474ee4cfbfe4fbcc9ee4c578b6	pass
+html/border-conflict-element-vrl-004.htm	b2b78afcda698c1ccbb34aafab05cbc347f9dcde	pass
+html/border-conflict-element-vrl-006.htm	bc2dda16e190719018652d9f06a8f7bf80117141	pass
+html/border-conflict-element-vrl-008.htm	8c6ff43d69fdc2a61eca427404747564b8f60675	pass
+html/border-conflict-element-vrl-010.htm	f3c495ee97eeac5bc4c8d400d8a5da49ec126cdf	pass
+html/border-conflict-element-vrl-012.htm	4f1623e87639f6fb72457cf515c867dc7ac618d2	pass
 html/border-spacing-vlr-003.htm	83d485a7f53c6aab05133d1b4ef7a19db40610ea	pass
 html/border-spacing-vlr-005.htm	b05a8b886a284274db64edf8ea07770873dea6fd	pass
 html/border-spacing-vrl-002.htm	0a3c8386caea4b8b75d8506e67ab054a1ab08657	pass
@@ -509,8 +521,8 @@ html/direction-vlr-005.htm	1605157588ee84de6bcb3f4a4c9b5d1c08d30b4e	pass
 html/direction-vrl-002.htm	52bb6deefbc5f97b6f3ce7d040a5e55cbefa3817	pass
 html/direction-vrl-004.htm	31d81702696bd0c7fe90ce7f4b6a91947db9234f	pass
 # html/extract-ordered-list-direction-and-writing-modes.htm	f456a08de75932c3881a76490ed2fdb7211d2bc8	fail
-# html/first-page-vlr-003.htm	66c5f6f6770b4a63ab7936fc40da35a075237c0f	fail
-# html/first-page-vrl-002.htm	0e3999276064df4aff359983d7a6cb2977a7a19b	pass
+# html/first-page-vlr-003.htm	ba9f62a92fda53555211ee1de1a17cb08e124dd6	fail
+# html/first-page-vrl-002.htm	d889dab856e4fad4d820153f78921a043b28589d	pass
 # html/flexbox-writing-mode-007.htm	0557a81af23da4d969bce70f840968a7d5947006	pass
 # html/flexbox-writing-mode-008.htm	aaac3dcddfec40e5c67ae479e0df2184ddec82d2	pass
 # html/flexbox-writing-mode-009.htm	931b9d02203e63cacec94a45b450d721c5222706	pass
@@ -798,6 +810,12 @@ html/text-orientation-script-001o.htm	ad390d60dd518de633056d1bd59900406d4d23e8	p
 # html/text-orientation-sideways-left-001.htm	37efc584b582b3fe93de726057ddf69aa6544cf0	skip # CSS Writing Modes Level 3: Following tests require sideways-left, which we do not plan to support.
 # html/text-orientation-sideways-right-001.htm	0553269d79d31412d44b0b586a2711298ed43b7f	pass
 # html/text-orientation-upright-001.htm	c2881506193c25b132f0d88c5ad2a8d1c53e37b6	pass
+# html/underline-font-size-vlr-003.htm	05a00f9e67ec770a68184f514da16d42f3664b4e	?
+# html/underline-font-size-vlr-005.htm	cf494cde416df9487dabe224857d7c09849b13a7	?
+# html/underline-font-size-vrl-002.htm	fde426aff2dd0f2666881af719f8a933595db5e5	?
+# html/underline-font-size-vrl-004.htm	b37f8604be0f98e2fb03f2f2198170017232ece1	?
+# html/underline-mixed-vlr-003.htm	ffd107c6592a7876badaee2070b4aac10886bbc3	?
+# html/underline-mixed-vrl-002.htm	233697bcbc7031e4901fe8df986802a06698c850	?
 # html/unicode-bidi-001.htm	23dd56a09e50c8f068ed78bfbec09343f4189224	pass
 # html/unicode-bidi-002.htm	4b27955dff5183c9c707ec654c50ab0d5c9509f4	pass
 # html/unicode-bidi-003.htm	6b6e2d5a6826f07407b45cc0c1f26cfb111c730a	pass
@@ -848,10 +866,10 @@ html/text-orientation-script-001o.htm	ad390d60dd518de633056d1bd59900406d4d23e8	p
 # html/vertical-alignment-026b.htm	fb3d8d2c8ec17a80bc05d9cf6027855dab6b9836	pass
 # html/vertical-alignment-027a.htm	ca2c37b2acc7a2be0e438b5069acd2286487b6ab	pass
 # html/vertical-alignment-027b.htm	eb3ef979b26f31507a2f72ba374274fd22113364	pass
-html/vertical-alignment-new-002.htm	9ffd58ae28bafed782635686651e26f85d61e69a	fail
-html/vertical-alignment-new-003.htm	1dcc32be4cac03a1f52f003a89bcf414368ca0da	fail
-html/vertical-alignment-new-004.htm	824643b101645b22a73043182b4b3ecee0df67cc	pass
-html/vertical-alignment-new-005.htm	9d96b7b8f0e2beb8d6a103988beb6fd531365ca2	pass
+html/vertical-alignment-new-002.htm	515da3806b29df524807102d2a3a278cd8ee89b7	fail
+html/vertical-alignment-new-003.htm	d8711ff67efb10fec65c3cd87238a69f94a4b85d	fail
+html/vertical-alignment-new-004.htm	234bc9d84450e317b1b9243cda9b0f9a261b360d	pass
+html/vertical-alignment-new-005.htm	eca0b3cf343e86cc7ec5c08969adfd7b603ed51a	fail
 html/vertical-alignment-new-006.htm	61e9e28954d65bb677c10c1ecabe02697a4be616	pass
 html/vertical-alignment-new-007.htm	b8f4194fc311ebd51130715a3947c69f63e3c21b	pass
 html/vertical-alignment-new-008.htm	73e2f80c8ee8ddd097b71d7b07b9b886e5895f0f	fail
@@ -863,5 +881,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Mac: Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass
-# Total = 864, Coverage = 834 (96%), Pass = 699 (80% of total, 83% of coverage), Fail = 135 (15% of total, 16% of coverage)
-# Imported = 666 (77%), Pass = 561 (64% of total, 84% of imported), Fail = 105 (12% of total, 15% of imported)
+# Total = 882, Coverage = 846 (95%), Pass = 710 (80% of total, 83% of coverage), Fail = 136 (15% of total, 16% of coverage)
+# Imported = 678 (76%), Pass = 572 (64% of total, 84% of imported), Fail = 106 (12% of total, 15% of imported)

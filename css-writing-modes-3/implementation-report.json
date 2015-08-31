@@ -8568,6 +8568,90 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"id": "border-conflict-element-vlr-003"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "border-conflict-element-vlr-005"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "border-conflict-element-vlr-007"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "border-conflict-element-vlr-009"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "border-conflict-element-vlr-011"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "border-conflict-element-vlr-013"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "border-conflict-element-vrl-002"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "border-conflict-element-vrl-004"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "border-conflict-element-vrl-006"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "border-conflict-element-vrl-008"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "border-conflict-element-vrl-010"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "border-conflict-element-vrl-012"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
@@ -14875,6 +14959,24 @@
 "id": "text-orientation-upright-001"
 }, 
 {
+"id": "underline-font-size-vlr-003"
+}, 
+{
+"id": "underline-font-size-vlr-005"
+}, 
+{
+"id": "underline-font-size-vrl-002"
+}, 
+{
+"id": "underline-font-size-vrl-004"
+}, 
+{
+"id": "underline-mixed-vlr-003"
+}, 
+{
+"id": "underline-mixed-vrl-002"
+}, 
+{
 "Blink": {
 "result": "pass", 
 "source": "lemoned"
@@ -15743,7 +15845,7 @@
 }, 
 {
 "Blink": {
-"result": "pass", 
+"result": "fail", 
 "source": "blink"
 }, 
 "Gecko": {
