@@ -521,8 +521,8 @@ html/direction-vlr-005.htm	1605157588ee84de6bcb3f4a4c9b5d1c08d30b4e	pass
 html/direction-vrl-002.htm	52bb6deefbc5f97b6f3ce7d040a5e55cbefa3817	pass
 html/direction-vrl-004.htm	31d81702696bd0c7fe90ce7f4b6a91947db9234f	pass
 # html/extract-ordered-list-direction-and-writing-modes.htm	f456a08de75932c3881a76490ed2fdb7211d2bc8	fail
-# html/first-page-vlr-003.htm	ba9f62a92fda53555211ee1de1a17cb08e124dd6	fail
-# html/first-page-vrl-002.htm	d889dab856e4fad4d820153f78921a043b28589d	pass
+# html/first-page-vlr-003.htm	ba9f62a92fda53555211ee1de1a17cb08e124dd6	?
+# html/first-page-vrl-002.htm	d889dab856e4fad4d820153f78921a043b28589d	?
 # html/flexbox-writing-mode-007.htm	0557a81af23da4d969bce70f840968a7d5947006	pass
 # html/flexbox-writing-mode-008.htm	aaac3dcddfec40e5c67ae479e0df2184ddec82d2	pass
 # html/flexbox-writing-mode-009.htm	931b9d02203e63cacec94a45b450d721c5222706	pass
@@ -881,5 +881,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Mac: Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass
-# Total = 882, Coverage = 846 (95%), Pass = 710 (80% of total, 83% of coverage), Fail = 136 (15% of total, 16% of coverage)
+# Total = 882, Coverage = 844 (95%), Pass = 709 (80% of total, 84% of coverage), Fail = 135 (15% of total, 15% of coverage)
 # Imported = 678 (76%), Pass = 572 (64% of total, 84% of imported), Fail = 106 (12% of total, 15% of imported)
