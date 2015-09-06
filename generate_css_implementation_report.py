@@ -101,7 +101,7 @@ class ImportTestResult(TestResult):
 
 class SubmitTestResult(TestResult):
     def __init__(self, result, source, date, engine, useragent):
-        if 'Chrome/' in useragent:
+        if engine == 'WebKit' and 'Chrome/' in useragent:
             engine = "Blink"
         super(SubmitTestResult, self).__init__(engine, result, source)
         self.reliability = SubmitTestResult.reliability_from_source(source)
