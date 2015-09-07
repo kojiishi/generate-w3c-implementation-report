@@ -5512,6 +5512,16 @@
 }, 
 {
 "Blink": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "fail"
+}, 
+"id": "bidi-004"
+}, 
+{
+"Blink": {
 "result": "pass", 
 "source": "lemoned"
 }, 
@@ -15440,156 +15450,92 @@
 "id": "unicode-bidi-applies-to-015"
 }, 
 {
-"id": "vertical-alignment-002a"
+"Blink": {
+"result": "fail", 
+"source": "blink"
 }, 
-{
-"id": "vertical-alignment-002b"
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
-{
-"id": "vertical-alignment-003a"
-}, 
-{
-"id": "vertical-alignment-003b"
-}, 
-{
-"id": "vertical-alignment-005a"
-}, 
-{
-"id": "vertical-alignment-005b"
-}, 
-{
-"id": "vertical-alignment-008a"
-}, 
-{
-"id": "vertical-alignment-008b"
-}, 
-{
-"id": "vertical-alignment-011a"
-}, 
-{
-"id": "vertical-alignment-011b"
-}, 
-{
-"id": "vertical-alignment-012l"
-}, 
-{
-"id": "vertical-alignment-012r"
-}, 
-{
-"id": "vertical-alignment-014a"
-}, 
-{
-"id": "vertical-alignment-014b"
-}, 
-{
-"id": "vertical-alignment-015a"
-}, 
-{
-"id": "vertical-alignment-015b"
-}, 
-{
-"id": "vertical-alignment-017a"
-}, 
-{
-"id": "vertical-alignment-017b"
-}, 
-{
-"id": "vertical-alignment-018a"
-}, 
-{
-"id": "vertical-alignment-018b"
-}, 
-{
-"id": "vertical-alignment-020a"
-}, 
-{
-"id": "vertical-alignment-020b"
-}, 
-{
-"id": "vertical-alignment-021a"
-}, 
-{
-"id": "vertical-alignment-021b"
-}, 
-{
-"id": "vertical-alignment-023a"
-}, 
-{
-"id": "vertical-alignment-023b"
-}, 
-{
-"id": "vertical-alignment-024a"
-}, 
-{
-"id": "vertical-alignment-024b"
-}, 
-{
-"id": "vertical-alignment-026a"
-}, 
-{
-"id": "vertical-alignment-026b"
-}, 
-{
-"id": "vertical-alignment-027a"
-}, 
-{
-"id": "vertical-alignment-027b"
+"id": "vertical-alignment-002"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
 }, 
-"id": "vertical-alignment-new-002"
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
-{
-"Blink": {
-"result": "fail", 
-"source": "blink"
-}, 
-"id": "vertical-alignment-new-003"
+"id": "vertical-alignment-003"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
 }, 
-"id": "vertical-alignment-new-004"
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
-{
-"Blink": {
-"result": "fail", 
-"source": "blink"
-}, 
-"id": "vertical-alignment-new-005"
+"id": "vertical-alignment-004"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
 }, 
-"id": "vertical-alignment-new-006"
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "vertical-alignment-005"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
 }, 
-"id": "vertical-alignment-new-007"
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "vertical-alignment-006"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "vertical-alignment-007"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
 }, 
-"id": "vertical-alignment-new-008"
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "vertical-alignment-008"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
 }, 
-"id": "vertical-alignment-new-009"
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "vertical-alignment-009"
 }, 
 {
 "Blink": {
