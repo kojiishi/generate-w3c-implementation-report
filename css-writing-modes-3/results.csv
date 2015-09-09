@@ -9555,9 +9555,6 @@ writing-mode-vertical-rl-002,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit
 writing-mode-vertical-rl-003,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 text-combine-upright-value-digits2-001,fail,HTML,2015-07-06T07:10:26+00:00,upsuper,Gecko,Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:41.0) Gecko/20100101 Firefox/41.0
 text-combine-upright-value-digits2-001,fail,HTML,2015-07-06T07:13:18+00:00,14.203.227.181,WebKit,"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2448.0 Safari/537.36"
-table-progression-001-vlr,pass,HTML,2015-07-06T14:05:46+00:00,93.188.122.133,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36"
-table-progression-001-vlr,fail,HTML,2015-07-07T02:35:02+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
-table-progression-001-vrl,fail,HTML,2015-07-07T02:35:25+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 text-combine-upright-line-breaking-rules-001,pass,HTML,2015-07-07T02:38:22+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 direction-001,pass,HTML,2015-07-09T04:56:57+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 direction-002,pass,HTML,2015-07-09T04:57:43+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
@@ -9612,8 +9609,6 @@ bidi-glyph-mirroring-002,pass,HTML,2015-07-09T06:50:18+00:00,lemoned,Trident,Moz
 bidi-inline-001,pass,HTML,2015-07-09T06:51:10+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 bidi-inline-002,pass,HTML,2015-07-09T06:51:29+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 bidi-002,uncertain,HTML,2015-07-09T06:52:46+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-table-progression-001-vlr,fail,HTML,2015-07-09T06:54:21+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-table-progression-001-vrl,fail,HTML,2015-07-09T06:54:47+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 flexbox-writing-mode-007,pass,HTML,2015-07-09T08:20:15+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 flexbox-writing-mode-008,fail,HTML,2015-07-09T08:20:38+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 flexbox-writing-mode-009,fail,HTML,2015-07-09T08:21:15+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
@@ -10178,8 +10173,6 @@ table-column-order-002,fail,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozi
 table-column-order-003,fail,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 table-column-order-004,fail,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 table-column-order-005,fail,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
-table-progression-001-vlr,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
-table-progression-001-vrl,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 text-align-vlr-003,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 text-align-vlr-005,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 text-align-vlr-007,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
@@ -10984,8 +10977,6 @@ table-column-order-002,fail,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozi
 table-column-order-003,fail,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 table-column-order-004,fail,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 table-column-order-005,fail,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
-table-progression-001-vlr,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
-table-progression-001-vrl,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 text-align-vlr-003,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 text-align-vlr-005,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 text-align-vlr-007,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
@@ -11794,8 +11785,6 @@ table-column-order-002,fail,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozi
 table-column-order-003,fail,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
 table-column-order-004,fail,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
 table-column-order-005,fail,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
-table-progression-001-vlr,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
-table-progression-001-vrl,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
 text-align-vlr-003,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
 text-align-vlr-005,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
 text-align-vlr-007,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
@@ -11903,8 +11892,6 @@ abs-pos-non-replaced-vrl-192,fail,HTML,2015-07-24T11:01:24+00:00,86.188.220.218,
 abs-pos-non-replaced-vrl-208,fail,HTML,2015-07-24T11:01:27+00:00,86.188.220.218,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 abs-pos-non-replaced-vrl-220,fail,HTML,2015-07-24T11:01:30+00:00,86.188.220.218,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 abs-pos-non-replaced-vrl-224,fail,HTML,2015-07-24T11:01:33+00:00,86.188.220.218,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
-table-progression-001-vlr,pass,HTML,2015-07-24T18:13:10+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
-table-progression-001-vrl,pass,HTML,2015-07-24T18:13:44+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 table-column-order-003,pass,HTML,2015-07-29T08:12:59+00:00,222.47.48.77,WebKit,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.107 Safari/537.36"
 bidi-plaintext-011,fail,HTML,2015-07-30T07:22:58+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 text-combine-upright-inherit-all-002,fail,HTML,2015-07-30T07:41:23+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
@@ -12145,8 +12132,6 @@ row-progression-006,pass,HTML,2015-08-10T03:46:32+00:00,lemoned,WebKit,"Mozilla/
 row-progression-007,pass,HTML,2015-08-10T03:46:56+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 row-progression-008,pass,HTML,2015-08-10T03:47:41+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 row-progression-009,pass,HTML,2015-08-10T03:48:04+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
-table-progression-001-vlr,pass,HTML,2015-08-10T03:48:49+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
-table-progression-001-vrl,pass,HTML,2015-08-10T03:49:28+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 writing-mode-stretch-001,fail,HTML,2015-08-10T03:50:13+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 writing-mode-vertical-rl-003,pass,HTML,2015-08-10T03:52:55+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 text-orientation-010,pass,HTML,2015-08-10T07:27:41+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
@@ -12401,8 +12386,6 @@ row-progression-006,pass,HTML,2015-08-14T08:55:48+00:00,gtalbot,Gecko,Mozilla/5.
 row-progression-007,pass,HTML,2015-08-14T08:55:52+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 row-progression-008,pass,HTML,2015-08-14T08:55:55+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 row-progression-009,pass,HTML,2015-08-14T08:55:59+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-table-progression-001-vlr,pass,HTML,2015-08-14T08:56:11+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-table-progression-001-vrl,pass,HTML,2015-08-14T08:56:20+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 writing-mode-stretch-001,fail,HTML,2015-08-14T08:56:28+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 writing-mode-vertical-lr-002,pass,HTML,2015-08-14T08:56:35+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 writing-mode-vertical-rl-001,pass,HTML,2015-08-14T08:56:39+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
@@ -13849,8 +13832,6 @@ table-column-order-002,fail,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozi
 table-column-order-003,fail,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
 table-column-order-004,fail,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
 table-column-order-005,fail,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
-table-progression-001-vlr,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
-table-progression-001-vrl,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
 text-align-vlr-003,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
 text-align-vlr-005,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
 text-align-vlr-007,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
@@ -15077,8 +15058,6 @@ table-column-order-002,fail,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozi
 table-column-order-003,fail,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
 table-column-order-004,fail,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
 table-column-order-005,fail,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
-table-progression-001-vlr,pass,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
-table-progression-001-vrl,pass,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
 text-align-vlr-003,pass,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
 text-align-vlr-005,pass,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
 text-align-vlr-007,pass,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
@@ -15195,6 +15174,402 @@ bidi-004,fail,HTML,2015-09-03T11:01:12+00:00,87.247.73.5,Gecko,Mozilla/5.0 (X11;
 vertical-alignment-004,pass,HTML,2015-09-03T18:27:58+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 vertical-alignment-004,pass,HTML,2015-09-03T18:33:23+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2498.0 Safari/537.36"
 bidi-004,fail,HTML,2015-09-03T18:36:07+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2498.0 Safari/537.36"
+abs-pos-non-replaced-icb-vrl-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-icb-vrl-004,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-icb-vrl-010,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-icb-vrl-012,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-004,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-006,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-008,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-010,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-012,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-014,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-016,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-018,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-020,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-022,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-024,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-026,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-028,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-030,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-032,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-034,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-036,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-038,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-040,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-042,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-044,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-046,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-048,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-050,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-052,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-054,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-056,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-058,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-060,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-062,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-064,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-066,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-068,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-070,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-072,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-074,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-076,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-078,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-080,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-082,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-084,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-086,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-088,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-090,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-092,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-094,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-096,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-102,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-104,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-106,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-108,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-110,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-112,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-114,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-116,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-118,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-120,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-122,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-124,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-126,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-128,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-130,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-132,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-134,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-136,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-138,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-140,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-142,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-144,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-146,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-148,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-150,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-152,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-154,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-156,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-158,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-160,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-162,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-164,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-166,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-168,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-170,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-172,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-174,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-176,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-178,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-180,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-182,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-184,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-186,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-188,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-190,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-192,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-194,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-196,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-198,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-200,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-202,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-204,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-206,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-208,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-210,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-212,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-214,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-216,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-218,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-220,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-222,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-224,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-226,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+abs-pos-non-replaced-vrl-228,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+background-position-vrl-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+background-position-vrl-004,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+background-position-vrl-006,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+background-position-vrl-008,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+background-position-vrl-010,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+background-position-vrl-012,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+background-position-vrl-014,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+background-position-vrl-016,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+background-position-vrl-018,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+background-position-vrl-020,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+background-position-vrl-022,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+background-size-document-root-vrl-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+background-size-document-root-vrl-004,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+background-size-document-root-vrl-006,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+background-size-document-root-vrl-008,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+baseline-inline-non-replaced-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+baseline-inline-non-replaced-003,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+baseline-inline-non-replaced-004,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+baseline-inline-non-replaced-005,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+baseline-inline-replaced-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-embed-001,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-embed-002,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-embed-003,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-embed-004,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-embed-005,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-embed-006,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-embed-007,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-embed-008,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-embed-009,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-embed-010,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-embed-011,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-001,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-002,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-003,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-004,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-005,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-006,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-007,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-008,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-009,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-010,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-011,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-override-001,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-override-002,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-override-003,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-override-004,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-override-005,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-override-006,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-override-007,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-override-008,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-override-009,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-override-010,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-override-011,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-isolate-override-012,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-normal-001,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-normal-002,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-normal-003,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-normal-004,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-normal-005,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-normal-006,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-normal-007,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-normal-008,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-normal-009,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-normal-010,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-normal-011,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-override-001,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-override-002,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-override-003,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-override-004,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-override-005,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-override-006,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-override-007,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-override-008,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-override-009,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-override-010,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-override-011,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-override-012,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-plaintext-001,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-plaintext-002,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-plaintext-003,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-plaintext-004,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-plaintext-005,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-plaintext-006,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-plaintext-007,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-plaintext-008,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-plaintext-009,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-plaintext-010,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-plaintext-011,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-table-001,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-unset-001,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-unset-002,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-unset-003,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-unset-004,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-unset-005,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-unset-006,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-unset-007,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-unset-008,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-unset-009,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+bidi-unset-010,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-embed-001,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-embed-002,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-embed-003,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-flow-direction-001,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-flow-direction-002,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-flow-direction-004,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-flow-direction-005,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-flow-direction-006,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-flow-direction-009,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-flow-direction-011,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-flow-direction-012,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-flow-direction-013,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-flow-direction-017,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-flow-direction-019,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-flow-direction-021,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-flow-direction-024,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-flow-direction-025,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-override-001,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-override-002,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-override-003,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-override-004,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-override-isolate-001,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-override-isolate-002,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-override-isolate-003,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-override-isolate-004,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-plaintext-001,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-plaintext-002,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-plaintext-003,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-plaintext-004,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-plaintext-005,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+block-plaintext-006,fail,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+border-conflict-element-vrl-002,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+border-conflict-element-vrl-004,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+border-conflict-element-vrl-006,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+border-conflict-element-vrl-008,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+border-conflict-element-vrl-010,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+border-conflict-element-vrl-012,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+border-spacing-vrl-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+border-spacing-vrl-004,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+border-vrl-006,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+box-offsets-rel-pos-vrl-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+box-offsets-rel-pos-vrl-004,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+caption-side-vrl-002,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+caption-side-vrl-004,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+caption-side-vrl-006,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+caption-side-vrl-008,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+central-baseline-alignment-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+clearance-calculations-vrl-002,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+clearance-calculations-vrl-004,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+clearance-calculations-vrl-006,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+clearance-calculations-vrl-008,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+clip-rect-vrl-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+clip-rect-vrl-004,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+clip-rect-vrl-006,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+clip-rect-vrl-008,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+clip-rect-vrl-010,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+clip-rect-vrl-012,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+clip-rect-vrl-014,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+clip-rect-vrl-016,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+different-block-flow-dir-001,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+different-block-flow-dir-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+direction-vrl-002,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+direction-vrl-004,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+first-page-vrl-002,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-clear-vrl-002,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-clear-vrl-004,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-clear-vrl-006,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-clear-vrl-008,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-contiguous-vrl-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-contiguous-vrl-004,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-contiguous-vrl-006,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-contiguous-vrl-008,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-contiguous-vrl-010,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-contiguous-vrl-012,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-shrink-to-fit-vrl-002,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-shrink-to-fit-vrl-004,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-shrink-to-fit-vrl-006,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-shrink-to-fit-vrl-008,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-shrink-to-fit-vrl-vlr-016,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-vrl-002,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-vrl-004,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-vrl-006,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-vrl-008,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-vrl-010,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+float-vrl-012,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+form-controls-vert-rl-004,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+form-controls-vert-rl-005,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+height-width-inline-non-replaced-vrl-002,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+horizontal-rule-vrl-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+horizontal-rule-vrl-004,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+inline-block-alignment-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+inline-block-alignment-orthogonal-vrl-002,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+inline-block-alignment-orthogonal-vrl-004,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+inline-replaced-vrl-002,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+inline-replaced-vrl-004,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+inline-table-alignment-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+inline-table-alignment-004,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+line-box-direction-001,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+line-box-direction-002,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+line-box-direction-005,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+line-box-direction-006,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+line-box-direction-009,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+line-box-direction-011,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+line-box-direction-012,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+line-box-direction-015,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+line-box-direction-017,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+line-box-direction-019,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+margin-collapse-vrl-002,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+margin-collapse-vrl-008,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+margin-collapse-vrl-010,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+margin-collapse-vrl-014,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+margin-collapse-vrl-016,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+margin-collapse-vrl-022,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+margin-collapse-vrl-024,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+margin-collapse-vrl-030,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+margin-collapse-vrl-034,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+margin-collapse-vrl-036,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001a,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001b,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001c,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001d,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001e,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001f,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001g,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001h,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001i,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001j,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001k,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001l,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001m,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001n,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001o,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001p,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001q,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001r,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001s,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001t,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001u,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001v,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001w,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+orthogonal-parent-shrink-to-fit-001x,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+padding-vrl-004,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+page-flow-direction-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+percent-margin-vrl-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+percent-margin-vrl-004,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+percent-margin-vrl-006,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+percent-padding-vrl-002,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+percent-padding-vrl-004,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+percent-padding-vrl-006,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+replaced-content-image-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+row-progression-002,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+row-progression-004,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+row-progression-006,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+row-progression-008,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+table-column-order-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+table-column-order-004,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+text-align-vrl-002,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+text-align-vrl-004,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+text-align-vrl-006,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+text-align-vrl-008,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+text-align-vrl-010,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+text-align-vrl-012,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+text-align-vrl-014,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+text-align-vrl-016,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+text-align-vrl-018,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+text-baseline-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+text-indent-vrl-002,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+text-indent-vrl-004,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+text-indent-vrl-006,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+text-indent-vrl-008,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+text-indent-vrl-010,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+text-indent-vrl-012,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+text-indent-vrl-014,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+text-indent-vrl-016,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+vertical-alignment-002,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+vertical-alignment-004,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+vertical-alignment-006,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+vertical-alignment-008,fail,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+writing-mode-vertical-rl-001,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+writing-mode-vertical-rl-002,pass,XHTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
+writing-mode-vertical-rl-003,pass,HTML,2015-09-04T00:00:00+00:00,gtalbot,Prince,Prince/10 (www.princexml.com; Linux x86_64)
 vertical-alignment-002,pass,HTML,2015-09-05T02:53:59+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 vertical-alignment-003,pass,HTML,2015-09-05T02:54:04+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 vertical-alignment-005,pass,HTML,2015-09-05T02:54:09+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
