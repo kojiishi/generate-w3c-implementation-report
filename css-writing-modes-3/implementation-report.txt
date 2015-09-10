@@ -625,7 +625,7 @@ html/margin-collapse-vlr-009.htm	c219405819902980a7724034dbc5a83c95881fff	pass
 html/margin-collapse-vlr-011.htm	285ed7143afc4ae1d12bd164fa64fbb8030965d7	pass
 html/margin-collapse-vlr-015.htm	1910bce002686e0f76a4c348f741643f0b0d154e	pass
 html/margin-collapse-vlr-017.htm	bb1e1bd4f558cfc0b15d6572dccdda0784208de3	pass
-# html/margin-collapse-vlr-023.htm	6de48316eba1a8307c27a50880cec9262e1cd997	fail
+# html/margin-collapse-vlr-023.htm	6de48316eba1a8307c27a50880cec9262e1cd997	?
 html/margin-collapse-vlr-025.htm	b3fc87387f20364bf5e0ca9cb6f6c3f3a76e912f	pass
 html/margin-collapse-vlr-031.htm	1f6bd5cf9caa176f41bf038214484313f56d4866	pass
 html/margin-collapse-vlr-035.htm	0c1868311e1e35b1a7af8dea47b89fcbd41a9a84	pass
@@ -635,7 +635,7 @@ html/margin-collapse-vrl-008.htm	847ef0e6462f1ca70aea6ff395dcb32d608dd5ca	pass
 html/margin-collapse-vrl-010.htm	11434b5bbf7d017becea9a7f50f51111280fa2e7	pass
 html/margin-collapse-vrl-014.htm	189a3ba70e80d366caec1a521ec73452990cb0e9	pass
 html/margin-collapse-vrl-016.htm	465c5979e90ae0a5db790f7dccbf98145eefa703	pass
-# html/margin-collapse-vrl-022.htm	95f8569b58a03895239038991403753801b19dbd	fail
+# html/margin-collapse-vrl-022.htm	95f8569b58a03895239038991403753801b19dbd	?
 html/margin-collapse-vrl-024.htm	558d029b4b6fd193ac3b04220ec10f5226f18810	pass
 html/margin-collapse-vrl-030.htm	f7361122bcbe1aa63c13644dc3267d191e7a2b8f	pass
 html/margin-collapse-vrl-034.htm	c383d4e25e05263bed13bdbe491783e431e8d427	pass
@@ -850,5 +850,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Mac: Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass
-# Total = 851, Coverage = 821 (96%), Pass = 690 (81% of total, 84% of coverage), Fail = 131 (15% of total, 15% of coverage)
+# Total = 851, Coverage = 819 (96%), Pass = 690 (81% of total, 84% of coverage), Fail = 129 (15% of total, 15% of coverage)
 # Imported = 678 (79%), Pass = 573 (67% of total, 84% of imported), Fail = 105 (12% of total, 15% of imported)
