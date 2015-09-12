@@ -5851,12 +5851,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "baseline-inline-non-replaced-002"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "baseline-inline-non-replaced-003"
 }, 
@@ -5865,12 +5873,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "baseline-inline-non-replaced-004"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "baseline-inline-non-replaced-005"
 }, 
@@ -5879,12 +5895,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "baseline-inline-replaced-002"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "baseline-inline-replaced-003"
 }, 
@@ -9308,12 +9332,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "border-spacing-vlr-003"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "border-spacing-vlr-005"
 }, 
@@ -9322,12 +9354,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "border-spacing-vrl-002"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "border-spacing-vrl-004"
 }, 
@@ -9458,17 +9498,9 @@
 "id": "box-offsets-rel-pos-vrl-004"
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
 "id": "caption-side-vlr-003"
 }, 
 {
-"Blink": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
 "id": "caption-side-vlr-005"
 }, 
 {
@@ -9486,17 +9518,9 @@
 "id": "caption-side-vlr-009"
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
 "id": "caption-side-vrl-002"
 }, 
 {
-"Blink": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
 "id": "caption-side-vrl-004"
 }, 
 {
@@ -9518,12 +9542,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "central-baseline-alignment-002"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "central-baseline-alignment-003"
 }, 
@@ -9532,6 +9564,10 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "clearance-calculations-vrl-002"
 }, 
 {
@@ -9539,12 +9575,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "clearance-calculations-vrl-004"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "clearance-calculations-vrl-006"
 }, 
@@ -10353,12 +10397,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "direction-vlr-003"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "direction-vlr-005"
 }, 
@@ -10367,12 +10419,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "direction-vrl-002"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "direction-vrl-004"
 }, 
@@ -10487,12 +10547,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "float-clear-vlr-003"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "float-clear-vlr-005"
 }, 
@@ -10501,12 +10569,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "float-clear-vlr-007"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "float-clear-vlr-009"
 }, 
@@ -10515,12 +10591,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "float-clear-vrl-002"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "float-clear-vrl-004"
 }, 
@@ -10529,12 +10613,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "float-clear-vrl-006"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "float-clear-vrl-008"
 }, 
@@ -10619,12 +10711,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "float-contiguous-vlr-011"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "float-contiguous-vlr-013"
 }, 
@@ -10725,12 +10825,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "float-contiguous-vrl-010"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "float-contiguous-vrl-012"
 }, 
@@ -10739,12 +10847,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "float-shrink-to-fit-vlr-003"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "float-shrink-to-fit-vlr-005"
 }, 
@@ -10753,12 +10869,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "float-shrink-to-fit-vlr-007"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "float-shrink-to-fit-vlr-009"
 }, 
@@ -10767,12 +10891,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "float-shrink-to-fit-vrl-002"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "float-shrink-to-fit-vrl-004"
 }, 
@@ -10781,12 +10913,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "float-shrink-to-fit-vrl-006"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "float-shrink-to-fit-vrl-008"
 }, 
@@ -10795,12 +10935,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "float-shrink-to-fit-vrl-vlr-016"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "float-vlr-003"
 }, 
@@ -10809,12 +10957,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "float-vlr-005"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "float-vlr-007"
 }, 
@@ -10823,12 +10979,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "float-vlr-009"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "float-vlr-011"
 }, 
@@ -10837,12 +11001,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "float-vlr-013"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "float-vrl-002"
 }, 
@@ -10851,12 +11023,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "float-vrl-004"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "float-vrl-006"
 }, 
@@ -10865,12 +11045,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "float-vrl-008"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "float-vrl-010"
 }, 
@@ -10879,12 +11067,16 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "float-vrl-012"
 }, 
 {
 "Blink": {
 "result": "fail", 
-"source": "lemoned"
+"source": "gtalbot"
 }, 
 "Gecko": {
 "result": "pass", 
@@ -10907,7 +11099,7 @@
 {
 "Blink": {
 "result": "fail", 
-"source": "lemoned"
+"source": "gtalbot"
 }, 
 "Gecko": {
 "result": "pass", 
@@ -10981,12 +11173,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "height-width-inline-non-replaced-vlr-003"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "height-width-inline-non-replaced-vrl-002"
 }, 
@@ -11079,12 +11279,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "inline-block-alignment-002"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "inline-block-alignment-003"
 }, 
@@ -11093,12 +11301,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "inline-block-alignment-004"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "inline-block-alignment-005"
 }, 
@@ -11107,12 +11323,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "inline-block-alignment-006"
 }, 
 {
 "Blink": {
 "result": "skip", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "inline-block-alignment-007"
 }, 
@@ -11121,12 +11345,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "inline-block-alignment-008"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "inline-block-alignment-009"
 }, 
@@ -11135,12 +11367,20 @@
 "result": "skip", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "inline-block-alignment-010"
 }, 
 {
 "Blink": {
 "result": "skip", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "inline-block-alignment-011"
 }, 
@@ -11252,6 +11492,10 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "inline-replaced-vlr-005"
 }, 
 {
@@ -11282,12 +11526,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "inline-replaced-vrl-004"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "inline-table-alignment-002"
 }, 
@@ -11296,6 +11548,10 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "inline-table-alignment-003"
 }, 
 {
@@ -11303,12 +11559,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "inline-table-alignment-004"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "inline-table-alignment-005"
 }, 
@@ -11617,6 +11881,14 @@
 "id": "margin-collapse-vlr-017"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "margin-collapse-vlr-023"
 }, 
 {
@@ -11811,6 +12083,14 @@
 "id": "margin-collapse-vrl-016"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "margin-collapse-vrl-022"
 }, 
 {
@@ -12773,12 +13053,20 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "table-column-order-002"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "table-column-order-003"
 }, 
@@ -12787,12 +13075,20 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "table-column-order-004"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "table-column-order-005"
 }, 
@@ -12823,12 +13119,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-align-vlr-003"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-align-vlr-005"
 }, 
@@ -12837,12 +13141,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-align-vlr-007"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-align-vlr-009"
 }, 
@@ -12851,12 +13163,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-align-vlr-011"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-align-vlr-013"
 }, 
@@ -12865,12 +13185,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-align-vlr-015"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-align-vlr-017"
 }, 
@@ -12879,12 +13207,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-align-vlr-019"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-align-vrl-002"
 }, 
@@ -12893,12 +13229,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-align-vrl-004"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-align-vrl-006"
 }, 
@@ -12907,12 +13251,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-align-vrl-008"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-align-vrl-010"
 }, 
@@ -12921,12 +13273,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-align-vrl-012"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-align-vrl-014"
 }, 
@@ -12935,12 +13295,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-align-vrl-016"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-align-vrl-018"
 }, 
@@ -12949,12 +13317,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-baseline-002"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-baseline-003"
 }, 
@@ -12963,12 +13339,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-baseline-004"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-baseline-005"
 }, 
@@ -12977,12 +13361,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "text-baseline-006"
 }, 
 {
 "Blink": {
 "result": "skip", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "text-baseline-007"
 }, 
@@ -12991,12 +13383,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-baseline-008"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-baseline-009"
 }, 
@@ -13005,12 +13405,20 @@
 "result": "skip", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "text-baseline-010"
 }, 
 {
 "Blink": {
 "result": "skip", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "text-baseline-011"
 }, 
@@ -14897,12 +15305,20 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "vertical-alignment-002"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "vertical-alignment-003"
 }, 
@@ -14911,12 +15327,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "vertical-alignment-004"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "vertical-alignment-005"
 }, 
@@ -14925,12 +15349,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "vertical-alignment-006"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "vertical-alignment-007"
 }, 
@@ -14939,12 +15371,20 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "vertical-alignment-008"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "vertical-alignment-009"
 }, 
