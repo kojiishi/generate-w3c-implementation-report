@@ -13396,3 +13396,12 @@ underline-font-size-vlr-003,pass,HTML,2015-09-11T12:26:43+00:00,134.249.163.93,W
 underline-font-size-vlr-005,pass,HTML,2015-09-11T12:26:58+00:00,134.249.163.93,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/44.0.2403.89 Chrome/44.0.2403.89 Safari/537.36"
 underline-font-size-vrl-002,fail,HTML,2015-09-11T12:27:12+00:00,134.249.163.93,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/44.0.2403.89 Chrome/44.0.2403.89 Safari/537.36"
 underline-font-size-vrl-004,uncertain,HTML,2015-09-11T12:27:20+00:00,134.249.163.93,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/44.0.2403.89 Chrome/44.0.2403.89 Safari/537.36"
+caption-side-vlr-003,fail,HTML,2015-09-12T17:50:41+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
+caption-side-vlr-005,fail,HTML,2015-09-12T17:50:45+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
+caption-side-vrl-002,fail,HTML,2015-09-12T17:50:48+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
+caption-side-vrl-004,fail,HTML,2015-09-12T17:50:51+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
+caption-side-vlr-003,pass,HTML,2015-09-12T17:51:55+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
+caption-side-vlr-005,pass,HTML,2015-09-12T17:52:02+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
+caption-side-vrl-002,pass,HTML,2015-09-12T17:52:07+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
+caption-side-vrl-004,pass,HTML,2015-09-12T17:52:14+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
+text-decoration-sidewaysleft-vlr-003,uncertain,HTML,2015-09-13T04:26:33+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"

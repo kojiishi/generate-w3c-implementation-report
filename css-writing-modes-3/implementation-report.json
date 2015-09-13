@@ -9498,44 +9498,48 @@
 "id": "box-offsets-rel-pos-vrl-004"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "caption-side-vlr-003"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "caption-side-vlr-005"
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
-"id": "caption-side-vlr-007"
-}, 
-{
-"Blink": {
+"Gecko": {
 "result": "fail", 
-"source": "blink"
+"source": "gtalbot"
 }, 
-"id": "caption-side-vlr-009"
-}, 
-{
 "id": "caption-side-vrl-002"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "caption-side-vrl-004"
-}, 
-{
-"Blink": {
-"result": "fail", 
-"source": "blink"
-}, 
-"id": "caption-side-vrl-006"
-}, 
-{
-"Blink": {
-"result": "fail", 
-"source": "blink"
-}, 
-"id": "caption-side-vrl-008"
 }, 
 {
 "Blink": {
@@ -13836,8 +13840,8 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
-"source": "gtalbot"
+"result": "uncertain", 
+"source": "kojiishi"
 }, 
 "Gecko": {
 "result": "fail", 

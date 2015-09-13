@@ -462,14 +462,10 @@ html/box-offsets-rel-pos-vlr-003.htm	3d16e0883c205cf9db0f153a21fe09328210fb9e	pa
 html/box-offsets-rel-pos-vlr-005.htm	63b0812b0ce58203acbbb078d6a358dfa8ef7921	pass # XP, Linux: fail
 html/box-offsets-rel-pos-vrl-002.htm	71f9afb95909f5bbf2f482ea0cae18d0760dd61b	pass
 html/box-offsets-rel-pos-vrl-004.htm	2fefce44f6b5272b4e3d76d78fbd376dc7ccfcb7	pass # XP, Linux: fail
-# html/caption-side-vlr-003.htm	41e8041d2d435e974216763507a3d2facbf9e3c0	?
-# html/caption-side-vlr-005.htm	b582b270d98a59eb7ce7b5cc603e52fb967c9c20	?
-html/caption-side-vlr-007.htm	f410dead0beebd780f39dcc05819f51bfaaadedd	fail
-html/caption-side-vlr-009.htm	b105e1ea75dd2af1d7eaa4ff2a665046626ce10c	fail
-# html/caption-side-vrl-002.htm	e5a180004889a5bc36885ca2fd3d775bb1d8fcb2	?
-# html/caption-side-vrl-004.htm	3559d226f06b91a5bf5d8dbee9177e767bc9ffbf	?
-html/caption-side-vrl-006.htm	3e363e5def1e6cb3fd92a34fcb618606a654406c	fail
-html/caption-side-vrl-008.htm	3e6318e25ce36e232605b7379277c62c653ce1e3	fail
+html/caption-side-vlr-003.htm	ea5639ee6271399829ea8c62db82718427bb569c	pass
+html/caption-side-vlr-005.htm	c95aa45f866fb2ed9af7774e9e606973fb5dedb7	pass
+html/caption-side-vrl-002.htm	c95ba91d7923fc2b50bdfa3d4f1aaef9302a7542	pass
+html/caption-side-vrl-004.htm	774a167268876affa99022bc214a8d22abae0f21	pass
 html/central-baseline-alignment-002.htm	e28062535869c8d0b31a582209741edea2192306	pass
 html/central-baseline-alignment-003.htm	2f956a69326a0e1ae2a976dc6f6900bc8755605c	pass
 html/clearance-calculations-vrl-002.htm	290b31f2c5c04d24ee0a0df2cc310470bab109ff	pass
@@ -749,7 +745,7 @@ html/text-combine-upright-value-all-003.htm	1652f5297b171f4dd79a025de37d35bdc751
 # html/text-combine-upright-value-digits4-002.htm	6eb0ab6855be7d1ecb6506312cdfb094b56f9595	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 # html/text-combine-upright-value-digits4-003.htm	48e63abff54988c1a6a75d6905010e19544e470b	skip # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 html/text-combine-upright-value-none-001.htm	7ef71c72b96c6e7677f9da7bf26aa9ed2e3bc16a	pass
-# html/text-decoration-sidewaysleft-vlr-003.htm	13860419acaa722347ad09079c169ef6a8ba5ade	fail
+# html/text-decoration-sidewaysleft-vlr-003.htm	13860419acaa722347ad09079c169ef6a8ba5ade	uncertain
 # html/text-decoration-sidewaysleft-vlr-005.htm	fd527a5c91aa03ce36207ee9720165068e087b03	fail
 # html/text-decoration-sidewaysleft-vlr-007.htm	b569c2c1628567a7b38a944802626d6b57314636	fail
 # html/text-decoration-sidewaysleft-vrl-002.htm	db67c9431ff5434de395c4b0104fc37f34cab975	fail
@@ -850,5 +846,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Mac: Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass
-# Total = 851, Coverage = 817 (96%), Pass = 688 (80% of total, 84% of coverage), Fail = 129 (15% of total, 15% of coverage)
-# Imported = 678 (79%), Pass = 573 (67% of total, 84% of imported), Fail = 105 (12% of total, 15% of imported)
+# Total = 847, Coverage = 816 (96%), Pass = 692 (81% of total, 84% of coverage), Fail = 124 (14% of total, 15% of coverage)
+# Imported = 678 (80%), Pass = 577 (68% of total, 85% of imported), Fail = 101 (11% of total, 14% of imported)
