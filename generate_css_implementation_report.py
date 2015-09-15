@@ -271,16 +271,20 @@ class W3CImplementationReportGenerator(object):
     def load_test_expectations(self, expectations):
         pattern = re.compile(r'([^\[]+)(\[[^\]]+])?\s+(\S+)\s+\[\s*([^\]]+)]$')
         comment = None
-        is_actually_pass = False
+        result_override = None
         for line in expectations:
             line = line.strip()
             if not line:
                 comment = None
-                is_actually_pass = False
+                result_override = None
                 continue
             if line[0] == '#':
                 comment = line[1:].strip()
-                is_actually_pass = 'pass but' in comment
+                if 'pass but' in comment:
+                    result_override = 'pass'
+                else:
+                    result_override = None
+                log.debug("Comment found, ovrrride=%s: %s", result_override, comment)
                 continue
             match = pattern.match(line)
             if match:
@@ -297,9 +301,9 @@ class W3CImplementationReportGenerator(object):
                     log.info("Flaky as Pass: %s", line)
                     test.add_test_expectation(conditions, 'pass', 'Flaky')
                     continue
-                if is_actually_pass:
-                    log.info("Fail as pass: %s # %s", line, comment)
-                    test.add_test_expectation(conditions, 'pass', comment)
+                if result_override:
+                    log.info("Override %s as %s: %s # %s", results, result_override, line, comment)
+                    test.add_test_expectation(conditions, result_override, comment)
                     continue
                 if results == ['Skip']:
                     test.clear_imported()
@@ -348,7 +352,7 @@ class W3CImplementationReportGenerator(object):
                 if not path.startswith('imported/csswg-test/css-writing-modes-3/'):
                     continue
                 results = results.rstrip().split()
-                log.debug("ImportExpectations found: %s %s", results)
+                log.debug("ImportExpectations found: %s %s", results, path)
                 test = self.test_from_path(path)
                 if not test:
                     log.warn("Test for W3CImportExpectations not found: %s", path)
