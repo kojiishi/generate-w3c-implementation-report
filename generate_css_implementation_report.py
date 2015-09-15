@@ -340,7 +340,7 @@ class W3CImplementationReportGenerator(object):
                 if 'have known issues' in comment:
                     result = "invalid"
                 elif 'do not plan to support' in comment:
-                    result = 'not_supported'
+                    result = 'no_support'
                 elif '"combo"' in comment:
                     result = None
                 else:
@@ -382,7 +382,7 @@ class W3CImplementationReportGenerator(object):
                 output.write("# " + "\t".join((test.testnames[0], test.revision, "?")) + "\n")
                 continue
             result_value = result.result
-            if result_value == 'not_supported':
+            if result_value == 'no_support':
                 result_value = 'fail'
             values = [test.testnames[0], test.revision, result_value]
             line = '\t'.join(values)
