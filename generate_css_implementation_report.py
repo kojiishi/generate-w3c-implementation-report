@@ -339,6 +339,8 @@ class W3CImplementationReportGenerator(object):
                 issue_url = None
                 if 'have known issues' in comment:
                     result = "invalid"
+                elif 'do not plan to support' in comment:
+                    result = 'not_supported'
                 elif '"combo"' in comment:
                     result = None
                 else:
@@ -379,13 +381,16 @@ class W3CImplementationReportGenerator(object):
             if not result:
                 output.write("# " + "\t".join((test.testnames[0], test.revision, "?")) + "\n")
                 continue
-            values = [test.testnames[0], test.revision, result.result]
+            result_value = result.result
+            if result_value == 'not_supported':
+                result_value = 'fail'
+            values = [test.testnames[0], test.revision, result_value]
             line = '\t'.join(values)
-            is_passed = result.result == 'pass'
+            is_passed = result_value == 'pass'
             if is_passed:
                 coverage += 1
                 passed += 1
-            elif result.result == "fail":
+            elif result_value == "fail":
                 coverage += 1
             if result.is_imported:
                 imported += 1
