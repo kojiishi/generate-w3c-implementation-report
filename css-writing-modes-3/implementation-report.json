@@ -8711,7 +8711,7 @@
 }, 
 {
 "Blink": {
-"result": "skip", 
+"result": "no_support", 
 "source": "blink"
 }, 
 "Edge": {
@@ -8726,7 +8726,7 @@
 }, 
 {
 "Blink": {
-"result": "skip", 
+"result": "no_support", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -12053,7 +12053,7 @@
 }, 
 {
 "Blink": {
-"result": "skip", 
+"result": "no_support", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -12064,7 +12064,7 @@
 }, 
 {
 "Blink": {
-"result": "skip", 
+"result": "no_support", 
 "source": "blink"
 }, 
 "Gecko": {

@@ -339,7 +339,7 @@ class W3CImplementationReportGenerator(object):
                 issue_url = None
                 if 'have known issues' in comment:
                     result = "invalid"
-                elif 'do not plan to support' in comment:
+                elif 'do not plan to support' in comment or 'do not support' in comment:
                     result = 'no_support'
                 elif '"combo"' in comment:
                     result = None

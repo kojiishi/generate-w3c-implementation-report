@@ -417,8 +417,8 @@ html/block-flow-direction-013.htm	c20c2f47fd7c59884b794ad025d9c47c395e6248	pass 
 html/block-flow-direction-014.htm	b44acfc65ec31f4ea17dd56c9e7379ec86df7ea2	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/block-flow-direction-015.htm	9af49e6edee9fe3a8cc8ed1a4b61eb86e9db6a28	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/block-flow-direction-016.htm	0687ecb763842c4937f50b991b135fdb61ba1a21	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-# html/block-flow-direction-017.htm	7f600cd4a4fce114a2698658b317d444af89e2b0	skip # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
-# html/block-flow-direction-018.htm	5cc2e0394ee9fc2e8c4393d1fca9b964111413ce	skip # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
+html/block-flow-direction-017.htm	7f600cd4a4fce114a2698658b317d444af89e2b0	fail # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
+html/block-flow-direction-018.htm	5cc2e0394ee9fc2e8c4393d1fca9b964111413ce	fail # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
 html/block-flow-direction-019.htm	38faffff4ffff208f0179399778e99f7d361e62a	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/block-flow-direction-020.htm	4d431792ca25bd32b7f1afd91295cb1bce0b8e16	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/block-flow-direction-021.htm	b651e390189799fd3ba5645a387bb0076143fcbd	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
@@ -610,8 +610,8 @@ html/line-box-direction-011.htm	f8650989de43ac7fb803e2d3ee90895585093859	pass # 
 html/line-box-direction-012.htm	fd46e6862d5550e26ff8676f197c139a6ef22c76	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/line-box-direction-013.htm	19b536e0a1f8ade5e0d4b28e000a4cfc2ef6fffb	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/line-box-direction-014.htm	48ce7e37185f5cc05ebd9bcab83816666586fb12	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-# html/line-box-direction-015.htm	6c1d326321d127b5ce4257d1b2ac8a98c3582d2f	skip # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
-# html/line-box-direction-016.htm	6bfe1b10d730d4a7f3223cb9660d3ea34a087660	skip # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
+html/line-box-direction-015.htm	6c1d326321d127b5ce4257d1b2ac8a98c3582d2f	fail # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
+html/line-box-direction-016.htm	6bfe1b10d730d4a7f3223cb9660d3ea34a087660	fail # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
 html/line-box-direction-017.htm	82c0b1c9077d8c2593f76ba2a7641ed4c66d09f5	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/line-box-direction-018.htm	14c9f8e9c6bc46db0837781f18284c9e16adfdcf	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/line-box-direction-019.htm	85531d155283e10dc3b47ac2d21c82b585b86dae	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
@@ -846,5 +846,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Mac: Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass
-# Total = 847, Coverage = 842 (99%), Pass = 692 (81% of total, 82% of coverage), Fail = 150 (17% of total, 17% of coverage)
-# Imported = 704 (83%), Pass = 577 (68% of total, 81% of imported), Fail = 127 (14% of total, 18% of imported)
+# Total = 847, Coverage = 846 (99%), Pass = 692 (81% of total, 81% of coverage), Fail = 154 (18% of total, 18% of coverage)
+# Imported = 708 (83%), Pass = 577 (68% of total, 81% of imported), Fail = 131 (15% of total, 18% of imported)
