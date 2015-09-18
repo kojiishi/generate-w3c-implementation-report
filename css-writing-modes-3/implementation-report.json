@@ -14151,7 +14151,7 @@
 }, 
 {
 "Blink": {
-"result": "no_support", 
+"result": "fail", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -14170,7 +14170,7 @@
 }, 
 {
 "Blink": {
-"result": "no_support", 
+"result": "fail", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -14192,7 +14192,7 @@
 }, 
 {
 "Blink": {
-"result": "no_support", 
+"result": "fail", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -14214,8 +14214,8 @@
 }, 
 {
 "Blink": {
-"result": "no_support", 
-"source": "blink"
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "Gecko": {
 "result": "fail", 
@@ -14477,120 +14477,6 @@
 "source": "kojiishi"
 }, 
 "id": "text-combine-upright-value-none-001"
-}, 
-{
-"Blink": {
-"result": "uncertain", 
-"source": "kojiishi"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"id": "text-decoration-sidewaysleft-vlr-003"
-}, 
-{
-"Blink": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"id": "text-decoration-sidewaysleft-vlr-005"
-}, 
-{
-"Blink": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"id": "text-decoration-sidewaysleft-vlr-007"
-}, 
-{
-"Blink": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"id": "text-decoration-sidewaysleft-vrl-002"
-}, 
-{
-"Blink": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"id": "text-decoration-sidewaysleft-vrl-004"
-}, 
-{
-"Blink": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"id": "text-decoration-sidewaysleft-vrl-006"
 }, 
 {
 "Blink": {

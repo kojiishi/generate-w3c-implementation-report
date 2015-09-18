@@ -728,10 +728,10 @@ html/text-combine-upright-inherit-all-001.htm	71bf076146439091e171f37da2984ca1dc
 html/text-combine-upright-inherit-all-002.htm	5f16f6cf05f96410a9698653f5557ca74ae561af	pass
 html/text-combine-upright-layout-rules-001.htm	9980ef15a2d30b35d78b084c811dedf8eba8bced	pass
 html/text-combine-upright-line-breaking-rules-001.htm	ba05c4e7e3474cf05cce3e1fec33f1895a186b16	pass
-html/text-combine-upright-parsing-invalid-001.htm	2b2c132e18a567fb8056e362766d8a030557c4de	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-html/text-combine-upright-parsing-invalid-002.htm	7f78c2344ff0a88366e152bfb9dd032df56c8e31	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-html/text-combine-upright-parsing-valid-001.htm	0ce4e72cafc4c08b3dbb51296126cc6ec5cfc581	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-html/text-combine-upright-parsing-valid-002.htm	c04b90914c86be633173bfcc63c14b2a44b058db	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+html/text-combine-upright-parsing-invalid-001.htm	2b2c132e18a567fb8056e362766d8a030557c4de	fail
+html/text-combine-upright-parsing-invalid-002.htm	7f78c2344ff0a88366e152bfb9dd032df56c8e31	fail
+html/text-combine-upright-parsing-valid-001.htm	0ce4e72cafc4c08b3dbb51296126cc6ec5cfc581	fail
+# html/text-combine-upright-parsing-valid-002.htm	c04b90914c86be633173bfcc63c14b2a44b058db	fail
 html/text-combine-upright-value-all-001.htm	aa61701be68a6a2f5b8759406b5d12097287037b	fail
 html/text-combine-upright-value-all-002.htm	86aee37014437221d6f54d959e1822b2c1b040fa	fail
 html/text-combine-upright-value-all-003.htm	1652f5297b171f4dd79a025de37d35bdc751f12c	fail
@@ -745,12 +745,6 @@ html/text-combine-upright-value-digits4-001.htm	33a447cb2475a6e9d537f299226c8718
 html/text-combine-upright-value-digits4-002.htm	6eb0ab6855be7d1ecb6506312cdfb094b56f9595	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 html/text-combine-upright-value-digits4-003.htm	48e63abff54988c1a6a75d6905010e19544e470b	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 html/text-combine-upright-value-none-001.htm	7ef71c72b96c6e7677f9da7bf26aa9ed2e3bc16a	pass
-# html/text-decoration-sidewaysleft-vlr-003.htm	13860419acaa722347ad09079c169ef6a8ba5ade	uncertain
-# html/text-decoration-sidewaysleft-vlr-005.htm	fd527a5c91aa03ce36207ee9720165068e087b03	fail
-# html/text-decoration-sidewaysleft-vlr-007.htm	b569c2c1628567a7b38a944802626d6b57314636	fail
-# html/text-decoration-sidewaysleft-vrl-002.htm	db67c9431ff5434de395c4b0104fc37f34cab975	fail
-# html/text-decoration-sidewaysleft-vrl-004.htm	5f9de0f87469ee2e54327840768f686a689a59e3	fail
-# html/text-decoration-sidewaysleft-vrl-006.htm	6ce9b3d13bd53f93566eafb611f177cfbc1bb649	fail
 # html/text-decoration-sidewaysright-vlr-003.htm	b8157e3eff221eae825611d9d395b3069ecd1c9e	pass
 # html/text-decoration-sidewaysright-vlr-005.htm	64b47c6284141431e3cf3faa31b16435b0a373db	pass
 # html/text-decoration-sidewaysright-vlr-007.htm	de480c0eab1ff248f02e63abaaa7995612b49951	pass
@@ -846,5 +840,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Mac: Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass
-# Total = 847, Coverage = 846 (99%), Pass = 692 (81% of total, 81% of coverage), Fail = 154 (18% of total, 18% of coverage)
-# Imported = 708 (83%), Pass = 577 (68% of total, 81% of imported), Fail = 131 (15% of total, 18% of imported)
+# Total = 841, Coverage = 841 (100%), Pass = 692 (82% of total, 82% of coverage), Fail = 149 (17% of total, 17% of coverage)
+# Imported = 707 (84%), Pass = 577 (68% of total, 81% of imported), Fail = 130 (15% of total, 18% of imported)
