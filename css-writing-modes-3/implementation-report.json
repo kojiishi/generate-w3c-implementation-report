@@ -14432,6 +14432,10 @@
 "id": "text-orientation-mixed-001"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
 "id": "text-orientation-parsing-001"
 }, 
 {
@@ -15096,6 +15100,10 @@
 "id": "unicode-bidi-applies-to-015"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
 "id": "unicode-bidi-parsing-002"
 }, 
 {
@@ -15265,18 +15273,38 @@
 "id": "writing-mode-horizontal-001r"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
 "id": "writing-mode-parsing-001"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
 "id": "writing-mode-parsing-sideways-lr-001"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
 "id": "writing-mode-parsing-sideways-rl-001"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
 "id": "writing-mode-parsing-svg1-001"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
 "id": "writing-mode-parsing-svg1-002"
 }, 
 {
