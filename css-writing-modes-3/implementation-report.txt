@@ -790,9 +790,9 @@ html/text-orientation-script-001l.htm	0b842056a68797e0a12ba7cffb4b4afc6f1e9be5	p
 html/text-orientation-script-001m.htm	24dd6e5df9229834b0b3e78ff48bcfa205c400e1	pass
 html/text-orientation-script-001n.htm	75668b8433dbbb2bc2e62fd4bf2445560c858453	pass
 html/text-orientation-script-001o.htm	ad390d60dd518de633056d1bd59900406d4d23e8	pass
-# html/text-orientation-sideways-001.htm	0e563a3b93880c751ed081529a4200309bbd2af2	?
-# html/text-orientation-sideways-right-001.htm	d9d0c11c8add7eaeca3c4895c0b41f1b64808d68	?
-# html/text-orientation-upright-001.htm	1d7c80ad3f6eb357a1dd9ef0261dba63dcf971a1	?
+# html/text-orientation-sideways-001.htm	0e563a3b93880c751ed081529a4200309bbd2af2	pass
+# html/text-orientation-sideways-right-001.htm	d9d0c11c8add7eaeca3c4895c0b41f1b64808d68	pass
+# html/text-orientation-upright-001.htm	1d7c80ad3f6eb357a1dd9ef0261dba63dcf971a1	pass
 # html/underline-font-size-vlr-003.htm	2ed0dce303004a098525b1c0aa2008df639643ea	fail
 # html/underline-font-size-vlr-005.htm	8218f172828fc358d5814147c09eac80646d5167	fail
 # html/underline-font-size-vrl-002.htm	9d177e35a9389b54beaadb42c09d951c9257f137	fail
@@ -838,5 +838,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Mac: Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass
-# Total = 839, Coverage = 836 (99%), Pass = 689 (82% of total, 82% of coverage), Fail = 147 (17% of total, 17% of coverage)
+# Total = 839, Coverage = 839 (100%), Pass = 692 (82% of total, 82% of coverage), Fail = 147 (17% of total, 17% of coverage)
 # Imported = 706 (84%), Pass = 577 (68% of total, 81% of imported), Fail = 129 (15% of total, 18% of imported)

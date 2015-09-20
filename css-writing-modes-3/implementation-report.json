@@ -5859,6 +5859,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "baseline-inline-non-replaced-002"
 }, 
 {
@@ -5869,6 +5873,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "baseline-inline-non-replaced-003"
 }, 
@@ -5881,6 +5889,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "baseline-inline-non-replaced-004"
 }, 
 {
@@ -5891,6 +5903,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "baseline-inline-non-replaced-005"
 }, 
@@ -5903,6 +5919,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "baseline-inline-replaced-002"
 }, 
 {
@@ -5913,6 +5933,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "baseline-inline-replaced-003"
 }, 
@@ -5979,6 +6003,10 @@
 }, 
 "Gecko": {
 "result": "fail"
+}, 
+"WebKit": {
+"result": "uncertain", 
+"source": "lemoned"
 }, 
 "id": "bidi-004"
 }, 
@@ -8546,6 +8574,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "block-flow-direction-001"
 }, 
 {
@@ -8556,6 +8588,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "block-flow-direction-002"
 }, 
@@ -8568,6 +8604,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "block-flow-direction-003"
 }, 
 {
@@ -8578,6 +8618,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "block-flow-direction-004"
 }, 
@@ -8590,6 +8634,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "block-flow-direction-005"
 }, 
 {
@@ -8600,6 +8648,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "block-flow-direction-006"
 }, 
@@ -8612,6 +8664,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "block-flow-direction-007"
 }, 
 {
@@ -8622,6 +8678,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "block-flow-direction-008"
 }, 
@@ -8634,6 +8694,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "block-flow-direction-009"
 }, 
 {
@@ -8644,6 +8708,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "block-flow-direction-010"
 }, 
@@ -8656,6 +8724,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "block-flow-direction-011"
 }, 
 {
@@ -8666,6 +8738,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "block-flow-direction-012"
 }, 
@@ -8678,6 +8754,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "block-flow-direction-013"
 }, 
 {
@@ -8688,6 +8768,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "block-flow-direction-014"
 }, 
@@ -8700,6 +8784,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "block-flow-direction-015"
 }, 
 {
@@ -8710,6 +8798,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "block-flow-direction-016"
 }, 
@@ -8726,6 +8818,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "block-flow-direction-017"
 }, 
 {
@@ -8736,6 +8832,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "block-flow-direction-018"
 }, 
@@ -8749,8 +8849,12 @@
 "source": "kojiishi"
 }, 
 "Gecko": {
-"result": "fail", 
+"result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "block-flow-direction-019"
 }, 
@@ -8763,6 +8867,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "block-flow-direction-020"
 }, 
 {
@@ -8773,6 +8881,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "block-flow-direction-021"
 }, 
@@ -8785,6 +8897,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "block-flow-direction-022"
 }, 
 {
@@ -8796,6 +8912,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "block-flow-direction-023"
 }, 
 {
@@ -8806,6 +8926,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "block-flow-direction-024"
 }, 
@@ -9587,7 +9711,7 @@
 "source": "kojiishi"
 }, 
 "Gecko": {
-"result": "fail", 
+"result": "pass", 
 "source": "gtalbot"
 }, 
 "WebKit": {
@@ -9606,7 +9730,7 @@
 "source": "kojiishi"
 }, 
 "Gecko": {
-"result": "fail", 
+"result": "pass", 
 "source": "gtalbot"
 }, 
 "Trident": {
@@ -9629,7 +9753,7 @@
 "source": "kojiishi"
 }, 
 "Gecko": {
-"result": "fail", 
+"result": "pass", 
 "source": "gtalbot"
 }, 
 "WebKit": {
@@ -9648,7 +9772,7 @@
 "source": "kojiishi"
 }, 
 "Gecko": {
-"result": "fail", 
+"result": "pass", 
 "source": "gtalbot"
 }, 
 "Trident": {
@@ -11402,7 +11526,7 @@
 }, 
 "Gecko": {
 "result": "fail", 
-"source": "upsuper"
+"source": "gtalbot"
 }, 
 "Trident": {
 "result": "fail", 
@@ -11421,7 +11545,7 @@
 }, 
 "Gecko": {
 "result": "fail", 
-"source": "upsuper"
+"source": "gtalbot"
 }, 
 "Trident": {
 "result": "fail", 
@@ -11680,12 +11804,28 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "inline-block-alignment-orthogonal-vlr-003"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "inline-block-alignment-orthogonal-vlr-005"
 }, 
@@ -11694,12 +11834,28 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "inline-block-alignment-orthogonal-vrl-002"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "inline-block-alignment-orthogonal-vrl-004"
 }, 
@@ -11730,6 +11886,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "inline-replaced-vlr-005"
 }, 
@@ -11765,6 +11925,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "inline-replaced-vrl-004"
 }, 
 {
@@ -11780,6 +11944,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "inline-table-alignment-002"
 }, 
 {
@@ -11790,6 +11958,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "inline-table-alignment-003"
 }, 
@@ -11806,6 +11978,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "inline-table-alignment-004"
 }, 
 {
@@ -11816,6 +11992,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "inline-table-alignment-005"
 }, 
@@ -11828,6 +12008,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "line-box-direction-001"
 }, 
 {
@@ -11838,6 +12022,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "line-box-direction-002"
 }, 
@@ -11850,6 +12038,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "line-box-direction-003"
 }, 
 {
@@ -11860,6 +12052,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "line-box-direction-005"
 }, 
@@ -11872,6 +12068,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "line-box-direction-006"
 }, 
 {
@@ -11882,6 +12082,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "line-box-direction-007"
 }, 
@@ -11894,6 +12098,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "line-box-direction-008"
 }, 
 {
@@ -11904,6 +12112,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "line-box-direction-009"
 }, 
@@ -11916,6 +12128,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "line-box-direction-010"
 }, 
 {
@@ -11926,6 +12142,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "line-box-direction-011"
 }, 
@@ -11938,6 +12158,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "line-box-direction-012"
 }, 
 {
@@ -11948,6 +12172,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "line-box-direction-013"
 }, 
@@ -11960,6 +12188,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "line-box-direction-014"
 }, 
 {
@@ -11970,6 +12202,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
 }, 
 "id": "line-box-direction-015"
 }, 
@@ -11982,6 +12218,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "fail", 
+"source": "lemoned"
+}, 
 "id": "line-box-direction-016"
 }, 
 {
@@ -11992,6 +12232,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "line-box-direction-017"
 }, 
@@ -12004,6 +12248,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "line-box-direction-018"
 }, 
 {
@@ -12015,6 +12263,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
+}, 
 "id": "line-box-direction-019"
 }, 
 {
@@ -12025,6 +12277,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"WebKit": {
+"result": "pass", 
+"source": "lemoned"
 }, 
 "id": "line-box-direction-020"
 }, 
@@ -12479,12 +12735,20 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001a"
 }, 
@@ -12493,12 +12757,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001b"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001c"
 }, 
@@ -12507,12 +12779,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001d"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001e"
 }, 
@@ -12521,12 +12801,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001f"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001g"
 }, 
@@ -12535,12 +12823,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001h"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001i"
 }, 
@@ -12549,12 +12845,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001j"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001k"
 }, 
@@ -12563,12 +12867,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001l"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001m"
 }, 
@@ -12577,12 +12889,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001n"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001o"
 }, 
@@ -12591,12 +12911,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001p"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001q"
 }, 
@@ -12605,12 +12933,20 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001r"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001s"
 }, 
@@ -12619,12 +12955,20 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001t"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001u"
 }, 
@@ -12633,6 +12977,10 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001v"
 }, 
 {
@@ -12640,12 +12988,20 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001w"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001x"
 }, 
@@ -13708,12 +14064,20 @@
 "result": "no_support", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "text-combine-upright-parsing-digits-001"
 }, 
 {
 "Blink": {
 "result": "no_support", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "text-combine-upright-parsing-digits-002"
 }, 
@@ -13723,7 +14087,7 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "pass", 
+"result": "fail", 
 "source": "gtalbot"
 }, 
 "Trident": {
@@ -13742,7 +14106,7 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "pass", 
+"result": "fail", 
 "source": "gtalbot"
 }, 
 "Presto": {
@@ -13762,6 +14126,10 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "text-combine-upright-parsing-valid-001"
 }, 
@@ -14245,12 +14613,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-indent-vlr-003"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-indent-vlr-005"
 }, 
@@ -14259,12 +14635,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-indent-vlr-007"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-indent-vlr-009"
 }, 
@@ -14273,12 +14657,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-indent-vlr-011"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-indent-vlr-013"
 }, 
@@ -14287,12 +14679,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-indent-vlr-015"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-indent-vlr-017"
 }, 
@@ -14301,12 +14701,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-indent-vrl-002"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-indent-vrl-004"
 }, 
@@ -14315,12 +14723,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-indent-vrl-006"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-indent-vrl-008"
 }, 
@@ -14329,12 +14745,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-indent-vrl-010"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-indent-vrl-012"
 }, 
@@ -14343,12 +14767,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-indent-vrl-014"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "text-indent-vrl-016"
 }, 
@@ -14435,6 +14867,10 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "text-orientation-parsing-001"
 }, 
@@ -14651,12 +15087,36 @@
 "id": "text-orientation-script-001o"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "text-orientation-sideways-001"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-orientation-sideways-right-001"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-orientation-upright-001"
 }, 
 {
@@ -15104,6 +15564,10 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "unicode-bidi-parsing-002"
 }, 
 {
@@ -15277,12 +15741,20 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "writing-mode-parsing-001"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "writing-mode-parsing-sideways-lr-001"
 }, 
@@ -15291,6 +15763,10 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "writing-mode-parsing-sideways-rl-001"
 }, 
 {
@@ -15298,12 +15774,20 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "writing-mode-parsing-svg1-001"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "writing-mode-parsing-svg1-002"
 }, 
