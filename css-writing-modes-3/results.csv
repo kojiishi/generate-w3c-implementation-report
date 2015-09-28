@@ -874,8 +874,6 @@ margin-collapse-vrl-024,pass,HTML,2014-09-07T05:00:00+00:00,kojiishi,WebKit,"Moz
 margin-collapse-vrl-030,pass,HTML,2014-09-07T05:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 margin-collapse-vrl-034,pass,HTML,2014-09-07T05:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 margin-collapse-vrl-036,pass,HTML,2014-09-07T05:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-margin-vlr-003,pass,HTML,2014-09-07T05:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-margin-vrl-002,pass,HTML,2014-09-07T05:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 padding-vlr-005,pass,HTML,2014-09-07T05:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 padding-vrl-004,pass,HTML,2014-09-07T05:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 percent-margin-vlr-003,pass,HTML,2014-09-07T05:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
@@ -899,8 +897,6 @@ text-combine-upright-value-all-001,fail,HTML,2014-09-07T05:00:00+00:00,kojiishi,
 text-combine-upright-value-all-002,fail,HTML,2014-09-07T05:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-combine-upright-value-all-003,fail,HTML,2014-09-07T05:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-combine-upright-value-none-001,pass,HTML,2014-09-07T05:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-orientation-012,pass,HTML,2014-09-07T05:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-orientation-014,pass,HTML,2014-09-07T05:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-orientation-script-001,fail,HTML,2014-09-07T05:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-orientation-script-001a,pass,HTML,2014-09-07T05:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-orientation-script-001b,pass,HTML,2014-09-07T05:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
@@ -1583,13 +1579,6 @@ horizontal-rule-vlr-003,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Moz
 horizontal-rule-vlr-005,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 horizontal-rule-vrl-002,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 horizontal-rule-vrl-004,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-inline-block-alignment-002,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-inline-block-alignment-003,fail,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-inline-block-alignment-004,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-inline-block-alignment-005,fail,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-inline-block-alignment-006,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-inline-block-alignment-008,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-inline-block-alignment-009,fail,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 inline-replaced-vlr-003,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 inline-replaced-vlr-005,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 inline-replaced-vrl-002,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
@@ -1633,8 +1622,6 @@ margin-collapse-vrl-024,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Moz
 margin-collapse-vrl-030,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 margin-collapse-vrl-034,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 margin-collapse-vrl-036,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-margin-vlr-003,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-margin-vrl-002,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 padding-vlr-005,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 padding-vrl-004,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 percent-margin-vlr-003,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
@@ -1661,8 +1648,6 @@ table-column-order-002,fail,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozi
 table-column-order-003,fail,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 table-column-order-004,fail,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 table-column-order-005,fail,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-table-progression-001-vlr,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-table-progression-001-vrl,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-align-vlr-003,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-align-vlr-005,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-align-vlr-007,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
@@ -1681,13 +1666,6 @@ text-align-vrl-012,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/
 text-align-vrl-014,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-align-vrl-016,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-align-vrl-018,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-text-baseline-002,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-text-baseline-003,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-text-baseline-004,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-text-baseline-005,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-text-baseline-006,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-text-baseline-008,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-text-baseline-009,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-combine-upright-decorations-001,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-combine-upright-inherit-all-001,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-combine-upright-inherit-all-002,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
@@ -1708,8 +1686,6 @@ text-combine-upright-value-digits4-001,fail,HTML,2014-09-15T13:00:00+00:00,kojii
 text-combine-upright-value-digits4-002,fail,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-combine-upright-value-digits4-003,fail,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-combine-upright-value-none-001,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-text-orientation-012,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-text-orientation-014,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-orientation-script-001,fail,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-orientation-script-001a,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-orientation-script-001b,pass,HTML,2014-09-15T13:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
@@ -2528,8 +2504,6 @@ autoheight-regions-in-autoheight-flexbox-002,pass,HTML,2015-02-05T22:36:58+00:00
 block-flow-direction-025,fail,HTML,2015-02-13T20:35:03+00:00,175.167.130.168,WebKit,"Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; HM NOTE 1W Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.1.1"
 inline-replaced-vlr-003,pass,HTML,2015-02-17T03:16:14+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0
 inline-replaced-vrl-002,pass,HTML,2015-02-17T03:16:19+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0
-margin-vlr-003,pass,HTML,2015-02-17T03:16:23+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0
-margin-vrl-002,pass,HTML,2015-02-17T03:16:27+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0
 block-plaintext-005,fail,HTML,2015-02-17T03:24:27+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0
 block-plaintext-006,fail,HTML,2015-02-17T03:24:32+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0
 different-block-flow-dir-001,fail,HTML,2015-02-17T03:24:40+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0
@@ -2586,8 +2560,6 @@ margin-collapse-vlr-035,pass,HTML,2015-02-28T21:09:33+00:00,184.160.100.171,Geck
 margin-collapse-vlr-037,pass,HTML,2015-02-28T21:09:36+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0
 margin-collapse-vrl-036,pass,HTML,2015-02-28T21:09:41+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0
 page-flow-direction-003,pass,HTML,2015-02-28T21:09:49+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0
-margin-vlr-003,pass,HTML,2015-03-02T08:30:19+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0
-margin-vrl-002,pass,HTML,2015-03-02T08:30:20+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0
 block-flow-direction-025,fail,HTML,2015-03-05T09:31:24+00:00,151.226.242.123,Presto,Opera/9.80 (X11; FreeBSD 10.1-RELEASE amd64) Presto/2.12.388 Version/12.16
 different-block-flow-dir-001,fail,HTML,2015-03-05T09:32:26+00:00,151.226.242.123,Presto,Opera/9.80 (X11; FreeBSD 10.1-RELEASE amd64) Presto/2.12.388 Version/12.16
 different-block-flow-dir-002,fail,HTML,2015-03-05T09:32:32+00:00,151.226.242.123,Presto,Opera/9.80 (X11; FreeBSD 10.1-RELEASE amd64) Presto/2.12.388 Version/12.16
@@ -2601,8 +2573,6 @@ float-contiguous-vrl-002,fail,HTML,2015-03-09T07:34:20+00:00,184.160.100.171,Gec
 float-contiguous-vrl-004,fail,HTML,2015-03-09T07:34:23+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0
 float-contiguous-vrl-006,pass,HTML,2015-03-09T07:34:26+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0
 float-contiguous-vrl-008,pass,HTML,2015-03-09T07:34:28+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0
-margin-vlr-003,pass,HTML,2015-03-09T07:35:22+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0
-margin-vrl-002,pass,HTML,2015-03-09T07:35:24+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0
 different-block-flow-dir-001,fail,HTML,2015-03-10T16:04:47+00:00,108.32.87.236,Gecko,Mozilla/5.0 (Windows NT 6.3; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0
 different-block-flow-dir-002,fail,HTML,2015-03-10T16:04:55+00:00,108.32.87.236,Gecko,Mozilla/5.0 (Windows NT 6.3; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0
 float-contiguous-vlr-003,pass,HTML,2015-03-18T07:35:51+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0
@@ -2617,8 +2587,6 @@ horizontal-rule-vlr-003,pass,HTML,2015-03-18T07:37:39+00:00,184.160.100.171,Geck
 horizontal-rule-vlr-005,fail,HTML,2015-03-18T07:37:47+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0
 horizontal-rule-vrl-002,pass,HTML,2015-03-18T07:37:53+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0
 horizontal-rule-vrl-004,fail,HTML,2015-03-18T07:38:00+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0
-margin-vlr-003,pass,HTML,2015-03-18T07:38:04+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0
-margin-vrl-002,pass,HTML,2015-03-18T07:38:06+00:00,184.160.100.171,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0
 different-block-flow-dir-001,fail,HTML,2015-03-19T04:57:39+00:00,199.192.85.26,Gecko,Mozilla/5.0 (Windows NT 6.1; rv:36.0) Gecko/20100101 Firefox/36.0
 different-block-flow-dir-002,fail,HTML,2015-03-19T04:57:49+00:00,199.192.85.26,Gecko,Mozilla/5.0 (Windows NT 6.1; rv:36.0) Gecko/20100101 Firefox/36.0
 form-controls-vert-rl-004,fail,HTML,2015-03-19T05:01:11+00:00,199.192.85.26,Gecko,Mozilla/5.0 (Windows NT 6.1; rv:36.0) Gecko/20100101 Firefox/36.0
@@ -2634,7 +2602,6 @@ replaced-content-image-002,pass,HTML,2015-03-21T04:45:49+00:00,kojiishi,WebKit,"
 replaced-content-image-003,pass,HTML,2015-03-21T04:46:05+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
 float-contiguous-vlr-003,pass,HTML,2015-03-21T04:51:16+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2339.0 Safari/537.36"
 horizontal-rule-vlr-003,pass,HTML,2015-03-21T04:52:31+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2339.0 Safari/537.36"
-margin-vlr-003,pass,HTML,2015-03-21T04:52:44+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2339.0 Safari/537.36"
 block-plaintext-005,uncertain,HTML,2015-03-22T08:42:10+00:00,129.67.242.155,Gecko,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0
 block-plaintext-006,uncertain,HTML,2015-03-22T08:42:33+00:00,129.67.242.155,Gecko,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0
 different-block-flow-dir-001,fail,HTML,2015-03-22T08:42:48+00:00,129.67.242.155,Gecko,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0
@@ -2737,8 +2704,6 @@ horizontal-rule-vlr-003,pass,HTML,2015-03-30T08:35:24+00:00,lemoned,WebKit,"Mozi
 horizontal-rule-vlr-005,pass,HTML,2015-03-30T08:35:39+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2349.4 Safari/537.36"
 horizontal-rule-vrl-002,pass,HTML,2015-03-30T08:35:48+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2349.4 Safari/537.36"
 horizontal-rule-vrl-004,pass,HTML,2015-03-30T08:36:05+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2349.4 Safari/537.36"
-margin-vlr-003,pass,HTML,2015-03-30T08:36:25+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2349.4 Safari/537.36"
-margin-vrl-002,pass,HTML,2015-03-30T08:36:33+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2349.4 Safari/537.36"
 padding-vlr-005,pass,HTML,2015-03-30T08:36:40+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2349.4 Safari/537.36"
 padding-vrl-004,pass,HTML,2015-03-30T08:36:45+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2349.4 Safari/537.36"
 margin-collapse-vlr-003,pass,HTML,2015-03-30T08:47:41+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2349.4 Safari/537.36"
@@ -3069,8 +3034,6 @@ float-contiguous-vrl-006,pass,HTML,2015-04-23T01:58:03+00:00,184.160.181.22,Geck
 float-contiguous-vrl-008,pass,HTML,2015-04-23T01:58:05+00:00,184.160.181.22,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 float-contiguous-vrl-002,pass,HTML,2015-04-23T01:59:33+00:00,184.160.181.22,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 float-contiguous-vrl-004,pass,HTML,2015-04-23T01:59:35+00:00,184.160.181.22,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
-margin-vlr-003,pass,HTML,2015-04-23T01:59:45+00:00,184.160.181.22,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
-margin-vrl-002,pass,HTML,2015-04-23T01:59:47+00:00,184.160.181.22,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 background-position-vrl-006,pass,HTML,2015-04-23T03:01:29+00:00,kojiishi,WebKit,"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2378.0 Safari/537.36"
 background-position-vrl-008,pass,HTML,2015-04-23T03:01:51+00:00,kojiishi,WebKit,"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2378.0 Safari/537.36"
 background-position-vrl-016,pass,HTML,2015-04-23T03:02:13+00:00,kojiishi,WebKit,"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2378.0 Safari/537.36"
@@ -3163,8 +3126,6 @@ float-contiguous-vrl-006,pass,HTML,2015-05-02T23:12:32+00:00,184.160.49.5,Gecko,
 float-contiguous-vrl-008,pass,HTML,2015-05-02T23:12:34+00:00,184.160.49.5,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 float-contiguous-vrl-002,pass,HTML,2015-05-02T23:13:46+00:00,184.160.49.5,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 float-contiguous-vrl-004,pass,HTML,2015-05-02T23:13:47+00:00,184.160.49.5,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
-margin-vlr-003,pass,HTML,2015-05-02T23:13:55+00:00,184.160.49.5,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
-margin-vrl-002,pass,HTML,2015-05-02T23:13:57+00:00,184.160.49.5,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 bidi-alt-001,fail,HTML,2015-05-03T06:23:03+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 block-plaintext-005,fail,HTML,2015-05-03T06:23:16+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 block-plaintext-006,fail,HTML,2015-05-03T06:23:19+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
@@ -3572,8 +3533,6 @@ block-plaintext-003,fail,HTML,2015-05-03T08:24:57+00:00,gtalbot,Gecko,Mozilla/5.
 block-plaintext-004,fail,HTML,2015-05-03T08:25:01+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 float-contiguous-vrl-002,pass,HTML,2015-05-03T08:25:14+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 float-contiguous-vrl-004,pass,HTML,2015-05-03T08:25:16+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
-margin-vlr-003,pass,HTML,2015-05-03T08:25:29+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
-margin-vrl-002,pass,HTML,2015-05-03T08:25:32+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 text-combine-upright-parsing-invalid-001,pass,HTML,2015-05-03T08:25:37+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 text-combine-upright-parsing-invalid-002,pass,HTML,2015-05-03T08:25:38+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
 bidi-isolate-009,fail,HTML,2015-05-03T08:26:29+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0
@@ -3632,44 +3591,24 @@ abs-pos-non-replaced-icb-vlr-015,pass,HTML,2015-05-15T18:32:24+00:00,27.189.212.
 abs-pos-non-replaced-icb-vlr-017,pass,HTML,2015-05-15T18:32:34+00:00,27.189.212.15,Gecko,Mozilla/5.0 (Android; Mobile; rv:38.0) Gecko/38.0 Firefox/38.0
 abs-pos-non-replaced-icb-vlr-019,pass,HTML,2015-05-15T18:32:44+00:00,27.189.212.15,Gecko,Mozilla/5.0 (Android; Mobile; rv:38.0) Gecko/38.0 Firefox/38.0
 abs-pos-non-replaced-icb-vlr-007,pass,HTML,2015-05-16T14:58:37+00:00,36.229.219.187,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/600.6.3 (KHTML, like Gecko) Version/8.0.6 Safari/600.6.3"
-text-decoration-sidewaysright-vlr-003,pass,HTML,2015-05-16T23:23:49+00:00,184.160.49.5,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-text-decoration-sidewaysright-vlr-005,pass,HTML,2015-05-16T23:23:53+00:00,184.160.49.5,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-text-decoration-sidewaysright-vlr-007,pass,HTML,2015-05-16T23:23:57+00:00,184.160.49.5,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-text-decoration-sidewaysright-vrl-002,pass,HTML,2015-05-16T23:24:07+00:00,184.160.49.5,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-text-decoration-sidewaysright-vrl-004,pass,HTML,2015-05-16T23:24:09+00:00,184.160.49.5,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-text-decoration-sidewaysright-vrl-006,pass,HTML,2015-05-16T23:24:18+00:00,184.160.49.5,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 text-decoration-upright-vlr-003,pass,HTML,2015-05-16T23:24:34+00:00,184.160.49.5,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 text-decoration-upright-vlr-005,pass,HTML,2015-05-16T23:24:39+00:00,184.160.49.5,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 text-decoration-upright-vlr-007,pass,HTML,2015-05-16T23:24:42+00:00,184.160.49.5,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 text-decoration-upright-vrl-002,pass,HTML,2015-05-16T23:24:59+00:00,184.160.49.5,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 text-decoration-upright-vrl-004,pass,HTML,2015-05-16T23:25:05+00:00,184.160.49.5,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 text-decoration-upright-vrl-006,pass,HTML,2015-05-16T23:25:08+00:00,184.160.49.5,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-text-decoration-sidewaysright-vlr-003,pass,HTML,2015-05-16T23:26:51+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2398.0 Safari/537.36"
-text-decoration-sidewaysright-vlr-005,pass,HTML,2015-05-16T23:27:06+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2398.0 Safari/537.36"
-text-decoration-sidewaysright-vlr-007,pass,HTML,2015-05-16T23:27:12+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2398.0 Safari/537.36"
-text-decoration-sidewaysright-vrl-002,pass,HTML,2015-05-16T23:27:17+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2398.0 Safari/537.36"
-text-decoration-sidewaysright-vrl-004,pass,HTML,2015-05-16T23:27:23+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2398.0 Safari/537.36"
-text-decoration-sidewaysright-vrl-006,pass,HTML,2015-05-16T23:27:34+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2398.0 Safari/537.36"
 text-decoration-upright-vlr-003,pass,HTML,2015-05-16T23:27:44+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2398.0 Safari/537.36"
 text-decoration-upright-vlr-005,pass,HTML,2015-05-16T23:27:55+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2398.0 Safari/537.36"
 text-decoration-upright-vlr-007,pass,HTML,2015-05-16T23:28:06+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2398.0 Safari/537.36"
 text-decoration-upright-vrl-002,pass,HTML,2015-05-16T23:28:14+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2398.0 Safari/537.36"
 text-decoration-upright-vrl-004,pass,HTML,2015-05-16T23:28:19+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2398.0 Safari/537.36"
 text-decoration-upright-vrl-006,pass,HTML,2015-05-16T23:28:23+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2398.0 Safari/537.36"
-text-decoration-sidewaysright-vlr-003,pass,HTML,2015-05-16T23:32:16+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-text-decoration-sidewaysright-vlr-005,pass,HTML,2015-05-16T23:32:21+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-text-decoration-sidewaysright-vlr-007,pass,HTML,2015-05-16T23:32:26+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-text-decoration-sidewaysright-vrl-002,pass,HTML,2015-05-16T23:33:22+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-text-decoration-sidewaysright-vrl-004,pass,HTML,2015-05-16T23:33:25+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-text-decoration-sidewaysright-vrl-006,pass,HTML,2015-05-16T23:33:28+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 text-decoration-upright-vlr-003,pass,HTML,2015-05-16T23:33:40+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 text-decoration-upright-vlr-005,pass,HTML,2015-05-16T23:33:42+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 text-decoration-upright-vlr-007,pass,HTML,2015-05-16T23:33:45+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 text-decoration-upright-vrl-002,pass,HTML,2015-05-16T23:33:49+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 text-decoration-upright-vrl-004,pass,HTML,2015-05-16T23:33:51+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 text-decoration-upright-vrl-006,pass,HTML,2015-05-16T23:33:54+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-text-decoration-sidewaysright-vrl-002,pass,HTML,2015-05-17T00:56:05+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2398.0 Safari/537.36"
-text-decoration-sidewaysright-vrl-004,pass,HTML,2015-05-17T00:56:15+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2398.0 Safari/537.36"
 abs-pos-non-replaced-icb-vlr-011,pass,HTML,2015-05-17T11:23:19+00:00,171.96.172.17,WebKit,"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2398.0 Safari/537.36"
 abs-pos-non-replaced-icb-vlr-021,fail,HTML,2015-05-17T21:08:45+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 abs-pos-non-replaced-icb-vlr-023,fail,HTML,2015-05-17T21:08:53+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
@@ -4005,7 +3944,6 @@ float-contiguous-vrl-008,pass,HTML,2015-06-05T17:24:15+00:00,gtalbot,WebKit,"Moz
 horizontal-rule-vlr-005,pass,HTML,2015-06-05T17:27:44+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2421.0 Safari/537.36"
 horizontal-rule-vrl-002,pass,HTML,2015-06-05T17:27:57+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2421.0 Safari/537.36"
 horizontal-rule-vrl-004,pass,HTML,2015-06-05T17:28:07+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2421.0 Safari/537.36"
-margin-vrl-002,pass,HTML,2015-06-05T17:28:13+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2421.0 Safari/537.36"
 padding-vlr-005,pass,HTML,2015-06-05T17:28:19+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2421.0 Safari/537.36"
 padding-vrl-004,pass,HTML,2015-06-05T17:28:25+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2421.0 Safari/537.36"
 abs-pos-non-replaced-icb-vlr-013,fail,HTML,2015-06-05T17:32:29+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2421.0 Safari/537.36"
@@ -4025,7 +3963,6 @@ abs-pos-non-replaced-icb-vrl-028,pass,HTML,2015-06-05T17:34:17+00:00,gtalbot,Web
 abs-pos-non-replaced-icb-vrl-032,pass,HTML,2015-06-05T17:34:24+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2421.0 Safari/537.36"
 float-contiguous-vlr-003,pass,HTML,2015-06-05T17:34:31+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2421.0 Safari/537.36"
 horizontal-rule-vlr-003,pass,HTML,2015-06-05T17:35:03+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2421.0 Safari/537.36"
-margin-vlr-003,pass,HTML,2015-06-05T17:35:15+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2421.0 Safari/537.36"
 abs-pos-non-replaced-icb-vlr-003,fail,HTML,2015-06-05T17:36:09+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2421.0 Safari/537.36"
 abs-pos-non-replaced-icb-vlr-005,fail,HTML,2015-06-05T17:36:24+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2421.0 Safari/537.36"
 abs-pos-non-replaced-icb-vlr-011,fail,HTML,2015-06-05T17:38:32+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2421.0 Safari/537.36"
@@ -4533,8 +4470,6 @@ margin-collapse-vrl-024,pass,HTML,2015-06-09T00:12:08+00:00,gtalbot,Gecko,Mozill
 margin-collapse-vrl-030,pass,HTML,2015-06-09T00:12:12+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 margin-collapse-vrl-034,pass,HTML,2015-06-09T00:12:16+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 margin-collapse-vrl-036,pass,HTML,2015-06-09T00:12:20+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-margin-vlr-003,pass,HTML,2015-06-09T00:12:27+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-margin-vrl-002,pass,HTML,2015-06-09T00:12:40+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 padding-vlr-005,pass,HTML,2015-06-09T00:13:37+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 padding-vrl-004,pass,HTML,2015-06-09T00:13:41+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 page-flow-direction-002,fail,HTML,2015-06-09T00:14:13+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
@@ -4543,12 +4478,6 @@ replaced-content-image-002,pass,HTML,2015-06-09T00:17:27+00:00,gtalbot,Gecko,Moz
 replaced-content-image-003,pass,HTML,2015-06-09T00:17:33+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 text-combine-upright-parsing-invalid-001,pass,HTML,2015-06-09T00:23:46+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 text-combine-upright-parsing-invalid-002,pass,HTML,2015-06-09T00:23:48+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-text-decoration-sidewaysright-vlr-003,pass,HTML,2015-06-09T00:25:41+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-text-decoration-sidewaysright-vlr-005,pass,HTML,2015-06-09T00:25:47+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-text-decoration-sidewaysright-vlr-007,pass,HTML,2015-06-09T00:25:59+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-text-decoration-sidewaysright-vrl-002,pass,HTML,2015-06-09T00:26:04+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-text-decoration-sidewaysright-vrl-004,pass,HTML,2015-06-09T00:26:09+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
-text-decoration-sidewaysright-vrl-006,pass,HTML,2015-06-09T00:26:14+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 text-decoration-upright-vlr-003,pass,HTML,2015-06-09T00:26:29+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 text-decoration-upright-vlr-005,pass,HTML,2015-06-09T00:26:33+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
 text-decoration-upright-vlr-007,pass,HTML,2015-06-09T00:26:37+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0
@@ -4971,8 +4900,6 @@ margin-collapse-vrl-024,pass,HTML,2015-06-25T02:00:00+00:00,kojiishi,WebKit,"Moz
 margin-collapse-vrl-030,pass,HTML,2015-06-25T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
 margin-collapse-vrl-034,pass,HTML,2015-06-25T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
 margin-collapse-vrl-036,pass,HTML,2015-06-25T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
-margin-vlr-003,pass,HTML,2015-06-25T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
-margin-vrl-002,pass,HTML,2015-06-25T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
 padding-vlr-005,pass,HTML,2015-06-25T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
 padding-vrl-004,pass,HTML,2015-06-25T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
 percent-margin-vlr-003,pass,HTML,2015-06-25T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
@@ -5284,8 +5211,6 @@ margin-collapse-vrl-024,pass,HTML,2015-06-25T11:00:00+00:00,kojiishi,WebKit,"Moz
 margin-collapse-vrl-030,pass,HTML,2015-06-25T11:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
 margin-collapse-vrl-034,pass,HTML,2015-06-25T11:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
 margin-collapse-vrl-036,pass,HTML,2015-06-25T11:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
-margin-vlr-003,pass,HTML,2015-06-25T11:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
-margin-vrl-002,pass,HTML,2015-06-25T11:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
 padding-vlr-005,pass,HTML,2015-06-25T11:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
 padding-vrl-004,pass,HTML,2015-06-25T11:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
 percent-margin-vlr-003,pass,HTML,2015-06-25T11:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2439.0 Safari/537.36"
@@ -5597,8 +5522,6 @@ margin-collapse-vrl-024,pass,HTML,2015-06-29T01:00:00+00:00,kojiishi,WebKit,"Moz
 margin-collapse-vrl-030,pass,HTML,2015-06-29T01:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2442.0 Safari/537.36"
 margin-collapse-vrl-034,pass,HTML,2015-06-29T01:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2442.0 Safari/537.36"
 margin-collapse-vrl-036,pass,HTML,2015-06-29T01:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2442.0 Safari/537.36"
-margin-vlr-003,pass,HTML,2015-06-29T01:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2442.0 Safari/537.36"
-margin-vrl-002,pass,HTML,2015-06-29T01:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2442.0 Safari/537.36"
 padding-vlr-005,pass,HTML,2015-06-29T01:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2442.0 Safari/537.36"
 padding-vrl-004,pass,HTML,2015-06-29T01:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2442.0 Safari/537.36"
 percent-margin-vlr-003,pass,HTML,2015-06-29T01:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2442.0 Safari/537.36"
@@ -6052,8 +5975,6 @@ margin-collapse-vrl-024,pass,HTML,2015-06-30T06:00:00+00:00,kojiishi,WebKit,"Moz
 margin-collapse-vrl-030,pass,HTML,2015-06-30T06:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2443.0 Safari/537.36"
 margin-collapse-vrl-034,pass,HTML,2015-06-30T06:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2443.0 Safari/537.36"
 margin-collapse-vrl-036,pass,HTML,2015-06-30T06:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2443.0 Safari/537.36"
-margin-vlr-003,pass,HTML,2015-06-30T06:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2443.0 Safari/537.36"
-margin-vrl-002,pass,HTML,2015-06-30T06:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2443.0 Safari/537.36"
 padding-vlr-005,pass,HTML,2015-06-30T06:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2443.0 Safari/537.36"
 padding-vrl-004,pass,HTML,2015-06-30T06:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2443.0 Safari/537.36"
 percent-margin-vlr-003,pass,HTML,2015-06-30T06:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2443.0 Safari/537.36"
@@ -6319,8 +6240,6 @@ horizontal-rule-vrl-002,pass,HTML,2015-06-30T07:59:51+00:00,gtalbot,Gecko,Mozill
 horizontal-rule-vrl-004,pass,HTML,2015-06-30T07:59:57+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 float-contiguous-vrl-002,pass,HTML,2015-06-30T08:01:12+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 float-contiguous-vrl-004,pass,HTML,2015-06-30T08:01:17+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
-margin-vlr-003,pass,HTML,2015-06-30T08:01:29+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
-margin-vrl-002,pass,HTML,2015-06-30T08:01:31+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 abs-pos-non-replaced-vrl-166,pass,HTML,2015-06-30T08:16:24+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 abs-pos-non-replaced-vrl-168,pass,HTML,2015-06-30T08:16:28+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 abs-pos-non-replaced-vrl-170,pass,HTML,2015-06-30T08:16:33+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
@@ -6896,8 +6815,6 @@ margin-collapse-vrl-024,pass,HTML,2015-07-02T03:00:00+00:00,kojiishi,WebKit,"Moz
 margin-collapse-vrl-030,pass,HTML,2015-07-02T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 margin-collapse-vrl-034,pass,HTML,2015-07-02T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 margin-collapse-vrl-036,pass,HTML,2015-07-02T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
-margin-vlr-003,pass,HTML,2015-07-02T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
-margin-vrl-002,pass,HTML,2015-07-02T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 padding-vlr-005,pass,HTML,2015-07-02T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 padding-vrl-004,pass,HTML,2015-07-02T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 percent-margin-vlr-003,pass,HTML,2015-07-02T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
@@ -7192,12 +7109,6 @@ abs-pos-non-replaced-vrl-070,pass,HTML,2015-07-02T06:18:27+00:00,gtalbot,Gecko,M
 abs-pos-non-replaced-vrl-076,pass,HTML,2015-07-02T06:18:31+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 abs-pos-non-replaced-vrl-082,pass,HTML,2015-07-02T06:18:34+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 abs-pos-non-replaced-vrl-094,pass,HTML,2015-07-02T06:18:38+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
-text-decoration-sidewaysright-vlr-003,pass,HTML,2015-07-02T06:19:33+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
-text-decoration-sidewaysright-vlr-005,pass,HTML,2015-07-02T06:19:36+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
-text-decoration-sidewaysright-vlr-007,pass,HTML,2015-07-02T06:19:40+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
-text-decoration-sidewaysright-vrl-002,pass,HTML,2015-07-02T06:19:42+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
-text-decoration-sidewaysright-vrl-004,pass,HTML,2015-07-02T06:19:45+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
-text-decoration-sidewaysright-vrl-006,pass,HTML,2015-07-02T06:19:48+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 text-decoration-upright-vlr-003,pass,HTML,2015-07-02T06:20:11+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 text-decoration-upright-vlr-005,pass,HTML,2015-07-02T06:20:15+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 text-decoration-upright-vlr-007,pass,HTML,2015-07-02T06:20:17+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
@@ -7470,8 +7381,6 @@ block-override-isolate-003,fail,HTML,2015-07-02T06:49:44+00:00,gtalbot,Gecko,Moz
 block-override-isolate-004,fail,HTML,2015-07-02T06:49:51+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 float-contiguous-vrl-002,pass,HTML,2015-07-02T06:50:01+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 float-contiguous-vrl-004,pass,HTML,2015-07-02T06:50:05+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
-margin-vlr-003,pass,HTML,2015-07-02T06:50:19+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
-margin-vrl-002,pass,HTML,2015-07-02T06:50:22+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 text-combine-upright-parsing-invalid-001,pass,HTML,2015-07-02T06:50:24+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 text-combine-upright-parsing-invalid-002,pass,HTML,2015-07-02T06:50:25+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 writing-mode-vertical-rl-001,pass,HTML,2015-07-02T06:50:33+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
@@ -7904,8 +7813,6 @@ margin-collapse-vrl-024,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Moz
 margin-collapse-vrl-030,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 margin-collapse-vrl-034,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 margin-collapse-vrl-036,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
-margin-vlr-003,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
-margin-vrl-002,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 padding-vlr-005,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 padding-vrl-004,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 percent-margin-vlr-003,pass,HTML,2015-07-06T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
@@ -8409,8 +8316,6 @@ margin-collapse-vrl-024,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Moz
 margin-collapse-vrl-030,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 margin-collapse-vrl-034,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 margin-collapse-vrl-036,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
-margin-vlr-003,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
-margin-vrl-002,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 padding-vlr-005,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 padding-vrl-004,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
 percent-margin-vlr-003,pass,HTML,2015-07-10T03:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2445.0 Safari/537.36"
@@ -9046,8 +8951,6 @@ margin-collapse-vrl-024,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Moz
 margin-collapse-vrl-030,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 margin-collapse-vrl-034,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 margin-collapse-vrl-036,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
-margin-vlr-003,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
-margin-vrl-002,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 padding-vlr-005,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 padding-vrl-004,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 percent-margin-vlr-003,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
@@ -9083,12 +8986,6 @@ writing-mode-vertical-rl-001,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit
 writing-mode-vertical-rl-002,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 writing-mode-vertical-rl-003,pass,HTML,2015-07-14T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.4 Safari/537.36"
 text-orientation-010,pass,HTML,2015-07-14T08:05:13+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-text-decoration-sidewaysright-vlr-003,pass,HTML,2015-07-14T08:46:31+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-text-decoration-sidewaysright-vlr-005,pass,HTML,2015-07-14T08:52:26+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-text-decoration-sidewaysright-vlr-007,pass,HTML,2015-07-14T08:53:33+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-text-decoration-sidewaysright-vrl-002,pass,HTML,2015-07-14T08:54:26+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-text-decoration-sidewaysright-vrl-004,pass,HTML,2015-07-14T08:55:16+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-text-decoration-sidewaysright-vrl-006,pass,HTML,2015-07-14T08:55:59+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 text-decoration-upright-vlr-003,pass,HTML,2015-07-14T08:59:54+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 text-decoration-upright-vlr-005,pass,HTML,2015-07-14T09:01:06+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 text-decoration-upright-vlr-007,pass,HTML,2015-07-14T09:01:53+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
@@ -9114,8 +9011,6 @@ horizontal-rule-vlr-003,pass,HTML,2015-07-15T05:20:05+00:00,lemoned,Trident,Mozi
 horizontal-rule-vlr-005,pass,HTML,2015-07-15T05:20:29+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 horizontal-rule-vrl-002,uncertain,HTML,2015-07-15T05:25:20+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 horizontal-rule-vrl-004,pass,HTML,2015-07-15T05:25:44+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-margin-vlr-003,pass,HTML,2015-07-15T05:27:13+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
-margin-vrl-002,pass,HTML,2015-07-15T05:27:49+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 padding-vlr-005,pass,HTML,2015-07-15T05:28:37+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 padding-vrl-004,pass,HTML,2015-07-15T05:29:10+00:00,lemoned,Trident,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
 bidi-plaintext-011,fail,HTML,2015-07-17T05:11:11+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
@@ -9610,8 +9505,6 @@ margin-collapse-vrl-024,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Moz
 margin-collapse-vrl-030,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
 margin-collapse-vrl-034,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
 margin-collapse-vrl-036,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
-margin-vlr-003,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
-margin-vrl-002,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
 padding-vlr-005,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
 padding-vrl-004,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
 percent-margin-vlr-003,pass,HTML,2015-07-21T14:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2461.0 Safari/537.36"
@@ -9891,12 +9784,6 @@ text-orientation-script-001m,fail,HTML,2015-08-10T07:33:08+00:00,gtalbot,Gecko,M
 text-orientation-script-001n,fail,HTML,2015-08-10T07:33:09+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 text-orientation-script-001o,fail,HTML,2015-08-10T07:33:11+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 text-combine-upright-layout-rules-001,fail,HTML,2015-08-10T07:35:42+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
-text-decoration-sidewaysright-vlr-003,pass,HTML,2015-08-10T07:36:51+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
-text-decoration-sidewaysright-vlr-005,pass,HTML,2015-08-10T07:36:56+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
-text-decoration-sidewaysright-vlr-007,pass,HTML,2015-08-10T07:37:00+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
-text-decoration-sidewaysright-vrl-002,pass,HTML,2015-08-10T07:37:04+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
-text-decoration-sidewaysright-vrl-004,pass,HTML,2015-08-10T07:37:09+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
-text-decoration-sidewaysright-vrl-006,pass,HTML,2015-08-10T07:37:12+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 text-decoration-upright-vlr-003,pass,HTML,2015-08-10T07:37:26+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 text-decoration-upright-vlr-005,pass,HTML,2015-08-10T07:37:29+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 text-decoration-upright-vlr-007,pass,HTML,2015-08-10T07:37:40+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
@@ -10053,8 +9940,6 @@ writing-mode-vertical-rl-002,pass,HTML,2015-08-14T08:56:43+00:00,gtalbot,Gecko,M
 writing-mode-vertical-rl-003,pass,HTML,2015-08-14T08:57:01+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-orientation-010,pass,HTML,2015-08-14T09:03:01+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-orientation-011,fail,HTML,2015-08-14T09:03:17+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-orientation-012,fail,HTML,2015-08-14T09:03:32+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-orientation-014,pass,HTML,2015-08-14T09:03:49+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-orientation-mixed-001,pass,HTML,2015-08-14T09:04:02+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-orientation-script-001,fail,HTML,2015-08-14T09:04:35+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-orientation-script-001a,fail,HTML,2015-08-14T09:05:04+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
@@ -10077,13 +9962,7 @@ text-orientation-script-001o,fail,HTML,2015-08-14T09:08:09+00:00,gtalbot,Gecko,M
 unicode-bidi-applies-to-009,pass,HTML,2015-08-14T09:08:30+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 unicode-bidi-applies-to-010,pass,HTML,2015-08-14T09:09:14+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 unicode-bidi-applies-to-012,pass,HTML,2015-08-14T09:10:00+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
-text-decoration-sidewaysright-vlr-003,fail,HTML,2015-08-14T09:10:27+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-decoration-sidewaysright-vlr-005,pass,HTML,2015-08-14T09:10:38+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-decoration-sidewaysright-vlr-007,pass,HTML,2015-08-14T09:10:42+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 unicode-bidi-applies-to-013,pass,HTML,2015-08-14T09:10:42+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
-text-decoration-sidewaysright-vrl-002,pass,HTML,2015-08-14T09:10:45+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-decoration-sidewaysright-vrl-004,pass,HTML,2015-08-14T09:10:47+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-decoration-sidewaysright-vrl-006,pass,HTML,2015-08-14T09:10:51+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-decoration-upright-vlr-003,pass,HTML,2015-08-14T09:11:01+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-decoration-upright-vlr-005,pass,HTML,2015-08-14T09:11:04+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-decoration-upright-vlr-007,pass,HTML,2015-08-14T09:11:06+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
@@ -10613,8 +10492,6 @@ margin-collapse-vrl-024,pass,HTML,2015-08-14T21:39:24+00:00,gtalbot,Gecko,Mozill
 margin-collapse-vrl-030,pass,HTML,2015-08-14T21:39:26+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 margin-collapse-vrl-034,pass,HTML,2015-08-14T21:39:28+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 margin-collapse-vrl-036,pass,HTML,2015-08-14T21:39:30+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-margin-vlr-003,pass,HTML,2015-08-14T21:39:34+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-margin-vrl-002,pass,HTML,2015-08-14T21:39:37+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 padding-vlr-005,pass,HTML,2015-08-14T21:40:21+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 padding-vrl-004,pass,HTML,2015-08-14T21:40:23+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 percent-margin-vlr-003,pass,HTML,2015-08-14T21:40:31+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
@@ -10629,12 +10506,6 @@ percent-padding-vlr-007,pass,HTML,2015-08-14T21:40:47+00:00,gtalbot,Gecko,Mozill
 percent-padding-vrl-002,pass,HTML,2015-08-14T21:40:49+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 percent-padding-vrl-004,pass,HTML,2015-08-14T21:40:51+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 percent-padding-vrl-006,pass,HTML,2015-08-14T21:40:52+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-decoration-sidewaysright-vlr-003,pass,HTML,2015-08-14T21:42:26+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-decoration-sidewaysright-vlr-005,pass,HTML,2015-08-14T21:42:28+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-decoration-sidewaysright-vlr-007,pass,HTML,2015-08-14T21:42:32+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-decoration-sidewaysright-vrl-002,pass,HTML,2015-08-14T21:42:38+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-decoration-sidewaysright-vrl-004,pass,HTML,2015-08-14T21:42:40+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-decoration-sidewaysright-vrl-006,pass,HTML,2015-08-14T21:42:42+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-decoration-upright-vlr-003,pass,HTML,2015-08-14T21:42:49+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-decoration-upright-vlr-005,pass,HTML,2015-08-14T21:42:51+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-decoration-upright-vlr-007,pass,HTML,2015-08-14T21:42:54+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
@@ -10642,13 +10513,9 @@ text-decoration-upright-vrl-002,pass,HTML,2015-08-14T21:42:57+00:00,gtalbot,Geck
 text-decoration-upright-vrl-004,pass,HTML,2015-08-14T21:42:59+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-decoration-upright-vrl-006,pass,HTML,2015-08-14T21:43:04+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-orientation-011,pass,HTML,2015-08-16T00:50:34+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2478.0 Safari/537.36"
-text-orientation-012,pass,HTML,2015-08-16T00:50:42+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2478.0 Safari/537.36"
-text-orientation-014,pass,HTML,2015-08-16T00:51:01+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2478.0 Safari/537.36"
 text-orientation-mixed-001,pass,HTML,2015-08-16T00:52:10+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2478.0 Safari/537.36"
 text-orientation-010,pass,HTML,2015-08-16T00:59:08+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-orientation-011,fail,HTML,2015-08-16T00:59:14+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-orientation-012,fail,HTML,2015-08-16T00:59:18+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-orientation-014,pass,HTML,2015-08-16T00:59:25+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-orientation-mixed-001,pass,HTML,2015-08-16T00:59:36+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-orientation-script-001,fail,HTML,2015-08-16T01:00:08+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-orientation-script-001a,fail,HTML,2015-08-16T01:00:26+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
@@ -11110,8 +10977,6 @@ margin-collapse-vrl-024,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Moz
 margin-collapse-vrl-030,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
 margin-collapse-vrl-034,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
 margin-collapse-vrl-036,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
-margin-vlr-003,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
-margin-vrl-002,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
 padding-vlr-005,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
 padding-vrl-004,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
 percent-margin-vlr-003,pass,HTML,2015-08-18T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2484.0 Safari/537.36"
@@ -11201,8 +11066,6 @@ margin-collapse-vrl-024,pass,HTML,2015-08-19T06:40:09+00:00,lemoned,WebKit,"Mozi
 margin-collapse-vrl-034,pass,HTML,2015-08-19T06:40:48+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 margin-collapse-vrl-030,pass,HTML,2015-08-19T06:41:03+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 margin-collapse-vrl-036,pass,HTML,2015-08-19T06:42:06+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
-margin-vlr-003,pass,HTML,2015-08-19T06:42:45+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
-margin-vrl-002,pass,HTML,2015-08-19T06:42:57+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 padding-vlr-005,pass,HTML,2015-08-19T06:45:55+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 padding-vrl-004,pass,HTML,2015-08-19T06:46:02+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 percent-margin-vlr-003,pass,HTML,2015-08-19T06:47:38+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
@@ -11232,12 +11095,6 @@ text-combine-upright-value-digits3-003,pass,HTML,2015-08-21T03:42:50+00:00,lemon
 text-combine-upright-value-digits4-001,fail,HTML,2015-08-21T03:44:02+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 text-combine-upright-value-digits4-002,fail,HTML,2015-08-21T03:44:42+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 text-combine-upright-value-digits4-003,fail,HTML,2015-08-21T03:45:00+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
-text-decoration-sidewaysright-vlr-003,pass,HTML,2015-08-21T03:50:19+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
-text-decoration-sidewaysright-vlr-005,pass,HTML,2015-08-21T03:50:29+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
-text-decoration-sidewaysright-vlr-007,pass,HTML,2015-08-21T03:51:20+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
-text-decoration-sidewaysright-vrl-002,pass,HTML,2015-08-21T03:51:39+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
-text-decoration-sidewaysright-vrl-004,pass,HTML,2015-08-21T03:51:48+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
-text-decoration-sidewaysright-vrl-006,pass,HTML,2015-08-21T03:52:02+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 text-decoration-upright-vlr-003,pass,HTML,2015-08-21T03:55:46+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 text-decoration-upright-vlr-005,pass,HTML,2015-08-21T03:55:53+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
 text-decoration-upright-vlr-007,pass,HTML,2015-08-21T03:56:17+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"
@@ -11247,7 +11104,6 @@ text-decoration-upright-vrl-006,pass,HTML,2015-08-21T03:56:54+00:00,lemoned,WebK
 bidi-normal-011,pass,HTML,2015-08-22T09:47:52+00:00,95.181.136.132,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36"
 writing-mode-horizontal-001l,pass,HTML,2015-08-23T23:52:25+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 writing-mode-horizontal-001r,pass,HTML,2015-08-23T23:52:39+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
-text-orientation-014,pass,HTML,2015-08-24T00:03:14+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 abs-pos-non-replaced-icb-vlr-003,fail,HTML,2015-08-24T10:03:58+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 abs-pos-non-replaced-icb-vlr-009,pass,HTML,2015-08-24T10:04:54+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 abs-pos-non-replaced-icb-vlr-005,fail,HTML,2015-08-24T10:05:11+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
@@ -12020,8 +11876,6 @@ margin-collapse-vrl-024,pass,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Moz
 margin-collapse-vrl-030,pass,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
 margin-collapse-vrl-034,pass,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
 margin-collapse-vrl-036,pass,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
-margin-vlr-003,pass,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
-margin-vrl-002,pass,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
 padding-vlr-005,pass,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
 padding-vrl-004,pass,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
 percent-margin-vlr-003,pass,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
@@ -12045,8 +11899,6 @@ text-combine-upright-value-all-001,fail,HTML,2015-08-28T08:00:00+00:00,kojiishi,
 text-combine-upright-value-all-002,fail,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
 text-combine-upright-value-all-003,fail,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
 text-combine-upright-value-none-001,pass,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
-text-orientation-012,pass,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
-text-orientation-014,pass,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
 text-orientation-script-001,fail,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
 text-orientation-script-001a,pass,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
 text-orientation-script-001b,pass,HTML,2015-08-28T08:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2495.0 Safari/537.36"
@@ -12102,7 +11954,6 @@ first-page-vlr-003,pass,HTML,2015-09-01T01:14:36+00:00,gtalbot,Gecko,Mozilla/5.0
 first-page-vrl-002,fail,HTML,2015-09-01T01:17:44+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.6 Safari/537.36"
 first-page-vlr-003,pass,HTML,2015-09-01T01:18:06+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.6 Safari/537.36"
 text-orientation-010,pass,HTML,2015-09-03T03:55:44+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
-text-orientation-012,pass,HTML,2015-09-03T03:56:24+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 text-orientation-011,fail,HTML,2015-09-03T03:56:29+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 bidi-004,fail,HTML,2015-09-03T11:01:12+00:00,87.247.73.5,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 bidi-004,fail,HTML,2015-09-03T18:36:07+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2498.0 Safari/537.36"
@@ -12397,7 +12248,6 @@ underline-font-size-vrl-002,pass,HTML,2015-09-06T08:21:10+00:00,gtalbot,Gecko,Mo
 underline-font-size-vrl-004,fail,HTML,2015-09-06T08:21:13+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 underline-mixed-vlr-003,pass,HTML,2015-09-06T08:21:15+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 underline-mixed-vrl-002,fail,HTML,2015-09-06T08:21:18+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-table-progression-001-vlr,fail,XHTML,2015-09-09T11:56:23+00:00,92.103.216.194,Gecko,Mozilla/5.0 (Windows NT 6.3; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
 abs-pos-non-replaced-icb-vlr-003,fail,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 abs-pos-non-replaced-icb-vlr-005,fail,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 abs-pos-non-replaced-icb-vlr-007,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
@@ -12880,13 +12730,6 @@ horizontal-rule-vlr-003,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Moz
 horizontal-rule-vlr-005,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 horizontal-rule-vrl-002,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 horizontal-rule-vrl-004,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-inline-block-alignment-002,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-inline-block-alignment-003,fail,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-inline-block-alignment-004,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-inline-block-alignment-005,fail,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-inline-block-alignment-006,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-inline-block-alignment-008,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-inline-block-alignment-009,fail,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 inline-replaced-vlr-003,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 inline-replaced-vlr-005,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 inline-replaced-vrl-002,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
@@ -12930,8 +12773,6 @@ margin-collapse-vrl-024,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Moz
 margin-collapse-vrl-030,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 margin-collapse-vrl-034,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 margin-collapse-vrl-036,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-margin-vlr-003,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-margin-vrl-002,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 padding-vlr-005,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 padding-vrl-004,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 percent-margin-vlr-003,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
@@ -12958,8 +12799,6 @@ table-column-order-002,fail,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozi
 table-column-order-003,fail,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 table-column-order-004,fail,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 table-column-order-005,fail,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-table-progression-001-vlr,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-table-progression-001-vrl,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-align-vlr-003,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-align-vlr-005,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-align-vlr-007,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
@@ -12978,13 +12817,6 @@ text-align-vrl-012,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/
 text-align-vrl-014,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-align-vrl-016,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-align-vrl-018,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-baseline-002,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-baseline-003,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-baseline-004,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-baseline-005,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-baseline-006,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-baseline-008,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-baseline-009,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-combine-upright-decorations-001,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-combine-upright-inherit-all-001,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-combine-upright-inherit-all-002,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
@@ -12994,8 +12826,6 @@ text-combine-upright-value-all-001,fail,HTML,2015-09-10T07:00:00+00:00,kojiishi,
 text-combine-upright-value-all-002,fail,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-combine-upright-value-all-003,fail,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-combine-upright-value-none-001,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-orientation-012,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-orientation-014,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-orientation-script-001,fail,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-orientation-script-001a,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-orientation-script-001b,pass,HTML,2015-09-10T07:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
@@ -13078,8 +12908,6 @@ row-progression-006,pass,HTML,2015-09-10T07:22:33+00:00,gtalbot,Gecko,Mozilla/5.
 row-progression-007,pass,HTML,2015-09-10T07:22:38+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 row-progression-008,pass,HTML,2015-09-10T07:22:44+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 row-progression-009,pass,HTML,2015-09-10T07:22:49+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-table-progression-001-vrl,pass,HTML,2015-09-10T07:23:05+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-table-progression-001-vlr,pass,HTML,2015-09-10T07:23:46+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 writing-mode-stretch-001,fail,HTML,2015-09-10T07:23:54+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 flexbox-writing-mode-007,pass,HTML,2015-09-10T07:24:06+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 flexbox-writing-mode-008,pass,HTML,2015-09-10T07:24:14+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
@@ -13099,26 +12927,12 @@ margin-collapse-vlr-023,fail,HTML,2015-09-10T08:10:58+00:00,kojiishi,WebKit,"Moz
 margin-collapse-vrl-022,fail,HTML,2015-09-10T08:11:04+00:00,kojiishi,WebKit,"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2505.0 Safari/537.36"
 central-baseline-alignment-002,pass,HTML,2015-09-10T19:24:22+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 central-baseline-alignment-003,pass,HTML,2015-09-10T19:24:26+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-baseline-002,pass,HTML,2015-09-10T19:24:30+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-baseline-003,pass,HTML,2015-09-10T19:24:33+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-baseline-004,pass,HTML,2015-09-10T19:24:39+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-baseline-005,pass,HTML,2015-09-10T19:24:42+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-baseline-006,fail,HTML,2015-09-10T19:24:48+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-baseline-008,pass,HTML,2015-09-10T19:24:59+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-baseline-009,pass,HTML,2015-09-10T19:25:03+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 baseline-inline-non-replaced-002,pass,HTML,2015-09-10T19:25:26+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 baseline-inline-non-replaced-003,pass,HTML,2015-09-10T19:25:29+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 baseline-inline-non-replaced-004,pass,HTML,2015-09-10T19:25:32+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 baseline-inline-non-replaced-005,pass,HTML,2015-09-10T19:25:35+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 baseline-inline-replaced-002,pass,HTML,2015-09-10T19:25:40+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 baseline-inline-replaced-003,pass,HTML,2015-09-10T19:25:43+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-inline-block-alignment-002,fail,HTML,2015-09-10T19:25:50+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-inline-block-alignment-003,fail,HTML,2015-09-10T19:25:56+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-inline-block-alignment-004,fail,HTML,2015-09-10T19:26:02+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-inline-block-alignment-005,fail,HTML,2015-09-10T19:26:07+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-inline-block-alignment-006,fail,HTML,2015-09-10T19:26:13+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-inline-block-alignment-008,pass,HTML,2015-09-10T19:26:21+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-inline-block-alignment-009,pass,HTML,2015-09-10T19:26:25+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 inline-replaced-vlr-005,pass,HTML,2015-09-10T19:26:42+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 inline-replaced-vrl-004,pass,HTML,2015-09-10T19:26:48+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 inline-table-alignment-002,fail,HTML,2015-09-10T19:26:56+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
@@ -13243,12 +13057,6 @@ block-flow-direction-002,pass,HTML,2015-09-10T19:47:10+00:00,gtalbot,WebKit,"Moz
 block-flow-direction-003,pass,HTML,2015-09-10T19:47:18+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 central-baseline-alignment-002,pass,HTML,2015-09-10T19:48:02+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 central-baseline-alignment-003,pass,HTML,2015-09-10T19:48:08+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-baseline-002,pass,HTML,2015-09-10T19:48:13+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-baseline-003,pass,HTML,2015-09-10T19:48:23+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-baseline-004,pass,HTML,2015-09-10T19:48:29+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-inline-block-alignment-003,fail,HTML,2015-09-10T19:49:16+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-inline-block-alignment-005,fail,HTML,2015-09-10T19:49:25+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-inline-block-alignment-009,fail,HTML,2015-09-10T19:49:38+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 inline-table-alignment-003,fail,HTML,2015-09-10T19:49:56+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 inline-table-alignment-005,fail,HTML,2015-09-10T19:50:03+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 baseline-inline-non-replaced-002,pass,HTML,2015-09-10T19:50:11+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
@@ -13256,7 +13064,6 @@ baseline-inline-non-replaced-003,pass,HTML,2015-09-10T19:50:18+00:00,gtalbot,Web
 block-flow-direction-017,pass,HTML,2015-09-11T06:35:04+00:00,116.117.86.73,Gecko,Mozilla/5.0 (Windows NT 6.1; rv:40.0) Gecko/20100101 Firefox/40.0
 block-flow-direction-018,uncertain,HTML,2015-09-11T06:35:12+00:00,116.117.86.73,Gecko,Mozilla/5.0 (Windows NT 6.1; rv:40.0) Gecko/20100101 Firefox/40.0
 text-orientation-011,fail,HTML,2015-09-11T06:36:57+00:00,116.117.86.73,Gecko,Mozilla/5.0 (Windows NT 6.1; rv:40.0) Gecko/20100101 Firefox/40.0
-text-orientation-012,pass,HTML,2015-09-11T06:37:03+00:00,116.117.86.73,Gecko,Mozilla/5.0 (Windows NT 6.1; rv:40.0) Gecko/20100101 Firefox/40.0
 underline-font-size-vlr-003,pass,HTML,2015-09-11T12:26:43+00:00,134.249.163.93,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/44.0.2403.89 Chrome/44.0.2403.89 Safari/537.36"
 underline-font-size-vlr-005,pass,HTML,2015-09-11T12:26:58+00:00,134.249.163.93,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/44.0.2403.89 Chrome/44.0.2403.89 Safari/537.36"
 underline-font-size-vrl-002,fail,HTML,2015-09-11T12:27:12+00:00,134.249.163.93,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/44.0.2403.89 Chrome/44.0.2403.89 Safari/537.36"
@@ -13755,13 +13562,6 @@ horizontal-rule-vlr-003,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Moz
 horizontal-rule-vlr-005,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 horizontal-rule-vrl-002,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 horizontal-rule-vrl-004,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-inline-block-alignment-002,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-inline-block-alignment-003,fail,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-inline-block-alignment-004,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-inline-block-alignment-005,fail,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-inline-block-alignment-006,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-inline-block-alignment-008,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-inline-block-alignment-009,fail,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 inline-replaced-vlr-003,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 inline-replaced-vlr-005,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 inline-replaced-vrl-002,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
@@ -13805,8 +13605,6 @@ margin-collapse-vrl-024,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Moz
 margin-collapse-vrl-030,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 margin-collapse-vrl-034,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 margin-collapse-vrl-036,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-margin-vlr-003,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-margin-vrl-002,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 padding-vlr-005,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 padding-vrl-004,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 percent-margin-vlr-003,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
@@ -13833,8 +13631,6 @@ table-column-order-002,fail,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozi
 table-column-order-003,fail,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 table-column-order-004,fail,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 table-column-order-005,fail,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-table-progression-001-vlr,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-table-progression-001-vrl,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-align-vlr-003,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-align-vlr-005,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-align-vlr-007,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
@@ -13853,13 +13649,6 @@ text-align-vrl-012,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/
 text-align-vrl-014,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-align-vrl-016,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-align-vrl-018,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-baseline-002,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-baseline-003,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-baseline-004,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-baseline-005,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-baseline-006,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-baseline-008,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-baseline-009,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-combine-upright-decorations-001,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-combine-upright-inherit-all-001,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-combine-upright-inherit-all-002,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
@@ -13869,8 +13658,6 @@ text-combine-upright-value-all-001,fail,HTML,2015-09-13T10:00:00+00:00,kojiishi,
 text-combine-upright-value-all-002,fail,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-combine-upright-value-all-003,fail,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-combine-upright-value-none-001,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-orientation-012,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
-text-orientation-014,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-orientation-script-001,fail,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-orientation-script-001a,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
 text-orientation-script-001b,pass,HTML,2015-09-13T10:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2503.0 Safari/537.36"
@@ -13961,23 +13748,11 @@ float-vrl-006,pass,HTML,2015-09-14T03:41:41+00:00,lemoned,WebKit,"Mozilla/5.0 (M
 float-vrl-008,pass,HTML,2015-09-14T03:41:50+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 float-vrl-010,pass,HTML,2015-09-14T03:41:58+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 float-vrl-012,pass,HTML,2015-09-14T03:42:04+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
-inline-block-alignment-002,fail,HTML,2015-09-14T03:47:49+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
-inline-block-alignment-003,fail,HTML,2015-09-14T03:48:08+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
-inline-block-alignment-004,fail,HTML,2015-09-14T03:48:40+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
-inline-block-alignment-005,fail,HTML,2015-09-14T03:48:48+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
-inline-block-alignment-006,pass,HTML,2015-09-14T03:48:57+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
-inline-block-alignment-008,pass,HTML,2015-09-14T03:49:28+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
-inline-block-alignment-009,fail,HTML,2015-09-14T03:49:38+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 block-flow-direction-019,pass,HTML,2015-09-14T15:16:06+00:00,kojiishi,Edge,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
 block-flow-direction-017,pass,HTML,2015-09-14T15:16:58+00:00,kojiishi,Edge,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
 writing-mode-stretch-001,pass,HTML,2015-09-14T15:17:33+00:00,kojiishi,Edge,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
-inline-block-alignment-002,pass,HTML,2015-09-14T15:18:04+00:00,kojiishi,Edge,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
-inline-block-alignment-004,pass,HTML,2015-09-14T15:18:12+00:00,kojiishi,Edge,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
 text-orientation-011,pass,HTML,2015-09-14T15:18:39+00:00,kojiishi,Edge,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
 first-page-vrl-002,pass,HTML,2015-09-14T15:19:49+00:00,kojiishi,Edge,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
-text-baseline-006,fail,HTML,2015-09-14T15:24:23+00:00,kojiishi,Edge,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
-inline-block-alignment-006,fail,HTML,2015-09-14T15:24:38+00:00,kojiishi,Edge,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
-inline-block-alignment-009,fail,HTML,2015-09-14T15:24:45+00:00,kojiishi,Edge,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
 inline-table-alignment-002,pass,HTML,2015-09-14T15:25:00+00:00,kojiishi,Edge,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
 inline-table-alignment-004,pass,HTML,2015-09-14T15:25:12+00:00,kojiishi,Edge,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
 abs-pos-non-replaced-vlr-095,fail,HTML,2015-09-14T15:25:21+00:00,kojiishi,Edge,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
@@ -14013,13 +13788,6 @@ underline-font-size-vlr-003,fail,HTML,2015-09-16T03:28:15+00:00,lemoned,WebKit,"
 underline-font-size-vlr-005,fail,HTML,2015-09-16T03:29:03+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 underline-font-size-vrl-002,fail,HTML,2015-09-16T03:29:33+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 underline-font-size-vrl-004,fail,HTML,2015-09-16T03:29:55+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
-text-baseline-002,fail,HTML,2015-09-16T03:31:32+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
-text-baseline-003,fail,HTML,2015-09-16T03:32:06+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
-text-baseline-004,fail,HTML,2015-09-16T03:32:15+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
-text-baseline-005,fail,HTML,2015-09-16T03:32:26+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
-text-baseline-006,pass,HTML,2015-09-16T03:33:02+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
-text-baseline-008,pass,HTML,2015-09-16T03:33:22+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
-text-baseline-009,pass,HTML,2015-09-16T03:33:34+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 text-align-vlr-003,pass,HTML,2015-09-16T03:34:47+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 text-align-vlr-005,pass,HTML,2015-09-16T03:35:06+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 text-align-vlr-007,pass,HTML,2015-09-16T03:35:22+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
@@ -14038,8 +13806,6 @@ text-align-vrl-012,pass,HTML,2015-09-16T03:40:28+00:00,lemoned,WebKit,"Mozilla/5
 text-align-vrl-014,pass,HTML,2015-09-16T03:40:39+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 text-align-vrl-016,pass,HTML,2015-09-16T03:40:50+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 text-align-vrl-018,pass,HTML,2015-09-16T03:41:12+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
-table-progression-001-vlr,pass,HTML,2015-09-16T03:43:36+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
-table-progression-001-vrl,pass,HTML,2015-09-16T03:43:44+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 table-column-order-002,fail,HTML,2015-09-16T03:44:07+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 table-column-order-003,fail,HTML,2015-09-16T03:44:17+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 table-column-order-004,fail,HTML,2015-09-16T03:44:24+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
@@ -14543,13 +14309,6 @@ horizontal-rule-vlr-003,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Moz
 horizontal-rule-vlr-005,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 horizontal-rule-vrl-002,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 horizontal-rule-vrl-004,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-inline-block-alignment-002,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-inline-block-alignment-003,fail,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-inline-block-alignment-004,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-inline-block-alignment-005,fail,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-inline-block-alignment-006,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-inline-block-alignment-008,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-inline-block-alignment-009,fail,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 inline-block-alignment-orthogonal-vlr-003,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 inline-block-alignment-orthogonal-vlr-005,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 inline-block-alignment-orthogonal-vrl-002,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
@@ -14599,8 +14358,6 @@ margin-collapse-vrl-024,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Moz
 margin-collapse-vrl-030,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 margin-collapse-vrl-034,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 margin-collapse-vrl-036,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-margin-vlr-003,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-margin-vrl-002,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 orthogonal-parent-shrink-to-fit-001,fail,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 orthogonal-parent-shrink-to-fit-001a,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 orthogonal-parent-shrink-to-fit-001b,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
@@ -14652,8 +14409,6 @@ table-column-order-002,fail,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozi
 table-column-order-003,fail,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 table-column-order-004,fail,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 table-column-order-005,fail,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-table-progression-001-vlr,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-table-progression-001-vrl,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-align-vlr-003,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-align-vlr-005,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-align-vlr-007,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
@@ -14672,13 +14427,6 @@ text-align-vrl-012,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/
 text-align-vrl-014,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-align-vrl-016,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-align-vrl-018,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-text-baseline-002,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-text-baseline-003,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-text-baseline-004,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-text-baseline-005,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-text-baseline-006,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-text-baseline-008,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-text-baseline-009,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-combine-upright-decorations-001,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-combine-upright-inherit-all-001,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-combine-upright-inherit-all-002,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
@@ -14718,8 +14466,6 @@ text-indent-vrl-010,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla
 text-indent-vrl-012,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-indent-vrl-014,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-indent-vrl-016,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-text-orientation-012,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-text-orientation-014,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-orientation-parsing-001,fail,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-orientation-script-001,fail,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 text-orientation-script-001a,pass,HTML,2015-09-19T15:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
@@ -14772,12 +14518,6 @@ vertical-alignment-006,pass,HTML,2015-09-20T02:01:45+00:00,gtalbot,Gecko,Mozilla
 vertical-alignment-007,pass,HTML,2015-09-20T02:01:50+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 vertical-alignment-008,pass,HTML,2015-09-20T02:01:55+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 vertical-alignment-009,pass,HTML,2015-09-20T02:02:00+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-decoration-sidewaysright-vlr-003,pass,HTML,2015-09-20T02:02:09+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-decoration-sidewaysright-vlr-005,pass,HTML,2015-09-20T02:02:11+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-decoration-sidewaysright-vlr-007,pass,HTML,2015-09-20T02:02:14+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-decoration-sidewaysright-vrl-002,pass,HTML,2015-09-20T02:02:16+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-decoration-sidewaysright-vrl-004,pass,HTML,2015-09-20T02:02:18+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-decoration-sidewaysright-vrl-006,pass,HTML,2015-09-20T02:02:20+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-decoration-upright-vlr-003,pass,HTML,2015-09-20T02:02:25+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-decoration-upright-vlr-005,pass,HTML,2015-09-20T02:02:27+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-decoration-upright-vlr-007,pass,HTML,2015-09-20T02:02:30+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
@@ -14878,8 +14618,6 @@ orthogonal-parent-shrink-to-fit-001v,fail,HTML,2015-09-20T02:11:55+00:00,gtalbot
 orthogonal-parent-shrink-to-fit-001w,fail,HTML,2015-09-20T02:11:57+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 orthogonal-parent-shrink-to-fit-001x,fail,HTML,2015-09-20T02:11:58+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-orientation-parsing-001,fail,HTML,2015-09-20T02:13:32+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-orientation-sideways-001,fail,HTML,2015-09-20T02:13:47+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-orientation-sideways-right-001,pass,HTML,2015-09-20T02:13:59+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-orientation-upright-001,pass,HTML,2015-09-20T02:14:06+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-orientation-script-001,fail,HTML,2015-09-20T02:14:38+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 text-orientation-script-001a,fail,HTML,2015-09-20T02:14:58+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
@@ -14887,9 +14625,6 @@ inline-block-alignment-orthogonal-vlr-003,pass,HTML,2015-09-20T02:15:30+00:00,gt
 inline-block-alignment-orthogonal-vlr-005,pass,HTML,2015-09-20T02:15:35+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 inline-block-alignment-orthogonal-vrl-002,pass,HTML,2015-09-20T02:15:40+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 inline-block-alignment-orthogonal-vrl-004,pass,HTML,2015-09-20T02:15:45+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-inline-block-alignment-003,fail,HTML,2015-09-20T02:15:50+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-inline-block-alignment-005,fail,HTML,2015-09-20T02:15:56+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-inline-block-alignment-006,fail,HTML,2015-09-20T02:16:00+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 inline-table-alignment-003,fail,HTML,2015-09-20T02:16:06+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
 baseline-inline-non-replaced-002,fail,HTML,2015-09-20T02:16:50+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 baseline-inline-non-replaced-003,fail,HTML,2015-09-20T02:17:02+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
@@ -14916,8 +14651,6 @@ block-flow-direction-003,pass,HTML,2015-09-20T02:20:30+00:00,lemoned,WebKit,"Moz
 block-flow-direction-004,pass,HTML,2015-09-20T02:20:41+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 block-flow-direction-005,pass,HTML,2015-09-20T02:20:52+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 unicode-bidi-parsing-002,fail,HTML,2015-09-20T02:21:13+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0
-text-orientation-sideways-001,pass,HTML,2015-09-20T02:23:40+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
-text-orientation-sideways-right-001,pass,HTML,2015-09-20T02:23:46+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
 block-flow-direction-006,pass,HTML,2015-09-20T02:23:46+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 block-flow-direction-007,pass,HTML,2015-09-20T02:23:57+00:00,lemoned,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9"
 text-orientation-upright-001,pass,HTML,2015-09-20T02:24:01+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2508.0 Safari/537.36"
