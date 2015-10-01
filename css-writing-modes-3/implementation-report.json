@@ -11478,26 +11478,6 @@
 "id": "float-vrl-012"
 }, 
 {
-"Blink": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Prince": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "fail", 
-"source": "hshiozawa"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
-}, 
 "id": "form-controls-vert-rl-004"
 }, 
 {
@@ -13461,28 +13441,28 @@
 "id": "table-column-order-005"
 }, 
 {
-"id": "table-progression-001-vlr"
+"id": "table-progression-vlr-001"
 }, 
 {
-"id": "table-progression-001-vrl"
+"id": "table-progression-vlr-002"
 }, 
 {
-"id": "table-progression-002-vlr"
+"id": "table-progression-vlr-003"
 }, 
 {
-"id": "table-progression-002-vrl"
+"id": "table-progression-vlr-004"
 }, 
 {
-"id": "table-progression-003-vlr"
+"id": "table-progression-vrl-001"
 }, 
 {
-"id": "table-progression-003-vrl"
+"id": "table-progression-vrl-002"
 }, 
 {
-"id": "table-progression-004-vlr"
+"id": "table-progression-vrl-003"
 }, 
 {
-"id": "table-progression-004-vrl"
+"id": "table-progression-vrl-004"
 }, 
 {
 "Blink": {
@@ -14573,24 +14553,15 @@
 "result": "fail", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
 "id": "text-orientation-parsing-001"
+}, 
+{
+"id": "text-orientation-parsing-sideways-right-001"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "kojiishi"
 }, 
 "id": "text-orientation-script-001"
 }, 
@@ -14599,24 +14570,12 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
 "id": "text-orientation-script-001a"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
 }, 
 "id": "text-orientation-script-001b"
 }, 
@@ -14625,20 +14584,12 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
 "id": "text-orientation-script-001c"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
 }, 
 "id": "text-orientation-script-001d"
 }, 
@@ -14647,20 +14598,12 @@
 "result": "fail", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
 "id": "text-orientation-script-001e"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
 }, 
 "id": "text-orientation-script-001f"
 }, 
@@ -14669,20 +14612,12 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
 "id": "text-orientation-script-001g"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
 }, 
 "id": "text-orientation-script-001h"
 }, 
@@ -14691,28 +14626,12 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
 "id": "text-orientation-script-001i"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "kojiishi"
 }, 
 "id": "text-orientation-script-001j"
 }, 
@@ -14721,28 +14640,12 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
 "id": "text-orientation-script-001k"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "kojiishi"
 }, 
 "id": "text-orientation-script-001l"
 }, 
@@ -14751,14 +14654,6 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
 "id": "text-orientation-script-001m"
 }, 
 {
@@ -14766,28 +14661,12 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
 "id": "text-orientation-script-001n"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "kojiishi"
 }, 
 "id": "text-orientation-script-001o"
 }, 
@@ -15258,7 +15137,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Edge": {
@@ -15277,7 +15156,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Edge": {
@@ -15352,7 +15231,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Edge": {
@@ -15371,7 +15250,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Edge": {
