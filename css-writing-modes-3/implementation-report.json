@@ -13441,27 +13441,59 @@
 "id": "table-column-order-005"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
 "id": "table-progression-vlr-001"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
 "id": "table-progression-vlr-002"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
 "id": "table-progression-vlr-003"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
 "id": "table-progression-vlr-004"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
 "id": "table-progression-vrl-001"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
 "id": "table-progression-vrl-002"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
 "id": "table-progression-vrl-003"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
 "id": "table-progression-vrl-004"
 }, 
 {
@@ -14556,6 +14588,10 @@
 "id": "text-orientation-parsing-001"
 }, 
 {
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
 "id": "text-orientation-parsing-sideways-right-001"
 }, 
 {

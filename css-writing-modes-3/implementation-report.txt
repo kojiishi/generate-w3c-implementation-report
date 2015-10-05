@@ -689,14 +689,14 @@ html/table-column-order-002.htm	aef6a48b353649358dfc293d28e8bc602afcbf0f	fail
 html/table-column-order-003.htm	e82ae71ac3541cfba3978ffe9d32d20b1ffcd13d	fail
 html/table-column-order-004.htm	d6e85e267481db8e23e8e2c7dd3a3e7ae11703e6	fail
 html/table-column-order-005.htm	5c5f4e626e4aaeae7387fe8e37beb1be49196e3c	fail
-# html/table-progression-vlr-001.htm	401f8eb3e2ee5bb76005f18b876ad15312e36f23	?
-# html/table-progression-vlr-002.htm	443f8504e53d242cbfb638187617e29f70f70bef	?
-# html/table-progression-vlr-003.htm	2ee0222ec3a8473737329fe6c0ad0ed95443f70e	?
-# html/table-progression-vlr-004.htm	4fa06cb857a654f7a5dac6907587159ee21fd869	?
-# html/table-progression-vrl-001.htm	d48fdd35ef79b9d1b50ce0893c7e8c37f12e4a80	?
-# html/table-progression-vrl-002.htm	b17327959e48075e06bfa0f38b71d3921e5a0198	?
-# html/table-progression-vrl-003.htm	063b2d25fe7eba175b2e0f43d67b5b4c63b5be29	?
-# html/table-progression-vrl-004.htm	2ae9c2a2b820c260fec5c98d169601dc998775bc	?
+html/table-progression-vlr-001.htm	401f8eb3e2ee5bb76005f18b876ad15312e36f23	fail
+html/table-progression-vlr-002.htm	443f8504e53d242cbfb638187617e29f70f70bef	pass
+html/table-progression-vlr-003.htm	2ee0222ec3a8473737329fe6c0ad0ed95443f70e	pass
+html/table-progression-vlr-004.htm	4fa06cb857a654f7a5dac6907587159ee21fd869	fail
+html/table-progression-vrl-001.htm	d48fdd35ef79b9d1b50ce0893c7e8c37f12e4a80	fail
+html/table-progression-vrl-002.htm	b17327959e48075e06bfa0f38b71d3921e5a0198	pass
+html/table-progression-vrl-003.htm	063b2d25fe7eba175b2e0f43d67b5b4c63b5be29	pass
+html/table-progression-vrl-004.htm	2ae9c2a2b820c260fec5c98d169601dc998775bc	fail
 html/text-align-vlr-003.htm	0bee51c71e26719152960da53a881fbe5aa11d7d	pass
 html/text-align-vlr-005.htm	5575d1e1f921175cbaaaed50c5f29339751478bb	pass
 html/text-align-vlr-007.htm	79e2c585512ba21d7f31e4c4d2efc30abb3279b3	pass
@@ -777,7 +777,7 @@ html/text-indent-vrl-016.htm	bd36efb6824d9649c071507677cdc5d1320798c9	pass
 html/text-orientation-014.htm	73b9926a3dc990d5c7d823927252cb8b7b59cb80	pass
 # html/text-orientation-mixed-001.htm	851a369832d6705268ece34dbba1a79873c9b854	pass
 html/text-orientation-parsing-001.htm	1de93e81798548a8c094751021c6bfd09d204700	fail
-# html/text-orientation-parsing-sideways-right-001.htm	467f926e5646149f727d9115633a469321712cca	?
+html/text-orientation-parsing-sideways-right-001.htm	467f926e5646149f727d9115633a469321712cca	fail
 html/text-orientation-script-001.htm	5a4264d54b6138cb217baa753502a6d61297da82	fail
 html/text-orientation-script-001a.htm	8859171c4beec8970845227b3111074bb2d00774	pass
 html/text-orientation-script-001b.htm	001b73a37bca65aab827a6df09f0f56e56cad8d0	pass
@@ -842,5 +842,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Mac: Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass
-# Total = 843, Coverage = 825 (97%), Pass = 683 (81% of total, 82% of coverage), Fail = 142 (16% of total, 17% of coverage)
-# Imported = 701 (83%), Pass = 576 (68% of total, 82% of imported), Fail = 125 (14% of total, 17% of imported)
+# Total = 843, Coverage = 834 (98%), Pass = 687 (81% of total, 82% of coverage), Fail = 147 (17% of total, 17% of coverage)
+# Imported = 710 (84%), Pass = 580 (68% of total, 81% of imported), Fail = 130 (15% of total, 18% of imported)
