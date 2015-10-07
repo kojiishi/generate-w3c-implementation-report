@@ -488,12 +488,12 @@ html/clip-rect-vrl-010.htm	9ee86763032f7f57280ed2eaaf6a248ae69638d0	pass
 html/clip-rect-vrl-012.htm	958e294000bde628e565b6b743d47b9ce2be6d64	pass
 html/clip-rect-vrl-014.htm	44fdb637a990b4c84dc24786151db1e4048f57d8	pass
 html/clip-rect-vrl-016.htm	691b8c06c8ed77f9a051d9d0bf39f721ded61c79	pass
-# html/css-flexbox-row.htm	2095a3cec191a88ee70b6fa4f9186cc94aba326b	fail
-# html/css-flexbox-row-reverse.htm	0cc3d0f04358dfedc826c7185067510092468290	fail
-# html/css-flexbox-row-reverse-wrap.htm	af5da24a6d34f820f9208e2d02eecedc044a7859	fail
-# html/css-flexbox-row-reverse-wrap-reverse.htm	01014629935eb4a0926836e06888db388ed75ff7	fail
-# html/css-flexbox-row-wrap.htm	0ea199bc95c19bfdd73497a22bf49819b4b23d59	fail
-# html/css-flexbox-row-wrap-reverse.htm	a317095a9cf1aa23dfdc9105c21f7567b4dde075	fail
+# html/css-flexbox-row.htm	2095a3cec191a88ee70b6fa4f9186cc94aba326b	pass
+# html/css-flexbox-row-reverse.htm	0cc3d0f04358dfedc826c7185067510092468290	pass
+# html/css-flexbox-row-reverse-wrap.htm	af5da24a6d34f820f9208e2d02eecedc044a7859	pass
+# html/css-flexbox-row-reverse-wrap-reverse.htm	01014629935eb4a0926836e06888db388ed75ff7	pass
+# html/css-flexbox-row-wrap.htm	0ea199bc95c19bfdd73497a22bf49819b4b23d59	pass
+# html/css-flexbox-row-wrap-reverse.htm	a317095a9cf1aa23dfdc9105c21f7567b4dde075	pass
 html/different-block-flow-dir-001.htm	3d33662be593c9a71770ab85e04c5f8e9721aac3	pass
 html/different-block-flow-dir-002.htm	dfa3d81dda50b5a39e2a1b98d268841d7af8fd32	pass
 # html/direction-001.htm	5c033add1932eaf0595c610990a862bf6a6a3bdb	pass
@@ -728,9 +728,9 @@ html/text-combine-upright-layout-rules-001.htm	9980ef15a2d30b35d78b084c811dedf8e
 html/text-combine-upright-line-breaking-rules-001.htm	ba05c4e7e3474cf05cce3e1fec33f1895a186b16	pass
 html/text-combine-upright-parsing-digits-001.htm	6fcac30b043122647264a5af072515c8f5dd9268	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 html/text-combine-upright-parsing-digits-002.htm	c04b90914c86be633173bfcc63c14b2a44b058db	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-html/text-combine-upright-parsing-invalid-001.htm	2b2c132e18a567fb8056e362766d8a030557c4de	fail
-html/text-combine-upright-parsing-invalid-002.htm	7f78c2344ff0a88366e152bfb9dd032df56c8e31	fail
-html/text-combine-upright-parsing-valid-001.htm	fcf85cf596ec7d6fc24ad00fbb8897f34f212430	fail
+html/text-combine-upright-parsing-invalid-001.htm	2b2c132e18a567fb8056e362766d8a030557c4de	pass
+html/text-combine-upright-parsing-invalid-002.htm	7f78c2344ff0a88366e152bfb9dd032df56c8e31	pass
+html/text-combine-upright-parsing-valid-001.htm	fcf85cf596ec7d6fc24ad00fbb8897f34f212430	pass
 html/text-combine-upright-value-all-001.htm	aa61701be68a6a2f5b8759406b5d12097287037b	fail
 html/text-combine-upright-value-all-002.htm	86aee37014437221d6f54d959e1822b2c1b040fa	fail
 html/text-combine-upright-value-all-003.htm	1652f5297b171f4dd79a025de37d35bdc751f12c	fail
@@ -777,7 +777,7 @@ html/text-indent-vrl-016.htm	bd36efb6824d9649c071507677cdc5d1320798c9	pass
 html/text-orientation-014.htm	73b9926a3dc990d5c7d823927252cb8b7b59cb80	pass
 # html/text-orientation-mixed-001.htm	851a369832d6705268ece34dbba1a79873c9b854	pass
 html/text-orientation-parsing-001.htm	1de93e81798548a8c094751021c6bfd09d204700	fail
-html/text-orientation-parsing-sideways-right-001.htm	467f926e5646149f727d9115633a469321712cca	fail
+html/text-orientation-parsing-sideways-right-001.htm	467f926e5646149f727d9115633a469321712cca	pass
 html/text-orientation-script-001.htm	5a4264d54b6138cb217baa753502a6d61297da82	fail
 html/text-orientation-script-001a.htm	8859171c4beec8970845227b3111074bb2d00774	pass
 html/text-orientation-script-001b.htm	001b73a37bca65aab827a6df09f0f56e56cad8d0	pass # XP: Flaky
@@ -820,7 +820,7 @@ html/text-orientation-script-001o.htm	1a717f6bfd17124696e2e012a26ae1ce94ecbf57	p
 # html/unicode-bidi-applies-to-013.htm	5e96cad2593bff9bf262c57806aa45b87820f36b	pass
 # html/unicode-bidi-applies-to-014.htm	1ea78d913a72bdf534c9701bc8a771df856e3d2f	pass
 # html/unicode-bidi-applies-to-015.htm	f319b3e86aea3385f390f78d56ba608a6ac94f27	pass
-html/unicode-bidi-parsing-002.htm	94149c4ee2d6fad7f1ba5b12d076637c39479996	fail
+html/unicode-bidi-parsing-002.htm	94149c4ee2d6fad7f1ba5b12d076637c39479996	pass
 html/vertical-alignment-002.htm	7976476f1e1577a4f43f628fedad2fcac850e226	pass
 html/vertical-alignment-003.htm	5346514767a52ffdf37c0e9c48f2f9e67baff22b	pass # These tests pass but images do not match because of wrong half-leading in vertical-lr
 html/vertical-alignment-004.htm	5d7e8c65079c1d5310968e8e35b81929a855e16a	pass
@@ -850,5 +850,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Mac: Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass
-# Total = 851, Coverage = 845 (99%), Pass = 691 (81% of total, 81% of coverage), Fail = 154 (18% of total, 18% of coverage)
-# Imported = 713 (83%), Pass = 583 (68% of total, 81% of imported), Fail = 130 (15% of total, 18% of imported)
+# Total = 851, Coverage = 845 (99%), Pass = 702 (82% of total, 83% of coverage), Fail = 143 (16% of total, 16% of coverage)
+# Imported = 713 (83%), Pass = 588 (69% of total, 82% of imported), Fail = 125 (14% of total, 17% of imported)
