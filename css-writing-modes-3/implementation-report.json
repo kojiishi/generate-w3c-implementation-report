@@ -16292,31 +16292,43 @@
 "id": "vertical-alignment-009"
 }, 
 {
-"id": "vertical-alignment-010-rl"
+"id": "vertical-alignment-vrl-010"
 }, 
 {
-"id": "vertical-alignment-012-rl"
+"id": "vertical-alignment-vrl-012"
 }, 
 {
-"id": "vertical-alignment-014-rl"
+"id": "vertical-alignment-vrl-014"
 }, 
 {
-"id": "vertical-alignment-016-rl"
+"id": "vertical-alignment-vrl-016"
 }, 
 {
-"id": "vertical-alignment-018-rl"
+"id": "vertical-alignment-vrl-018"
 }, 
 {
-"id": "vertical-alignment-020-rl"
+"id": "vertical-alignment-vrl-020"
 }, 
 {
-"id": "vertical-alignment-022-rl"
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "vertical-alignment-vrl-022"
 }, 
 {
-"id": "vertical-alignment-024-rl"
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "vertical-alignment-vrl-024"
 }, 
 {
-"id": "vertical-alignment-026-rl"
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "vertical-alignment-vrl-026"
 }, 
 {
 "Blink": {
@@ -16395,9 +16407,6 @@
 "source": "blink"
 }, 
 "id": "writing-mode-parsing-svg1-001"
-}, 
-{
-"id": "writing-mode-parsing-svg1-002"
 }, 
 {
 "Blink": {
