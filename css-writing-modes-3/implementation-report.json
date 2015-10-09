@@ -15462,7 +15462,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -16310,24 +16310,12 @@
 "id": "vertical-alignment-020-rl"
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "blink"
-}, 
 "id": "vertical-alignment-022-rl"
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "blink"
-}, 
 "id": "vertical-alignment-024-rl"
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "blink"
-}, 
 "id": "vertical-alignment-026-rl"
 }, 
 {
@@ -16370,7 +16358,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Gecko": {
@@ -16403,16 +16391,12 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "id": "writing-mode-parsing-svg1-001"
 }, 
 {
-"Blink": {
-"result": "fail", 
-"source": "blink"
-}, 
 "id": "writing-mode-parsing-svg1-002"
 }, 
 {
