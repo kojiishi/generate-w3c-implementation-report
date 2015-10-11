@@ -829,12 +829,12 @@ html/vertical-alignment-006.htm	6e6f6e5b259f44db1006d101a1a3d2870dc92c76	pass
 html/vertical-alignment-007.htm	19a04070f2c744fb378ca9d3f5936bef1b205961	pass
 html/vertical-alignment-008.htm	e59d282df581512d3263e9b22972d82c334db836	pass
 html/vertical-alignment-009.htm	5036b5e9d0d8ae513c39237eeddfbcb235f19871	pass # These tests pass but images do not match because of wrong half-leading in vertical-lr
-# html/vertical-alignment-vrl-010.htm	18973d8b3c6da1ce07b81dd028a56c0e8bacb082	?
-# html/vertical-alignment-vrl-012.htm	b2d02d2efefde1f56a277d0cd0ba65e11ae3097b	?
-# html/vertical-alignment-vrl-014.htm	e9a0506f14e1eee7a4b05a9ea24ed230e5922bd2	?
-# html/vertical-alignment-vrl-016.htm	82308fb56104b4d673b1d59c18e975f78fbdb3f1	?
-# html/vertical-alignment-vrl-018.htm	7e7e14382efae5767eecdb45ff697dff5e54688d	?
-# html/vertical-alignment-vrl-020.htm	015c20befc16f691e32515ac377698c473da65e5	?
+# html/vertical-alignment-vrl-010.htm	18973d8b3c6da1ce07b81dd028a56c0e8bacb082	pass
+# html/vertical-alignment-vrl-012.htm	b2d02d2efefde1f56a277d0cd0ba65e11ae3097b	pass
+# html/vertical-alignment-vrl-014.htm	e9a0506f14e1eee7a4b05a9ea24ed230e5922bd2	pass
+# html/vertical-alignment-vrl-016.htm	82308fb56104b4d673b1d59c18e975f78fbdb3f1	pass
+# html/vertical-alignment-vrl-018.htm	7e7e14382efae5767eecdb45ff697dff5e54688d	pass
+# html/vertical-alignment-vrl-020.htm	015c20befc16f691e32515ac377698c473da65e5	pass
 html/vertical-alignment-vrl-022.htm	c831bb6084a1e44cb93d20880f3c3e3efd446581	pass # XP: Flaky
 html/vertical-alignment-vrl-024.htm	c934e3bd41a2a8c605b5752b1f577c654cb83822	pass # XP: Flaky
 html/vertical-alignment-vrl-026.htm	7a26be3255ca5f516f5fc18e3892498f1a8523b7	pass # These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
@@ -849,5 +849,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Mac: Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass
-# Total = 850, Coverage = 844 (99%), Pass = 705 (82% of total, 83% of coverage), Fail = 139 (16% of total, 16% of coverage)
+# Total = 850, Coverage = 850 (100%), Pass = 711 (83% of total, 83% of coverage), Fail = 139 (16% of total, 16% of coverage)
 # Imported = 712 (83%), Pass = 591 (69% of total, 83% of imported), Fail = 121 (14% of total, 16% of imported)
