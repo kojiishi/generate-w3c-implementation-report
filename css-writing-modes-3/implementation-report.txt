@@ -731,9 +731,9 @@ html/text-combine-upright-parsing-digits-002.htm	c04b90914c86be633173bfcc63c14b2
 html/text-combine-upright-parsing-invalid-001.htm	2b2c132e18a567fb8056e362766d8a030557c4de	pass
 html/text-combine-upright-parsing-invalid-002.htm	7f78c2344ff0a88366e152bfb9dd032df56c8e31	pass
 html/text-combine-upright-parsing-valid-001.htm	fcf85cf596ec7d6fc24ad00fbb8897f34f212430	pass
-html/text-combine-upright-value-all-001.htm	aa61701be68a6a2f5b8759406b5d12097287037b	fail
-html/text-combine-upright-value-all-002.htm	86aee37014437221d6f54d959e1822b2c1b040fa	fail
-html/text-combine-upright-value-all-003.htm	1652f5297b171f4dd79a025de37d35bdc751f12c	fail
+html/text-combine-upright-value-all-001.htm	aa61701be68a6a2f5b8759406b5d12097287037b	pass # These tests pass but images do not match because tests are stricter than the spec.
+html/text-combine-upright-value-all-002.htm	86aee37014437221d6f54d959e1822b2c1b040fa	pass # These tests pass but images do not match because tests are stricter than the spec.
+html/text-combine-upright-value-all-003.htm	1652f5297b171f4dd79a025de37d35bdc751f12c	pass # These tests pass but images do not match because tests are stricter than the spec.
 html/text-combine-upright-value-digits2-001.htm	7e716cc28e8723c31837800d39feacea1166e771	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 html/text-combine-upright-value-digits2-002.htm	fe174f76c4bd840549d1e672d5db4e92a977c32d	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 html/text-combine-upright-value-digits2-003.htm	ed55adb7f4d8e8f085040b844c5b8ed3ef956145	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
@@ -837,7 +837,7 @@ html/vertical-alignment-009.htm	5036b5e9d0d8ae513c39237eeddfbcb235f19871	pass # 
 # html/vertical-alignment-vrl-020.htm	015c20befc16f691e32515ac377698c473da65e5	pass
 html/vertical-alignment-vrl-022.htm	c831bb6084a1e44cb93d20880f3c3e3efd446581	pass # XP: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/vertical-alignment-vrl-024.htm	c934e3bd41a2a8c605b5752b1f577c654cb83822	pass # XP: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/vertical-alignment-vrl-026.htm	7a26be3255ca5f516f5fc18e3892498f1a8523b7	pass # These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/vertical-alignment-vrl-026.htm	7a26be3255ca5f516f5fc18e3892498f1a8523b7	pass
 html/writing-mode-horizontal-001l.htm	820b6baaa9ff63cf1a29b989c8d68ebdafe3c4da	pass
 html/writing-mode-horizontal-001r.htm	946a8be6f47e1cdc7ca7539e48e9964bd77c9ba9	pass
 html/writing-mode-parsing-001.htm	c51a2ea776e89eab37f78a5005ad12f1f23f07b4	pass
@@ -849,5 +849,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Mac: Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass
-# Total = 850, Coverage = 850 (100%), Pass = 711 (83% of total, 83% of coverage), Fail = 139 (16% of total, 16% of coverage)
-# Imported = 712 (83%), Pass = 591 (69% of total, 83% of imported), Fail = 121 (14% of total, 16% of imported)
+# Total = 850, Coverage = 850 (100%), Pass = 714 (84% of total, 84% of coverage), Fail = 136 (16% of total, 16% of coverage)
+# Imported = 712 (83%), Pass = 594 (69% of total, 83% of imported), Fail = 118 (13% of total, 16% of imported)
