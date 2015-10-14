@@ -16422,6 +16422,13 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"id": "unicode-bidi-parsing-001"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
