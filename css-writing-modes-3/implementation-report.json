@@ -16921,103 +16921,27 @@
 "id": "vertical-alignment-009"
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "vertical-alignment-vrl-010"
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "vertical-alignment-vrl-012"
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "vertical-alignment-vrl-014"
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "vertical-alignment-vrl-016"
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "vertical-alignment-vrl-018"
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "vertical-alignment-vrl-020"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Trident": {
-"result": "fail", 
-"source": "lemoned"
 }, 
 "id": "vertical-alignment-vrl-022"
 }, 
@@ -17026,20 +16950,12 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Trident": {
-"result": "fail", 
-"source": "lemoned"
-}, 
 "id": "vertical-alignment-vrl-024"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Trident": {
-"result": "fail", 
-"source": "lemoned"
 }, 
 "id": "vertical-alignment-vrl-026"
 }, 
