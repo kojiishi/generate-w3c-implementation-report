@@ -1510,6 +1510,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Presto": {
+"result": "fail"
+}, 
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
@@ -2710,6 +2713,9 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Presto": {
+"result": "fail"
+}, 
 "Trident": {
 "result": "fail", 
 "source": "hshiozawa"
@@ -2750,6 +2756,9 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Presto": {
+"result": "fail"
 }, 
 "Trident": {
 "result": "fail", 
@@ -12865,6 +12874,90 @@
 }, 
 {
 "Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
+"id": "line-box-height-vlr-003"
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
+"id": "line-box-height-vlr-005"
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
+"id": "line-box-height-vlr-007"
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
+"id": "line-box-height-vlr-009"
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
+"id": "line-box-height-vlr-011"
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "blink"
+}, 
+"id": "line-box-height-vlr-013"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "line-box-height-vrl-002"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "line-box-height-vrl-004"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "line-box-height-vrl-006"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "line-box-height-vrl-008"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "line-box-height-vrl-010"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "line-box-height-vrl-012"
+}, 
+{
+"Blink": {
 "result": "pass", 
 "source": "blink"
 }, 
@@ -15929,7 +16022,7 @@
 {
 "Blink": {
 "result": "pass", 
-"source": "lemoned"
+"source": "gtalbot"
 }, 
 "Gecko": {
 "result": "pass", 
@@ -16723,6 +16816,10 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "Trident": {
 "result": "pass", 
 "source": "lemoned"
@@ -16921,27 +17018,178 @@
 "id": "vertical-alignment-009"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "vertical-alignment-vlr-011"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "vertical-alignment-vlr-013"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "vertical-alignment-vlr-015"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "vertical-alignment-vlr-017"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "vertical-alignment-vlr-019"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "vertical-alignment-vlr-021"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"id": "vertical-alignment-vlr-023"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"id": "vertical-alignment-vlr-025"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "vertical-alignment-vlr-027"
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "vertical-alignment-vrl-010"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "vertical-alignment-vrl-012"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "vertical-alignment-vrl-014"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "vertical-alignment-vrl-016"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "vertical-alignment-vrl-018"
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "vertical-alignment-vrl-020"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "vertical-alignment-vrl-022"
 }, 
@@ -16950,12 +17198,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "vertical-alignment-vrl-024"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "vertical-alignment-vrl-026"
 }, 
@@ -17060,7 +17316,8 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "uncertain"
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "Trident": {
 "result": "fail", 

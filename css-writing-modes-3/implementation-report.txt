@@ -612,6 +612,18 @@ html/line-box-direction-017.htm	82c0b1c9077d8c2593f76ba2a7641ed4c66d09f5	pass # 
 html/line-box-direction-018.htm	14c9f8e9c6bc46db0837781f18284c9e16adfdcf	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/line-box-direction-019.htm	85531d155283e10dc3b47ac2d21c82b585b86dae	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/line-box-direction-020.htm	49e2dd15614f0a9bb9835ad17b35e10ddf9d6270	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-height-vlr-003.htm	b0d0a207f1a08f7092dbc9c44266de02d7bdc85a	fail
+html/line-box-height-vlr-005.htm	de04fe41667ef9ef58d704069a9a8929d45d56e5	fail
+html/line-box-height-vlr-007.htm	2c73595fb513dc5dd1f52f0bb0827fc5326a4065	fail
+html/line-box-height-vlr-009.htm	0956fe203ca2abd58d128a345fe8523c058b1831	fail
+html/line-box-height-vlr-011.htm	6cc41912853a895d277463ed932c69f583b485f7	fail
+html/line-box-height-vlr-013.htm	e87910290602978915d826fa0c97fe11ced4af08	fail
+html/line-box-height-vrl-002.htm	1a00417e8f74d820cd70fc5ed7752868750495ec	pass
+html/line-box-height-vrl-004.htm	e6879c456117b2c3ef67db7a625ea753d3cb95b5	pass
+html/line-box-height-vrl-006.htm	693c03b0850d29cd35b5d20305b9581f54f83928	pass
+html/line-box-height-vrl-008.htm	36c6c6f00dcadbab278d0b170de4213c35971606	pass
+html/line-box-height-vrl-010.htm	2f60427c35a4abf5dc9ddc7c47f628d4c225fe89	pass
+html/line-box-height-vrl-012.htm	e42b72f8b9295ee123752049d4423a9eeabc0b08	pass
 html/margin-collapse-vlr-003.htm	17360ce7dfc9485ca0cafb9596f7d9b5a974de20	pass
 html/margin-collapse-vlr-009.htm	c219405819902980a7724034dbc5a83c95881fff	pass
 html/margin-collapse-vlr-011.htm	285ed7143afc4ae1d12bd164fa64fbb8030965d7	pass
@@ -830,14 +842,23 @@ html/vertical-alignment-006.htm	6e6f6e5b259f44db1006d101a1a3d2870dc92c76	pass
 html/vertical-alignment-007.htm	19a04070f2c744fb378ca9d3f5936bef1b205961	pass
 html/vertical-alignment-008.htm	e59d282df581512d3263e9b22972d82c334db836	pass
 html/vertical-alignment-009.htm	5036b5e9d0d8ae513c39237eeddfbcb235f19871	pass # These tests pass but images do not match because of wrong half-leading in vertical-lr
-# html/vertical-alignment-vrl-010.htm	6a62f4fe440de3892fa69129568eadc4c686e65a	?
-# html/vertical-alignment-vrl-012.htm	05f95ff72883b77e481740c489472b139f4783e3	?
-# html/vertical-alignment-vrl-014.htm	8f0910348cdde33c5d035e999d60f24794c2936a	?
-# html/vertical-alignment-vrl-016.htm	1932f0a64832369d337be452ff0166c63a49af4d	?
-# html/vertical-alignment-vrl-018.htm	46f62663eac6126ce9cdb1b1a89b738a289fd039	?
-# html/vertical-alignment-vrl-020.htm	7ceb3d16fa4efd750097c3be4ae82cce022fddc2	?
+# html/vertical-alignment-vlr-011.htm	78e3f6b7dd36f63f7e82061d7250706312744787	pass
+# html/vertical-alignment-vlr-013.htm	bb89530706003c8a4c4d8839bc865a76da1ecd84	pass
+# html/vertical-alignment-vlr-015.htm	84156e13cda0399324618b41d3c55bb53e029dc8	pass
+# html/vertical-alignment-vlr-017.htm	7a8afdbbe359d8617d9566b711c40c1db1a17390	pass
+# html/vertical-alignment-vlr-019.htm	54796aa8c66a8eea603a064b608a2af9e1d0c33f	pass
+# html/vertical-alignment-vlr-021.htm	71d2d1d97b8c13ba18dfe2040a9d3a2b9b89483a	pass
+html/vertical-alignment-vlr-023.htm	6c20122ea1fdc4f58f9e6619ed078d5f2c2488cd	pass
+html/vertical-alignment-vlr-025.htm	3374e9a86046456110a5600581fc239fbcfca2dc	pass
+html/vertical-alignment-vlr-027.htm	fb00a95349ad4e256707a2875665688e5e992c16	pass
+# html/vertical-alignment-vrl-010.htm	6a62f4fe440de3892fa69129568eadc4c686e65a	pass
+# html/vertical-alignment-vrl-012.htm	05f95ff72883b77e481740c489472b139f4783e3	pass
+# html/vertical-alignment-vrl-014.htm	8f0910348cdde33c5d035e999d60f24794c2936a	pass
+# html/vertical-alignment-vrl-016.htm	1932f0a64832369d337be452ff0166c63a49af4d	pass
+# html/vertical-alignment-vrl-018.htm	46f62663eac6126ce9cdb1b1a89b738a289fd039	pass
+# html/vertical-alignment-vrl-020.htm	7ceb3d16fa4efd750097c3be4ae82cce022fddc2	pass
 html/vertical-alignment-vrl-022.htm	58c25fbecc9b3ed93545ad769d757c7b60c7df87	pass # XP: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/vertical-alignment-vrl-024.htm	5c884c45becc6d0f68a377416b4c08f0938d5a2b	pass # XP: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/vertical-alignment-vrl-024.htm	a8bae99e5f41d96c2941dd4add70b8086122a00b	pass # XP: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/vertical-alignment-vrl-026.htm	88419ef9fd16f1a81ffd2342a914e4bccc3a1ed5	pass
 html/writing-mode-horizontal-001l.htm	820b6baaa9ff63cf1a29b989c8d68ebdafe3c4da	pass
 html/writing-mode-horizontal-001r.htm	946a8be6f47e1cdc7ca7539e48e9964bd77c9ba9	pass
@@ -850,5 +871,5 @@ html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	p
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Mac: Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass
-# Total = 851, Coverage = 845 (99%), Pass = 709 (83% of total, 83% of coverage), Fail = 136 (15% of total, 16% of coverage)
-# Imported = 713 (83%), Pass = 595 (69% of total, 83% of imported), Fail = 118 (13% of total, 16% of imported)
+# Total = 872, Coverage = 872 (100%), Pass = 730 (83% of total, 83% of coverage), Fail = 142 (16% of total, 16% of coverage)
+# Imported = 728 (83%), Pass = 604 (69% of total, 82% of imported), Fail = 124 (14% of total, 17% of imported)
