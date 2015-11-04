@@ -12877,12 +12877,20 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "line-box-height-vlr-003"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "line-box-height-vlr-005"
 }, 
@@ -12891,12 +12899,20 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "line-box-height-vlr-007"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "line-box-height-vlr-009"
 }, 
@@ -12905,12 +12921,20 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "line-box-height-vlr-011"
 }, 
 {
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "line-box-height-vlr-013"
 }, 
@@ -12919,12 +12943,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "line-box-height-vrl-002"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "line-box-height-vrl-004"
 }, 
@@ -12933,12 +12965,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "line-box-height-vrl-006"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "line-box-height-vrl-008"
 }, 
@@ -12947,12 +12987,20 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "line-box-height-vrl-010"
 }, 
 {
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "line-box-height-vrl-012"
 }, 
@@ -17026,6 +17074,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "hshiozawa"
+}, 
 "id": "vertical-alignment-vlr-011"
 }, 
 {
@@ -17036,6 +17088,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "hshiozawa"
 }, 
 "id": "vertical-alignment-vlr-013"
 }, 
@@ -17048,6 +17104,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "hshiozawa"
+}, 
 "id": "vertical-alignment-vlr-015"
 }, 
 {
@@ -17058,6 +17118,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "hshiozawa"
 }, 
 "id": "vertical-alignment-vlr-017"
 }, 
@@ -17070,6 +17134,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "hshiozawa"
+}, 
 "id": "vertical-alignment-vlr-019"
 }, 
 {
@@ -17080,6 +17148,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "hshiozawa"
 }, 
 "id": "vertical-alignment-vlr-021"
 }, 
@@ -17092,6 +17164,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail", 
+"source": "hshiozawa"
+}, 
 "id": "vertical-alignment-vlr-023"
 }, 
 {
@@ -17102,6 +17178,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "hshiozawa"
 }, 
 "id": "vertical-alignment-vlr-025"
 }, 
@@ -17114,6 +17194,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail", 
+"source": "hshiozawa"
+}, 
 "id": "vertical-alignment-vlr-027"
 }, 
 {
@@ -17124,6 +17208,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "hshiozawa"
 }, 
 "id": "vertical-alignment-vrl-010"
 }, 
@@ -17136,6 +17224,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "hshiozawa"
+}, 
 "id": "vertical-alignment-vrl-012"
 }, 
 {
@@ -17146,6 +17238,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "hshiozawa"
 }, 
 "id": "vertical-alignment-vrl-014"
 }, 
@@ -17158,6 +17254,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "hshiozawa"
+}, 
 "id": "vertical-alignment-vrl-016"
 }, 
 {
@@ -17168,6 +17268,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "hshiozawa"
 }, 
 "id": "vertical-alignment-vrl-018"
 }, 
@@ -17180,6 +17284,10 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "hshiozawa"
+}, 
 "id": "vertical-alignment-vrl-020"
 }, 
 {
@@ -17190,6 +17298,10 @@
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "hshiozawa"
 }, 
 "id": "vertical-alignment-vrl-022"
 }, 
@@ -17202,6 +17314,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "fail", 
+"source": "hshiozawa"
+}, 
 "id": "vertical-alignment-vrl-024"
 }, 
 {
@@ -17212,6 +17328,10 @@
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "hshiozawa"
 }, 
 "id": "vertical-alignment-vrl-026"
 }, 
@@ -17331,7 +17451,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Edge": {
