@@ -20403,12 +20403,6 @@ line-box-direction-017,pass,HTML,2015-11-03T02:00:00+00:00,kojiishi,WebKit,"Mozi
 line-box-direction-018,pass,HTML,2015-11-03T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2544.0 Safari/537.36"
 line-box-direction-019,pass,HTML,2015-11-03T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2544.0 Safari/537.36"
 line-box-direction-020,pass,HTML,2015-11-03T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2544.0 Safari/537.36"
-line-box-height-vlr-003,fail,HTML,2015-11-03T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2544.0 Safari/537.36"
-line-box-height-vlr-005,fail,HTML,2015-11-03T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2544.0 Safari/537.36"
-line-box-height-vlr-007,fail,HTML,2015-11-03T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2544.0 Safari/537.36"
-line-box-height-vlr-009,fail,HTML,2015-11-03T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2544.0 Safari/537.36"
-line-box-height-vlr-011,fail,HTML,2015-11-03T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2544.0 Safari/537.36"
-line-box-height-vlr-013,fail,HTML,2015-11-03T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2544.0 Safari/537.36"
 line-box-height-vrl-002,pass,HTML,2015-11-03T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2544.0 Safari/537.36"
 line-box-height-vrl-004,pass,HTML,2015-11-03T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2544.0 Safari/537.36"
 line-box-height-vrl-006,pass,HTML,2015-11-03T02:00:00+00:00,kojiishi,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2544.0 Safari/537.36"
@@ -20621,12 +20615,6 @@ vertical-alignment-vrl-020,pass,HTML,2015-11-03T02:51:35+00:00,hshiozawa,Trident
 vertical-alignment-vrl-022,fail,HTML,2015-11-03T02:52:01+00:00,hshiozawa,Trident,Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
 vertical-alignment-vrl-024,fail,HTML,2015-11-03T02:52:16+00:00,hshiozawa,Trident,Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
 vertical-alignment-vrl-026,fail,HTML,2015-11-03T02:52:29+00:00,hshiozawa,Trident,Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
-line-box-height-vlr-003,fail,HTML,2015-11-03T23:44:55+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
-line-box-height-vlr-005,fail,HTML,2015-11-03T23:45:02+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
-line-box-height-vlr-007,pass,HTML,2015-11-03T23:45:13+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
-line-box-height-vlr-009,pass,HTML,2015-11-03T23:45:21+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
-line-box-height-vlr-011,fail,HTML,2015-11-03T23:45:31+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
-line-box-height-vlr-013,fail,HTML,2015-11-03T23:45:50+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
 line-box-height-vrl-002,fail,HTML,2015-11-03T23:45:59+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
 line-box-height-vrl-004,fail,HTML,2015-11-03T23:46:09+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
 line-box-height-vrl-006,pass,HTML,2015-11-03T23:46:18+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
@@ -20634,3 +20622,105 @@ line-box-height-vrl-008,pass,HTML,2015-11-03T23:46:27+00:00,gtalbot,Gecko,Mozill
 line-box-height-vrl-010,fail,HTML,2015-11-03T23:46:36+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
 line-box-height-vrl-012,fail,HTML,2015-11-03T23:46:50+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
 text-orientation-script-001,fail,HTML,2015-11-03T23:47:27+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+outline-inline-slr-005,pass,HTML,2015-11-06T23:36:45+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+outline-inline-srl-004,pass,HTML,2015-11-06T23:36:53+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+outline-inline-vlr-003,pass,HTML,2015-11-06T23:36:59+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+outline-inline-vrl-002,pass,HTML,2015-11-06T23:37:05+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+outline-inline-slr-005,fail,HTML,2015-11-06T23:39:35+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2552.0 Safari/537.36"
+outline-inline-srl-004,fail,HTML,2015-11-06T23:39:41+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2552.0 Safari/537.36"
+outline-inline-vlr-003,pass,HTML,2015-11-06T23:39:51+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2552.0 Safari/537.36"
+outline-inline-vrl-002,fail,HTML,2015-11-06T23:40:00+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2552.0 Safari/537.36"
+line-box-height-vlr-003,fail,HTML,2015-11-08T04:54:28+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2552.0 Safari/537.36"
+line-box-height-vlr-005,fail,HTML,2015-11-08T04:54:39+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2552.0 Safari/537.36"
+line-box-height-vlr-007,fail,HTML,2015-11-08T04:54:54+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2552.0 Safari/537.36"
+line-box-height-vlr-009,fail,HTML,2015-11-08T04:55:03+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2552.0 Safari/537.36"
+line-box-height-vlr-011,fail,HTML,2015-11-08T04:55:16+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2552.0 Safari/537.36"
+line-box-height-vlr-013,fail,HTML,2015-11-08T04:55:30+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2552.0 Safari/537.36"
+abs-pos-non-replaced-vlr-095,fail,HTML,2015-11-08T04:55:41+00:00,gtalbot,WebKit,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2552.0 Safari/537.36"
+line-box-height-vlr-003,fail,HTML,2015-11-08T04:57:39+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+line-box-height-vlr-005,fail,HTML,2015-11-08T04:57:50+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+line-box-height-vlr-007,pass,HTML,2015-11-08T04:58:03+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+line-box-height-vlr-009,pass,HTML,2015-11-08T04:58:14+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+line-box-height-vlr-011,fail,HTML,2015-11-08T04:58:38+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+line-box-height-vlr-013,fail,HTML,2015-11-08T04:58:55+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+line-box-height-vrl-002,fail,HTML,2015-11-08T04:59:16+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+line-box-height-vrl-004,fail,HTML,2015-11-08T04:59:29+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+line-box-height-vrl-010,fail,HTML,2015-11-08T05:00:02+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+line-box-height-vrl-012,fail,HTML,2015-11-08T05:00:23+00:00,gtalbot,Gecko,Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+block-flow-direction-018,pass,HTML,2015-11-09T07:00:06+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+line-box-direction-015,pass,HTML,2015-11-09T07:04:07+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+line-box-direction-016,pass,HTML,2015-11-09T07:05:40+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+bidi-isolate-override-005,fail,HTML,2015-11-09T07:11:42+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+bidi-isolate-override-006,fail,HTML,2015-11-09T07:11:48+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+bidi-isolate-override-007,fail,HTML,2015-11-09T07:12:36+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+bidi-isolate-override-009,fail,HTML,2015-11-09T07:13:22+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+bidi-isolate-override-010,fail,HTML,2015-11-09T07:13:35+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+bidi-plaintext-003,fail,HTML,2015-11-09T07:14:49+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+bidi-plaintext-005,fail,HTML,2015-11-09T07:15:30+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+bidi-plaintext-006,fail,HTML,2015-11-09T07:15:49+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+bidi-plaintext-009,fail,HTML,2015-11-09T07:15:56+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+bidi-plaintext-011,fail,HTML,2015-11-09T07:16:04+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+table-column-order-002,fail,HTML,2015-11-09T07:17:32+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+table-column-order-003,fail,HTML,2015-11-09T07:17:42+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+table-column-order-004,fail,HTML,2015-11-09T07:17:51+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+table-column-order-005,fail,HTML,2015-11-09T07:17:58+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+table-progression-vlr-004,fail,HTML,2015-11-09T07:18:11+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+table-progression-vrl-004,fail,HTML,2015-11-09T07:18:21+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+unicode-bidi-parsing-002,fail,HTML,2015-11-09T07:19:22+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+bidi-004,fail,HTML,2015-11-09T07:21:09+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+css-flexbox-row-reverse,fail,HTML,2015-11-09T07:25:11+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+writing-mode-parsing-sideways-lr-001,fail,HTML,2015-11-09T07:25:17+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+writing-mode-parsing-sideways-rl-001,fail,HTML,2015-11-09T07:25:46+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+inline-block-alignment-003,fail,HTML,2015-11-09T07:26:42+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+inline-block-alignment-005,fail,HTML,2015-11-09T07:26:49+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+inline-block-alignment-007,fail,HTML,2015-11-09T07:27:03+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+inline-table-alignment-003,fail,HTML,2015-11-09T07:27:10+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+inline-table-alignment-005,fail,HTML,2015-11-09T07:27:17+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+abs-pos-non-replaced-vrl-088,fail,HTML,2015-11-09T07:40:12+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+abs-pos-non-replaced-vrl-112,pass,HTML,2015-11-09T07:40:51+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+abs-pos-non-replaced-vrl-116,pass,HTML,2015-11-09T07:41:04+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+abs-pos-non-replaced-vrl-128,pass,HTML,2015-11-09T07:41:11+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+abs-pos-non-replaced-vrl-144,pass,HTML,2015-11-09T07:41:21+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+abs-pos-non-replaced-vrl-148,pass,HTML,2015-11-09T07:42:39+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+abs-pos-non-replaced-vrl-160,pass,HTML,2015-11-09T07:42:47+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+abs-pos-non-replaced-vrl-176,pass,HTML,2015-11-09T07:43:01+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+abs-pos-non-replaced-vrl-192,pass,HTML,2015-11-09T07:43:16+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+abs-pos-non-replaced-vrl-208,pass,HTML,2015-11-09T07:43:25+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+abs-pos-non-replaced-vrl-220,fail,HTML,2015-11-09T07:43:53+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+abs-pos-non-replaced-vrl-224,fail,HTML,2015-11-09T07:44:00+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+outline-inline-vrl-002,pass,HTML,2015-11-09T08:00:26+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+outline-inline-srl-004,fail,HTML,2015-11-09T08:00:33+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+outline-inline-slr-005,fail,HTML,2015-11-09T08:00:38+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+orthogonal-parent-shrink-to-fit-001,pass,HTML,2015-11-09T08:07:41+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+orthogonal-parent-shrink-to-fit-001q,pass,HTML,2015-11-09T08:08:42+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+orthogonal-parent-shrink-to-fit-001s,pass,HTML,2015-11-09T08:09:55+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+orthogonal-parent-shrink-to-fit-001t,pass,HTML,2015-11-09T08:09:59+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+orthogonal-parent-shrink-to-fit-001r,pass,HTML,2015-11-09T08:10:22+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+orthogonal-parent-shrink-to-fit-001v,pass,HTML,2015-11-09T08:10:38+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+orthogonal-parent-shrink-to-fit-001w,pass,HTML,2015-11-09T08:10:41+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+orthogonal-parent-shrink-to-fit-001x,pass,HTML,2015-11-09T08:10:56+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+orthogonal-parent-shrink-to-fit-001u,pass,HTML,2015-11-09T08:10:59+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+underline-font-size-vrl-004,fail,HTML,2015-11-09T08:15:21+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+vertical-alignment-vlr-023,pass,HTML,2015-11-09T08:15:31+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+vertical-alignment-vlr-025,pass,HTML,2015-11-09T08:15:36+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+vertical-alignment-vrl-022,pass,HTML,2015-11-09T08:15:42+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+vertical-alignment-vrl-024,pass,HTML,2015-11-09T08:15:50+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+text-combine-upright-parsing-digits-001,fail,HTML,2015-11-09T08:23:50+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+text-combine-upright-parsing-digits-002,fail,HTML,2015-11-09T08:23:55+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+text-combine-upright-parsing-valid-001,fail,HTML,2015-11-09T08:24:00+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+text-combine-upright-value-digits2-001,fail,HTML,2015-11-09T08:25:06+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+text-combine-upright-value-digits2-002,fail,HTML,2015-11-09T08:25:46+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+text-combine-upright-value-digits3-001,fail,HTML,2015-11-09T08:26:11+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+text-combine-upright-value-digits3-002,fail,HTML,2015-11-09T08:26:19+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+text-combine-upright-value-digits4-001,fail,HTML,2015-11-09T08:26:27+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+text-combine-upright-value-digits4-002,fail,HTML,2015-11-09T08:26:38+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+full-width-002,fail,HTML,2015-11-09T08:29:10+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+full-width-001,fail,HTML,2015-11-09T08:31:27+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+full-width-003,fail,HTML,2015-11-09T08:33:37+00:00,lemoned,Edge,"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
+abs-pos-non-replaced-vlr-095,fail,HTML,2015-11-09T11:37:33+00:00,118.189.34.85,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2552.0 Safari/537.36"
+abs-pos-non-replaced-vlr-225,fail,HTML,2015-11-09T11:37:44+00:00,118.189.34.85,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2552.0 Safari/537.36"
+abs-pos-non-replaced-vlr-229,fail,HTML,2015-11-09T11:37:52+00:00,118.189.34.85,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2552.0 Safari/537.36"
+abs-pos-non-replaced-vrl-010,fail,HTML,2015-11-09T11:38:02+00:00,118.189.34.85,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2552.0 Safari/537.36"
+abs-pos-non-replaced-vrl-034,fail,HTML,2015-11-09T11:38:11+00:00,118.189.34.85,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2552.0 Safari/537.36"
+abs-pos-non-replaced-vrl-088,fail,HTML,2015-11-09T11:38:20+00:00,118.189.34.85,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2552.0 Safari/537.36"
+abs-pos-non-replaced-vrl-220,fail,HTML,2015-11-09T11:38:29+00:00,118.189.34.85,WebKit,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2552.0 Safari/537.36"
