@@ -13,7 +13,7 @@ log = logging.getLogger(__name__)
 
 def main():
     parser = argparse.ArgumentParser(description='Generate CSS WG implementation reports from Blink repository.')
-    parser.add_argument('--json', '-j', action='store', default='css-writing-modes-3/implementation-report.json')
+    parser.add_argument('--json', '-j', action='store', default='css-writing-modes-3/results.json')
     parser.add_argument('--output', '-o', action='store', default='css-writing-modes-3/implementation-report.txt')
     parser.add_argument('--verbose', '-v', action='count')
     parser.add_argument('tests', nargs='?', default='~/src/chromium/src/third_party/WebKit/LayoutTests/imported/csswg-test/css-writing-modes-3')
