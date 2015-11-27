@@ -83,7 +83,7 @@
                     <template id="list" is="dom-repeat" as="test" items="{{tests}}" filter="{{_filter(filterText)}}" on-dom-change="listUpdated">
                         <li>
                             <cell>
-                                <a href$="{{getUrl(test)}}">{{test.id}}</a>
+                                <a href$="{{urlFromTest(test)}}">{{test.id}}</a>
                                 <template is="dom-if" if="{{test.issue}}">
                                     <a href$="{{test.issue}}" class="issue">ISSUE</a>
                                 </template>
@@ -139,9 +139,13 @@
         Polymer({
             is: 'test-list',
             ready: function () {
-                this.engines = ["Blink", "Gecko", "Trident", "WebKit"];
-                if (location.search && location.search.lastIndexOf('?q=', 0) == 0)
-                    this.filterText = decodeURIComponent(location.search.slice(3));
+                this.engines = ["Blink", "Gecko", "Trident", "Edge", "WebKit"];
+                var args = parseQueryString();
+                if (args) {
+                    if (args.engines)
+                        this.engines = args.engines.split(' ');
+                    this.filterText = args.q;
+                }
             },
             _filter: function (filter) {
                 return createFilter(filter);
@@ -154,7 +158,7 @@
                 else
                     window.history.replaceState(null, '', window.location.pathname);
             },
-            getUrl: function (test) {
+            urlFromTest: function (test) {
                 return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + test.id + '/format/html5/';
             },
             getResultsOfEngines: function (test) {
@@ -177,5 +181,20 @@
                 return result.result;
             },
         });
+
+        function parseQueryString() {
+            var query = location.search;
+            if (!query)
+                return null;
+            if (query[0] == '?')
+                query = query.slice(1);
+            query = query.split('&');
+            var result = {};
+            for (var i = 0; i < query.length; i++) {
+                var keyValue = query[i].split('=', 2);
+                result[keyValue[0]] = decodeURIComponent(keyValue[1] || '');
+            }
+            return result;
+        }
     </script>
 </dom-module>
