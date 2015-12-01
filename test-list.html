@@ -36,6 +36,9 @@
             display:table-cell;
             border: solid gray thin;
         }
+        .needs-pass {
+            background-color: yellow;
+        }
         .pass {
             background-color: lime;
         }
@@ -82,7 +85,7 @@
                     </li>
                     <template id="list" is="dom-repeat" as="test" items="{{tests}}" filter="{{_filter(filterText)}}" on-dom-change="listUpdated">
                         <li>
-                            <cell>
+                            <cell class$="{{testClassFromTest(test)}}">
                                 <a href$="{{urlFromTest(test)}}">{{test.id}}</a>
                                 <template is="dom-if" if="{{test.issue}}">
                                     <a href$="{{test.issue}}" class="issue">ISSUE</a>
@@ -158,8 +161,17 @@
                 else
                     window.history.replaceState(null, '', window.location.pathname);
             },
-            urlFromTest: function (test) {
-                return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + test.id + '/format/html5/';
+            meetsCriteria: function (test) {
+                var count = 0;
+                ["Gecko", "Trident", "Edge"].forEach(function (engine) {
+                    if (test[engine] && test[engine].result === "pass")
+                        count++;
+                });
+                if (test.Blink && test.Blink.result === "pass")
+                    count++;
+                else if (test.WebKit && test.WebKit.result === "pass")
+                    count++;
+                return count >= 2;
             },
             getResultsOfEngines: function (test) {
                 return this.engines.map(function (engine) {
@@ -179,6 +191,12 @@
                 if (!result || !result.result)
                     return "?";
                 return result.result;
+            },
+            testClassFromTest: function (test) {
+                return this.meetsCriteria(test) ? "meets-criteria" : "needs-pass";
+            },
+            urlFromTest: function (test) {
+                return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + test.id + '/format/html5/';
             },
         });
 
