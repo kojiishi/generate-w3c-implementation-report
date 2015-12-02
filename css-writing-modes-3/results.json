@@ -15188,6 +15188,46 @@
 }, 
 {
 "Blink": {
+"result": "fail"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "table-progression-slr-001"
+}, 
+{
+"Blink": {
+"result": "fail"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"id": "table-progression-slr-002"
+}, 
+{
+"Blink": {
+"result": "fail"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "table-progression-srl-001"
+}, 
+{
+"Blink": {
+"result": "fail"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"id": "table-progression-srl-002"
+}, 
+{
+"Blink": {
 "result": "fail", 
 "source": "blink"
 }, 
