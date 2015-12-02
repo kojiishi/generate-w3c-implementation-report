@@ -32,11 +32,11 @@
         li:nth-child(2n) {
             background-color: #eee;
         }
-        cell {
+        name, result {
             display:table-cell;
             border: solid gray thin;
         }
-        .needs-pass {
+        li.pass0 > name, li.pass1 > name {
             background-color: yellow;
         }
         .pass {
@@ -71,31 +71,31 @@
             auto
             url="css-writing-modes-3/results.json"
             handle-as="json"
-            last-response="{{tests}}"
+            on-response="onRespose"
             ></iron-ajax>
         <paper-drawer-panel right-drawer drawer-width="12em">
             <div main>
                 <paper-spinner id="spinner" alt="Loading..." active></paper-spinner>
                 <ol>
                     <li class="header">
-                        <cell>Test</cell>
+                        <name>Test</name>
                         <template is="dom-repeat" items="{{engines}}">
-                              <cell>{{item}}</cell>
+                              <result>{{item}}</result>
                         </template>
                     </li>
                     <template id="list" is="dom-repeat" as="test" items="{{tests}}" filter="{{_filter(filterText)}}" on-dom-change="listUpdated">
-                        <li>
-                            <cell class$="{{testClassFromTest(test)}}">
+                        <li class$="{{testClassFromTest(test)}}">
+                            <name>
                                 <a href$="{{urlFromTest(test)}}">{{test.id}}</a>
                                 <template is="dom-if" if="{{test.issue}}">
                                     <a href$="{{test.issue}}" class="issue">ISSUE</a>
                                 </template>
-                            </cell>
+                            </name>
                             <template is="dom-repeat" as="result" items="{{getResultsOfEngines(test)}}">
-                                <cell class$="{{getResultClass(result)}}">
+                                <result class$="{{getResultClass(result)}}">
                                     <span>{{getResultText(result)}}</span>
                                     <span class=by>{{result.source}}</span>
-                                </cell>
+                                </result>
                             </template>
                         </li>
                     </template>
@@ -107,32 +107,56 @@
         </paper-drawer-panel>
     </template>
     <script>
-        function createFilter(text) {
-            function matchTest(test, text) {
-                if (!text)
+        function Test() {
+        }
+        Test.prototype.url = function () {
+            return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + this.id + '/format/html5/';
+        };
+        Test.prototype.passCount = function () {
+            var count = 0;
+            var self = this;
+            ["Gecko", "Trident", "Edge"].forEach(function (engine) {
+                if (self[engine] && self[engine].result === "pass")
+                    count++;
+            });
+            if (this.Blink && this.Blink.result === "pass")
+                count++;
+            else if (this.WebKit && this.WebKit.result === "pass")
+                count++;
+            return count;
+        };
+        Test.prototype.matchText = function (text) {
+            if (!text)
+                return true;
+            if (text[0] == '!') {
+                if (text.length == 1)
                     return true;
-                if (text[0] == '!') {
-                    if (text.length == 1)
-                        return true;
-                    return !matchTest(test, text.slice(1));
-                }
-                if (test.id.indexOf(text) >= 0)
-                    return true;
-                var result = test.Blink;
-                if (!result)
-                    return text == "?";
-                return result.result.indexOf(text) >= 0 ||
-                    (result.source && result.source.indexOf(text) >= 0);
+                return !this.matchText(text.slice(1));
             }
+            if (this.id.indexOf(text) >= 0)
+                return true;
+            var result = this.Blink;
+            if (!result)
+                return text == "?";
+            if (result.result.indexOf(text) >= 0)
+                return true;
+            if (result.source && result.source.indexOf(text) >= 0)
+                return true;
+            if (text === "pass2")
+                return this.passCount() >= 2;
+            return false;
+        };
+
+        function createFilter(text) {
             if (!text) return null;
             text = text.trim();
             if (!text) return null;
             var filters = text.split(' ');
             if (filters.length == 1)
-                return function (test) { return matchTest(test, filters[0]); };
+                return function (test) { return test.matchText(filters[0]); };
             return function (test) {
                 for (var i = 0; i < filters.length; ++i) {
-                    if (!matchTest(test, filters[i]))
+                    if (!test.matchText(filters[i]))
                         return false;
                 }
                 return true;
@@ -153,25 +177,21 @@
             _filter: function (filter) {
                 return createFilter(filter);
             },
+            onRespose: function (e) {
+                this.tests = e.detail.response.map(function (t) {
+                    t.__proto__ = Test.prototype;
+                    return t;
+                });
+            },
             listUpdated: function () {
+                for (var i = 0; i < this.tests.length; i++)
+                    this.tests[i].__proto__ = Test.prototype;
                 this.$.panel.listUpdated(this.tests, this.$.list.filter);
                 this.$.spinner.active = false;
                 if (this.filterText)
                     window.history.replaceState(null, '', '?q=' + this.filterText);
                 else
                     window.history.replaceState(null, '', window.location.pathname);
-            },
-            meetsCriteria: function (test) {
-                var count = 0;
-                ["Gecko", "Trident", "Edge"].forEach(function (engine) {
-                    if (test[engine] && test[engine].result === "pass")
-                        count++;
-                });
-                if (test.Blink && test.Blink.result === "pass")
-                    count++;
-                else if (test.WebKit && test.WebKit.result === "pass")
-                    count++;
-                return count >= 2;
             },
             getResultsOfEngines: function (test) {
                 return this.engines.map(function (engine) {
@@ -192,12 +212,8 @@
                     return "?";
                 return result.result;
             },
-            testClassFromTest: function (test) {
-                return this.meetsCriteria(test) ? "meets-criteria" : "needs-pass";
-            },
-            urlFromTest: function (test) {
-                return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + test.id + '/format/html5/';
-            },
+            testClassFromTest: function (test) { return "pass" + test.passCount(); },
+            urlFromTest: function (test) { return test.url(); },
         });
 
         function parseQueryString() {
