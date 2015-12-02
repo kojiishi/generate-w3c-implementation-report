@@ -109,6 +109,7 @@
     <script>
         function Test() {
         }
+        Test.engines = ["Blink", "Gecko", "Trident", "Edge", "WebKit"];
         Test.prototype.url = function () {
             return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + this.id + '/format/html5/';
         };
@@ -135,15 +136,25 @@
             }
             if (this.id.indexOf(text) >= 0)
                 return true;
-            var result = this.Blink;
+            if (text === "pass2")
+                return this.passCount() >= 2;
+
+            var prefix = text.split(":", 2);
+            var result;
+            if (prefix.length == 2 && Test.engines.indexOf(prefix[0]) >= 0) {
+                result = this[prefix[0]];
+                console.log(prefix[0], prefix[1], result);
+                text = prefix[1];
+            } else {
+                result = this.Blink;
+            }
             if (!result)
                 return text == "?";
             if (result.result.indexOf(text) >= 0)
                 return true;
             if (result.source && result.source.indexOf(text) >= 0)
                 return true;
-            if (text === "pass2")
-                return this.passCount() >= 2;
+
             return false;
         };
 
@@ -166,7 +177,7 @@
         Polymer({
             is: 'test-list',
             ready: function () {
-                this.engines = ["Blink", "Gecko", "Trident", "Edge", "WebKit"];
+                this.engines = Test.engines;
                 var args = parseQueryString();
                 if (args) {
                     if (args.engines)
