@@ -19,6 +19,7 @@ def main():
     parser.add_argument('tests', nargs='?', default='~/src/chromium/src/third_party/WebKit/LayoutTests/imported/csswg-test/css-writing-modes-3')
     parser.add_argument('results', nargs='?', default='css-writing-modes-3/results.csv')
     parser.add_argument('template', nargs='?', default='css-writing-modes-3/implementation-report-TEMPLATE.data')
+    parser.add_argument('testinfo', nargs='?', default='css-writing-modes-3/testinfo.data')
     args = parser.parse_args()
     if args.verbose > 1:
         logging.basicConfig(level=logging.DEBUG)
@@ -28,6 +29,8 @@ def main():
         logging.basicConfig(level=logging.WARNING)
     args.tests = os.path.expanduser(args.tests)
     generator = W3CImplementationReportGenerator()
+    with open(args.testinfo) as testinfo:
+        generator.load_testinfo(testinfo)
     with open(args.template) as template:
         generator.load_template(template)
     with open(args.results) as results:
@@ -188,6 +191,24 @@ class Test(object):
                 elif result.result != "pass" and combo_result.result == "pass":
                     combo.results[engine] = result
 
+    def to_json(self):
+        if not self.testnames:
+            return None
+        json = {
+            'id': self.id,
+        }
+        if self.issue:
+            json["issue"] = self.issue
+        for engine, result in self.results.iteritems():
+            result_json = {
+                "result": result.result,
+            }
+            if result.reliability:
+                result_json["source"] = result.source
+            json[engine] = result_json
+        json["required"] = "may" not in self.flags
+        return json
+
 class W3CImplementationReportGenerator(object):
     def __init__(self):
         self.tests = {}
@@ -239,6 +260,18 @@ class W3CImplementationReportGenerator(object):
                 if values[0] == 'testname':
                     continue
             log.warn("Unrecognized line in template: %s", line)
+
+    def load_testinfo(self, testinfo):
+        for line in testinfo:
+            line = line.strip()
+            if not line:
+                continue
+            values = line.split('\t')
+            id = values[0]
+            if id == 'id':
+                continue
+            test = self.test_from_id_or_add(id)
+            test.flags = values[3].split(',')
 
     def load_test_results(self, results):
         reader = csv.reader(results)
@@ -414,21 +447,9 @@ class W3CImplementationReportGenerator(object):
     def write_json(self, output):
         tests = []
         for test in sorted(self.tests.itervalues(), key=lambda t: t.id):
-            if not test.testnames:
-                continue
-            test_json = {
-                'id': test.id,
-            }
-            if test.issue:
-                test_json["issue"] = test.issue
-            for engine, result in test.results.iteritems():
-                result_json = {
-                    "result": result.result,
-                }
-                if result.reliability:
-                    result_json["source"] = result.source
-                test_json[engine] = result_json
-            tests.append(test_json)
+            test_json = test.to_json()
+            if test_json:
+                tests.append(test_json)
         json.dump(tests, output, indent=0, sort_keys=True)
 
 main()
