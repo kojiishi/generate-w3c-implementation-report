@@ -36,7 +36,7 @@
             display:table-cell;
             border: solid gray thin;
         }
-        li.pass0 > name, li.pass1 > name {
+        li.required > name {
             background-color: yellow;
         }
         .pass {
@@ -113,6 +113,14 @@
         Test.prototype.url = function () {
             return 'http://test.csswg.org/harness/test/css-writing-modes-3_dev/single/' + this.id + '/format/html5/';
         };
+        Test.prototype.className = function () {
+            var passCount = this.passCount();
+            if (passCount >= 2)
+                return "exit";
+            if (!this.required)
+                return "may";
+            return "required";
+        };
         Test.prototype.passCount = function () {
             var count = 0;
             var self = this;
@@ -136,8 +144,8 @@
             }
             if (this.id.indexOf(text) >= 0)
                 return true;
-            if (text === "pass2")
-                return this.passCount() >= 2;
+            if (this.className().indexOf(text) >= 0)
+                return true;
 
             var prefix = text.split(":", 2);
             var result;
@@ -223,7 +231,7 @@
                     return "?";
                 return result.result;
             },
-            testClassFromTest: function (test) { return "pass" + test.passCount(); },
+            testClassFromTest: function (test) { return test.className(); },
             urlFromTest: function (test) { return test.url(); },
         });
 
