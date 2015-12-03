@@ -8790,8 +8790,8 @@
 "source": "lemoned"
 }, 
 "WebKit": {
-"result": "fail", 
-"source": "lemoned"
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "bidi-plaintext-011", 
 "required": true
