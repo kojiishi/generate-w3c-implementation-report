@@ -6933,6 +6933,10 @@
 "result": "fail", 
 "source": "lemoned"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
@@ -18510,8 +18514,8 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "fail", 
-"source": "gtalbot"
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "Trident": {
 "result": "pass", 
@@ -18818,8 +18822,8 @@
 "source": "lemoned"
 }, 
 "WebKit": {
-"result": "fail", 
-"source": "lemoned"
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "text-orientation-upright-001", 
 "required": true
