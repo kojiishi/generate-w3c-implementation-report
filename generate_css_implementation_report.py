@@ -206,7 +206,7 @@ class Test(object):
             if result.reliability:
                 result_json["source"] = result.source
             json[engine] = result_json
-        json["required"] = "may" not in self.flags
+        json["required"] = not ("may" in self.flags or "should" in self.flags)
         return json
 
 class W3CImplementationReportGenerator(object):

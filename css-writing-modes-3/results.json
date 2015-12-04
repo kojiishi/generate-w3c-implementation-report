@@ -13162,7 +13162,7 @@
 "source": "gtalbot"
 }, 
 "id": "form-controls-slr-004", 
-"required": true
+"required": false
 }, 
 {
 "Blink": {
@@ -13174,7 +13174,7 @@
 "source": "gtalbot"
 }, 
 "id": "form-controls-slr-005", 
-"required": true
+"required": false
 }, 
 {
 "Blink": {
@@ -13186,7 +13186,7 @@
 "source": "gtalbot"
 }, 
 "id": "form-controls-srl-004", 
-"required": true
+"required": false
 }, 
 {
 "Blink": {
@@ -13198,7 +13198,7 @@
 "source": "gtalbot"
 }, 
 "id": "form-controls-srl-005", 
-"required": true
+"required": false
 }, 
 {
 "Blink": {
@@ -13218,7 +13218,7 @@
 "source": "lemoned"
 }, 
 "id": "form-controls-vlr-004", 
-"required": true
+"required": false
 }, 
 {
 "Blink": {
@@ -13238,7 +13238,7 @@
 "source": "lemoned"
 }, 
 "id": "form-controls-vlr-005", 
-"required": true
+"required": false
 }, 
 {
 "Blink": {
@@ -13258,7 +13258,7 @@
 "source": "lemoned"
 }, 
 "id": "form-controls-vrl-004", 
-"required": true
+"required": false
 }, 
 {
 "Blink": {
@@ -13278,7 +13278,7 @@
 "source": "lemoned"
 }, 
 "id": "form-controls-vrl-005", 
-"required": true
+"required": false
 }, 
 {
 "Blink": {
@@ -16311,7 +16311,7 @@
 "source": "lemoned"
 }, 
 "id": "replaced-content-image-002", 
-"required": true
+"required": false
 }, 
 {
 "Blink": {
@@ -16331,7 +16331,7 @@
 "source": "lemoned"
 }, 
 "id": "replaced-content-image-003", 
-"required": true
+"required": false
 }, 
 {
 "Blink": {

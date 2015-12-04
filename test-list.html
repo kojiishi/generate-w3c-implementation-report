@@ -36,7 +36,7 @@
             display:table-cell;
             border: solid gray thin;
         }
-        li.required > name {
+        li.require-pass > name {
             background-color: yellow;
         }
         .pass {
@@ -116,10 +116,10 @@
         Test.prototype.className = function () {
             var passCount = this.passCount();
             if (passCount >= 2)
-                return "exit";
+                return "meet-exit-criteria";
             if (!this.required)
-                return "may";
-            return "required";
+                return "may-or-should";
+            return "require-pass";
         };
         Test.prototype.passCount = function () {
             var count = 0;
