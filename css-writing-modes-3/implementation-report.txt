@@ -616,6 +616,8 @@ html/inline-block-alignment-orthogonal-vlr-003.htm	b6891512aa507f9050101d960cf34
 html/inline-block-alignment-orthogonal-vlr-005.htm	843d64f690c7eb68c0dd96bdca4cbec3484b13c5	pass
 html/inline-block-alignment-orthogonal-vrl-002.htm	26492fc7f467f3d050af3de705b263f7ab7996eb	pass
 html/inline-block-alignment-orthogonal-vrl-004.htm	b76cd7a87f94be29964bef761b5a28f1108b9994	pass
+html/inline-block-alignment-slr-009.htm	1b6746f227c5e40ecbb3d07edbac29ac0c206fb4	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/inline-block-alignment-srl-008.htm	8f526c8e5309c5f2fdb3a99180fae2150cd51b31	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
 html/inline-replaced-vlr-003.htm	fb490b42fc0b5e2d19122a5ec93d729280d0de37	pass
 html/inline-replaced-vlr-005.htm	ca2f67096b0544b3e0d80c075acd0db763cbf815	pass
 html/inline-replaced-vrl-002.htm	65edb60ad7a542cacaee25d586d2a07bc30e86b9	pass
@@ -763,10 +765,12 @@ html/table-column-order-002.htm	2cda479a2b6618a2cb702b11ab1c6d15e84143b0	fail
 html/table-column-order-003.htm	e6919ba4cd2868612f81df810867a794b69baa1a	fail
 html/table-column-order-004.htm	879e9a12b008f2396d0778283047a723300d976b	fail
 html/table-column-order-005.htm	b936639f86135a4e6a13faf2bbb35cef03ab8688	fail
-# html/table-progression-slr-001.htm	af7d971e56a4df80a306f033041e8c1161b3fc0a	fail
-# html/table-progression-slr-002.htm	19e1b54408e91a7566d9502f454c2bd473917c82	fail
-# html/table-progression-srl-001.htm	0dac2ab388f8c05765288927c38dc9f24ba1a277	fail
-# html/table-progression-srl-002.htm	ea004df0b7de35f6b97a7c097cb5555619ccac94	fail
+html/table-column-order-slr-007.htm	d191edebe5a760f10e427023f054f845926876bd	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/table-column-order-srl-006.htm	fe2d31c64e1ed2e2badf6c844997f157d54d4fdf	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/table-progression-slr-001.htm	af7d971e56a4df80a306f033041e8c1161b3fc0a	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/table-progression-slr-002.htm	19e1b54408e91a7566d9502f454c2bd473917c82	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/table-progression-srl-001.htm	0dac2ab388f8c05765288927c38dc9f24ba1a277	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/table-progression-srl-002.htm	ea004df0b7de35f6b97a7c097cb5555619ccac94	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
 html/table-progression-vlr-001.htm	401f8eb3e2ee5bb76005f18b876ad15312e36f23	fail
 html/table-progression-vlr-002.htm	443f8504e53d242cbfb638187617e29f70f70bef	pass
 html/table-progression-vlr-003.htm	2ee0222ec3a8473737329fe6c0ad0ed95443f70e	pass
@@ -793,12 +797,8 @@ html/text-align-vrl-012.htm	ff79b1e63c3b79e7961d80307b15878791811a7d	pass
 html/text-align-vrl-014.htm	ee7abad3095db81112f2d25c7a5b96b91b4c5976	pass
 html/text-align-vrl-016.htm	aa022d161e162cf0c2bc00be399ce9fc39c036bb	pass
 html/text-align-vrl-018.htm	d563a03c7b8092d0cbfd3c92183d10bba8333354	pass
-html/text-baseline-slr-009.htm	f2feea9de3a19fee5ca97b72ef9a0df3d47ae73d	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/text-baseline-slr-011.htm	d5f21aa7f5f2dc023cbe2fea86c4d2fd701a8677	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/text-baseline-slr-013.htm	58d0eef98811ed6c05522bb93aec37e09aa3123b	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/text-baseline-srl-008.htm	aaa30b8aa8c49b6f761cc160e104aee449f44401	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/text-baseline-srl-010.htm	5b2eae7a1033e61b023e2c69c56bfa2ae71db38f	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/text-baseline-srl-012.htm	751973aaccb29d4bb6125a842ea8ce54580ac862	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/text-baseline-slr-009.htm	6d6faeeeb92117f7ec2c62627ad2634c9a3fb104	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/text-baseline-srl-008.htm	09bdbb0889fb770d556fac5927fccff34e7792a3	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
 html/text-baseline-vlr-003.htm	d2fbd8b70e1a282019dbb946f08fff8778010830	pass
 html/text-baseline-vlr-005.htm	51866103aa9adb12ae38ed73644698ee63a6af64	pass
 html/text-baseline-vlr-007.htm	2f6bc41efeefa86a82ca1266227b44dfeea4df80	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
@@ -914,6 +914,20 @@ html/vertical-alignment-006.htm	6e6f6e5b259f44db1006d101a1a3d2870dc92c76	pass
 html/vertical-alignment-007.htm	19a04070f2c744fb378ca9d3f5936bef1b205961	pass
 html/vertical-alignment-008.htm	e59d282df581512d3263e9b22972d82c334db836	pass
 html/vertical-alignment-009.htm	5036b5e9d0d8ae513c39237eeddfbcb235f19871	pass # These tests pass but images do not match because of wrong half-leading in vertical-lr
+html/vertical-alignment-slr-029.htm	c2a2fae94b1f0eec403f937302dc66b6a3d874da	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/vertical-alignment-slr-031.htm	e04df2a92bf5d5a360cc0bb2259ff67945aea375	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/vertical-alignment-slr-033.htm	e2f3cfa1756a7faa2709a55271f26c7011532d04	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/vertical-alignment-slr-035.htm	eaa1fa85acffd26f067f596c9a3f12b2ac3ae273	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+# html/vertical-alignment-slr-037.htm	cf651e946c32003b508d45e769e5f09981a3a968	?
+# html/vertical-alignment-slr-039.htm	36bcef254d72fd98e45881cc91b05d0ad83e0548	?
+html/vertical-alignment-slr-041.htm	06b0bd8e50bfb2f2c9d8b53441c2e0dbf517e1c5	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/vertical-alignment-srl-028.htm	94192ae4970f4b07d79ff5edb714fe2563e168c7	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/vertical-alignment-srl-030.htm	847dfd96b4534f392d4ff0ff1f0683994e33e350	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/vertical-alignment-srl-032.htm	b0850a74a5f67af9065ed90707c9c69ee0f6939a	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/vertical-alignment-srl-034.htm	ebdaba4e2054dcb7fe004c05a73b4d321ed6a283	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+# html/vertical-alignment-srl-036.htm	ac599e22d8a9e8a9eb244f94d8b576b2af1e5083	?
+# html/vertical-alignment-srl-038.htm	53ed9dcff36d1d633b4ad3969347cf62761c6684	?
+html/vertical-alignment-srl-040.htm	c7d0fa150a326220a9849d470213393fa7595c80	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
 # html/vertical-alignment-vlr-011.htm	78e3f6b7dd36f63f7e82061d7250706312744787	pass
 # html/vertical-alignment-vlr-013.htm	bb89530706003c8a4c4d8839bc865a76da1ecd84	pass
 # html/vertical-alignment-vlr-015.htm	84156e13cda0399324618b41d3c55bb53e029dc8	pass
@@ -935,12 +949,12 @@ html/vertical-alignment-vrl-026.htm	88419ef9fd16f1a81ffd2342a914e4bccc3a1ed5	pas
 html/writing-mode-horizontal-001l.htm	820b6baaa9ff63cf1a29b989c8d68ebdafe3c4da	pass
 html/writing-mode-horizontal-001r.htm	946a8be6f47e1cdc7ca7539e48e9964bd77c9ba9	pass
 html/writing-mode-parsing-001.htm	7793f793afe3bce066012f14cd282537b430487e	pass
-html/writing-mode-parsing-sideways-lr-001.htm	736e57b0c6f1a92b2a614374db49a3be98722285	fail
-html/writing-mode-parsing-sideways-rl-001.htm	182103682044156866012dcbd0c99a3ba7f9d476	fail
+html/writing-mode-parsing-sideways-lr-001.htm	736e57b0c6f1a92b2a614374db49a3be98722285	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/writing-mode-parsing-sideways-rl-001.htm	182103682044156866012dcbd0c99a3ba7f9d476	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
 html/writing-mode-parsing-svg1-001.htm	ce2637b4c3b5c62aa8fbfc18d7e8ab9ce4107a12	pass
 html/writing-mode-vertical-lr-002.htm	2368493f74f4795b81bbe06bcdc4e41617b7a97f	pass
 html/writing-mode-vertical-rl-001.htm	51761a8518c6f9fa7d5ecc3306fbced379b10538	pass # Mac: Flaky
 html/writing-mode-vertical-rl-002.htm	98ffa835aeb05e601b758d7ad7dc670d78234c77	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	4a3766e5ec4d237b4e9adeebd966941c9e631ec9	pass
-# Total = 943, Coverage = 942 (99%), Pass = 740 (78% of total, 78% of coverage), Fail = 202 (21% of total, 21% of coverage)
-# Imported = 783 (83%), Pass = 614 (65% of total, 78% of imported), Fail = 169 (17% of total, 21% of imported)
+# Total = 957, Coverage = 952 (99%), Pass = 740 (77% of total, 77% of coverage), Fail = 212 (22% of total, 22% of coverage)
+# Imported = 797 (83%), Pass = 614 (64% of total, 77% of imported), Fail = 183 (19% of total, 22% of imported)

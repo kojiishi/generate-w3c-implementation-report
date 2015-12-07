@@ -13710,6 +13710,22 @@
 }, 
 {
 "Blink": {
+"result": "no_support", 
+"source": "blink"
+}, 
+"id": "inline-block-alignment-slr-009", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "no_support", 
+"source": "blink"
+}, 
+"id": "inline-block-alignment-srl-008", 
+"required": true
+}, 
+{
+"Blink": {
 "result": "pass", 
 "source": "blink"
 }, 
@@ -16639,7 +16655,24 @@
 }, 
 {
 "Blink": {
-"result": "fail"
+"result": "no_support", 
+"source": "blink"
+}, 
+"id": "table-column-order-slr-007", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "no_support", 
+"source": "blink"
+}, 
+"id": "table-column-order-srl-006", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "no_support", 
+"source": "blink"
 }, 
 "Gecko": {
 "result": "pass", 
@@ -16650,7 +16683,8 @@
 }, 
 {
 "Blink": {
-"result": "fail"
+"result": "no_support", 
+"source": "blink"
 }, 
 "Gecko": {
 "result": "fail", 
@@ -16661,7 +16695,8 @@
 }, 
 {
 "Blink": {
-"result": "fail"
+"result": "no_support", 
+"source": "blink"
 }, 
 "Gecko": {
 "result": "pass", 
@@ -16672,7 +16707,8 @@
 }, 
 {
 "Blink": {
-"result": "fail"
+"result": "no_support", 
+"source": "blink"
 }, 
 "Gecko": {
 "result": "fail", 
@@ -17214,10 +17250,6 @@
 "result": "no_support", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
 "id": "text-baseline-slr-009", 
 "required": true
 }, 
@@ -17226,59 +17258,7 @@
 "result": "no_support", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"id": "text-baseline-slr-011", 
-"required": true
-}, 
-{
-"Blink": {
-"result": "no_support", 
-"source": "blink"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"id": "text-baseline-slr-013", 
-"required": true
-}, 
-{
-"Blink": {
-"result": "no_support", 
-"source": "blink"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
 "id": "text-baseline-srl-008", 
-"required": true
-}, 
-{
-"Blink": {
-"result": "no_support", 
-"source": "blink"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"id": "text-baseline-srl-010", 
-"required": true
-}, 
-{
-"Blink": {
-"result": "no_support", 
-"source": "blink"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"id": "text-baseline-srl-012", 
 "required": true
 }, 
 {
@@ -19542,6 +19522,102 @@
 }, 
 {
 "Blink": {
+"result": "no_support", 
+"source": "blink"
+}, 
+"id": "vertical-alignment-slr-029", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "no_support", 
+"source": "blink"
+}, 
+"id": "vertical-alignment-slr-031", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "no_support", 
+"source": "blink"
+}, 
+"id": "vertical-alignment-slr-033", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "no_support", 
+"source": "blink"
+}, 
+"id": "vertical-alignment-slr-035", 
+"required": true
+}, 
+{
+"id": "vertical-alignment-slr-037", 
+"required": true
+}, 
+{
+"id": "vertical-alignment-slr-039", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "no_support", 
+"source": "blink"
+}, 
+"id": "vertical-alignment-slr-041", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "no_support", 
+"source": "blink"
+}, 
+"id": "vertical-alignment-srl-028", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "no_support", 
+"source": "blink"
+}, 
+"id": "vertical-alignment-srl-030", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "no_support", 
+"source": "blink"
+}, 
+"id": "vertical-alignment-srl-032", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "no_support", 
+"source": "blink"
+}, 
+"id": "vertical-alignment-srl-034", 
+"required": true
+}, 
+{
+"id": "vertical-alignment-srl-036", 
+"required": true
+}, 
+{
+"id": "vertical-alignment-srl-038", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "no_support", 
+"source": "blink"
+}, 
+"id": "vertical-alignment-srl-040", 
+"required": true
+}, 
+{
+"Blink": {
 "result": "pass", 
 "source": "gtalbot"
 }, 
@@ -19970,7 +20046,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "no_support", 
 "source": "blink"
 }, 
 "Edge": {
@@ -19994,7 +20070,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "no_support", 
 "source": "blink"
 }, 
 "Edge": {
