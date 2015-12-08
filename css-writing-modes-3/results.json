@@ -6355,49 +6355,10 @@
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "uncertain", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-002", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"Edge": {
-"result": "uncertain", 
-"source": "kojiishi"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Presto": {
-"result": "fail"
-}, 
-"Trident": {
-"result": "uncertain", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "uncertain", 
-"source": "lemoned"
-}, 
 "id": "bidi-003", 
 "required": true
 }, 
@@ -6549,406 +6510,82 @@
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-011", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "uncertain", 
-"source": "kojiishi"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-alt-001", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-box-model-001", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-box-model-002", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-box-model-003", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-box-model-004", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-box-model-005", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-box-model-006", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-box-model-007", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-box-model-008", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-box-model-009", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-box-model-034", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-box-model-035", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-box-model-036", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-box-model-043", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-box-model-044", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-box-model-045", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-breaking-001", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-breaking-002", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"Edge": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
-}, 
 "id": "bidi-breaking-003", 
 "required": false
 }, 
@@ -7217,42 +6854,10 @@
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-glyph-mirroring-001", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-glyph-mirroring-002", 
 "required": true
 }, 
@@ -7277,22 +6882,6 @@
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "bidi-inline-002", 
 "required": true
 }, 
@@ -11800,142 +11389,30 @@
 "required": true
 }, 
 {
-"Blink": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
-}, 
 "id": "direction-applies-to-001", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
-}, 
 "id": "direction-applies-to-002", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
-}, 
 "id": "direction-applies-to-003", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "direction-applies-to-004", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "direction-applies-to-005", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "direction-applies-to-006", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "direction-applies-to-007", 
 "required": true
 }, 
@@ -11960,22 +11437,6 @@
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "direction-applies-to-009", 
 "required": true
 }, 
@@ -12000,82 +11461,18 @@
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "direction-applies-to-012", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "direction-applies-to-013", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "direction-applies-to-014", 
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "direction-applies-to-015", 
 "required": true
 }, 
@@ -18493,18 +17890,6 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "text-orientation-014", 
 "required": true
 }, 
@@ -18961,22 +18346,6 @@
 "required": true
 }, 
 {
-"Blink": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "unicode-bidi-002", 
 "required": true
 }, 
@@ -20117,21 +19486,6 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Presto": {
-"result": "fail"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "writing-mode-vertical-lr-002", 
 "required": true
 }, 
@@ -20139,22 +19493,6 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Prince": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
 }, 
 "id": "writing-mode-vertical-rl-001", 
 "required": true
@@ -20164,25 +19502,6 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Presto": {
-"result": "fail"
-}, 
-"Prince": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "writing-mode-vertical-rl-002", 
 "required": true
 }, 
@@ -20190,22 +19509,6 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Prince": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "hshiozawa"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
 }, 
 "id": "writing-mode-vertical-rl-003", 
 "required": true
