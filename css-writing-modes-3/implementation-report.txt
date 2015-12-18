@@ -450,6 +450,7 @@ html/block-flow-direction-vrl-019.htm	b6765c57fa724a174db964d6d5ae1523daebf260	p
 html/block-flow-direction-vrl-021.htm	c6cbb2e1f8e824fdda5d94bb31c8ad9507162e65	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/block-flow-direction-vrl-024.htm	a1dddb1952ff3df783226338b1a14f7906288e23	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/block-flow-direction-vrl-025.htm	6b3673477ab3c066dec96f347d5c1f6aaafc0622	pass
+# html/block-flow-direction-vrl-026.htm	4a9a4ca16a3437bfc29a9d0f96e0daa5579e209b	pass
 html/block-override-001.htm	c9f01a298fdc3c1c6eaceefc08c1f134078a0c61	pass
 html/block-override-002.htm	1c72e7aa6e1d313b0e23b11e9e637b1f77dd39f4	pass
 html/block-override-003.htm	2cb8aa89ffc3dba127564bb84e4bdb28bd208d26	pass
@@ -767,10 +768,10 @@ html/table-column-order-004.htm	879e9a12b008f2396d0778283047a723300d976b	fail
 html/table-column-order-005.htm	b936639f86135a4e6a13faf2bbb35cef03ab8688	fail
 html/table-column-order-slr-007.htm	d191edebe5a760f10e427023f054f845926876bd	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
 html/table-column-order-srl-006.htm	fe2d31c64e1ed2e2badf6c844997f157d54d4fdf	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/table-progression-slr-001.htm	af7d971e56a4df80a306f033041e8c1161b3fc0a	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/table-progression-slr-001.htm	a08eb6b56e144ec3433bbe9cda6adced37863955	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
 html/table-progression-slr-002.htm	19e1b54408e91a7566d9502f454c2bd473917c82	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/table-progression-srl-001.htm	0dac2ab388f8c05765288927c38dc9f24ba1a277	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/table-progression-srl-002.htm	ea004df0b7de35f6b97a7c097cb5555619ccac94	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/table-progression-srl-001.htm	a81f141e0378f2e773b9caeeea940ce3ab738ae2	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/table-progression-srl-002.htm	0f642ee613bba6affcc4593a73d1b175adcca376	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
 html/table-progression-vlr-001.htm	401f8eb3e2ee5bb76005f18b876ad15312e36f23	fail
 html/table-progression-vlr-002.htm	443f8504e53d242cbfb638187617e29f70f70bef	pass
 html/table-progression-vlr-003.htm	2ee0222ec3a8473737329fe6c0ad0ed95443f70e	pass
@@ -856,10 +857,12 @@ html/text-indent-vrl-010.htm	8d46bec82f7cc1b958533df0447e34fc65f400cf	pass
 html/text-indent-vrl-012.htm	985e22d2200b9cb6f1622d55d78cf5c5d505f38d	pass
 html/text-indent-vrl-014.htm	237aa7256b471375ef0b81e8764aa74bc69dbf94	pass
 html/text-indent-vrl-016.htm	bd36efb6824d9649c071507677cdc5d1320798c9	pass
-# html/text-orientation-010.htm	4ecdbceff7397331c490f98d284800bf1fa125a2	pass
+# html/text-orientation-010.htm	1511f4563046f864019cb40056670f54b552780b	pass
 # html/text-orientation-011.htm	1e2a7d34e5dbf3ae8ebe3191281f4ed36965d6a5	pass
 html/text-orientation-014.htm	e7b729c9708ff9b96a036be54c09cdb9685fa3f1	pass
-# html/text-orientation-mixed-001.htm	5e37cc5816b4316859ffe2d3bf791fc27de855a9	pass
+# html/text-orientation-mixed-001.htm	aa6d2c81a00d0395b3461c65648cb56a7267cf06	pass
+# html/text-orientation-mixed-slr-015.htm	75f3c49fafbca34c74b1efe1e9cdf606bb63e581	fail
+# html/text-orientation-mixed-srl-016.htm	6a965d8fb3411f9e3f9276cdda149a8941d0b101	fail
 html/text-orientation-parsing-001.htm	1de93e81798548a8c094751021c6bfd09d204700	pass
 html/text-orientation-parsing-sideways-right-001.htm	467f926e5646149f727d9115633a469321712cca	pass
 html/text-orientation-script-001.htm	5a4264d54b6138cb217baa753502a6d61297da82	fail
@@ -879,7 +882,10 @@ html/text-orientation-script-001m.htm	e391070b992546bae4274cb1fc09a590ffbf26c6	p
 html/text-orientation-script-001n.htm	8993889414b6ffbe199e17e820d0b7c1b3a1cd02	pass
 html/text-orientation-script-001o.htm	1a717f6bfd17124696e2e012a26ae1ce94ecbf57	pass
 # html/text-orientation-sideways-001.htm	d1d9b931c735b904d2b2d42012c8b03359ca33a8	pass
+# html/text-orientation-sideways-slr-019.htm	4e0a10ed2a2d0c9511f8f0291f0303275d1f5916	fail
 # html/text-orientation-upright-001.htm	1d7c80ad3f6eb357a1dd9ef0261dba63dcf971a1	pass
+# html/text-orientation-upright-slr-017.htm	cbf6301c1c97a93a318954e46c5ae8010231ac7c	fail
+# html/text-orientation-upright-srl-018.htm	0b1b44dae6f78659495ca27f311a04db5c4eae75	fail
 # html/underline-font-size-vlr-003.htm	2ed0dce303004a098525b1c0aa2008df639643ea	fail
 # html/underline-font-size-vlr-005.htm	8218f172828fc358d5814147c09eac80646d5167	fail
 # html/underline-font-size-vrl-002.htm	9d177e35a9389b54beaadb42c09d951c9257f137	fail
@@ -956,5 +962,5 @@ html/writing-mode-vertical-lr-002.htm	1b80446ce4992cfb990f8fca7962cf124d62c222	p
 html/writing-mode-vertical-rl-001.htm	7765f193170501c4e4397ac39b98c87fb37d1f36	pass # Mac: Flaky
 html/writing-mode-vertical-rl-002.htm	94131caeef80f45a718d5ad3e02351b8e9442b04	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	64d250bb6fc2f656baa991d3b523de6d0a20970f	pass
-# Total = 957, Coverage = 957 (100%), Pass = 736 (76% of total, 76% of coverage), Fail = 221 (23% of total, 23% of coverage)
-# Imported = 797 (83%), Pass = 614 (64% of total, 77% of imported), Fail = 183 (19% of total, 22% of imported)
+# Total = 963, Coverage = 963 (100%), Pass = 737 (76% of total, 76% of coverage), Fail = 226 (23% of total, 23% of coverage)
+# Imported = 797 (82%), Pass = 614 (63% of total, 77% of imported), Fail = 183 (19% of total, 22% of imported)

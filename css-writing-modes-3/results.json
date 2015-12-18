@@ -6850,6 +6850,10 @@
 "result": "fail", 
 "source": "lemoned"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "Trident": {
 "result": "pass", 
 "source": "lemoned"
@@ -9999,6 +10003,18 @@
 "source": "lemoned"
 }, 
 "id": "block-flow-direction-vrl-025", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "block-flow-direction-vrl-026", 
 "required": true
 }, 
 {
@@ -16600,7 +16616,7 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "uncertain", 
+"result": "fail", 
 "source": "gtalbot"
 }, 
 "Trident": {
@@ -16684,7 +16700,7 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "uncertain", 
+"result": "fail", 
 "source": "gtalbot"
 }, 
 "Trident": {
@@ -18318,14 +18334,6 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "text-orientation-010", 
 "required": true
 }, 
@@ -18379,6 +18387,30 @@
 "source": "gtalbot"
 }, 
 "id": "text-orientation-mixed-001", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "text-orientation-mixed-slr-015", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "text-orientation-mixed-srl-016", 
 "required": true
 }, 
 {
@@ -18643,6 +18675,18 @@
 }, 
 {
 "Blink": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "text-orientation-sideways-slr-019", 
+"required": true
+}, 
+{
+"Blink": {
 "result": "pass", 
 "source": "gtalbot"
 }, 
@@ -18659,6 +18703,30 @@
 "source": "kojiishi"
 }, 
 "id": "text-orientation-upright-001", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "text-orientation-upright-slr-017", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"id": "text-orientation-upright-srl-018", 
 "required": true
 }, 
 {
