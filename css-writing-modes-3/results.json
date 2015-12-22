@@ -16435,22 +16435,6 @@
 "result": "fail", 
 "source": "blink"
 }, 
-"Edge": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
-}, 
 "id": "table-column-order-002", 
 "required": true
 }, 
@@ -16458,22 +16442,6 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
-}, 
-"Edge": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
 }, 
 "id": "table-column-order-003", 
 "required": true
@@ -16483,22 +16451,6 @@
 "result": "fail", 
 "source": "blink"
 }, 
-"Edge": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
-}, 
 "id": "table-column-order-004", 
 "required": true
 }, 
@@ -16506,22 +16458,6 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
-}, 
-"Edge": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
 }, 
 "id": "table-column-order-005", 
 "required": true
@@ -18386,6 +18322,18 @@
 "result": "pass", 
 "source": "gtalbot"
 }, 
+"id": "text-orientation-016", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-orientation-mixed-001", 
 "required": true
 }, 
@@ -18727,6 +18675,10 @@
 "source": "gtalbot"
 }, 
 "id": "text-orientation-upright-srl-018", 
+"required": true
+}, 
+{
+"id": "text-orientation-vrl-mixed-001", 
 "required": true
 }, 
 {

@@ -762,10 +762,10 @@ html/row-progression-vrl-002.htm	4efc6ea75fdd7079197d71e8654d70c14b8d1b90	pass #
 html/row-progression-vrl-004.htm	37962c7e044b1a6942196368d4e8c9e3d9b72a64	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/row-progression-vrl-006.htm	7bfa2f995c84aec6ab7121cd6dae6155859af190	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
 html/row-progression-vrl-008.htm	ede35d79789fd49484a0a94bb805484616b16b2a	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/table-column-order-002.htm	2cda479a2b6618a2cb702b11ab1c6d15e84143b0	fail
-html/table-column-order-003.htm	e6919ba4cd2868612f81df810867a794b69baa1a	fail
-html/table-column-order-004.htm	879e9a12b008f2396d0778283047a723300d976b	fail
-html/table-column-order-005.htm	b936639f86135a4e6a13faf2bbb35cef03ab8688	fail
+html/table-column-order-002.htm	8d11cf8b6a34ee2a6ee523612054ffcb43c0251b	fail
+html/table-column-order-003.htm	935bd85abbf21ec654518f7b26c23072e6d2ec0a	fail
+html/table-column-order-004.htm	e7befc20c6839547c4d5415dd514c3a02538b86f	fail
+html/table-column-order-005.htm	728e5fdcc99ad6b2b014b5830ac57edd5145929f	fail
 html/table-column-order-slr-007.htm	d191edebe5a760f10e427023f054f845926876bd	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
 html/table-column-order-srl-006.htm	fe2d31c64e1ed2e2badf6c844997f157d54d4fdf	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
 html/table-progression-slr-001.htm	a08eb6b56e144ec3433bbe9cda6adced37863955	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
@@ -857,12 +857,13 @@ html/text-indent-vrl-010.htm	8d46bec82f7cc1b958533df0447e34fc65f400cf	pass
 html/text-indent-vrl-012.htm	985e22d2200b9cb6f1622d55d78cf5c5d505f38d	pass
 html/text-indent-vrl-014.htm	237aa7256b471375ef0b81e8764aa74bc69dbf94	pass
 html/text-indent-vrl-016.htm	bd36efb6824d9649c071507677cdc5d1320798c9	pass
-# html/text-orientation-010.htm	1511f4563046f864019cb40056670f54b552780b	pass
+# html/text-orientation-010.htm	a799a0995a84b67cf6a708a56ef079edfb93c616	pass
 # html/text-orientation-011.htm	1e2a7d34e5dbf3ae8ebe3191281f4ed36965d6a5	pass
 html/text-orientation-014.htm	e7b729c9708ff9b96a036be54c09cdb9685fa3f1	pass
+# html/text-orientation-016.htm	0eebce4d66d491278dbe66c7a3e2c4c4425c5a74	pass
 # html/text-orientation-mixed-001.htm	aa6d2c81a00d0395b3461c65648cb56a7267cf06	pass
 # html/text-orientation-mixed-slr-015.htm	75f3c49fafbca34c74b1efe1e9cdf606bb63e581	fail
-# html/text-orientation-mixed-srl-016.htm	6a965d8fb3411f9e3f9276cdda149a8941d0b101	fail
+# html/text-orientation-mixed-srl-016.htm	6bd38acbe1543df4bd75c6e2e36bc3e630dec15c	fail
 html/text-orientation-parsing-001.htm	1de93e81798548a8c094751021c6bfd09d204700	pass
 html/text-orientation-parsing-sideways-right-001.htm	467f926e5646149f727d9115633a469321712cca	pass
 html/text-orientation-script-001.htm	5a4264d54b6138cb217baa753502a6d61297da82	fail
@@ -886,6 +887,7 @@ html/text-orientation-script-001o.htm	1a717f6bfd17124696e2e012a26ae1ce94ecbf57	p
 # html/text-orientation-upright-001.htm	1d7c80ad3f6eb357a1dd9ef0261dba63dcf971a1	pass
 # html/text-orientation-upright-slr-017.htm	cbf6301c1c97a93a318954e46c5ae8010231ac7c	fail
 # html/text-orientation-upright-srl-018.htm	0b1b44dae6f78659495ca27f311a04db5c4eae75	fail
+# html/text-orientation-vrl-mixed-001.htm	bb0efc0917875e5fac2efdd69c2f6574809aaf08	?
 # html/underline-font-size-vlr-003.htm	2ed0dce303004a098525b1c0aa2008df639643ea	fail
 # html/underline-font-size-vlr-005.htm	8218f172828fc358d5814147c09eac80646d5167	fail
 # html/underline-font-size-vrl-002.htm	9d177e35a9389b54beaadb42c09d951c9257f137	fail
@@ -962,5 +964,5 @@ html/writing-mode-vertical-lr-002.htm	1b80446ce4992cfb990f8fca7962cf124d62c222	p
 html/writing-mode-vertical-rl-001.htm	7765f193170501c4e4397ac39b98c87fb37d1f36	pass # Mac: Flaky
 html/writing-mode-vertical-rl-002.htm	94131caeef80f45a718d5ad3e02351b8e9442b04	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	64d250bb6fc2f656baa991d3b523de6d0a20970f	pass
-# Total = 963, Coverage = 963 (100%), Pass = 737 (76% of total, 76% of coverage), Fail = 226 (23% of total, 23% of coverage)
-# Imported = 797 (82%), Pass = 614 (63% of total, 77% of imported), Fail = 183 (19% of total, 22% of imported)
+# Total = 965, Coverage = 964 (99%), Pass = 738 (76% of total, 76% of coverage), Fail = 226 (23% of total, 23% of coverage)
+# Imported = 797 (82%), Pass = 614 (63% of total, 77% of imported), Fail = 183 (18% of total, 22% of imported)
