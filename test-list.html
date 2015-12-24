@@ -201,12 +201,19 @@
                     t.__proto__ = Test.prototype;
                     return t;
                 });
+                this.$.spinner.active = false;
             },
             listUpdated: function () {
-                for (var i = 0; i < this.tests.length; i++)
-                    this.tests[i].__proto__ = Test.prototype;
+                this.needUpdateAfterFilterChange = true;
+                var self = this;
+                setTimeout(function () { self.updateAfterFilterChange(); },
+                    1000);
+            },
+            updateAfterFilterChange: function () {
+                if (!this.needUpdateAfterFilterChange)
+                    return;
+                this.needUpdateAfterFilterChange = false;
                 this.$.panel.listUpdated(this.tests, this.$.list.filter);
-                this.$.spinner.active = false;
                 if (this.filterText)
                     window.history.replaceState(null, '', '?q=' + this.filterText);
                 else
