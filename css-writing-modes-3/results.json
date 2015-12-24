@@ -10008,7 +10008,7 @@
 {
 "Blink": {
 "result": "pass", 
-"source": "gtalbot"
+"source": "blink"
 }, 
 "Gecko": {
 "result": "pass", 
@@ -15227,18 +15227,6 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
-}, 
 "id": "orthogonal-parent-shrink-to-fit-001a", 
 "required": true
 }, 
@@ -15246,18 +15234,6 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001b", 
 "required": true
@@ -15267,18 +15243,6 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
-}, 
 "id": "orthogonal-parent-shrink-to-fit-001c", 
 "required": true
 }, 
@@ -15286,18 +15250,6 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001d", 
 "required": true
@@ -15307,18 +15259,6 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "fail", 
-"source": "lemoned"
-}, 
 "id": "orthogonal-parent-shrink-to-fit-001e", 
 "required": true
 }, 
@@ -15326,14 +15266,6 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001f", 
 "required": true
@@ -15343,14 +15275,6 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "orthogonal-parent-shrink-to-fit-001g", 
 "required": true
 }, 
@@ -15358,14 +15282,6 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001h", 
 "required": true
@@ -15375,14 +15291,6 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "orthogonal-parent-shrink-to-fit-001i", 
 "required": true
 }, 
@@ -15390,14 +15298,6 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001j", 
 "required": true
@@ -15407,14 +15307,6 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "orthogonal-parent-shrink-to-fit-001k", 
 "required": true
 }, 
@@ -15422,14 +15314,6 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001l", 
 "required": true
@@ -15439,14 +15323,6 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "orthogonal-parent-shrink-to-fit-001m", 
 "required": true
 }, 
@@ -15454,14 +15330,6 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001n", 
 "required": true
@@ -15471,14 +15339,6 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "orthogonal-parent-shrink-to-fit-001o", 
 "required": true
 }, 
@@ -15486,14 +15346,6 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001p", 
 "required": true
@@ -15503,18 +15355,6 @@
 "result": "fail", 
 "source": "blink"
 }, 
-"Edge": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "orthogonal-parent-shrink-to-fit-001q", 
 "required": true
 }, 
@@ -15522,18 +15362,6 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
-}, 
-"Edge": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001r", 
 "required": true
@@ -15543,18 +15371,6 @@
 "result": "fail", 
 "source": "blink"
 }, 
-"Edge": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "orthogonal-parent-shrink-to-fit-001s", 
 "required": true
 }, 
@@ -15562,18 +15378,6 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
-}, 
-"Edge": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001t", 
 "required": true
@@ -15583,18 +15387,6 @@
 "result": "fail", 
 "source": "blink"
 }, 
-"Edge": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "orthogonal-parent-shrink-to-fit-001u", 
 "required": true
 }, 
@@ -15602,18 +15394,6 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
-}, 
-"Edge": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001v", 
 "required": true
@@ -15623,18 +15403,6 @@
 "result": "fail", 
 "source": "blink"
 }, 
-"Edge": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "orthogonal-parent-shrink-to-fit-001w", 
 "required": true
 }, 
@@ -15642,18 +15410,6 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
-}, 
-"Edge": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "pass", 
-"source": "lemoned"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001x", 
 "required": true
@@ -16435,6 +16191,10 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "id": "table-column-order-002", 
 "required": true
 }, 
@@ -16442,6 +16202,10 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "table-column-order-003", 
 "required": true
@@ -16451,6 +16215,10 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "id": "table-column-order-004", 
 "required": true
 }, 
@@ -16458,6 +16226,10 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "table-column-order-005", 
 "required": true
@@ -18316,25 +18088,13 @@
 {
 "Blink": {
 "result": "pass", 
-"source": "gtalbot"
+"source": "blink"
 }, 
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
 }, 
 "id": "text-orientation-016", 
-"required": true
-}, 
-{
-"Blink": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"Gecko": {
-"result": "pass", 
-"source": "gtalbot"
-}, 
-"id": "text-orientation-mixed-001", 
 "required": true
 }, 
 {
@@ -18351,14 +18111,34 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
-"source": "gtalbot"
+"result": "no_support", 
+"source": "blink"
 }, 
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
 }, 
 "id": "text-orientation-mixed-srl-016", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "text-orientation-mixed-vlr-100", 
+"required": true
+}, 
+{
+"id": "text-orientation-mixed-vrl-002", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "text-orientation-mixed-vrl-100", 
 "required": true
 }, 
 {
@@ -18636,21 +18416,17 @@
 {
 "Blink": {
 "result": "pass", 
-"source": "gtalbot"
+"source": "blink"
 }, 
-"Gecko": {
+"id": "text-orientation-sideways-vlr-100", 
+"required": true
+}, 
+{
+"Blink": {
 "result": "pass", 
-"source": "gtalbot"
+"source": "blink"
 }, 
-"Trident": {
-"result": "fail", 
-"source": "lemoned"
-}, 
-"WebKit": {
-"result": "pass", 
-"source": "kojiishi"
-}, 
-"id": "text-orientation-upright-001", 
+"id": "text-orientation-sideways-vrl-100", 
 "required": true
 }, 
 {
@@ -18667,8 +18443,8 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
-"source": "gtalbot"
+"result": "no_support", 
+"source": "blink"
 }, 
 "Gecko": {
 "result": "pass", 
@@ -18678,7 +18454,23 @@
 "required": true
 }, 
 {
-"id": "text-orientation-vrl-mixed-001", 
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "text-orientation-upright-vlr-100", 
+"required": true
+}, 
+{
+"id": "text-orientation-upright-vrl-002", 
+"required": true
+}, 
+{
+"Blink": {
+"result": "pass", 
+"source": "blink"
+}, 
+"id": "text-orientation-upright-vrl-100", 
 "required": true
 }, 
 {
