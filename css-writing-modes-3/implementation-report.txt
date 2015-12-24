@@ -864,7 +864,7 @@ html/text-orientation-016.htm	0eebce4d66d491278dbe66c7a3e2c4c4425c5a74	pass
 # html/text-orientation-mixed-slr-015.htm	75f3c49fafbca34c74b1efe1e9cdf606bb63e581	fail
 html/text-orientation-mixed-srl-016.htm	6bd38acbe1543df4bd75c6e2e36bc3e630dec15c	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
 html/text-orientation-mixed-vlr-100.htm	d8e0dbfe83abf12e18867bcde32c2f0b10483437	pass
-# html/text-orientation-mixed-vrl-002.htm	fefbfcbe107295b537135380418c7b9474c570ee	?
+# html/text-orientation-mixed-vrl-002.htm	fefbfcbe107295b537135380418c7b9474c570ee	pass
 html/text-orientation-mixed-vrl-100.htm	9b46a94f63b7fc1b138f99ee5a38b129cabd173d	pass
 html/text-orientation-parsing-001.htm	1de93e81798548a8c094751021c6bfd09d204700	pass
 html/text-orientation-parsing-sideways-right-001.htm	467f926e5646149f727d9115633a469321712cca	pass
@@ -891,7 +891,7 @@ html/text-orientation-sideways-vrl-100.htm	db4692f4ceebfe164876940da9b3578bd2e1d
 # html/text-orientation-upright-slr-017.htm	cbf6301c1c97a93a318954e46c5ae8010231ac7c	fail
 html/text-orientation-upright-srl-018.htm	0b1b44dae6f78659495ca27f311a04db5c4eae75	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
 html/text-orientation-upright-vlr-100.htm	fff303984f323585cc1050244820a576bfc0b319	pass
-# html/text-orientation-upright-vrl-002.htm	3ac6acb79a4ba27280fde9a1dd62ddb3757839d2	?
+# html/text-orientation-upright-vrl-002.htm	3ac6acb79a4ba27280fde9a1dd62ddb3757839d2	pass
 html/text-orientation-upright-vrl-100.htm	a7a6ec62d89c6352ba8aff15b2f618b6cb174106	pass
 # html/underline-font-size-vlr-003.htm	2ed0dce303004a098525b1c0aa2008df639643ea	fail
 # html/underline-font-size-vlr-005.htm	8218f172828fc358d5814147c09eac80646d5167	fail
@@ -969,5 +969,5 @@ html/writing-mode-vertical-lr-002.htm	1b80446ce4992cfb990f8fca7962cf124d62c222	p
 html/writing-mode-vertical-rl-001.htm	7765f193170501c4e4397ac39b98c87fb37d1f36	pass # Mac: Flaky
 html/writing-mode-vertical-rl-002.htm	94131caeef80f45a718d5ad3e02351b8e9442b04	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	64d250bb6fc2f656baa991d3b523de6d0a20970f	pass
-# Total = 970, Coverage = 968 (99%), Pass = 742 (76% of total, 76% of coverage), Fail = 226 (23% of total, 23% of coverage)
+# Total = 970, Coverage = 970 (100%), Pass = 744 (76% of total, 76% of coverage), Fail = 226 (23% of total, 23% of coverage)
 # Imported = 807 (83%), Pass = 622 (64% of total, 77% of imported), Fail = 185 (19% of total, 22% of imported)

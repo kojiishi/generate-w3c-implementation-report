@@ -15205,7 +15205,7 @@
 }, 
 "Edge": {
 "result": "pass", 
-"source": "lemoned"
+"source": "kojiishi"
 }, 
 "Gecko": {
 "result": "fail", 
@@ -15213,7 +15213,7 @@
 }, 
 "Trident": {
 "result": "pass", 
-"source": "lemoned"
+"source": "kojiishi"
 }, 
 "WebKit": {
 "result": "fail", 
@@ -15227,6 +15227,14 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001a", 
 "required": true
 }, 
@@ -15234,6 +15242,14 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001b", 
 "required": true
@@ -15243,6 +15259,14 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001c", 
 "required": true
 }, 
@@ -15250,6 +15274,14 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001d", 
 "required": true
@@ -15259,6 +15291,14 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001e", 
 "required": true
 }, 
@@ -15266,6 +15306,14 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001f", 
 "required": true
@@ -15275,6 +15323,14 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001g", 
 "required": true
 }, 
@@ -15282,6 +15338,14 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001h", 
 "required": true
@@ -15291,6 +15355,14 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001i", 
 "required": true
 }, 
@@ -15298,6 +15370,14 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001j", 
 "required": true
@@ -15307,6 +15387,14 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001k", 
 "required": true
 }, 
@@ -15314,6 +15402,14 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001l", 
 "required": true
@@ -15323,6 +15419,14 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001m", 
 "required": true
 }, 
@@ -15330,6 +15434,14 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001n", 
 "required": true
@@ -15339,6 +15451,14 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001o", 
 "required": true
 }, 
@@ -15346,6 +15466,14 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001p", 
 "required": true
@@ -15355,6 +15483,18 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001q", 
 "required": true
 }, 
@@ -15362,6 +15502,18 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001r", 
 "required": true
@@ -15371,6 +15523,18 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001s", 
 "required": true
 }, 
@@ -15378,6 +15542,18 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001t", 
 "required": true
@@ -15387,6 +15563,18 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001u", 
 "required": true
 }, 
@@ -15394,6 +15582,18 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001v", 
 "required": true
@@ -15403,6 +15603,18 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "id": "orthogonal-parent-shrink-to-fit-001w", 
 "required": true
 }, 
@@ -15410,6 +15622,18 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "orthogonal-parent-shrink-to-fit-001x", 
 "required": true
@@ -16191,6 +16415,10 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "pass", 
 "source": "kojiishi"
@@ -16202,6 +16430,10 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "Gecko": {
 "result": "pass", 
@@ -16215,6 +16447,10 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "pass", 
 "source": "kojiishi"
@@ -16226,6 +16462,10 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "Gecko": {
 "result": "pass", 
@@ -18126,10 +18366,30 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "id": "text-orientation-mixed-vlr-100", 
 "required": true
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-orientation-mixed-vrl-002", 
 "required": true
 }, 
@@ -18137,6 +18397,14 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "text-orientation-mixed-vrl-100", 
 "required": true
@@ -18418,6 +18686,10 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "id": "text-orientation-sideways-vlr-100", 
 "required": true
 }, 
@@ -18425,6 +18697,10 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "text-orientation-sideways-vrl-100", 
 "required": true
@@ -18458,10 +18734,22 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "id": "text-orientation-upright-vlr-100", 
 "required": true
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "text-orientation-upright-vrl-002", 
 "required": true
 }, 
@@ -18469,6 +18757,10 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "text-orientation-upright-vrl-100", 
 "required": true
