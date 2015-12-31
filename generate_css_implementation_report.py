@@ -13,13 +13,13 @@ log = logging.getLogger(__name__)
 
 def main():
     parser = argparse.ArgumentParser(description='Generate CSS WG implementation reports from Blink repository.')
-    parser.add_argument('--json', '-j', action='store', default='css-writing-modes-3/results.json')
-    parser.add_argument('--output', '-o', action='store', default='css-writing-modes-3/implementation-report.txt')
+    parser.add_argument('--json', '-j', action='store', default='results.json')
+    parser.add_argument('--output', '-o', action='store', default='implementation-report.txt')
     parser.add_argument('--verbose', '-v', action='count')
-    parser.add_argument('tests', nargs='?', default='~/src/chromium/src/third_party/WebKit/LayoutTests/imported/csswg-test/css-writing-modes-3')
-    parser.add_argument('results', nargs='?', default='css-writing-modes-3/results.csv')
-    parser.add_argument('template', nargs='?', default='css-writing-modes-3/implementation-report-TEMPLATE.data')
-    parser.add_argument('testinfo', nargs='?', default='css-writing-modes-3/testinfo.data')
+    parser.add_argument('tests', nargs='?', default='~/src/chromium/src/third_party/WebKit/LayoutTests/imported/csswg-test')
+    parser.add_argument('results', nargs='?', default='results.csv')
+    parser.add_argument('template', nargs='?', default='implementation-report-TEMPLATE.data')
+    parser.add_argument('testinfo', nargs='?', default='testinfo.data')
     args = parser.parse_args()
     if args.verbose > 1:
         logging.basicConfig(level=logging.DEBUG)
@@ -27,27 +27,28 @@ def main():
         logging.basicConfig(level=logging.INFO)
     else:
         logging.basicConfig(level=logging.WARNING)
-    args.tests = os.path.expanduser(args.tests)
+    testsdir = os.path.expanduser(args.tests)
     generator = W3CImplementationReportGenerator()
-    with open(args.testinfo) as testinfo:
-        generator.load_testinfo(testinfo)
-    with open(args.template) as template:
-        generator.load_template(template)
-    with open(args.results) as results:
-        generator.load_test_results(results)
-    generator.load_imported_files(args.tests)
-    with open(os.path.join(args.tests, '../../../TestExpectations')) as expectations:
+    tests = generator.tests
+    specs = ['css-writing-modes-3']
+    for spec in specs:
+        with open(os.path.join(spec, args.testinfo)) as testinfo:
+            tests.load_testinfo(testinfo)
+        with open(os.path.join(spec, args.template)) as template:
+            tests.load_template(template)
+        with open(os.path.join(spec, args.results)) as results:
+            tests.load_test_results(results)
+        generator.load_imported_files(os.path.join(testsdir, spec))
+    with open(os.path.join(testsdir, '../../TestExpectations')) as expectations:
         generator.load_test_expectations(expectations)
-    with open(os.path.join(args.tests, '../../../W3CImportExpectations')) as expectations:
+    with open(os.path.join(testsdir, '../../W3CImportExpectations')) as expectations:
         generator.load_import_expectations(expectations)
-    generator.merge_results()
-    if not args.output or args.output == '-':
-        generator.write_report(sys.stdout)
-    else:
-        with open(args.output, 'w') as output:
+    tests.merge_results()
+    for spec in specs:
+        with open(os.path.join(spec, args.output), 'w') as output:
             generator.write_report(output)
-    with open(args.json, 'w') as output:
-        generator.write_json(output)
+        with open(os.path.join(spec, args.json), 'w') as output:
+            generator.write_json(output)
 
 class TestResult(object):
     def __init__(self, engine, result, source):
@@ -259,18 +260,6 @@ class TestList(object):
         id = Test.id_from_path(path)
         return self.from_id_or_add(id)
 
-class W3CImplementationReportGenerator(object):
-    def __init__(self):
-        self.tests = TestList()
-
-    def merge_results(self):
-        for test in self.tests:
-            if re.search(r'-\d{3}[a-z]$', test.id): # if affix, find the combo test
-                test.combo = self.tests.get(test.id[0:-1])
-            test.merge_results()
-        for test in self.tests:
-            test.resolve_combo_results()
-
     def load_template(self, template):
         for line in template:
             line = line.rstrip()
@@ -279,7 +268,7 @@ class W3CImplementationReportGenerator(object):
             values = line.split('\t')
             if len(values) >= 3:
                 if values[2] == '?':
-                    test = self.tests.from_testname_or_add(values[0])
+                    test = self.from_testname_or_add(values[0])
                     test.revision = values[1]
                     continue
                 if values[0] == 'testname':
@@ -295,22 +284,40 @@ class W3CImplementationReportGenerator(object):
             id = values[0]
             if id == 'id':
                 continue
-            test = self.tests.from_id_or_add(id)
+            test = self.from_id_or_add(id)
             test.flags = values[3].split(',')
 
     def load_test_results(self, results):
         reader = csv.reader(results)
         header = next(reader)
         for row in reader:
-            test = self.tests.from_id_or_add(row[0])
+            test = self.from_id_or_add(row[0])
             result = SubmitTestResult(row[1], row[4], row[3], row[5], row[6])
             test.add_result(result)
+
+    def merge_results(self):
+        for test in self:
+            if re.search(r'-\d{3}[a-z]$', test.id): # if affix, find the combo test
+                test.combo = self.get(test.id[0:-1])
+            test.merge_results()
+        for test in self:
+            test.resolve_combo_results()
+
+class W3CImplementationReportGenerator(object):
+    def __init__(self):
+        self.tests = TestList()
 
     def load_imported_files(self, directory):
         for root, filename in self.find_imported_files(directory):
             name, ext = os.path.splitext(filename)
-            test = self.tests.from_id_or_add(name)
-            test.set_imported('fail' if os.path.exists(os.path.join(root, name + '-expected.txt')) else 'pass')
+            test = self.tests.get(name)
+            if not test:
+                log.warn("Imported test %s not found", filename)
+                continue
+            if os.path.exists(os.path.join(root, name + '-expected.txt')):
+                test.set_imported('fail')
+                continue
+            test.set_imported('pass')
 
     def find_imported_files(self, directory):
         dirs_to_skip = ('support',)
