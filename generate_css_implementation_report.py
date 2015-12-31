@@ -132,6 +132,7 @@ class SubmitTestResult(TestResult):
 
 class Test(object):
     def __init__(self, id):
+        assert "/" not in id and "." not in id
         self.id = id
         self.combo = None
         self.combo_of = []
@@ -140,6 +141,19 @@ class Test(object):
         self.revision = None
         self.testnames = []
         self.issue = None
+
+    @staticmethod
+    def id_from_testname(testname):
+        """A testname is a string like html/test-id.htm used in implementation reports."""
+        filename = os.path.basename(testname)
+        id, ext = os.path.splitext(filename)
+        return id;
+
+    @staticmethod
+    def id_from_path(path):
+        filename = os.path.basename(path)
+        id, ext = os.path.splitext(filename)
+        return id;
 
     def result_for_engine(self, engine, direction = 0):
         return self.results.get(engine)
@@ -209,41 +223,52 @@ class Test(object):
         json["required"] = not ("may" in self.flags or "should" in self.flags)
         return json
 
-class W3CImplementationReportGenerator(object):
+class TestList(object):
     def __init__(self):
         self.tests = {}
 
-    def add_test(self, name):
-        if name in self.tests:
-            raise Error("File name conflicts: " + name)
-        test = Test(name)
-        self.tests[name] = test
+    def __getitem__(self, id):
+        return self.tests[id]
+
+    def get(self, id):
+        return self.tests.get(id)
+
+    def __iter__(self):
+        return self.tests.itervalues()
+
+    def add(self, id):
+        if id in self.tests:
+            raise Error("File name conflicts: " + id)
+        test = Test(id)
+        self.tests[id] = test
         return test
 
-    def test_from_id_or_add(self, name):
-        test = self.tests.get(name)
+    def from_id_or_add(self, id):
+        test = self.tests.get(id)
         if not test:
-            test = self.add_test(name)
+            test = self.add(id)
         return test
 
-    def test_from_testname_or_add(self, testname):
-        filename = os.path.basename(testname)
-        name, ext = os.path.splitext(filename)
-        test = self.test_from_id_or_add(name)
+    def from_testname_or_add(self, testname):
+        id = Test.id_from_testname(testname)
+        test = self.from_id_or_add(id)
         test.testnames.append(testname)
         return test
 
-    def test_from_path(self, path):
-        filename = os.path.basename(path)
-        name, ext = os.path.splitext(filename)
-        return self.tests.get(name)
+    def from_path_or_add(self, path):
+        id = Test.id_from_path(path)
+        return self.from_id_or_add(id)
+
+class W3CImplementationReportGenerator(object):
+    def __init__(self):
+        self.tests = TestList()
 
     def merge_results(self):
-        for test in self.tests.itervalues():
+        for test in self.tests:
             if re.search(r'-\d{3}[a-z]$', test.id): # if affix, find the combo test
                 test.combo = self.tests.get(test.id[0:-1])
             test.merge_results()
-        for test in self.tests.itervalues():
+        for test in self.tests:
             test.resolve_combo_results()
 
     def load_template(self, template):
@@ -254,7 +279,7 @@ class W3CImplementationReportGenerator(object):
             values = line.split('\t')
             if len(values) >= 3:
                 if values[2] == '?':
-                    test = self.test_from_testname_or_add(values[0])
+                    test = self.tests.from_testname_or_add(values[0])
                     test.revision = values[1]
                     continue
                 if values[0] == 'testname':
@@ -270,21 +295,21 @@ class W3CImplementationReportGenerator(object):
             id = values[0]
             if id == 'id':
                 continue
-            test = self.test_from_id_or_add(id)
+            test = self.tests.from_id_or_add(id)
             test.flags = values[3].split(',')
 
     def load_test_results(self, results):
         reader = csv.reader(results)
         header = next(reader)
         for row in reader:
-            test = self.test_from_id_or_add(row[0])
+            test = self.tests.from_id_or_add(row[0])
             result = SubmitTestResult(row[1], row[4], row[3], row[5], row[6])
             test.add_result(result)
 
     def load_imported_files(self, directory):
         for root, filename in self.find_imported_files(directory):
             name, ext = os.path.splitext(filename)
-            test = self.test_from_id_or_add(name)
+            test = self.tests.from_id_or_add(name)
             test.set_imported('fail' if os.path.exists(os.path.join(root, name + '-expected.txt')) else 'pass')
 
     def find_imported_files(self, directory):
@@ -324,7 +349,7 @@ class W3CImplementationReportGenerator(object):
                 conditions, path, results = match.group(2, 3, 4)
                 if not path.startswith('imported/csswg-test/css-writing-modes-3/'):
                     continue
-                test = self.test_from_path(path)
+                test = self.tests[Test.id_from_path(path)]
                 if not test:
                     log.warn("Test for TestExpectations not found: %s", path)
                     continue
@@ -388,7 +413,7 @@ class W3CImplementationReportGenerator(object):
                     continue
                 results = results.rstrip().split()
                 log.debug("ImportExpectations found: %s %s", results, path)
-                test = self.test_from_path(path)
+                test = self.tests.get(Test.id_from_path(path))
                 if not test:
                     log.warn("Test for W3CImportExpectations not found: %s", path)
                     continue
@@ -405,7 +430,7 @@ class W3CImplementationReportGenerator(object):
         imported = 0
         imported_passed = 0
         output.write("\t".join(["testname", "revision", "result", "comment"]) + "\n")
-        for test in sorted(self.tests.itervalues(), key=lambda t: t.id):
+        for test in sorted(self.tests, key=lambda t: t.id):
             if not test.testnames:
                 log.warn('Not found in template: %s', test.id)
                 continue
@@ -446,7 +471,7 @@ class W3CImplementationReportGenerator(object):
 
     def write_json(self, output):
         tests = []
-        for test in sorted(self.tests.itervalues(), key=lambda t: t.id):
+        for test in sorted(self.tests, key=lambda t: t.id):
             test_json = test.to_json()
             if test_json:
                 tests.append(test_json)
