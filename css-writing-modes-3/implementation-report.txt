@@ -513,14 +513,14 @@ html/clip-rect-vrl-010.htm	9ee86763032f7f57280ed2eaaf6a248ae69638d0	pass
 html/clip-rect-vrl-012.htm	958e294000bde628e565b6b743d47b9ce2be6d64	pass
 html/clip-rect-vrl-014.htm	44fdb637a990b4c84dc24786151db1e4048f57d8	pass
 html/clip-rect-vrl-016.htm	691b8c06c8ed77f9a051d9d0bf39f721ded61c79	pass
-# html/contiguous-floated-table-vlr-003.htm	7e3726eb47e651aa59c766c84c51e754b55a3e88	?
-# html/contiguous-floated-table-vlr-005.htm	1d3845a7d0b88a02fb860e4896baa7f897bdc7ad	?
-# html/contiguous-floated-table-vlr-007.htm	414624110263d64afcd92032a21217a58aecbd8c	?
-# html/contiguous-floated-table-vlr-009.htm	16d38dd2bb24b32e376430b03e568d0d780b3bbf	?
-# html/contiguous-floated-table-vrl-002.htm	43c734e1b8cb78f1588df1e24849ddf97c8303a1	?
-# html/contiguous-floated-table-vrl-004.htm	766110a48a0766c0acc2778542121fb4f5f386f6	?
-# html/contiguous-floated-table-vrl-006.htm	6aed0c744497cfdc7bbd70bf384e3221fb8bba03	?
-# html/contiguous-floated-table-vrl-008.htm	904b235cd74a814587d1b07899cc385b65c1af84	?
+html/contiguous-floated-table-vlr-003.htm	7e3726eb47e651aa59c766c84c51e754b55a3e88	pass
+html/contiguous-floated-table-vlr-005.htm	1d3845a7d0b88a02fb860e4896baa7f897bdc7ad	pass
+html/contiguous-floated-table-vlr-007.htm	414624110263d64afcd92032a21217a58aecbd8c	pass
+html/contiguous-floated-table-vlr-009.htm	16d38dd2bb24b32e376430b03e568d0d780b3bbf	pass
+html/contiguous-floated-table-vrl-002.htm	43c734e1b8cb78f1588df1e24849ddf97c8303a1	pass
+html/contiguous-floated-table-vrl-004.htm	766110a48a0766c0acc2778542121fb4f5f386f6	pass
+html/contiguous-floated-table-vrl-006.htm	6aed0c744497cfdc7bbd70bf384e3221fb8bba03	pass
+html/contiguous-floated-table-vrl-008.htm	904b235cd74a814587d1b07899cc385b65c1af84	pass
 # html/css-flexbox-row.htm	2095a3cec191a88ee70b6fa4f9186cc94aba326b	pass
 # html/css-flexbox-row-reverse.htm	0cc3d0f04358dfedc826c7185067510092468290	pass
 # html/css-flexbox-row-reverse-wrap.htm	af5da24a6d34f820f9208e2d02eecedc044a7859	pass
@@ -977,5 +977,5 @@ html/writing-mode-vertical-lr-002.htm	1b80446ce4992cfb990f8fca7962cf124d62c222	p
 html/writing-mode-vertical-rl-001.htm	7765f193170501c4e4397ac39b98c87fb37d1f36	pass # Mac: Flaky
 html/writing-mode-vertical-rl-002.htm	94131caeef80f45a718d5ad3e02351b8e9442b04	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	64d250bb6fc2f656baa991d3b523de6d0a20970f	pass
-# Total = 978, Coverage = 970 (99%), Pass = 744 (76% of total, 76% of coverage), Fail = 226 (23% of total, 23% of coverage)
-# Imported = 807 (82%), Pass = 622 (63% of total, 77% of imported), Fail = 185 (18% of total, 22% of imported)
+# Total = 978, Coverage = 978 (100%), Pass = 752 (76% of total, 76% of coverage), Fail = 226 (23% of total, 23% of coverage)
+# Imported = 815 (83%), Pass = 630 (64% of total, 77% of imported), Fail = 185 (18% of total, 22% of imported)
