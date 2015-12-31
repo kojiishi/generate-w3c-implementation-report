@@ -11472,6 +11472,38 @@
 "required": true
 }, 
 {
+"id": "contiguous-floated-table-vlr-003", 
+"required": true
+}, 
+{
+"id": "contiguous-floated-table-vlr-005", 
+"required": true
+}, 
+{
+"id": "contiguous-floated-table-vlr-007", 
+"required": true
+}, 
+{
+"id": "contiguous-floated-table-vlr-009", 
+"required": true
+}, 
+{
+"id": "contiguous-floated-table-vrl-002", 
+"required": true
+}, 
+{
+"id": "contiguous-floated-table-vrl-004", 
+"required": true
+}, 
+{
+"id": "contiguous-floated-table-vrl-006", 
+"required": true
+}, 
+{
+"id": "contiguous-floated-table-vrl-008", 
+"required": true
+}, 
+{
 "Blink": {
 "result": "pass", 
 "source": "kojiishi"
