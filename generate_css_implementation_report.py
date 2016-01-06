@@ -31,6 +31,7 @@ def main():
     generator = W3CImplementationReportGenerator()
     tests = generator.tests
     specs = ['css-writing-modes-3']
+    cross_test_specs = ['css-flexbox-1']
     for spec in specs:
         with open(os.path.join(spec, args.testinfo)) as testinfo:
             tests.load_testinfo(testinfo)
@@ -39,8 +40,10 @@ def main():
         with open(os.path.join(spec, args.results)) as results:
             tests.load_test_results(results)
         generator.load_imported_files(os.path.join(testsdir, spec))
+    for spec in cross_test_specs:
+        generator.load_imported_files(os.path.join(testsdir, spec), warnMissingTests=False)
     with open(os.path.join(testsdir, '../../TestExpectations')) as expectations:
-        generator.load_test_expectations(expectations)
+        generator.load_test_expectations(expectations, specs, cross_test_specs)
     with open(os.path.join(testsdir, '../../W3CImportExpectations')) as expectations:
         generator.load_import_expectations(expectations)
     tests.merge_results()
@@ -145,7 +148,8 @@ class Test(object):
 
     @staticmethod
     def id_from_testname(testname):
-        """A testname is a string like html/test-id.htm used in implementation reports."""
+        """A testname is a string like "html/test-id.htm" used in implementation reports.
+        A test id is the file name without extension nor directory."""
         filename = os.path.basename(testname)
         id, ext = os.path.splitext(filename)
         return id;
@@ -307,14 +311,15 @@ class W3CImplementationReportGenerator(object):
     def __init__(self):
         self.tests = TestList()
 
-    def load_imported_files(self, directory):
+    def load_imported_files(self, directory, warnMissingTests = True):
         for root, filename in self.find_imported_files(directory):
-            name, ext = os.path.splitext(filename)
-            test = self.tests.get(name)
+            id = Test.id_from_path(filename)
+            test = self.tests.get(id)
             if not test:
-                log.warn("Imported test %s not found", filename)
+                if warnMissingTests:
+                    log.warn("Imported test %s not found", filename)
                 continue
-            if os.path.exists(os.path.join(root, name + '-expected.txt')):
+            if os.path.exists(os.path.join(root, id + '-expected.txt')):
                 test.set_imported('fail')
                 continue
             test.set_imported('pass')
@@ -333,8 +338,9 @@ class W3CImplementationReportGenerator(object):
                 log.debug("Test file found: %s %s", root, file)
                 yield (root, file)
 
-    def load_test_expectations(self, expectations):
+    def load_test_expectations(self, expectations, specs, cross_test_specs):
         pattern = re.compile(r'([^\[]+)(\[[^\]]+])?\s+(\S+)\s+\[\s*([^\]]+)]$')
+        path_pattern = re.compile(r'^imported/csswg-test/([^/]+)/')
         comment = None
         result_override = None
         for line in expectations:
@@ -354,11 +360,16 @@ class W3CImplementationReportGenerator(object):
             match = pattern.match(line)
             if match:
                 conditions, path, results = match.group(2, 3, 4)
-                if not path.startswith('imported/csswg-test/css-writing-modes-3/'):
+                path_match = path_pattern.match(path)
+                if not path_match:
                     continue
-                test = self.tests[Test.id_from_path(path)]
+                spec = path_match.group(1)
+                if spec not in specs and spec not in cross_test_specs:
+                    continue
+                test = self.tests.get(Test.id_from_path(path))
                 if not test:
-                    log.warn("Test for TestExpectations not found: %s", path)
+                    if spec in specs:
+                        log.warn("Test for TestExpectations not found: %s", path)
                     continue
                 results = results.rstrip().split()
                 conditions = conditions.strip('[]').split() if conditions else None
