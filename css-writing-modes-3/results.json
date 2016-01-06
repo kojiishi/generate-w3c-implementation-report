@@ -304,6 +304,10 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
@@ -619,6 +623,10 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "Gecko": {
 "result": "pass", 
@@ -5680,6 +5688,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"Edge": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
@@ -7800,6 +7812,10 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
@@ -8689,6 +8705,10 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "Gecko": {
 "result": "fail", 
@@ -11587,8 +11607,13 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
-"result": "fail"
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "contiguous-floated-table-vlr-003", 
 "required": true
@@ -11598,6 +11623,14 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "contiguous-floated-table-vlr-005", 
 "required": true
 }, 
@@ -11605,6 +11638,14 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "contiguous-floated-table-vlr-007", 
 "required": true
@@ -11614,6 +11655,14 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "contiguous-floated-table-vlr-009", 
 "required": true
 }, 
@@ -11621,6 +11670,14 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "contiguous-floated-table-vrl-002", 
 "required": true
@@ -11630,6 +11687,14 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "contiguous-floated-table-vrl-004", 
 "required": true
 }, 
@@ -11638,6 +11703,14 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "contiguous-floated-table-vrl-006", 
 "required": true
 }, 
@@ -11645,6 +11718,14 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "contiguous-floated-table-vrl-008", 
 "required": true
@@ -12253,6 +12334,10 @@
 "Blink": {
 "result": "fail", 
 "source": "lemoned"
+}, 
+"Edge": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "Gecko": {
 "result": "fail", 
@@ -16647,6 +16732,10 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
@@ -16665,6 +16754,10 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "Gecko": {
 "result": "pass", 
@@ -16685,6 +16778,10 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "pass", 
 "source": "gtalbot"
@@ -16703,6 +16800,10 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "Gecko": {
 "result": "pass", 
@@ -17606,6 +17707,10 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "Gecko": {
 "result": "fail", 
