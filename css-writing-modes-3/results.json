@@ -6587,8 +6587,8 @@
 "source": "lemoned"
 }, 
 "Edge": {
-"result": "uncertain", 
-"source": "lemoned"
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "Gecko": {
 "result": "fail", 
@@ -11757,7 +11757,7 @@
 }, 
 "Edge": {
 "result": "fail", 
-"source": "lemoned"
+"source": "kojiishi"
 }, 
 "Gecko": {
 "result": "fail", 
@@ -15952,6 +15952,13 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "pass"
+}, 
 "id": "outline-inline-block-vrl-006", 
 "required": true
 }, 
@@ -16028,6 +16035,13 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "pass"
+}, 
 "id": "outline-inline-vlr-006", 
 "required": true
 }, 
@@ -16059,6 +16073,13 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "pass"
 }, 
 "id": "outline-inline-vrl-006", 
 "required": true
@@ -16844,6 +16865,17 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "pass"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "id": "table-progression-vlr-001", 
 "required": true
 }, 
@@ -16851,6 +16883,13 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "pass"
 }, 
 "id": "table-progression-vlr-002", 
 "required": true
@@ -16860,6 +16899,13 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "pass"
+}, 
 "id": "table-progression-vlr-003", 
 "required": true
 }, 
@@ -16867,6 +16913,17 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "table-progression-vlr-004", 
 "required": true
@@ -16876,6 +16933,17 @@
 "result": "fail", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "pass"
+}, 
+"Trident": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "id": "table-progression-vrl-001", 
 "required": true
 }, 
@@ -16883,6 +16951,13 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "pass"
 }, 
 "id": "table-progression-vrl-002", 
 "required": true
@@ -16892,6 +16967,13 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "pass"
+}, 
 "id": "table-progression-vrl-003", 
 "required": true
 }, 
@@ -16899,6 +16981,17 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Edge": {
+"result": "fail", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "fail"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "table-progression-vrl-004", 
 "required": true
@@ -18494,6 +18587,13 @@
 "required": true
 }, 
 {
+"Blink": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
+"Gecko": {
+"result": "pass"
+}, 
 "id": "text-orientation-011", 
 "required": true
 }, 
@@ -19588,6 +19688,13 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass"
+}, 
+"Trident": {
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "vertical-alignment-004", 
 "required": true
