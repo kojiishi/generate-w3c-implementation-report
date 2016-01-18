@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<h1>Status of CSS Writing Modes Level 3 Test Suites</h1>
+<h2>Test Failures</h2>
+<p>
+  This document analyzes <a href="http://test.csswg.org/harness/results/css-writing-modes-3_dev/grouped/filter/17/">tests that do not meet the exit criteria
+  and are not required</a>.
+<ul>
+  <li><b>1: Introduction to Writing Modes:</b>
+    All failures are for <code>sideways-lr</code> or <code>sideways-rl</code>.
+  <li><b>2: Inline Direction and Bidirectionality:</b>
+    All failures are for
+    <code>isolate-override</code> or <code>plaintext</code> value
+    of the <code>unicode-bidi</code> property.
+  <li><b>2.1: Specifying Directionality: the direction property</b>
+    has 2 types of failures:
+    <ul>
+      <li>6 out of 8 failures have <code>slr</code> or <code>srl</code> in their file names and they are for
+        <code>sideways-lr</code> or <code>sideways-rl</code>.
+      <li>2 failures are about table cell ordering
+        of RTL in vertical flow with <code>text-orientation: upright</code>
+    </ul>
+  <li><b>2.2: Embeddings and Overrides: the unicode-bidi property</b>
+    fails because there is only 1 impl that has
+    unprefixed <code>unicode-bidi</code> property.
+    Note that other layout tests run with prefix support.
+  <li><b>2.4.2: CSS–Unicode Bidi Control Translation, Text Reordering:</b>
+    2 failures are likely CSS Level 2 or Unicode UAX#9 failures.
+  <li><b>2.4.5: Reordering-induced Box Fragmentation:</b>
+    the same tests as 2.4.2.
+  <li><b>3.1: Block Flow Direction: the writing-mode property</b>
+    has 3 types of failures:
+    <ul>
+      <li>6 out of 9 failures are for
+        <code>sideways-lr</code> or <code>sideways-rl</code>.
+      <li>2 are the same tests as 2.1.
+      <li>1 is flexbox.
+    </ul>
+  <li><b>4.2: Text Baselines:</b>
+    All failures are for
+    <code>sideways-lr</code> or <code>sideways-rl</code>.
+  <li><b>4.3: Atomic Inline Baselines</b>
+    has two types of failures:
+    <ul>
+      <li>5 out of 7 are inline-block/inline-table with vertical-align
+        in <code>vertical-lr</code>.
+      <li>2 out of 7 are for
+        <code>sideways-lr</code> or <code>sideways-rl</code>.
+    </ul>
+  <li><b>5.1: Orienting Text: the text-orientation property</b>
+    has 3 types of failures:
+    <ul>
+      <li>5 are for <code>sideways-lr</code> or <code>sideways-rl</code>.
+      <li>2 are the same tests as 2.1 and 3.1.
+      <li>16 tests uses <code>getBoundingClientRect()</code> API
+        to measure orientations of characters,
+        and Gecko failures are considered because of the API implementation.
+        Gecko passes ref tests.
+    </ul>
+  <li><b>7.1: Principles of Layout in Vertical Writing Modes</b>
+    has 2 types of failures:
+    <ul>
+      <li>4 are for <code>sideways-lr</code> or <code>sideways-rl</code>.
+      <li>5 are orthogonal absolute-positioned objects.
+        There are 270 tests for absolute-positioned objects in this spec,
+        so ~1.8% failures.
+    </ul>
+  <li><b>7.5: Line-Relative Mappings:</b>
+    All failures are for <code>sideways-lr</code> or <code>sideways-rl</code>.
+  <li><b>9.1: Horizontal-in-Vertical Composition: the text-combine-upright property</b>
+    has 2 types of failures:
+    <ul>
+      <li>Parsing fails because there is only 1 unprefixed impl.
+        Note that other layout tests run with prefix support.
+      <li>The <code>digits</code> value is supported only in Trident/Edge.
+    </ul>
+  <li><b>9.1.3.1: Full-width Characters</b>
+    all tests fail in all UAs.
+</ul>
+<h2>List of Non-interoperable Items</h2>
+<ol>
+  <li>New values of <code>unicode-bidi</code> in L3
+    (<code>isolate</code>, <code>isolate-override</code>, <code>plaintext</code>)
+    has only 1 unprefixed implementation.
+  <li>Baseline of inline-block/inline-table with vertical-align
+    in <code>vertical-lr</code>.
+  <li>Absolute positioned objects with orthogonal writing-modes.
+  <li><code>text-combine-upright</code>
+    has only 1 unprefixed implementation.
+    <ol>
+      <li>Full-width section has 0 implementations.
+    </ol>
+</ol>
+<h3>Non-interoperable Items with At Risk</h3>
+<ol>
+  <li><code>writing-mode: sideways-lr</code> and <code>sideways-rl</code>.
+  <li><code>text-combine-upright: digits</code> has only 1 implementation.
+</ol>
+<h3>Non-interoperable Items in Other Specs?</h3>
+<ol>
+  <li>Directional control characters in CSS 2/UAX#9.
+  <li>Flexbox row-reverse.
+</ol>
