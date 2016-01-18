@@ -51,10 +51,10 @@
     <ul>
       <li>5 are for <code>sideways-lr</code> or <code>sideways-rl</code>.
       <li>2 are the same tests as 2.1 and 3.1.
-      <li>16 tests uses <code>getBoundingClientRect()</code> API
+      <li>16 tests use <code>getBoundingClientRect()</code> API
         to measure orientations of characters,
         and Gecko failures are considered because of the API implementation.
-        Gecko passes ref tests.
+        Note Gecko passes ref tests and manual tests.
     </ul>
   <li><b>7.1: Principles of Layout in Vertical Writing Modes</b>
     has 2 types of failures:
@@ -99,4 +99,5 @@
 <ol>
   <li>Directional control characters in CSS 2/UAX#9.
   <li>Flexbox row-reverse.
+  <li><code>getBoundingClientRect()</code> API.
 </ol>
