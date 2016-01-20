@@ -84,8 +84,14 @@
     <ul>
       <li>4 are for <a class=css>sideways-lr</a> or <a class=css>sideways-rl</a>.
       <li>5 are orthogonal absolute-positioned objects.
-        There are 270 tests for absolute-positioned objects in this spec,
-        so ~1.8% failures.
+        There are 270 tests for absolute-positioned objects in this spec
+        to cover combinations of a) direction,
+        b) text-align,
+        c) box offsets (top, left, right, bottom, auto),
+        d) orthogonal and non-orthogonal,
+        and e) ICB.
+        5 failures is ~1.8% of total cases,
+        and all of them are for orthogonal flows.
     </ul>
   <li><b>7.5: Line-Relative Mappings:</b>
     all failures are for <a class=css>sideways-lr</a> or <a class=css>sideways-rl</a>.
