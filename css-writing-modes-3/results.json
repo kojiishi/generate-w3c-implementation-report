@@ -13995,6 +13995,10 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "inline-table-alignment-002", 
 "required": true
 }, 
@@ -14002,6 +14006,10 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "inline-table-alignment-003", 
 "required": true
@@ -14011,6 +14019,10 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
+}, 
 "id": "inline-table-alignment-004", 
 "required": true
 }, 
@@ -14018,6 +14030,10 @@
 "Blink": {
 "result": "fail", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "inline-table-alignment-005", 
 "required": true
@@ -16763,6 +16779,10 @@
 "result": "no_support", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "table-progression-slr-001", 
 "required": true
 }, 
@@ -16770,6 +16790,10 @@
 "Blink": {
 "result": "no_support", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "table-progression-slr-002", 
 "required": true
@@ -16779,6 +16803,10 @@
 "result": "no_support", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
+}, 
 "id": "table-progression-srl-001", 
 "required": true
 }, 
@@ -16786,6 +16814,10 @@
 "Blink": {
 "result": "no_support", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "table-progression-srl-002", 
 "required": true
@@ -16828,6 +16860,10 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "table-progression-vlr-003", 
 "required": true
@@ -16889,6 +16925,10 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "fail", 
+"source": "gtalbot"
 }, 
 "id": "table-progression-vrl-003", 
 "required": true
@@ -19658,6 +19698,10 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "vertical-alignment-007", 
 "required": true
