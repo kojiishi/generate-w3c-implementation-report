@@ -15459,7 +15459,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Edge": {
@@ -15735,7 +15735,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Edge": {
@@ -15755,7 +15755,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Edge": {
@@ -15775,7 +15775,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Edge": {
@@ -15795,7 +15795,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Edge": {
@@ -15815,7 +15815,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Edge": {
@@ -15835,7 +15835,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Edge": {
@@ -15855,7 +15855,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Edge": {
@@ -15875,7 +15875,7 @@
 }, 
 {
 "Blink": {
-"result": "fail", 
+"result": "pass", 
 "source": "blink"
 }, 
 "Edge": {
@@ -16480,8 +16480,8 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "fail", 
-"source": "gtalbot"
+"result": "pass", 
+"source": "dbaron"
 }, 
 "id": "row-progression-srl-022", 
 "required": true

@@ -706,7 +706,7 @@ html/margin-collapse-vrl-034.htm	c383d4e25e05263bed13bdbe491783e431e8d427	pass
 html/margin-collapse-vrl-036.htm	646e80149a20561f3e11b75ccf98e5742f55c826	pass
 html/margin-vlr-003.htm	efb8e8b39035a1c320622f446a5d8799d59d953e	pass
 html/margin-vrl-002.htm	0e013e2395651788e72964961d8955431a18c0f0	pass
-html/orthogonal-parent-shrink-to-fit-001.htm	1b1921f3027027f50f1dfa6683c40aa71cab4f95	fail
+html/orthogonal-parent-shrink-to-fit-001.htm	1b1921f3027027f50f1dfa6683c40aa71cab4f95	pass
 html/orthogonal-parent-shrink-to-fit-001a.htm	0979297ea89f95971600d64427e9beb797b73f9c	pass
 html/orthogonal-parent-shrink-to-fit-001b.htm	2e4031db1e8b34b7aa83f4085590b20bcaf486a8	pass
 html/orthogonal-parent-shrink-to-fit-001c.htm	dcf773d851ce02efd758c88d1583948edc799bb2	pass
@@ -723,14 +723,14 @@ html/orthogonal-parent-shrink-to-fit-001m.htm	495fc09395be4047e160b330dd968fcc9f
 html/orthogonal-parent-shrink-to-fit-001n.htm	d8f6e7fbd0158f99a4cbd74d8a16edec2d8d83b1	pass
 html/orthogonal-parent-shrink-to-fit-001o.htm	ef28ecf27c6902121652cce8d237a7d97b336420	pass
 html/orthogonal-parent-shrink-to-fit-001p.htm	bb30b9d6ec5bed5e252381242c86091a3270f483	pass
-html/orthogonal-parent-shrink-to-fit-001q.htm	46aa2741ae016f77fadf06f7a80b1b0eaf1f151a	fail
-html/orthogonal-parent-shrink-to-fit-001r.htm	e03225dc9d2e9a79c0d36cab4fcb56c9d05325b1	fail
-html/orthogonal-parent-shrink-to-fit-001s.htm	5b5e19fee6e6be181d28e98d1654ed92ac0d4a8f	fail
-html/orthogonal-parent-shrink-to-fit-001t.htm	e60e6a2bf1e519751f3acf3bc0aa1e943db21e1c	fail
-html/orthogonal-parent-shrink-to-fit-001u.htm	45c72e6d3fafbfa8154c5d304a9bfff38eb713d5	fail
-html/orthogonal-parent-shrink-to-fit-001v.htm	aae56acb9c42f29a7912faa2e870ddbbdfca249e	fail
-html/orthogonal-parent-shrink-to-fit-001w.htm	3f44332501b632a5ddbeca714335ccb5b3c79096	fail
-html/orthogonal-parent-shrink-to-fit-001x.htm	140dc84800ef567ebddd8bee12c8d6334eb367c1	fail
+html/orthogonal-parent-shrink-to-fit-001q.htm	46aa2741ae016f77fadf06f7a80b1b0eaf1f151a	pass
+html/orthogonal-parent-shrink-to-fit-001r.htm	e03225dc9d2e9a79c0d36cab4fcb56c9d05325b1	pass
+html/orthogonal-parent-shrink-to-fit-001s.htm	5b5e19fee6e6be181d28e98d1654ed92ac0d4a8f	pass
+html/orthogonal-parent-shrink-to-fit-001t.htm	e60e6a2bf1e519751f3acf3bc0aa1e943db21e1c	pass
+html/orthogonal-parent-shrink-to-fit-001u.htm	45c72e6d3fafbfa8154c5d304a9bfff38eb713d5	pass
+html/orthogonal-parent-shrink-to-fit-001v.htm	aae56acb9c42f29a7912faa2e870ddbbdfca249e	pass
+html/orthogonal-parent-shrink-to-fit-001w.htm	3f44332501b632a5ddbeca714335ccb5b3c79096	pass
+html/orthogonal-parent-shrink-to-fit-001x.htm	140dc84800ef567ebddd8bee12c8d6334eb367c1	pass
 html/outline-inline-block-vrl-006.htm	fe585f235c9db079ff5fc5c6ecf201ea18fc40e1	pass
 # html/outline-inline-slr-005.htm	feefed7bb113e47f3bbb347eec4dac1a3f9310ec	fail
 # html/outline-inline-srl-004.htm	78586049cea376c528cb91f51fb496b83c9ad4d1	fail
@@ -976,5 +976,5 @@ html/writing-mode-vertical-lr-002.htm	1b80446ce4992cfb990f8fca7962cf124d62c222	p
 html/writing-mode-vertical-rl-001.htm	7765f193170501c4e4397ac39b98c87fb37d1f36	pass # Mac: Flaky
 html/writing-mode-vertical-rl-002.htm	94131caeef80f45a718d5ad3e02351b8e9442b04	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	64d250bb6fc2f656baa991d3b523de6d0a20970f	pass
-# Total = 977, Coverage = 977 (100%), Pass = 749 (76% of total, 76% of coverage), Fail = 228 (23% of total, 23% of coverage)
-# Imported = 820 (83%), Pass = 633 (64% of total, 77% of imported), Fail = 187 (19% of total, 22% of imported)
+# Total = 977, Coverage = 977 (100%), Pass = 758 (77% of total, 77% of coverage), Fail = 219 (22% of total, 22% of coverage)
+# Imported = 820 (83%), Pass = 642 (65% of total, 78% of imported), Fail = 178 (18% of total, 21% of imported)
