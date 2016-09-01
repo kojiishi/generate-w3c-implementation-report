@@ -1,30 +1,30 @@
 testname	revision	result	comment
-html/abs-pos-non-replaced-icb-vlr-003.htm	d3088b2113ff9dc88028dc89b4d030a83db59a2b	fail
+html/abs-pos-non-replaced-icb-vlr-003.htm	68f5dd625303c4939a04c42d5e13bf509accecb1	fail
 html/abs-pos-non-replaced-icb-vlr-005.htm	b959f5e9a4d09adc6784d74741b43ff0ac1ea0ca	fail
-html/abs-pos-non-replaced-icb-vlr-007.htm	2920468c92b3106eb9b5ece67e5bcb5671cb4ae3	pass
+html/abs-pos-non-replaced-icb-vlr-007.htm	1f6ef98b27be7cb121190428b42c1c9bc747535e	pass
 html/abs-pos-non-replaced-icb-vlr-009.htm	c5707d898b0da047a136a5dea32eaee2f072aceb	pass
-html/abs-pos-non-replaced-icb-vlr-011.htm	cb3c2ddfdcf6f2a98842ab3072383bb568779b45	fail
+html/abs-pos-non-replaced-icb-vlr-011.htm	1e230a57448e9756c96d7d4c8a86cd9a2eca7c37	fail
 html/abs-pos-non-replaced-icb-vlr-013.htm	9f493db44442db0fa520f7dd00ddbc5bd8b053be	fail
 html/abs-pos-non-replaced-icb-vlr-015.htm	2771fcc484d81c24ae79b7c55ea7936222ed4362	pass
 html/abs-pos-non-replaced-icb-vlr-017.htm	a6a91f8c0313b0760406f2b6fa332bdc6a4c89aa	pass
-html/abs-pos-non-replaced-icb-vlr-019.htm	74e0da7b167c4edac5bf1047e1a54ce980046956	pass
-html/abs-pos-non-replaced-icb-vlr-021.htm	0026e669a6e5950bc999ad2861ae879a8a03721a	pass
+html/abs-pos-non-replaced-icb-vlr-019.htm	3139126195e7f5534698cecc076e60e20c4ff403	pass
+html/abs-pos-non-replaced-icb-vlr-021.htm	5808b6456b00ac08d5751397f1889d43685e6b3d	pass
 html/abs-pos-non-replaced-icb-vlr-023.htm	fe60ac82b37aec85dfa09cfbd580a9f46cb2e45b	pass
 html/abs-pos-non-replaced-icb-vlr-025.htm	0abe7aa6441751b399efa393fa5a3f8c9421fe9e	pass
 html/abs-pos-non-replaced-icb-vlr-027.htm	52dd4499e057af3f27511c6f572a1f07bcb521ab	pass
 html/abs-pos-non-replaced-icb-vlr-029.htm	c8e092f6992398340c7ccc864f1f47cdd8e60e8a	pass
 html/abs-pos-non-replaced-icb-vlr-031.htm	195a5a814cdeb8071eaebae2b0ce2710ec4dd1c3	pass
 html/abs-pos-non-replaced-icb-vlr-033.htm	c404b980d389dadd597f743edaf48fb857284bed	fail
-html/abs-pos-non-replaced-icb-vrl-002.htm	c1d978fed082919699d7dd9a7bbac418e1f2b3d3	fail
+html/abs-pos-non-replaced-icb-vrl-002.htm	fcfad9ed4e7c1a0f317cb6a4e28f2a32ca5c7620	fail
 html/abs-pos-non-replaced-icb-vrl-004.htm	ef4aec8787e4e226422030791ced9725a9ddf92e	fail
-html/abs-pos-non-replaced-icb-vrl-006.htm	7cc616bc6d9add19fee781134bf14c9d2aaab827	fail
+html/abs-pos-non-replaced-icb-vrl-006.htm	a1b4cc89e7d4634756eca80175412a9bfb6a8b59	fail
 html/abs-pos-non-replaced-icb-vrl-008.htm	bf88578b9cf373a8e0e104472f20669679511b13	fail
-html/abs-pos-non-replaced-icb-vrl-010.htm	0797d5d4659b501c18d7f02f54feaf2dc1fabef7	fail
+html/abs-pos-non-replaced-icb-vrl-010.htm	3ff8e8d64c22ca4fb743ec16a0ab90fa506dbb0d	fail
 html/abs-pos-non-replaced-icb-vrl-012.htm	af2513c28fc98085a02fac46f7e7837ec2dcb416	fail
 html/abs-pos-non-replaced-icb-vrl-014.htm	82b080f9862b48f9d4d4bae11a8178cbe0e04c8f	fail
 html/abs-pos-non-replaced-icb-vrl-016.htm	0fcd6852eb73db30e7a6a63a3d0ddcdc49137d87	fail
-html/abs-pos-non-replaced-icb-vrl-018.htm	a747c42d5292e2ce1662863f9906e304eb8f542e	fail
-html/abs-pos-non-replaced-icb-vrl-020.htm	38d2c9b1105e5c01a44bb42fdb2e49e290e55242	fail
+html/abs-pos-non-replaced-icb-vrl-018.htm	6ab8faa2aee3be27ed0f02583101511eba75a27e	fail
+html/abs-pos-non-replaced-icb-vrl-020.htm	5c2c1162ecf1e695a16e37f6fcac265439ee186a	fail
 html/abs-pos-non-replaced-icb-vrl-022.htm	fca4a5e3785e0dff365055391d47d43088d046f5	pass
 html/abs-pos-non-replaced-icb-vrl-024.htm	4f464a740f5ae8248c82112351d3436a3c37d44a	pass
 html/abs-pos-non-replaced-icb-vrl-026.htm	023c809b88e0e4301aa642972d0c7147967889d0	pass
@@ -59,7 +59,7 @@ html/abs-pos-non-replaced-vlr-051.htm	4a03844db4871b9f49f4a5f945bb0ebfd6dd67de	p
 html/abs-pos-non-replaced-vlr-053.htm	9c08e776675637130948bd4b6931af65719d29ff	fail
 html/abs-pos-non-replaced-vlr-055.htm	e6152f2732060736d14b5a78a302e0bc8bbe793f	pass
 html/abs-pos-non-replaced-vlr-057.htm	512802c29f43864633b5ba4997e3435e77dfa780	pass
-html/abs-pos-non-replaced-vlr-059.htm	4a081025215343dc43c94a9afbecb4f8708d78c0	pass
+html/abs-pos-non-replaced-vlr-059.htm	87d3f8ddd1ad9152e5654825a8774a88494ade9f	pass
 html/abs-pos-non-replaced-vlr-061.htm	d5d7da3ef86e0bc59f71598418b084d23a7fc5e2	pass
 html/abs-pos-non-replaced-vlr-063.htm	e44b75458e48fc677468fad2f6b97bfb27a04358	pass
 html/abs-pos-non-replaced-vlr-065.htm	7e931945d698024af484361d702fc1942f4c93d7	fail
@@ -171,7 +171,7 @@ html/abs-pos-non-replaced-vrl-050.htm	6754634ed8569359c41292f4dcaeacf79509f4f7	p
 html/abs-pos-non-replaced-vrl-052.htm	6d08a883aabdabe4db83d6e6a8b86508aa7b7a53	fail
 html/abs-pos-non-replaced-vrl-054.htm	7ef86efb0eef5f8b43a82658c4cde941fa885c55	pass
 html/abs-pos-non-replaced-vrl-056.htm	0684b6dac50f2a8a6af6e1e1e43cd9ad96e6607e	pass
-html/abs-pos-non-replaced-vrl-058.htm	5ed1484c71061d9fdd91d13b776f19b73f7d1853	pass
+html/abs-pos-non-replaced-vrl-058.htm	37684ca4836356475eb9e041a2bd629ff84f4ec3	pass
 html/abs-pos-non-replaced-vrl-060.htm	f125ea87971858a2689e498e6c6e302319fb346b	pass
 html/abs-pos-non-replaced-vrl-062.htm	3a89ef33bd3f993b23dc0dc1a28612218ad0beb9	pass
 html/abs-pos-non-replaced-vrl-064.htm	575dcb96feed2e570ac0e03d1abb0f2af1fe4644	fail
@@ -279,10 +279,10 @@ html/background-size-document-root-vrl-002.htm	d32d9260f7c55e356ff0f781774350e0e
 html/background-size-document-root-vrl-004.htm	c570e55ba9e3d7cbe2ed6c537c3e24dae5f06a9b	pass
 html/background-size-document-root-vrl-006.htm	d38e22c4d9e04f1abb027bd7ba76039f6bac9e22	pass
 html/background-size-document-root-vrl-008.htm	8272ed7319e48fe7f94701a00ed1789bb7fb9435	pass
-html/baseline-inline-non-replaced-002.htm	7432fa7398eeb4c17a8e8f9c9fdd21e6368867cd	pass
-html/baseline-inline-non-replaced-003.htm	39f30d7250f4b486aa113a92ecc7cc3c55edbfe2	pass
-html/baseline-inline-non-replaced-004.htm	70dd4df1be2c1a6e1162019e6cb01ddfaf32273c	pass
-html/baseline-inline-non-replaced-005.htm	afd454f9156fddd4fc2e6375651908255a2cc3be	pass
+html/baseline-inline-non-replaced-002.htm	bc29ffd1c864a073c388048153217c2f3b72692d	pass
+html/baseline-inline-non-replaced-003.htm	2cf9a807f4a99567b289acac8fff65a1bae9f443	pass
+html/baseline-inline-non-replaced-004.htm	011cf713416d0e82f8bed436fdd9e47785ac193a	pass
+html/baseline-inline-non-replaced-005.htm	52378e557944f286231163feb9e0c2ae91dfb100	pass
 html/baseline-inline-replaced-002.htm	581a025a1ed23a356d11264a391800e5529fb749	pass
 html/baseline-inline-replaced-003.htm	8a607d2eb975949ad64e66e2ebe0b3e083204162	pass
 # html/bidi-001.htm	4b17669682a01af35c7ff859a56ff14979004532	pass
@@ -401,55 +401,55 @@ html/bidi-unset-010.htm	b85e481e086f00447910e084481f555376367376	pass
 html/block-embed-001.htm	ad3828d40cdff06f4d37fa183de424787966e75d	pass
 html/block-embed-002.htm	5069f35597f779fbb548ebf2f2ee2e5cc5416bcf	pass
 html/block-embed-003.htm	5a2ea65cfd1fccd182350cb160caaadd6d17a02d	pass
-html/block-flow-direction-004.htm	7f44e9c74d1b3a6301f206d24540d59b9671d949	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-htb-001.htm	d01d287f663b80a864a3c30ff9f3994b9bc909a0	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-slr-043.htm	d620513327a1baf327a3a34c8a2cf6e3fbd25f68	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-slr-047.htm	ab814a81eb8f3e25782dfe3b49eac7f9638a3ec6	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-slr-048.htm	2ac972f18c1a1ba25385d1c92d02bc3f54478431	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-slr-050.htm	199ca9acad6c70f8bbca71653ed5e0353b9d350a	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-slr-054.htm	c52517f876c6d75c185e9e80bf7fcb0786e14c2f	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-slr-055.htm	43343964103ab81e0d2fd8f88c699e5c12c23824	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-slr-056.htm	149d683e6dee716a8eecb3cf010545e56df21b69	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-slr-058.htm	75e9f1c643c28706c18e41f66f5f3501a2747646	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-slr-060.htm	f9ba469869e342fc903aa2c8a6e5c1c687f64d21	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-slr-062.htm	4790f1a71d513e51935cfa8e6f4d5ae8df8ade46	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-slr-063.htm	1f3ef0d5b047336ae444f036209e66fde393ffd3	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-004.htm	9ca43686169341cd91fcfc0db1d005cad6efb986	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-htb-001.htm	19e21587b43fa0778ce0f43db9fcf7c57405275f	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-slr-043.htm	f0f19a27cf126c33be9848728a27a8814b01ba27	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-slr-047.htm	47fbbc845a007ca8a8f5104234e9addc846f6ee7	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-slr-048.htm	b078db164533e214fc6180e85ab321633137690b	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-slr-050.htm	3052b2a77320e48be8b776d3ff4924668e2252e7	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-slr-054.htm	e209c2b51469bbc8c8713684553c4ca56fe1aa32	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-slr-055.htm	6894c1d369650025829a1c5c8752081d14b9fb72	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-slr-056.htm	c20afa11180386908af8d3da2fdfa54d878d5be3	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-slr-058.htm	3e9062a66be648f8c57073f49c78dbeca4f10008	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-slr-060.htm	a781bba1fd685355b887e74c921759fb769d0131	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-slr-062.htm	55c1ef07b5530f1307acddc0e08a3529aeb8b754	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-slr-063.htm	49fc5258dc7a9f63f154f5fcdc5a09d060ca8a8e	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
 html/block-flow-direction-slr-066.htm	172e1587f1d5af4a41e87f5010fa2046053ba0c6	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-srl-042.htm	9386d50b85c8828acf6ddf748cc7bd7312e3bc61	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-srl-045.htm	2593332cde19804208c285fbb1081baac7c01fe6	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-srl-046.htm	0dd2254cce8022adbfe35e7297bfb3c90434cce9	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-srl-049.htm	74bf2e9fee2c109dbbf993eadb3298a3e3a588fb	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-srl-051.htm	898556b977d0ece3dbe57d5adb8621db1953b1be	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-srl-052.htm	a796b5de2004cecccd7a85aa302c95ffe02be3e7	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-srl-053.htm	bb2d227543ea4112c87a792ae9a0ee1630037431	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-srl-057.htm	c19b3919e5191225d83710b5fb1441f40c9549bf	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-srl-059.htm	f1ffc1d7192f376de74c9aec1d7c663325258e87	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-srl-061.htm	aabc75d1fe9460ede6b45a6597bae5e3c813d5e7	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-srl-064.htm	f7e5ec148f1d9dabd8f306889c20f915b7b3461f	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-srl-065.htm	023ff8747304789a30ff10a1bca125ec74d665db	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/block-flow-direction-vlr-003.htm	928dfdfc072ccd950cfe66b98b35ea6db784d588	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-vlr-007.htm	407c1365b18b1e3e83ab58e5fd16b5d8cb5419f5	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-vlr-008.htm	1b2d1380bc909ae7441e57ff440596f17d9eae73	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-vlr-010.htm	5397d3de28574e98ffa7bca5a5b97809f9823cc3	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-vlr-014.htm	849885b8c4960f045abde1260bb439643c48d33a	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-vlr-015.htm	fe90fcbf2e0f40058810558347cddb216371c73f	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-vlr-016.htm	3f05887970a4dbc16f24bb64dd3ae8fceaa93079	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-vlr-018.htm	6ae8e965380f6ef858b3553ed79644626cba4b50	fail # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
-html/block-flow-direction-vlr-020.htm	c50b08132e34b9502195a534e292dce167bb8034	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-vlr-022.htm	5fd5ba344cabe111c44407f5af8030d9d33ce0a3	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-vlr-023.htm	54263c76d878d9e2af7e4cac421821f2b81d964f	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-vrl-002.htm	245dbcb9b9fdf7ddc7a0856ebb0410527aa2ff35	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-vrl-005.htm	77aa227c6700cdce48fb05a7c128dabdd4a17a01	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-vrl-006.htm	53884f58a11b626ff2c509b0fad1c1b434dd3f95	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-vrl-009.htm	fdf3568373f80b82ae92ddd543097eb18f22e938	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
-html/block-flow-direction-vrl-011.htm	3c910ddee86af042c66f17a26b2a8b2b7fbe4da5	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-vrl-012.htm	070fec5fdb6e75420661ab86ce649d0709150d69	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-vrl-013.htm	963c81fe1ba79af32377953142e546df28573f96	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-vrl-017.htm	fb307f52cfcf3186e73150fca4b2906e7a998c44	fail # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
-html/block-flow-direction-vrl-019.htm	b6765c57fa724a174db964d6d5ae1523daebf260	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-vrl-021.htm	c6cbb2e1f8e824fdda5d94bb31c8ad9507162e65	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-vrl-024.htm	a1dddb1952ff3df783226338b1a14f7906288e23	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/block-flow-direction-vrl-025.htm	6b3673477ab3c066dec96f347d5c1f6aaafc0622	pass
+html/block-flow-direction-srl-042.htm	ab03f64551e35354daf7206f57ab1976dca25e12	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-srl-045.htm	ff4e89856bb631c3b5d0ee63c7ac169aaa5c2378	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-srl-046.htm	28f47141871524977f60ce473fda57dca967b55f	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-srl-049.htm	5ecf1fbb180fa7b90cd266a0b0dbba0d4bb9cef7	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-srl-051.htm	f66717fefa5d602f8fe5cae28cb3fc4200a10996	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-srl-052.htm	9ee13b072337e291f2d707554a920aed6dfd3fdb	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-srl-053.htm	978cad9a363e52567291ff64c663d46b7e7276e5	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-srl-057.htm	182d3af884d68012bb3226f2db345bf49189fec7	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-srl-059.htm	bf29f7d394b39ac9fe4a11f64e31ae21fde62254	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-srl-061.htm	fde51935d287add9d71e5aba78795ae2da1045d4	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-srl-064.htm	68343319095cd02b00993b904fe408863d2bbeea	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-srl-065.htm	ef55659f4e11325cfa116513db3d84368c92dd6a	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/block-flow-direction-vlr-003.htm	3c55091c15256af54366402e2608af8a1e2c9a28	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-vlr-007.htm	8ed071ac83a22d3a96ec3839015bafb2eb4a9a05	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-vlr-008.htm	e5c24df7b4593741e0c63b2bf261e9f4d1890a6e	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-vlr-010.htm	b46d5e00bae49640403b9dc6a105768d2fced9dd	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-vlr-014.htm	d61bddc55e503cd99eaa21ddf587d4d0defe4bab	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-vlr-015.htm	f7eeead86638f702f4867d7ae6abc112c1638959	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-vlr-016.htm	f59c8091a59a85401808431c754c783261b650aa	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-vlr-018.htm	41120046ec81a86a0f6395fe61e6e2d2c91cfd39	fail # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
+html/block-flow-direction-vlr-020.htm	38ac297499dee6d8f70960af506b4e372b729534	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-vlr-022.htm	cf473e50ad23262e8ea95be2360b1dab793cf84c	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-vlr-023.htm	cd3cab16755c6bccb45a18e475699aa5ef9e3463	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-vrl-002.htm	87521b10edaeb1ee4b6b9250b074883ed51c9d29	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-vrl-005.htm	a885b716973215c9cfac6bd6f1d2cc2632c17881	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-vrl-006.htm	e8a5b2f9ef6480bf0324b10ee40abd2bf79941a0	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-vrl-009.htm	66efd178c3b745eba7c2b501a143aa67f8d0d7d1	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
+html/block-flow-direction-vrl-011.htm	74db787f1de21b4ef3082b71ee0659bfe20dd2ca	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-vrl-012.htm	f0e17522e4b855e25c559c21166c6e08510c2062	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-vrl-013.htm	a8ae74420c47ed4c54b23622c122c61269b78ea4	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-vrl-017.htm	b16de9703f83d5e04b37a6cdf7523ed1b9447963	fail # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
+html/block-flow-direction-vrl-019.htm	3f803eb768ff27096c5abe29a987c6d61caf12b5	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-vrl-021.htm	1f9c368a1c747aa57b7df079e3048224ef22fd42	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-vrl-024.htm	53c85c6a2a4b2b5994fce73ce2f7652b89caf31e	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/block-flow-direction-vrl-025.htm	154c6275b34b68d1c6217c512688570288dd7e90	pass
 html/block-flow-direction-vrl-026.htm	4a9a4ca16a3437bfc29a9d0f96e0daa5579e209b	pass
 html/block-override-001.htm	c9f01a298fdc3c1c6eaceefc08c1f134078a0c61	pass
 html/block-override-002.htm	1c72e7aa6e1d313b0e23b11e9e637b1f77dd39f4	pass
@@ -465,18 +465,18 @@ html/block-plaintext-003.htm	7216b2a3e17d8abfc65458f1325845a37ff8b947	pass
 html/block-plaintext-004.htm	b75731438c0d5544266ee8cb1ba0a895ce97cd4f	pass
 # html/block-plaintext-005.htm	2f2d8e6c45d62bc9d6ca61cb22615749d0a2e243	pass
 # html/block-plaintext-006.htm	0c629044af2ad8099dac74893c25d14cb049e242	pass
-html/border-conflict-element-vlr-003.htm	56ca8356bc1caf2ffb689c0e15d857178d297e79	pass
-html/border-conflict-element-vlr-005.htm	446d84cc6bacc628f53003a138c0147e15a1fa16	pass
-html/border-conflict-element-vlr-007.htm	315c6576eb445dc8e2b2d863345253c2847ca2dc	pass
-html/border-conflict-element-vlr-009.htm	37129eecc80074e0f3a4e6d9b74b41d0635a932e	pass
-html/border-conflict-element-vlr-011.htm	c8f52e8961fe71196470a3c53a696c1f9d071cae	pass
-html/border-conflict-element-vlr-013.htm	03fde3800840d2d24059b98a8a2939b12655da84	pass
-html/border-conflict-element-vrl-002.htm	e0cf70e734a10c474ee4cfbfe4fbcc9ee4c578b6	pass
-html/border-conflict-element-vrl-004.htm	b2b78afcda698c1ccbb34aafab05cbc347f9dcde	pass
-html/border-conflict-element-vrl-006.htm	bc2dda16e190719018652d9f06a8f7bf80117141	pass
-html/border-conflict-element-vrl-008.htm	8c6ff43d69fdc2a61eca427404747564b8f60675	pass
-html/border-conflict-element-vrl-010.htm	f3c495ee97eeac5bc4c8d400d8a5da49ec126cdf	pass
-html/border-conflict-element-vrl-012.htm	4f1623e87639f6fb72457cf515c867dc7ac618d2	pass
+html/border-conflict-element-vlr-003.htm	80f7d68fadaa533868f96e23d6faf64344ec26a7	pass
+html/border-conflict-element-vlr-005.htm	33f2737fb6c9b5bd6d45ed23c1270f352e3631a9	pass
+html/border-conflict-element-vlr-007.htm	8059636776238d1b53cdbb129151b5a010753589	pass
+html/border-conflict-element-vlr-009.htm	24cbf232469f0db6e5f43c89ef4fd471b380b78d	pass
+html/border-conflict-element-vlr-011.htm	8462c1eedcfebf939538e542127022108a2eb674	pass
+html/border-conflict-element-vlr-013.htm	d3b547d4ffbd3b081047617610e63b1f490ac9b5	pass
+html/border-conflict-element-vrl-002.htm	17f093e8c9942eec118b8b43ede299ee053b82c1	pass
+html/border-conflict-element-vrl-004.htm	500a0c57c9e8f1fdb00ce7b201d58f733276f425	pass
+html/border-conflict-element-vrl-006.htm	647fb4e2ef2bd205ded97edeb0f452dde3f21d7d	pass
+html/border-conflict-element-vrl-008.htm	74bd1a7bfaff1c7c55b2730613d0ee42c8bcd779	pass
+html/border-conflict-element-vrl-010.htm	67138fbfd3e26ad03593a470472462d0f34f14e2	pass
+html/border-conflict-element-vrl-012.htm	776628d1dd1220711973475c594908436b946c85	pass
 html/border-spacing-vlr-003.htm	58cb806c0283930b1d91725953a78bdc7042d5ae	pass
 html/border-spacing-vlr-005.htm	4055f1b2c59433c8a8a560f3c7014a604698ca08	pass
 html/border-spacing-vrl-002.htm	64fe8754213e673cdf666322eb6a8e30758638c3	pass
@@ -487,10 +487,10 @@ html/box-offsets-rel-pos-vlr-003.htm	3d16e0883c205cf9db0f153a21fe09328210fb9e	pa
 html/box-offsets-rel-pos-vlr-005.htm	63b0812b0ce58203acbbb078d6a358dfa8ef7921	pass # Linux: fail
 html/box-offsets-rel-pos-vrl-002.htm	71f9afb95909f5bbf2f482ea0cae18d0760dd61b	pass
 html/box-offsets-rel-pos-vrl-004.htm	2fefce44f6b5272b4e3d76d78fbd376dc7ccfcb7	pass # Linux: fail
-html/caption-side-vlr-003.htm	ea5639ee6271399829ea8c62db82718427bb569c	pass
-html/caption-side-vlr-005.htm	c95aa45f866fb2ed9af7774e9e606973fb5dedb7	pass
-html/caption-side-vrl-002.htm	c95ba91d7923fc2b50bdfa3d4f1aaef9302a7542	pass
-html/caption-side-vrl-004.htm	774a167268876affa99022bc214a8d22abae0f21	pass
+html/caption-side-vlr-003.htm	0b355384d709822a4e22b34a1ca02a8f49833264	pass
+html/caption-side-vlr-005.htm	c63d976e43a384b14c96187cc9494f574ba8ea7c	pass
+html/caption-side-vrl-002.htm	744f7c9bfb9a3a0bb3d19f2402bb6b77a8d784f4	pass
+html/caption-side-vrl-004.htm	5a268f70a4cf0c15eeb3e492bb5c12d17492861d	pass
 html/central-baseline-alignment-002.htm	e28062535869c8d0b31a582209741edea2192306	pass
 html/central-baseline-alignment-003.htm	2f956a69326a0e1ae2a976dc6f6900bc8755605c	pass
 html/clearance-calculations-vrl-002.htm	290b31f2c5c04d24ee0a0df2cc310470bab109ff	pass
@@ -513,22 +513,22 @@ html/clip-rect-vrl-010.htm	9ee86763032f7f57280ed2eaaf6a248ae69638d0	pass
 html/clip-rect-vrl-012.htm	958e294000bde628e565b6b743d47b9ce2be6d64	pass
 html/clip-rect-vrl-014.htm	44fdb637a990b4c84dc24786151db1e4048f57d8	pass
 html/clip-rect-vrl-016.htm	691b8c06c8ed77f9a051d9d0bf39f721ded61c79	pass
-html/contiguous-floated-table-vlr-003.htm	7e3726eb47e651aa59c766c84c51e754b55a3e88	pass
-html/contiguous-floated-table-vlr-005.htm	1d3845a7d0b88a02fb860e4896baa7f897bdc7ad	pass
-html/contiguous-floated-table-vlr-007.htm	414624110263d64afcd92032a21217a58aecbd8c	pass
-html/contiguous-floated-table-vlr-009.htm	16d38dd2bb24b32e376430b03e568d0d780b3bbf	pass
-html/contiguous-floated-table-vrl-002.htm	43c734e1b8cb78f1588df1e24849ddf97c8303a1	pass
-html/contiguous-floated-table-vrl-004.htm	766110a48a0766c0acc2778542121fb4f5f386f6	pass
-html/contiguous-floated-table-vrl-006.htm	6aed0c744497cfdc7bbd70bf384e3221fb8bba03	pass
-html/contiguous-floated-table-vrl-008.htm	904b235cd74a814587d1b07899cc385b65c1af84	pass
+html/contiguous-floated-table-vlr-003.htm	df26f3c11afb70686bc43a38cec78ffc78ccb9ef	pass
+html/contiguous-floated-table-vlr-005.htm	176d4d208205669f9d7d3bd5eed6cea20549e81c	pass
+html/contiguous-floated-table-vlr-007.htm	c547d5f5c6f6245188d47eca6474c18b2bd4682a	pass
+html/contiguous-floated-table-vlr-009.htm	3efd03505b7819a5e0178c0251f5c0af7eea257d	pass
+html/contiguous-floated-table-vrl-002.htm	55eeeadc93f831b70ec3cdc2f72a29217fc690f7	pass
+html/contiguous-floated-table-vrl-004.htm	9426e2040f68308dbc1bdc21ac2e49c8cd4e02f9	pass
+html/contiguous-floated-table-vrl-006.htm	8718a2be548848dd0e16dcdd4a3c689d0f2b2159	pass
+html/contiguous-floated-table-vrl-008.htm	9229c597a4225d2719e45f97442c9116d35cdde2	pass
 html/css-flexbox-row.htm	2095a3cec191a88ee70b6fa4f9186cc94aba326b	pass
 html/css-flexbox-row-reverse.htm	0cc3d0f04358dfedc826c7185067510092468290	pass
 html/css-flexbox-row-reverse-wrap.htm	af5da24a6d34f820f9208e2d02eecedc044a7859	pass
 html/css-flexbox-row-reverse-wrap-reverse.htm	01014629935eb4a0926836e06888db388ed75ff7	pass
 html/css-flexbox-row-wrap.htm	0ea199bc95c19bfdd73497a22bf49819b4b23d59	pass
 html/css-flexbox-row-wrap-reverse.htm	a317095a9cf1aa23dfdc9105c21f7567b4dde075	pass
-html/different-block-flow-dir-001.htm	3d33662be593c9a71770ab85e04c5f8e9721aac3	pass
-html/different-block-flow-dir-002.htm	dfa3d81dda50b5a39e2a1b98d268841d7af8fd32	pass
+html/different-block-flow-dir-001.htm	f3b17c9cd5c057f089a1bbe7890062e67b306e68	pass
+html/different-block-flow-dir-002.htm	4522f9122cbc123cb89a73c30ca5f11529155752	pass
 # html/direction-001.htm	5c033add1932eaf0595c610990a862bf6a6a3bdb	pass
 # html/direction-002.htm	12b697880ef31320cb3a92589d76ee9f85be6546	pass
 # html/direction-003.htm	c5e4860af47173b24a7778a2b12ee81fc49585e1	pass
@@ -547,57 +547,57 @@ html/different-block-flow-dir-002.htm	dfa3d81dda50b5a39e2a1b98d268841d7af8fd32	p
 # html/direction-applies-to-014.htm	ddb06e75fb49f4c3eeb117f858ba56993310b358	pass
 # html/direction-applies-to-015.htm	c72486bae50841b85bc956a48caf606d8d0909d8	pass
 html/direction-vlr-003.htm	8b653dd72891ff47f9f4ba862bae86a06c0d88f9	pass
-html/direction-vlr-005.htm	d1f0e9099a76ac44095be795b4922484b4f375dd	pass
+html/direction-vlr-005.htm	a353ef946382be33576f33b27b1d83a4d999e1fc	pass
 html/direction-vrl-002.htm	8adea94e968c9e596582c4d3c4e8af9beaea8ebc	pass
 html/direction-vrl-004.htm	8699197717307984d6e23b37c13ff5592914795c	pass
-# html/extract-ordered-list-direction-and-writing-modes.htm	f456a08de75932c3881a76490ed2fdb7211d2bc8	fail
+# html/extract-ordered-list-direction-and-writing-modes.htm	5792cfd6525aa30667f80ebcbbef1abbdec59c49	fail
 # html/first-page-vlr-003.htm	ba9f62a92fda53555211ee1de1a17cb08e124dd6	pass
 # html/first-page-vrl-002.htm	d889dab856e4fad4d820153f78921a043b28589d	fail
 # html/flexbox-writing-mode-007.htm	0557a81af23da4d969bce70f840968a7d5947006	pass
 # html/flexbox-writing-mode-008.htm	aaac3dcddfec40e5c67ae479e0df2184ddec82d2	pass
 # html/flexbox-writing-mode-009.htm	931b9d02203e63cacec94a45b450d721c5222706	pass
 html/flexbox_align-items-stretch-writing-modes.htm	d1bb1a411a86d0232f96b7776b01c086456c3617	pass
-html/float-clear-vlr-003.htm	d1389b5656d54ac52dea06ede9e957b55e266bbe	pass
-html/float-clear-vlr-005.htm	cbf4ba130a84fb2713529a38bcc215242fe657a8	pass
-html/float-clear-vlr-007.htm	8671c2d38f9ca381160dc7ebfd3d7dae3b6c0771	pass
-html/float-clear-vlr-009.htm	d0ada3913c68909de4f4c4df3245e7c38685257f	pass
-html/float-clear-vrl-002.htm	967bdef6e4c6f265546f36ee7c971c28cc63fce7	pass
-html/float-clear-vrl-004.htm	94f2381ef4bc65ada8198d96f24b67930d1b479b	pass
-html/float-clear-vrl-006.htm	f6ebecc660be8692363f65cbc7563204759e5cb4	pass
-html/float-clear-vrl-008.htm	9c6c7d5e5c2f2b3585a35e8f2e4e86db606fe3a7	pass
+html/float-clear-vlr-003.htm	7d7682203a338c640bddf11488c77c5924cf12df	pass
+html/float-clear-vlr-005.htm	ed10e4f77b87a311440cb17705882a7cf01f86c7	pass
+html/float-clear-vlr-007.htm	e71db27eb9ec4a9c09d9359996e292d7ba7759cd	pass
+html/float-clear-vlr-009.htm	b79583b5205d608afbe58aad43686d2ae450d3bd	pass
+html/float-clear-vrl-002.htm	c6285fee0aa92de62880ab1a7880bab326bad15d	pass
+html/float-clear-vrl-004.htm	d210526b527dfcc11bed027399c7890794875242	pass
+html/float-clear-vrl-006.htm	22412fad127aadf68d26b3bcfaa23f6a05e0cdbc	pass
+html/float-clear-vrl-008.htm	fc575ec672125aecd256050caa90dfa853083b34	pass
 html/float-contiguous-vlr-003.htm	bfc1773cebd248e01384bd37e85bf6d73e92716f	pass
 html/float-contiguous-vlr-005.htm	dafae4ce718baf50867418fe360c8d3f01e3ddee	pass
 html/float-contiguous-vlr-007.htm	09d97481ef7abde2bb6b1504c7916be5fd2ae5b6	pass
 html/float-contiguous-vlr-009.htm	1b94195a36e6c13249c8b0408d15dc0d2cdd2730	pass
-html/float-contiguous-vlr-011.htm	13e741a6ae7f243bdda633db81245b17677a3836	pass
+html/float-contiguous-vlr-011.htm	f5720c126a3869eff4ba3548e47b43892e34f082	pass
 html/float-contiguous-vlr-013.htm	c189497ff20ef17290f67dcf5a742d604db8f21d	pass
 html/float-contiguous-vrl-002.htm	58d6bef8287144a90dfe6092f55b6bfce7dc15dc	pass
 html/float-contiguous-vrl-004.htm	cb54b8398d2a3aa4f966bd587951c931d166e864	pass
 html/float-contiguous-vrl-006.htm	c37646d07d71d952021f1a3319289597b2090528	pass
 html/float-contiguous-vrl-008.htm	e63d6cbb1dfa09608fd242b1fee1d31a08836ff4	pass
-html/float-contiguous-vrl-010.htm	71739f3f65e879b09c12cdc0863c998c19b04d5c	pass
+html/float-contiguous-vrl-010.htm	fe3945bcd901fc079b7ccb67080fc527a967bef7	pass
 html/float-contiguous-vrl-012.htm	f03ef7712aba2861b428ef30421cc5fa6f6d5ec9	pass
-html/float-shrink-to-fit-vlr-003.htm	80d8155ac97e8893a5e04c13df1571b2ce6e752e	pass
-html/float-shrink-to-fit-vlr-005.htm	706a6f3f5a3f8509490f968fb6403f1a4a6086ed	pass
-html/float-shrink-to-fit-vlr-007.htm	755dda80aa3460ec74302306b628df4b0eaf05ff	pass
-html/float-shrink-to-fit-vlr-009.htm	82d8b8d8a6213a612b95f1594ed0f8cc471a4d51	pass
-html/float-shrink-to-fit-vrl-002.htm	b7e65d5da9416e3ae211c7152e7d39e19fe8a5f4	pass
-html/float-shrink-to-fit-vrl-004.htm	38dbe0d39a9e8c10a34b86968549e68d24dddc0d	pass
-html/float-shrink-to-fit-vrl-006.htm	bb7f1a60179803099402fd8c1aaf263ee2806b80	pass
-html/float-shrink-to-fit-vrl-008.htm	0b1c5e46eb3fef600726103bdb1766919e6359ad	pass
-html/float-shrink-to-fit-vrl-vlr-016.htm	13fb71e17d167d2dcf8c15dbf248cbde0e0866b2	pass
-html/float-vlr-003.htm	0c216a13713762e8d1957472b1da8f6dd658d582	pass
-html/float-vlr-005.htm	8884677a951823a38599443b2a3cecc3d739c96a	pass
-html/float-vlr-007.htm	7241020ca23117cc8e6966eced3028dcd90536f2	pass
-html/float-vlr-009.htm	e477d0128cdb7828d2c3303dd51f7a0181d67f25	pass
-html/float-vlr-011.htm	c0981a33b23f62d058a1a21f36f7f08d486404d4	pass
-html/float-vlr-013.htm	c90edc56130607d7ce1b78557303ce899a233fb0	pass
-html/float-vrl-002.htm	53ad0c997988e6624bcb51039361b1f3cfcae611	pass
-html/float-vrl-004.htm	e898e056c606b10085722e5a92d5a8b46932fb45	pass
-html/float-vrl-006.htm	6aefcf27872937dced75f07cafb890b67df34440	pass
-html/float-vrl-008.htm	f5b04691b879056d9183c6e5459d621f58c0662a	pass
-html/float-vrl-010.htm	eba1fed0beacc51e0ce57c561038bc74ebca21c9	pass
-html/float-vrl-012.htm	167d7246493ce26814aa6caba860ea898569f7bc	pass
+html/float-shrink-to-fit-vlr-003.htm	b1d7cfe310875d210d693647de2961c6f4c5e3fe	pass
+html/float-shrink-to-fit-vlr-005.htm	b617155900ee34ac71f8650e846c0bc6ef34b414	pass
+html/float-shrink-to-fit-vlr-007.htm	f4204182437350fcbe0e4803e6c9096a4e3a78eb	pass
+html/float-shrink-to-fit-vlr-009.htm	f2a34f6247e6e2ea55de8a78ce9216084921846a	pass
+html/float-shrink-to-fit-vrl-002.htm	406abccc9fdf33e25f5e62678fddfc7aa3bff024	pass
+html/float-shrink-to-fit-vrl-004.htm	3d10ae30354242893056bea62db3527102ee5321	pass
+html/float-shrink-to-fit-vrl-006.htm	7afb92552f824c8e9d574d0b31eac5060bca8bd4	pass
+html/float-shrink-to-fit-vrl-008.htm	81f7bb0da01ea81ae660a3381b2cac6f62cab4f7	pass
+html/float-shrink-to-fit-vrl-vlr-016.htm	e3bf330df2cfa9fd7d260e891d458d6f09ff56b8	pass
+html/float-vlr-003.htm	93649c6f3d0cc9a70b6821630a1a8a1a30c3bbd7	pass
+html/float-vlr-005.htm	ce172c66c48b790b8a17814aa07c3915a7079b7a	pass
+html/float-vlr-007.htm	0db5775045212f2884f8a94733a902b303d09e63	pass
+html/float-vlr-009.htm	f21507801a96baae6c82329b911bd1a134c4422f	pass
+html/float-vlr-011.htm	094538f49bed865f72df170d77c1784e94a230ff	pass
+html/float-vlr-013.htm	22596d409ea2a681a774858d625f3ccfa1f5afa7	pass
+html/float-vrl-002.htm	c5d84e025d64277af56aa9ccaabc839fe94ed114	pass
+html/float-vrl-004.htm	8d631515b344c4408f43525dc1c3a984f6499440	pass
+html/float-vrl-006.htm	d045e20f6ee1241f28219b88a7d3d1d794f9e0d4	pass
+html/float-vrl-008.htm	d17919d5f07ce10c94e0ff2716ea1666f4d0b522	pass
+html/float-vrl-010.htm	93fff4f9e21b5778c75e40cc9357e3a822beb28f	pass
+html/float-vrl-012.htm	522df1555867968463557c3b2964aca03270c3f5	pass
 # html/form-controls-slr-004.htm	2cd26fa6fd32309b5ee9e9d1b21141c27a8815e1	fail
 # html/form-controls-slr-005.htm	a31bbefed0f17ae13195bec0dbf5813ca6c2175c	fail
 # html/form-controls-srl-004.htm	fa1695c3f43c052217d45be574ae054c8527d580	fail
@@ -606,10 +606,10 @@ html/float-vrl-012.htm	167d7246493ce26814aa6caba860ea898569f7bc	pass
 # html/form-controls-vlr-005.htm	949c045be25bb731bafcf985b33447906f701696	fail
 # html/form-controls-vrl-004.htm	e10fcf280cc4a14e2b335f8ecba7370b4f213629	fail
 # html/form-controls-vrl-005.htm	be143dd2896bab52cfbfc53134b83e8f56e12fca	fail
-html/full-width-001.htm	9ae7d7194254a7baa30d27419564401430af65db	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-html/full-width-002.htm	278f5bab05df634ec6d6f57f8ee0357906367eaa	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-html/full-width-003.htm	743911d25fbd1f8dab1eaca4460682cb5a899307	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
-html/height-width-inline-non-replaced-vlr-003.htm	c4dc057ce3b92a36ee25f0c031c0ba68f633d396	pass
+html/full-width-001.htm	1f315c1061fb7824dafe17a510b9347f7dc6d66d	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+html/full-width-002.htm	cbd6df970d0c790e46a4ee51aa5a21914b97d20e	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+html/full-width-003.htm	2a7bd35eff513360e479df1e5684a67db4d8d00c	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
+html/height-width-inline-non-replaced-vlr-003.htm	86c7fc3831fcfb59b492a8b1355b2f9dada33e80	pass
 html/height-width-inline-non-replaced-vrl-002.htm	6c93b9c50edcb286ce65e14c45e9f13dc1728b2c	pass
 html/horizontal-rule-vlr-003.htm	c47416e169c5b440e743a67eac5c3c4d5196f6a5	pass
 html/horizontal-rule-vlr-005.htm	6f5f57495bcbc441c3eafb695347e47d5c5ec496	pass
@@ -635,77 +635,83 @@ html/inline-table-alignment-002.htm	83b05a1e0b2f7e898521fd2496813df84c982188	pas
 html/inline-table-alignment-003.htm	a5750768d6c014ab71d88b84f0670bc40e1bc94b	fail
 html/inline-table-alignment-004.htm	208f4d4629d59da12eed17dbc62ad8b4ea548b6b	pass
 html/inline-table-alignment-005.htm	4eb7321db34cf93c7935fe552ecdbdec711bd446	fail
-html/line-box-direction-htb-001.htm	144e3ebc814d53d779e5a53cf11783e6caae3180	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/line-box-direction-slr-043.htm	b2433e448382beee6144ea9273ccaeedb78020b1	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/line-box-direction-slr-047.htm	33a41609e0d1539dce695b96676e4919ea7b258c	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/line-box-direction-slr-048.htm	ee0709b06ab8e4b2a8bf2b2406366c29d5c53d5d	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/line-box-direction-slr-050.htm	bcbc21bf1fb977852ada32cfac396832fb9d5b17	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/line-box-direction-slr-053.htm	f6604cd69dd159c1d5705e869cf31f867d629254	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/line-box-direction-slr-054.htm	2c2841653a35d9b05f534f49d56b4028f190a919	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/line-box-direction-slr-056.htm	2d3669f0af86f760de2634af6207336eb442c921	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/line-box-direction-slr-058.htm	f24d35df60f340e6517ddfead376fc0e4efc742d	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/line-box-direction-slr-060.htm	fc05fc8300233325dc2fea1fdcf728673648a7a5	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/line-box-direction-srl-042.htm	8ca53d1cd9afc2dd562e8023def14f684ffe16ed	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/line-box-direction-srl-045.htm	99caccd5418ffda9b994611a7488b6b1745572de	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/line-box-direction-srl-046.htm	cbd2e4fe2693d040a789292b42d94478a4e541b8	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/line-box-direction-srl-049.htm	df3471f8ef7a3b2c7177276e1a15e48480428595	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/line-box-direction-srl-051.htm	1bd46b5d80ce08a2fc101a0e18e3a9447926082b	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/line-box-direction-srl-052.htm	1d0fadf9cda8bdf84e13ca8881c1c89f4a287748	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/line-box-direction-srl-055.htm	2c1d68d9b71e5ff33e9ff162190cbecdad12b77d	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/line-box-direction-srl-057.htm	64c5a030a661981fa859e4c68103f0f2cc225d07	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/line-box-direction-srl-059.htm	378ecb3403c3380efc24fd54232631ad82d645a4	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/line-box-direction-vlr-003.htm	d9fcd7b49fbc4fe3b24b3cb059b522c4f179ad0d	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/line-box-direction-vlr-007.htm	115b8a1f9bef34b401bf795ef39a88e9f6e19f99	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/line-box-direction-vlr-008.htm	f40fdba518442442703b1cb8da0d6ffc6e95e6b3	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/line-box-direction-vlr-010.htm	c6f443ac9e94bc551fcabb939a831f334d7d40a4	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/line-box-direction-vlr-013.htm	b31bd55d32bcfa9d86dc801a83a90154324cdfb3	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/line-box-direction-vlr-014.htm	5224ea0b9d5ec13fd59fbae552727a5174c87198	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/line-box-direction-vlr-016.htm	fadcdc86ef9300844f8bd02400a57f334a3bcae2	fail # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
-html/line-box-direction-vlr-018.htm	bf53f0deb2871e433df5eb0c3cc0593ded9132ef	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/line-box-direction-vlr-020.htm	db035c99299d7413d004aa821f4d9b3398c70f1d	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/line-box-direction-vrl-002.htm	563ae753cbb286fe18650af370e00d8757a4c75a	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/line-box-direction-vrl-005.htm	4b9b003ac5cc8249e2a3eef0feda45c63f6b5914	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/line-box-direction-vrl-006.htm	b30e8f58fcf775079e969e2f091d953eb0e16526	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/line-box-direction-vrl-009.htm	861e4d377d83c90aebb17125af569ccb07d09ba5	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
-html/line-box-direction-vrl-011.htm	a80267f76e132b79fbe1924ac9da216679d0592a	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/line-box-direction-vrl-012.htm	abc84b308cee5049f63e4d6381e18863c466848f	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/line-box-direction-vrl-015.htm	6ffc6ef6794e2f4385ec3556c7524fa2918559dd	fail # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
-html/line-box-direction-vrl-017.htm	6d6812e1fa5256ccbde67e3207be408445c692be	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/line-box-direction-vrl-019.htm	3470e31a39c2844b821a55a0fdfb13d69f98452a	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/line-box-height-vlr-003.htm	259671e58e36b19184004f050de2c537b7a1894b	pass
-html/line-box-height-vlr-005.htm	cbc67a463940ff5ec5decb725bfeec62814b5752	pass
-html/line-box-height-vlr-007.htm	ad191b4346c0cbb24fc7cc0a5f8c9e0cc926c2f4	pass
-html/line-box-height-vlr-009.htm	bd5df8c249932e6fdfb4cfacc02084e6d3c86532	pass
-html/line-box-height-vlr-011.htm	aa6690497ef0a8a1add231a251cf489b80ce7ba6	pass
-html/line-box-height-vlr-013.htm	8711d934a91a1a1efabf6539b5909189757efd9a	pass
-html/line-box-height-vrl-002.htm	1a00417e8f74d820cd70fc5ed7752868750495ec	pass
-html/line-box-height-vrl-004.htm	e6879c456117b2c3ef67db7a625ea753d3cb95b5	pass
-html/line-box-height-vrl-006.htm	693c03b0850d29cd35b5d20305b9581f54f83928	pass
-html/line-box-height-vrl-008.htm	36c6c6f00dcadbab278d0b170de4213c35971606	pass
-html/line-box-height-vrl-010.htm	2f60427c35a4abf5dc9ddc7c47f628d4c225fe89	pass
-html/line-box-height-vrl-012.htm	e42b72f8b9295ee123752049d4423a9eeabc0b08	pass
-html/margin-collapse-vlr-003.htm	17360ce7dfc9485ca0cafb9596f7d9b5a974de20	pass
-html/margin-collapse-vlr-009.htm	c219405819902980a7724034dbc5a83c95881fff	pass
-html/margin-collapse-vlr-011.htm	285ed7143afc4ae1d12bd164fa64fbb8030965d7	pass
-html/margin-collapse-vlr-015.htm	1910bce002686e0f76a4c348f741643f0b0d154e	pass
-html/margin-collapse-vlr-017.htm	bb1e1bd4f558cfc0b15d6572dccdda0784208de3	pass
+html/line-box-direction-htb-001.htm	123ee6074098b491e09f2010c16b685ab4923f6b	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-slr-043.htm	447a0d7ebdbbc32682c05b82a1acf6028162e26c	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/line-box-direction-slr-047.htm	d459fb25688f3fd14f50ab744595ce58edb21965	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/line-box-direction-slr-048.htm	3a1e9d7ccd3a7d27cece817b3138f4e82a4bf724	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/line-box-direction-slr-050.htm	15e80db0f94560d0a6fa60c2809d63f5c4a5e76c	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/line-box-direction-slr-053.htm	97851b7d645a2082fcf25d079fd055015190acae	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/line-box-direction-slr-054.htm	874a2b4be5cf469be83aa3bd950c1dda1e60d79d	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/line-box-direction-slr-056.htm	f7ed922e5ff28daedb8349574c305c2183f0ce6d	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/line-box-direction-slr-058.htm	fd95d49b337922caf1a835455e132e6177ea1079	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/line-box-direction-slr-060.htm	54f325dbc5743264998ffa46e74ea73c96d7c483	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/line-box-direction-srl-042.htm	a6109d01de74b087f5499cff9e55446b47da0ef0	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/line-box-direction-srl-045.htm	8dd0ca21ad627c097b071e571fc5a81038a5ed04	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/line-box-direction-srl-046.htm	61a81defb323c0af77917f50b27a15dff858bd09	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/line-box-direction-srl-049.htm	071125fcdd165d78718fe35b7fe255675beee801	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/line-box-direction-srl-051.htm	bb4586073a0b589ef0a9b865a72020f8bb890f9e	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/line-box-direction-srl-052.htm	513f3677572f96b1311ba0f65e7b6aa5eefde177	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/line-box-direction-srl-055.htm	84e16b93e84ebb2323f25c70f4c7ec2496039dd5	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/line-box-direction-srl-057.htm	62ca8b4c02cc22f9dcd0fea40bd6a8e1579549ea	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/line-box-direction-srl-059.htm	3c85343ab5bee7bee094ab04cd8ddc6202dc43d8	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/line-box-direction-vlr-003.htm	93256109e8a601c1b61928951e674e08019b601c	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-vlr-007.htm	15989659625cb8bda7700d6c9e90c621d40e4501	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-vlr-008.htm	1d2ea3e530820a2c23af51158a1f4f0de9754942	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-vlr-010.htm	fa255368a388f343edff0da21297a7d3a8631534	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-vlr-013.htm	612b6ba9fe501602faa3ff04778f45044c7f4d25	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-vlr-014.htm	d04ceaaf1b89a1a8b4607e89d8444c0d701f0ec7	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-vlr-016.htm	d43db83c7cd6852de59e32c621fa4c5be5ea39d0	fail # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
+html/line-box-direction-vlr-018.htm	1a90ea3c273a728b868156b52b4f6907c3bfe493	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-vlr-020.htm	353d64c28be74ecca5108b930cfc8a0d7ebf6f8c	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-vrl-002.htm	4789ef5e02beeab9bdb876e835d095066df3484c	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-vrl-005.htm	1cad8d9ff6c3aea866727eee6a709847aa57f3fd	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-vrl-006.htm	ae384901b3c65365510d230d90f0bd56d08eb619	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-vrl-009.htm	6e2f1945051483ecb664afeeb1d29b010d919fb0	pass # These tests pass but images do not match because of position: absolute in vertical flow bug
+html/line-box-direction-vrl-011.htm	8878a66b3089ad8a72b3d228af5c6a3f7c53fc27	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-vrl-012.htm	67975dfd0c519294362e1924095a7c728db54c3b	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-vrl-015.htm	aa076921f9ddc396f2f8e29964da82eaa1f27100	fail # CSS Writing Modes Level 3: Following tests require applying writing-mode to table-cell, which we do not support today. crbug.com/409155
+html/line-box-direction-vrl-017.htm	8cc32f72a194d66433499df31bd8f41abe36e508	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-direction-vrl-019.htm	7585eb47f73b1ee566baf84de71c70bc407aae02	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/line-box-height-vlr-003.htm	5006c2c344c6f0ed6007c0d334102decf125845d	pass
+html/line-box-height-vlr-005.htm	a4b941e93de3df10e0f3c595d9a70c4ad247e22d	pass
+html/line-box-height-vlr-007.htm	9c0760f6b557ac91e205570c6875e88820ce3e6e	pass
+html/line-box-height-vlr-009.htm	aa05070353478cd47d77b47d6dbfa2b3f7d801c4	pass
+html/line-box-height-vlr-011.htm	22c5f0f2743e2a6c7f8eaea1912f6666a04b5870	pass
+html/line-box-height-vlr-013.htm	ece628469338bd82d8e712d2fa996e179abc3bfd	pass
+html/line-box-height-vlr-021.htm	e35e8a4e68cabdbaa3e661acf8b623a2c1a2d16c	fail
+html/line-box-height-vlr-023.htm	8e73d26158e43a46ec6fc7814763461b25c7cd42	fail
+html/line-box-height-vrl-002.htm	3eda347a3d49a55d6adf018588d2e1bdd87c01bd	pass
+html/line-box-height-vrl-004.htm	7a4e2c32e9ce291758ca3c077e1ee438f9838018	pass
+html/line-box-height-vrl-006.htm	b7d22569581b86f74a0654297e24abab7a441edd	pass
+html/line-box-height-vrl-008.htm	fa938981839c03466a86c8c9e3a2475371d1affd	pass
+html/line-box-height-vrl-010.htm	8de72694c48183de742175ef61c704e83a30907e	pass
+html/line-box-height-vrl-012.htm	3ce2bef7fce81a9065b0452c4a536047286475e0	pass
+html/margin-collapse-vlr-003.htm	f3279ce1049031193a82693278cfc3f18b0570f6	pass
+html/margin-collapse-vlr-009.htm	64524331f355a9824dc23ffe02a3662a974c54fd	pass
+html/margin-collapse-vlr-011.htm	4299e432bf3bd03d0ca34585bf661ebb96a90458	pass
+html/margin-collapse-vlr-015.htm	51b1284c2a117cc079b7173e6846611f17514b83	pass
+html/margin-collapse-vlr-017.htm	342890bb192b8f1e7c665ef613ef117c31fbe909	pass
 # html/margin-collapse-vlr-023.htm	6de48316eba1a8307c27a50880cec9262e1cd997	fail
-html/margin-collapse-vlr-025.htm	b3fc87387f20364bf5e0ca9cb6f6c3f3a76e912f	pass
-html/margin-collapse-vlr-031.htm	1f6bd5cf9caa176f41bf038214484313f56d4866	pass
-html/margin-collapse-vlr-035.htm	0c1868311e1e35b1a7af8dea47b89fcbd41a9a84	pass
-html/margin-collapse-vlr-037.htm	81fce7db2cffde9823c8b9672e1ec7d84c5a7932	pass
-html/margin-collapse-vrl-002.htm	5289dc3226137de106c705a43e3b69a3b588e8ac	pass
-html/margin-collapse-vrl-008.htm	847ef0e6462f1ca70aea6ff395dcb32d608dd5ca	pass
-html/margin-collapse-vrl-010.htm	11434b5bbf7d017becea9a7f50f51111280fa2e7	pass
-html/margin-collapse-vrl-014.htm	189a3ba70e80d366caec1a521ec73452990cb0e9	pass
-html/margin-collapse-vrl-016.htm	465c5979e90ae0a5db790f7dccbf98145eefa703	pass
+html/margin-collapse-vlr-025.htm	981a64fd0989ea1dc6311c274a6452f89f1cc9e9	pass
+html/margin-collapse-vlr-031.htm	52ee13174a019f25ce75ccedd6e6140832c9704a	pass
+html/margin-collapse-vlr-035.htm	c4508fb62a5e2199b0ebc205c4a23cc04cdcb7a0	pass
+html/margin-collapse-vlr-037.htm	0ff74db8f5b01d09605b36346071eaf80053ef0d	pass
+html/margin-collapse-vrl-002.htm	77c0bcda36fa71a5a4a6f622a1e78f639b64d370	pass
+html/margin-collapse-vrl-008.htm	0e1e6c663f11f4a5554f01581842b6a414eabf32	pass
+html/margin-collapse-vrl-010.htm	930e63fdcc727f5cf80c2c830aa23d6645d13166	pass
+html/margin-collapse-vrl-014.htm	1d9059c5e80e27b5c81c40bff9fd7868108fbb1a	pass
+html/margin-collapse-vrl-016.htm	a2de1e1157a55dc5dd0e92c810fc387a8382910d	pass
 # html/margin-collapse-vrl-022.htm	95f8569b58a03895239038991403753801b19dbd	fail
-html/margin-collapse-vrl-024.htm	558d029b4b6fd193ac3b04220ec10f5226f18810	pass
-html/margin-collapse-vrl-030.htm	f7361122bcbe1aa63c13644dc3267d191e7a2b8f	pass
-html/margin-collapse-vrl-034.htm	c383d4e25e05263bed13bdbe491783e431e8d427	pass
-html/margin-collapse-vrl-036.htm	646e80149a20561f3e11b75ccf98e5742f55c826	pass
+html/margin-collapse-vrl-024.htm	391e44b947f55a63a94f5f44e8d607cee522bdfe	pass
+html/margin-collapse-vrl-030.htm	2455760e91990d8889ec3879198310f7829b54ff	pass
+html/margin-collapse-vrl-034.htm	a2842fcb139c5805d3de0055b0e34135d0647563	pass
+html/margin-collapse-vrl-036.htm	af57678272e39fbc2ad05bf13585e622c2c03ef9	pass
 html/margin-vlr-003.htm	efb8e8b39035a1c320622f446a5d8799d59d953e	pass
 html/margin-vrl-002.htm	0e013e2395651788e72964961d8955431a18c0f0	pass
+html/ortho-htb-alongside-vrl-floats-002.htm	6936d0a16eaa9f8e3809a8649897a344875ca400	pass
+html/ortho-htb-alongside-vrl-floats-006.htm	3005b031126716c93199f7997996ffb0d8f41f91	fail
+html/ortho-htb-alongside-vrl-floats-010.htm	b61d19e2b1e413a572d483b77d9c2362b3dab840	pass
+html/ortho-htb-alongside-vrl-floats-014.htm	e87b565ec83678724a01af52c50083f6c9d78fd9	fail
 html/orthogonal-parent-shrink-to-fit-001.htm	1b1921f3027027f50f1dfa6683c40aa71cab4f95	pass
 html/orthogonal-parent-shrink-to-fit-001a.htm	0979297ea89f95971600d64427e9beb797b73f9c	pass
 html/orthogonal-parent-shrink-to-fit-001b.htm	2e4031db1e8b34b7aa83f4085590b20bcaf486a8	pass
@@ -731,13 +737,13 @@ html/orthogonal-parent-shrink-to-fit-001u.htm	45c72e6d3fafbfa8154c5d304a9bfff38e
 html/orthogonal-parent-shrink-to-fit-001v.htm	aae56acb9c42f29a7912faa2e870ddbbdfca249e	pass
 html/orthogonal-parent-shrink-to-fit-001w.htm	3f44332501b632a5ddbeca714335ccb5b3c79096	pass
 html/orthogonal-parent-shrink-to-fit-001x.htm	140dc84800ef567ebddd8bee12c8d6334eb367c1	pass
-html/outline-inline-block-vrl-006.htm	fe585f235c9db079ff5fc5c6ecf201ea18fc40e1	pass
+html/outline-inline-block-vrl-006.htm	28aff989e2711c2a49c2aa012058f633f6a64bc3	pass
 # html/outline-inline-slr-005.htm	feefed7bb113e47f3bbb347eec4dac1a3f9310ec	fail
 # html/outline-inline-srl-004.htm	78586049cea376c528cb91f51fb496b83c9ad4d1	fail
 # html/outline-inline-vlr-003.htm	aa78e4d2270903852d387b3d25cc21a7af73d8a9	pass
-html/outline-inline-vlr-006.htm	5381771f4574ffdced6f86c1d3a04471605885b8	pass
+html/outline-inline-vlr-006.htm	7c510ac5bb1875786028239193275f5481f298a3	pass
 # html/outline-inline-vrl-002.htm	74c5379d6fd8c46ca528d9f91df735b584cb9a55	pass
-html/outline-inline-vrl-006.htm	a5f84ab4960bbd0c4b44f01a5cbd5d6ee9d902bb	pass
+html/outline-inline-vrl-006.htm	86a4245934225753f6582f4893130c289d562c9f	pass
 html/padding-vlr-005.htm	4c16042900e00793d562c3b4f5c39a3df16b1f95	pass
 html/padding-vrl-004.htm	43a0740c77fa25671e5831c88555b884e75216ee	pass
 # html/page-flow-direction-002.htm	1be4838588d4d52420f215f0499e88ca81c97a2e	fail
@@ -758,39 +764,39 @@ html/percent-padding-vrl-004.htm	9224136aef89e3d2e559902a39d5646afbee7f43	pass
 html/percent-padding-vrl-006.htm	48c37c68b126ddc8b8bc3407b949a71943801f13	pass
 # html/replaced-content-image-002.htm	70d61235f5585e0d31e481bcf211b85eff22f9e9	pass
 # html/replaced-content-image-003.htm	7b74dbd7ce8dfb573f138987a97a5bcd5d209973	pass
-html/row-progression-slr-023.htm	a9de747337b3db0711133ae1888330b4908a5728	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/row-progression-slr-029.htm	12d59fcc02872fb61092b93f292ed10d01049498	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/row-progression-srl-022.htm	e9df4023c3127a72de4ede78636e0b20f2d4c7cf	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/row-progression-srl-028.htm	6346e1e4759f28d04824a3405513c2a784b1742f	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/row-progression-vlr-003.htm	84c432b8cdbbf5cf7183e90135ac46957fa3cb1b	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/row-progression-vlr-005.htm	c031930a3ed4ea1e73734dfd2e273afe44c4d2e3	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/row-progression-vlr-007.htm	1247d033839cc0e6a846fe3715239104315644c8	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/row-progression-vlr-009.htm	206688d0b2fda2cd4bff586e4451aff4639d85bd	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/row-progression-vrl-002.htm	4efc6ea75fdd7079197d71e8654d70c14b8d1b90	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/row-progression-vrl-004.htm	37962c7e044b1a6942196368d4e8c9e3d9b72a64	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/row-progression-vrl-006.htm	7bfa2f995c84aec6ab7121cd6dae6155859af190	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/row-progression-vrl-008.htm	ede35d79789fd49484a0a94bb805484616b16b2a	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
-html/table-column-order-002.htm	881d99d2548aee002a0ae41a35093be8175e86d3	fail
-html/table-column-order-003.htm	5f2dcae397f613b835248d1ebd8b5a79b444245f	fail
-html/table-column-order-004.htm	0c1f53857d04b397b832e5a6cc8e45d9b9ddbf6f	fail
-html/table-column-order-005.htm	d24841a543db487bed6df77b72fd587e8068ce8d	fail
-html/table-column-order-slr-007.htm	ea478dbdbecdf23b8c3a372c7705bd750082bcce	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/table-column-order-srl-006.htm	2295255867388acfa69312ce25b5effa822169d4	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/row-progression-slr-023.htm	2811597537e45a6b831a0c5669ce3c283e99db21	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/row-progression-slr-029.htm	547c641be27bc5796fab32af8ee3ec25d2b6c496	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/row-progression-srl-022.htm	50da552ec2d110db34e40a89a87962608f86c7be	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/row-progression-srl-028.htm	36cdab67253dd0e5d7dc568498ae252a1562ede5	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/row-progression-vlr-003.htm	0f5ffd6248385c69a9aec4cdb1977f1873ff160b	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/row-progression-vlr-005.htm	7793a443d864bad6cb5beb5bcfceaf866dd77a94	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/row-progression-vlr-007.htm	69702c9f507e993049f6c760c9e426e19be60c36	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/row-progression-vlr-009.htm	b54d268a3f1ed3b568ae6d3ddce6d6c7f9ba3946	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/row-progression-vrl-002.htm	4f127e5e5c28ea0a15df96877dd4d52296894d6e	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/row-progression-vrl-004.htm	474a9bdb5937fc8ae2cd0103b6a5c4765c4b0da9	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/row-progression-vrl-006.htm	2c70207cdb708d82dc7d266793dc9820e42db5f8	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/row-progression-vrl-008.htm	fe1d1e43c5c6993b7801ba1054893f95c5cbc10b	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+html/table-column-order-002.htm	5ced50ddca1daa75238f0aba34c76653e23069db	fail
+html/table-column-order-003.htm	8f9a6c75a878653471eb74d4ca4b0c0b7c38fe07	fail
+html/table-column-order-004.htm	ed2abe9c0c30df0c9f3c4850f5c201fc95ea2cf8	fail
+html/table-column-order-005.htm	0f35324e6d373d208bf38dfa69015dd69fdaf2f5	fail
+html/table-column-order-slr-007.htm	09dc7407fd482303a1b236026b1b2d786e3c67dd	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/table-column-order-srl-006.htm	e9c7a80163a8fd2b22e34ca5b0b5e72db5fd3123	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
 html/table-progression-slr-001.htm	7092e08a590c1402c0b24202f7a952baf8631a7a	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/table-progression-slr-002.htm	01d26621899f1d68fdd335eed95b1b37d0f9d4f5	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/table-progression-srl-001.htm	cdf6e9ddd2342af266766e50753dfec1c3c79b0c	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/table-progression-srl-002.htm	0d7bc885e429aee7a343b24b4ad3c5d737a9c750	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/table-progression-vlr-001.htm	527880a478419dbe493ce46d912f813484988577	fail
-html/table-progression-vlr-002.htm	6e273fcd27c7ff4c6fe33f58c33cde17f1b5c6e3	pass
-html/table-progression-vlr-003.htm	9ea08695376a104a7b4b07337a56dc9e3fdad135	fail
-html/table-progression-vlr-004.htm	19dab84bce1207eb43667fb18e8b9e99439f74ec	fail
-html/table-progression-vrl-001.htm	5ff8605883f3f0afca9ba4d0b507bfcce575b5bc	fail
-html/table-progression-vrl-002.htm	4d4d39f086bb78a9647f33b209679874071b4cb9	pass
-html/table-progression-vrl-003.htm	3317bbba4ab470f50a39153f41d21cb50aaf9870	fail
-html/table-progression-vrl-004.htm	388393be8bfe7eb66b71a97c564ce1af048a22bb	fail
-html/text-align-vlr-003.htm	0bee51c71e26719152960da53a881fbe5aa11d7d	pass
-html/text-align-vlr-005.htm	5575d1e1f921175cbaaaed50c5f29339751478bb	pass
-html/text-align-vlr-007.htm	79e2c585512ba21d7f31e4c4d2efc30abb3279b3	pass
+html/table-progression-slr-002.htm	963f4b79b493c6112f132c74e45a8eea63a71cb8	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/table-progression-srl-001.htm	81be4989e40ec3ae86b6102b31a2b9d9c36fdf14	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/table-progression-srl-002.htm	5b7d0579f3fec248822d31a4d5d3f6fae9787ce3	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/table-progression-vlr-001.htm	080b35606e3d9197fad4900ef9db204935b61ed7	fail
+html/table-progression-vlr-002.htm	0d0b33595bbedcce4c7a2461c0a8197a26432a5a	pass
+html/table-progression-vlr-003.htm	c355871237d800fc278646cb02cd52c1ee2dad1c	fail
+html/table-progression-vlr-004.htm	d2b45d56c96a738ce7dc9f5451e5468f67e0826f	fail
+html/table-progression-vrl-001.htm	fc1814e366b2dbdfc31307664e4a0921dc5ebbbc	fail
+html/table-progression-vrl-002.htm	b75051b071ec6bfe556e2f3554c87cdf12f82c8d	pass
+html/table-progression-vrl-003.htm	db7b95b080a2a2f71861a16165cd16fa43b8f091	fail
+html/table-progression-vrl-004.htm	868fb8c7526b3c4729fcc79eae95e82eece9d60a	fail
+html/text-align-vlr-003.htm	63d2278fd7ab4b542a582612b3f50994a634c98e	pass
+html/text-align-vlr-005.htm	c4f382dad23e3aa6adc9c299cafbeb8a349412c7	pass
+html/text-align-vlr-007.htm	07f8a159c660de6a9c7f0940d14a1a979baeec4b	pass
 html/text-align-vlr-009.htm	68b083feab961c3eb77ff11dabf694c28189e2b4	pass
 html/text-align-vlr-011.htm	e584d91e54652e89e98169ba70b7c5eed6261578	pass
 html/text-align-vlr-013.htm	2804ddeff273c111d840be1dc659769a89f3a001	pass
@@ -814,11 +820,22 @@ html/text-baseline-vlr-007.htm	2f6bc41efeefa86a82ca1266227b44dfeea4df80	pass # M
 html/text-baseline-vrl-002.htm	b1dd1a8cbb988e6bff7a2ea70bec10b96a8d4196	pass
 html/text-baseline-vrl-004.htm	b5ab33e341b1b23db4f9ec15902b5ea8d05f4494	pass
 html/text-baseline-vrl-006.htm	b33d1c8910435da20bbabdf811f1e485964cd2c2	pass # Mac: These CSS Writing Modes Level 3 tests pass but causes 1px diff on images, notified to the submitter.
+# html/text-combine-upright-break-inside-001.htm	1151361067ba67577c075d6fb0a7933d8aaceca4	fail
+# html/text-combine-upright-break-inside-001a.htm	35def58a4601a34f1643aa5e63fb4141881262ee	fail
+# html/text-combine-upright-compression-001.htm	39d3d17a4acc2284a3f35248ae4408dca9d37d2e	pass
+# html/text-combine-upright-compression-002.htm	1f1dbe7ae39e188c14f42c4c1bda3cd183e52fa1	pass
+# html/text-combine-upright-compression-003.htm	b5e61abcd24abe56e613ae3139b86364c21492b5	pass
+# html/text-combine-upright-compression-004.htm	12b260bfb6ca84d592123985bbec6e52ee281dd8	pass
+# html/text-combine-upright-compression-005.htm	78632462f881689124c62530acf4f70fb53113f8	fail
+# html/text-combine-upright-compression-005a.htm	30f824d68df56e07bbc70ef90eb9e27cb40f8fc8	fail
+# html/text-combine-upright-compression-006.htm	44f2a85439397ce3795f36af92e38054ef91e1e8	fail
+# html/text-combine-upright-compression-006a.htm	f78f23cfb21fb36e7f4243c5df87de13648227ec	fail
+# html/text-combine-upright-compression-007.htm	2f00242639977141ccca0197b6dc3de7d3ad936e	pass
 html/text-combine-upright-decorations-001.htm	280af6570701711000e9512d0fa55c267724d9ae	pass
 html/text-combine-upright-inherit-all-001.htm	71bf076146439091e171f37da2984ca1dcdca01e	pass
 html/text-combine-upright-inherit-all-002.htm	5f16f6cf05f96410a9698653f5557ca74ae561af	pass
-html/text-combine-upright-layout-rules-001.htm	9980ef15a2d30b35d78b084c811dedf8eba8bced	pass
-html/text-combine-upright-line-breaking-rules-001.htm	ba05c4e7e3474cf05cce3e1fec33f1895a186b16	pass
+html/text-combine-upright-layout-rules-001.htm	33a1628d4c2b647287caee42d9bae29d191603b0	pass
+html/text-combine-upright-line-breaking-rules-001.htm	7dbf30beba0d012b104cb4d6aa9750d994a65c7b	pass
 html/text-combine-upright-parsing-digits-001.htm	6fcac30b043122647264a5af072515c8f5dd9268	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 html/text-combine-upright-parsing-digits-002.htm	c04b90914c86be633173bfcc63c14b2a44b058db	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 html/text-combine-upright-parsing-invalid-001.htm	2b2c132e18a567fb8056e362766d8a030557c4de	pass
@@ -873,14 +890,14 @@ html/text-orientation-mixed-srl-016.htm	6bd38acbe1543df4bd75c6e2e36bc3e630dec15c
 html/text-orientation-mixed-vlr-100.htm	d8e0dbfe83abf12e18867bcde32c2f0b10483437	pass
 # html/text-orientation-mixed-vrl-002.htm	fefbfcbe107295b537135380418c7b9474c570ee	pass
 html/text-orientation-mixed-vrl-100.htm	9b46a94f63b7fc1b138f99ee5a38b129cabd173d	pass
-html/text-orientation-parsing-001.htm	1de93e81798548a8c094751021c6bfd09d204700	pass
-html/text-orientation-parsing-sideways-right-001.htm	467f926e5646149f727d9115633a469321712cca	pass
-html/text-orientation-script-001.htm	5a4264d54b6138cb217baa753502a6d61297da82	fail
+html/text-orientation-parsing-001.htm	7e038fb44a83f5ec40d33b8b9d04df82b7243398	pass
+html/text-orientation-parsing-sideways-right-001.htm	bad6a93eb45e4f9e8739cc7b4aff97cbeee60aca	pass
+html/text-orientation-script-001.htm	5a4264d54b6138cb217baa753502a6d61297da82	pass
 html/text-orientation-script-001a.htm	8859171c4beec8970845227b3111074bb2d00774	pass
 html/text-orientation-script-001b.htm	001b73a37bca65aab827a6df09f0f56e56cad8d0	pass
 html/text-orientation-script-001c.htm	0b91027b17ee6cec62c80898f7cf5556d847c914	pass
 html/text-orientation-script-001d.htm	9e1583be06a31c1511ff31ba5b99a46c0b7e950a	pass
-html/text-orientation-script-001e.htm	7e926d2892cbd70c5d7227af61000868fd458e4a	fail
+html/text-orientation-script-001e.htm	7e926d2892cbd70c5d7227af61000868fd458e4a	pass
 html/text-orientation-script-001f.htm	b1a179cdd9a0e340b4790a5653ea0a65923b5006	pass
 html/text-orientation-script-001g.htm	d08dec0834d7111ab4eb77bda4a21d1de8279e4a	pass
 html/text-orientation-script-001h.htm	13b1718fd1b32fdb9223e3413499a2b3ebeca4bd	pass
@@ -895,6 +912,7 @@ html/text-orientation-script-001o.htm	1a717f6bfd17124696e2e012a26ae1ce94ecbf57	p
 # html/text-orientation-sideways-slr-019.htm	4e0a10ed2a2d0c9511f8f0291f0303275d1f5916	fail
 html/text-orientation-sideways-vlr-100.htm	0c7f2c12e53c223def2755346ddb0f9b22d1bed0	pass
 html/text-orientation-sideways-vrl-100.htm	db4692f4ceebfe164876940da9b3578bd2e1d2e5	pass
+# html/text-orientation-upright-directionality-001.htm	dbe676b37db543719955246072e7fd4704971223	fail
 # html/text-orientation-upright-slr-017.htm	cbf6301c1c97a93a318954e46c5ae8010231ac7c	fail
 html/text-orientation-upright-srl-018.htm	0b1b44dae6f78659495ca27f311a04db5c4eae75	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
 html/text-orientation-upright-vlr-100.htm	fff303984f323585cc1050244820a576bfc0b319	pass
@@ -924,8 +942,8 @@ html/text-orientation-upright-vrl-100.htm	a7a6ec62d89c6352ba8aff15b2f618b6cb1741
 # html/unicode-bidi-applies-to-013.htm	5e96cad2593bff9bf262c57806aa45b87820f36b	pass
 # html/unicode-bidi-applies-to-014.htm	1ea78d913a72bdf534c9701bc8a771df856e3d2f	pass
 # html/unicode-bidi-applies-to-015.htm	f319b3e86aea3385f390f78d56ba608a6ac94f27	pass
-html/unicode-bidi-parsing-001.htm	72b131c94f05aa0b1ff6a6072b6c6376a39e100a	pass
-html/unicode-bidi-parsing-002.htm	94149c4ee2d6fad7f1ba5b12d076637c39479996	pass
+html/unicode-bidi-parsing-001.htm	523b97045eb38d0a42ff164ea22fcc6c79b9c6a1	pass
+html/unicode-bidi-parsing-002.htm	cf1a8bd9a9c45b5bf4ea6fcf5ec8830dc94c66bd	pass
 html/vertical-alignment-002.htm	7976476f1e1577a4f43f628fedad2fcac850e226	pass
 html/vertical-alignment-003.htm	5346514767a52ffdf37c0e9c48f2f9e67baff22b	pass # These tests pass but images do not match because of wrong half-leading in vertical-lr
 html/vertical-alignment-004.htm	fa9ac55a890b17501abaacf22330269241b1b132	pass
@@ -968,13 +986,13 @@ html/vertical-alignment-vrl-024.htm	a8bae99e5f41d96c2941dd4add70b8086122a00b	pas
 html/vertical-alignment-vrl-026.htm	88419ef9fd16f1a81ffd2342a914e4bccc3a1ed5	pass
 html/writing-mode-horizontal-001l.htm	820b6baaa9ff63cf1a29b989c8d68ebdafe3c4da	pass
 html/writing-mode-horizontal-001r.htm	946a8be6f47e1cdc7ca7539e48e9964bd77c9ba9	pass
-html/writing-mode-parsing-001.htm	7793f793afe3bce066012f14cd282537b430487e	pass
-html/writing-mode-parsing-sideways-lr-001.htm	736e57b0c6f1a92b2a614374db49a3be98722285	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/writing-mode-parsing-sideways-rl-001.htm	182103682044156866012dcbd0c99a3ba7f9d476	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
-html/writing-mode-parsing-svg1-001.htm	ce2637b4c3b5c62aa8fbfc18d7e8ab9ce4107a12	pass
-html/writing-mode-vertical-lr-002.htm	1b80446ce4992cfb990f8fca7962cf124d62c222	pass
-html/writing-mode-vertical-rl-001.htm	7765f193170501c4e4397ac39b98c87fb37d1f36	pass # Mac: Flaky
-html/writing-mode-vertical-rl-002.htm	94131caeef80f45a718d5ad3e02351b8e9442b04	pass # Mac: Flaky
-html/writing-mode-vertical-rl-003.htm	64d250bb6fc2f656baa991d3b523de6d0a20970f	pass
-# Total = 977, Coverage = 977 (100%), Pass = 758 (77% of total, 77% of coverage), Fail = 219 (22% of total, 22% of coverage)
-# Imported = 820 (83%), Pass = 642 (65% of total, 78% of imported), Fail = 178 (18% of total, 21% of imported)
+html/writing-mode-parsing-001.htm	a121aa75b3f2259554f2205927af67a70728da1f	pass
+html/writing-mode-parsing-sideways-lr-001.htm	4505390726a826f004658f3c700d815560689c7d	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/writing-mode-parsing-sideways-rl-001.htm	40f4a035e9121d17c3a410c05eaeb980e69e6bcc	fail # CSS Writing Modes Level 3: Following tests require writing-mode: sideways-*, which we do not plan to support today.
+html/writing-mode-parsing-svg1-001.htm	99d13658575765b8a34af08fdd5239c165bf9081	pass
+html/writing-mode-vertical-lr-002.htm	f9aa1b3911c80ba488ab91184072443b6deafc0c	pass
+html/writing-mode-vertical-rl-001.htm	a7851a4659f72ae343532e17c6e2945ceedbf9a0	pass # Mac: Flaky
+html/writing-mode-vertical-rl-002.htm	c8e133c51ade145c4a85a209d4b60667aa2c70de	pass # Mac: Flaky
+html/writing-mode-vertical-rl-003.htm	645debba10a838cd0988741248a7b44e45f7111e	pass
+# Total = 995, Coverage = 995 (100%), Pass = 767 (77% of total, 77% of coverage), Fail = 228 (22% of total, 22% of coverage)
+# Imported = 826 (83%), Pass = 646 (64% of total, 78% of imported), Fail = 180 (18% of total, 21% of imported)
