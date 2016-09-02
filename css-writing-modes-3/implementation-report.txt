@@ -835,7 +835,7 @@ html/text-combine-upright-decorations-001.htm	280af6570701711000e9512d0fa55c2677
 html/text-combine-upright-inherit-all-001.htm	71bf076146439091e171f37da2984ca1dcdca01e	pass
 html/text-combine-upright-inherit-all-002.htm	5f16f6cf05f96410a9698653f5557ca74ae561af	pass
 html/text-combine-upright-layout-rules-001.htm	33a1628d4c2b647287caee42d9bae29d191603b0	pass
-html/text-combine-upright-line-breaking-rules-001.htm	7dbf30beba0d012b104cb4d6aa9750d994a65c7b	pass
+html/text-combine-upright-line-breaking-rules-001.htm	c9377dbc4bbf4457ee195b1aee29b54750e77f1e	pass
 html/text-combine-upright-parsing-digits-001.htm	6fcac30b043122647264a5af072515c8f5dd9268	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 html/text-combine-upright-parsing-digits-002.htm	c04b90914c86be633173bfcc63c14b2a44b058db	fail # CSS Writing Modes Level 3: Following tests require part of text-combine-upright we do not plan to support.
 html/text-combine-upright-parsing-invalid-001.htm	2b2c132e18a567fb8056e362766d8a030557c4de	pass

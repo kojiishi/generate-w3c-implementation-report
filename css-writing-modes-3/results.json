@@ -9483,6 +9483,10 @@
 "result": "no_support", 
 "source": "blink"
 }, 
+"Edge": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "Gecko": {
 "result": "fail", 
 "source": "gtalbot"
@@ -16390,18 +16394,6 @@
 "result": "pass", 
 "source": "blink"
 }, 
-"Edge": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
-"result": "fail", 
-"source": "kojiishi"
-}, 
 "id": "text-combine-upright-line-breaking-rules-001", 
 "required": true
 }, 
@@ -16649,10 +16641,6 @@
 "result": "pass", 
 "source": "lemoned"
 }, 
-"WebKit": {
-"result": "pass", 
-"source": "lemoned"
-}, 
 "id": "text-combine-upright-value-digits2-003", 
 "required": true
 }, 
@@ -16718,10 +16706,6 @@
 "source": "upsuper"
 }, 
 "Trident": {
-"result": "pass", 
-"source": "lemoned"
-}, 
-"WebKit": {
 "result": "pass", 
 "source": "lemoned"
 }, 
