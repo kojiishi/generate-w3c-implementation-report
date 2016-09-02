@@ -9491,6 +9491,10 @@
 "result": "fail", 
 "source": "gtalbot"
 }, 
+"Trident": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "id": "block-flow-direction-vlr-018", 
 "required": true
 }, 
@@ -16394,6 +16398,10 @@
 "result": "pass", 
 "source": "blink"
 }, 
+"Gecko": {
+"result": "pass", 
+"source": "kojiishi"
+}, 
 "id": "text-combine-upright-line-breaking-rules-001", 
 "required": true
 }, 
@@ -19195,6 +19203,10 @@
 "Blink": {
 "result": "pass", 
 "source": "blink"
+}, 
+"Gecko": {
+"result": "pass", 
+"source": "kojiishi"
 }, 
 "id": "writing-mode-parsing-svg1-001", 
 "required": false
