@@ -828,8 +828,8 @@ html/text-baseline-vrl-006.htm	b33d1c8910435da20bbabdf811f1e485964cd2c2	pass # M
 # html/text-combine-upright-compression-004.htm	12b260bfb6ca84d592123985bbec6e52ee281dd8	pass
 # html/text-combine-upright-compression-005.htm	78632462f881689124c62530acf4f70fb53113f8	fail
 # html/text-combine-upright-compression-005a.htm	30f824d68df56e07bbc70ef90eb9e27cb40f8fc8	fail
-# html/text-combine-upright-compression-006.htm	44f2a85439397ce3795f36af92e38054ef91e1e8	fail
-# html/text-combine-upright-compression-006a.htm	f78f23cfb21fb36e7f4243c5df87de13648227ec	fail
+# html/text-combine-upright-compression-006.htm	44f2a85439397ce3795f36af92e38054ef91e1e8	pass
+# html/text-combine-upright-compression-006a.htm	f78f23cfb21fb36e7f4243c5df87de13648227ec	pass
 # html/text-combine-upright-compression-007.htm	2f00242639977141ccca0197b6dc3de7d3ad936e	pass
 html/text-combine-upright-decorations-001.htm	280af6570701711000e9512d0fa55c267724d9ae	pass
 html/text-combine-upright-inherit-all-001.htm	71bf076146439091e171f37da2984ca1dcdca01e	pass
@@ -994,5 +994,5 @@ html/writing-mode-vertical-lr-002.htm	f9aa1b3911c80ba488ab91184072443b6deafc0c	p
 html/writing-mode-vertical-rl-001.htm	a7851a4659f72ae343532e17c6e2945ceedbf9a0	pass # Mac: Flaky
 html/writing-mode-vertical-rl-002.htm	c8e133c51ade145c4a85a209d4b60667aa2c70de	pass # Mac: Flaky
 html/writing-mode-vertical-rl-003.htm	645debba10a838cd0988741248a7b44e45f7111e	pass
-# Total = 995, Coverage = 995 (100%), Pass = 767 (77% of total, 77% of coverage), Fail = 228 (22% of total, 22% of coverage)
+# Total = 995, Coverage = 995 (100%), Pass = 769 (77% of total, 77% of coverage), Fail = 226 (22% of total, 22% of coverage)
 # Imported = 826 (83%), Pass = 646 (64% of total, 78% of imported), Fail = 180 (18% of total, 21% of imported)
