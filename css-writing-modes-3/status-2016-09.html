@@ -33,9 +33,8 @@ li p {
     Only 1 implementation for <a class=css>sideways-lr</a>
     and <a class=css>sideways-rl</a>.
   <li>
-    No unprefixed implementations form
+    No unprefixed implementations for
     <a class=css>text-combine-upright: digits</a>
-    (1 prefixed.)
   <li>
     No implementations for the <a href="https://drafts.csswg.org/css-writing-modes-3/#text-combine-runs">
       look-ahead/look-behind sequencing rules</a>
@@ -49,7 +48,7 @@ li p {
 <ol>
   <li>
     No implementations for
-    bidi control characters in UAX#9.
+    bidi control characters in <a data-name="UAX9">UAX#9</a>.
     <ul class="test">
       <li>bidi-003</li>
       <li>bidi-004</li>
@@ -65,8 +64,7 @@ li p {
       <li>extract-ordered-list-direction-and-writing-modes</li>
     </ul>
   <li>Only 1 implementation for
-    CSSOM View <a class=css href="https://drafts.csswg.org/cssom-view/#extensions-to-the-range-interface">Range.getBoundingClientRect()</a> method
-    and loading <a href="https://github.com/adobe-fonts/css-orientation-test">a special web font</a>.
+    CSSOM View <a class=css>Range.getBoundingClientRect()</a> method.
     <ul class="test">
       <li>text-orientation-script-001</li>
     </ul>
@@ -144,7 +142,7 @@ li p {
     Tests when the text inside <a class="css">text-combine-upright</a>
     has a new line character.
     A similar test that has a space character has 2 implementations.
-    <p>Only 1 implementation passes these tests.
+    <p>Only 1 implementation passes this test.
     <ul class="test">
       <li>text-combine-upright-break-inside-001a</li>
     </ul>
@@ -168,6 +166,7 @@ li p {
 <script>
 (function () {
   var urls = {
+    'Range.getBoundingClientRect()': 'https://drafts.csswg.org/cssom-view/#extensions-to-the-range-interface',
     'sideways-lr': 'https://drafts.csswg.org/css-writing-modes-3/#valdef-writing-mode-sideways-lr',
     'sideways-rl': 'https://drafts.csswg.org/css-writing-modes-3/#valdef-writing-mode-sideways-rl',
     'status report (Jan 2016)': 'http://kojiishi.github.io/generate-w3c-implementation-report/css-writing-modes-3/status-2016-01.html',
@@ -175,10 +174,10 @@ li p {
     'text-combine-upright: digits': 'https://drafts.csswg.org/css-writing-modes-3/#valdef-text-combine-upright-digits-integer',
     'text-orientation: upright': 'https://www.w3.org/TR/css-writing-modes-3/#valdef-text-orientation-upright',
     'text-transform: full-width': 'https://drafts.csswg.org/css-text-3/#valdef-text-transform-full-width',
+    'UAX9': 'http://unicode.org/reports/tr9/',
   };
   Array.prototype.forEach.call(document.querySelectorAll('a:not([href])'), function (e) {
     var name = e.dataset.name || e.textContent;
-    console.log(name);
     var url = urls[name];
     if (url)
       e.href = url;
