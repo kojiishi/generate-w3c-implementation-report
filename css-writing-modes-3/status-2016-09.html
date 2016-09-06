@@ -25,7 +25,7 @@ li p {
 <p>
   This document analyzes
   <a href="http://test.csswg.org/harness/results/css-writing-modes-3_dev/grouped/filter/1/">tests
-  that do not meet the exit criteria and are not required</a> as of 2016.
+  that do not meet the exit criteria and are not required</a> as of Sep 2016.
 
 <h2>At Risk Features</h2>
 <ol>
@@ -38,7 +38,7 @@ li p {
   <li>
     No implementations for the <a href="https://drafts.csswg.org/css-writing-modes-3/#text-combine-runs">
       look-ahead/look-behind sequencing rules</a>
-    for the <span class="css">text-combine-upright</span> property.
+    for the <a class="css">text-combine-upright</a> property.
   <li>
     No implementations for the <a href="https://drafts.csswg.org/css-writing-modes-3/#auto-multicol">
       automatic triggering of multi-column behavior</a> of orthogonal flows.
@@ -114,7 +114,7 @@ li p {
     </ul>
   <li>
     <b>5.1. Orienting Text: the text-orientation property</b>:
-    These tests are for <a>text-orientation: upright</a> defines:
+    These tests are for <a>text-orientation: upright</a> defining:
     <q>This value causes the used value of direction to be ltr,
     and for the purposes of bidi reordering,
     causes all characters to be treated as strong LTR.</q>
@@ -139,10 +139,10 @@ li p {
     </ul>
   <li>
     <b>9. Glyph Composition</b>:
-    Tests when the text inside <a class="css">text-combine-upright</a>
+    This test checks when the text inside <a class="css">text-combine-upright</a>
     has a new line character.
-    A similar test that has a space character has 2 implementations.
     <p>Only 1 implementation passes this test.
+    Note that a similar test that has a space character has 2 implementations.
     <ul class="test">
       <li>text-combine-upright-break-inside-001a</li>
     </ul>
