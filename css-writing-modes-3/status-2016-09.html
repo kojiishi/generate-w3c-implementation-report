@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>CSS Writing Modes Level 3 Test Status 2016-09</title>
+<style>
+.css {
+  font-family: monospace;
+  quotes: "'" "'";
+  text-decoration: none;
+}
+.css::before {
+  content: open-quote;
+}
+.css::after {
+  content: close-quote;
+}
+</style>
+<body>
+<h1>CSS Writing Modes Level 3 Test Status 2016-09</h1>
+<p>
+  This document analyzes
+  <a href="http://test.csswg.org/harness/results/css-writing-modes-3_dev/grouped/filter/1/">tests
+  that do not meet the exit criteria and are not required</a> as of 2016.
+
+
+<h2>At Risk Features</h2>
+<ol>
+  <li>
+    Only 1 implementation for <a href="https://drafts.csswg.org/css-writing-modes-3/#valdef-writing-mode-sideways-lr"
+      class=css>sideways-lr</a>
+    and <a href="https://drafts.csswg.org/css-writing-modes-3/#valdef-writing-mode-sideways-rl"
+      class=css>sideways-rl</a>.
+  <li>
+    No unprefixed implementations for
+    <a href="https://drafts.csswg.org/css-writing-modes-3/#valdef-text-combine-upright-digits-integer"
+      class=css>text-combine-upright: digits</a> (1 prefixed.)
+  <li>
+    No implementations for the <a href="https://drafts.csswg.org/css-writing-modes-3/#text-combine-runs">
+      look-ahead/look-behind sequencing rules</a>
+    for the <span class="css">text-combine-upright</span> property.
+  <li>
+    No implementations for the <a href="https://drafts.csswg.org/css-writing-modes-3/#auto-multicol">
+      automatic triggering of multi-column behavior</a> of orthogonal flows.
+</ol>
+
+<h2>Requires Other Specs</h2>
+<ol>
+  <li>
+    No implementations for
+    bidi control characters in UAX#9.
+    <ul>
+      <li>bidi-003</li>
+      <li>bidi-004</li>
+    </ul>
+  <li>
+    Only 1 implementation that require Flexbox row-reverse
+    <ul>
+      <li>css-flexbox-row-reverse</li>
+    </ul>
+  <li>No implementations that require CSS Regions:
+    <ul>
+      <li>autoheight-regions-in-autoheight-flexbox-002</li>
+      <li>extract-ordered-list-direction-and-writing-modes</li>
+    </ul>
+  <li>Only 1 implementation for
+    CSSOM View <a class=css href="https://drafts.csswg.org/cssom-view/#extensions-to-the-range-interface">Range.getBoundingClientRect()</a> method
+    <ul>
+      <li>text-orientation-script-001</li>
+    </ul>
+  <li>Only 1 implementation that reuqire <a href=""
+    class="css">text-transform: full-width</a>
+    <ul>
+      <li>text-combine-upright-compression-005a</li>
+    </ul>
+</ol>
+
+<h2>May/Should Features</h2>
+<ol>
+  <li>
+    Only 1 implementation for <a href="https://drafts.csswg.org/css-writing-modes-3/#block-flow">form controls</a>.
+  <li>
+    Only 1 partial implementation for
+    <a href="https://drafts.csswg.org/css-writing-modes-3/#text-combine-fullwidth">full-width
+      characters</a> to be converted to non-full-width characters
+    for the <span class="css">text-combine-upright</span> property.
+    <ul>
+      <li>full-width-00[1-3]</li>
+      <li>text-combine-upright-compression-006</li>
+    </ul>
+</ol>
+
+<h2>Other Tests That Do Not Meet Exit Criteria</h2>
+<ol>
+  <li>
+    <ul>
+      <li>table-progression-v(lr|rl)-00[34]</li>
+    </ul>
+  <li>
+    <ul>
+      <li>abs-pos-non-replaced-icb-vlr-033</li>
+      <li>abs-pos-non-replaced-icb-vrl-030</li>
+      <li>abs-pos-non-replaced-vlr-225</li>
+      <li>abs-pos-non-replaced-vlr-229</li>
+      <li>abs-pos-non-replaced-vrl-088</li>
+      <li>abs-pos-non-replaced-vrl-220</li>
+      <li>abs-pos-non-replaced-vrl-224</li>
+    </ul>
+  <li>
+    <ul>
+      <li>text-combine-upright-break-inside-001a</li>
+    </ul>
+  <li>
+    <ul>
+      <li>first-page-vrl-002</li>
+    </ul>
+  <li>
+    <ul>
+      <li>inline-block-alignment-003</li>
+      <li>inline-block-alignment-005</li>
+      <li>inline-block-alignment-007</li>
+      <li>inline-table-alignment-003</li>
+      <li>inline-table-alignment-005</li>
+    </ul>
+</ol>
+
+<h2 id="links">Links</h2>
+<ul>
+  <li><a href="http://test.csswg.org/harness/review/css-writing-modes-3_dev/">CSSWG Test Result View</a>
+    <ul>
+      <li><a href="http://test.csswg.org/harness/results/css-writing-modes-3_dev/grouped/">All</a>
+      <li><a href="http://test.csswg.org/harness/results/css-writing-modes-3_dev/grouped/filter/17/">Required and not meet exit criteria</a>
+    </ul>
+  <li><a href="http://kojiishi.github.io/generate-w3c-implementation-report/">Blink and WebKit separate view</a>
+    <ul>
+      <li><a href="http://kojiishi.github.io/generate-w3c-implementation-report/?q=less-than-2">Required and not meet exit criteria</a>
+      <li>This view uses the same data, but need to run a script manually to update.
+      <li>Coloring criteria is different.
+    </ul>
+</ul>
+</body>
