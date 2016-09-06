@@ -5614,7 +5614,7 @@
 "source": "gtalbot"
 }, 
 "Edge": {
-"result": "fail", 
+"result": "pass", 
 "source": "kojiishi"
 }, 
 "Gecko": {
@@ -6305,8 +6305,8 @@
 "source": "lemoned"
 }, 
 "Gecko": {
-"result": "uncertain", 
-"source": "upsuper"
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "Trident": {
 "result": "fail", 
@@ -12644,8 +12644,8 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "pass", 
-"source": "gtalbot"
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "full-width-001", 
 "required": true
@@ -12656,8 +12656,8 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "pass", 
-"source": "gtalbot"
+"result": "fail", 
+"source": "kojiishi"
 }, 
 "id": "full-width-002", 
 "required": true
