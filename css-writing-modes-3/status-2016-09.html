@@ -13,7 +13,7 @@
 .css::after {
   content: close-quote;
 }
-.test {
+.test li {
   font-family: monospace;
 }
 </style>
@@ -27,15 +27,12 @@
 <h2>At Risk Features</h2>
 <ol>
   <li>
-    Only 1 implementation for <a href="https://drafts.csswg.org/css-writing-modes-3/#valdef-writing-mode-sideways-lr"
-      class=css>sideways-lr</a>
-    and <a href="https://drafts.csswg.org/css-writing-modes-3/#valdef-writing-mode-sideways-rl"
-      class=css>sideways-rl</a>.
+    Only 1 implementation for <a class=css>sideways-lr</a>
+    and <a class=css>sideways-rl</a>.
   <li>
-    No unprefixed implementations for
-    <span class=css>text-combine-upright:
-      <a href="https://drafts.csswg.org/css-writing-modes-3/#valdef-text-combine-upright-digits-integer">digits</a></span>
-      (1 prefixed.)
+    No unprefixed implementations form
+    <a class=css>text-combine-upright: digits</a>
+    (1 prefixed.)
   <li>
     No implementations for the <a href="https://drafts.csswg.org/css-writing-modes-3/#text-combine-runs">
       look-ahead/look-behind sequencing rules</a>
@@ -70,26 +67,32 @@
     <ul class="test">
       <li>text-orientation-script-001</li>
     </ul>
-  <li>Only 1 implementation that require <a href=""
-    class="css">text-transform: full-width</a>
+  <li>Only 1 implementation that require <a class="css">text-transform: full-width</a>.
     <ul class="test">
       <li>text-combine-upright-compression-005a</li>
     </ul>
 </ol>
 
-<h2>May/Should Features</h2>
+<h2>May/Should Features (Not Required To Exit)</h2>
 <ol>
   <li>
     Only 1 implementation for <a href="https://drafts.csswg.org/css-writing-modes-3/#block-flow">form controls</a>.
+    <ul class="test">
+      <li>form-controls-vlr-004</li>
+      <li>form-controls-vlr-005</li>
+      <li>form-controls-vrl-004</li>
+      <li>form-controls-vrl-005</li>
+    </ul>
   <li>
     Only 1 partial implementation for
     <a href="https://drafts.csswg.org/css-writing-modes-3/#text-combine-fullwidth">full-width
-      characters</a> to be converted to non-full-width characters
-    for the <span class="css">text-combine-upright</span> property.
+      characters to be converted to non-full-width characters</a>
+    for the <a class="css">text-combine-upright</a> property.
     <ul class="test">
       <li>full-width-001</li>
       <li>full-width-002</li>
       <li>full-width-003</li>
+      <li>text-combine-upright-compression-005a</li>
       <li>text-combine-upright-compression-006</li>
     </ul>
 </ol>
@@ -97,6 +100,7 @@
 <h2>Required Tests That Do Not Meet Exit Criteria</h2>
 <ol>
   <li>
+    <b>2.1 Specifying Directionality: the 'direction' property</b>:
     <ul class="test">
       <li>table-progression-vlr-003</li>
       <li>table-progression-vlr-004</li>
@@ -104,6 +108,30 @@
       <li>table-progression-vrl-004</li>
     </ul>
   <li>
+    <b>3.1 Block Flow Direction: the writing-mode property</b>:
+    Tests <span class="css">@page :right</span> and
+    <span class="css">@page: left</span> in
+    <span class="css">vertical-rl</span> writing mode.
+    <ul class="test">
+      <li>first-page-vrl-002</li>
+    </ul>
+  <li>
+    <b>4.3. Atomic Inline Baseline</b>:
+    These tests check an inline-block with block descendants
+    aligns its synthesized baseline to the baseline of the linebox.
+    <ul class="test">
+      <li>inline-block-alignment-003</li>
+      <li>inline-block-alignment-005</li>
+      <li>inline-block-alignment-007</li>
+      <li>inline-table-alignment-003</li>
+      <li>inline-table-alignment-005</li>
+    </ul>
+  <li>
+    <b>7.1: Principles of Layout in Vertical Writing Modes</b>:
+    7 among the 256 tests for absolute-positioned objects fail.
+    These tests cover combinations of a) direction, b) text-align,
+    c) box offsets (top, left, right, bottom, auto),
+    d) orthogonal and non-orthogonal, and e) ICB.
     <ul class="test">
       <li>abs-pos-non-replaced-icb-vlr-033</li>
       <li>abs-pos-non-replaced-icb-vrl-030</li>
@@ -114,20 +142,12 @@
       <li>abs-pos-non-replaced-vrl-224</li>
     </ul>
   <li>
+    <b>9. Glyph Composition</b>:
+    Tests when the text inside <a class="css">text-combine-upright</a>
+    has a new line character.
+    A similar test that has a space character has 2 implementations.
     <ul class="test">
       <li>text-combine-upright-break-inside-001a</li>
-    </ul>
-  <li>
-    <ul class="test">
-      <li>first-page-vrl-002</li>
-    </ul>
-  <li>
-    <ul class="test">
-      <li>inline-block-alignment-003</li>
-      <li>inline-block-alignment-005</li>
-      <li>inline-block-alignment-007</li>
-      <li>inline-table-alignment-003</li>
-      <li>inline-table-alignment-005</li>
     </ul>
 </ol>
 
@@ -136,17 +156,34 @@
   <li><a href="http://test.csswg.org/harness/review/css-writing-modes-3_dev/">CSSWG Test Result View</a>
     <ul>
       <li><a href="http://test.csswg.org/harness/results/css-writing-modes-3_dev/grouped/">All</a>
+      <li><a href="http://test.csswg.org/harness/results/css-writing-modes-3_dev/grouped/filter/1/">Not meet exit criteria</a>
       <li><a href="http://test.csswg.org/harness/results/css-writing-modes-3_dev/grouped/filter/17/">Required and not meet exit criteria</a>
     </ul>
   <li><a href="http://kojiishi.github.io/generate-w3c-implementation-report/">Blink and WebKit separate view</a>
+    This view uses the same data, maybe old due to manual sync.
     <ul>
       <li><a href="http://kojiishi.github.io/generate-w3c-implementation-report/?q=less-than-2">Required and not meet exit criteria</a>
-      <li>This view uses the same data, but need to run a script manually to update.
-      <li>Coloring criteria is different.
     </ul>
+  <li><a data-name='status report (Jan 2016)'>Previous status report (Jan 2016)</a>
 </ul>
 <script>
 (function () {
+  var urls = {
+    'sideways-lr': 'https://drafts.csswg.org/css-writing-modes-3/#valdef-writing-mode-sideways-lr',
+    'sideways-rl': 'https://drafts.csswg.org/css-writing-modes-3/#valdef-writing-mode-sideways-rl',
+    'status report (Jan 2016)': 'http://kojiishi.github.io/generate-w3c-implementation-report/css-writing-modes-3/status-2016-01.html',
+    'text-combine-upright': 'https://drafts.csswg.org/css-writing-modes-3/#propdef-text-combine-upright',
+    'text-combine-upright: digits': 'https://drafts.csswg.org/css-writing-modes-3/#valdef-text-combine-upright-digits-integer',
+    'text-transform: full-width': 'https://drafts.csswg.org/css-text-3/#valdef-text-transform-full-width',
+  };
+  Array.prototype.forEach.call(document.querySelectorAll('a:not([href])'), function (e) {
+    var name = e.dataset.name || e.textContent;
+    console.log(name);
+    var url = urls[name];
+    if (url)
+      e.href = url;
+  });
+
   // Linkify tests to the test harness.
   Array.prototype.forEach.call(document.querySelectorAll('.test li'), function (e) {
     var name = e.textContent;
