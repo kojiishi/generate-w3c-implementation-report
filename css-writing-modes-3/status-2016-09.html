@@ -16,6 +16,9 @@
 .test li {
   font-family: monospace;
 }
+li p {
+  margin: 0;
+}
 </style>
 <body>
 <h1>CSS Writing Modes Level 3 Test Status 2016-09</h1>
@@ -100,14 +103,6 @@
 <h2>Required Tests That Do Not Meet Exit Criteria</h2>
 <ol>
   <li>
-    <b>2.1 Specifying Directionality: the 'direction' property</b>:
-    <ul class="test">
-      <li>table-progression-vlr-003</li>
-      <li>table-progression-vlr-004</li>
-      <li>table-progression-vrl-003</li>
-      <li>table-progression-vrl-004</li>
-    </ul>
-  <li>
     <b>3.1 Block Flow Direction: the writing-mode property</b>:
     Tests <span class="css">@page :right</span> and
     <span class="css">@page: left</span> in
@@ -119,6 +114,7 @@
     <b>4.3. Atomic Inline Baseline</b>:
     These tests check an inline-block with block descendants
     aligns its synthesized baseline to the baseline of the linebox.
+    <p>No implementations pass these tests.
     <ul class="test">
       <li>inline-block-alignment-003</li>
       <li>inline-block-alignment-005</li>
@@ -127,11 +123,25 @@
       <li>inline-table-alignment-005</li>
     </ul>
   <li>
+    <b>5.1. Orienting Text: the text-orientation property</b>:
+    These tests are for <a>text-orientation: upright</a> defines:
+    <q>This value causes the used value of direction to be ltr,
+    and for the purposes of bidi reordering,
+    causes all characters to be treated as strong LTR.</q>
+    <p>No implementations pass these tests.
+    <ul class="test">
+      <li>table-progression-vlr-003</li>
+      <li>table-progression-vlr-004</li>
+      <li>table-progression-vrl-003</li>
+      <li>table-progression-vrl-004</li>
+    </ul>
+  <li>
     <b>7.1: Principles of Layout in Vertical Writing Modes</b>:
     7 among the 256 tests for absolute-positioned objects fail.
     These tests cover combinations of a) direction, b) text-align,
     c) box offsets (top, left, right, bottom, auto),
     d) orthogonal and non-orthogonal, and e) ICB.
+    <p>Only 1 implementation passes these tests.
     <ul class="test">
       <li>abs-pos-non-replaced-icb-vlr-033</li>
       <li>abs-pos-non-replaced-icb-vrl-030</li>
@@ -146,6 +156,7 @@
     Tests when the text inside <a class="css">text-combine-upright</a>
     has a new line character.
     A similar test that has a space character has 2 implementations.
+    <p>Only 1 implementation passes these tests.
     <ul class="test">
       <li>text-combine-upright-break-inside-001a</li>
     </ul>
@@ -174,6 +185,7 @@
     'status report (Jan 2016)': 'http://kojiishi.github.io/generate-w3c-implementation-report/css-writing-modes-3/status-2016-01.html',
     'text-combine-upright': 'https://drafts.csswg.org/css-writing-modes-3/#propdef-text-combine-upright',
     'text-combine-upright: digits': 'https://drafts.csswg.org/css-writing-modes-3/#valdef-text-combine-upright-digits-integer',
+    'text-orientation: upright': 'https://www.w3.org/TR/css-writing-modes-3/#valdef-text-orientation-upright',
     'text-transform: full-width': 'https://drafts.csswg.org/css-text-3/#valdef-text-transform-full-width',
   };
   Array.prototype.forEach.call(document.querySelectorAll('a:not([href])'), function (e) {
