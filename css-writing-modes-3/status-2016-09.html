@@ -23,9 +23,12 @@ li p {
 <body>
 <h1>CSS Writing Modes Level 3 Test Status 2016-09</h1>
 <p>
-  This document analyzes
+  This document summarizes
   <a href="http://test.csswg.org/harness/results/css-writing-modes-3_dev/grouped/filter/1/">tests
   that do not meet the exit criteria and are not required</a> as of Sep 2016.
+
+<p>
+  There are 995 tests in the test suite, 118 of that have only 1 or less implementations.
 
 <h2>At Risk Features</h2>
 <ol>
@@ -114,7 +117,7 @@ li p {
     </ul>
   <li>
     <b>5.1. Orienting Text: the text-orientation property</b>:
-    These tests are for <a>text-orientation: upright</a> defining:
+    These tests are for <a class="css">text-orientation: upright</a> defining:
     <q>This value causes the used value of direction to be ltr,
     and for the purposes of bidi reordering,
     causes all characters to be treated as strong LTR.</q>
@@ -128,7 +131,7 @@ li p {
   <li>
     <b>7.1: Principles of Layout in Vertical Writing Modes</b>:
     3 among the 256 tests for absolute-positioned objects fail.
-    These tests cover combinations of a) direction, b) text-align,
+    These 256 tests cover combinations of a) direction, b) text-align,
     c) box offsets (top, left, right, bottom, auto),
     d) orthogonal and non-orthogonal, and e) ICB.
     <p>Only 1 implementation passes these tests.
