@@ -168,8 +168,8 @@
 "source": "kojiishi"
 }, 
 "Gecko": {
-"result": "fail", 
-"source": "gtalbot"
+"result": "pass", 
+"source": "upsuper"
 }, 
 "WebKit": {
 "result": "pass"
@@ -475,8 +475,8 @@
 "source": "kojiishi"
 }, 
 "Gecko": {
-"result": "fail", 
-"source": "gtalbot"
+"result": "pass", 
+"source": "upsuper"
 }, 
 "WebKit": {
 "result": "pass"
@@ -9389,7 +9389,8 @@
 "source": "blink"
 }, 
 "Gecko": {
-"result": "fail"
+"result": "pass", 
+"source": "gtalbot"
 }, 
 "id": "block-flow-direction-srl-065", 
 "required": true
@@ -11211,7 +11212,7 @@
 "source": "kojiishi"
 }, 
 "Presto": {
-"result": "fail"
+"result": "uncertain"
 }, 
 "Trident": {
 "result": "fail", 
@@ -12644,11 +12645,15 @@
 "source": "blink"
 }, 
 "Gecko": {
+"result": "pass", 
+"source": "upsuper"
+}, 
+"WebKit": {
 "result": "fail", 
 "source": "kojiishi"
 }, 
 "id": "full-width-001", 
-"required": true
+"required": false
 }, 
 {
 "Blink": {
@@ -12656,31 +12661,31 @@
 "source": "blink"
 }, 
 "Gecko": {
+"result": "pass", 
+"source": "upsuper"
+}, 
+"WebKit": {
 "result": "fail", 
 "source": "kojiishi"
 }, 
 "id": "full-width-002", 
-"required": true
+"required": false
 }, 
 {
 "Blink": {
 "result": "no_support", 
 "source": "blink"
 }, 
-"Edge": {
+"Gecko": {
 "result": "fail", 
 "source": "kojiishi"
 }, 
-"Gecko": {
-"result": "fail", 
-"source": "gtalbot"
-}, 
-"Trident": {
+"WebKit": {
 "result": "fail", 
 "source": "kojiishi"
 }, 
 "id": "full-width-003", 
-"required": true
+"required": false
 }, 
 {
 "Blink": {
@@ -15561,8 +15566,8 @@
 "source": "kojiishi"
 }, 
 "Gecko": {
-"result": "fail", 
-"source": "gtalbot"
+"result": "uncertain", 
+"source": "kojiishi"
 }, 
 "id": "table-progression-vlr-002", 
 "required": true
@@ -15625,8 +15630,8 @@
 "source": "kojiishi"
 }, 
 "Gecko": {
-"result": "fail", 
-"source": "gtalbot"
+"result": "uncertain", 
+"source": "kojiishi"
 }, 
 "id": "table-progression-vrl-002", 
 "required": true
